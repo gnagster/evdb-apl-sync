@@ -96,4 +96,48 @@ const pm = APLScraper.parsePricesByMotor(
 assert.deepStrictEqual(Object.keys(pm), ['3122', '4054'], 'byMotor: only PK blocks, reviews/behindert skipped');
 assert.strictEqual(pm['3122'].endpreis, '29.355,57', 'byMotor: first PK block per motor');
 
-console.log('PASS: scraper classification ok (abarth + kia + vw + multi-motor + byMotor)');
+// parseOffers: EVERY classified block per motor, tagged (v2 offers array).
+const offerAbarth = APLScraper.parseOffers(abarth)['1244'];
+assert.ok(offerAbarth, 'Abarth: motor 1244 has offers');
+const abTags = offerAbarth.map((o) => o.tag);
+assert.ok(abTags.includes('für Geschäftskunden'), 'Abarth: GK offer present');
+assert.ok(abTags.includes('für Privatkunden'), 'Abarth: PK offer present');
+assert.strictEqual(
+  offerAbarth.find((o) => o.tag === 'für Geschäftskunden').endpreis, '30.428,45', 'Abarth GK endpreis'
+);
+assert.strictEqual(
+  offerAbarth.find((o) => o.tag === 'für Privatkunden').endpreis, '30.808,35', 'Abarth PK endpreis'
+);
+assert.strictEqual(offerAbarth.length, 2, 'Abarth: behindert block has no offer tag');
+
+// Kia synthetic: GK + PK tagged, Tageszulassung/Beamte/Abrufschein/behindert skipped.
+const ko = APLScraper.parseOffers(kia)['3246'];
+const kTags = ko.map((o) => o.tag);
+assert.ok(kTags.includes('für Geschäftskunden'), 'Kia: GK offer present');
+assert.ok(kTags.includes('für Privatkunden'), 'Kia: PK offer present');
+assert.strictEqual(ko.find((o) => o.tag === 'für Geschäftskunden').endpreis, '28.106,95', 'Kia GK endpreis');
+assert.strictEqual(ko.find((o) => o.tag === 'für Privatkunden').endpreis, '31.705,95', 'Kia PK endpreis');
+assert.strictEqual(ko.length, 2, 'Kia: 6 blocks -> only 2 tagged offers');
+
+// VW synthetic: factory-pickup PK + GK, Tageszulassung skipped.
+const vo = APLScraper.parseOffers(vw)['1034'];
+const vTags = vo.map((o) => o.tag);
+assert.ok(vTags.includes('für Privatkunden'), 'VW: PK offer present');
+assert.ok(vTags.includes('für Geschäftskunden'), 'VW: GK offer present');
+assert.strictEqual(vo.find((o) => o.tag === 'für Privatkunden').endpreis, '35.205,30', 'VW PK endpreis (tarif 51)');
+assert.strictEqual(vo.find((o) => o.tag === 'für Geschäftskunden').endpreis, '35.205,30', 'VW GK endpreis (tarif 52)');
+
+// Freiberufler: "Preis nur für Freiberufler" beats the GK/PK/BAD heuristics.
+const fb = APLScraper.parseOffers(
+  '<div class="preis-item" data-motor="1">' +
+  '<div class="data-endpreis">30.000,00</div>' +
+  '<div class="data-TarifInfos"><p>Preis nur für Freiberufler</p></div>' +
+  '</div>'
+);
+assert.deepStrictEqual(
+  fb['1'].map((o) => [o.tag, o.endpreis]),
+  [['für Freiberufler', '30.000,00']],
+  'Freiberufler offer tagged and parsed'
+);
+
+console.log('PASS: scraper classification ok (abarth + kia + vw + multi-motor + byMotor + offers)');

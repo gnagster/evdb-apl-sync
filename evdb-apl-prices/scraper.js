@@ -76,6 +76,34 @@
       return out;
     },
 
+    // html -> { [motorId]: [{ tag, endpreis, kaufpreis, ersparnis, lieferzeit }, ...] }
+    // EVERY classified block per motor (not just PK) for the v2 offers array.
+    // Tag rule (Freiberufler first, then existing GK/PK semantics): anything
+    // else (behindert/Beamte/Tageszulassung/Abrufschein) is skipped.
+    parseOffers(html) {
+      const out = {};
+      for (let block of String(html).split(/<div class="preis-item"/).slice(1)) {
+        const text = block.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        let tag;
+        if (/Freiberufler/i.test(text)) tag = 'für Freiberufler';
+        else if (GK_RE.test(text)) tag = 'für Geschäftskunden';
+        else if (PK_RE.test(text) && !PK_BAD_RE.test(text)) tag = 'für Privatkunden';
+        else continue;
+        const motor = (block.match(/data-motor="(\d+)"/) || [])[1];
+        if (!motor) continue;
+        block = block.split(/<div class="motor-rabatt"/)[0];
+        const offer = {
+          tag,
+          endpreis: blockField(block, 'endpreis'),
+          kaufpreis: blockField(block, 'kaufpreis'),
+          ersparnis: blockField(block, 'ersparnis'),
+          lieferzeit: blockField(block, 'lieferzeit'),
+        };
+        if (offer.endpreis !== undefined) (out[motor] = out[motor] || []).push(offer);
+      }
+      return out;
+    },
+
     // POST the price list for one variant; returns the requested kind's price
     // object or null. Throws on non-OK HTTP (caller decides retry).
     async fetchPrices(varianteId, which) {
@@ -119,6 +147,33 @@
         throw err;
       }
       return APLScraper.parsePricesByMotor(await res.text());
+    },
+
+    // One POST returning BOTH views of the price list: PK prices per motor
+    // (battery matching) and every classified offer per motor (all tags) - so
+    // the pipeline does a single HTTP call per variant line.
+    async fetchOffers(varianteId) {
+      const res = await fetch('https://www.apl.de/sys/preisliste/getPreisliste.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'User-Agent': UA,
+          Accept: '*/*',
+        },
+        body:
+          'VarianteID=' + encodeURIComponent(varianteId) +
+          '&Bonus=&Site=Preisliste',
+      });
+      if (!res.ok) {
+        const err = new Error('HTTP ' + res.status);
+        err.status = res.status;
+        throw err;
+      }
+      const html = await res.text();
+      return {
+        byMotor: APLScraper.parsePricesByMotor(html),
+        offers: APLScraper.parseOffers(html),
+      };
     },
   };
 

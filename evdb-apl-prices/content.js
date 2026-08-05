@@ -1,7 +1,44 @@
 // EV-Database DE overview: replace DE starting prices with APL.de prices for
 // orderable ("Bestellbar") vehicles, then re-trigger jplist so sort/filter run
 // against the new hidden numeric values.
+//
+// v0.2 (Firefox fork): prices come pre-scraped from apl-prices.json (GitHub
+// Action) via background.js, keyed directly by "Make|Model". The popup is
+// gone; the mode switcher (EVDB / APL Privatkunden / APL Geschäftkunden) is
+// injected into the page header. Mode semantics per model:
+//   evdb            -> leave the original EV-Database price, no APL badge
+//   privatkunden    -> offer with tag === 'für Privatkunden', else flat endpreis
+//   geschaeftskunden-> offer with tag === 'für Geschäftskunden', else flat endpreis
+// If neither the tag nor the flat endpreis exists, the evdb price is left
+// untouched and no badge is shown. No per-model staleness checks: the JSON is
+// the cache, apply regardless.
 'use strict';
+
+// Chrome MV3 has only the callback-based `chrome.*` API, not the promise-based
+// `browser.*`. Gated shim covering exactly the methods used below; no-op in
+// Firefox (native browser.*) and in Node (no chrome -> module.exports intact).
+if (typeof globalThis !== 'undefined' && !globalThis.browser && typeof chrome !== 'undefined') {
+  const promisify = (fn, thisArg) => (...args) =>
+    new Promise((resolve, reject) => {
+      fn.call(thisArg, ...args, (result) => {
+        const err = chrome.runtime.lastError;
+        if (err) reject(new Error(err.message));
+        else resolve(result);
+      });
+    });
+  globalThis.browser = {
+    storage: {
+      local: {
+        get: promisify(chrome.storage.local.get, chrome.storage.local),
+        set: promisify(chrome.storage.local.set, chrome.storage.local),
+      },
+      onChanged: chrome.storage.onChanged,
+    },
+    runtime: {
+      sendMessage: promisify(chrome.runtime.sendMessage, chrome.runtime),
+    },
+  };
+}
 
 // ---------------------------------------------------------------------------
 // Pure helpers (shared with the Node smoke test via module.exports).
@@ -9,9 +46,11 @@
 
 const DAY = 24 * 60 * 60 * 1000;
 
-// Cache keys and mode labels are the same string ('geschaeftskunden' /
-// 'privatkunden'); there is no numeric tarif constant (APL's data-tarif
-// values vary per variant and are not a GK/PK discriminator).
+// Mode -> German offer tag (APL's own labels; there is no stable numeric tarif).
+const MODES = {
+  privatkunden: 'für Privatkunden',
+  geschaeftskunden: 'für Geschäftskunden',
+};
 
 // "30.428,45" | "50.990" | "€12.345,00" -> 30428 (integer euros, rounded).
 function parsePriceNum(raw) {
@@ -40,8 +79,40 @@ function parseRangeKm(text) {
   return m ? Number(m[1]) : null;
 }
 
+// Endpreis string for a mode, or null when nothing usable. Chosen tag first,
+// flat endpreis as fallback. Entry shape (v2): {endpreis, offers:[{tag,endpreis}]}.
+function selectEndpreis(entry, mode) {
+  if (!entry) return null;
+  const tag = MODES[mode];
+  if (tag) {
+    const off = (entry.offers || []).find((o) => o && o.tag === tag);
+    if (off && off.endpreis != null) return off.endpreis;
+  }
+  return entry.endpreis != null ? entry.endpreis : null;
+}
+
+// Tooltip lines: one per offer "<tag> — <formatted endpreis>". When a model
+// has no offers, its flat endpreis is labelled "für Privatkunden".
+function offerLines(entry) {
+  const lines = [];
+  const offers = (entry && entry.offers) || [];
+  if (offers.length) {
+    for (const o of offers) {
+      const p = formatPrice(o && o.endpreis);
+      if (p !== null) lines.push((o.tag || 'APL') + ' — ' + p);
+    }
+  } else if (entry && entry.endpreis != null) {
+    const p = formatPrice(entry.endpreis);
+    if (p !== null) lines.push('für Privatkunden — ' + p);
+  }
+  return lines;
+}
+
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { parsePriceNum, formatPrice, pricePerKm, parseRangeKm, DAY };
+  module.exports = {
+    parsePriceNum, formatPrice, pricePerKm, parseRangeKm, DAY,
+    selectEndpreis, offerLines, MODES,
+  };
 } else {
   // -------------------------------------------------------------------------
   // Content script (browser only).
@@ -61,16 +132,60 @@ if (typeof module !== 'undefined' && module.exports) {
       return make + '|' + model;
     }
 
-    // Apply one cached APL price to one list item. Returns true if changed.
-    function applyPrice(item, slug, cached) {
-      if (!cached || Date.now() - cached.fetchedAt >= DAY) return false; // stale/missing -> leave alone
-      const endpreis = cached.endpreis;
-      const priceNum = parsePriceNum(endpreis);
-      if (endpreis == null || priceNum === null) return false;
+    // Snapshot original values on first touch so switching back to EVDB (or
+    // away from an unusable entry) can restore the exact original DOM state.
+    function snapshotOriginal(de, item) {
+      if (de.dataset.aplOrig) return;
+      const pf = item.querySelector('.pricefilter.hidden');
+      const ps = item.querySelector('.pricesort.hidden');
+      const pp = item.querySelector('.priceperrange.hidden');
+      const ppv = item.querySelector('.priceperrange_p');
+      de.dataset.aplOrig = JSON.stringify({
+        price: de.textContent,
+        pf: pf ? pf.textContent : null,
+        ps: ps ? ps.textContent : null,
+        pp: pp ? pp.textContent : null,
+        ppv: ppv ? ppv.textContent : null,
+      });
+    }
 
+    // Apply one APL price to one list item. Returns true if the DOM changed
+    // (so the caller knows to re-run jplist). priceText === null restores the
+    // original evdb values and removes the badge.
+    function applyOrRestore(item, priceText, priceNum, entry) {
       const de = item.querySelector('.price_buy.current .country_de');
       if (!de) return false;
-      const priceText = formatPrice(endpreis);
+
+      if (priceText === null) {
+        let changed = false;
+        const snap = de.dataset.aplOrig;
+        if (snap) {
+          try {
+            const s = JSON.parse(snap);
+            de.textContent = s.price;
+            const pf = item.querySelector('.pricefilter.hidden');
+            const ps = item.querySelector('.pricesort.hidden');
+            const pp = item.querySelector('.priceperrange.hidden');
+            const ppv = item.querySelector('.priceperrange_p');
+            if (pf) pf.textContent = s.pf;
+            if (ps) ps.textContent = s.ps;
+            if (pp) pp.textContent = s.pp;
+            if (ppv) ppv.textContent = s.ppv;
+            changed = true;
+          } catch (e) {
+            // malformed snapshot: leave as-is
+          }
+          delete de.dataset.aplOrig;
+        }
+        const badge = item.querySelector('[data-apl-badge]');
+        if (badge) {
+          badge.remove();
+          changed = true;
+        }
+        return changed;
+      }
+
+      snapshotOriginal(de, item);
       const changed = de.textContent !== priceText;
       de.textContent = priceText;
       de.dataset.aplPrice = '1';
@@ -87,28 +202,179 @@ if (typeof module !== 'undefined' && module.exports) {
         return el ? parseRangeKm(el.textContent) : null;
       })();
       const perKm = pricePerKm(priceNum, rangeKm);
-      const ppHidden = item.querySelector('.priceperrange.hidden');
-      const ppVis = item.querySelector('.priceperrange_p');
+      const pp = item.querySelector('.priceperrange.hidden');
+      const ppv = item.querySelector('.priceperrange_p');
       if (perKm !== null) {
-        if (ppHidden) ppHidden.textContent = String(perKm);
-        if (ppVis) ppVis.textContent = '€' + perKm.toLocaleString('en-US') + ' /km';
+        if (pp) pp.textContent = String(perKm);
+        if (ppv) ppv.textContent = '€' + perKm.toLocaleString('en-US') + ' /km';
       }
 
-      // Minimal APL badge next to the price.
-      if (de.parentElement && !de.parentElement.querySelector('[data-apl-badge]')) {
-        const b = document.createElement('span');
-        b.dataset.aplBadge = '1';
-        b.textContent = 'APL';
-        b.style.cssText =
-          'display:inline-block;margin-left:5px;padding:0 4px;font-size:10px;' +
-          'line-height:14px;font-weight:700;color:#fff;background:#e8590c;' +
-          'border-radius:3px;vertical-align:top;';
-        de.parentElement.appendChild(b);
-      }
+      ensureBadge(de, entry);
       return changed;
     }
 
-    let kicked = false;
+    // -----------------------------------------------------------------------
+    // APL badge + hover/focus tooltip. Tooltip is appended to document.body
+    // with fixed positioning computed from the badge rect, so the page's
+    // overflow/transform CSS can't clip it. Inline styles everywhere on
+    // purpose: page stylesheets can't beat them.
+    // -----------------------------------------------------------------------
+
+    function ensureBadge(de, entry) {
+      const parent = de.parentElement;
+      if (!parent) return;
+      let badge = parent.querySelector('[data-apl-badge]');
+      if (!badge) {
+        badge = document.createElement('span');
+        badge.dataset.aplBadge = '1';
+        badge.textContent = 'APL';
+        badge.setAttribute('aria-label', 'APL Preise');
+        badge.tabIndex = 0; // keyboard focus opens the tooltip
+        badge.style.cssText =
+          'display:inline-block;margin-left:5px;padding:0 4px;font-size:10px;' +
+          'line-height:14px;font-weight:700;color:#fff;background:#e8590c;' +
+          'border-radius:3px;vertical-align:top;cursor:default;';
+        badge.addEventListener('mouseenter', () => showTooltip(badge));
+        badge.addEventListener('mouseleave', hideTooltip);
+        badge.addEventListener('focus', () => showTooltip(badge));
+        badge.addEventListener('blur', hideTooltip);
+        parent.appendChild(badge);
+      }
+      // Refresh lines every run so a newer aplData file updates open tooltips.
+      badge.dataset.aplLines = JSON.stringify(offerLines(entry));
+    }
+
+    let tooltip = null;
+
+    function ensureTooltip() {
+      if (tooltip) return tooltip;
+      tooltip = document.createElement('div');
+      tooltip.setAttribute('role', 'tooltip');
+      tooltip.style.cssText =
+        'position:fixed;z-index:2147483647;display:none;background:#1e2226;' +
+        'color:#e8e8e8;border:1px solid #3d434b;border-radius:4px;' +
+        'padding:6px 9px;font:11px/1.45 -apple-system,"Segoe UI",Arial,sans-serif;' +
+        'box-shadow:0 3px 10px rgba(0,0,0,.4);pointer-events:none;white-space:nowrap;';
+      document.body.appendChild(tooltip);
+      return tooltip;
+    }
+
+    function showTooltip(badge) {
+      let lines = [];
+      try {
+        lines = JSON.parse(badge.dataset.aplLines || '[]');
+      } catch (e) {
+        /* keep [] */
+      }
+      if (!lines.length) return;
+      const tt = ensureTooltip();
+      tt.replaceChildren();
+      const h = document.createElement('div');
+      h.textContent = 'APL Preise';
+      h.style.cssText = 'font-weight:700;margin-bottom:3px;color:#ff8a4d;';
+      tt.appendChild(h);
+      for (const line of lines) {
+        const d = document.createElement('div');
+        d.textContent = line;
+        tt.appendChild(d);
+      }
+      tt.style.display = 'block';
+      tt.style.visibility = 'hidden'; // measure without flashing
+      const r = badge.getBoundingClientRect();
+      const tr = tt.getBoundingClientRect();
+      let left = r.left + r.width / 2 - tr.width / 2;
+      let top = r.top - tr.height - 6; // above the badge
+      if (top < 8) top = r.bottom + 6; // flip below when no room above
+      left = Math.max(8, Math.min(left, window.innerWidth - tr.width - 8));
+      tt.style.left = left + 'px';
+      tt.style.top = top + 'px';
+      tt.style.visibility = 'visible';
+    }
+
+    function hideTooltip() {
+      if (tooltip) tooltip.style.display = 'none';
+    }
+
+    // The page scrolls under a fixed tooltip -> dismiss it.
+    document.addEventListener('scroll', hideTooltip, true);
+
+    // -----------------------------------------------------------------------
+    // Mode switcher, injected into .subheader-title right after the <h1>.
+    // -----------------------------------------------------------------------
+
+    const MODE_BTNS = [
+      ['evdb', 'EVDB'],
+      ['privatkunden', 'APL Privatkunden'],
+      ['geschaeftskunden', 'APL Geschäftkunden'],
+    ];
+    let currentMode = 'evdb';
+
+    function ensureSwitcher() {
+      const holder = document.querySelector('.subheader-title');
+      if (!holder || holder.querySelector('.apl-mode-switch')) return;
+      const seg = document.createElement('div');
+      seg.className = 'apl-mode-switch';
+      seg.style.cssText = 'display:inline-flex;margin-left:12px;vertical-align:middle;';
+      const base =
+        'font:600 10.5px/1.4 -apple-system,"Segoe UI",Arial,sans-serif;' +
+        'padding:3px 9px;background:transparent;border:1px solid #c8ccd0;' +
+        'color:#555;cursor:pointer;transition:background .15s,color .15s;';
+      MODE_BTNS.forEach(([mode, label], i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.dataset.mode = mode;
+        b.textContent = label;
+        let css = base;
+        if (i === 0) css += 'border-radius:3px 0 0 3px;';
+        else {
+          css += 'margin-left:-1px;';
+          if (i === MODE_BTNS.length - 1) css += 'border-radius:0 3px 3px 0;';
+        }
+        b.style.cssText = css;
+        b.addEventListener('mouseenter', () => {
+          if (b.dataset.mode !== currentMode) b.style.background = '#f1f3f5';
+        });
+        b.addEventListener('mouseleave', () => {
+          if (b.dataset.mode !== currentMode) b.style.background = 'transparent';
+        });
+        b.addEventListener('click', () => setMode(mode));
+        seg.appendChild(b);
+      });
+      const h1 = holder.querySelector('h1');
+      holder.insertBefore(seg, h1 ? h1.nextSibling : holder.firstChild);
+      setSwitcherActive(currentMode);
+    }
+
+    function setSwitcherActive(mode) {
+      currentMode =
+        mode === 'privatkunden' || mode === 'geschaeftskunden' ? mode : 'evdb';
+      const seg = document.querySelector('.apl-mode-switch');
+      if (!seg) return;
+      for (const b of seg.querySelectorAll('button')) {
+        const active = b.dataset.mode === currentMode;
+        b.style.background = active ? '#e8590c' : 'transparent';
+        b.style.color = active ? '#fff' : '#555';
+        b.style.borderColor = active ? '#e8590c' : '#c8ccd0';
+        b.setAttribute('aria-pressed', String(active));
+      }
+    }
+
+    async function setMode(mode) {
+      setSwitcherActive(mode); // instant feedback; run() re-syncs from storage
+      try {
+        const st = await get('aplSettings');
+        await browser.storage.local.set({ aplSettings: { ...(st.aplSettings || {}), mode } });
+      } catch (e) {
+        // storage write failed: run() will re-sync the UI from storage
+      }
+      browser.runtime.sendMessage({ type: 'setMode', mode }).catch(() => {});
+      run();
+    }
+
+    // -----------------------------------------------------------------------
+    // Apply loop + jplist refresh.
+    // -----------------------------------------------------------------------
+
     let timer = null;
 
     function triggerRefresh() {
@@ -121,26 +387,29 @@ if (typeof module !== 'undefined' && module.exports) {
 
     async function run() {
       try {
-        const st = await get(['aplSettings', 'aplMapping', 'aplOverrides', 'aplCache']);
+        ensureSwitcher();
+        hideTooltip();
+        const st = await get(['aplSettings', 'aplData']);
         const mode = (st.aplSettings || {}).mode;
-        if (mode !== 'geschaeftskunden' && mode !== 'privatkunden') return; // mode none / unknown
+        setSwitcherActive(mode);
+        const prices = (st.aplData || {}).prices || {};
+        const isApl = mode === 'privatkunden' || mode === 'geschaeftskunden';
 
-        const eff = { ...(st.aplMapping || {}) };
-        for (const [k, v] of Object.entries(st.aplOverrides || {})) {
-          if (v === null) delete eff[k];
-          else eff[k] = v;
-        }
-
-        const aplCache = st.aplCache || {};
         let modified = 0;
         for (const item of document.querySelectorAll('.list-item')) {
           try {
             if (!item.querySelector('.availability.current')) continue; // not orderable
             const key = itemKey(item);
             if (!key) continue;
-            const slug = eff[key];
-            if (!slug) continue;
-            if (applyPrice(item, slug, aplCache[slug + '|' + mode])) modified++;
+            const entry = prices[key];
+            let priceText = null;
+            let priceNum = null;
+            if (isApl && entry) {
+              const end = selectEndpreis(entry, mode);
+              priceNum = parsePriceNum(end);
+              if (end != null && priceNum !== null) priceText = formatPrice(end);
+            }
+            if (applyOrRestore(item, priceText, priceNum, entry)) modified++;
           } catch (e) {
             // one bad item must not break the loop
           }
@@ -148,13 +417,7 @@ if (typeof module !== 'undefined' && module.exports) {
 
         if (modified > 0) {
           triggerRefresh();
-          console.info('[apl-prices] updated ' + modified + ' prices');
-        }
-
-        // Kick the background once per page load so missing/stale cache gets refilled.
-        if (!kicked) {
-          kicked = true;
-          browser.runtime.sendMessage({ type: 'run', manual: false }).catch(() => {});
+          console.info('[apl-prices] updated ' + modified + ' items');
         }
       } catch (e) {
         console.warn('[apl-prices]', e);
@@ -181,10 +444,10 @@ if (typeof module !== 'undefined' && module.exports) {
       setTimeout(() => clearInterval(iv), 20000);
     }
 
-    // Re-apply when the background finishes scraping while this tab is open.
+    // Re-apply when background.js refreshes the JSON while this tab is open.
     browser.storage.onChanged.addListener((changes, area) => {
       if (area !== 'local') return;
-      if (['aplCache', 'aplSettings', 'aplMapping', 'aplOverrides'].some((k) => changes[k])) {
+      if (changes.aplData || changes.aplSettings) {
         clearTimeout(timer);
         timer = setTimeout(run, 800);
       }

@@ -1,0 +1,50 @@
+# APL Low-Confidence Review Agent
+
+Daily OpenChamber task against the repo. Gives low-confidence EVDB→APL mappings the final
+human look and persists decisions as manual overrides. Runs in the repo root
+`/home/luis/stacks/evdb` (origin `gnagster/evdb-apl-sync`).
+
+## Context
+
+- `evdb-apl-prices/apl-prices.json` is regenerated nightly by a GitHub Action (05:10 UTC).
+  Each `Make|Model` entry has `{slug, confidence 0..1, endpreis, …, offers:[{tag,endpreis,…}]}`.
+  Matches below 0.85 are listed in top-level `lowConfidence[]`; exactly 0.85 are borderline.
+- `evdb-apl-prices/tools/overrides.json` (agent-owned): `{"Make|Model": "apl-slug" | null}`.
+  The pipeline merges it: slug redirects which APL vehicle is scraped (confidence → 1.0),
+  null force-skips the entry (explicit unmatched). Never guess.
+- `evdb-apl-prices/tools/review-ledger.json` (agent-owned): `{"Make|Model": {date, confidence, decision, reasoning}}`
+  — prevents re-reviewing unchanged entries.
+- Reference data: `evdb-apl-prices/test/fixtures/evdb-bestellbar.json` (evdb side:
+  id, make, model, shape, range_km), `evdb-apl-prices/tools/apl-sitemap.json` (APL slugs).
+- Live lookups: APL modellvarianten/detail pages (detail blocks carry `data-sortkw`,
+  `data-sortmotor` like `81,4 kWh`, `data-sortgrundpreis`) and ev-database.org detail pages
+  `/car/{id}/{Name}` (no trailing slash; "Total Power" row has kW). Accept a mapping only if
+  battery kWh and motor kW are consistent (kWh within 15% or 5 kWh absolute; kW within 25%
+  or 30 kW absolute).
+
+## Workflow
+
+1. Read `apl-prices.json`. Review set = keys in `lowConfidence[]` plus keys with confidence
+   exactly 0.85. If the review set is empty, or every key is already in the ledger with the
+   same confidence → reply with exactly `No new low-confidence entries` and change nothing.
+2. For each new/changed key: identify the evdb model and the APL candidate, verify spec
+   consistency as above. Decide: correct → no override (ledger only); wrong but identifiable
+   → override with the right slug; unresolvable → override `null` with reasoning. Log every
+   decision in the ledger (date, confidence, decision, one-line reasoning). Preserve other
+   keys when merging; keep JSON pretty-printed and sorted.
+3. Validate: run `node evdb-apl-prices/test/matcher.test.js` (must stay green — it does not
+   read overrides) and JSON-parse both tools files. If `overrides.json` contains a slug the
+   pipeline can't find in `apl-sitemap.json`, drop it and note why.
+4. If anything changed: `git add evdb-apl-prices/tools/overrides.json
+   evdb-apl-prices/tools/review-ledger.json`, commit `APL review: <n> low-confidence mappings
+   finalized`, then `git pull --rebase && git push`. If nothing changed, no commit, no push.
+
+## Rules
+
+- `null` means deliberate skip, never lazy — always write the reasoning.
+- Never overwrite an existing override without updating its ledger entry.
+- Skip entries whose payload lacks an `offers` array (old JSON shape).
+- If an entry can't be resolved confidently, record it as `unresolved` and move on.
+- Keep the whole task under ~25 tool calls.
+- Only touch the two `tools/*.json` files. Never modify matcher.js, scraper.js, content.js,
+  background.js, manifest.json, or test fixtures.

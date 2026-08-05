@@ -8,7 +8,7 @@ const { APLMatcher } = globalThis;
 const evdb = require('./fixtures/evdb-bestellbar.json');
 const aplSlugs = require('./fixtures/apl-sitemap.json');
 
-const { mapping, unmatched } = APLMatcher.buildMapping(evdb, aplSlugs);
+const { mapping, unmatched, confidence, lowConfidence } = APLMatcher.buildMapping(evdb, aplSlugs);
 
 const matched = Object.keys(mapping).length;
 const total = evdb.length;
@@ -102,6 +102,12 @@ const expect = {
   'Alpine|A290 Electric 220 hp': 'a290',
   'Leapmotor|T03': 't03',
   'Suzuki|e VITARA 61 kWh 2WD': 'e-vitara',
+  // New matcher features:
+  'BYD|ATTO 3': 'atto-3-evo', // bare "3" must not collapse to family prefix "atto" -> atto-2
+  'BYD|DOLPHIN SURF 43.2 kWh Boost': 'dolphin-surf', // 'Boost' is a trim; SURF is a distinct model on APL
+  'Škoda|Enyaq Coupe 85x': 'enyaq-coupe', // 85x is an AWD badge; body shape tie-break picks the coupe
+  'Škoda|Epiq 55': 'epiq', // bare "55" is a battery badge -> base trim epiq
+  'Hyundai|IONIQ 5 N': 'ioniq-5', // trailing "N" trim; number kept in core
 };
 let fail = 0;
 for (const [k, want] of Object.entries(expect)) {
@@ -121,3 +127,42 @@ for (const u of reviewable.slice(0, 30)) console.log('   ?', u.make, '|', u.mode
 
 assert.ok(matched / total > 0.6, 'matcher should match >60%');
 assert.ok(fail === 0, 'all spot-checks must pass');
+
+// --- IONIQ 3 regression: APL has no ioniq-3, so the bare "3" must NOT map to
+// a sibling (ioniq-5/6/9). Correct outcome: unmatched.
+for (const m of ['IONIQ 3 61 kWh', 'IONIQ 3 42.2 kWh']) {
+  const key = `Hyundai|${m}`;
+  assert.ok(mapping[key] === undefined, `${key} must NOT be mapped to a ioniq sibling`);
+  assert.ok(unmatched.some((u) => u.key === key), `${key} should be unmatched`);
+}
+
+// --- Confidence: every mapped key has 0..1 confidence; lowConfidence keys
+// are a subset of mapping keys.
+assert.ok(
+  Object.keys(confidence).length === matched,
+  'confidence must cover every mapped key'
+);
+for (const c of Object.values(confidence)) {
+  assert.ok(typeof c === 'number' && c >= 0 && c <= 1, `bad confidence ${c}`);
+}
+for (const k of lowConfidence) {
+  assert.ok(k in mapping, `lowConfidence key ${k} must exist in mapping`);
+}
+
+// --- specKwhOf: decimal-safe kWh extraction from evdb model names.
+assert.strictEqual(APLMatcher.specKwhOf('Kia EV4 Hatchback 81.4 kWh'), 81.4);
+assert.strictEqual(APLMatcher.specKwhOf('Opel Grandland Electric 73.2 kWh'), 73.2);
+assert.strictEqual(APLMatcher.specKwhOf('Renault 5 E-Tech 52kWh 150hp'), 52);
+assert.strictEqual(APLMatcher.specKwhOf('Volkswagen ID. Buzz NWB Pro'), null);
+assert.strictEqual(APLMatcher.specKwhOf('Tesla Model 3'), null);
+
+// --- specMatch: (evdbKwh, evdbKw, aplKwh, aplKw) -> {kwhOk, kwOk, score}.
+const assertSpec = (evdbKwh, evdbKw, aplKwh, aplKw, want) => {
+  assert.deepStrictEqual(APLMatcher.specMatch(evdbKwh, evdbKw, aplKwh, aplKw), want);
+};
+assertSpec(81.4, 150, 81.4, 150, { kwhOk: true, kwOk: true, score: 1 }); // identical
+assertSpec(60, 100, 65, 110, { kwhOk: true, kwOk: true, score: 1 }); // ~10% drift
+assertSpec(60, 100, 70, 130, { kwhOk: true, kwOk: true, score: 1 }); // 14.3% / 30 kW (abs)
+assertSpec(60, 100, 100, 200, { kwhOk: false, kwOk: false, score: 0 }); // totally different
+assertSpec(60, null, 100, null, { kwhOk: false, kwOk: false, score: 0 }); // kWh only, no match
+assertSpec(null, 150, null, 160, { kwhOk: false, kwOk: true, score: 1 }); // kW only, abs 10 ok

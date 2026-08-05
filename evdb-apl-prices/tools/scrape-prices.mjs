@@ -2,7 +2,7 @@
 // Lives in gnagster/evdb-apl-sync (evdb-apl-prices/tools/).
 // Usage: node tools/scrape-prices.mjs [maxVehicles]   (maxVehicles = quick smoke test)
 'use strict';
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import APLMatcher from '../matcher.js';
 import APLScraper from '../scraper.js';
 
@@ -13,6 +13,10 @@ const DELAY = Number(process.env.APL_DELAY) || 300;
 const CONSEC_FAIL_ABORT = 25; // stop early if APL starts bot-blocking us
 const PREV_JSON_URL = 'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/evdb-apl-prices/apl-prices.json';
 const MAX_LINES = 6; // cap on variant lines probed per model (base + top trims)
+const TAG_ORDER = ['für Privatkunden', 'für Geschäftskunden', 'für Freiberufler'];
+// 0..1 matcher confidence per 'Make|Model', default 0.8 when the matcher lane
+// hasn't added confidence yet.
+const confOf = (key, built) => (built.confidence && built.confidence[key]) || 0.8;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -71,12 +75,43 @@ async function main() {
   ]);
 
   const paths = aplSlugs.map((u) => new URL(u).pathname);
-  const { mapping } = APLMatcher.buildMapping(vehicles, paths); // 'Make|Model' -> apl slug
+  const built = APLMatcher.buildMapping(vehicles, paths); // 'Make|Model' -> apl slug (+ confidence/lowConfidence)
+  const { mapping, unmatched, candidates } = built;
   const slugToUrl = {};
   for (const u of aplSlugs) {
     const p = u.split('/').filter(Boolean);
     if (p[p.length - 1] === 'modellvarianten') slugToUrl[p[p.length - 2]] = u;
   }
+
+  // Manual lane corrections (written by the low-confidence review agent, never
+  // by this pipeline): {"Make|Model": "apl-slug" | null}. Applied AFTER the
+  // matcher: a slug redirects the scrape target with confidence 1.0; null
+  // force-skips the key. Overrides only redirect WHICH slug is scraped - the
+  // prices come from the same fetchOffers flow as any other matched slug.
+  let overrides = {};
+  try {
+    overrides = JSON.parse(readFileSync('tools/overrides.json', 'utf8'));
+  } catch (e) {
+    if (e.code !== 'ENOENT') throw e; // missing file is fine
+  }
+  let overriddenCount = 0, overrideSkipped = 0;
+  for (const [key, slug] of Object.entries(overrides)) {
+    const i = unmatched.findIndex((u) => u.key === key);
+    if (i >= 0) unmatched.splice(i, 1);
+    delete candidates[key];
+    if (slug == null) {
+      delete mapping[key]; // never scrape this key
+      delete built.confidence[key];
+      unmatched.push({ make: key.split('|')[0] || '', model: key.split('|')[1] || '', key, override: null });
+      overriddenCount++;
+    } else {
+      if (!slugToUrl[slug]) { console.error('Override ' + key + ' -> unknown slug "' + slug + '" (ignored)'); overrideSkipped++; continue; }
+      mapping[key] = slug;
+      built.confidence[key] = 1.0;
+      overriddenCount++;
+    }
+  }
+  if (overriddenCount) console.log('Overrides applied: ' + overriddenCount + (overrideSkipped ? ' (' + overrideSkipped + ' skipped)' : ''));
 
   // group jobs per slug so battery-size ranks are computed across all variants
   const slugJobs = new Map();
@@ -102,33 +137,52 @@ async function main() {
   // One APL modellvarianten page + its price lists; assigns every evdb variant
   // of the slug. Battery-split models match evdb kWh rank (ascending) to the
   // APL motor price rank (ascending, cheapest per motor across variant lines).
+  // fetchOffers returns BOTH the PK per-motor map (battery matching) and every
+  // classified offer per motor, so a single POST per line covers both outputs.
   const scrapeSlug = async (job) => {
     const page = await fetchText(job.url, 'text/html');
     const lines = parseVariantLines(page);
     if (!lines.length) throw new Error('no variant id');
     const batteries = job.keys.map(batteryOf).filter((b) => b !== null).sort((a, b) => a - b);
 
-    if (batteries.length < 2) {
-      // single battery info (or none): base variant, base motor (previous behaviour)
-      const price = await APLScraper.fetchPrices(lines[0], 'privatkunden');
-      if (!price) throw new Error('no PK price');
-      for (const k of job.keys) prices[k] = { slug: job.slug, ...price };
-      scraped += job.keys.length;
-      return;
-    }
-
-    // battery path: PK price per motor, cheapest across the variant lines
-    const byMotor = new Map(); // motorId -> { price, num }
-    let gotSplit = false;
-    for (let li = 0; li < Math.min(lines.length, MAX_LINES); li++) {
-      const map = await APLScraper.fetchPKByMotor(lines[li]);
-      if (!map) continue;
-      for (const [motor, p] of Object.entries(map)) {
+    const byMotor = new Map(); // motorId -> { price, num } (PK only)
+    const offers = new Map(); // tag -> { offer, num }, cheapest endpreis wins
+    const offersOut = () => TAG_ORDER.map((t) => (offers.get(t) || {}).offer).filter(Boolean);
+    const mergeLine = (r) => {
+      for (const [motor, p] of Object.entries(r.byMotor)) {
         const v = parseNum(p.endpreis);
         if (v === null) continue;
         const cur = byMotor.get(motor);
         if (!cur || v < cur.num) byMotor.set(motor, { price: p, num: v });
       }
+      for (const list of Object.values(r.offers)) {
+        for (const o of list) {
+          const v = parseNum(o.endpreis);
+          if (v === null) continue;
+          const cur = offers.get(o.tag);
+          if (!cur || v < cur.num) offers.set(o.tag, { offer: o, num: v });
+        }
+      }
+    };
+
+    if (batteries.length < 2) {
+      // single battery info (or none): base variant, base motor (previous
+      // behaviour - first PK block == first byMotor entry), all offers merged.
+      const r = await APLScraper.fetchOffers(lines[0]);
+      const firstPk = r.byMotor[Object.keys(r.byMotor)[0]];
+      if (!firstPk) throw new Error('no PK price');
+      mergeLine(r);
+      for (const k of job.keys) prices[k] = { slug: job.slug, confidence: confOf(k, built), ...firstPk, offers: offersOut() };
+      scraped += job.keys.length;
+      return;
+    }
+
+    // battery path: PK price per motor + all-tag offers, cheapest across lines
+    let gotSplit = false;
+    for (let li = 0; li < Math.min(lines.length, MAX_LINES); li++) {
+      const r = await APLScraper.fetchOffers(lines[li]);
+      if (!r) continue;
+      mergeLine(r);
       if (byMotor.size >= 2) gotSplit = true;
       if (gotSplit && li >= 1) break; // base + a battery-split line suffice
     }
@@ -145,7 +199,7 @@ async function main() {
         const rank = batteries.indexOf(b); // ascending order
         if (rank >= 0) chosen = motors[Math.min(rank, motors.length - 1)].price;
       }
-      prices[k] = { slug: job.slug, ...chosen };
+      prices[k] = { slug: job.slug, confidence: confOf(k, built), ...chosen, offers: offersOut() };
     }
     scraped += job.keys.length;
   };
@@ -205,7 +259,14 @@ async function main() {
     if (scraped < floor) { console.error('Coverage drop (' + scraped + ' < ' + floor + ') - keeping existing file.'); process.exit(1); }
   } catch { /* first run / fetch hiccup -> write anyway */ }
 
-  const out = { generatedAt: new Date().toISOString(), source: 'privatkunden', count: scraped, prices };
+  // lowConfidence from the matcher, minus anything overridden (slug overrides
+  // get confidence 1.0; null overrides aren't in prices anyway) and minus keys
+  // that failed to scrape.
+  const overridden = new Set(Object.keys(overrides));
+  const lowConfidence = Array.isArray(built.lowConfidence)
+    ? built.lowConfidence.filter((k) => !overridden.has(k) && Object.prototype.hasOwnProperty.call(prices, k))
+    : [];
+  const out = { generatedAt: new Date().toISOString(), source: 'privatkunden', count: scraped, prices, lowConfidence };
   writeFileSync('apl-prices.json', JSON.stringify(out, null, 2));
   console.log('Wrote apl-prices.json with ' + scraped + ' prices (' + failCount() + ' failed).');
 }
