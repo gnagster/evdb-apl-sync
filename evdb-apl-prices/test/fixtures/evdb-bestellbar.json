@@ -3,3888 +3,4536 @@
   "id": 3403,
   "make": "Tesla",
   "model": "Model 3 RWD",
+  "shape": "sedan",
   "range_km": 450.0
  },
  {
   "id": 3677,
   "make": "XPENG",
   "model": "L03 RWD Long Range",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 1285,
   "make": "Fiat",
   "model": "500e Hatchback 42 kWh",
+  "shape": "hatchback",
   "range_km": 235.0
  },
  {
   "id": 3657,
   "make": "BMW",
   "model": "i3 50 xDrive",
+  "shape": "sedan",
   "range_km": 715.0
  },
  {
   "id": 3290,
   "make": "BMW",
   "model": "iX3 50 xDrive",
+  "shape": "suv",
   "range_km": 635.0
  },
  {
   "id": 3139,
   "make": "Mercedes-Benz",
   "model": "CLA 250+",
+  "shape": "sedan",
   "range_km": 585.0
  },
  {
   "id": 3362,
   "make": "Tesla",
   "model": "Model Y RWD",
+  "shape": "suv",
   "range_km": 380.0
  },
  {
   "id": 3333,
   "make": "Tesla",
   "model": "Model Y Premium AWD",
+  "shape": "suv",
   "range_km": 475.0
  },
  {
   "id": 2212,
   "make": "Kia",
   "model": "EV3 Long Range",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 3555,
   "make": "Hyundai",
   "model": "IONIQ 3 61 kWh",
+  "shape": "hatchback",
   "range_km": 375.0
  },
  {
   "id": 3404,
   "make": "Tesla",
   "model": "Model 3 Premium RWD",
+  "shape": "sedan",
   "range_km": 580.0
  },
  {
   "id": 3564,
   "make": "Leapmotor",
   "model": "B05 67.1 kWh",
+  "shape": "hatchback",
   "range_km": 380.0
  },
  {
   "id": 3443,
   "make": "Volvo",
   "model": "EX60 P12 AWD",
+  "shape": "suv",
   "range_km": 610.0
  },
  {
   "id": 3551,
   "make": "Mercedes-Benz",
   "model": "C 400 4MATIC",
+  "shape": "sedan",
   "range_km": 555.0
  },
  {
   "id": 3296,
   "make": "Mercedes-Benz",
   "model": "GLC 400 4MATIC",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3268,
   "make": "BYD",
   "model": "ATTO 2 64.8 kWh",
+  "shape": "suv",
   "range_km": 340.0
  },
  {
   "id": 3036,
   "make": "Dongfeng",
   "model": "Box 42.3 kWh",
+  "shape": "hatchback",
   "range_km": 255.0
  },
  {
   "id": 3686,
   "make": "Mercedes-Benz",
   "model": "GLA 250+",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 2135,
   "make": "Renault",
   "model": "5 E-Tech 52kWh 150hp",
+  "shape": "hatchback",
   "range_km": 335.0
  },
  {
   "id": 3072,
   "make": "BYD",
   "model": "SEALION 7 91.3 kWh AWD Excellence",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3394,
   "make": "Toyota",
   "model": "C-HR+ 77 kWh",
+  "shape": "suv",
   "range_km": 430.0
  },
  {
   "id": 3429,
   "make": "Zeekr",
   "model": "7GT Long Range RWD",
+  "shape": "station",
   "range_km": 555.0
  },
  {
   "id": 3522,
   "make": "Volkswagen",
   "model": "ID.3 Neo 79 kWh",
+  "shape": "hatchback",
   "range_km": 490.0
  },
  {
   "id": 2236,
   "make": "Hyundai",
   "model": "IONIQ 5 84 kWh RWD",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3233,
   "make": "Leapmotor",
   "model": "B10 67.1 kWh",
+  "shape": "suv",
   "range_km": 360.0
  },
  {
   "id": 3595,
   "make": "Tesla",
   "model": "Model Y Premium RWD",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3406,
   "make": "Mercedes-Benz",
   "model": "GLB 250+",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3275,
   "make": "XPENG",
   "model": "G6 RWD Long Range",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3392,
   "make": "Renault",
   "model": "Twingo E-Tech 27.5 kWh",
+  "shape": "hatchback",
   "range_km": 185.0
  },
  {
   "id": 3439,
   "make": "Hyundai",
   "model": "IONIQ 6 84 kWh RWD",
+  "shape": "sedan",
   "range_km": 545.0
  },
  {
   "id": 3124,
   "make": "Kia",
   "model": "EV4 Hatchback 81.4 kWh",
+  "shape": "hatchback",
   "range_km": 505.0
  },
  {
   "id": 3505,
   "make": "BMW",
   "model": "iX3 40",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3269,
   "make": "Tesla",
   "model": "Model Y Performance",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3029,
   "make": "Kia",
   "model": "EV6 Long Range AWD",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3039,
   "make": "Leapmotor",
   "model": "T03",
+  "shape": "hatchback",
   "range_km": 225.0
  },
  {
   "id": 3107,
   "make": "Mazda",
   "model": "6e 68.8 kWh",
+  "shape": "liftback",
   "range_km": 420.0
  },
  {
   "id": 3367,
   "make": "Changan",
   "model": "Deepal S05 RWD",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3336,
   "make": "Jaecoo",
   "model": "5 EV",
+  "shape": "suv",
   "range_km": 325.0
  },
  {
   "id": 1830,
   "make": "Hyundai",
   "model": "Kona Electric 65 kWh",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3289,
   "make": "Kia",
   "model": "PV5 Passenger 71.2 kWh",
+  "shape": "spv",
   "range_km": 340.0
  },
  {
   "id": 3405,
   "make": "Tesla",
   "model": "Model 3 Premium AWD",
+  "shape": "sedan",
   "range_km": 555.0
  },
  {
   "id": 3147,
   "make": "MG",
   "model": "MGS5 EV 64 kWh",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 3581,
   "make": "Volkswagen",
   "model": "ID. Polo 155 kW - 52 kWh",
+  "shape": "hatchback",
   "range_km": 335.0
  },
  {
   "id": 3195,
   "make": "BYD",
   "model": "DOLPHIN SURF 43.2 kWh Comfort",
+  "shape": "hatchback",
   "range_km": 265.0
  },
  {
   "id": 3273,
   "make": "Lucid",
   "model": "Air Grand Touring",
+  "shape": "sedan",
   "range_km": 720.0
  },
  {
   "id": 3369,
   "make": "Changan",
   "model": "Deepal S07 Standard",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 3622,
   "make": "Škoda",
   "model": "Epiq 55",
+  "shape": "suv",
   "range_km": 320.0
  },
  {
   "id": 3678,
   "make": "XPENG",
   "model": "L03 AWD Performance",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 2231,
   "make": "Hyundai",
   "model": "INSTER Long Range",
+  "shape": "suv",
   "range_km": 300.0
  },
  {
   "id": 3474,
   "make": "BYD",
   "model": "ATTO 3 Evo RWD Design",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3082,
   "make": "Zeekr",
   "model": "7X Long Range RWD",
+  "shape": "suv",
   "range_km": 505.0
  },
  {
   "id": 2039,
   "make": "Citroën",
   "model": "ë-C3 Standard Range 44 kWh",
+  "shape": "hatchback",
   "range_km": 255.0
  },
  {
   "id": 3659,
   "make": "Škoda",
   "model": "Peaq 90",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3471,
   "make": "MG",
   "model": "MG4 Urban Comfort Long Range",
+  "shape": "hatchback",
   "range_km": 320.0
  },
  {
   "id": 3396,
   "make": "Mercedes-Benz",
   "model": "CLA Shooting Brake 250+",
+  "shape": "station",
   "range_km": 565.0
  },
  {
   "id": 3685,
   "make": "Mercedes-Benz",
   "model": "GLA 200",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 3219,
   "make": "Renault",
   "model": "Scenic E-Tech EV87 220hp",
+  "shape": "suv",
   "range_km": 480.0
  },
  {
   "id": 3438,
   "make": "Hyundai",
   "model": "IONIQ 6 63 kWh RWD",
+  "shape": "sedan",
   "range_km": 420.0
  },
  {
   "id": 3559,
   "make": "GAC",
   "model": "AION V 75 kWh",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3442,
   "make": "Volvo",
   "model": "EX60 P10 AWD",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 2095,
   "make": "BYD",
   "model": "TANG Flagship",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3228,
   "make": "Citroën",
   "model": "ë-C3 Aircross Extended Range 54 kWh",
+  "shape": "suv",
   "range_km": 290.0
  },
  {
   "id": 3432,
   "make": "XPENG",
   "model": "P7+ RWD Long Range",
+  "shape": "liftback",
   "range_km": 445.0
  },
  {
   "id": 3687,
   "make": "Mercedes-Benz",
   "model": "GLA 350 4MATIC",
+  "shape": "suv",
   "range_km": 480.0
  },
  {
   "id": 3491,
   "make": "Kia",
   "model": "EV2 61 kWh",
+  "shape": "suv",
   "range_km": 340.0
  },
  {
   "id": 3643,
   "make": "Ferrari",
   "model": "Luce",
+  "shape": "sedan",
   "range_km": 580.0
  },
  {
   "id": 3229,
   "make": "Opel",
   "model": "Frontera Electric 54 kWh",
+  "shape": "suv",
   "range_km": 290.0
  },
  {
   "id": 3578,
   "make": "Mercedes-Benz",
   "model": "EQS 450+",
+  "shape": "sedan",
   "range_km": 720.0
  },
  {
   "id": 3140,
   "make": "Mercedes-Benz",
   "model": "CLA 350 4MATIC",
+  "shape": "sedan",
   "range_km": 575.0
  },
  {
   "id": 3401,
   "make": "Toyota",
   "model": "bZ4X Touring AWD 74.7 kWh",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3278,
   "make": "XPENG",
   "model": "G9 RWD Long Range",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 3509,
   "make": "CUPRA",
   "model": "Raval 155 kW - 52 kWh",
+  "shape": "hatchback",
   "range_km": 330.0
  },
  {
   "id": 3366,
   "make": "Nissan",
   "model": "LEAF Extended Range 75 kWh",
+  "shape": "liftback",
   "range_km": 460.0
  },
  {
   "id": 3205,
   "make": "BMW",
   "model": "i4 eDrive40",
+  "shape": "liftback",
   "range_km": 525.0
  },
  {
   "id": 3521,
   "make": "Volkswagen",
   "model": "ID.3 Neo 58 kWh",
+  "shape": "hatchback",
   "range_km": 365.0
  },
  {
   "id": 3300,
   "make": "Kia",
   "model": "EV5 81.4 kWh",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 3370,
   "make": "Mercedes-Benz",
   "model": "CLA 200",
+  "shape": "sedan",
   "range_km": 400.0
  },
  {
   "id": 3297,
   "make": "BYD",
   "model": "DOLPHIN 60.4 kWh",
+  "shape": "hatchback",
   "range_km": 350.0
  },
  {
   "id": 3666,
   "make": "Leapmotor",
   "model": "B03X 53.0 kWh",
+  "shape": "suv",
   "range_km": 295.0
  },
  {
   "id": 3305,
   "make": "TOGG",
   "model": "T10F Long Range RWD",
+  "shape": "liftback",
   "range_km": 490.0
  },
  {
   "id": 2192,
   "make": "Mercedes-Benz",
   "model": "G 580",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 2251,
   "make": "Fiat",
   "model": "Grande Panda",
+  "shape": "hatchback",
   "range_km": 260.0
  },
  {
   "id": 3596,
   "make": "Mazda",
   "model": "CX-6e 78 kWh",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3194,
   "make": "BYD",
   "model": "DOLPHIN SURF 43.2 kWh Boost",
+  "shape": "hatchback",
   "range_km": 270.0
  },
  {
   "id": 3127,
   "make": "Renault",
   "model": "4 E-Tech 52kWh 150hp",
+  "shape": "suv",
   "range_km": 315.0
  },
  {
   "id": 2211,
   "make": "Kia",
   "model": "EV3 Standard Range",
+  "shape": "suv",
   "range_km": 325.0
  },
  {
   "id": 3676,
   "make": "XPENG",
   "model": "L03 RWD Standard Range",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 1718,
   "make": "Hyundai",
   "model": "IONIQ 6 Long Range 2WD",
+  "shape": "sedan",
   "range_km": 495.0
  },
  {
   "id": 3458,
   "make": "BMW",
   "model": "iX1 eDrive20",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3308,
   "make": "Geely",
   "model": "EX5 Pro",
+  "shape": "suv",
   "range_km": 330.0
  },
  {
   "id": 3398,
   "make": "Porsche",
   "model": "Cayenne Electric",
+  "shape": "suv",
   "range_km": 520.0
  },
  {
   "id": 3570,
   "make": "Škoda",
   "model": "Enyaq 85",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3108,
   "make": "Mazda",
   "model": "6e Long Range 80 kWh",
+  "shape": "liftback",
   "range_km": 480.0
  },
  {
   "id": 3388,
   "make": "Leapmotor",
   "model": "C10 AWD 81.9 kWh",
+  "shape": "suv",
   "range_km": 380.0
  },
  {
   "id": 3565,
   "make": "Škoda",
   "model": "Elroq 60",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 3046,
   "make": "Omoda",
   "model": "E5",
+  "shape": "suv",
   "range_km": 330.0
  },
  {
   "id": 2067,
   "make": "BYD",
   "model": "SEAL U 87 kWh Design",
+  "shape": "suv",
   "range_km": 425.0
  },
  {
   "id": 3132,
   "make": "Renault",
   "model": "Megane E-Tech EV60 220hp",
+  "shape": "hatchback",
   "range_km": 380.0
  },
  {
   "id": 3496,
   "make": "Volkswagen",
   "model": "ID.4 Pro",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3070,
   "make": "BYD",
   "model": "SEALION 7 82.5 kWh RWD Comfort",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3399,
   "make": "Porsche",
   "model": "Cayenne Turbo Electric",
+  "shape": "suv",
   "range_km": 495.0
  },
  {
   "id": 3566,
   "make": "Škoda",
   "model": "Elroq 85",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3519,
   "make": "Mercedes-Benz",
   "model": "VLE 300",
+  "shape": "spv",
   "range_km": 520.0
  },
  {
   "id": 3279,
   "make": "XPENG",
   "model": "G9 AWD Performance",
+  "shape": "suv",
   "range_km": 475.0
  },
  {
   "id": 3428,
   "make": "Zeekr",
   "model": "7GT Core RWD",
+  "shape": "station",
   "range_km": 435.0
  },
  {
   "id": 3192,
   "make": "BYD",
   "model": "ATTO 3",
+  "shape": "suv",
   "range_km": 340.0
  },
  {
   "id": 2272,
   "make": "Audi",
   "model": "A6 Avant e-tron performance",
+  "shape": "station",
   "range_km": 575.0
  },
  {
   "id": 3212,
   "make": "Suzuki",
   "model": "e VITARA 61 kWh 2WD",
+  "shape": "suv",
   "range_km": 330.0
  },
  {
   "id": 1747,
   "make": "Hongqi",
   "model": "E-HS9 99 kWh",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 1985,
   "make": "Mercedes-Benz",
   "model": "EQA 250+",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3332,
   "make": "Tesla",
   "model": "Model 3 Performance",
+  "shape": "sedan",
   "range_km": 515.0
  },
  {
   "id": 3472,
   "make": "MG",
   "model": "MG4 Urban Premium Long Range",
+  "shape": "hatchback",
   "range_km": 320.0
  },
  {
   "id": 3475,
   "make": "BYD",
   "model": "ATTO 3 Evo AWD Excellence",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 1947,
   "make": "Peugeot",
   "model": "e-2008 54 kWh",
+  "shape": "suv",
   "range_km": 300.0
  },
  {
   "id": 3135,
   "make": "Toyota",
   "model": "bZ4X AWD 73.1 kWh",
+  "shape": "suv",
   "range_km": 375.0
  },
  {
   "id": 3276,
   "make": "XPENG",
   "model": "G6 AWD Performance",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3408,
   "make": "Dacia",
   "model": "Spring Electric 70",
+  "shape": "hatchback",
   "range_km": 165.0
  },
  {
   "id": 3490,
   "make": "Kia",
   "model": "EV2 42.2 kWh",
+  "shape": "suv",
   "range_km": 240.0
  },
  {
   "id": 3302,
   "make": "TOGG",
   "model": "T10X Long Range RWD",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 1835,
   "make": "Kia",
   "model": "EV9 99.8 kWh AWD",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 3515,
   "make": "BYD",
   "model": "SEAL 82.5 kWh RWD Design",
+  "shape": "sedan",
   "range_km": 480.0
  },
  {
   "id": 3604,
   "make": "Volkswagen",
   "model": "ID.7 Tourer 86 kWh",
+  "shape": "station",
   "range_km": 520.0
  },
  {
   "id": 3480,
   "make": "Volvo",
   "model": "EX30 P5 Long Range",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 3430,
   "make": "Zeekr",
   "model": "7GT Privilege AWD",
+  "shape": "station",
   "range_km": 530.0
  },
  {
   "id": 2189,
   "make": "KGM",
   "model": "Torres EVX",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 2235,
   "make": "Hyundai",
   "model": "IONIQ 5 63 kWh RWD",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 3597,
   "make": "Ford",
   "model": "Puma Gen-E",
+  "shape": "suv",
   "range_km": 300.0
  },
  {
   "id": 3045,
   "make": "Lynk&Co",
   "model": "02",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 2237,
   "make": "Hyundai",
   "model": "IONIQ 5 84 kWh AWD",
+  "shape": "suv",
   "range_km": 445.0
  },
  {
   "id": 1816,
   "make": "Jeep",
   "model": "Avenger Electric",
+  "shape": "suv",
   "range_km": 310.0
  },
  {
   "id": 3506,
   "make": "Subaru",
   "model": "E-Outback AWD",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 3554,
   "make": "Hyundai",
   "model": "IONIQ 3 42.2 kWh",
+  "shape": "hatchback",
   "range_km": 265.0
  },
  {
   "id": 3563,
   "make": "Leapmotor",
   "model": "B05 56.2 kWh",
+  "shape": "hatchback",
   "range_km": 320.0
  },
  {
   "id": 3178,
   "make": "firefly",
   "model": "firefly",
+  "shape": "hatchback",
   "range_km": 240.0
  },
  {
   "id": 1998,
   "make": "Mini",
   "model": "Cooper SE",
+  "shape": "hatchback",
   "range_km": 330.0
  },
  {
   "id": 3040,
   "make": "Leapmotor",
   "model": "C10 RWD 69.9 kWh",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 3612,
   "make": "XPENG",
   "model": "X9 FWD Long Range",
+  "shape": "mpv",
   "range_km": 550.0
  },
  {
   "id": 3245,
   "make": "MG",
   "model": "IM5 Long Range",
+  "shape": "liftback",
   "range_km": 530.0
  },
  {
   "id": 3402,
   "make": "XPENG",
   "model": "G6 RWD Standard Range",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3673,
   "make": "Volkswagen",
   "model": "ID. Cross 155 kW - 52 kWh",
+  "shape": "suv",
   "range_km": 315.0
  },
  {
   "id": 2149,
   "make": "Peugeot",
   "model": "e-5008 73 kWh",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 2270,
   "make": "Audi",
   "model": "A6 Sportback e-tron performance",
+  "shape": "liftback",
   "range_km": 600.0
  },
  {
   "id": 3231,
   "make": "Citroën",
   "model": "C5 Aircross Long Range",
+  "shape": "suv",
   "range_km": 485.0
  },
  {
   "id": 3110,
   "make": "BMW",
   "model": "iX xDrive60",
+  "shape": "suv",
   "range_km": 525.0
  },
  {
   "id": 2005,
   "make": "Peugeot",
   "model": "e-3008 97 kWh Long Range",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3512,
   "make": "CUPRA",
   "model": "Born 170 kW - 79 kWh",
+  "shape": "hatchback",
   "range_km": 485.0
  },
  {
   "id": 2003,
   "make": "Peugeot",
   "model": "e-3008 73 kWh",
+  "shape": "suv",
   "range_km": 380.0
  },
  {
   "id": 2094,
   "make": "BYD",
   "model": "SEAL U 71.8 kWh Comfort",
+  "shape": "suv",
   "range_km": 360.0
  },
  {
   "id": 3674,
   "make": "Volkswagen",
   "model": "ID. Polo 85 kW - 37 kWh",
+  "shape": "hatchback",
   "range_km": 245.0
  },
  {
   "id": 2203,
   "make": "MG",
   "model": "Cyberster GT",
+  "shape": "cabrio",
   "range_km": 395.0
  },
  {
   "id": 3683,
   "make": "Genesis",
   "model": "GV60 Magma",
+  "shape": "suv",
   "range_km": 380.0
  },
  {
   "id": 3492,
   "make": "Lexus",
   "model": "ES 350e",
+  "shape": "sedan",
   "range_km": 390.0
  },
  {
   "id": 1945,
   "make": "Fiat",
   "model": "600e",
+  "shape": "suv",
   "range_km": 310.0
  },
  {
   "id": 1984,
   "make": "Mercedes-Benz",
   "model": "EQA 250",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3466,
   "make": "Mazda",
   "model": "6e 78 kWh",
+  "shape": "liftback",
   "range_km": 470.0
  },
  {
   "id": 3653,
   "make": "Mercedes-Benz",
   "model": "GLC 250",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 2232,
   "make": "Volkswagen",
   "model": "ID. Buzz NWB Pro",
+  "shape": "spv",
   "range_km": 370.0
  },
  {
   "id": 3441,
   "make": "Volvo",
   "model": "EX60 P6",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 3669,
   "make": "Kia",
   "model": "EV4 Hatchback 81.4 kWh",
+  "shape": "hatchback",
   "range_km": 505.0
  },
  {
   "id": 3159,
   "make": "Volvo",
   "model": "EX40 Single Motor ER",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3467,
   "make": "MG",
   "model": "MG4 Premium Long Range",
+  "shape": "hatchback",
   "range_km": 360.0
  },
  {
   "id": 3298,
   "make": "Polestar",
   "model": "5 Dual Motor",
+  "shape": "sedan",
   "range_km": 580.0
  },
  {
   "id": 3400,
   "make": "Toyota",
   "model": "bZ4X Touring FWD 74.7 kWh",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3151,
   "make": "Polestar",
   "model": "2 Long Range Single Motor",
+  "shape": "liftback",
   "range_km": 475.0
  },
  {
   "id": 3122,
   "make": "Kia",
   "model": "EV4 Fastback 81.4 kWh",
+  "shape": "sedan",
   "range_km": 510.0
  },
  {
   "id": 1940,
   "make": "Honda",
   "model": "e:Ny1",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 3083,
   "make": "Zeekr",
   "model": "7X Privilege AWD",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 3028,
   "make": "Kia",
   "model": "EV6 Long Range 2WD",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 3407,
   "make": "Mercedes-Benz",
   "model": "GLB 350 4MATIC",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 2267,
   "make": "Toyota",
   "model": "Proace Verso L 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 3456,
   "make": "Mini",
   "model": "Countryman E",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 2049,
   "make": "Voyah",
   "model": "Free 106 kWh",
+  "shape": "suv",
   "range_km": 480.0
  },
  {
   "id": 3389,
   "make": "KGM",
   "model": "Torres EVX 80.6 kWh",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 3660,
   "make": "Škoda",
   "model": "Peaq 90x",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 3179,
   "make": "Smart",
   "model": "#5 Brabus",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3638,
   "make": "Kia",
   "model": "EV3 Long Range",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 3600,
   "make": "Volkswagen",
   "model": "ID.7 86 kWh",
+  "shape": "liftback",
   "range_km": 525.0
  },
  {
   "id": 1719,
   "make": "Hyundai",
   "model": "IONIQ 6 Long Range AWD",
+  "shape": "sedan",
   "range_km": 440.0
  },
  {
   "id": 3516,
   "make": "BYD",
   "model": "SEAL 82.5 kWh AWD Excellence",
+  "shape": "sedan",
   "range_km": 445.0
  },
  {
   "id": 3656,
   "make": "Honda",
   "model": "Super-N",
+  "shape": "hatchback",
   "range_km": 185.0
  },
  {
   "id": 3613,
   "make": "XPENG",
   "model": "X9 AWD Performance",
+  "shape": "mpv",
   "range_km": 540.0
  },
  {
   "id": 3109,
   "make": "BMW",
   "model": "iX xDrive45",
+  "shape": "suv",
   "range_km": 470.0
  },
  {
   "id": 3247,
   "make": "MG",
   "model": "IM6 Long Range",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3520,
   "make": "Volkswagen",
   "model": "ID.3 Neo 50 kWh",
+  "shape": "hatchback",
   "range_km": 315.0
  },
  {
   "id": 3274,
   "make": "Lucid",
   "model": "Air Sapphire",
+  "shape": "sedan",
   "range_km": 610.0
  },
  {
   "id": 3071,
   "make": "BYD",
   "model": "SEALION 7 82.5 kWh AWD Design",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3418,
   "make": "MG",
   "model": "MGS6 EV RWD 77 kWh",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3207,
   "make": "BMW",
   "model": "i4 M60 xDrive",
+  "shape": "liftback",
   "range_km": 465.0
  },
  {
   "id": 3627,
   "make": "Mercedes-Benz",
   "model": "AMG GT 4-Door Coupé 55 4MATIC+",
+  "shape": "liftback",
   "range_km": 600.0
  },
  {
   "id": 3654,
   "make": "Mercedes-Benz",
   "model": "GLC 300 4MATIC",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 2098,
   "make": "Porsche",
   "model": "Taycan",
+  "shape": "sedan",
   "range_km": 495.0
  },
  {
   "id": 2044,
   "make": "Hyundai",
   "model": "IONIQ 5 N",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3292,
   "make": "Lucid",
   "model": "Gravity Grand Touring",
+  "shape": "suv",
   "range_km": 615.0
  },
  {
   "id": 2091,
   "make": "GWM",
   "model": "ORA 03 48 kWh",
+  "shape": "hatchback",
   "range_km": 260.0
  },
  {
   "id": 3294,
   "make": "Lexus",
   "model": "RZ 500e",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3068,
   "make": "Hyundai",
   "model": "IONIQ 9 Long Range AWD",
+  "shape": "suv",
   "range_km": 495.0
  },
  {
   "id": 3652,
   "make": "Toyota",
   "model": "Hilux Electric 59.2 kWh",
+  "shape": "pickup",
   "range_km": 200.0
  },
  {
   "id": 3143,
   "make": "Smart",
   "model": "#5 Premium",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 1837,
   "make": "Maxus",
   "model": "MIFA 9",
+  "shape": "mpv",
   "range_km": 360.0
  },
  {
   "id": 3440,
   "make": "Hyundai",
   "model": "IONIQ 6 84 kWh AWD",
+  "shape": "sedan",
   "range_km": 520.0
  },
  {
   "id": 3449,
   "make": "Hyundai",
   "model": "IONIQ 6 N",
+  "shape": "sedan",
   "range_km": 435.0
  },
  {
   "id": 2184,
   "make": "Alfa Romeo",
   "model": "Junior Elettrica 54 kWh",
+  "shape": "suv",
   "range_km": 320.0
  },
  {
   "id": 3470,
   "make": "MG",
   "model": "MG4 Urban Standard Range",
+  "shape": "hatchback",
   "range_km": 255.0
  },
  {
   "id": 2238,
   "make": "Opel",
   "model": "Frontera Electric 44 kWh",
+  "shape": "suv",
   "range_km": 240.0
  },
  {
   "id": 3037,
   "make": "Opel",
   "model": "Grandland Electric 73 kWh",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 3054,
   "make": "Audi",
   "model": "A6 Avant e-tron quattro",
+  "shape": "station",
   "range_km": 560.0
  },
  {
   "id": 3409,
   "make": "Dacia",
   "model": "Spring Electric 100",
+  "shape": "hatchback",
   "range_km": 160.0
  },
  {
   "id": 2151,
   "make": "Peugeot",
   "model": "e-5008 97 kWh Long Range",
+  "shape": "suv",
   "range_km": 485.0
  },
  {
   "id": 3221,
   "make": "Opel",
   "model": "Corsa Electric 54 kWh",
+  "shape": "hatchback",
   "range_km": 335.0
  },
  {
   "id": 3454,
   "make": "Ford",
   "model": "Explorer Extended Range RWD",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3293,
   "make": "Lexus",
   "model": "RZ 350e",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3051,
   "make": "Opel",
   "model": "Mokka Electric",
+  "shape": "suv",
   "range_km": 285.0
  },
  {
   "id": 3495,
   "make": "Volkswagen",
   "model": "ID.4 Pure",
+  "shape": "suv",
   "range_km": 340.0
  },
  {
   "id": 2131,
   "make": "Mercedes-Benz",
   "model": "EQV 300 Long",
+  "shape": "spv",
   "range_km": 320.0
  },
  {
   "id": 3138,
   "make": "Hongqi",
   "model": "EH7 111 kWh Long Range",
+  "shape": "liftback",
   "range_km": 600.0
  },
  {
   "id": 3193,
   "make": "BYD",
   "model": "DOLPHIN SURF 30 kWh Active",
+  "shape": "hatchback",
   "range_km": 190.0
  },
  {
   "id": 1934,
   "make": "Zeekr",
   "model": "001 Performance AWD",
+  "shape": "liftback",
   "range_km": 480.0
  },
  {
   "id": 3112,
   "make": "BMW",
   "model": "i5 eDrive40 Sedan",
+  "shape": "sedan",
   "range_km": 480.0
  },
  {
   "id": 3510,
   "make": "CUPRA",
   "model": "Raval VZ",
+  "shape": "hatchback",
   "range_km": 310.0
  },
  {
   "id": 3203,
   "make": "Nissan",
   "model": "Micra Extended Range 52 kWh",
+  "shape": "hatchback",
   "range_km": 330.0
  },
  {
   "id": 2269,
   "make": "Alpine",
   "model": "A290 Electric 220 hp",
+  "shape": "hatchback",
   "range_km": 305.0
  },
  {
   "id": 3387,
   "make": "Leapmotor",
   "model": "C10 RWD 81.9 kWh",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 3626,
   "make": "Mercedes-Benz",
   "model": "AMG GT 4-Door Coupé 63 4MATIC+",
+  "shape": "liftback",
   "range_km": 600.0
  },
  {
   "id": 3473,
   "make": "Mercedes-Benz",
   "model": "CLA 250",
+  "shape": "sedan",
   "range_km": 490.0
  },
  {
   "id": 3487,
   "make": "Audi",
   "model": "Q6 SUV e-tron quattro",
+  "shape": "suv",
   "range_km": 480.0
  },
  {
   "id": 3204,
   "make": "BMW",
   "model": "i4 eDrive35",
+  "shape": "liftback",
   "range_km": 435.0
  },
  {
   "id": 3681,
   "make": "Nissan",
   "model": "Ariya 87kWh",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3468,
   "make": "MG",
   "model": "MG4 Premium Extended Range",
+  "shape": "hatchback",
   "range_km": 435.0
  },
  {
   "id": 3630,
   "make": "Volkswagen",
   "model": "ID. Buzz NWB Pure",
+  "shape": "spv",
   "range_km": 275.0
  },
  {
   "id": 3437,
   "make": "Subaru",
   "model": "Uncharted 77 kWh AWD",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 1667,
   "make": "Smart",
   "model": "#1 Pro+",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 3047,
   "make": "Citroën",
   "model": "ë-C4",
+  "shape": "hatchback",
   "range_km": 285.0
  },
  {
   "id": 3335,
   "make": "Mitsubishi",
   "model": "Eclipse Cross 87 kWh",
+  "shape": "suv",
   "range_km": 480.0
  },
  {
   "id": 3182,
   "make": "Audi",
   "model": "e-tron GT quattro",
+  "shape": "sedan",
   "range_km": 540.0
  },
  {
   "id": 2230,
   "make": "Hyundai",
   "model": "INSTER Standard Range",
+  "shape": "suv",
   "range_km": 255.0
  },
  {
   "id": 1787,
   "make": "NIO",
   "model": "ET5 Long Range",
+  "shape": "sedan",
   "range_km": 500.0
  },
  {
   "id": 3125,
   "make": "BYD",
   "model": "ATTO 2 45.12 kWh",
+  "shape": "suv",
   "range_km": 245.0
  },
  {
   "id": 3452,
   "make": "Ford",
   "model": "Capri Extended Range RWD",
+  "shape": "liftback",
   "range_km": 470.0
  },
  {
   "id": 3459,
   "make": "BMW",
   "model": "iX1 xDrive30",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3368,
   "make": "Changan",
   "model": "Deepal S05 4WD Max",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 3365,
   "make": "Nissan",
   "model": "LEAF Standard Range 52 kWh",
+  "shape": "liftback",
   "range_km": 330.0
  },
  {
   "id": 3397,
   "make": "Mercedes-Benz",
   "model": "CLA Shooting Brake 350 4MATIC",
+  "shape": "station",
   "range_km": 555.0
  },
  {
   "id": 3675,
   "make": "Volkswagen",
   "model": "ID. Polo 99 kW - 37 kWh",
+  "shape": "hatchback",
   "range_km": 245.0
  },
  {
   "id": 1834,
   "make": "Kia",
   "model": "EV9 99.8 kWh RWD",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3079,
   "make": "Kia",
   "model": "EV6 GT",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3585,
   "make": "Zeekr",
   "model": "X Long Range RWD",
+  "shape": "suv",
   "range_km": 320.0
  },
  {
   "id": 2088,
   "make": "Mercedes-Benz",
   "model": "EQS SUV 450 4MATIC",
+  "shape": "suv",
   "range_km": 530.0
  },
  {
   "id": 2243,
   "make": "Cadillac",
   "model": "LYRIQ 600 E4",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3609,
   "make": "CUPRA",
   "model": "Tavascan 210 kW - 77 kWh Endurance",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3166,
   "make": "Ford",
   "model": "e-Tourneo Courier",
+  "shape": "spv",
   "range_km": 200.0
  },
  {
   "id": 3419,
   "make": "MG",
   "model": "MGS6 EV Dual Motor 77 kWh",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3493,
   "make": "Lexus",
   "model": "ES 500e DIRECT 4",
+  "shape": "sedan",
   "range_km": 380.0
  },
  {
   "id": 2157,
   "make": "Volkswagen",
   "model": "ID. Buzz LWB GTX",
+  "shape": "spv",
   "range_km": 380.0
  },
  {
   "id": 3239,
   "make": "Mercedes-Benz",
   "model": "EQE 300",
+  "shape": "sedan",
   "range_km": 525.0
  },
  {
   "id": 3639,
   "make": "Kia",
   "model": "EV3 Long Range AWD",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3671,
   "make": "Kia",
   "model": "PV5 Passenger 71.2 kWh - 7 Seats",
+  "shape": "spv",
   "range_km": 335.0
  },
  {
   "id": 2191,
   "make": "Mini",
   "model": "Aceman SE",
+  "shape": "suv",
   "range_km": 290.0
  },
  {
   "id": 3129,
   "make": "Volvo",
   "model": "ES90 Twin Motor",
+  "shape": "liftback",
   "range_km": 560.0
  },
  {
   "id": 3463,
   "make": "Hyundai",
   "model": "Kona Electric 64.8 kWh",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3511,
   "make": "CUPRA",
   "model": "Born 140 kW - 58 kWh",
+  "shape": "hatchback",
   "range_km": 360.0
  },
  {
   "id": 3662,
   "make": "Jeep",
   "model": "Compass Electric 4xe",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3588,
   "make": "Audi",
   "model": "Q4 e-tron performance",
+  "shape": "suv",
   "range_km": 425.0
  },
  {
   "id": 1933,
   "make": "Zeekr",
   "model": "001 Long Range RWD",
+  "shape": "liftback",
   "range_km": 505.0
  },
  {
   "id": 3603,
   "make": "Volkswagen",
   "model": "ID.7 Tourer 77 kWh",
+  "shape": "station",
   "range_km": 470.0
  },
  {
   "id": 3665,
   "make": "Leapmotor",
   "model": "B03X 39.8 kWh",
+  "shape": "suv",
   "range_km": 225.0
  },
  {
   "id": 3433,
   "make": "XPENG",
   "model": "P7+ AWD Performance",
+  "shape": "liftback",
   "range_km": 425.0
  },
  {
   "id": 2134,
   "make": "Renault",
   "model": "5 E-Tech 40kWh 120hp",
+  "shape": "hatchback",
   "range_km": 260.0
  },
  {
   "id": 3152,
   "make": "Polestar",
   "model": "2 Long Range Dual Motor",
+  "shape": "liftback",
   "range_km": 455.0
  },
  {
   "id": 3606,
   "make": "Polestar",
   "model": "4 Coupé Rear Motor",
+  "shape": "liftback",
   "range_km": 495.0
  },
  {
   "id": 3134,
   "make": "Toyota",
   "model": "bZ4X FWD 73.1 kWh",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3393,
   "make": "Toyota",
   "model": "C-HR+ 57.7 kWh",
+  "shape": "suv",
   "range_km": 325.0
  },
  {
   "id": 3395,
   "make": "Toyota",
   "model": "C-HR+ 77 kWh AWD",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3223,
   "make": "Peugeot",
   "model": "e-208 54 kWh",
+  "shape": "hatchback",
   "range_km": 335.0
  },
  {
   "id": 3460,
   "make": "BMW",
   "model": "iX2 eDrive20",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3507,
   "make": "CUPRA",
   "model": "Raval 85 kW - 37 kWh",
+  "shape": "hatchback",
   "range_km": 240.0
  },
  {
   "id": 3206,
   "make": "BMW",
   "model": "i4 xDrive40",
+  "shape": "liftback",
   "range_km": 495.0
  },
  {
   "id": 3230,
   "make": "Citroën",
   "model": "C5 Aircross Comfort Range",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 3232,
   "make": "Leapmotor",
   "model": "B10 56.2 kWh",
+  "shape": "suv",
   "range_km": 305.0
  },
  {
   "id": 3607,
   "make": "Polestar",
   "model": "4 Coupé Dual Motor",
+  "shape": "liftback",
   "range_km": 485.0
  },
  {
   "id": 3128,
   "make": "Volvo",
   "model": "ES90 Single Motor",
+  "shape": "liftback",
   "range_km": 505.0
  },
  {
   "id": 1997,
   "make": "Mini",
   "model": "Cooper E",
+  "shape": "hatchback",
   "range_km": 250.0
  },
  {
   "id": 3462,
   "make": "Hyundai",
   "model": "Kona Electric 48.6 kWh",
+  "shape": "suv",
   "range_km": 295.0
  },
  {
   "id": 2154,
   "make": "Volkswagen",
   "model": "ID. Buzz LWB Pro",
+  "shape": "spv",
   "range_km": 390.0
  },
  {
   "id": 3055,
   "make": "Audi",
   "model": "A6 Avant e-tron",
+  "shape": "station",
   "range_km": 465.0
  },
  {
   "id": 3446,
   "make": "Ford",
   "model": "Explorer Standard Range RWD",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 2281,
   "make": "Audi",
   "model": "Q6 SUV e-tron",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3469,
   "make": "MG",
   "model": "MG4 XPOWER",
+  "shape": "hatchback",
   "range_km": 325.0
  },
  {
   "id": 3645,
   "make": "Ford",
   "model": "Explorer Extended Range RWD",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3583,
   "make": "Geely",
   "model": "EX5 Max+",
+  "shape": "suv",
   "range_km": 360.0
  },
  {
   "id": 1748,
   "make": "Smart",
   "model": "#1 Brabus",
+  "shape": "suv",
   "range_km": 325.0
  },
  {
   "id": 3479,
   "make": "Volvo",
   "model": "EX30 P3 Long Range",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 3241,
   "make": "Mercedes-Benz",
   "model": "EQE 350 4MATIC",
+  "shape": "sedan",
   "range_km": 515.0
  },
  {
   "id": 3582,
   "make": "Geely",
   "model": "EX5 Pro+",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 3390,
   "make": "Alpine",
   "model": "A390 GT",
+  "shape": "liftback",
   "range_km": 470.0
  },
  {
   "id": 3569,
   "make": "Škoda",
   "model": "Enyaq 60",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 2215,
   "make": "Audi",
   "model": "Q6 SUV e-tron performance",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 3579,
   "make": "Mercedes-Benz",
   "model": "EQS 500 4MATIC",
+  "shape": "sedan",
   "range_km": 680.0
  },
  {
   "id": 3146,
   "make": "MG",
   "model": "MGS5 EV 49 kWh",
+  "shape": "suv",
   "range_km": 275.0
  },
  {
   "id": 3324,
   "make": "Volvo",
   "model": "EX90 Twin Motor",
+  "shape": "suv",
   "range_km": 480.0
  },
  {
   "id": 2054,
   "make": "Smart",
   "model": "#3 Premium",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 3067,
   "make": "Hyundai",
   "model": "IONIQ 9 Long Range RWD",
+  "shape": "suv",
   "range_km": 505.0
  },
  {
   "id": 3478,
   "make": "Volvo",
   "model": "EX30 P5",
+  "shape": "suv",
   "range_km": 275.0
  },
  {
   "id": 3115,
   "make": "BMW",
   "model": "i5 eDrive40 Touring",
+  "shape": "station",
   "range_km": 465.0
  },
  {
   "id": 3650,
   "make": "Rolls-Royce",
   "model": "Spectre Series II",
+  "shape": "coupe",
   "range_km": 515.0
  },
  {
   "id": 3053,
   "make": "Audi",
   "model": "A6 Sportback e-tron",
+  "shape": "liftback",
   "range_km": 485.0
  },
  {
   "id": 3513,
   "make": "CUPRA",
   "model": "Born VZ",
+  "shape": "hatchback",
   "range_km": 475.0
  },
  {
   "id": 3624,
   "make": "DS Automobiles",
   "model": "N°7 FWD Long Range",
+  "shape": "suv",
   "range_km": 515.0
  },
  {
   "id": 2133,
   "make": "Renault",
   "model": "5 E-Tech 40kWh 95hp",
+  "shape": "hatchback",
   "range_km": 260.0
  },
  {
   "id": 3500,
   "make": "Volkswagen",
   "model": "ID.5 Pro",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3035,
   "make": "Dongfeng",
   "model": "Box 31.4 kWh",
+  "shape": "hatchback",
   "range_km": 190.0
  },
  {
   "id": 1922,
   "make": "NIO",
   "model": "EL6 Long Range",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 3684,
   "make": "Jeep",
   "model": "Compass Electric 74 kWh",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 1916,
   "make": "NIO",
   "model": "ET5 Touring Long Range",
+  "shape": "station",
   "range_km": 485.0
  },
  {
   "id": 3325,
   "make": "Volvo",
   "model": "EX90 Twin Motor Performance",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3216,
   "make": "Lotus",
   "model": "Eletre 600",
+  "shape": "suv",
   "range_km": 495.0
  },
  {
   "id": 3663,
   "make": "Kia",
   "model": "EV3 GT",
+  "shape": "suv",
   "range_km": 430.0
  },
  {
   "id": 3364,
   "make": "Opel",
   "model": "Grandland Electric 97 kWh",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 3431,
   "make": "XPENG",
   "model": "P7+ RWD Standard Range",
+  "shape": "liftback",
   "range_km": 375.0
  },
  {
   "id": 3580,
   "make": "Mercedes-Benz",
   "model": "EQS 580 4MATIC",
+  "shape": "sedan",
   "range_km": 670.0
  },
  {
   "id": 3248,
   "make": "MG",
   "model": "IM6 Performance",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3620,
   "make": "Škoda",
   "model": "Epiq 35",
+  "shape": "suv",
   "range_km": 235.0
  },
  {
   "id": 3030,
   "make": "Kia",
   "model": "EV6 Standard Range 2WD",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 3240,
   "make": "Mercedes-Benz",
   "model": "EQE 350+",
+  "shape": "sedan",
   "range_km": 555.0
  },
  {
   "id": 1567,
   "make": "Subaru",
   "model": "Solterra AWD",
+  "shape": "suv",
   "range_km": 320.0
  },
  {
   "id": 3246,
   "make": "MG",
   "model": "IM5 Performance",
+  "shape": "liftback",
   "range_km": 490.0
  },
  {
   "id": 1275,
   "make": "Fiat",
   "model": "500e Cabrio 42 kWh",
+  "shape": "cabrio",
   "range_km": 230.0
  },
  {
   "id": 3280,
   "make": "Citroën",
   "model": "ë-C3 Urban Range 30 kWh",
+  "shape": "hatchback",
   "range_km": 175.0
  },
  {
   "id": 3508,
   "make": "CUPRA",
   "model": "Raval 99 kW - 37 kWh",
+  "shape": "hatchback",
   "range_km": 240.0
  },
  {
   "id": 3602,
   "make": "Volkswagen",
   "model": "ID.7 Tourer 59 kWh",
+  "shape": "station",
   "range_km": 370.0
  },
  {
   "id": 3078,
   "make": "DS Automobiles",
   "model": "N°8 AWD Long Range",
+  "shape": "liftback",
   "range_km": 530.0
  },
  {
   "id": 2103,
   "make": "Porsche",
   "model": "Taycan Turbo S",
+  "shape": "sedan",
   "range_km": 525.0
  },
  {
   "id": 3052,
   "make": "Audi",
   "model": "A6 Sportback e-tron quattro",
+  "shape": "liftback",
   "range_km": 570.0
  },
  {
   "id": 3598,
   "make": "Volkswagen",
   "model": "ID.7 59 kWh",
+  "shape": "liftback",
   "range_km": 370.0
  },
  {
   "id": 2223,
   "make": "NIO",
   "model": "EL8 Long Range",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 2000,
   "make": "Smart",
   "model": "#3 Brabus",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 2156,
   "make": "Volkswagen",
   "model": "ID. Buzz NWB GTX",
+  "shape": "spv",
   "range_km": 360.0
  },
  {
   "id": 3658,
   "make": "Škoda",
   "model": "Peaq 60",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 1903,
   "make": "Abarth",
   "model": "500e Hatchback",
+  "shape": "hatchback",
   "range_km": 225.0
  },
  {
   "id": 3611,
   "make": "XPENG",
   "model": "X9 FWD Standard Range",
+  "shape": "mpv",
   "range_km": 475.0
  },
  {
   "id": 3391,
   "make": "Alpine",
   "model": "A390 GTS",
+  "shape": "liftback",
   "range_km": 470.0
  },
  {
   "id": 3455,
   "make": "Ford",
   "model": "Explorer Extended Range AWD",
+  "shape": "suv",
   "range_km": 430.0
  },
  {
   "id": 3605,
   "make": "Volkswagen",
   "model": "ID.7 Tourer GTX",
+  "shape": "station",
   "range_km": 500.0
  },
  {
   "id": 2144,
   "make": "Porsche",
   "model": "Taycan Turbo GT",
+  "shape": "sedan",
   "range_km": 475.0
  },
  {
   "id": 3599,
   "make": "Volkswagen",
   "model": "ID.7 77 kWh",
+  "shape": "liftback",
   "range_km": 475.0
  },
  {
   "id": 3637,
   "make": "Kia",
   "model": "EV3 Standard Range",
+  "shape": "suv",
   "range_km": 325.0
  },
  {
   "id": 2042,
   "make": "Nissan",
   "model": "Townstar EV Passenger",
+  "shape": "spv",
   "range_km": 225.0
  },
  {
   "id": 2190,
   "make": "Mini",
   "model": "Aceman E",
+  "shape": "suv",
   "range_km": 230.0
  },
  {
   "id": 3188,
   "make": "Ford",
   "model": "Mustang Mach-E ER RWD",
+  "shape": "suv",
   "range_km": 475.0
  },
  {
   "id": 3209,
   "make": "Toyota",
   "model": "Urban Cruiser 61.1 kWh",
+  "shape": "suv",
   "range_km": 330.0
  },
  {
   "id": 3572,
   "make": "Škoda",
   "model": "Enyaq RS",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 1327,
   "make": "Fiat",
   "model": "500e Hatchback 24 kWh",
+  "shape": "hatchback",
   "range_km": 135.0
  },
  {
   "id": 2087,
   "make": "Mercedes-Benz",
   "model": "EQS SUV 450+",
+  "shape": "suv",
   "range_km": 540.0
  },
  {
   "id": 3277,
   "make": "XPENG",
   "model": "G9 RWD Standard Range",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3436,
   "make": "Subaru",
   "model": "Uncharted 77 kWh",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 2086,
   "make": "Mercedes-Benz",
   "model": "EQS SUV Maybach 680",
+  "shape": "suv",
   "range_km": 490.0
  },
  {
   "id": 2220,
   "make": "Audi",
   "model": "RS e-tron GT",
+  "shape": "sedan",
   "range_km": 525.0
  },
  {
   "id": 3499,
   "make": "Volkswagen",
   "model": "ID.5 Pure",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 3560,
   "make": "Porsche",
   "model": "Cayenne Coupé Electric",
+  "shape": "suv",
   "range_km": 545.0
  },
  {
   "id": 2110,
   "make": "Porsche",
   "model": "Taycan 4 Cross Turismo",
+  "shape": "station",
   "range_km": 510.0
  },
  {
   "id": 3314,
   "make": "Volkswagen",
   "model": "e-Transporter Kombi L2 210 kW 64 kWh",
+  "shape": "spv",
   "range_km": 250.0
  },
  {
   "id": 3648,
   "make": "Ford",
   "model": "Capri Extended Range RWD",
+  "shape": "liftback",
   "range_km": 470.0
  },
  {
   "id": 3048,
   "make": "Citroën",
   "model": "ë-C4 54 kWh",
+  "shape": "hatchback",
   "range_km": 325.0
  },
  {
   "id": 3150,
   "make": "Polestar",
   "model": "2 Standard Range Single Motor",
+  "shape": "liftback",
   "range_km": 405.0
  },
  {
   "id": 3574,
   "make": "Škoda",
   "model": "Enyaq Coupe 85",
+  "shape": "suv",
   "range_km": 470.0
  },
  {
   "id": 3672,
   "make": "Kia",
   "model": "EV4 Hatchback 81.4 kWh GT",
+  "shape": "hatchback",
   "range_km": 450.0
  },
  {
   "id": 3321,
   "make": "Peugeot",
   "model": "e-308 58 kWh",
+  "shape": "hatchback",
   "range_km": 345.0
  },
  {
   "id": 3481,
   "make": "Volvo",
   "model": "EX30 P8 AWD",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 3517,
   "make": "BYD",
   "model": "SEAL 61.4 kWh RWD Comfort",
+  "shape": "sedan",
   "range_km": 365.0
  },
  {
   "id": 3587,
   "make": "Audi",
   "model": "Q4 e-tron",
+  "shape": "suv",
   "range_km": 340.0
  },
  {
   "id": 3123,
   "make": "Kia",
   "model": "EV4 Hatchback 58.3 kWh",
+  "shape": "hatchback",
   "range_km": 360.0
  },
  {
   "id": 3571,
   "make": "Škoda",
   "model": "Enyaq 85x",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3069,
   "make": "Hyundai",
   "model": "IONIQ 9 Performance AWD",
+  "shape": "suv",
   "range_km": 485.0
  },
  {
   "id": 3267,
   "make": "Cadillac",
   "model": "VISTIQ 900 E4",
+  "shape": "suv",
   "range_km": 375.0
  },
  {
   "id": 3489,
   "make": "Kia",
   "model": "EV5 81.4 kWh AWD",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3448,
   "make": "KGM",
   "model": "Musso EV 4WD",
+  "shape": "pickup",
   "range_km": 360.0
  },
  {
   "id": 3610,
   "make": "CUPRA",
   "model": "Tavascan 250 kW - 77 kWh VZ",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 3628,
   "make": "Mercedes-Benz",
   "model": "CLA Shooting Brake 200",
+  "shape": "station",
   "range_km": 385.0
  },
  {
   "id": 3213,
   "make": "Suzuki",
   "model": "e VITARA 61 kWh 4WD AllGrip",
+  "shape": "suv",
   "range_km": 310.0
  },
  {
   "id": 2099,
   "make": "Porsche",
   "model": "Taycan Plus",
+  "shape": "sedan",
   "range_km": 575.0
  },
  {
   "id": 3661,
   "make": "Jeep",
   "model": "Compass Electric Long Range",
+  "shape": "suv",
   "range_km": 475.0
  },
  {
   "id": 2202,
   "make": "MG",
   "model": "Cyberster Trophy",
+  "shape": "cabrio",
   "range_km": 425.0
  },
  {
   "id": 3142,
   "make": "Smart",
   "model": "#5 Pro+",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3211,
   "make": "Suzuki",
   "model": "e VITARA 49 kWh 2WD",
+  "shape": "suv",
   "range_km": 270.0
  },
  {
   "id": 3378,
   "make": "Porsche",
   "model": "Macan Electric",
+  "shape": "suv",
   "range_km": 495.0
  },
  {
   "id": 3461,
   "make": "BMW",
   "model": "iX2 xDrive30",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3050,
   "make": "Citroën",
   "model": "ë-C4 X 54 kWh",
+  "shape": "sedan",
   "range_km": 335.0
  },
  {
   "id": 3567,
   "make": "Škoda",
   "model": "Elroq 85x",
+  "shape": "suv",
   "range_km": 445.0
  },
  {
   "id": 2159,
   "make": "Citroën",
   "model": "ë-Berlingo M 50 kWh",
+  "shape": "spv",
   "range_km": 235.0
  },
  {
   "id": 3682,
   "make": "Nissan",
   "model": "Ariya e-4ORCE 87kWh - 225 kW",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3327,
   "make": "Polestar",
   "model": "3 Dual Motor",
+  "shape": "suv",
   "range_km": 505.0
  },
  {
   "id": 3494,
   "make": "BYD",
   "model": "ATTO 2 51.1 kWh",
+  "shape": "suv",
   "range_km": 275.0
  },
  {
   "id": 3058,
   "make": "Mini",
   "model": "Cooper JCW",
+  "shape": "hatchback",
   "range_km": 290.0
  },
  {
   "id": 3220,
   "make": "Opel",
   "model": "Corsa Electric 50 kWh",
+  "shape": "hatchback",
   "range_km": 290.0
  },
  {
   "id": 3111,
   "make": "BMW",
   "model": "iX M70 xDrive",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3271,
   "make": "Lucid",
   "model": "Air Pure RWD",
+  "shape": "sedan",
   "range_km": 580.0
  },
  {
   "id": 2050,
   "make": "Hongqi",
   "model": "E-HS9 120 kWh",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3049,
   "make": "Citroën",
   "model": "ë-C4 X",
+  "shape": "sedan",
   "range_km": 290.0
  },
  {
   "id": 3084,
   "make": "Nissan",
   "model": "Townstar EV Passenger L2",
+  "shape": "spv",
   "range_km": 220.0
  },
  {
   "id": 3577,
   "make": "Mercedes-Benz",
   "model": "EQS 400",
+  "shape": "sedan",
   "range_km": 670.0
  },
  {
   "id": 2166,
   "make": "Toyota",
   "model": "Proace City Verso L2 50 kWh",
+  "shape": "spv",
   "range_km": 230.0
  },
  {
   "id": 3488,
   "make": "Audi",
   "model": "Q6 Sportback e-tron quattro",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 3081,
   "make": "Zeekr",
   "model": "7X Core RWD",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3214,
   "make": "Lotus",
   "model": "Emeya 600",
+  "shape": "liftback",
   "range_km": 520.0
  },
  {
   "id": 2165,
   "make": "Toyota",
   "model": "Proace City Verso L1 50 kWh",
+  "shape": "spv",
   "range_km": 235.0
  },
  {
   "id": 3077,
   "make": "DS Automobiles",
   "model": "N°8 FWD Long Range",
+  "shape": "liftback",
   "range_km": 545.0
  },
  {
   "id": 3282,
   "make": "VinFast",
   "model": "VF 6 Plus",
+  "shape": "suv",
   "range_km": 310.0
  },
  {
   "id": 3114,
   "make": "BMW",
   "model": "i5 M60 xDrive Sedan",
+  "shape": "sedan",
   "range_km": 430.0
  },
  {
   "id": 3434,
   "make": "Subaru",
   "model": "Solterra AWD 73.1 kWh",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 2090,
   "make": "Mercedes-Benz",
   "model": "EQS SUV 580 4MATIC",
+  "shape": "suv",
   "range_km": 530.0
  },
  {
   "id": 2219,
   "make": "Audi",
   "model": "S e-tron GT",
+  "shape": "sedan",
   "range_km": 540.0
  },
  {
   "id": 3130,
   "make": "Volvo",
   "model": "ES90 Twin Motor Performance",
+  "shape": "liftback",
   "range_km": 560.0
  },
  {
   "id": 1791,
   "make": "DS Automobiles",
   "model": "DS 3 E-Tense",
+  "shape": "suv",
   "range_km": 300.0
  },
  {
   "id": 1993,
   "make": "Kia",
   "model": "EV9 99.8 kWh AWD GT-Line",
+  "shape": "suv",
   "range_km": 425.0
  },
  {
   "id": 3126,
   "make": "Renault",
   "model": "4 E-Tech 40kWh 120hp",
+  "shape": "suv",
   "range_km": 245.0
  },
  {
   "id": 3133,
   "make": "Toyota",
   "model": "bZ4X FWD 57.7 kWh",
+  "shape": "suv",
   "range_km": 305.0
  },
  {
   "id": 3646,
   "make": "Ford",
   "model": "Explorer Extended Range AWD",
+  "shape": "suv",
   "range_km": 430.0
  },
  {
   "id": 3667,
   "make": "Kia",
   "model": "EV4 Hatchback 81.4 kWh AWD",
+  "shape": "hatchback",
   "range_km": 490.0
  },
  {
   "id": 1975,
   "make": "Elaris",
   "model": "BEO 86 kWh",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3281,
   "make": "VinFast",
   "model": "VF 6 Eco",
+  "shape": "suv",
   "range_km": 315.0
  },
  {
   "id": 3450,
   "make": "Opel",
   "model": "Astra Electric 58 kWh",
+  "shape": "hatchback",
   "range_km": 345.0
  },
  {
   "id": 2247,
   "make": "GWM",
   "model": "ORA 07 GT",
+  "shape": "sedan",
   "range_km": 430.0
  },
  {
   "id": 3196,
   "make": "Kia",
   "model": "EV9 99.8 kWh AWD GT",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3556,
   "make": "BMW",
   "model": "i7 50 xDrive",
+  "shape": "sedan",
   "range_km": 560.0
  },
  {
   "id": 3592,
   "make": "Audi",
   "model": "Q4 Sportback e-tron performance",
+  "shape": "suv",
   "range_km": 445.0
  },
  {
   "id": 3202,
   "make": "Nissan",
   "model": "Micra Standard Range 40 kWh",
+  "shape": "hatchback",
   "range_km": 260.0
  },
  {
   "id": 3655,
   "make": "Peugeot",
   "model": "e-208 GTi",
+  "shape": "hatchback",
   "range_km": 310.0
  },
  {
   "id": 1986,
   "make": "Mercedes-Benz",
   "model": "EQA 300 4MATIC",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 1999,
   "make": "Smart",
   "model": "#3 Pro+",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 3379,
   "make": "Porsche",
   "model": "Macan 4 Electric",
+  "shape": "suv",
   "range_km": 470.0
  },
  {
   "id": 3568,
   "make": "Škoda",
   "model": "Elroq RS",
+  "shape": "suv",
   "range_km": 445.0
  },
  {
   "id": 2100,
   "make": "Porsche",
   "model": "Taycan 4S",
+  "shape": "sedan",
   "range_km": 490.0
  },
  {
   "id": 3486,
   "make": "Porsche",
   "model": "Cayenne S Electric",
+  "shape": "suv",
   "range_km": 520.0
  },
  {
   "id": 3498,
   "make": "Volkswagen",
   "model": "ID.4 GTX",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3562,
   "make": "Porsche",
   "model": "Cayenne Turbo Coupé Electric",
+  "shape": "suv",
   "range_km": 520.0
  },
  {
   "id": 2161,
   "make": "Opel",
   "model": "Combo Electric 50 kWh",
+  "shape": "spv",
   "range_km": 235.0
  },
  {
   "id": 3237,
   "make": "Genesis",
   "model": "GV70 Electrified",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3497,
   "make": "Volkswagen",
   "model": "ID.4 Pro 4MOTION",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3557,
   "make": "BMW",
   "model": "i7 60 xDrive",
+  "shape": "sedan",
   "range_km": 560.0
  },
  {
   "id": 1803,
   "make": "Maserati",
   "model": "GranTurismo Folgore",
+  "shape": "coupe",
   "range_km": 420.0
  },
  {
   "id": 2224,
   "make": "Citroën",
   "model": "ë-C3 Aircross Comfort Range 44 kWh",
+  "shape": "suv",
   "range_km": 240.0
  },
  {
   "id": 3477,
   "make": "Volvo",
   "model": "EX30 P3",
+  "shape": "suv",
   "range_km": 275.0
  },
  {
   "id": 3153,
   "make": "Polestar",
   "model": "2 Long Range Performance",
+  "shape": "liftback",
   "range_km": 450.0
  },
  {
   "id": 3210,
   "make": "Toyota",
   "model": "Urban Cruiser 61.1 kWh AWD",
+  "shape": "suv",
   "range_km": 310.0
  },
  {
   "id": 3113,
   "make": "BMW",
   "model": "i5 xDrive40 Sedan",
+  "shape": "sedan",
   "range_km": 465.0
  },
  {
   "id": 3145,
   "make": "Smart",
   "model": "#5 Summit Edition",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3453,
   "make": "Ford",
   "model": "Capri Extended Range AWD",
+  "shape": "liftback",
   "range_km": 445.0
  },
  {
   "id": 3586,
   "make": "Zeekr",
   "model": "X Privilege AWD",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 3625,
   "make": "DS Automobiles",
   "model": "N°7 AWD Long Range",
+  "shape": "suv",
   "range_km": 500.0
  },
  {
   "id": 1786,
   "make": "NIO",
   "model": "ET5 Standard Range",
+  "shape": "sedan",
   "range_km": 410.0
  },
  {
   "id": 3155,
   "make": "Volvo",
   "model": "EC40 Single Motor ER",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3225,
   "make": "Lancia",
   "model": "Ypsilon 54 kWh HF",
+  "shape": "hatchback",
   "range_km": 305.0
  },
  {
   "id": 3242,
   "make": "Mercedes-Benz",
   "model": "EQE 500 4MATIC",
+  "shape": "sedan",
   "range_km": 505.0
  },
  {
   "id": 3457,
   "make": "Mini",
   "model": "Countryman SE ALL4",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 1807,
   "make": "VinFast",
   "model": "VF 8 Eco Extended Range",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3042,
   "make": "Audi",
   "model": "Q6 Sportback e-tron performance",
+  "shape": "suv",
   "range_km": 510.0
  },
  {
   "id": 2147,
   "make": "Audi",
   "model": "SQ6 SUV e-tron",
+  "shape": "suv",
   "range_km": 470.0
  },
  {
   "id": 3634,
   "make": "Volkswagen",
   "model": "ID. Buzz LWB Pro",
+  "shape": "spv",
   "range_km": 390.0
  },
  {
   "id": 3451,
   "make": "Opel",
   "model": "Astra Sports Tourer Electric 58 kWh",
+  "shape": "station",
   "range_km": 335.0
  },
  {
   "id": 3158,
   "make": "Volvo",
   "model": "EX40 Single Motor",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 3222,
   "make": "Peugeot",
   "model": "e-208 50 kWh",
+  "shape": "hatchback",
   "range_km": 295.0
  },
  {
   "id": 3299,
   "make": "Polestar",
   "model": "5 Performance",
+  "shape": "sedan",
   "range_km": 530.0
  },
  {
   "id": 3301,
   "make": "TOGG",
   "model": "T10X Standard Range RWD",
+  "shape": "suv",
   "range_km": 265.0
  },
  {
   "id": 3576,
   "make": "Škoda",
   "model": "Enyaq Coupe RS",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 2222,
   "make": "NIO",
   "model": "EL8 Standard Range",
+  "shape": "suv",
   "range_km": 360.0
  },
  {
   "id": 3137,
   "make": "Voyah",
   "model": "Courage 80 kWh AWD",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3590,
   "make": "Audi",
   "model": "Q4 e-tron quattro performance",
+  "shape": "suv",
   "range_km": 405.0
  },
  {
   "id": 3190,
   "make": "Ford",
   "model": "Mustang Mach-E GT",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 3285,
   "make": "Mercedes-Benz",
   "model": "EQE SUV 350 4MATIC",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 3323,
   "make": "Volvo",
   "model": "EX90 Single Motor",
+  "shape": "suv",
   "range_km": 425.0
  },
  {
   "id": 3144,
   "make": "Smart",
   "model": "#5 Pulse",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 3291,
   "make": "Lucid",
   "model": "Gravity Touring",
+  "shape": "suv",
   "range_km": 460.0
  },
  {
   "id": 3435,
   "make": "Subaru",
   "model": "Uncharted 57.7 kWh",
+  "shape": "suv",
   "range_km": 315.0
  },
  {
   "id": 3136,
   "make": "Voyah",
   "model": "Courage 80 kWh RWD",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3160,
   "make": "Volvo",
   "model": "EX40 Twin Motor",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3641,
   "make": "JAC",
   "model": "E30X 51.5 kWh",
+  "shape": "hatchback",
   "range_km": 295.0
  },
  {
   "id": 2268,
   "make": "Alpine",
   "model": "A290 Electric 180 hp",
+  "shape": "hatchback",
   "range_km": 310.0
  },
  {
   "id": 3161,
   "make": "Volvo",
   "model": "EX40 Twin Motor Performance",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 3218,
   "make": "Renault",
   "model": "Scenic E-Tech EV60 170hp",
+  "shape": "suv",
   "range_km": 340.0
  },
  {
   "id": 2093,
   "make": "GWM",
   "model": "ORA 03 GT",
+  "shape": "hatchback",
   "range_km": 325.0
  },
  {
   "id": 2245,
   "make": "GWM",
   "model": "ORA 07 Pure",
+  "shape": "sedan",
   "range_km": 350.0
  },
  {
   "id": 3215,
   "make": "Lotus",
   "model": "Emeya 900",
+  "shape": "liftback",
   "range_km": 465.0
  },
  {
   "id": 2004,
   "make": "Peugeot",
   "model": "e-3008 73 kWh Dual Motor",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 3200,
   "make": "DS Automobiles",
   "model": "N°4 E-Tense",
+  "shape": "hatchback",
   "range_km": 350.0
  },
  {
   "id": 3322,
   "make": "Peugeot",
   "model": "e-308 SW 58 kWh",
+  "shape": "station",
   "range_km": 340.0
  },
  {
   "id": 2041,
   "make": "Smart",
   "model": "#1 Pro",
+  "shape": "suv",
   "range_km": 250.0
  },
  {
   "id": 3558,
   "make": "BMW",
   "model": "i7 M70 xDrive",
+  "shape": "sedan",
   "range_km": 530.0
  },
  {
   "id": 3644,
   "make": "Ford",
   "model": "Explorer Standard Range RWD",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 2052,
   "make": "Smart",
   "model": "#3 Pro",
+  "shape": "suv",
   "range_km": 265.0
  },
  {
   "id": 3141,
   "make": "Smart",
   "model": "#5 Pro",
+  "shape": "suv",
   "range_km": 370.0
  },
  {
   "id": 3295,
   "make": "Lexus",
   "model": "RZ 550e F SPORT",
+  "shape": "suv",
   "range_km": 390.0
  },
  {
   "id": 3668,
   "make": "Kia",
   "model": "EV4 Hatchback 58.3 kWh",
+  "shape": "hatchback",
   "range_km": 360.0
  },
  {
   "id": 1833,
   "make": "Kia",
   "model": "EV9 76.1 kWh RWD",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 2273,
   "make": "Audi",
   "model": "S6 Avant e-tron",
+  "shape": "station",
   "range_km": 530.0
  },
  {
   "id": 3371,
   "make": "Cadillac",
   "model": "OPTIQ 500 E4",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 3464,
   "make": "Maserati",
   "model": "Grecale Folgore",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 3608,
   "make": "CUPRA",
   "model": "Tavascan 140 kW - 58 kWh",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 2150,
   "make": "Peugeot",
   "model": "e-5008 73 kWh Dual Motor",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 3651,
   "make": "Kia",
   "model": "EV5 81.4 kWh GT",
+  "shape": "suv",
   "range_km": 385.0
  },
  {
   "id": 1935,
   "make": "Zeekr",
   "model": "001 Privilege AWD",
+  "shape": "liftback",
   "range_km": 480.0
  },
  {
   "id": 2145,
   "make": "Porsche",
   "model": "Taycan Turbo GT Weissach",
+  "shape": "sedan",
   "range_km": 475.0
  },
  {
   "id": 3465,
   "make": "Peugeot",
   "model": "e-408 58 kWh",
+  "shape": "suv",
   "range_km": 345.0
  },
  {
   "id": 2101,
   "make": "Porsche",
   "model": "Taycan 4S Plus",
+  "shape": "sedan",
   "range_km": 565.0
  },
  {
   "id": 2111,
   "make": "Porsche",
   "model": "Taycan 4S Cross Turismo",
+  "shape": "station",
   "range_km": 510.0
  },
  {
   "id": 2221,
   "make": "Audi",
   "model": "RS e-tron GT performance",
+  "shape": "sedan",
   "range_km": 525.0
  },
  {
   "id": 2092,
   "make": "GWM",
   "model": "ORA 03 63 kWh",
+  "shape": "hatchback",
   "range_km": 340.0
  },
  {
   "id": 3156,
   "make": "Volvo",
   "model": "EC40 Twin Motor",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3304,
   "make": "TOGG",
   "model": "T10F Standard Range RWD",
+  "shape": "liftback",
   "range_km": 295.0
  },
  {
   "id": 3328,
   "make": "Polestar",
   "model": "3 Performance",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3561,
   "make": "Porsche",
   "model": "Cayenne S Coupé Electric",
+  "shape": "suv",
   "range_km": 540.0
  },
  {
   "id": 3575,
   "make": "Škoda",
   "model": "Enyaq Coupe 85x",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 2053,
   "make": "Smart",
   "model": "#1 Premium",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 3116,
   "make": "BMW",
   "model": "i5 xDrive40 Touring",
+  "shape": "station",
   "range_km": 450.0
  },
  {
   "id": 3320,
   "make": "Volkswagen",
   "model": "e-Caravelle L2 210 kW 64 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 3601,
   "make": "Volkswagen",
   "model": "ID.7 GTX",
+  "shape": "liftback",
   "range_km": 500.0
  },
  {
   "id": 3286,
   "make": "Mercedes-Benz",
   "model": "EQE SUV 500 4MATIC",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 3640,
   "make": "JAC",
   "model": "E30X 41 kWh",
+  "shape": "hatchback",
   "range_km": 240.0
  },
  {
   "id": 3244,
   "make": "MG",
   "model": "IM5 Standard Range",
+  "shape": "liftback",
   "range_km": 405.0
  },
  {
   "id": 3041,
   "make": "Audi",
   "model": "Q6 Sportback e-tron",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 3121,
   "make": "Kia",
   "model": "EV4 Fastback 58.3 kWh",
+  "shape": "sedan",
   "range_km": 365.0
  },
  {
   "id": 3264,
   "make": "Hongqi",
   "model": "E-HS7 111 kWh Long Range",
+  "shape": "suv",
   "range_km": 495.0
  },
  {
   "id": 3307,
   "make": "Opel",
   "model": "Mokka Electric GSE",
+  "shape": "suv",
   "range_km": 280.0
  },
  {
   "id": 3380,
   "make": "Porsche",
   "model": "Macan 4S Electric",
+  "shape": "suv",
   "range_km": 470.0
  },
  {
   "id": 3187,
   "make": "Ford",
   "model": "Mustang Mach-E SR RWD",
+  "shape": "suv",
   "range_km": 380.0
  },
  {
   "id": 3224,
   "make": "Lancia",
   "model": "Ypsilon 54 kWh",
+  "shape": "hatchback",
   "range_km": 325.0
  },
  {
   "id": 3201,
   "make": "Opel",
   "model": "Grandland Electric 73 kWh AWD",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 3303,
   "make": "TOGG",
   "model": "T10X Long Range AWD",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3310,
   "make": "Volkswagen",
   "model": "e-Transporter Kombi L1 160 kW 64 kWh",
+  "shape": "spv",
   "range_km": 255.0
  },
  {
   "id": 3629,
   "make": "Voyah",
   "model": "Dream 108 kWh",
+  "shape": "mpv",
   "range_km": 435.0
  },
  {
   "id": 2185,
   "make": "Alfa Romeo",
   "model": "Junior Elettrica 54 kWh Veloce",
+  "shape": "suv",
   "range_km": 300.0
  },
  {
   "id": 2187,
   "make": "Maserati",
   "model": "GranCabrio Folgore",
+  "shape": "cabrio",
   "range_km": 395.0
  },
  {
   "id": 1727,
   "make": "Fiat",
   "model": "500e Cabrio 24 kWh",
+  "shape": "cabrio",
   "range_km": 135.0
  },
  {
   "id": 3422,
   "make": "Ford",
   "model": "e-Tourneo Custom L1 210 kW RWD",
+  "shape": "spv",
   "range_km": 255.0
  },
  {
   "id": 2104,
   "make": "Porsche",
   "model": "Taycan Sport Turismo",
+  "shape": "station",
   "range_km": 460.0
  },
  {
   "id": 2140,
   "make": "Mercedes-Benz",
   "model": "eVito Tourer Long 90 kWh",
+  "shape": "spv",
   "range_km": 325.0
  },
  {
   "id": 3502,
   "make": "Volkswagen",
   "model": "ID.5 GTX",
+  "shape": "suv",
   "range_km": 430.0
  },
  {
   "id": 1915,
   "make": "NIO",
   "model": "ET5 Touring Standard Range",
+  "shape": "station",
   "range_km": 400.0
  },
  {
   "id": 3189,
   "make": "Ford",
   "model": "Mustang Mach-E ER AWD",
+  "shape": "suv",
   "range_km": 435.0
  },
  {
   "id": 3208,
   "make": "Toyota",
   "model": "Urban Cruiser 48.8 kWh",
+  "shape": "suv",
   "range_km": 270.0
  },
  {
   "id": 2089,
   "make": "Mercedes-Benz",
   "model": "EQS SUV 500 4MATIC",
+  "shape": "suv",
   "range_km": 530.0
  },
  {
   "id": 2271,
   "make": "Audi",
   "model": "S6 Sportback e-tron",
+  "shape": "liftback",
   "range_km": 555.0
  },
  {
   "id": 3059,
   "make": "Mini",
   "model": "Aceman JCW",
+  "shape": "suv",
   "range_km": 280.0
  },
  {
   "id": 3649,
   "make": "Ford",
   "model": "Capri Extended Range AWD",
+  "shape": "liftback",
   "range_km": 445.0
  },
  {
   "id": 3623,
   "make": "DS Automobiles",
   "model": "N°7 FWD",
+  "shape": "suv",
   "range_km": 395.0
  },
  {
   "id": 3060,
   "make": "Porsche",
   "model": "Taycan 4",
+  "shape": "sedan",
   "range_km": 490.0
  },
  {
   "id": 3631,
   "make": "Volkswagen",
   "model": "ID. Buzz NWB Pro",
+  "shape": "spv",
   "range_km": 365.0
  },
  {
   "id": 3062,
   "make": "Porsche",
   "model": "Taycan GTS",
+  "shape": "sedan",
   "range_km": 535.0
  },
  {
   "id": 3447,
   "make": "KGM",
   "model": "Musso EV 2WD",
+  "shape": "pickup",
   "range_km": 365.0
  },
  {
   "id": 3594,
   "make": "Audi",
   "model": "Q4 Sportback e-tron quattro performance",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 1904,
   "make": "Abarth",
   "model": "500e Convertible",
+  "shape": "hatchback",
   "range_km": 225.0
  },
  {
   "id": 3306,
   "make": "TOGG",
   "model": "T10F Long Range AWD",
+  "shape": "liftback",
   "range_km": 465.0
  },
  {
   "id": 3382,
   "make": "Porsche",
   "model": "Macan Turbo Electric",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 2239,
   "make": "Mercedes-Benz",
   "model": "EQT 200 Long",
+  "shape": "spv",
   "range_km": 220.0
  },
  {
   "id": 3238,
   "make": "Genesis",
   "model": "G80 Electrified",
+  "shape": "sedan",
   "range_km": 490.0
  },
  {
   "id": 1921,
   "make": "NIO",
   "model": "EL6 Standard Range",
+  "shape": "suv",
   "range_km": 365.0
  },
  {
   "id": 1987,
   "make": "Mercedes-Benz",
   "model": "EQA 350 4MATIC",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 2266,
   "make": "Toyota",
   "model": "Proace Verso M 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 3117,
   "make": "BMW",
   "model": "i5 M60 xDrive Touring",
+  "shape": "station",
   "range_km": 425.0
  },
  {
   "id": 3272,
   "make": "Lucid",
   "model": "Air Touring",
+  "shape": "sedan",
   "range_km": 600.0
  },
  {
   "id": 3647,
   "make": "Ford",
   "model": "Capri Standard Range RWD",
+  "shape": "liftback",
   "range_km": 350.0
  },
  {
   "id": 2264,
   "make": "Toyota",
   "model": "Proace Verso M 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  },
  {
   "id": 3381,
   "make": "Porsche",
   "model": "Macan GTS Electric",
+  "shape": "suv",
   "range_km": 465.0
  },
  {
   "id": 3573,
   "make": "Škoda",
   "model": "Enyaq Coupe 60",
+  "shape": "suv",
   "range_km": 360.0
  },
  {
   "id": 3589,
   "make": "Audi",
   "model": "Q4 e-tron quattro",
+  "shape": "suv",
   "range_km": 410.0
  },
  {
   "id": 3234,
   "make": "Genesis",
   "model": "GV60 Pure",
+  "shape": "suv",
   "range_km": 425.0
  },
  {
   "id": 3217,
   "make": "Lotus",
   "model": "Eletre 900",
+  "shape": "suv",
   "range_km": 455.0
  },
  {
   "id": 1328,
   "make": "Fiat",
   "model": "500e 3+1 42 kWh",
+  "shape": "hatchback",
   "range_km": 235.0
  },
  {
   "id": 3266,
   "make": "Cadillac",
   "model": "LYRIQ-V",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3591,
   "make": "Audi",
   "model": "Q4 Sportback e-tron",
+  "shape": "suv",
   "range_km": 355.0
  },
  {
   "id": 2102,
   "make": "Porsche",
   "model": "Taycan Turbo",
+  "shape": "sedan",
   "range_km": 535.0
  },
  {
   "id": 3243,
   "make": "Mercedes-Benz",
   "model": "EQE AMG 53 4MATIC+",
+  "shape": "sedan",
   "range_km": 450.0
  },
  {
   "id": 3482,
   "make": "Volvo",
   "model": "EX30 Cross Country P5 Long Range",
+  "shape": "suv",
   "range_km": 350.0
  },
  {
   "id": 3288,
   "make": "Kia",
   "model": "PV5 Passenger 51.5 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 2160,
   "make": "Citroën",
   "model": "ë-Berlingo XL 50 kWh",
+  "shape": "spv",
   "range_km": 230.0
  },
  {
   "id": 2112,
   "make": "Porsche",
   "model": "Taycan Turbo Cross Turismo",
+  "shape": "station",
   "range_km": 495.0
  },
  {
   "id": 2217,
   "make": "Smart",
   "model": "#1 Pure",
+  "shape": "suv",
   "range_km": 250.0
  },
  {
   "id": 3154,
   "make": "Volvo",
   "model": "EC40 Single Motor",
+  "shape": "suv",
   "range_km": 360.0
  },
  {
   "id": 1920,
   "make": "Smart",
   "model": "#1 Pulse",
+  "shape": "suv",
   "range_km": 325.0
  },
  {
   "id": 3593,
   "make": "Audi",
   "model": "Q4 Sportback e-tron quattro",
+  "shape": "suv",
   "range_km": 425.0
  },
  {
   "id": 3636,
   "make": "Volkswagen",
   "model": "ID. Buzz LWB GTX",
+  "shape": "spv",
   "range_km": 380.0
  },
  {
   "id": 2274,
   "make": "Mercedes-Benz",
   "model": "EQV 300 Extra-Long",
+  "shape": "spv",
   "range_km": 315.0
  },
  {
   "id": 3326,
   "make": "Polestar",
   "model": "3 Rear Motor",
+  "shape": "suv",
   "range_km": 445.0
  },
  {
   "id": 3445,
   "make": "Ford",
   "model": "Capri Standard Range RWD",
+  "shape": "liftback",
   "range_km": 350.0
  },
  {
   "id": 3584,
   "make": "Zeekr",
   "model": "X Core RWD",
+  "shape": "suv",
   "range_km": 260.0
  },
  {
   "id": 1908,
   "make": "Mercedes-Benz",
   "model": "EQT 200 Standard",
+  "shape": "spv",
   "range_km": 225.0
  },
  {
   "id": 3514,
   "make": "Abarth",
   "model": "600e Competizione",
+  "shape": "suv",
   "range_km": 280.0
  },
  {
   "id": 3670,
   "make": "Kia",
   "model": "PV5 Passenger 51.5 kWh - 7 Seats",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 2163,
   "make": "Peugeot",
   "model": "e-Rifter M 50 kWh",
+  "shape": "spv",
   "range_km": 235.0
  },
  {
   "id": 2246,
   "make": "GWM",
   "model": "ORA 07 Pro",
+  "shape": "sedan",
   "range_km": 350.0
  },
  {
   "id": 3315,
   "make": "Volkswagen",
   "model": "e-Caravelle L1 100 kW 64 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 3424,
   "make": "Ford",
   "model": "e-Tourneo Custom L2 160 kW RWD",
+  "shape": "spv",
   "range_km": 270.0
  },
  {
   "id": 3483,
   "make": "Volvo",
   "model": "EX30 Cross Country P8 AWD",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 2259,
   "make": "Peugeot",
   "model": "e-Traveller L3 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 3056,
   "make": "Abarth",
   "model": "600e Turismo",
+  "shape": "suv",
   "range_km": 280.0
  },
  {
   "id": 3425,
   "make": "Ford",
   "model": "e-Tourneo Custom L2 160 kW AWD",
+  "shape": "spv",
   "range_km": 260.0
  },
  {
   "id": 3635,
   "make": "Volkswagen",
   "model": "ID. Buzz LWB Pro 4MOTION",
+  "shape": "spv",
   "range_km": 380.0
  },
  {
   "id": 3311,
   "make": "Volkswagen",
   "model": "e-Transporter Kombi L1 210 kW 64 kWh",
+  "shape": "spv",
   "range_km": 255.0
  },
  {
   "id": 2162,
   "make": "Opel",
   "model": "Combo Electric XL 50 kWh",
+  "shape": "spv",
   "range_km": 230.0
  },
  {
   "id": 2218,
   "make": "Smart",
   "model": "#1 Pure+",
+  "shape": "suv",
   "range_km": 335.0
  },
  {
   "id": 2260,
   "make": "Opel",
   "model": "Zafira Electric 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  },
  {
   "id": 2262,
   "make": "Opel",
   "model": "Zafira Electric 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 3632,
   "make": "Volkswagen",
   "model": "ID. Buzz NWB Pro 4MOTION",
+  "shape": "spv",
   "range_km": 360.0
  },
  {
   "id": 1809,
   "make": "VinFast",
   "model": "VF 8 Plus Extended Range",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 2254,
   "make": "Citroën",
   "model": "ë-SpaceTourer M 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 2256,
   "make": "Peugeot",
   "model": "e-Traveller L2 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  },
  {
   "id": 2105,
   "make": "Porsche",
   "model": "Taycan Plus Sport Turismo",
+  "shape": "station",
   "range_km": 530.0
  },
  {
   "id": 3284,
   "make": "Mercedes-Benz",
   "model": "EQE SUV 350+",
+  "shape": "suv",
   "range_km": 475.0
  },
  {
   "id": 3312,
   "make": "Volkswagen",
   "model": "e-Transporter Kombi L2 100 kW 64 kWh",
+  "shape": "spv",
   "range_km": 250.0
  },
  {
   "id": 3044,
   "make": "Audi",
   "model": "SQ6 Sportback e-tron",
+  "shape": "suv",
   "range_km": 495.0
  },
  {
   "id": 3061,
   "make": "Porsche",
   "model": "Taycan 4 Plus",
+  "shape": "sedan",
   "range_km": 565.0
  },
  {
   "id": 2108,
   "make": "Porsche",
   "model": "Taycan Turbo Sport Turismo",
+  "shape": "station",
   "range_km": 505.0
  },
  {
   "id": 3063,
   "make": "Porsche",
   "model": "Taycan GTS Sport Turismo",
+  "shape": "station",
   "range_km": 505.0
  },
  {
   "id": 3421,
   "make": "Ford",
   "model": "e-Tourneo Custom L1 160 kW AWD",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 3157,
   "make": "Volvo",
   "model": "EC40 Twin Motor Performance",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3265,
   "make": "Hongqi",
   "model": "E-HS7 111 kWh AWD Pro",
+  "shape": "suv",
   "range_km": 470.0
  },
  {
   "id": 2109,
   "make": "Porsche",
   "model": "Taycan Turbo S Sport Turismo",
+  "shape": "station",
   "range_km": 505.0
  },
  {
   "id": 3287,
   "make": "Mercedes-Benz",
   "model": "EQE SUV AMG 53 4MATIC+",
+  "shape": "suv",
   "range_km": 420.0
  },
  {
   "id": 3309,
   "make": "Volkswagen",
   "model": "e-Transporter Kombi L1 100 kW 64 kWh",
+  "shape": "spv",
   "range_km": 255.0
  },
  {
   "id": 2164,
   "make": "Peugeot",
   "model": "e-Rifter XL 50 kWh",
+  "shape": "spv",
   "range_km": 230.0
  },
  {
   "id": 3191,
   "make": "Ford",
   "model": "Mustang Mach-E Rally",
+  "shape": "suv",
   "range_km": 415.0
  },
  {
   "id": 3235,
   "make": "Genesis",
   "model": "GV60 Sport",
+  "shape": "suv",
   "range_km": 415.0
  },
  {
   "id": 3236,
   "make": "Genesis",
   "model": "GV60 Performance",
+  "shape": "suv",
   "range_km": 400.0
  },
  {
   "id": 3319,
   "make": "Volkswagen",
   "model": "e-Caravelle L2 160 kW 64 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 2129,
   "make": "Mercedes-Benz",
   "model": "EQV 250 Long",
+  "shape": "spv",
   "range_km": 215.0
  },
  {
   "id": 3423,
   "make": "Ford",
   "model": "e-Tourneo Custom L1 210 kW AWD",
+  "shape": "spv",
   "range_km": 255.0
  },
  {
   "id": 3501,
   "make": "Volkswagen",
   "model": "ID.5 Pro 4MOTION",
+  "shape": "suv",
   "range_km": 440.0
  },
  {
   "id": 3633,
   "make": "Volkswagen",
   "model": "ID. Buzz NWB GTX",
+  "shape": "spv",
   "range_km": 360.0
  },
  {
   "id": 2106,
   "make": "Porsche",
   "model": "Taycan 4S Sport Turismo",
+  "shape": "station",
   "range_km": 440.0
  },
  {
   "id": 3427,
   "make": "Ford",
   "model": "e-Tourneo Custom L2 210 kW AWD",
+  "shape": "spv",
   "range_km": 250.0
  },
  {
   "id": 3283,
   "make": "Mercedes-Benz",
   "model": "EQE SUV 300",
+  "shape": "suv",
   "range_km": 450.0
  },
  {
   "id": 2130,
   "make": "Mercedes-Benz",
   "model": "EQV 250 Extra-Long",
+  "shape": "spv",
   "range_km": 210.0
  },
  {
   "id": 3420,
   "make": "Ford",
   "model": "e-Tourneo Custom L1 160 kW RWD",
+  "shape": "spv",
   "range_km": 270.0
  },
  {
   "id": 2107,
   "make": "Porsche",
   "model": "Taycan 4S Plus Sport Turismo",
+  "shape": "station",
   "range_km": 510.0
  },
  {
   "id": 2255,
   "make": "Citroën",
   "model": "ë-SpaceTourer XL 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 3316,
   "make": "Volkswagen",
   "model": "e-Caravelle L1 160 kW 64 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 2258,
   "make": "Peugeot",
   "model": "e-Traveller L2 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 2139,
   "make": "Mercedes-Benz",
   "model": "eVito Tourer Extra-Long 60 kWh",
+  "shape": "spv",
   "range_km": 215.0
  },
  {
   "id": 2252,
   "make": "Citroën",
   "model": "ë-SpaceTourer M 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  },
  {
   "id": 3313,
   "make": "Volkswagen",
   "model": "e-Transporter Kombi L2 160 kW 64 kWh",
+  "shape": "spv",
   "range_km": 250.0
  },
  {
   "id": 2257,
   "make": "Peugeot",
   "model": "e-Traveller L3 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  },
  {
   "id": 3426,
   "make": "Ford",
   "model": "e-Tourneo Custom L2 210 kW RWD",
+  "shape": "spv",
   "range_km": 255.0
  },
  {
   "id": 3076,
   "make": "DS Automobiles",
   "model": "N°8 FWD",
+  "shape": "liftback",
   "range_km": 415.0
  },
  {
   "id": 2113,
   "make": "Porsche",
   "model": "Taycan Turbo S Cross Turismo",
+  "shape": "station",
   "range_km": 485.0
  },
  {
   "id": 2138,
   "make": "Mercedes-Benz",
   "model": "eVito Tourer Long 60 kWh",
+  "shape": "spv",
   "range_km": 220.0
  },
  {
   "id": 3317,
   "make": "Volkswagen",
   "model": "e-Caravelle L1 210 kW 64 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 2261,
   "make": "Opel",
   "model": "Zafira Electric XL 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  },
  {
   "id": 3318,
   "make": "Volkswagen",
   "model": "e-Caravelle L2 100 kW 64 kWh",
+  "shape": "spv",
   "range_km": 245.0
  },
  {
   "id": 2263,
   "make": "Opel",
   "model": "Zafira Electric XL 75 kWh",
+  "shape": "spv",
   "range_km": 265.0
  },
  {
   "id": 2253,
   "make": "Citroën",
   "model": "ë-SpaceTourer XL 50 kWh",
+  "shape": "spv",
   "range_km": 180.0
  }
 ]

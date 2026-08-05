@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>APL Preise</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-text">
+      <h1>APL Preise</h1>
+      <p class="subtitle">APL-Preise statt EV-Database für bestellbare E-Autos</p>
+    </div>
+    <span id="statusDot" class="dot idle" role="status" title="Bereit"></span>
+  </header>
+
+  <p class="error" id="errLine" hidden></p>
+
+  <section class="mode">
+    <h2>Preisquelle</h2>
+    <div class="segmented" id="modeGroup" role="radiogroup" aria-label="Preisquelle">
+      <button type="button" role="radio" aria-checked="true" data-mode="none">Off</button>
+      <button type="button" role="radio" aria-checked="false" data-mode="privatkunden">Privatkunden</button>
+      <button type="button" role="radio" aria-checked="false" data-mode="geschaeftskunden">Geschäftskunden</button>
+    </div>
+  </section>
+
+  <section class="run">
+    <div class="run-row">
+      <button type="button" id="runBtn" class="btn primary">Jetzt aktualisieren</button>
+    </div>
+    <p class="meta" id="lastRun">Zuletzt aktualisiert: noch nie</p>
+    <p class="meta" id="stats" hidden></p>
+    <p class="error" id="lastErrLine" hidden></p>
+  </section>
+
+  <section class="matches">
+    <h2>Match-Überprüfung</h2>
+    <p class="meta" id="matchesEmpty" hidden>Alles automatisch zugeordnet.</p>
+    <details id="groupManual" open>
+      <summary id="groupManualTitle">Manuell zuordnen (0)</summary>
+      <ul id="listManual" class="match-list"></ul>
+    </details>
+    <details id="groupNoMake">
+      <summary id="groupNoMakeTitle">Marke nicht bei APL (0)</summary>
+      <ul id="listNoMake" class="match-list"></ul>
+    </details>
+    <p class="meta" id="truncNote" hidden></p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-row">
+      <button type="button" id="cacheBtn" class="btn ghost">Cache leeren</button>
+      <span class="meta" id="autoPct"></span>
+    </div>
+    <p class="note">Preise von apl.de (Privat- und Geschäftskundenpreise), 24 h zwischengespeichert.</p>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

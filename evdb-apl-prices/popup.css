@@ -1,0 +1,141 @@
+/* APL Preise – Popup-Styles. Modern, ruhig, nur Hell-Modus. */
+:root {
+  --bg: #ffffff;
+  --fg: #1d2422;
+  --muted: #64706c;
+  --line: #e4e9e7;
+  --accent: #1f7a5c;        /* ruhiges Grün */
+  --accent-strong: #175f47;
+  --accent-soft: #e9f3ee;
+  --danger: #b3261e;
+  --warn: #b45309;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  width: 380px;
+  max-height: 560px;
+  margin: 0;
+  padding: 16px;
+  overflow-y: auto;
+  background: var(--bg);
+  color: var(--fg);
+  font: 13px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 { margin: 0; font-size: 15px; font-weight: 650; }
+h2 { margin: 0 0 8px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+
+/* Kopfbereich */
+.header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.header-text { min-width: 0; }
+.subtitle { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+
+.dot { width: 9px; height: 9px; margin-top: 4px; border-radius: 50%; flex: none; background: var(--accent); }
+.dot.running { background: var(--warn); }
+.dot.error { background: var(--danger); }
+
+section { margin-top: 16px; }
+
+/* Segment-Schalter */
+.segmented { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.segmented button {
+  flex: 1;
+  padding: 6px 6px;
+  border: 0;
+  background: transparent;
+  color: var(--fg);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.segmented button + button { border-left: 1px solid var(--line); }
+.segmented button:hover { background: var(--accent-soft); }
+.segmented button.active { background: var(--accent); color: #fff; font-weight: 600; }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover { border-color: var(--accent); color: var(--accent-strong); }
+.btn:disabled { opacity: 0.6; cursor: default; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover { background: var(--accent-strong); color: #fff; }
+.btn.small { padding: 3px 10px; font-size: 12px; }
+.btn.ghost { color: var(--muted); font-weight: 500; }
+.btn.ghost:hover { color: var(--accent-strong); }
+
+/* Spinner nur auf dem Aktualisieren-Button */
+.btn.loading::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Textzeilen */
+.meta { margin: 6px 0 0; font-size: 12px; color: var(--muted); }
+.error { margin: 6px 0 0; font-size: 12px; color: var(--danger); }
+.note { margin: 10px 0 0; font-size: 11px; color: var(--muted); }
+.run-row { display: flex; align-items: center; }
+
+/* Match-Überprüfung */
+details { margin-top: 4px; }
+summary {
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+summary::-webkit-details-marker { display: none; }
+summary::before { content: '▸'; display: inline-block; width: 14px; color: var(--muted); }
+details[open] > summary::before { transform: rotate(90deg); }
+
+.match-list { margin: 0; padding: 0; list-style: none; }
+.match-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+}
+.match-row:last-child { border-bottom: 0; }
+.match-id { min-width: 0; display: flex; flex-direction: column; }
+.match-id .make { font-size: 11px; color: var(--muted); }
+.match-id .model { font-size: 13px; font-weight: 550; }
+.match-row.no-make .model { color: var(--muted); font-weight: 450; }
+.match-controls { display: flex; align-items: center; gap: 6px; flex: none; }
+.match-controls select {
+  max-width: 150px;
+  font: inherit;
+  font-size: 12px;
+  padding: 3px 4px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--bg);
+}
+
+/* Fußbereich */
+.footer { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); }
+.footer-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
