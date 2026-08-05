@@ -1,0 +1,2870 @@
+{
+  "generatedAt": "2026-08-05T22:07:56.110Z",
+  "source": "privatkunden",
+  "count": 409,
+  "prices": {
+    "BMW|iX3 50 xDrive (MY26)": {
+      "slug": "ix3",
+      "endpreis": "58.864,40",
+      "kaufpreis": "58.074,40",
+      "ersparnis": "5.325,60 (8,40)",
+      "lieferzeit": "10-11 Monate"
+    },
+    "BMW|iX3 40 (MY26)": {
+      "slug": "ix3",
+      "endpreis": "58.864,40",
+      "kaufpreis": "58.074,40",
+      "ersparnis": "5.325,60 (8,40)",
+      "lieferzeit": "10-11 Monate"
+    },
+    "Fiat|500e Hatchback 42 kWh": {
+      "slug": "500e-3-plus1",
+      "endpreis": "25.359,15",
+      "kaufpreis": "24.469,15",
+      "ersparnis": "7.520,85 (23,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Fiat|500e Cabrio 42 kWh": {
+      "slug": "500e-3-plus1",
+      "endpreis": "25.359,15",
+      "kaufpreis": "24.469,15",
+      "ersparnis": "7.520,85 (23,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Fiat|500e Hatchback 24 kWh": {
+      "slug": "500e-3-plus1",
+      "endpreis": "21.534,65",
+      "kaufpreis": "20.644,65",
+      "ersparnis": "6.345,35 (23,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Fiat|500e Cabrio 24 kWh": {
+      "slug": "500e-3-plus1",
+      "endpreis": "21.534,65",
+      "kaufpreis": "20.644,65",
+      "ersparnis": "6.345,35 (23,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Fiat|500e 3+1 42 kWh": {
+      "slug": "500e-3-plus1",
+      "endpreis": "25.359,15",
+      "kaufpreis": "24.469,15",
+      "ersparnis": "7.520,85 (23,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Kia|EV3 Long Range (MY25-26)": {
+      "slug": "ev3",
+      "endpreis": "31.705,95",
+      "kaufpreis": "30.407,95",
+      "ersparnis": "5.582,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV3 Standard Range (MY25-26)": {
+      "slug": "ev3",
+      "endpreis": "31.705,95",
+      "kaufpreis": "30.407,95",
+      "ersparnis": "5.582,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV3 Long Range (MY27)": {
+      "slug": "ev3",
+      "endpreis": "31.705,95",
+      "kaufpreis": "30.407,95",
+      "ersparnis": "5.582,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV3 Long Range AWD (MY27)": {
+      "slug": "ev3",
+      "endpreis": "31.705,95",
+      "kaufpreis": "30.407,95",
+      "ersparnis": "5.582,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV3 GT (MY27)": {
+      "slug": "ev3",
+      "endpreis": "31.705,95",
+      "kaufpreis": "30.407,95",
+      "ersparnis": "5.582,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV3 Standard Range (MY27)": {
+      "slug": "ev3",
+      "endpreis": "31.705,95",
+      "kaufpreis": "30.407,95",
+      "ersparnis": "5.582,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Hyundai|IONIQ 3 61 kWh (MY27)": {
+      "slug": "ioniq-5",
+      "endpreis": "45.876,59",
+      "kaufpreis": "44.627,09",
+      "ersparnis": "9.472,91 (17,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 5 84 kWh RWD (MY24)": {
+      "slug": "ioniq-5",
+      "endpreis": "45.876,59",
+      "kaufpreis": "44.627,09",
+      "ersparnis": "9.472,91 (17,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 5 63 kWh RWD (MY24)": {
+      "slug": "ioniq-5",
+      "endpreis": "45.876,59",
+      "kaufpreis": "44.627,09",
+      "ersparnis": "9.472,91 (17,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 5 84 kWh AWD (MY24)": {
+      "slug": "ioniq-5",
+      "endpreis": "45.876,59",
+      "kaufpreis": "44.627,09",
+      "ersparnis": "9.472,91 (17,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 3 42.2 kWh (MY27)": {
+      "slug": "ioniq-5",
+      "endpreis": "38.988,68",
+      "kaufpreis": "37.739,18",
+      "ersparnis": "8.010,83 (17,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 5 N (MY24)": {
+      "slug": "ioniq-5",
+      "endpreis": "38.988,68",
+      "kaufpreis": "37.739,18",
+      "ersparnis": "8.010,83 (17,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Leapmotor|B05 67.1 kWh": {
+      "slug": "b05",
+      "endpreis": "29.912,62",
+      "kaufpreis": "29.022,62",
+      "ersparnis": "2.877,38 (9,02)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Leapmotor|B05 56.2 kWh": {
+      "slug": "b05",
+      "endpreis": "26.415,71",
+      "kaufpreis": "25.525,71",
+      "ersparnis": "2.374,29 (8,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EX60 P12 AWD (MY27)": {
+      "slug": "ex60",
+      "endpreis": "58.543,92",
+      "kaufpreis": "57.194,92",
+      "ersparnis": "5.795,08 (9,20)",
+      "lieferzeit": "9-11 Monate"
+    },
+    "Volvo|EX60 P10 AWD (MY27)": {
+      "slug": "ex60",
+      "endpreis": "58.543,92",
+      "kaufpreis": "57.194,92",
+      "ersparnis": "5.795,08 (9,20)",
+      "lieferzeit": "9-11 Monate"
+    },
+    "Volvo|EX60 P6 (MY27)": {
+      "slug": "ex60",
+      "endpreis": "58.543,92",
+      "kaufpreis": "57.194,92",
+      "ersparnis": "5.795,08 (9,20)",
+      "lieferzeit": "9-11 Monate"
+    },
+    "BYD|ATTO 2 64.8 kWh": {
+      "slug": "atto-2",
+      "endpreis": "31.180,97",
+      "kaufpreis": "29.916,97",
+      "ersparnis": "12.073,03 (28,75)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|ATTO 3 (MY25)": {
+      "slug": "atto-2",
+      "endpreis": "31.180,97",
+      "kaufpreis": "29.916,97",
+      "ersparnis": "12.073,03 (28,75)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|ATTO 2 45.12 kWh": {
+      "slug": "atto-2",
+      "endpreis": "31.180,97",
+      "kaufpreis": "29.916,97",
+      "ersparnis": "12.073,03 (28,75)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|ATTO 2 51.1 kWh": {
+      "slug": "atto-2",
+      "endpreis": "31.180,97",
+      "kaufpreis": "29.916,97",
+      "ersparnis": "12.073,03 (28,75)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Renault|5 E-Tech 52kWh 150hp": {
+      "slug": "r5-e-tech",
+      "endpreis": "28.237,50",
+      "kaufpreis": "27.047,50",
+      "ersparnis": "3.952,50 (12,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Renault|5 E-Tech 40kWh 120hp": {
+      "slug": "r5-e-tech",
+      "endpreis": "25.060,00",
+      "kaufpreis": "23.870,00",
+      "ersparnis": "4.130,00 (14,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Renault|5 E-Tech 40kWh 95hp": {
+      "slug": "r5-e-tech",
+      "endpreis": "25.060,00",
+      "kaufpreis": "23.870,00",
+      "ersparnis": "4.130,00 (14,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "BYD|SEALION 7 91.3 kWh AWD Excellence": {
+      "slug": "sealion-7",
+      "endpreis": "44.872,97",
+      "kaufpreis": "43.608,97",
+      "ersparnis": "12.381,03 (22,11)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|SEALION 7 82.5 kWh RWD Comfort": {
+      "slug": "sealion-7",
+      "endpreis": "41.454,97",
+      "kaufpreis": "40.190,97",
+      "ersparnis": "9.799,03 (19,60)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|SEALION 7 82.5 kWh AWD Design": {
+      "slug": "sealion-7",
+      "endpreis": "41.454,97",
+      "kaufpreis": "40.190,97",
+      "ersparnis": "9.799,03 (19,60)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Toyota|C-HR+ 77 kWh (MY26)": {
+      "slug": "c-hr",
+      "endpreis": "34.832,05",
+      "kaufpreis": "33.533,05",
+      "ersparnis": "7.156,95 (17,59)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Toyota|C-HR+ 57.7 kWh (MY26)": {
+      "slug": "c-hr",
+      "endpreis": "29.164,00",
+      "kaufpreis": "27.865,00",
+      "ersparnis": "6.125,00 (18,02)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Toyota|C-HR+ 77 kWh AWD (MY26)": {
+      "slug": "c-hr",
+      "endpreis": "34.832,05",
+      "kaufpreis": "33.533,05",
+      "ersparnis": "7.156,95 (17,59)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID.3 Neo 79 kWh (MY27)": {
+      "slug": "id-3",
+      "endpreis": "39.090,57",
+      "kaufpreis": "38.320,57",
+      "ersparnis": "6.674,43 (14,83)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Volkswagen|ID.3 Neo 58 kWh (MY27)": {
+      "slug": "id-3",
+      "endpreis": "33.957,57",
+      "kaufpreis": "33.187,57",
+      "ersparnis": "6.007,43 (15,33)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Volkswagen|ID.3 Neo 50 kWh (MY27)": {
+      "slug": "id-3",
+      "endpreis": "29.355,57",
+      "kaufpreis": "28.585,57",
+      "ersparnis": "5.409,43 (15,91)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Leapmotor|B10 67.1 kWh": {
+      "slug": "b10",
+      "endpreis": "30.208,76",
+      "kaufpreis": "29.318,76",
+      "ersparnis": "3.081,24 (9,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Leapmotor|B10 56.2 kWh": {
+      "slug": "b10",
+      "endpreis": "27.946,51",
+      "kaufpreis": "27.056,51",
+      "ersparnis": "2.843,49 (9,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Renault|Twingo E-Tech 27.5 kWh": {
+      "slug": "twingo",
+      "endpreis": "20.230,47",
+      "kaufpreis": "19.040,47",
+      "ersparnis": "949,53 (4,75)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|IONIQ 6 84 kWh RWD (MY26)": {
+      "slug": "ioniq-6",
+      "endpreis": "49.631,47",
+      "kaufpreis": "48.381,97",
+      "ersparnis": "6.918,03 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|IONIQ 6 63 kWh RWD (MY26)": {
+      "slug": "ioniq-6",
+      "endpreis": "41.101,20",
+      "kaufpreis": "39.851,70",
+      "ersparnis": "5.698,31 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|IONIQ 6 Long Range 2WD (MY23-25)": {
+      "slug": "ioniq-6",
+      "endpreis": "41.101,20",
+      "kaufpreis": "39.851,70",
+      "ersparnis": "5.698,31 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|IONIQ 6 Long Range AWD (MY23-25)": {
+      "slug": "ioniq-6",
+      "endpreis": "41.101,20",
+      "kaufpreis": "39.851,70",
+      "ersparnis": "5.698,31 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|IONIQ 6 84 kWh AWD (MY26)": {
+      "slug": "ioniq-6",
+      "endpreis": "49.631,47",
+      "kaufpreis": "48.381,97",
+      "ersparnis": "6.918,03 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|IONIQ 6 N (MY26)": {
+      "slug": "ioniq-6",
+      "endpreis": "41.101,20",
+      "kaufpreis": "39.851,70",
+      "ersparnis": "5.698,31 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Kia|EV4 Hatchback 81.4 kWh (MY25-26)": {
+      "slug": "ev4",
+      "endpreis": "37.831,48",
+      "kaufpreis": "36.533,48",
+      "ersparnis": "6.706,52 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV4 Hatchback 81.4 kWh (MY27)": {
+      "slug": "ev4",
+      "endpreis": "37.831,48",
+      "kaufpreis": "36.533,48",
+      "ersparnis": "6.706,52 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV4 Hatchback 81.4 kWh GT (MY27)": {
+      "slug": "ev4",
+      "endpreis": "37.831,48",
+      "kaufpreis": "36.533,48",
+      "ersparnis": "6.706,52 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV4 Hatchback 58.3 kWh (MY25-26)": {
+      "slug": "ev4",
+      "endpreis": "33.057,79",
+      "kaufpreis": "31.759,79",
+      "ersparnis": "5.830,21 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV4 Hatchback 81.4 kWh AWD (MY27)": {
+      "slug": "ev4",
+      "endpreis": "37.831,48",
+      "kaufpreis": "36.533,48",
+      "ersparnis": "6.706,52 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV4 Hatchback 58.3 kWh (MY27)": {
+      "slug": "ev4",
+      "endpreis": "33.057,79",
+      "kaufpreis": "31.759,79",
+      "ersparnis": "5.830,21 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV6 Long Range AWD": {
+      "slug": "ev6",
+      "endpreis": "39.382,05",
+      "kaufpreis": "38.012,05",
+      "ersparnis": "6.977,95 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV6 Long Range 2WD": {
+      "slug": "ev6",
+      "endpreis": "39.382,05",
+      "kaufpreis": "38.012,05",
+      "ersparnis": "6.977,95 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV6 GT": {
+      "slug": "ev6",
+      "endpreis": "39.382,05",
+      "kaufpreis": "38.012,05",
+      "ersparnis": "6.977,95 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV6 Standard Range 2WD": {
+      "slug": "ev6",
+      "endpreis": "39.382,05",
+      "kaufpreis": "38.012,05",
+      "ersparnis": "6.977,95 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Leapmotor|T03": {
+      "slug": "t03",
+      "endpreis": "18.748,61",
+      "kaufpreis": "17.858,61",
+      "ersparnis": "1.041,39 (5,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Mazda|6e 68.8 kWh (MY25)": {
+      "slug": "6e",
+      "endpreis": "36.954,90",
+      "kaufpreis": "35.964,90",
+      "ersparnis": "8.935,10 (19,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Mazda|6e Long Range 80 kWh (MY25)": {
+      "slug": "6e",
+      "endpreis": "37.194,50",
+      "kaufpreis": "36.204,50",
+      "ersparnis": "10.295,50 (22,14)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Mazda|6e 78 kWh (MY26)": {
+      "slug": "6e",
+      "endpreis": "37.194,50",
+      "kaufpreis": "36.204,50",
+      "ersparnis": "10.295,50 (22,14)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Hyundai|Kona Electric 65 kWh (MY24-25)": {
+      "slug": "kona-elektro",
+      "endpreis": "37.417,87",
+      "kaufpreis": "36.168,37",
+      "ersparnis": "5.171,63 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|Kona Electric 64.8 kWh (MY26)": {
+      "slug": "kona-elektro",
+      "endpreis": "37.417,87",
+      "kaufpreis": "36.168,37",
+      "ersparnis": "5.171,63 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Hyundai|Kona Electric 48.6 kWh (MY26)": {
+      "slug": "kona-elektro",
+      "endpreis": "34.793,17",
+      "kaufpreis": "33.543,67",
+      "ersparnis": "4.796,33 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Kia|PV5 Passenger 71.2 kWh (MY27)": {
+      "slug": "pv5-passenger",
+      "endpreis": "36.467,15",
+      "kaufpreis": "35.097,15",
+      "ersparnis": "6.442,85 (15,51)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Kia|PV5 Passenger 71.2 kWh - 7 Seats (MY27)": {
+      "slug": "pv5-passenger",
+      "endpreis": "36.467,15",
+      "kaufpreis": "35.097,15",
+      "ersparnis": "6.442,85 (15,51)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Kia|PV5 Passenger 51.5 kWh (MY27)": {
+      "slug": "pv5-passenger",
+      "endpreis": "33.805,71",
+      "kaufpreis": "32.435,71",
+      "ersparnis": "5.954,29 (15,51)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Kia|PV5 Passenger 51.5 kWh - 7 Seats (MY27)": {
+      "slug": "pv5-passenger",
+      "endpreis": "33.805,71",
+      "kaufpreis": "32.435,71",
+      "ersparnis": "5.954,29 (15,51)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Volkswagen|ID. Polo 155 kW - 52 kWh (MY27)": {
+      "slug": "id-polo",
+      "endpreis": "29.592,57",
+      "kaufpreis": "28.908,57",
+      "ersparnis": "4.886,43 (14,46)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Volkswagen|ID. Polo 85 kW - 37 kWh (MY27)": {
+      "slug": "id-polo",
+      "endpreis": "22.802,07",
+      "kaufpreis": "22.118,07",
+      "ersparnis": "2.876,93 (11,51)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Volkswagen|ID. Polo 99 kW - 37 kWh (MY27)": {
+      "slug": "id-polo",
+      "endpreis": "22.802,07",
+      "kaufpreis": "22.118,07",
+      "ersparnis": "2.876,93 (11,51)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "BYD|DOLPHIN SURF 43.2 kWh Comfort": {
+      "slug": "dolphin-surf",
+      "endpreis": "21.935,97",
+      "kaufpreis": "20.671,97",
+      "ersparnis": "6.318,03 (23,41)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "BYD|DOLPHIN SURF 30 kWh Active": {
+      "slug": "dolphin-surf",
+      "endpreis": "19.873,97",
+      "kaufpreis": "18.609,97",
+      "ersparnis": "4.380,03 (19,05)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Škoda|Epiq 55 (MY27)": {
+      "slug": "epiq",
+      "endpreis": "26.290,39",
+      "kaufpreis": "24.874,29",
+      "ersparnis": "7.225,71 (22,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Škoda|Epiq 35 (MY27)": {
+      "slug": "epiq",
+      "endpreis": "26.290,39",
+      "kaufpreis": "24.874,29",
+      "ersparnis": "7.225,71 (22,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|INSTER Long Range": {
+      "slug": "inster",
+      "endpreis": "23.944,57",
+      "kaufpreis": "22.919,57",
+      "ersparnis": "1.730,43 (7,02)",
+      "lieferzeit": "6-8 Monate"
+    },
+    "Hyundai|INSTER Standard Range": {
+      "slug": "inster",
+      "endpreis": "23.944,57",
+      "kaufpreis": "22.919,57",
+      "ersparnis": "1.730,43 (7,02)",
+      "lieferzeit": "6-8 Monate"
+    },
+    "BYD|ATTO 3 Evo RWD Design (MY26)": {
+      "slug": "atto-3-evo",
+      "endpreis": "34.389,97",
+      "kaufpreis": "33.125,97",
+      "ersparnis": "11.864,03 (26,37)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|ATTO 3 Evo AWD Excellence (MY26)": {
+      "slug": "atto-3-evo",
+      "endpreis": "34.389,97",
+      "kaufpreis": "33.125,97",
+      "ersparnis": "11.864,03 (26,37)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Škoda|Peaq 90 (MY27)": {
+      "slug": "peaq",
+      "endpreis": "42.727,02",
+      "kaufpreis": "41.407,02",
+      "ersparnis": "8.492,98 (17,02)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Škoda|Peaq 90x (MY27)": {
+      "slug": "peaq",
+      "endpreis": "42.727,02",
+      "kaufpreis": "41.407,02",
+      "ersparnis": "8.492,98 (17,02)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Škoda|Peaq 60 (MY27)": {
+      "slug": "peaq",
+      "endpreis": "42.727,02",
+      "kaufpreis": "41.407,02",
+      "ersparnis": "8.492,98 (17,02)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Citroën|ë-C3 Standard Range 44 kWh": {
+      "slug": "e-c3",
+      "endpreis": "19.767,41",
+      "kaufpreis": "18.874,91",
+      "ersparnis": "4.575,10 (19,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Citroën|ë-C3 Urban Range 30 kWh": {
+      "slug": "e-c3",
+      "endpreis": "17.103,19",
+      "kaufpreis": "16.210,69",
+      "ersparnis": "3.929,31 (19,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "MG|MG4 Urban Comfort Long Range (MY26)": {
+      "slug": "4-urban",
+      "endpreis": "18.238,10",
+      "kaufpreis": "17.238,10",
+      "ersparnis": "7.751,90 (31,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "MG|MG4 Urban Premium Long Range (MY26)": {
+      "slug": "4-urban",
+      "endpreis": "18.238,10",
+      "kaufpreis": "17.238,10",
+      "ersparnis": "7.751,90 (31,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "MG|MG4 Premium Long Range (MY26)": {
+      "slug": "4-urban",
+      "endpreis": "18.238,10",
+      "kaufpreis": "17.238,10",
+      "ersparnis": "7.751,90 (31,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "MG|MG4 Urban Standard Range (MY26)": {
+      "slug": "4-urban",
+      "endpreis": "18.238,10",
+      "kaufpreis": "17.238,10",
+      "ersparnis": "7.751,90 (31,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "MG|MG4 Premium Extended Range (MY26)": {
+      "slug": "4-urban",
+      "endpreis": "18.238,10",
+      "kaufpreis": "17.238,10",
+      "ersparnis": "7.751,90 (31,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "MG|MG4 XPOWER (MY26)": {
+      "slug": "4-urban",
+      "endpreis": "18.238,10",
+      "kaufpreis": "17.238,10",
+      "ersparnis": "7.751,90 (31,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Renault|Scenic E-Tech EV87 220hp (TU2025)": {
+      "slug": "scenic-e-tech",
+      "endpreis": "34.501,25",
+      "kaufpreis": "33.311,25",
+      "ersparnis": "7.188,75 (17,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Renault|Scenic E-Tech EV60 170hp (TU2025)": {
+      "slug": "scenic-e-tech",
+      "endpreis": "34.501,25",
+      "kaufpreis": "33.311,25",
+      "ersparnis": "7.188,75 (17,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "BYD|TANG Flagship": {
+      "slug": "tang",
+      "endpreis": "50.979,00",
+      "kaufpreis": "49.715,00",
+      "ersparnis": "25.285,00 (33,71)",
+      "lieferzeit": "5-7 Monate"
+    },
+    "Citroën|ë-C3 Aircross Extended Range 54 kWh": {
+      "slug": "e-c3-aircross",
+      "endpreis": "27.287,18",
+      "kaufpreis": "26.394,68",
+      "ersparnis": "4.845,32 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Citroën|ë-C3 Aircross Comfort Range 44 kWh": {
+      "slug": "e-c3-aircross",
+      "endpreis": "23.400,64",
+      "kaufpreis": "22.508,14",
+      "ersparnis": "4.131,86 (15,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV2 61 kWh (MY27)": {
+      "slug": "ev2",
+      "endpreis": "29.593,70",
+      "kaufpreis": "28.295,70",
+      "ersparnis": "5.194,30 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV2 42.2 kWh (MY27)": {
+      "slug": "ev2",
+      "endpreis": "24.662,34",
+      "kaufpreis": "23.272,34",
+      "ersparnis": "3.327,66 (12,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Opel|Frontera Electric 54 kWh": {
+      "slug": "frontera",
+      "endpreis": "22.008,15",
+      "kaufpreis": "21.118,15",
+      "ersparnis": "8.421,85 (28,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Frontera Electric 44 kWh": {
+      "slug": "frontera",
+      "endpreis": "21.050,63",
+      "kaufpreis": "20.160,63",
+      "ersparnis": "4.579,37 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Toyota|bZ4X Touring AWD 74.7 kWh (MY26)": {
+      "slug": "bz4x",
+      "endpreis": "39.456,35",
+      "kaufpreis": "38.157,35",
+      "ersparnis": "12.832,65 (25,17)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Toyota|bZ4X AWD 73.1 kWh (MY25)": {
+      "slug": "bz4x",
+      "endpreis": "37.161,35",
+      "kaufpreis": "35.862,35",
+      "ersparnis": "12.127,65 (25,27)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Toyota|bZ4X Touring FWD 74.7 kWh (MY26)": {
+      "slug": "bz4x",
+      "endpreis": "39.456,35",
+      "kaufpreis": "38.157,35",
+      "ersparnis": "12.832,65 (25,17)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Toyota|bZ4X FWD 73.1 kWh (MY25)": {
+      "slug": "bz4x",
+      "endpreis": "37.161,35",
+      "kaufpreis": "35.862,35",
+      "ersparnis": "12.127,65 (25,27)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Toyota|bZ4X FWD 57.7 kWh (MY25)": {
+      "slug": "bz4x",
+      "endpreis": "33.336,35",
+      "kaufpreis": "32.037,35",
+      "ersparnis": "10.952,65 (25,48)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "CUPRA|Raval 155 kW - 52 kWh (MY27)": {
+      "slug": "raval",
+      "endpreis": "28.534,94",
+      "kaufpreis": "27.344,94",
+      "ersparnis": "7.445,06 (21,40)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "CUPRA|Raval VZ (MY27)": {
+      "slug": "raval",
+      "endpreis": "25.846,10",
+      "kaufpreis": "24.656,10",
+      "ersparnis": "5.193,90 (17,40)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "CUPRA|Raval 85 kW - 37 kWh (MY27)": {
+      "slug": "raval",
+      "endpreis": "25.846,10",
+      "kaufpreis": "24.656,10",
+      "ersparnis": "5.193,90 (17,40)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "CUPRA|Raval 99 kW - 37 kWh (MY27)": {
+      "slug": "raval",
+      "endpreis": "25.846,10",
+      "kaufpreis": "24.656,10",
+      "ersparnis": "5.193,90 (17,40)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Nissan|LEAF Extended Range 75 kWh (MY26)": {
+      "slug": "leaf",
+      "endpreis": "35.377,76",
+      "kaufpreis": "34.187,76",
+      "ersparnis": "7.012,24 (17,02)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Nissan|LEAF Standard Range 52 kWh (MY26)": {
+      "slug": "leaf",
+      "endpreis": "31.021,31",
+      "kaufpreis": "29.831,31",
+      "ersparnis": "6.118,69 (17,02)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "BMW|i4 eDrive40": {
+      "slug": "i4",
+      "endpreis": "46.583,50",
+      "kaufpreis": "45.793,50",
+      "ersparnis": "12.406,50 (21,32)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i4 M60 xDrive": {
+      "slug": "i4",
+      "endpreis": "46.583,50",
+      "kaufpreis": "45.793,50",
+      "ersparnis": "12.406,50 (21,32)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i4 eDrive35": {
+      "slug": "i4",
+      "endpreis": "46.583,50",
+      "kaufpreis": "45.793,50",
+      "ersparnis": "12.406,50 (21,32)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i4 xDrive40": {
+      "slug": "i4",
+      "endpreis": "46.583,50",
+      "kaufpreis": "45.793,50",
+      "ersparnis": "12.406,50 (21,32)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Kia|EV5 81.4 kWh (MY26)": {
+      "slug": "ev5",
+      "endpreis": "40.226,95",
+      "kaufpreis": "38.856,95",
+      "ersparnis": "7.133,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV5 81.4 kWh AWD (MY26)": {
+      "slug": "ev5",
+      "endpreis": "40.226,95",
+      "kaufpreis": "38.856,95",
+      "ersparnis": "7.133,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV5 81.4 kWh GT (MY26)": {
+      "slug": "ev5",
+      "endpreis": "40.226,95",
+      "kaufpreis": "38.856,95",
+      "ersparnis": "7.133,05 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "BYD|DOLPHIN 60.4 kWh (MY25)": {
+      "slug": "dolphin",
+      "endpreis": "27.456,97",
+      "kaufpreis": "26.192,97",
+      "ersparnis": "7.797,03 (22,94)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|DOLPHIN SURF 43.2 kWh Boost": {
+      "slug": "dolphin",
+      "endpreis": "27.456,97",
+      "kaufpreis": "26.192,97",
+      "ersparnis": "7.797,03 (22,94)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Fiat|Grande Panda": {
+      "slug": "grande-panda",
+      "endpreis": "17.579,65",
+      "kaufpreis": "16.689,65",
+      "ersparnis": "3.300,35 (16,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Leapmotor|B03X 53.0 kWh (MY27)": {
+      "slug": "b03x",
+      "endpreis": "27.638,12",
+      "kaufpreis": "26.748,12",
+      "ersparnis": "2.651,88 (9,02)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Leapmotor|B03X 39.8 kWh (MY27)": {
+      "slug": "b03x",
+      "endpreis": "23.671,01",
+      "kaufpreis": "22.781,01",
+      "ersparnis": "2.118,99 (8,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Mazda|CX-6e 78 kWh (MY26)": {
+      "slug": "cx-6e",
+      "endpreis": "40.532,09",
+      "kaufpreis": "39.542,09",
+      "ersparnis": "10.447,91 (20,90)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "BMW|iX1 eDrive20 (MY26)": {
+      "slug": "ix1",
+      "endpreis": "39.288,50",
+      "kaufpreis": "38.498,50",
+      "ersparnis": "10.901,50 (22,07)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "BMW|iX1 xDrive30 (MY26)": {
+      "slug": "ix1",
+      "endpreis": "39.288,50",
+      "kaufpreis": "38.498,50",
+      "ersparnis": "10.901,50 (22,07)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Renault|4 E-Tech 52kWh 150hp": {
+      "slug": "r4-e-tech",
+      "endpreis": "29.005,30",
+      "kaufpreis": "27.815,30",
+      "ersparnis": "4.064,70 (12,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Renault|4 E-Tech 40kWh 120hp": {
+      "slug": "r4-e-tech",
+      "endpreis": "26.338,75",
+      "kaufpreis": "25.148,75",
+      "ersparnis": "4.351,25 (14,75)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Cayenne Electric (MY26)": {
+      "slug": "cayenne-electric",
+      "endpreis": "102.478,48",
+      "kaufpreis": "100.455,48",
+      "ersparnis": "4.744,52 (4,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Porsche|Cayenne Turbo Electric (MY26)": {
+      "slug": "cayenne-electric",
+      "endpreis": "102.478,48",
+      "kaufpreis": "100.455,48",
+      "ersparnis": "4.744,52 (4,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Škoda|Enyaq 85 (MY27)": {
+      "slug": "enyaq",
+      "endpreis": "37.329,72",
+      "kaufpreis": "36.009,72",
+      "ersparnis": "7.480,28 (17,20)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Škoda|Enyaq 60 (MY27)": {
+      "slug": "enyaq",
+      "endpreis": "37.329,72",
+      "kaufpreis": "36.009,72",
+      "ersparnis": "7.480,28 (17,20)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Škoda|Enyaq RS (MY27)": {
+      "slug": "enyaq",
+      "endpreis": "37.329,72",
+      "kaufpreis": "36.009,72",
+      "ersparnis": "7.480,28 (17,20)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Škoda|Enyaq 85x (MY27)": {
+      "slug": "enyaq",
+      "endpreis": "37.329,72",
+      "kaufpreis": "36.009,72",
+      "ersparnis": "7.480,28 (17,20)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Škoda|Enyaq Coupe RS (MY27)": {
+      "slug": "enyaq",
+      "endpreis": "37.329,72",
+      "kaufpreis": "36.009,72",
+      "ersparnis": "7.480,28 (17,20)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Škoda|Enyaq Coupe 85x (MY27)": {
+      "slug": "enyaq",
+      "endpreis": "37.329,72",
+      "kaufpreis": "36.009,72",
+      "ersparnis": "7.480,28 (17,20)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Škoda|Elroq 60 (MY27)": {
+      "slug": "elroq",
+      "endpreis": "31.556,22",
+      "kaufpreis": "30.236,22",
+      "ersparnis": "7.653,78 (20,20)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Škoda|Elroq 85 (MY27)": {
+      "slug": "elroq",
+      "endpreis": "31.556,22",
+      "kaufpreis": "30.236,22",
+      "ersparnis": "7.653,78 (20,20)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Škoda|Elroq 85x (MY27)": {
+      "slug": "elroq",
+      "endpreis": "31.556,22",
+      "kaufpreis": "30.236,22",
+      "ersparnis": "7.653,78 (20,20)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Škoda|Elroq RS (MY27)": {
+      "slug": "elroq",
+      "endpreis": "31.556,22",
+      "kaufpreis": "30.236,22",
+      "ersparnis": "7.653,78 (20,20)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Leapmotor|C10 AWD 81.9 kWh": {
+      "slug": "c10",
+      "endpreis": "39.224,31",
+      "kaufpreis": "38.334,31",
+      "ersparnis": "3.565,69 (8,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Leapmotor|C10 RWD 69.9 kWh": {
+      "slug": "c10",
+      "endpreis": "35.290,24",
+      "kaufpreis": "34.400,24",
+      "ersparnis": "3.199,76 (8,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Leapmotor|C10 RWD 81.9 kWh": {
+      "slug": "c10",
+      "endpreis": "39.224,31",
+      "kaufpreis": "38.334,31",
+      "ersparnis": "3.565,69 (8,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Renault|Megane E-Tech EV60 220hp (TU2025)": {
+      "slug": "megane-e-tech",
+      "endpreis": "34.912,50",
+      "kaufpreis": "33.722,50",
+      "ersparnis": "7.277,50 (17,75)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|A6 Avant e-tron performance (MY25)": {
+      "slug": "a6-avant-e-tron",
+      "endpreis": "52.440,31",
+      "kaufpreis": "51.231,31",
+      "ersparnis": "13.218,70 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|A6 Avant e-tron quattro (MY25)": {
+      "slug": "a6-avant-e-tron",
+      "endpreis": "52.440,31",
+      "kaufpreis": "51.231,31",
+      "ersparnis": "13.218,70 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|A6 Avant e-tron (MY25)": {
+      "slug": "a6-avant-e-tron",
+      "endpreis": "52.440,31",
+      "kaufpreis": "51.231,31",
+      "ersparnis": "13.218,70 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Volkswagen|ID.4 Pro (MY27)": {
+      "slug": "id-4",
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volkswagen|ID.4 Pure (MY27)": {
+      "slug": "id-4",
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volkswagen|ID.4 GTX (MY27)": {
+      "slug": "id-4",
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volkswagen|ID.4 Pro 4MOTION (MY27)": {
+      "slug": "id-4",
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Dacia|Spring Electric 70": {
+      "slug": "spring",
+      "endpreis": "17.009,50",
+      "kaufpreis": "15.919,50",
+      "ersparnis": "2.780,50 (14,87)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Dacia|Spring Electric 100": {
+      "slug": "spring",
+      "endpreis": "17.009,50",
+      "kaufpreis": "15.919,50",
+      "ersparnis": "2.780,50 (14,87)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Suzuki|e VITARA 61 kWh 2WD": {
+      "slug": "e-vitara",
+      "endpreis": "29.873,55",
+      "kaufpreis": "28.778,75",
+      "ersparnis": "7.711,25 (21,13)",
+      "lieferzeit": "3-7 Monate"
+    },
+    "Suzuki|e VITARA 61 kWh 4WD AllGrip": {
+      "slug": "e-vitara",
+      "endpreis": "29.873,55",
+      "kaufpreis": "28.778,75",
+      "ersparnis": "7.711,25 (21,13)",
+      "lieferzeit": "3-7 Monate"
+    },
+    "Suzuki|e VITARA 49 kWh 2WD": {
+      "slug": "e-vitara",
+      "endpreis": "25.680,60",
+      "kaufpreis": "24.585,80",
+      "ersparnis": "5.404,20 (18,02)",
+      "lieferzeit": "3-7 Monate"
+    },
+    "Peugeot|e-2008 54 kWh (MY24)": {
+      "slug": "e-2008",
+      "endpreis": "33.125,70",
+      "kaufpreis": "32.233,20",
+      "ersparnis": "8.316,81 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Volkswagen|ID.7 Tourer 86 kWh (MY27)": {
+      "slug": "id-7-tourer",
+      "endpreis": "54.967,39",
+      "kaufpreis": "54.040,39",
+      "ersparnis": "10.594,61 (16,39)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|ID.7 Tourer 77 kWh (MY27)": {
+      "slug": "id-7-tourer",
+      "endpreis": "51.137,34",
+      "kaufpreis": "50.210,34",
+      "ersparnis": "10.084,66 (16,73)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|ID.7 Tourer 59 kWh (MY27)": {
+      "slug": "id-7-tourer",
+      "endpreis": "47.233,66",
+      "kaufpreis": "46.306,66",
+      "ersparnis": "8.998,34 (16,27)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|ID.7 Tourer GTX (MY27)": {
+      "slug": "id-7-tourer",
+      "endpreis": "47.233,66",
+      "kaufpreis": "46.306,66",
+      "ersparnis": "8.998,34 (16,27)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Kia|EV9 99.8 kWh AWD": {
+      "slug": "ev9",
+      "endpreis": "57.716,38",
+      "kaufpreis": "56.346,38",
+      "ersparnis": "10.343,62 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV9 99.8 kWh RWD": {
+      "slug": "ev9",
+      "endpreis": "57.716,38",
+      "kaufpreis": "56.346,38",
+      "ersparnis": "10.343,62 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV9 99.8 kWh AWD GT-Line": {
+      "slug": "ev9",
+      "endpreis": "57.716,38",
+      "kaufpreis": "56.346,38",
+      "ersparnis": "10.343,62 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV9 99.8 kWh AWD GT": {
+      "slug": "ev9",
+      "endpreis": "57.716,38",
+      "kaufpreis": "56.346,38",
+      "ersparnis": "10.343,62 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Kia|EV9 76.1 kWh RWD": {
+      "slug": "ev9",
+      "endpreis": "55.181,68",
+      "kaufpreis": "53.811,68",
+      "ersparnis": "9.878,32 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "BYD|SEAL 82.5 kWh RWD Design (MY26)": {
+      "slug": "seal",
+      "endpreis": "38.904,97",
+      "kaufpreis": "37.640,97",
+      "ersparnis": "12.349,03 (24,70)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|SEAL 82.5 kWh AWD Excellence (MY26)": {
+      "slug": "seal",
+      "endpreis": "38.904,97",
+      "kaufpreis": "37.640,97",
+      "ersparnis": "12.349,03 (24,70)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BYD|SEAL 61.4 kWh RWD Comfort (MY26)": {
+      "slug": "seal",
+      "endpreis": "36.209,02",
+      "kaufpreis": "34.945,02",
+      "ersparnis": "13.044,98 (27,18)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Jeep|Avenger Electric": {
+      "slug": "avenger",
+      "endpreis": "24.221,64",
+      "kaufpreis": "23.138,74",
+      "ersparnis": "3.161,26 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Ford|Puma Gen-E (MY26)": {
+      "slug": "puma-gen-e",
+      "endpreis": "27.644,05",
+      "kaufpreis": "26.365,05",
+      "ersparnis": "10.534,95 (28,55)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Subaru|E-Outback AWD (MY26)": {
+      "slug": "outback",
+      "endpreis": "40.218,38",
+      "kaufpreis": "39.448,38",
+      "ersparnis": "7.241,62 (15,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Volkswagen|ID. Cross 155 kW - 52 kWh (MY27)": {
+      "slug": "id-cross",
+      "endpreis": "31.758,62",
+      "kaufpreis": "31.074,62",
+      "ersparnis": "5.450,38 (14,92)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Peugeot|e-5008 73 kWh": {
+      "slug": "e-5008",
+      "endpreis": "44.109,14",
+      "kaufpreis": "43.216,64",
+      "ersparnis": "7.933,37 (15,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-5008 97 kWh Long Range": {
+      "slug": "e-5008",
+      "endpreis": "47.573,23",
+      "kaufpreis": "46.680,73",
+      "ersparnis": "8.569,28 (15,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Peugeot|e-5008 73 kWh Dual Motor": {
+      "slug": "e-5008",
+      "endpreis": "44.109,14",
+      "kaufpreis": "43.216,64",
+      "ersparnis": "7.933,37 (15,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Citroën|C5 Aircross Long Range": {
+      "slug": "c5-aircross",
+      "endpreis": "29.168,85",
+      "kaufpreis": "28.038,35",
+      "ersparnis": "5.951,65 (17,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Citroën|C5 Aircross Comfort Range": {
+      "slug": "c5-aircross",
+      "endpreis": "29.168,85",
+      "kaufpreis": "28.038,35",
+      "ersparnis": "5.951,65 (17,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|A6 Sportback e-tron performance (MY25)": {
+      "slug": "a6-sportback-e-tron",
+      "endpreis": "51.128,72",
+      "kaufpreis": "49.919,72",
+      "ersparnis": "12.880,28 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|A6 Sportback e-tron (MY25)": {
+      "slug": "a6-sportback-e-tron",
+      "endpreis": "51.128,72",
+      "kaufpreis": "49.919,72",
+      "ersparnis": "12.880,28 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|A6 Sportback e-tron quattro (MY25)": {
+      "slug": "a6-sportback-e-tron",
+      "endpreis": "51.128,72",
+      "kaufpreis": "49.919,72",
+      "ersparnis": "12.880,28 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "BMW|iX xDrive60": {
+      "slug": "ix",
+      "endpreis": "66.462,50",
+      "kaufpreis": "65.672,50",
+      "ersparnis": "17.827,50 (21,35)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|iX xDrive45": {
+      "slug": "ix",
+      "endpreis": "66.462,50",
+      "kaufpreis": "65.672,50",
+      "ersparnis": "17.827,50 (21,35)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|iX M70 xDrive": {
+      "slug": "ix",
+      "endpreis": "66.462,50",
+      "kaufpreis": "65.672,50",
+      "ersparnis": "17.827,50 (21,35)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Peugeot|e-3008 97 kWh Long Range": {
+      "slug": "e-3008",
+      "endpreis": "45.142,20",
+      "kaufpreis": "44.249,70",
+      "ersparnis": "8.750,30 (16,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Peugeot|e-3008 73 kWh": {
+      "slug": "e-3008",
+      "endpreis": "41.719,11",
+      "kaufpreis": "40.826,61",
+      "ersparnis": "8.073,39 (16,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-3008 73 kWh Dual Motor": {
+      "slug": "e-3008",
+      "endpreis": "41.719,11",
+      "kaufpreis": "40.826,61",
+      "ersparnis": "8.073,39 (16,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "CUPRA|Born 170 kW - 79 kWh (MY27)": {
+      "slug": "born",
+      "endpreis": "35.498,54",
+      "kaufpreis": "34.308,54",
+      "ersparnis": "11.681,46 (25,40)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "CUPRA|Born 140 kW - 58 kWh (MY27)": {
+      "slug": "born",
+      "endpreis": "31.022,54",
+      "kaufpreis": "29.832,54",
+      "ersparnis": "10.157,46 (25,40)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "CUPRA|Born VZ (MY27)": {
+      "slug": "born",
+      "endpreis": "31.022,54",
+      "kaufpreis": "29.832,54",
+      "ersparnis": "10.157,46 (25,40)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Volkswagen|ID. Buzz NWB Pro": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz NWB Pure (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz LWB GTX": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz LWB Pro": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz NWB GTX": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz LWB Pro (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz NWB Pro (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz LWB GTX (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz LWB Pro 4MOTION (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz NWB Pro 4MOTION (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volkswagen|ID. Buzz NWB GTX (MY27)": {
+      "slug": "id-buzz",
+      "endpreis": "47.428,94",
+      "kaufpreis": "46.128,94",
+      "ersparnis": "6.141,81 (11,75)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Fiat|600e": {
+      "slug": "600-elektro",
+      "endpreis": "27.598,45",
+      "kaufpreis": "26.708,45",
+      "ersparnis": "5.281,55 (16,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EX40 Single Motor ER (MY26)": {
+      "slug": "ex40",
+      "endpreis": "42.095,42",
+      "kaufpreis": "40.746,42",
+      "ersparnis": "6.743,58 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EX40 Single Motor (MY26)": {
+      "slug": "ex40",
+      "endpreis": "42.095,42",
+      "kaufpreis": "40.746,42",
+      "ersparnis": "6.743,58 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EX40 Twin Motor (MY26)": {
+      "slug": "ex40",
+      "endpreis": "42.095,42",
+      "kaufpreis": "40.746,42",
+      "ersparnis": "6.743,58 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EX40 Twin Motor Performance (MY26)": {
+      "slug": "ex40",
+      "endpreis": "42.095,42",
+      "kaufpreis": "40.746,42",
+      "ersparnis": "6.743,58 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Toyota|Proace Verso L 75 kWh": {
+      "slug": "proace-verso",
+      "endpreis": "34.059,62",
+      "kaufpreis": "32.560,62",
+      "ersparnis": "6.064,38 (15,70)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Toyota|Proace Verso M 75 kWh": {
+      "slug": "proace-verso",
+      "endpreis": "34.059,62",
+      "kaufpreis": "32.560,62",
+      "ersparnis": "6.064,38 (15,70)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Toyota|Proace Verso M 50 kWh": {
+      "slug": "proace-verso",
+      "endpreis": "32.502,62",
+      "kaufpreis": "31.003,62",
+      "ersparnis": "5.821,38 (15,81)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Kia|EV4 Fastback 81.4 kWh (MY25-26)": {
+      "slug": "ev4-fastback",
+      "endpreis": "41.126,59",
+      "kaufpreis": "39.828,59",
+      "ersparnis": "7.311,41 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Kia|EV4 Fastback 58.3 kWh (MY25-26)": {
+      "slug": "ev4-fastback",
+      "endpreis": "36.352,90",
+      "kaufpreis": "35.054,90",
+      "ersparnis": "6.435,10 (15,51)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Volkswagen|ID.7 86 kWh (MY27)": {
+      "slug": "id-7-limousine",
+      "endpreis": "54.261,39",
+      "kaufpreis": "53.334,39",
+      "ersparnis": "10.500,61 (16,45)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|ID.7 59 kWh (MY27)": {
+      "slug": "id-7-limousine",
+      "endpreis": "46.527,66",
+      "kaufpreis": "45.600,66",
+      "ersparnis": "8.904,34 (16,34)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|ID.7 77 kWh (MY27)": {
+      "slug": "id-7-limousine",
+      "endpreis": "50.431,34",
+      "kaufpreis": "49.504,34",
+      "ersparnis": "9.990,66 (16,79)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|ID.7 GTX (MY27)": {
+      "slug": "id-7-limousine",
+      "endpreis": "46.527,66",
+      "kaufpreis": "45.600,66",
+      "ersparnis": "8.904,34 (16,34)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Porsche|Taycan": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo S": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo GT": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4 Cross Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Plus": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4S": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo GT Weissach": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4S Plus": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4S Cross Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan GTS": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo Cross Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Plus Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4 Plus": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan GTS Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo S Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4S Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan 4S Plus Sport Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Taycan Turbo S Cross Turismo": {
+      "slug": "taycan",
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Hyundai|IONIQ 9 Long Range AWD": {
+      "slug": "ioniq-9",
+      "endpreis": "62.361,27",
+      "kaufpreis": "61.111,77",
+      "ersparnis": "8.738,24 (12,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 9 Long Range RWD": {
+      "slug": "ioniq-9",
+      "endpreis": "62.361,27",
+      "kaufpreis": "61.111,77",
+      "ersparnis": "8.738,24 (12,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Hyundai|IONIQ 9 Performance AWD": {
+      "slug": "ioniq-9",
+      "endpreis": "62.361,27",
+      "kaufpreis": "61.111,77",
+      "ersparnis": "8.738,24 (12,51)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Alfa Romeo|Junior Elettrica 54 kWh": {
+      "slug": "junior",
+      "endpreis": "28.601,41",
+      "kaufpreis": "27.554,21",
+      "ersparnis": "2.895,80 (9,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Alfa Romeo|Junior Elettrica 54 kWh Veloce": {
+      "slug": "junior",
+      "endpreis": "28.601,41",
+      "kaufpreis": "27.554,21",
+      "ersparnis": "2.895,80 (9,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Grandland Electric 73 kWh": {
+      "slug": "grandland",
+      "endpreis": "27.567,21",
+      "kaufpreis": "26.677,21",
+      "ersparnis": "11.712,79 (30,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Grandland Electric 97 kWh": {
+      "slug": "grandland",
+      "endpreis": "35.687,52",
+      "kaufpreis": "34.797,52",
+      "ersparnis": "12.552,49 (26,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Opel|Grandland Electric 73 kWh AWD": {
+      "slug": "grandland",
+      "endpreis": "27.567,21",
+      "kaufpreis": "26.677,21",
+      "ersparnis": "11.712,79 (30,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Corsa Electric 54 kWh (MY25)": {
+      "slug": "corsa-electric",
+      "endpreis": "24.043,31",
+      "kaufpreis": "23.153,31",
+      "ersparnis": "8.786,69 (27,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Corsa Electric 50 kWh (MY25)": {
+      "slug": "corsa-electric",
+      "endpreis": "22.955,96",
+      "kaufpreis": "22.065,96",
+      "ersparnis": "8.374,04 (27,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Ford|Explorer Extended Range RWD (MY26)": {
+      "slug": "explorer",
+      "endpreis": "30.398,02",
+      "kaufpreis": "29.119,02",
+      "ersparnis": "10.780,98 (27,02)",
+      "lieferzeit": "11-13 Monate"
+    },
+    "Ford|Explorer Standard Range RWD (MY26)": {
+      "slug": "explorer",
+      "endpreis": "30.398,02",
+      "kaufpreis": "29.119,02",
+      "ersparnis": "10.780,98 (27,02)",
+      "lieferzeit": "11-13 Monate"
+    },
+    "Ford|Explorer Extended Range RWD (MY27)": {
+      "slug": "explorer",
+      "endpreis": "30.398,02",
+      "kaufpreis": "29.119,02",
+      "ersparnis": "10.780,98 (27,02)",
+      "lieferzeit": "11-13 Monate"
+    },
+    "Ford|Explorer Extended Range AWD (MY26)": {
+      "slug": "explorer",
+      "endpreis": "30.398,02",
+      "kaufpreis": "29.119,02",
+      "ersparnis": "10.780,98 (27,02)",
+      "lieferzeit": "11-13 Monate"
+    },
+    "Ford|Explorer Extended Range AWD (MY27)": {
+      "slug": "explorer",
+      "endpreis": "30.398,02",
+      "kaufpreis": "29.119,02",
+      "ersparnis": "10.780,98 (27,02)",
+      "lieferzeit": "11-13 Monate"
+    },
+    "Ford|Explorer Standard Range RWD (MY27)": {
+      "slug": "explorer",
+      "endpreis": "30.398,02",
+      "kaufpreis": "29.119,02",
+      "ersparnis": "10.780,98 (27,02)",
+      "lieferzeit": "11-13 Monate"
+    },
+    "Opel|Mokka Electric": {
+      "slug": "mokka-electric",
+      "endpreis": "28.630,08",
+      "kaufpreis": "27.740,08",
+      "ersparnis": "9.499,92 (25,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Opel|Mokka Electric GSE": {
+      "slug": "mokka-electric",
+      "endpreis": "28.630,08",
+      "kaufpreis": "27.740,08",
+      "ersparnis": "9.499,92 (25,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "BMW|i5 eDrive40 Sedan (MY25)": {
+      "slug": "i5-limousine",
+      "endpreis": "51.674,00",
+      "kaufpreis": "50.884,00",
+      "ersparnis": "20.016,00 (28,23)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i5 M60 xDrive Sedan (MY25)": {
+      "slug": "i5-limousine",
+      "endpreis": "51.674,00",
+      "kaufpreis": "50.884,00",
+      "ersparnis": "20.016,00 (28,23)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i5 xDrive40 Sedan (MY25)": {
+      "slug": "i5-limousine",
+      "endpreis": "51.674,00",
+      "kaufpreis": "50.884,00",
+      "ersparnis": "20.016,00 (28,23)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Alpine|A290 Electric 220 hp": {
+      "slug": "a290",
+      "endpreis": "38.921,10",
+      "kaufpreis": "37.631,10",
+      "ersparnis": "1.368,90 (3,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Alpine|A290 Electric 180 hp": {
+      "slug": "a290",
+      "endpreis": "38.921,10",
+      "kaufpreis": "37.631,10",
+      "ersparnis": "1.368,90 (3,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Nissan|Micra Extended Range 52 kWh": {
+      "slug": "micra",
+      "endpreis": "28.733,35",
+      "kaufpreis": "27.543,35",
+      "ersparnis": "5.446,65 (16,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Nissan|Micra Standard Range 40 kWh": {
+      "slug": "micra",
+      "endpreis": "24.558,85",
+      "kaufpreis": "23.368,85",
+      "ersparnis": "4.621,15 (16,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Audi|Q6 SUV e-tron quattro (MY26)": {
+      "slug": "q6-suv-e-tron",
+      "endpreis": "51.685,15",
+      "kaufpreis": "50.476,15",
+      "ersparnis": "13.023,85 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q6 SUV e-tron (MY24)": {
+      "slug": "q6-suv-e-tron",
+      "endpreis": "51.685,15",
+      "kaufpreis": "50.476,15",
+      "ersparnis": "13.023,85 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q6 SUV e-tron performance (MY24)": {
+      "slug": "q6-suv-e-tron",
+      "endpreis": "51.685,15",
+      "kaufpreis": "50.476,15",
+      "ersparnis": "13.023,85 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Citroën|ë-C4": {
+      "slug": "e-c4",
+      "endpreis": "28.292,05",
+      "kaufpreis": "27.399,55",
+      "ersparnis": "4.650,46 (14,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Citroën|ë-C4 54 kWh": {
+      "slug": "e-c4",
+      "endpreis": "28.292,05",
+      "kaufpreis": "27.399,55",
+      "ersparnis": "4.650,46 (14,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Nissan|Ariya 87kWh (MY26)": {
+      "slug": "ariya",
+      "endpreis": "36.630,00",
+      "kaufpreis": "35.440,00",
+      "ersparnis": "8.050,00 (18,51)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Nissan|Ariya e-4ORCE 87kWh - 225 kW (MY26)": {
+      "slug": "ariya",
+      "endpreis": "36.630,00",
+      "kaufpreis": "35.440,00",
+      "ersparnis": "8.050,00 (18,51)",
+      "lieferzeit": "7-8 Monate"
+    },
+    "Audi|e-tron GT quattro": {
+      "slug": "e-tron-gt",
+      "endpreis": "87.814,61",
+      "kaufpreis": "86.564,61",
+      "ersparnis": "22.335,39 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Ford|Capri Extended Range RWD (MY26)": {
+      "slug": "capri",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Ford|Capri Extended Range RWD (MY27)": {
+      "slug": "capri",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Ford|Capri Extended Range AWD (MY26)": {
+      "slug": "capri",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Ford|Capri Extended Range AWD (MY27)": {
+      "slug": "capri",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Ford|Capri Standard Range RWD (MY27)": {
+      "slug": "capri",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Ford|Capri Standard Range RWD (MY26)": {
+      "slug": "capri",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Ford|e-Tourneo Courier": {
+      "slug": "e-tourneo-courier",
+      "endpreis": "28.731,71",
+      "kaufpreis": "27.352,71",
+      "ersparnis": "8.647,17 (24,02)",
+      "lieferzeit": "6-8 Monate"
+    },
+    "CUPRA|Tavascan 210 kW - 77 kWh Endurance (MY27)": {
+      "slug": "tavascan",
+      "endpreis": "40.684,40",
+      "kaufpreis": "39.494,40",
+      "ersparnis": "14.905,60 (27,40)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "CUPRA|Tavascan 250 kW - 77 kWh VZ (MY27)": {
+      "slug": "tavascan",
+      "endpreis": "40.684,40",
+      "kaufpreis": "39.494,40",
+      "ersparnis": "14.905,60 (27,40)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "CUPRA|Tavascan 140 kW - 58 kWh (MY27)": {
+      "slug": "tavascan",
+      "endpreis": "37.417,40",
+      "kaufpreis": "36.227,40",
+      "ersparnis": "13.672,60 (27,40)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Volvo|ES90 Twin Motor (MY26-27)": {
+      "slug": "es90",
+      "endpreis": "63.116,42",
+      "kaufpreis": "61.767,42",
+      "ersparnis": "10.222,58 (14,20)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Volvo|ES90 Single Motor (MY26-27)": {
+      "slug": "es90",
+      "endpreis": "63.116,42",
+      "kaufpreis": "61.767,42",
+      "ersparnis": "10.222,58 (14,20)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Volvo|ES90 Twin Motor Performance (MY26-27)": {
+      "slug": "es90",
+      "endpreis": "63.116,42",
+      "kaufpreis": "61.767,42",
+      "ersparnis": "10.222,58 (14,20)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Jeep|Compass Electric 4xe (MY26)": {
+      "slug": "compass",
+      "endpreis": "36.186,92",
+      "kaufpreis": "35.104,02",
+      "ersparnis": "4.795,98 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Jeep|Compass Electric 74 kWh (MY26)": {
+      "slug": "compass",
+      "endpreis": "36.186,92",
+      "kaufpreis": "35.104,02",
+      "ersparnis": "4.795,98 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Jeep|Compass Electric Long Range (MY26)": {
+      "slug": "compass",
+      "endpreis": "36.186,92",
+      "kaufpreis": "35.104,02",
+      "ersparnis": "4.795,98 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|Q4 e-tron performance (MY27)": {
+      "slug": "q4-e-tron",
+      "endpreis": "39.816,75",
+      "kaufpreis": "38.707,75",
+      "ersparnis": "8.792,25 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q4 e-tron (MY27)": {
+      "slug": "q4-e-tron",
+      "endpreis": "39.816,75",
+      "kaufpreis": "38.707,75",
+      "ersparnis": "8.792,25 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q4 e-tron quattro performance (MY27)": {
+      "slug": "q4-e-tron",
+      "endpreis": "39.816,75",
+      "kaufpreis": "38.707,75",
+      "ersparnis": "8.792,25 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q4 e-tron quattro (MY27)": {
+      "slug": "q4-e-tron",
+      "endpreis": "39.816,75",
+      "kaufpreis": "38.707,75",
+      "ersparnis": "8.792,25 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|iX2 eDrive20 (MY26)": {
+      "slug": "ix2",
+      "endpreis": "40.612,50",
+      "kaufpreis": "39.822,50",
+      "ersparnis": "11.177,50 (21,92)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BMW|iX2 xDrive30 (MY26)": {
+      "slug": "ix2",
+      "endpreis": "40.612,50",
+      "kaufpreis": "39.822,50",
+      "ersparnis": "11.177,50 (21,92)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Alpine|A390 GT": {
+      "slug": "a390",
+      "endpreis": "66.420,75",
+      "kaufpreis": "65.130,75",
+      "ersparnis": "2.369,25 (3,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Alpine|A390 GTS": {
+      "slug": "a390",
+      "endpreis": "66.420,75",
+      "kaufpreis": "65.130,75",
+      "ersparnis": "2.369,25 (3,51)",
+      "lieferzeit": "3-5 Monate"
+    },
+    "Peugeot|e-208 54 kWh (MY25)": {
+      "slug": "e-208",
+      "endpreis": "30.840,35",
+      "kaufpreis": "29.947,85",
+      "ersparnis": "7.727,15 (20,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Peugeot|e-208 GTi (MY26)": {
+      "slug": "e-208",
+      "endpreis": "30.045,45",
+      "kaufpreis": "29.152,95",
+      "ersparnis": "7.522,05 (20,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Peugeot|e-208 50 kWh (MY25)": {
+      "slug": "e-208",
+      "endpreis": "30.045,45",
+      "kaufpreis": "29.152,95",
+      "ersparnis": "7.522,05 (20,51)",
+      "lieferzeit": "5-6 Monate"
+    },
+    "Volvo|EX90 Twin Motor (MY26-27)": {
+      "slug": "ex90",
+      "endpreis": "73.584,02",
+      "kaufpreis": "72.235,02",
+      "ersparnis": "11.954,98 (14,20)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volvo|EX90 Twin Motor Performance (MY26-27)": {
+      "slug": "ex90",
+      "endpreis": "73.584,02",
+      "kaufpreis": "72.235,02",
+      "ersparnis": "11.954,98 (14,20)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volvo|EX90 Single Motor (MY26-27)": {
+      "slug": "ex90",
+      "endpreis": "73.584,02",
+      "kaufpreis": "72.235,02",
+      "ersparnis": "11.954,98 (14,20)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "BMW|i5 eDrive40 Touring (MY25)": {
+      "slug": "i5-touring",
+      "endpreis": "53.476,25",
+      "kaufpreis": "52.686,25",
+      "ersparnis": "20.213,75 (27,73)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i5 xDrive40 Touring (MY25)": {
+      "slug": "i5-touring",
+      "endpreis": "53.476,25",
+      "kaufpreis": "52.686,25",
+      "ersparnis": "20.213,75 (27,73)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "BMW|i5 M60 xDrive Touring (MY25)": {
+      "slug": "i5-touring",
+      "endpreis": "53.476,25",
+      "kaufpreis": "52.686,25",
+      "ersparnis": "20.213,75 (27,73)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "DS Automobiles|N°7 FWD Long Range": {
+      "slug": "n-7",
+      "endpreis": "41.909,23",
+      "kaufpreis": "40.778,73",
+      "ersparnis": "6.921,27 (14,51)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "DS Automobiles|N°7 AWD Long Range": {
+      "slug": "n-7",
+      "endpreis": "41.909,23",
+      "kaufpreis": "40.778,73",
+      "ersparnis": "6.921,27 (14,51)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "DS Automobiles|N°7 FWD": {
+      "slug": "n-7",
+      "endpreis": "41.909,23",
+      "kaufpreis": "40.778,73",
+      "ersparnis": "6.921,27 (14,51)",
+      "lieferzeit": "7-9 Monate"
+    },
+    "Volkswagen|ID.5 Pro (MY27)": {
+      "slug": "id-5",
+      "endpreis": "37.665,60",
+      "kaufpreis": "36.873,60",
+      "ersparnis": "6.486,40 (14,96)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volkswagen|ID.5 Pure (MY27)": {
+      "slug": "id-5",
+      "endpreis": "37.665,60",
+      "kaufpreis": "36.873,60",
+      "ersparnis": "6.486,40 (14,96)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volkswagen|ID.5 GTX (MY27)": {
+      "slug": "id-5",
+      "endpreis": "37.665,60",
+      "kaufpreis": "36.873,60",
+      "ersparnis": "6.486,40 (14,96)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volkswagen|ID.5 Pro 4MOTION (MY27)": {
+      "slug": "id-5",
+      "endpreis": "37.665,60",
+      "kaufpreis": "36.873,60",
+      "ersparnis": "6.486,40 (14,96)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Subaru|Solterra AWD (MY22-25)": {
+      "slug": "solterra",
+      "endpreis": "46.226,05",
+      "kaufpreis": "44.736,05",
+      "ersparnis": "5.253,95 (10,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Subaru|Solterra AWD 73.1 kWh (MY26)": {
+      "slug": "solterra",
+      "endpreis": "46.226,05",
+      "kaufpreis": "44.736,05",
+      "ersparnis": "5.253,95 (10,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "DS Automobiles|N°8 AWD Long Range": {
+      "slug": "n-8",
+      "endpreis": "53.303,17",
+      "kaufpreis": "52.172,67",
+      "ersparnis": "6.127,33 (10,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "DS Automobiles|N°8 FWD Long Range": {
+      "slug": "n-8",
+      "endpreis": "53.303,17",
+      "kaufpreis": "52.172,67",
+      "ersparnis": "6.127,33 (10,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "DS Automobiles|N°8 FWD": {
+      "slug": "n-8",
+      "endpreis": "53.303,17",
+      "kaufpreis": "52.172,67",
+      "ersparnis": "6.127,33 (10,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Abarth|500e Hatchback": {
+      "slug": "500e",
+      "endpreis": "30.808,35",
+      "kaufpreis": "29.818,35",
+      "ersparnis": "8.171,65 (21,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Nissan|Townstar EV Passenger": {
+      "slug": "townstar-kombi",
+      "endpreis": "26.075,70",
+      "kaufpreis": "24.885,70",
+      "ersparnis": "5.104,30 (17,02)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Nissan|Townstar EV Passenger L2": {
+      "slug": "townstar-kombi",
+      "endpreis": "26.075,70",
+      "kaufpreis": "24.885,70",
+      "ersparnis": "5.104,30 (17,02)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Ford|Mustang Mach-E ER RWD (MY25)": {
+      "slug": "mustang-mach-e",
+      "endpreis": "45.032,70",
+      "kaufpreis": "43.493,70",
+      "ersparnis": "13.006,30 (23,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|Mustang Mach-E GT (MY25)": {
+      "slug": "mustang-mach-e",
+      "endpreis": "45.032,70",
+      "kaufpreis": "43.493,70",
+      "ersparnis": "13.006,30 (23,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|Mustang Mach-E SR RWD (MY25)": {
+      "slug": "mustang-mach-e",
+      "endpreis": "45.032,70",
+      "kaufpreis": "43.493,70",
+      "ersparnis": "13.006,30 (23,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|Mustang Mach-E ER AWD (MY25)": {
+      "slug": "mustang-mach-e",
+      "endpreis": "45.032,70",
+      "kaufpreis": "43.493,70",
+      "ersparnis": "13.006,30 (23,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|Mustang Mach-E Rally (MY25)": {
+      "slug": "mustang-mach-e",
+      "endpreis": "45.032,70",
+      "kaufpreis": "43.493,70",
+      "ersparnis": "13.006,30 (23,02)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Toyota|Urban Cruiser 61.1 kWh": {
+      "slug": "urban-cruiser",
+      "endpreis": "40.064,75",
+      "kaufpreis": "38.765,75",
+      "ersparnis": "6.224,25 (13,83)",
+      "lieferzeit": "9-12 Monate"
+    },
+    "Toyota|Urban Cruiser 61.1 kWh AWD": {
+      "slug": "urban-cruiser",
+      "endpreis": "40.064,75",
+      "kaufpreis": "38.765,75",
+      "ersparnis": "6.224,25 (13,83)",
+      "lieferzeit": "9-12 Monate"
+    },
+    "Toyota|Urban Cruiser 48.8 kWh": {
+      "slug": "urban-cruiser",
+      "endpreis": "34.514,75",
+      "kaufpreis": "33.215,75",
+      "ersparnis": "5.774,25 (14,81)",
+      "lieferzeit": "9-12 Monate"
+    },
+    "Audi|RS e-tron GT": {
+      "slug": "rs-e-tron-gt",
+      "endpreis": "115.547,75",
+      "kaufpreis": "114.297,75",
+      "ersparnis": "33.202,25 (22,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|RS e-tron GT performance": {
+      "slug": "rs-e-tron-gt",
+      "endpreis": "115.547,75",
+      "kaufpreis": "114.297,75",
+      "ersparnis": "33.202,25 (22,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Porsche|Cayenne Coupé Electric (MY26)": {
+      "slug": "cayenne",
+      "endpreis": "95.331,50",
+      "kaufpreis": "93.481,50",
+      "ersparnis": "8.018,50 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Porsche|Cayenne S Electric (MY26)": {
+      "slug": "cayenne",
+      "endpreis": "95.331,50",
+      "kaufpreis": "93.481,50",
+      "ersparnis": "8.018,50 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Porsche|Cayenne Turbo Coupé Electric (MY26)": {
+      "slug": "cayenne",
+      "endpreis": "95.331,50",
+      "kaufpreis": "93.481,50",
+      "ersparnis": "8.018,50 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Porsche|Cayenne S Coupé Electric (MY26)": {
+      "slug": "cayenne",
+      "endpreis": "95.331,50",
+      "kaufpreis": "93.481,50",
+      "ersparnis": "8.018,50 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Škoda|Enyaq Coupe 85 (MY27)": {
+      "slug": "enyaq-coupe",
+      "endpreis": "41.883,72",
+      "kaufpreis": "40.563,72",
+      "ersparnis": "8.426,28 (17,20)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Škoda|Enyaq Coupe 60 (MY27)": {
+      "slug": "enyaq-coupe",
+      "endpreis": "41.883,72",
+      "kaufpreis": "40.563,72",
+      "ersparnis": "8.426,28 (17,20)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-308 58 kWh (MY26)": {
+      "slug": "e-308",
+      "endpreis": "36.062,11",
+      "kaufpreis": "35.169,61",
+      "ersparnis": "7.465,39 (17,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Volkswagen|e-Transporter Kombi L2 210 kW 64 kWh": {
+      "slug": "e-transporter-kombi",
+      "endpreis": "52.306,00",
+      "kaufpreis": "50.516,00",
+      "ersparnis": "12.244,60 (19,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Transporter Kombi L1 160 kW 64 kWh": {
+      "slug": "e-transporter-kombi",
+      "endpreis": "52.306,00",
+      "kaufpreis": "50.516,00",
+      "ersparnis": "12.244,60 (19,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Transporter Kombi L1 210 kW 64 kWh": {
+      "slug": "e-transporter-kombi",
+      "endpreis": "52.306,00",
+      "kaufpreis": "50.516,00",
+      "ersparnis": "12.244,60 (19,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Transporter Kombi L2 100 kW 64 kWh": {
+      "slug": "e-transporter-kombi",
+      "endpreis": "52.306,00",
+      "kaufpreis": "50.516,00",
+      "ersparnis": "12.244,60 (19,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Transporter Kombi L1 100 kW 64 kWh": {
+      "slug": "e-transporter-kombi",
+      "endpreis": "52.306,00",
+      "kaufpreis": "50.516,00",
+      "ersparnis": "12.244,60 (19,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Transporter Kombi L2 160 kW 64 kWh": {
+      "slug": "e-transporter-kombi",
+      "endpreis": "52.306,00",
+      "kaufpreis": "50.516,00",
+      "ersparnis": "12.244,60 (19,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Porsche|Macan Electric (MY26)": {
+      "slug": "macan-electric",
+      "endpreis": "77.396,20",
+      "kaufpreis": "75.706,20",
+      "ersparnis": "6.493,80 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Porsche|Macan 4 Electric (MY26)": {
+      "slug": "macan-electric",
+      "endpreis": "77.396,20",
+      "kaufpreis": "75.706,20",
+      "ersparnis": "6.493,80 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Porsche|Macan Turbo Electric (MY26)": {
+      "slug": "macan-electric",
+      "endpreis": "77.396,20",
+      "kaufpreis": "75.706,20",
+      "ersparnis": "6.493,80 (7,90)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Citroën|ë-C4 X 54 kWh": {
+      "slug": "e-c4-x",
+      "endpreis": "28.890,48",
+      "kaufpreis": "27.997,98",
+      "ersparnis": "4.752,03 (14,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Citroën|ë-C4 X": {
+      "slug": "e-c4-x",
+      "endpreis": "28.890,48",
+      "kaufpreis": "27.997,98",
+      "ersparnis": "4.752,03 (14,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Toyota|Proace City Verso L2 50 kWh": {
+      "slug": "proace-city-verso-electric",
+      "endpreis": "35.013,55",
+      "kaufpreis": "33.514,55",
+      "ersparnis": "5.315,45 (13,69)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Toyota|Proace City Verso L1 50 kWh": {
+      "slug": "proace-city-verso-electric",
+      "endpreis": "35.013,55",
+      "kaufpreis": "33.514,55",
+      "ersparnis": "5.315,45 (13,69)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Audi|Q6 Sportback e-tron quattro (MY26)": {
+      "slug": "q6-sportback-e-tron",
+      "endpreis": "53.592,91",
+      "kaufpreis": "52.383,91",
+      "ersparnis": "13.516,09 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q6 Sportback e-tron performance (MY25)": {
+      "slug": "q6-sportback-e-tron",
+      "endpreis": "53.592,91",
+      "kaufpreis": "52.383,91",
+      "ersparnis": "13.516,09 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q6 Sportback e-tron (MY25)": {
+      "slug": "q6-sportback-e-tron",
+      "endpreis": "53.592,91",
+      "kaufpreis": "52.383,91",
+      "ersparnis": "13.516,09 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Citroën|ë-Berlingo M 50 kWh": {
+      "slug": "e-berlingo",
+      "endpreis": "33.430,04",
+      "kaufpreis": "32.537,54",
+      "ersparnis": "5.082,46 (13,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Citroën|ë-Berlingo XL 50 kWh": {
+      "slug": "e-berlingo",
+      "endpreis": "33.430,04",
+      "kaufpreis": "32.537,54",
+      "ersparnis": "5.082,46 (13,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Audi|S e-tron GT": {
+      "slug": "s-e-tron-gt",
+      "endpreis": "101.407,40",
+      "kaufpreis": "100.157,40",
+      "ersparnis": "25.842,60 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "DS Automobiles|DS 3 E-Tense": {
+      "slug": "ds3",
+      "endpreis": "28.678,88",
+      "kaufpreis": "27.619,78",
+      "ersparnis": "5.070,22 (15,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Astra Electric 58 kWh (MY26)": {
+      "slug": "astra-electric",
+      "endpreis": "30.254,51",
+      "kaufpreis": "29.364,51",
+      "ersparnis": "9.025,49 (23,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "BMW|i7 50 xDrive (MY27)": {
+      "slug": "i7",
+      "endpreis": "95.554,00",
+      "kaufpreis": "94.764,00",
+      "ersparnis": "26.636,00 (21,94)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "BMW|i7 60 xDrive (MY27)": {
+      "slug": "i7",
+      "endpreis": "95.554,00",
+      "kaufpreis": "94.764,00",
+      "ersparnis": "26.636,00 (21,94)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "BMW|i7 M70 xDrive (MY27)": {
+      "slug": "i7",
+      "endpreis": "95.554,00",
+      "kaufpreis": "94.764,00",
+      "ersparnis": "26.636,00 (21,94)",
+      "lieferzeit": "6-7 Monate"
+    },
+    "Audi|Q4 Sportback e-tron performance (MY27)": {
+      "slug": "q4-sportback-e-tron",
+      "endpreis": "41.405,81",
+      "kaufpreis": "40.296,81",
+      "ersparnis": "9.153,20 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q4 Sportback e-tron quattro performance (MY27)": {
+      "slug": "q4-sportback-e-tron",
+      "endpreis": "41.405,81",
+      "kaufpreis": "40.296,81",
+      "ersparnis": "9.153,20 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q4 Sportback e-tron (MY27)": {
+      "slug": "q4-sportback-e-tron",
+      "endpreis": "41.405,81",
+      "kaufpreis": "40.296,81",
+      "ersparnis": "9.153,20 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|Q4 Sportback e-tron quattro (MY27)": {
+      "slug": "q4-sportback-e-tron",
+      "endpreis": "41.405,81",
+      "kaufpreis": "40.296,81",
+      "ersparnis": "9.153,20 (18,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EC40 Single Motor ER (MY26)": {
+      "slug": "ec40",
+      "endpreis": "48.015,62",
+      "kaufpreis": "46.666,62",
+      "ersparnis": "7.723,38 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EC40 Twin Motor (MY26)": {
+      "slug": "ec40",
+      "endpreis": "48.015,62",
+      "kaufpreis": "46.666,62",
+      "ersparnis": "7.723,38 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EC40 Single Motor (MY26)": {
+      "slug": "ec40",
+      "endpreis": "48.015,62",
+      "kaufpreis": "46.666,62",
+      "ersparnis": "7.723,38 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Volvo|EC40 Twin Motor Performance (MY26)": {
+      "slug": "ec40",
+      "endpreis": "48.015,62",
+      "kaufpreis": "46.666,62",
+      "ersparnis": "7.723,38 (14,20)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Opel|Combo Electric 50 kWh": {
+      "slug": "combo-electric",
+      "endpreis": "29.924,59",
+      "kaufpreis": "28.734,59",
+      "ersparnis": "10.365,41 (26,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Opel|Combo Electric XL 50 kWh": {
+      "slug": "combo-electric",
+      "endpreis": "29.924,59",
+      "kaufpreis": "28.734,59",
+      "ersparnis": "10.365,41 (26,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Audi|SQ6 SUV e-tron (MY24)": {
+      "slug": "sq6-suv-e-tron",
+      "endpreis": "75.770,62",
+      "kaufpreis": "74.561,62",
+      "ersparnis": "19.238,38 (20,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Opel|Astra Sports Tourer Electric 58 kWh (MY26)": {
+      "slug": "astra-sports-tourer-electric",
+      "endpreis": "31.002,96",
+      "kaufpreis": "30.112,96",
+      "ersparnis": "9.777,04 (24,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "DS Automobiles|N°4 E-Tense (MY25)": {
+      "slug": "n-4",
+      "endpreis": "33.777,44",
+      "kaufpreis": "32.646,94",
+      "ersparnis": "5.993,06 (15,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-308 SW 58 kWh (MY26)": {
+      "slug": "e-308-sw",
+      "endpreis": "36.887,01",
+      "kaufpreis": "35.994,51",
+      "ersparnis": "7.640,49 (17,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Audi|S6 Avant e-tron (MY25)": {
+      "slug": "s6-avant-e-tron",
+      "endpreis": "81.613,14",
+      "kaufpreis": "80.404,14",
+      "ersparnis": "20.745,87 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-408 58 kWh (MY26)": {
+      "slug": "e-408",
+      "endpreis": "39.548,37",
+      "kaufpreis": "38.655,87",
+      "ersparnis": "7.644,13 (16,51)",
+      "lieferzeit": "10-12 Monate"
+    },
+    "Volkswagen|e-Caravelle L2 210 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "endpreis": "54.937,07",
+      "kaufpreis": "53.147,07",
+      "ersparnis": "12.874,13 (19,50)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Caravelle L1 100 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "endpreis": "54.937,07",
+      "kaufpreis": "53.147,07",
+      "ersparnis": "12.874,13 (19,50)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Caravelle L2 160 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "endpreis": "54.937,07",
+      "kaufpreis": "53.147,07",
+      "ersparnis": "12.874,13 (19,50)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Caravelle L1 160 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "endpreis": "54.937,07",
+      "kaufpreis": "53.147,07",
+      "ersparnis": "12.874,13 (19,50)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Caravelle L1 210 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "endpreis": "54.937,07",
+      "kaufpreis": "53.147,07",
+      "ersparnis": "12.874,13 (19,50)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Volkswagen|e-Caravelle L2 100 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "endpreis": "54.937,07",
+      "kaufpreis": "53.147,07",
+      "ersparnis": "12.874,13 (19,50)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Ford|e-Tourneo Custom L1 210 kW RWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L2 160 kW RWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L2 160 kW AWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L1 160 kW AWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L1 210 kW AWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L2 210 kW AWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L1 160 kW RWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Ford|e-Tourneo Custom L2 210 kW RWD": {
+      "slug": "tourneo-custom",
+      "endpreis": "41.823,33",
+      "kaufpreis": "40.028,33",
+      "ersparnis": "10.963,17 (21,50)",
+      "lieferzeit": "herstellerüblich"
+    },
+    "Audi|S6 Sportback e-tron (MY25)": {
+      "slug": "s6-sportback-e-tron",
+      "endpreis": "80.301,55",
+      "kaufpreis": "79.092,55",
+      "ersparnis": "20.407,45 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Abarth|500e Convertible": {
+      "slug": "500e-cabrio",
+      "endpreis": "23.064,45",
+      "kaufpreis": "22.174,45",
+      "ersparnis": "6.815,55 (23,51)",
+      "lieferzeit": "3-4 Monate"
+    },
+    "Abarth|600e Competizione (MY26)": {
+      "slug": "600e",
+      "endpreis": "36.887,25",
+      "kaufpreis": "35.897,25",
+      "ersparnis": "6.092,75 (14,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Abarth|600e Turismo": {
+      "slug": "600e",
+      "endpreis": "36.887,25",
+      "kaufpreis": "35.897,25",
+      "ersparnis": "6.092,75 (14,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Peugeot|e-Rifter M 50 kWh": {
+      "slug": "e-rifter",
+      "endpreis": "32.037,98",
+      "kaufpreis": "31.145,48",
+      "ersparnis": "7.074,52 (18,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Peugeot|e-Rifter XL 50 kWh": {
+      "slug": "e-rifter",
+      "endpreis": "32.037,98",
+      "kaufpreis": "31.145,48",
+      "ersparnis": "7.074,52 (18,51)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Peugeot|e-Traveller L3 75 kWh": {
+      "slug": "e-traveller",
+      "endpreis": "47.724,25",
+      "kaufpreis": "46.831,75",
+      "ersparnis": "6.398,25 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-Traveller L2 50 kWh": {
+      "slug": "e-traveller",
+      "endpreis": "42.445,45",
+      "kaufpreis": "41.552,95",
+      "ersparnis": "5.677,05 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-Traveller L2 75 kWh": {
+      "slug": "e-traveller",
+      "endpreis": "47.724,25",
+      "kaufpreis": "46.831,75",
+      "ersparnis": "6.398,25 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Peugeot|e-Traveller L3 50 kWh": {
+      "slug": "e-traveller",
+      "endpreis": "42.445,45",
+      "kaufpreis": "41.552,95",
+      "ersparnis": "5.677,05 (12,02)",
+      "lieferzeit": "2-3 Monate"
+    },
+    "Opel|Zafira Electric 50 kWh": {
+      "slug": "zafira-electric",
+      "endpreis": "39.297,85",
+      "kaufpreis": "38.107,85",
+      "ersparnis": "10.142,15 (21,02)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Opel|Zafira Electric 75 kWh": {
+      "slug": "zafira-electric",
+      "endpreis": "44.036,65",
+      "kaufpreis": "42.846,65",
+      "ersparnis": "11.403,35 (21,02)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Opel|Zafira Electric XL 50 kWh": {
+      "slug": "zafira-electric",
+      "endpreis": "39.297,85",
+      "kaufpreis": "38.107,85",
+      "ersparnis": "10.142,15 (21,02)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Opel|Zafira Electric XL 75 kWh": {
+      "slug": "zafira-electric",
+      "endpreis": "44.036,65",
+      "kaufpreis": "42.846,65",
+      "ersparnis": "11.403,35 (21,02)",
+      "lieferzeit": "4-6 Monate"
+    },
+    "Citroën|ë-SpaceTourer M 75 kWh": {
+      "slug": "e-spacetourer",
+      "endpreis": "47.020,41",
+      "kaufpreis": "46.127,91",
+      "ersparnis": "6.302,09 (12,02)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Citroën|ë-SpaceTourer XL 75 kWh": {
+      "slug": "e-spacetourer",
+      "endpreis": "47.020,41",
+      "kaufpreis": "46.127,91",
+      "ersparnis": "6.302,09 (12,02)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Citroën|ë-SpaceTourer M 50 kWh": {
+      "slug": "e-spacetourer",
+      "endpreis": "41.741,61",
+      "kaufpreis": "40.849,11",
+      "ersparnis": "5.580,89 (12,02)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Citroën|ë-SpaceTourer XL 50 kWh": {
+      "slug": "e-spacetourer",
+      "endpreis": "41.741,61",
+      "kaufpreis": "40.849,11",
+      "ersparnis": "5.580,89 (12,02)",
+      "lieferzeit": "4-5 Monate"
+    },
+    "Audi|SQ6 Sportback e-tron (MY25)": {
+      "slug": "sq6-sportback-e-tron",
+      "endpreis": "77.678,38",
+      "kaufpreis": "76.469,38",
+      "ersparnis": "19.730,62 (20,51)",
+      "lieferzeit": "2-3 Monate"
+    }
+  }
+}

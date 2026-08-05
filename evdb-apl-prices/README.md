@@ -1,19 +1,19 @@
 # APL Preise
 
-Chrome MV3 extension that replaces EV-Database (ev-database.org / .de) DE starting
-prices with current APL.de prices for orderable ("Bestellbar") EVs, recalculates
-Price/Range and refreshes jplist sorting.
+Firefox WebExtension (MV3) that replaces EV-Database (ev-database.org / .de) DE
+starting prices with current APL.de prices for orderable ("Bestellbar") EVs,
+recalculates Price/Range and refreshes jplist sorting.
 
 ## Install (dev)
 
-1. Open `chrome://extensions`, enable "Developer mode".
-2. "Load unpacked" → this directory.
+1. Open `about:debugging#/runtime/this-firefox`.
+2. "Temporäres Add-on laden" → select `manifest.json` in this directory.
 3. Open the popup, pick a price source (Privatkunden / Geschäftskunden) and hit
    "Jetzt aktualisieren".
 
 ## How it works
 
-- `background.js` (service worker):
+- `background.js` (event page):
   - Fetches the APL sitemap and the ev-database homepage once, extracts the 648
     "Bestellbar" vehicles and 529 APL model slugs, then builds the evdb→APL
     mapping with `matcher.js` (~72% auto-matched; the rest need manual overrides
@@ -25,7 +25,7 @@ Price/Range and refreshes jplist sorting.
     GK/PK are classified by the German label text in `scraper.js`, not by the
     numeric `data-tarif` attribute (it varies per variant — verified live:
     Abarth 159/69/71, Kia EV3 117/174/119/118/194/212/120, VW 48/51/52).
-  - Caches prices in `chrome.storage.local` for 24 h; hourly alarm refetches
+  - Caches prices in `browser.storage.local` for 24 h; hourly alarm refetches
     stale entries. Concurrency 4, 200 ms delay, 429 → retry once.
 - `scraper.js`: pure APL scrape core — `fetchPrices(varianteId, mode)` POSTs the
   price API and `parsePrices()` picks the Geschäftskunden block (`Gewerbetreibende|Selbständige`)
@@ -39,7 +39,7 @@ Price/Range and refreshes jplist sorting.
   refresh, stats, and the match-review UI (manual mapping or explicit skip for
   vehicles the matcher couldn't assign).
 
-## Storage schema (`chrome.storage.local`)
+## Storage schema (`browser.storage.local`)
 
 | Key | Shape |
 |-----|-------|

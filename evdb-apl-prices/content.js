@@ -47,7 +47,7 @@ if (typeof module !== 'undefined' && module.exports) {
   // Content script (browser only).
   // -------------------------------------------------------------------------
   (() => {
-    const get = (keys) => chrome.storage.local.get(keys);
+    const get = (keys) => browser.storage.local.get(keys);
 
     // Same key as background.js: "Make|Model" from the title spans.
     function itemKey(item) {
@@ -154,7 +154,7 @@ if (typeof module !== 'undefined' && module.exports) {
         // Kick the background once per page load so missing/stale cache gets refilled.
         if (!kicked) {
           kicked = true;
-          chrome.runtime.sendMessage({ type: 'run', manual: false }).catch(() => {});
+          browser.runtime.sendMessage({ type: 'run', manual: false }).catch(() => {});
         }
       } catch (e) {
         console.warn('[apl-prices]', e);
@@ -182,7 +182,7 @@ if (typeof module !== 'undefined' && module.exports) {
     }
 
     // Re-apply when the background finishes scraping while this tab is open.
-    chrome.storage.onChanged.addListener((changes, area) => {
+    browser.storage.onChanged.addListener((changes, area) => {
       if (area !== 'local') return;
       if (['aplCache', 'aplSettings', 'aplMapping', 'aplOverrides'].some((k) => changes[k])) {
         clearTimeout(timer);

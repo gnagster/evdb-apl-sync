@@ -1,8 +1,8 @@
 'use strict';
 
 // APL Preise – Popup-Steuerung.
-// Spricht ausschließlich über chrome.runtime.sendMessage mit dem
-// Service Worker (Message-Contract siehe Aufgabenbeschreibung).
+// Spricht ausschließlich über browser.runtime.sendMessage mit dem
+// Hintergrundskript (Message-Contract siehe Aufgabenbeschreibung).
 
 const MAX_ROWS = 200;      // Begrenzung der gerenderten Listenzeilen
 const POLL_MAX = 120;      // Sekunden, die auf ein fremdes Lauf-Update gewartet wird
@@ -32,18 +32,14 @@ const els = {
   autoPct: document.getElementById('autoPct'),
 };
 
-// sendMessage als Promise; lastError und Exceptions landen als {error}.
-function send(msg) {
-  return new Promise((resolve) => {
-    try {
-      chrome.runtime.sendMessage(msg, (res) => {
-        if (chrome.runtime.lastError) resolve({ error: chrome.runtime.lastError.message });
-        else resolve({ ok: true, data: res });
-      });
-    } catch (err) {
-      resolve({ error: String(err) });
-    }
-  });
+// sendMessage als Promise; Ablehnungen landen als {error}.
+async function send(msg) {
+  try {
+    const data = await browser.runtime.sendMessage(msg);
+    return { ok: true, data };
+  } catch (err) {
+    return { error: String(err) };
+  }
 }
 
 // Transiente Aktionsfehler (Verbindung, Speichern, …). Wird bei jedem

@@ -1,5 +1,7 @@
 'use strict';
-importScripts('matcher.js', 'scraper.js');
+// Firefox event-page background: matcher.js + scraper.js load first via the
+// manifest (they attach APLMatcher/APLScraper to globalThis). importScripts
+// does not exist in Firefox background pages (service-worker-only API).
 
 const UA = APLScraper.UA;
 const DAY = 24 * 60 * 60 * 1000;
@@ -7,8 +9,8 @@ const CONCURRENCY = 4;
 const DELAY = 200;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const get = (keys) => chrome.storage.local.get(keys);
-const set = (obj) => chrome.storage.local.set(obj);
+const get = (keys) => browser.storage.local.get(keys);
+const set = (obj) => browser.storage.local.set(obj);
 
 async function fetchAplSlugs() {
   const res = await fetch('https://www.apl.de/sitemap.xml', {
@@ -183,7 +185,7 @@ async function scrapeAll(mode, manual) {
           lastError = (e && e.message) || String(e);
         }
       }
-      // Flush periodically so a killed SW doesn't lose a long run.
+      // Flush periodically so a killed event page doesn't lose a long run.
       if (++fetched % 8 === 0) await set({ aplCache, aplVariantIds: variantIds });
     });
 
@@ -235,8 +237,8 @@ async function getState() {
   };
 }
 
-chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
-  (async () => {
+browser.runtime.onMessage.addListener(async (msg) => {
+  try {
     switch (msg && msg.type) {
       case 'getState':
         return await getState();
@@ -258,13 +260,14 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
         return { ok: true };
       }
       case 'clearCache':
-        await chrome.storage.local.remove('aplCache');
+        await browser.storage.local.remove('aplCache');
         return { ok: true };
       default:
         return { error: 'unknown:' + (msg && msg.type) };
     }
-  })().then(sendResponse, (e) => sendResponse({ error: (e && e.message) || String(e) }));
-  return true; // async response
+  } catch (e) {
+    return { error: (e && e.message) || String(e) };
+  }
 });
 
 // ---------------------------------------------------------------------------
@@ -275,12 +278,12 @@ async function init() {
   if (!aplSettings) {
     await set({ aplSettings: { mode: 'none', lastRun: null, stats: { mapped: 0, scraped: 0, failed: 0, lastError: null } } });
   }
-  chrome.alarms.create('refresh', { periodInMinutes: 60 });
+  browser.alarms.create('refresh', { periodInMinutes: 60 });
 }
 
-chrome.runtime.onInstalled.addListener(() => ensureMapping().catch(console.error));
-chrome.runtime.onStartup.addListener(() => ensureMapping().catch(console.error));
-chrome.alarms.onAlarm.addListener(async (alarm) => {
+browser.runtime.onInstalled.addListener(() => ensureMapping().catch(console.error));
+browser.runtime.onStartup.addListener(() => ensureMapping().catch(console.error));
+browser.alarms.onAlarm.addListener(async (alarm) => {
   if (alarm.name !== 'refresh' || running) return;
   const { aplSettings = {} } = await get(['aplSettings']);
   const mode = aplSettings.mode || 'none';

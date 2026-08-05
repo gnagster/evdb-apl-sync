@@ -1,0 +1,30 @@
+name: apl-prices
+
+on:
+  schedule:
+    - cron: '10 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: evdb-apl-prices
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Scrape APL Privatkunden prices
+        run: node tools/scrape-prices.mjs 2>&1
+      - name: Commit updated prices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apl-prices.json
+          git diff --cached --quiet || git commit -m "apl-prices: nightly Privatkunden update"
+          git push

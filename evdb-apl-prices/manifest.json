@@ -15,7 +15,7 @@
     "https://*.ev-database.de/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["matcher.js", "scraper.js", "background.js"]
   },
   "content_scripts": [
     {
@@ -28,5 +28,11 @@
       "js": ["content.js"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "apl-preise@evdb-firefox",
+      "strict_min_version": "121.0"
+    }
+  }
 }

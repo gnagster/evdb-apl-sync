@@ -244,4 +244,5 @@
     buildMapping,
     MIN_SCORE,
   };
+  if (typeof module !== 'undefined' && module.exports) module.exports = APLMatcher;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
