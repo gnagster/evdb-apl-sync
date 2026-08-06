@@ -380,10 +380,12 @@ if (typeof module !== 'undefined' && module.exports) {
 
     function triggerRefresh() {
       // Content script world can't see window.jplist; run in the page world.
+      // Must be an external file (web_accessible_resources): the page's CSP
+      // blocks inline scripts, but allows the extension's own origin.
       const s = document.createElement('script');
-      s.textContent = 'window.jplist && window.jplist.refresh();';
+      s.src = chrome.runtime.getURL('jplist-refresh.js');
+      s.addEventListener('load', () => s.remove());
       document.documentElement.appendChild(s);
-      s.remove();
     }
 
     async function run() {

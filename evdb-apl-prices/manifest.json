@@ -10,6 +10,17 @@
     "https://ev-database.org/*",
     "https://*.ev-database.org/*"
   ],
+  "web_accessible_resources": [
+    {
+      "resources": ["jplist-refresh.js"],
+      "matches": [
+        "https://ev-database.org/*",
+        "https://*.ev-database.org/*",
+        "https://ev-database.de/*",
+        "https://*.ev-database.de/*"
+      ]
+    }
+  ],
   "background": {
     "service_worker": "background.js"
   },
