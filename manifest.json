@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "APL Preise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ersetzt EV-Database Preise durch aktuelle APL.de Preise für bestellbare Elektrofahrzeuge.",
   "permissions": ["storage", "alarms"],
   "host_permissions": [
