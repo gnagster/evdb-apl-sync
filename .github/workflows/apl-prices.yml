@@ -11,9 +11,6 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: evdb-apl-prices
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

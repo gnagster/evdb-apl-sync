@@ -5,6 +5,7 @@ const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 const APLScraper = require('../scraper.js');
+const { selectEndpreis } = require('../content.js');
 
 // Real Abarth 500e response: tarifs 159 (behindert) / 69 (GK) / 71 (PK).
 const abarth = fs.readFileSync(path.join(__dirname, 'fixtures/apl-preisliste-abarth.html'), 'utf8');
@@ -159,3 +160,26 @@ assert.deepStrictEqual(
 );
 
 console.log('PASS: scraper classification ok (abarth + kia + vw + multi-motor + byMotor + offers)');
+
+// selectEndpreis cross-fallback: when only one customer-type price exists,
+// use it for the other mode too (instead of falling back to flat endpreis).
+const both = { endpreis: '10.000,00', offers: [
+  { tag: 'für Privatkunden', endpreis: '20.000,00' },
+  { tag: 'für Geschäftskunden', endpreis: '21.000,00' },
+] };
+assert.strictEqual(selectEndpreis(both, 'privatkunden'), '20.000,00', 'PK mode picks PK offer');
+assert.strictEqual(selectEndpreis(both, 'geschaeftskunden'), '21.000,00', 'GK mode picks GK offer');
+
+const onlyPk = { endpreis: '99.000,00', offers: [{ tag: 'für Privatkunden', endpreis: '20.000,00' }] };
+assert.strictEqual(selectEndpreis(onlyPk, 'geschaeftskunden'), '20.000,00', 'GK mode falls back to PK offer');
+assert.strictEqual(selectEndpreis(onlyPk, 'privatkunden'), '20.000,00', 'PK mode uses PK offer');
+
+const onlyGk = { endpreis: '99.000,00', offers: [{ tag: 'für Geschäftskunden', endpreis: '21.000,00' }] };
+assert.strictEqual(selectEndpreis(onlyGk, 'privatkunden'), '21.000,00', 'PK mode falls back to GK offer');
+assert.strictEqual(selectEndpreis(onlyGk, 'geschaeftskunden'), '21.000,00', 'GK mode uses GK offer');
+
+const noOffers = { endpreis: '30.000,00', offers: [] };
+assert.strictEqual(selectEndpreis(noOffers, 'privatkunden'), '30.000,00', 'no offers -> flat endpreis');
+assert.strictEqual(selectEndpreis(null, 'privatkunden'), null, 'null entry -> null');
+
+console.log('PASS: selectEndpreis cross-fallback ok');

@@ -37,8 +37,8 @@ if (typeof globalThis !== 'undefined' && !globalThis.browser && typeof chrome !=
 
 const DAY = 24 * 60 * 60 * 1000;
 const SOURCES = [
-  'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/evdb-apl-prices/apl-prices.json',
-  'https://cdn.jsdelivr.net/gh/gnagster/evdb-apl-sync@main/evdb-apl-prices/apl-prices.json',
+  'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/apl-prices.json',
+  'https://cdn.jsdelivr.net/gh/gnagster/evdb-apl-sync@main/apl-prices.json',
 ];
 const MODES = ['evdb', 'privatkunden', 'geschaeftskunden'];
 

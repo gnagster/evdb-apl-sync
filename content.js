@@ -80,14 +80,16 @@ function parseRangeKm(text) {
 }
 
 // Endpreis string for a mode, or null when nothing usable. Chosen tag first,
-// flat endpreis as fallback. Entry shape (v2): {endpreis, offers:[{tag,endpreis}]}.
+// the other mode's tag as cross-fallback (only-one-price case), flat endpreis
+// last. Entry shape (v2): {endpreis, offers:[{tag,endpreis}]}.
 function selectEndpreis(entry, mode) {
   if (!entry) return null;
-  const tag = MODES[mode];
-  if (tag) {
-    const off = (entry.offers || []).find((o) => o && o.tag === tag);
-    if (off && off.endpreis != null) return off.endpreis;
-  }
+  const offers = (entry.offers || []).filter((o) => o && o.endpreis != null);
+  const own = offers.find((o) => o.tag === MODES[mode]);
+  if (own) return own.endpreis;
+  const otherTag = mode === 'privatkunden' ? MODES.geschaeftskunden : MODES.privatkunden;
+  const other = offers.find((o) => o.tag === otherTag);
+  if (other) return other.endpreis;
   return entry.endpreis != null ? entry.endpreis : null;
 }
 
@@ -300,6 +302,45 @@ if (typeof module !== 'undefined' && module.exports) {
     document.addEventListener('scroll', hideTooltip, true);
 
     // -----------------------------------------------------------------------
+    // Status toasts (small orange/red notifications, bottom-right).
+    // -----------------------------------------------------------------------
+
+    let toastHost = null;
+
+    function ensureToastHost() {
+      if (toastHost && document.body.contains(toastHost)) return toastHost;
+      toastHost = document.createElement('div');
+      toastHost.style.cssText =
+        'position:fixed;right:12px;bottom:12px;z-index:2147483646;' +
+        'display:flex;flex-direction:column;gap:6px;align-items:flex-end;' +
+        'pointer-events:none;max-width:min(360px,90vw);';
+      document.body.appendChild(toastHost);
+      return toastHost;
+    }
+
+    function showToast(text, kind) {
+      const host = ensureToastHost();
+      const t = document.createElement('div');
+      t.setAttribute('role', 'status');
+      t.textContent = text;
+      const bg = kind === 'error' ? '#d33' : '#e8590c';
+      t.style.cssText =
+        'padding:8px 12px;border-radius:4px;font:600 12px/1.4 -apple-system,"Segoe UI",Arial,sans-serif;' +
+        'color:#fff;background:' + bg + ';box-shadow:0 3px 10px rgba(0,0,0,.35);' +
+        'opacity:0;transform:translateY(6px);transition:opacity .2s,transform .2s;';
+      host.appendChild(t);
+      requestAnimationFrame(() => {
+        t.style.opacity = '1';
+        t.style.transform = 'none';
+      });
+      setTimeout(() => {
+        t.style.opacity = '0';
+        t.style.transform = 'translateY(6px)';
+        setTimeout(() => t.remove(), 250);
+      }, 5000);
+    }
+
+    // -----------------------------------------------------------------------
     // Mode switcher, injected into .subheader-title right after the <h1>.
     // -----------------------------------------------------------------------
 
@@ -377,6 +418,7 @@ if (typeof module !== 'undefined' && module.exports) {
     // -----------------------------------------------------------------------
 
     let timer = null;
+    let firstRun = true;
 
     function triggerRefresh() {
       // Content script world can't see window.jplist; run in the page world.
@@ -399,12 +441,14 @@ if (typeof module !== 'undefined' && module.exports) {
         const isApl = mode === 'privatkunden' || mode === 'geschaeftskunden';
 
         let modified = 0;
+        let recognized = 0;
         for (const item of document.querySelectorAll('.list-item')) {
           try {
             if (!item.querySelector('.availability.current')) continue; // not orderable
             const key = itemKey(item);
             if (!key) continue;
             const entry = prices[key];
+            if (entry) recognized++;
             let priceText = null;
             let priceNum = null;
             if (isApl && entry) {
@@ -421,6 +465,22 @@ if (typeof module !== 'undefined' && module.exports) {
         if (modified > 0) {
           triggerRefresh();
           console.info('[apl-prices] updated ' + modified + ' items');
+        }
+
+        // Status toast: recognized models, DB fetch time, replaced prices.
+        // Show on the first run (page load) and whenever prices changed.
+        if (firstRun || modified > 0) {
+          firstRun = false;
+          const fetchedAt = (st.aplData && st.aplData.fetchedAt) || null;
+          const when = fetchedAt
+            ? new Date(fetchedAt).toLocaleString('de-DE', {
+                day: '2-digit', month: '2-digit', year: 'numeric',
+                hour: '2-digit', minute: '2-digit',
+              })
+            : 'nie';
+          showToast(
+            recognized + ' Modelle erkannt, Datenbank ' + when + ' abgerufen, ' + modified + ' Preise ersetzt.'
+          );
         }
       } catch (e) {
         console.warn('[apl-prices]', e);

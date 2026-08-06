@@ -6,7 +6,7 @@ human look and persists decisions as manual overrides. Runs in the repo root
 
 ## Context
 
-- `evdb-apl-prices/apl-prices.json` is regenerated nightly by a GitHub Action (05:10 UTC).
+- `apl-prices.json` is regenerated nightly by a GitHub Action (05:10 UTC).
   Each `Make|Model` entry has `{slug, confidence 0..1, endpreis, …, offers:[{tag,endpreis,…}]}`.
   Matches below 0.85 are listed in top-level `lowConfidence[]`; exactly 0.85 are borderline.
 - Per-variant pricing: when an evdb model name carries a trim the APL modellvarianten page
@@ -15,14 +15,14 @@ human look and persists decisions as manual overrides. Runs in the repo root
   slug. Models naming no trim (base, battery-numbered "Enyaq 85", powertrain-only
   "EX40 Single Motor") fall back to the battery-rank/base price. So `endpreis` is per
   identifiable trim, not always the cheapest on the page.
-- `evdb-apl-prices/tools/overrides.json` (agent-owned): `{"Make|Model": "apl-slug" | null}`.
+- `tools/overrides.json` (agent-owned): `{"Make|Model": "apl-slug" | null}`.
   The pipeline merges it: slug redirects which APL vehicle is scraped (confidence → 1.0),
   null force-skips the entry (explicit unmatched). Never guess. Overrides redirect the slug;
   per-variant pricing still applies inside the redirected slug.
-- `evdb-apl-prices/tools/review-ledger.json` (agent-owned): `{"Make|Model": {date, confidence, decision, reasoning}}`
+- `tools/review-ledger.json` (agent-owned): `{"Make|Model": {date, confidence, decision, reasoning}}`
   — prevents re-reviewing unchanged entries.
-- Reference data: `evdb-apl-prices/test/fixtures/evdb-bestellbar.json` (evdb side:
-  id, make, model, shape, range_km), `evdb-apl-prices/tools/apl-sitemap.json` (APL slugs).
+- Reference data: `test/fixtures/evdb-bestellbar.json` (evdb side:
+  id, make, model, shape, range_km), `tools/apl-sitemap.json` (APL slugs).
 - Live lookups: APL modellvarianten/detail pages (detail blocks carry `data-sortkw`,
   `data-sortmotor` like `81,4 kWh`, `data-sortgrundpreis`) and ev-database.org detail pages
   `/car/{id}/{Name}` (no trailing slash; "Total Power" row has kW). Accept a mapping only if
@@ -42,11 +42,11 @@ human look and persists decisions as manual overrides. Runs in the repo root
    override `null` with reasoning. Log every decision in the ledger (date, confidence,
    decision, one-line reasoning). Preserve other keys when merging; keep JSON pretty-printed
    and sorted.
-3. Validate: run `node evdb-apl-prices/test/matcher.test.js` (must stay green — it does not
+3. Validate: run `node test/matcher.test.js` (must stay green — it does not
    read overrides) and JSON-parse both tools files. If `overrides.json` contains a slug the
    pipeline can't find in `apl-sitemap.json`, drop it and note why.
-4. If anything changed: `git add evdb-apl-prices/tools/overrides.json
-   evdb-apl-prices/tools/review-ledger.json`, commit `APL review: <n> low-confidence mappings
+4. If anything changed: `git add tools/overrides.json
+   tools/review-ledger.json`, commit `APL review: <n> low-confidence mappings
    finalized`, then `git pull --rebase && git push`. If nothing changed, no commit, no push.
 
 ## Rules

@@ -1,5 +1,5 @@
 // Nightly APL Privatkunden scrape -> apl-prices.json (consumed by the bookmarklet).
-// Lives in gnagster/evdb-apl-sync (evdb-apl-prices/tools/).
+// Lives in gnagster/evdb-apl-sync (tools/).
 // Usage: node tools/scrape-prices.mjs [maxVehicles]   (maxVehicles = quick smoke test)
 'use strict';
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -11,7 +11,7 @@ const MAX = Number(process.argv[2]) || Infinity;
 const CONCURRENCY = Number(process.env.APL_CONCURRENCY) || 3;
 const DELAY = Number(process.env.APL_DELAY) || 300;
 const CONSEC_FAIL_ABORT = 25; // stop early if APL starts bot-blocking us
-const PREV_JSON_URL = 'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/evdb-apl-prices/apl-prices.json';
+const PREV_JSON_URL = 'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/apl-prices.json';
 const MAX_LINES = 6; // cap on variant lines probed per model (base + top trims)
 const TAG_ORDER = ['für Privatkunden', 'für Geschäftskunden', 'für Freiberufler'];
 // Persistent cache so already-wired lines/specs are not re-scraped every day.
