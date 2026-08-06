@@ -419,6 +419,7 @@ if (typeof module !== 'undefined' && module.exports) {
 
     let timer = null;
     let firstRun = true;
+    let lastDbRequest = 0; // cooldown for the on-demand DB fetch (30s)
 
     function triggerRefresh() {
       // Content script world can't see window.jplist; run in the page world.
@@ -434,7 +435,19 @@ if (typeof module !== 'undefined' && module.exports) {
       try {
         ensureSwitcher();
         hideTooltip();
-        const st = await get(['aplSettings', 'aplData']);
+        let st = await get(['aplSettings', 'aplData']);
+        // The background fetches aplData once at install/startup; a failed
+        // fetch (flaky network) leaves it missing with no retry. Ask the
+        // background to fetch on demand until it lands, then re-read storage.
+        if (!(st.aplData || {}).prices && Date.now() - lastDbRequest > 30000) {
+          lastDbRequest = Date.now();
+          try {
+            await browser.runtime.sendMessage({ type: 'fetchPrices', manual: true });
+            st = await get(['aplSettings', 'aplData']);
+          } catch (e) {
+            console.warn('[apl-prices] background fetch retry failed', e);
+          }
+        }
         const mode = (st.aplSettings || {}).mode;
         setSwitcherActive(mode);
         const prices = (st.aplData || {}).prices || {};
@@ -472,12 +485,16 @@ if (typeof module !== 'undefined' && module.exports) {
         if (firstRun || modified > 0) {
           firstRun = false;
           const fetchedAt = (st.aplData && st.aplData.fetchedAt) || null;
+          const lastErr =
+            (st.aplSettings && st.aplSettings.stats && st.aplSettings.stats.lastError) || null;
           const when = fetchedAt
             ? new Date(fetchedAt).toLocaleString('de-DE', {
                 day: '2-digit', month: '2-digit', year: 'numeric',
                 hour: '2-digit', minute: '2-digit',
               })
-            : 'nie';
+            : lastErr
+              ? 'nie (' + lastErr + ')'
+              : 'nie';
           showToast(
             recognized + ' Modelle erkannt, Datenbank ' + when + ' abgerufen, ' + modified + ' Preise ersetzt.'
           );
