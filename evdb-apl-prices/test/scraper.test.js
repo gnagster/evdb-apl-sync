@@ -140,4 +140,22 @@ assert.deepStrictEqual(
   'Freiberufler offer tagged and parsed'
 );
 
+// parseMotorSpecs: detail-page item-motor attributes -> {id: {kwh, kw}}.
+// Real Ariya data (class carries extra tokens: "item-motor  kW160 sprit29").
+const ps = APLScraper.parseMotorSpecs(
+  '<div class="item-motor  kW160 sprit29 clearfix" data-id="244" data-sortkw="160"  data-sortmotor="63kWh" data-sortgrundpreis="43490">' +
+  '<div class="item-motor  kW178 sprit29 clearfix" data-id="243" data-sortkw="178" data-sortmotor="87 kWh" data-sortgrundpreis="45550">' +
+  '<div class="item-motor  kW225 sprit29 clearfix" data-id="242" data-sortkw="225" data-sortmotor="e-4ORCE 87kWh" data-sortgrundpreis="48990">'
+);
+assert.deepStrictEqual(
+  ps,
+  { '244': { kwh: 63, kw: 160 }, '243': { kwh: 87, kw: 178 }, '242': { kwh: 87, kw: 225 } },
+  'parseMotorSpecs: id + kWh + kW from data attributes'
+);
+assert.deepStrictEqual(
+  APLScraper.parseMotorSpecs('<div class="item-motor" data-id="9" data-sortkw="70" data-sortmotor="">'),
+  { '9': { kwh: null, kw: 70 } },
+  'parseMotorSpecs: missing kWh stays null'
+);
+
 console.log('PASS: scraper classification ok (abarth + kia + vw + multi-motor + byMotor + offers)');

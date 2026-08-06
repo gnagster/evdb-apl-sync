@@ -33,6 +33,12 @@ Kein Scraping im Browser. Eine nächtliche GitHub Action
 Konfidenz über `matcher.js` (`buildMapping`, kWh/kW-Spezifikationsprüfung) und
 committet `apl-prices.json` ins Repo (gnagster/evdb-apl-sync).
 
+Die Pipeline cached bereits erfasste Daten in `tools/scrape-cache.json`
+(committet): Preise/Offers pro Variantenlinie (TTL `APL_PRICE_TTL_H`, Standard
+72 h), Slug→Varianten-Struktur (`APL_STRUCTURE_TTL_H`, 168 h) und Motorspezifikationen
+(dauerhaft). Schon gematchte Linien werden nicht erneut gescraped; neue Modelle
+werden sofort erfasst, ausgelaufene fallen weg.
+
 Die Extension lädt die Datei täglich herunter (raw.githubusercontent.com, Fallback
 cdn.jsdelivr.net, 24-h-Drossel) und behält bei Fehlern die letzte gute Kopie plus
 `stats.lastError`.
@@ -60,7 +66,8 @@ gespiegelt.
   Helfer `specKwhOf`/`specMatch`: kWh innerhalb 15 % oder 5 kWh absolut; kW
   innerhalb 25 % oder 30 kW absolut), `scraper.js`
 - `tools/scrape-prices.mjs` (nächtliche Pipeline), `tools/overrides.json`,
-  `tools/review-ledger.json`, `tools/low-confidence-agent.md`
+  `tools/review-ledger.json`, `tools/low-confidence-agent.md`,
+  `tools/scrape-cache.json` (generiert)
 - `apl-prices.json` (generiert), `test/` (`matcher.test.js`, `scraper.test.js`,
   Fixtures)
 

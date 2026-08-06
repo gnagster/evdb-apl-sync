@@ -95,6 +95,13 @@
     return m ? parseFloat(m[1]) : null;
   }
 
+  // kW from an evdb model name ("Ariya e-4ORCE 87kWh - 225 kW" -> 225, no
+  // match -> null). The \b after kW excludes "87 kWh" (W->h is no boundary).
+  function specKwOf(name) {
+    const m = String(name).match(/(\d+(?:\.\d+)?)\s*kW\b/i);
+    return m ? parseFloat(m[1]) : null;
+  }
+
   /**
    * Compare evdb battery/motor specs against one APL variant line.
    * Pure helper for the pipeline: after buildMapping() picks a slug, the
@@ -187,6 +194,31 @@
       if (d.length === best.score && d.every((t) => A.includes(t))) return null;
     }
     return variants[best.idx];
+  }
+
+  /**
+   * Pick the APL motor whose (kWh, kW) best matches an evdb model name.
+   * motors: [{id, kwh, kw, num?}] - num is the PK price used to break ties
+   * (same battery, several powertrains: cheaper FWD wins over AWD). Returns
+   * the winning motor id, or null when no motor matches either spec dim.
+   * Pure name+spec logic, testable without APL.
+   */
+  function pickMotor(model, motors) {
+    const ekWh = specKwhOf(model);
+    const eKw = specKwOf(model);
+    if (ekWh == null && eKw == null) return null;
+    let best = null;
+    let bestScore = -1;
+    for (const m of motors) {
+      if (m.kwh == null && m.kw == null) continue;
+      const s = specMatch(ekWh, eKw, m.kwh, m.kw);
+      if (s.score === 0) continue;
+      if (s.score > bestScore || (s.score === bestScore && best && m.num < best.num)) {
+        best = m;
+        bestScore = s.score;
+      }
+    }
+    return best ? best.id : null;
   }
 
   function cleanModel(make, model, shape) {
@@ -444,7 +476,9 @@
     cleanModel,
     score,
     specKwhOf,
+    specKwOf,
     specMatch,
+    pickMotor,
     matchVariant,
     buildMapping,
     MIN_SCORE,

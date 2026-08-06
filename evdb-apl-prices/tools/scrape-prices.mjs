@@ -14,11 +14,32 @@ const CONSEC_FAIL_ABORT = 25; // stop early if APL starts bot-blocking us
 const PREV_JSON_URL = 'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/evdb-apl-prices/apl-prices.json';
 const MAX_LINES = 6; // cap on variant lines probed per model (base + top trims)
 const TAG_ORDER = ['für Privatkunden', 'für Geschäftskunden', 'für Freiberufler'];
+// Persistent cache so already-wired lines/specs are not re-scraped every day.
+const CACHE_PATH = 'tools/scrape-cache.json';
+const PRICE_TTL_H = Number(process.env.APL_PRICE_TTL_H) || 72; // per-line prices/offers freshness
+const STRUCTURE_TTL_H = Number(process.env.APL_STRUCTURE_TTL_H) || 168; // slug -> variant lines freshness
 // 0..1 matcher confidence per 'Make|Model', default 0.8 when the matcher lane
 // hasn't added confidence yet.
 const confOf = (key, built) => (built.confidence && built.confidence[key]) || 0.8;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// --- Scrape cache -----------------------------------------------------------
+// Committed alongside apl-prices.json so nightly runs reuse what they already
+// wired: line-level prices/offers (refreshed every PRICE_TTL_H), slug -> variant
+// lines (structure, every STRUCTURE_TTL_H), and motor specs (permanent - specs
+// are static per motor id). The key set is ALWAYS re-derived from the fresh
+// evdb list each run, so sold-out cars disappear and new ones are fetched
+// immediately; only already-known APL data is skipped.
+let cache = { slugLines: {}, lineData: {}, motorSpecs: {} };
+try { cache = JSON.parse(readFileSync(CACHE_PATH, 'utf8')); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+const fresh = (t, ttlH) => !!t && Date.now() - new Date(t).getTime() < ttlH * 3600 * 1000;
+const structure = () => cache.slugLines || (cache.slugLines = {});
+const cachedLines = (slug) => (fresh(structure()[slug] && structure()[slug].fetchedAt, STRUCTURE_TTL_H) ? structure()[slug].lines : null);
+const setCachedLines = (slug, lines) => { structure()[slug] = { fetchedAt: new Date().toISOString(), lines }; };
+const lineData = () => cache.lineData || (cache.lineData = {});
+const cachedLine = (id) => (fresh(lineData()[id] && lineData()[id].fetchedAt, PRICE_TTL_H) ? lineData()[id].data : null);
+const setCachedLine = (id, data) => { lineData()[id] = { fetchedAt: new Date().toISOString(), data }; };
 
 async function fetchText(url, accept = '*/*') {
   const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: accept } });
@@ -32,9 +53,10 @@ const batteryOf = (key) => {
   return m ? parseFloat(m[1]) : null;
 };
 
-// Modellvarianten page -> variant lines [{id, name}] in page order (skips
+// Modellvarianten page -> variant lines [{id, name, url}] in page order (skips
 // review blocks). name is the trim label ("VW ID.Buzz Pure", "Kia EV9 GT-line")
-// used by matchVariant for per-variant pricing.
+// used by matchVariant for per-variant pricing; url is the trim detail page
+// ("/neuwagen/nissan/ariya/advance/") whose item-motor blocks carry the specs.
 const parseVariantLines = (page) => {
   const variants = [];
   const re = /<h2[^>]*>([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2|$)/g;
@@ -42,7 +64,8 @@ const parseVariantLines = (page) => {
   while ((m = re.exec(page))) {
     const name = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const id = (m[2].match(/FzgBlock-infos" data-id="(\d+)"/) || [])[1];
-    if (id && !/bewertung/i.test(name)) variants.push({ id, name });
+    const url = (m[2].match(/href="(\/neuwagen\/[^"]+)"/) || [])[1];
+    if (id && !/bewertung/i.test(name)) variants.push({ id, name, url: url || null });
   }
   return variants;
 };
@@ -158,14 +181,27 @@ async function main() {
     return TAG_ORDER.map((t) => (best.get(t) || {}).offer).filter(Boolean);
   };
   const scrapeSlug = async (job) => {
-    const page = await fetchText(job.url, 'text/html');
-    const variants = parseVariantLines(page);
+    let variants = cachedLines(job.slug);
+    if (!variants) {
+      const page = await fetchText(job.url, 'text/html');
+      variants = parseVariantLines(page);
+      if (!variants.length) throw new Error('no variant id');
+      setCachedLines(job.slug, variants);
+    }
     const lines = variants.map((v) => v.id);
-    if (!lines.length) throw new Error('no variant id');
 
-    const lineCache = new Map(); // line id -> fetchOffers promise (one POST per line)
+    // line id -> cached fetchOffers result, else one POST (cached on success).
+    const lineCache = new Map();
     const getLine = (id) => {
-      if (!lineCache.has(id)) lineCache.set(id, APLScraper.fetchOffers(id));
+      if (!lineCache.has(id)) {
+        const hit = cachedLine(id);
+        lineCache.set(
+          id,
+          hit
+            ? Promise.resolve(hit)
+            : APLScraper.fetchOffers(id).then((r) => { setCachedLine(id, r); return r; })
+        );
+      }
       return lineCache.get(id);
     };
 
@@ -185,6 +221,54 @@ async function main() {
       scraped++;
     }
     if (matched.size) job.keys = job.keys.filter((k) => !matched.has(k));
+    if (!job.keys.length) return;
+
+    // Spec lane: multi-variant slugs whose names carry battery/kW. The
+    // battery-rank fallback below collapses variants that share a battery
+    // (Ariya 87kWh FWD vs e-4ORCE 87kWh both land on the cheapest motor);
+    // instead pick the motor whose (kWh, kW) matches the name (pickMotor).
+    // Motor specs come from the trim detail pages and are cached permanently.
+    const specKeys = job.keys.filter((k) => {
+      const m = k.split('|')[1];
+      return APLMatcher.specKwhOf(m) != null || APLMatcher.specKwOf(m) != null;
+    });
+    if (specKeys.length && job.keys.length > 1) {
+      const cands = new Map(); // motorId -> { price, num, offers }
+      for (const v of variants.slice(0, MAX_LINES)) {
+        let r;
+        try { r = await getLine(v.id); } catch (e) { continue; } // line failure -> fallback path
+        for (const [motor, price] of Object.entries(r.byMotor)) {
+          const num = parseNum(price.endpreis);
+          if (num === null) continue;
+          const cur = cands.get(motor);
+          if (!cur || num < cur.num) cands.set(motor, { price, num, offers: r.offers[motor] || [] });
+        }
+      }
+      // Fetch specs only for motors we still miss (permanent cache: once a
+      // motor's specs are known they never need a detail page again).
+      for (const v of variants.slice(0, MAX_LINES)) {
+        if (!v.url) continue;
+        if (![...cands.keys()].some((id) => !cache.motorSpecs[id])) break;
+        try {
+          const specPage = await fetchText('https://www.apl.de' + v.url, 'text/html');
+          Object.assign(cache.motorSpecs, APLScraper.parseMotorSpecs(specPage));
+        } catch (e) { /* specs unavailable -> those keys fall back */ }
+      }
+      const specMatched = new Set();
+      for (const k of specKeys) {
+        const motors = [...cands].map(([id, cand]) => ({ id, num: cand.num, ...(cache.motorSpecs[id] || {}) }));
+        const pick = APLMatcher.pickMotor(k.split('|')[1], motors);
+        if (pick && cands.has(pick)) {
+          const cand = cands.get(pick);
+          // Same offer ordering as the other lanes (PK, GK, Freiberufler).
+          const offers = TAG_ORDER.map((t) => cand.offers.find((o) => o.tag === t)).filter(Boolean);
+          prices[k] = { slug: job.slug, confidence: confOf(k, built), ...cand.price, offers };
+          specMatched.add(k);
+          scraped++;
+        }
+      }
+      if (specMatched.size) job.keys = job.keys.filter((k) => !specMatched.has(k));
+    }
     if (!job.keys.length) return;
 
     const batteries = job.keys.map(batteryOf).filter((b) => b !== null).sort((a, b) => a - b);
@@ -312,6 +396,7 @@ async function main() {
     : [];
   const out = { generatedAt: new Date().toISOString(), source: 'privatkunden', count: scraped, prices, lowConfidence };
   writeFileSync('apl-prices.json', JSON.stringify(out, null, 2));
+  writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
   console.log('Wrote apl-prices.json with ' + scraped + ' prices (' + failCount() + ' failed).');
 }
 

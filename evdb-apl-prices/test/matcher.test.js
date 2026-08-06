@@ -167,6 +167,31 @@ assertSpec(60, 100, 100, 200, { kwhOk: false, kwOk: false, score: 0 }); // total
 assertSpec(60, null, 100, null, { kwhOk: false, kwOk: false, score: 0 }); // kWh only, no match
 assertSpec(null, 150, null, 160, { kwhOk: false, kwOk: true, score: 1 }); // kW only, abs 10 ok
 
+// --- specKwOf: kW extraction; "87 kWh" must not count as kW.
+assert.strictEqual(APLMatcher.specKwOf('Nissan Ariya e-4ORCE 87kWh - 225 kW'), 225);
+assert.strictEqual(APLMatcher.specKwOf('Volkswagen ID. Polo 155 kW - 52 kWh'), 155);
+assert.strictEqual(APLMatcher.specKwOf('Renault 5 E-Tech 52kWh 150hp'), null); // hp is not kW
+assert.strictEqual(APLMatcher.specKwOf('Tesla Model 3'), null);
+
+// --- pickMotor: spec-based motor selection (the Ariya 87 kWh regression).
+// APL ariya page: base line only has the 63 kWh motor; 87 kWh FWD + e-4ORCE
+// live on Advance/Evolve. Battery-rank fallback gave BOTH evdb 87 kWh keys the
+// 63 kWh base price - pickMotor must tell them apart.
+const ariyaMotors = [
+  { id: '244', kwh: 63, kw: 160, num: 36630 },
+  { id: '243', kwh: 87, kw: 178, num: 41500 },
+  { id: '242', kwh: 87, kw: 225, num: 44900 },
+];
+const assertPick = (model, motors, want) => {
+  assert.strictEqual(APLMatcher.pickMotor(model, motors), want, `pickMotor('${model}')`);
+};
+assertPick('Ariya 87kWh', ariyaMotors, '243'); // kW-less: 87 kWh tie -> cheaper FWD wins
+assertPick('Ariya e-4ORCE 87kWh - 225 kW', ariyaMotors, '242'); // kW names the e-4ORCE
+assertPick('Ariya 63kWh', ariyaMotors, '244');
+assertPick('Ariya 45 kWh', ariyaMotors, null); // no spec agrees -> fallback rank path
+assertPick('Ariya', ariyaMotors, null); // no battery/kW in the name
+console.log('pickMotor: ok');
+
 // --- matchVariant: per-variant name identification on a modellvarianten page.
 const V = (names) => names.map((name, i) => ({ id: String(100 + i), name }));
 const assertVariant = (model, variants, want) => {

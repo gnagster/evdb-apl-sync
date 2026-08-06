@@ -104,6 +104,26 @@
       return out;
     },
 
+    // detail page -> { [motorId]: { kwh, kw } } from the item-motor data
+    // attributes (data-sortmotor="63kWh" | "e-4ORCE 87 kWh", data-sortkw="160").
+    // Unknown values stay null. Specs are static per motor id, so the pipeline
+    // caches them permanently. The preisliste POST only carries motor ids, so
+    // this is the only source of the specs used for pickMotor.
+    parseMotorSpecs(html) {
+      const out = {};
+      // class is "item-motor  kW160 sprit29 clearfix" - extra classes allowed.
+      for (const m of String(html).matchAll(/<div class="item-motor(?:[^"]*)"[^>]*>/g)) {
+        const el = m[0];
+        const id = (el.match(/data-id="(\d+)"/) || [])[1];
+        if (!id) continue;
+        const kw = parseFloat((el.match(/data-sortkw="([^"]*)"/) || [])[1] || '');
+        const motor = (el.match(/data-sortmotor="([^"]*)"/) || [])[1] || '';
+        const kwh = parseFloat((motor.match(/(\d+(?:[.,]\d+)?)\s*kWh/i) || [])[1] || '');
+        out[id] = { kwh: Number.isFinite(kwh) ? kwh : null, kw: Number.isFinite(kw) ? kw : null };
+      }
+      return out;
+    },
+
     // POST the price list for one variant; returns the requested kind's price
     // object or null. Throws on non-OK HTTP (caller decides retry).
     async fetchPrices(varianteId, which) {
