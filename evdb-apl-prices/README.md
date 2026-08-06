@@ -1,65 +1,71 @@
 # APL Preise
 
-Firefox WebExtension (MV3) that replaces EV-Database (ev-database.org / .de) DE
-starting prices with current APL.de prices for orderable ("Bestellbar") EVs,
-recalculates Price/Range and refreshes jplist sorting.
+MV3-WebExtension (Version 1.0.0) für Chrome und Firefox (121+), die die Preise
+auf EV-Database (ev-database.org / .de) für bestellbare EVs durch aktuelle
+APL.de-Preise ersetzt.
 
 ## Install (dev)
 
-1. Open `about:debugging#/runtime/this-firefox`.
-2. "Temporäres Add-on laden" → select `manifest.json` in this directory.
-3. Open the popup, pick a price source (Privatkunden / Geschäftskunden) and hit
-   "Jetzt aktualisieren".
+- **Chrome:** `chrome://extensions` → Entwicklermodus → „Entpackte Erweiterung
+  laden“ → diesen Ordner auswählen.
+- **Firefox:** `about:debugging` → Dieses Firefox → Temporäres Add-on laden →
+  `manifest.json` auswählen (oder als XPI packen).
 
-## How it works
+## Bedienung
 
-- `background.js` (event page):
-  - Fetches the APL sitemap and the ev-database homepage once, extracts the 648
-    "Bestellbar" vehicles and 529 APL model slugs, then builds the evdb→APL
-    mapping with `matcher.js` (~72% auto-matched; the rest need manual overrides
-    via the popup).
-  - Resolves each mapped slug to its numeric APL VarianteID (scraped from the
-    modellvarianten page; first `data-id` = base variant).
-  - Scrapes prices via `POST https://www.apl.de/sys/preisliste/getPreisliste.php`
-    (`VarianteID=…&Bonus=&Site=Preisliste`, browser UA required — no UA gets 429).
-    GK/PK are classified by the German label text in `scraper.js`, not by the
-    numeric `data-tarif` attribute (it varies per variant — verified live:
-    Abarth 159/69/71, Kia EV3 117/174/119/118/194/212/120, VW 48/51/52).
-  - Caches prices in `browser.storage.local` for 24 h; hourly alarm refetches
-    stale entries. Concurrency 4, 200 ms delay, 429 → retry once.
-- `scraper.js`: pure APL scrape core — `fetchPrices(varianteId, mode)` POSTs the
-  price API and `parsePrices()` picks the Geschäftskunden block (`Gewerbetreibende|Selbständige`)
-  or Privatkunden block (plain "Abholung beim" deal, excluding
-  `Preis nur für|vorab zugelassen|Abrufschein|Corporate Benefits|Beamte|GdB`).
-- `content.js`: replaces `.price_buy.current .country_de` with the cached APL
-  price, updates the hidden `.pricesort`/`.pricefilter`/`.priceperrange` numerics
-  jplist reads fresh, and triggers a jplist refresh so sorting/filtering use the
-  new prices.
-- `popup.html/js/css`: mode switch (Off / Privatkunden / Geschäftskunden), manual
-  refresh, stats, and the match-review UI (manual mapping or explicit skip for
-  vehicles the matcher couldn't assign).
+Auf EV-Database-Seiten erscheint im Header ein 3-Button-Umschalter:
+„EVDB“ / „APL Privatkunden“ / „APL Geschäftskunden“. Der Modus wird im
+Browser-Storage gespeichert.
 
-## Storage schema (`browser.storage.local`)
+- **EVDB** = Originalpreise.
+- Die APL-Modi ersetzen den Preis gematchter Modelle durch den APL-Preis des
+  jeweiligen Kundensegments. Gematchte Modelle erhalten ein oranges APL-Badge;
+  ein Hover auf dem Badge zeigt alle Angebote dieses Modells im Tooltip, eine
+  Zeile pro Segment (für Privatkunden / für Geschäftskunden / für Freiberufler)
+  mit Preis.
+- Der Wechsel zurück zu EVDB stellt Originalpreise und -sortierung wieder her.
 
-| Key | Shape |
-|-----|-------|
-| `aplSettings` | `{ mode: 'none'\|'geschaeftskunden'\|'privatkunden', lastRun, stats: {mapped, scraped, failed, lastError} }` |
-| `aplMapping` | `{ 'evdbMake\|evdbModel': 'apl-model-slug' }` |
-| `aplOverrides` | `{ 'evdbMake\|evdbModel': 'apl-model-slug' \| null }` — `null` = explicit skip |
-| `aplCache` | `{ 'apl-model-slug\|geschaeftskunden\|privatkunden': {fetchedAt, endpreis, kaufpreis, ersparnis, lieferzeit} }` |
-| `aplSlugs`, `aplVehicles`, `aplCandidates`, `aplVariantIds` | derived lists / numeric variant IDs |
+## Datenfluss
+
+Kein Scraping im Browser. Eine nächtliche GitHub Action
+(`.github/workflows/apl-prices.yml`, Cron 05:10 UTC) führt
+`node tools/scrape-prices.mjs` aus, scraped APL.de, berechnet die Matches mit
+Konfidenz über `matcher.js` (`buildMapping`, kWh/kW-Spezifikationsprüfung) und
+committet `apl-prices.json` ins Repo (gnagster/evdb-apl-sync).
+
+Die Extension lädt die Datei täglich herunter (raw.githubusercontent.com, Fallback
+cdn.jsdelivr.net, 24-h-Drossel) und behält bei Fehlern die letzte gute Kopie plus
+`stats.lastError`.
+
+## Datenformat (`apl-prices.json`)
+
+`prices["Make|Model"]` = `{ slug, confidence 0..1, endpreis (Privatkunden,
+Rückwärtskompatibilität), kaufpreis, ersparnis, lieferzeit, offers:
+[{tag, endpreis, kaufpreis, ersparnis, lieferzeit}] }`, plus top-level
+`lowConfidence[]`.
+
+## Manuelle Overrides
+
+`tools/overrides.json` mappt `"Make|Model"` → APL-Slug (erzwingt dieses Fahrzeug,
+Konfidenz 1.0) oder `null` (explizit unmatched). Die Pipeline liest die Datei
+nur lesend. Ein täglicher OpenChamber-Agent („APL Low-Confidence Review“, 07:00 UTC)
+prüft `lowConfidence`- und Grenzfälle (0.85) und pflegt `overrides.json` +
+`review-ledger.json`; sein Prompt ist in `tools/low-confidence-agent.md`
+gespiegelt.
+
+## Dateien
+
+- `background.js` (Service Worker), `content.js`, `manifest.json`
+- `matcher.js` (reines Modul, `module.exports` + `global.APLMatcher`,
+  Helfer `specKwhOf`/`specMatch`: kWh innerhalb 15 % oder 5 kWh absolut; kW
+  innerhalb 25 % oder 30 kW absolut), `scraper.js`
+- `tools/scrape-prices.mjs` (nächtliche Pipeline), `tools/overrides.json`,
+  `tools/review-ledger.json`, `tools/low-confidence-agent.md`
+- `apl-prices.json` (generiert), `test/` (`matcher.test.js`, `scraper.test.js`,
+  Fixtures)
 
 ## Tests
 
-- `node test/matcher.test.js` — matcher smoke test (86 spot-checks, >60% match).
-- `node test/scraper.test.js` — GK/PK classification smoke test (real Abarth
-  response + synthetic multi-tarif/multi-motor cases).
-- Smoke scripts live in `/tmp/opencode` (scrape + full pipeline) — not committed.
-
-## Known limits
-
-- Only the overview page is modified, not detail pages; only the DE/EUR column.
-- APL model lines that don't exist on APL (Smart, XPENG, Polestar, MG IM/MGS,
-  Mercedes EQE/EQA, …) stay at evdb prices unless matched in the review UI.
-- Prices are the base-variant APL price ("ab"-Preis); evdb prices are also
-  starting prices, so the comparison is apples-to-apples.
+- `node test/matcher.test.js` — 91 Spot-Checks.
+- `node test/scraper.test.js` — Scraper-Smoke-Test.
+- Content-Smoke-Test: `/tmp/opencode/smoke-content.js`.

@@ -182,6 +182,7 @@ if (typeof module !== 'undefined' && module.exports) {
           badge.remove();
           changed = true;
         }
+        delete de.dataset.aplPrice;
         return changed;
       }
 
