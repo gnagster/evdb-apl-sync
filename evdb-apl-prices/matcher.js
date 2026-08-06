@@ -1,7 +1,8 @@
 // Pure matching logic: ev-database.org model -> apl.de model slug.
 // Works in the MV3 service worker (via importScripts) and in Node (require).
 // Exports: slugify, aplMakeSlug, cleanModel, score, specKwhOf, specMatch,
-// buildMapping, MIN_SCORE. Attached to global.APLMatcher AND module.exports.
+// matchVariant, buildMapping, MIN_SCORE. Attached to global.APLMatcher AND
+// module.exports.
 'use strict';
 
 (function (global) {
@@ -120,6 +121,72 @@
       kwOk,
       score: n ? ((kwhOk ? 1 : 0) + (kwOk ? 1 : 0)) / n : 0,
     };
+  }
+
+  // Tokens that never identify a trim (units, drivetrains, lengths). Used by
+  // matchVariant on both the evdb model name and the APL variant label.
+  const VARIANT_NOISE = new Set([
+    'kwh', 'kw', 'hp', 'ps', 'wh', 'km', 'wd', 'awd', 'rwd', 'fwd', '2wd', '4wd',
+    '4x4', '4matic', '4motion', 'xdrive', 'sdrive', 'edrive', 'quattro', 'my',
+    'seat', 'seats', 'door', 'doors',
+  ]);
+
+  // Lowercase, de-accented, de-punctuated token list minus noise. Bare numbers
+  // are dropped too ("IONIQ 5 N" -> ['ioniq', 'n']; "EV9 ... GT-Line" -> ev9,
+  // gt, line) - the family number never discriminates within one APL page.
+  const variantTokens = (s) =>
+    String(s)
+      .toLowerCase()
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g, '') // Coupé -> Coupe
+      .replace(/\([^)]*\)/g, ' ') // (MY27), (neues Modell)
+      .replace(/[^a-z0-9]+/g, ' ')
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter((t) => !/^\d+(?:\.\d+)?$/.test(t) && !VARIANT_NOISE.has(t));
+
+  /**
+   * Per-variant identification: which APL variant line (trim) an evdb model
+   * name refers to, purely by name. The APL modellvarianten page lists each
+   * trim as an h2 + FzgBlock line (e.g. "VW ID.Buzz Pure", "Kia EV9 GT-line",
+   * "Cupra Born VZ"). For evdb models whose name carries that trim token, the
+   * pipeline scrapes THAT line's price instead of the base/cheapest price of
+   * the slug. Models that name no trim (base model, battery-numbered model
+   * like "Enyaq 85", powertrain-only names like "EX40 Single Motor") return
+   * null and keep the battery-rank/base fallback.
+   * A variant matches when every token that distinguishes it from the other
+   * variants on the page is present in the evdb model name, and the best match
+   * is unambiguous (strictly more distinctive tokens than any competitor).
+   * @param model string - evdb model name (after the 'Make|' part).
+   * @param variants Array<{id:string, name:string}> - the modellvarianten page.
+   * @returns {id:string, name:string} | null
+   */
+  function matchVariant(model, variants) {
+    const A = variantTokens(model);
+    if (!A.length || !variants || !variants.length) return null;
+    const names = variants.map((v) => variantTokens(v.name));
+    const freq = new Map();
+    for (const B of names) for (const t of new Set(B)) freq.set(t, (freq.get(t) || 0) + 1);
+    const common = new Set([...freq].filter(([, n]) => n === names.length).map(([t]) => t));
+    const distinct = (B) => B.filter((t) => !common.has(t));
+
+    let best = null; // {idx, score}
+    for (let i = 0; i < names.length; i++) {
+      const d = distinct(names[i]);
+      if (!d.length || !d.every((t) => A.includes(t))) continue;
+      const score = d.length;
+      if (!best || score > best.score || (score === best.score && names[i].length < names[best.idx].length)) {
+        best = { idx: i, score };
+      }
+    }
+    if (!best) return null;
+    // Ambiguous: another variant carries the same distinctive tokens.
+    for (let i = 0; i < names.length; i++) {
+      if (i === best.idx) continue;
+      const d = distinct(names[i]);
+      if (d.length === best.score && d.every((t) => A.includes(t))) return null;
+    }
+    return variants[best.idx];
   }
 
   function cleanModel(make, model, shape) {
@@ -255,6 +322,10 @@
    * trim words (STRIP_RE) and its tie-break prefers the shortest slug — i.e.
    * the base model over the same model with a trim suffix ("4-urban" over
    * "4-urban-plus", "q4-e-tron" over "q4-sportback-e-tron").
+   * Per-variant granularity is NOT decided here: after the slug is picked,
+   * the pipeline calls matchVariant() with the evdb model name and the
+   * modellvarianten page's variant lines to scrape the specific trim's price
+   * when the name carries one.
    * @param vehicles [{make, model, shape?}]
    * @param aplSlugs ['/neuwagen/{make}/{model}/modellvarianten/']
    * @returns {{mapping:Object<string,string>, unmatched:Array<{make,model,key}>,
@@ -374,6 +445,7 @@
     score,
     specKwhOf,
     specMatch,
+    matchVariant,
     buildMapping,
     MIN_SCORE,
   };

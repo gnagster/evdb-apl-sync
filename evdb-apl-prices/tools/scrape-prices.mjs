@@ -32,17 +32,19 @@ const batteryOf = (key) => {
   return m ? parseFloat(m[1]) : null;
 };
 
-// Modellvarianten page -> variant line ids in page order (skips review blocks).
+// Modellvarianten page -> variant lines [{id, name}] in page order (skips
+// review blocks). name is the trim label ("VW ID.Buzz Pure", "Kia EV9 GT-line")
+// used by matchVariant for per-variant pricing.
 const parseVariantLines = (page) => {
-  const lines = [];
+  const variants = [];
   const re = /<h2[^>]*>([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2|$)/g;
   let m;
   while ((m = re.exec(page))) {
     const name = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const id = (m[2].match(/FzgBlock-infos" data-id="(\d+)"/) || [])[1];
-    if (id && !/bewertung/i.test(name)) lines.push(id);
+    if (id && !/bewertung/i.test(name)) variants.push({ id, name });
   }
-  return lines;
+  return variants;
 };
 
 const parseNum = (s) => {
@@ -86,8 +88,8 @@ async function main() {
   // Manual lane corrections (written by the low-confidence review agent, never
   // by this pipeline): {"Make|Model": "apl-slug" | null}. Applied AFTER the
   // matcher: a slug redirects the scrape target with confidence 1.0; null
-  // force-skips the key. Overrides only redirect WHICH slug is scraped - the
-  // prices come from the same fetchOffers flow as any other matched slug.
+  // force-skips the key. Overrides redirect WHICH slug is scraped; within the
+  // slug, per-variant pricing (below) still applies.
   let overrides = {};
   try {
     overrides = JSON.parse(readFileSync('tools/overrides.json', 'utf8'));
@@ -135,14 +137,56 @@ async function main() {
   const failAll = (job, reason) => { for (const k of job.keys) recordFail(k, job.slug, reason); };
 
   // One APL modellvarianten page + its price lists; assigns every evdb variant
-  // of the slug. Battery-split models match evdb kWh rank (ascending) to the
-  // APL motor price rank (ascending, cheapest per motor across variant lines).
+  // of the slug. Per-variant: when an evdb model name carries a trim the page
+  // names (matchVariant - "Taycan Turbo S", "EV9 ... GT-Line", "ID.Buzz Pure"),
+  // that line is scraped and its own price/offers are used. Everything else
+  // falls back to the previous behaviour: battery-split models match evdb kWh
+  // rank (ascending) to the APL motor price rank (ascending, cheapest per
+  // motor across variant lines); otherwise the base variant + base motor.
   // fetchOffers returns BOTH the PK per-motor map (battery matching) and every
   // classified offer per motor, so a single POST per line covers both outputs.
+  const offersFrom = (r) => {
+    const best = new Map(); // tag -> { offer, num }, cheapest endpreis wins
+    for (const list of Object.values(r.offers || {})) {
+      for (const o of list) {
+        const v = parseNum(o.endpreis);
+        if (v === null) continue;
+        const cur = best.get(o.tag);
+        if (!cur || v < cur.num) best.set(o.tag, { offer: o, num: v });
+      }
+    }
+    return TAG_ORDER.map((t) => (best.get(t) || {}).offer).filter(Boolean);
+  };
   const scrapeSlug = async (job) => {
     const page = await fetchText(job.url, 'text/html');
-    const lines = parseVariantLines(page);
+    const variants = parseVariantLines(page);
+    const lines = variants.map((v) => v.id);
     if (!lines.length) throw new Error('no variant id');
+
+    const lineCache = new Map(); // line id -> fetchOffers promise (one POST per line)
+    const getLine = (id) => {
+      if (!lineCache.has(id)) lineCache.set(id, APLScraper.fetchOffers(id));
+      return lineCache.get(id);
+    };
+
+    // Per-variant prices: scrape the identified trim line for keys whose model
+    // name names one of the page's trims.
+    const matched = new Map(); // key -> matched variant
+    for (const k of job.keys) {
+      const v = APLMatcher.matchVariant(k.split('|')[1], variants);
+      if (v) matched.set(k, v);
+    }
+    for (const [k, v] of matched) {
+      let r;
+      try { r = await getLine(v.id); } catch (e) { recordFail(k, job.slug, 'no offers'); continue; }
+      const firstPk = r.byMotor[Object.keys(r.byMotor)[0]];
+      if (!firstPk) { recordFail(k, job.slug, 'no PK price'); continue; }
+      prices[k] = { slug: job.slug, confidence: confOf(k, built), ...firstPk, offers: offersFrom(r) };
+      scraped++;
+    }
+    if (matched.size) job.keys = job.keys.filter((k) => !matched.has(k));
+    if (!job.keys.length) return;
+
     const batteries = job.keys.map(batteryOf).filter((b) => b !== null).sort((a, b) => a - b);
 
     const byMotor = new Map(); // motorId -> { price, num } (PK only)
@@ -168,7 +212,7 @@ async function main() {
     if (batteries.length < 2) {
       // single battery info (or none): base variant, base motor (previous
       // behaviour - first PK block == first byMotor entry), all offers merged.
-      const r = await APLScraper.fetchOffers(lines[0]);
+      const r = await getLine(lines[0]);
       const firstPk = r.byMotor[Object.keys(r.byMotor)[0]];
       if (!firstPk) throw new Error('no PK price');
       mergeLine(r);
@@ -180,7 +224,7 @@ async function main() {
     // battery path: PK price per motor + all-tag offers, cheapest across lines
     let gotSplit = false;
     for (let li = 0; li < Math.min(lines.length, MAX_LINES); li++) {
-      const r = await APLScraper.fetchOffers(lines[li]);
+      const r = await getLine(lines[li]);
       if (!r) continue;
       mergeLine(r);
       if (byMotor.size >= 2) gotSplit = true;

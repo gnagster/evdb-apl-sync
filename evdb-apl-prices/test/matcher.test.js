@@ -166,3 +166,27 @@ assertSpec(60, 100, 70, 130, { kwhOk: true, kwOk: true, score: 1 }); // 14.3% / 
 assertSpec(60, 100, 100, 200, { kwhOk: false, kwOk: false, score: 0 }); // totally different
 assertSpec(60, null, 100, null, { kwhOk: false, kwOk: false, score: 0 }); // kWh only, no match
 assertSpec(null, 150, null, 160, { kwhOk: false, kwOk: true, score: 1 }); // kW only, abs 10 ok
+
+// --- matchVariant: per-variant name identification on a modellvarianten page.
+const V = (names) => names.map((name, i) => ({ id: String(100 + i), name }));
+const assertVariant = (model, variants, want) => {
+  const got = APLMatcher.matchVariant(model, variants);
+  assert.strictEqual(got ? got.id : null, want, `matchVariant('${model}')`);
+};
+// Distinctive trim in both name and page -> identified.
+assertVariant('ID. Buzz NWB Pure', V(['VW ID.Buzz Pure', 'VW ID.Buzz Pro', 'VW ID.Buzz GTX']), '100');
+assertVariant('ID. Buzz LWB GTX', V(['VW ID.Buzz Pure', 'VW ID.Buzz Pro', 'VW ID.Buzz GTX']), '102');
+assertVariant('EV9 99.8 kWh AWD GT-Line', V(['Kia EV9 Air', 'Kia EV9 Earth', 'Kia EV9 GT-line', 'Kia EV9 GT']), '102');
+assertVariant('EV9 99.8 kWh AWD GT', V(['Kia EV9 Air', 'Kia EV9 Earth', 'Kia EV9 GT-line', 'Kia EV9 GT']), '103');
+assertVariant('CUPRA Tavascan 210 kW - 77 kWh Endurance', V(['Cupra Tavascan', 'Cupra Tavascan Endurance', 'Cupra Tavascan VZ']), '101');
+assertVariant('Enyaq RS', V(['Skoda Enyaq Essence', 'Skoda Enyaq Selection', 'Skoda Enyaq RS']), '102');
+assertVariant('Enyaq Coupé RS', V(['Skoda Enyaq Coupé Selection', 'Skoda Enyaq Coupé RS']), '101');
+assertVariant('IONIQ 5 N', V(['Hyundai IONIQ 5', 'Hyundai IONIQ 5 N Line', 'Hyundai IONIQ 5 N']), '102');
+assertVariant('Abarth 600e Turismo', V(['Abarth 600e Turismo', 'Abarth 600e Competizione']), '100');
+// No distinctive trim on the page, or none in the model name -> fallback.
+assertVariant('Taycan Turbo S', V(['Porsche Taycan']), null); // single-line page
+assertVariant('ID.4 Pure', V(['VW ID.4', 'VW ID.4 Energy']), null); // no Pure variant
+assertVariant('EX40 Single Motor', V(['Volvo EX40 Essential', 'Volvo EX40 Core', 'Volvo EX40 Plus']), null); // powertrain name
+assertVariant('PV5 Passenger 51.5 kWh', V(['Kia PV5 Passenger Essential', 'Kia PV5 Passenger Plus']), null); // battery-numbered
+assertVariant('Enyaq 85', V(['Skoda Enyaq Essence', 'Skoda Enyaq RS']), null); // battery-numbered
+console.log('matchVariant: ok');
