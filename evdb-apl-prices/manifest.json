@@ -32,6 +32,16 @@
         "https://ev-database.de/*",
         "https://*.ev-database.de/*"
       ],
+      "js": ["content-pre.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://ev-database.org/*",
+        "https://*.ev-database.org/*",
+        "https://ev-database.de/*",
+        "https://*.ev-database.de/*"
+      ],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
