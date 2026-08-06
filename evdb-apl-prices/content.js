@@ -427,6 +427,24 @@ if (typeof module !== 'undefined' && module.exports) {
       }
     }
 
+    // Safety net for content-pre.js: if jplist pagination is still active at
+    // idle (the pre-init patch didn't land, e.g. this tab was already open when
+    // the extension was reloaded), the list only holds the current page and
+    // prices/sort miss the rest. Patch the page size and reload once.
+    if (sessionStorage.getItem('apl-prices-pagfix') !== '1') {
+      const pag = document.querySelector('[data-jplist-control="pagination"]');
+      if (
+        pag &&
+        pag.getAttribute('data-items-per-page') !== '100000' &&
+        document.querySelectorAll('.list-item').length < 20
+      ) {
+        sessionStorage.setItem('apl-prices-pagfix', '1');
+        pag.setAttribute('data-items-per-page', '100000');
+        location.reload();
+        return;
+      }
+    }
+
     function boot() {
       if (!document.querySelector('.list-item')) return false;
       run();
