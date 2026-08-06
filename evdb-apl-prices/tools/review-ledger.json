@@ -1,1 +1,356 @@
-{}
+{
+  "Abarth|600e Competizione (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "APL 600e page lists Competizione"
+  },
+  "Abarth|600e Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "APL 600e page lists Turismo"
+  },
+  "Alfa Romeo|Junior Elettrica 54 kWh": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "APL junior page is the Elettrica family"
+  },
+  "Alfa Romeo|Junior Elettrica 54 kWh Veloce": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "Veloce trim on same junior page"
+  },
+  "Alpine|A390 GTS": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "null",
+    "reasoning": "APL a390 page lists only the A390 GT, no GTS"
+  },
+  "CUPRA|Born VZ (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "VZ variant on cupra/born page"
+  },
+  "CUPRA|Raval VZ (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "only raval slug; VZ listed on it"
+  },
+  "CUPRA|Tavascan 210 kW - 77 kWh Endurance (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "Endurance listed on tavascan page"
+  },
+  "CUPRA|Tavascan 250 kW - 77 kWh VZ (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "VZ listed on tavascan page"
+  },
+  "Hyundai|IONIQ 5 N (MY24)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "IONIQ 5 N listed on ioniq-5 page"
+  },
+  "Hyundai|IONIQ 6 N (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "null",
+    "reasoning": "APL ioniq-6 page lists no N variant (CENTRIQ/N Line/UNIQ only)"
+  },
+  "Jeep|Compass Electric 4xe (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "null",
+    "reasoning": "APL compass page lists only ICE e-Hybrid trims (Altitude/Summit/Upland/Overland), no Electric"
+  },
+  "Kia|EV9 99.8 kWh AWD GT-Line": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "GT-line listed on ev9 page"
+  },
+  "Kia|PV5 Passenger 51.5 kWh - 7 Seats (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "PV5 Passenger page covers 7-seat variants"
+  },
+  "Kia|PV5 Passenger 71.2 kWh - 7 Seats (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "PV5 Passenger page covers 7-seat variants"
+  },
+  "Porsche|Cayenne Coupé Electric (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "override",
+    "reasoning": "redirect to APL cayenne-electric"
+  },
+  "Porsche|Cayenne S Coupé Electric (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "override",
+    "reasoning": "redirect to APL cayenne-electric"
+  },
+  "Porsche|Cayenne S Electric (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "override",
+    "reasoning": "redirect to APL cayenne-electric"
+  },
+  "Porsche|Cayenne Turbo Coupé Electric (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "override",
+    "reasoning": "redirect to APL cayenne-electric"
+  },
+  "Porsche|Taycan 4 Cross Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan 4S": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan 4S Cross Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan 4S Plus": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan 4S Plus Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan 4S Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan GTS": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan GTS Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Plus Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Turbo Cross Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Turbo GT Weissach": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Turbo S": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Turbo S Cross Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Turbo S Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Porsche|Taycan Turbo Sport Turismo": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "single APL taycan page covers all variants"
+  },
+  "Volkswagen|ID. Buzz LWB Pro 4MOTION (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-buzz (passenger) page covers NWB/LWB Pure/Pro"
+  },
+  "Volkswagen|ID. Buzz NWB Pro 4MOTION (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-buzz (passenger) page covers NWB/LWB Pure/Pro"
+  },
+  "Volkswagen|ID. Buzz NWB Pure (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-buzz (passenger) page covers NWB/LWB Pure/Pro"
+  },
+  "Volkswagen|ID.4 Pro 4MOTION (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-4 page covers Pure/Pro 4MOTION"
+  },
+  "Volkswagen|ID.4 Pure (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-4 page covers Pure/Pro 4MOTION"
+  },
+  "Volkswagen|ID.5 Pro 4MOTION (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-5 page covers Pure/Pro 4MOTION"
+  },
+  "Volkswagen|ID.5 Pure (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "id-5 page covers Pure/Pro 4MOTION"
+  },
+  "Volvo|EC40 Single Motor (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ec40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EC40 Single Motor ER (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ec40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EC40 Twin Motor (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ec40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EC40 Twin Motor Performance (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ec40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|ES90 Single Motor (MY26-27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "es90 page covers Single/Twin/Performance"
+  },
+  "Volvo|ES90 Twin Motor (MY26-27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "es90 page covers Single/Twin/Performance"
+  },
+  "Volvo|ES90 Twin Motor Performance (MY26-27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "es90 page covers Single/Twin/Performance"
+  },
+  "Volvo|EX40 Single Motor (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EX40 Single Motor ER (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EX40 Twin Motor (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EX40 Twin Motor Performance (MY26)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex40 page covers Single/ER/Twin/Performance"
+  },
+  "Volvo|EX90 Single Motor (MY26-27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex90 page covers Single/Twin/Performance"
+  },
+  "Volvo|EX90 Twin Motor (MY26-27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex90 page covers Single/Twin/Performance"
+  },
+  "Volvo|EX90 Twin Motor Performance (MY26-27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "ex90 page covers Single/Twin/Performance"
+  },
+  "Škoda|Elroq RS (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "RS listed on elroq page"
+  },
+  "Škoda|Enyaq Coupe RS (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "override",
+    "reasoning": "redirect to APL enyaq-coupe"
+  },
+  "Škoda|Enyaq RS (MY27)": {
+    "date": "2026-08-06",
+    "confidence": 0.85,
+    "decision": "correct",
+    "reasoning": "RS listed on enyaq (SUV) page"
+  }
+}

@@ -1,1 +1,10 @@
-{}
+{
+  "Alpine|A390 GTS": null,
+  "Hyundai|IONIQ 6 N (MY26)": null,
+  "Jeep|Compass Electric 4xe (MY26)": null,
+  "Porsche|Cayenne Coupé Electric (MY26)": "cayenne-electric",
+  "Porsche|Cayenne S Coupé Electric (MY26)": "cayenne-electric",
+  "Porsche|Cayenne S Electric (MY26)": "cayenne-electric",
+  "Porsche|Cayenne Turbo Coupé Electric (MY26)": "cayenne-electric",
+  "Škoda|Enyaq Coupe RS (MY27)": "enyaq-coupe"
+}
