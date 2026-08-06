@@ -1,0 +1,2 @@
+# Local opencode data (RAG DB, session transcripts, logs) - machine-local only
+.opencode/
