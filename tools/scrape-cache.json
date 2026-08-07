@@ -15092,6 +15092,59 @@
         }
       }
     },
+    "2453": {
+      "fetchedAt": "2026-08-07T06:16:40.328Z",
+      "data": {
+        "byMotor": {
+          "3811": {
+            "endpreis": "66.003,82",
+            "kaufpreis": "65.213,82",
+            "ersparnis": "5.686,18 (8,02)",
+            "lieferzeit": "10-11 Monate"
+          },
+          "4100": {
+            "endpreis": "58.864,40",
+            "kaufpreis": "58.074,40",
+            "ersparnis": "5.325,60 (8,40)",
+            "lieferzeit": "10-11 Monate"
+          }
+        },
+        "offers": {
+          "3811": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "66.003,82",
+              "kaufpreis": "65.213,82",
+              "ersparnis": "5.686,18 (8,02)",
+              "lieferzeit": "10-11 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "66.003,82",
+              "kaufpreis": "65.213,82",
+              "ersparnis": "5.686,18 (8,02)",
+              "lieferzeit": "10-11 Monate"
+            }
+          ],
+          "4100": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "58.864,40",
+              "kaufpreis": "58.074,40",
+              "ersparnis": "5.325,60 (8,40)",
+              "lieferzeit": "10-11 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "58.864,40",
+              "kaufpreis": "58.074,40",
+              "ersparnis": "5.325,60 (8,40)",
+              "lieferzeit": "10-11 Monate"
+            }
+          ]
+        }
+      }
+    },
     "2457": {
       "fetchedAt": "2026-08-06T09:06:59.457Z",
       "data": {
