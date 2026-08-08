@@ -1,8 +1,56 @@
 {
-  "generatedAt": "2026-08-07T06:16:58.092Z",
+  "generatedAt": "2026-08-08T05:54:37.294Z",
   "source": "privatkunden",
   "count": 404,
   "prices": {
+    "BMW|iX3 50 xDrive (MY26)": {
+      "slug": "ix3",
+      "confidence": 1,
+      "endpreis": "66.003,82",
+      "kaufpreis": "65.213,82",
+      "ersparnis": "5.686,18 (8,02)",
+      "lieferzeit": "10-11 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "58.864,40",
+          "kaufpreis": "58.074,40",
+          "ersparnis": "5.325,60 (8,40)",
+          "lieferzeit": "10-11 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "58.864,40",
+          "kaufpreis": "58.074,40",
+          "ersparnis": "5.325,60 (8,40)",
+          "lieferzeit": "10-11 Monate"
+        }
+      ]
+    },
+    "BMW|iX3 40 (MY26)": {
+      "slug": "ix3",
+      "confidence": 1,
+      "endpreis": "66.003,82",
+      "kaufpreis": "65.213,82",
+      "ersparnis": "5.686,18 (8,02)",
+      "lieferzeit": "10-11 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "58.864,40",
+          "kaufpreis": "58.074,40",
+          "ersparnis": "5.325,60 (8,40)",
+          "lieferzeit": "10-11 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "58.864,40",
+          "kaufpreis": "58.074,40",
+          "ersparnis": "5.325,60 (8,40)",
+          "lieferzeit": "10-11 Monate"
+        }
+      ]
+    },
     "Fiat|500e Hatchback 42 kWh": {
       "slug": "500e-3-plus1",
       "confidence": 1,
@@ -264,54 +312,6 @@
           "kaufpreis": "26.808,95",
           "ersparnis": "9.181,05 (25,51)",
           "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "BMW|iX3 50 xDrive (MY26)": {
-      "slug": "ix3",
-      "confidence": 1,
-      "endpreis": "66.003,82",
-      "kaufpreis": "65.213,82",
-      "ersparnis": "5.686,18 (8,02)",
-      "lieferzeit": "10-11 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "58.864,40",
-          "kaufpreis": "58.074,40",
-          "ersparnis": "5.325,60 (8,40)",
-          "lieferzeit": "10-11 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "58.864,40",
-          "kaufpreis": "58.074,40",
-          "ersparnis": "5.325,60 (8,40)",
-          "lieferzeit": "10-11 Monate"
-        }
-      ]
-    },
-    "BMW|iX3 40 (MY26)": {
-      "slug": "ix3",
-      "confidence": 1,
-      "endpreis": "66.003,82",
-      "kaufpreis": "65.213,82",
-      "ersparnis": "5.686,18 (8,02)",
-      "lieferzeit": "10-11 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "58.864,40",
-          "kaufpreis": "58.074,40",
-          "ersparnis": "5.325,60 (8,40)",
-          "lieferzeit": "10-11 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "58.864,40",
-          "kaufpreis": "58.074,40",
-          "ersparnis": "5.325,60 (8,40)",
-          "lieferzeit": "10-11 Monate"
         }
       ]
     },
@@ -843,6 +843,54 @@
         }
       ]
     },
+    "Leapmotor|B10 67.1 kWh": {
+      "slug": "b10",
+      "confidence": 1,
+      "endpreis": "32.018,56",
+      "kaufpreis": "31.128,56",
+      "ersparnis": "3.271,44 (9,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "32.018,56",
+          "kaufpreis": "31.128,56",
+          "ersparnis": "3.271,44 (9,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "32.018,56",
+          "kaufpreis": "31.128,56",
+          "ersparnis": "3.271,44 (9,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Leapmotor|B10 56.2 kWh": {
+      "slug": "b10",
+      "confidence": 1,
+      "endpreis": "27.946,51",
+      "kaufpreis": "27.056,51",
+      "ersparnis": "2.843,49 (9,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "27.946,51",
+          "kaufpreis": "27.056,51",
+          "ersparnis": "2.843,49 (9,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "27.946,51",
+          "kaufpreis": "27.056,51",
+          "ersparnis": "2.843,49 (9,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
     "Volkswagen|ID.3 Neo 79 kWh (MY27)": {
       "slug": "id-3",
       "confidence": 1,
@@ -912,54 +960,6 @@
           "kaufpreis": "28.585,57",
           "ersparnis": "5.409,43 (15,91)",
           "lieferzeit": "7-8 Monate"
-        }
-      ]
-    },
-    "Leapmotor|B10 67.1 kWh": {
-      "slug": "b10",
-      "confidence": 1,
-      "endpreis": "32.018,56",
-      "kaufpreis": "31.128,56",
-      "ersparnis": "3.271,44 (9,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "32.018,56",
-          "kaufpreis": "31.128,56",
-          "ersparnis": "3.271,44 (9,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "32.018,56",
-          "kaufpreis": "31.128,56",
-          "ersparnis": "3.271,44 (9,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Leapmotor|B10 56.2 kWh": {
-      "slug": "b10",
-      "confidence": 1,
-      "endpreis": "27.946,51",
-      "kaufpreis": "27.056,51",
-      "ersparnis": "2.843,49 (9,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "27.946,51",
-          "kaufpreis": "27.056,51",
-          "ersparnis": "2.843,49 (9,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "27.946,51",
-          "kaufpreis": "27.056,51",
-          "ersparnis": "2.843,49 (9,51)",
-          "lieferzeit": "3-4 Monate"
         }
       ]
     },
@@ -1515,78 +1515,6 @@
         }
       ]
     },
-    "Hyundai|Kona Electric 65 kWh (MY24-25)": {
-      "slug": "kona-elektro",
-      "confidence": 0.93,
-      "endpreis": "37.417,87",
-      "kaufpreis": "36.168,37",
-      "ersparnis": "5.171,63 (12,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "37.417,87",
-          "kaufpreis": "36.168,37",
-          "ersparnis": "5.171,63 (12,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.110,67",
-          "kaufpreis": "32.861,17",
-          "ersparnis": "8.478,83 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Hyundai|Kona Electric 64.8 kWh (MY26)": {
-      "slug": "kona-elektro",
-      "confidence": 0.93,
-      "endpreis": "37.417,87",
-      "kaufpreis": "36.168,37",
-      "ersparnis": "5.171,63 (12,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "37.417,87",
-          "kaufpreis": "36.168,37",
-          "ersparnis": "5.171,63 (12,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.110,67",
-          "kaufpreis": "32.861,17",
-          "ersparnis": "8.478,83 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Hyundai|Kona Electric 48.6 kWh (MY26)": {
-      "slug": "kona-elektro",
-      "confidence": 0.93,
-      "endpreis": "34.793,17",
-      "kaufpreis": "33.543,67",
-      "ersparnis": "4.796,33 (12,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "34.793,17",
-          "kaufpreis": "33.543,67",
-          "ersparnis": "4.796,33 (12,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "31.725,97",
-          "kaufpreis": "30.476,47",
-          "ersparnis": "7.863,53 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
     "BYD|ATTO 3 Evo RWD Design (MY26)": {
       "slug": "atto-3-evo",
       "confidence": 1,
@@ -1704,6 +1632,126 @@
           "kaufpreis": "24.874,29",
           "ersparnis": "7.225,71 (22,51)",
           "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Hyundai|Kona Electric 65 kWh (MY24-25)": {
+      "slug": "kona-elektro",
+      "confidence": 0.93,
+      "endpreis": "37.417,87",
+      "kaufpreis": "36.168,37",
+      "ersparnis": "5.171,63 (12,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.417,87",
+          "kaufpreis": "36.168,37",
+          "ersparnis": "5.171,63 (12,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.110,67",
+          "kaufpreis": "32.861,17",
+          "ersparnis": "8.478,83 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Hyundai|Kona Electric 64.8 kWh (MY26)": {
+      "slug": "kona-elektro",
+      "confidence": 0.93,
+      "endpreis": "37.417,87",
+      "kaufpreis": "36.168,37",
+      "ersparnis": "5.171,63 (12,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.417,87",
+          "kaufpreis": "36.168,37",
+          "ersparnis": "5.171,63 (12,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.110,67",
+          "kaufpreis": "32.861,17",
+          "ersparnis": "8.478,83 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Hyundai|Kona Electric 48.6 kWh (MY26)": {
+      "slug": "kona-elektro",
+      "confidence": 0.93,
+      "endpreis": "34.793,17",
+      "kaufpreis": "33.543,67",
+      "ersparnis": "4.796,33 (12,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "34.793,17",
+          "kaufpreis": "33.543,67",
+          "ersparnis": "4.796,33 (12,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "31.725,97",
+          "kaufpreis": "30.476,47",
+          "ersparnis": "7.863,53 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-C3 Standard Range 44 kWh": {
+      "slug": "e-c3",
+      "confidence": 1,
+      "endpreis": "19.767,41",
+      "kaufpreis": "18.874,91",
+      "ersparnis": "4.575,10 (19,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "17.103,19",
+          "kaufpreis": "16.210,69",
+          "ersparnis": "3.929,31 (19,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "15.340,89",
+          "kaufpreis": "13.793,89",
+          "ersparnis": "6.346,11 (31,51)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-C3 Urban Range 30 kWh": {
+      "slug": "e-c3",
+      "confidence": 0.88,
+      "endpreis": "17.103,19",
+      "kaufpreis": "16.210,69",
+      "ersparnis": "3.929,31 (19,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "17.103,19",
+          "kaufpreis": "16.210,69",
+          "ersparnis": "3.929,31 (19,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "15.340,89",
+          "kaufpreis": "13.793,89",
+          "ersparnis": "6.346,11 (31,51)",
+          "lieferzeit": "5-6 Monate"
         }
       ]
     },
@@ -1851,102 +1899,6 @@
         }
       ]
     },
-    "Citroën|ë-C3 Standard Range 44 kWh": {
-      "slug": "e-c3",
-      "confidence": 1,
-      "endpreis": "19.767,41",
-      "kaufpreis": "18.874,91",
-      "ersparnis": "4.575,10 (19,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "17.103,19",
-          "kaufpreis": "16.210,69",
-          "ersparnis": "3.929,31 (19,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "15.340,89",
-          "kaufpreis": "13.793,89",
-          "ersparnis": "6.346,11 (31,51)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Citroën|ë-C3 Urban Range 30 kWh": {
-      "slug": "e-c3",
-      "confidence": 0.88,
-      "endpreis": "17.103,19",
-      "kaufpreis": "16.210,69",
-      "ersparnis": "3.929,31 (19,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "17.103,19",
-          "kaufpreis": "16.210,69",
-          "ersparnis": "3.929,31 (19,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "15.340,89",
-          "kaufpreis": "13.793,89",
-          "ersparnis": "6.346,11 (31,51)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Hyundai|INSTER Long Range": {
-      "slug": "inster",
-      "confidence": 1,
-      "endpreis": "23.944,57",
-      "kaufpreis": "22.919,57",
-      "ersparnis": "1.730,43 (7,02)",
-      "lieferzeit": "6-8 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "23.944,57",
-          "kaufpreis": "22.919,57",
-          "ersparnis": "1.730,43 (7,02)",
-          "lieferzeit": "6-8 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "22.712,07",
-          "kaufpreis": "21.687,07",
-          "ersparnis": "2.962,93 (12,02)",
-          "lieferzeit": "6-8 Monate"
-        }
-      ]
-    },
-    "Hyundai|INSTER Standard Range": {
-      "slug": "inster",
-      "confidence": 1,
-      "endpreis": "23.944,57",
-      "kaufpreis": "22.919,57",
-      "ersparnis": "1.730,43 (7,02)",
-      "lieferzeit": "6-8 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "23.944,57",
-          "kaufpreis": "22.919,57",
-          "ersparnis": "1.730,43 (7,02)",
-          "lieferzeit": "6-8 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "22.712,07",
-          "kaufpreis": "21.687,07",
-          "ersparnis": "2.962,93 (12,02)",
-          "lieferzeit": "6-8 Monate"
-        }
-      ]
-    },
     "Škoda|Peaq 90 (MY27)": {
       "slug": "peaq",
       "confidence": 1,
@@ -2016,6 +1968,54 @@
           "kaufpreis": "40.908,02",
           "ersparnis": "8.991,98 (18,02)",
           "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Hyundai|INSTER Long Range": {
+      "slug": "inster",
+      "confidence": 1,
+      "endpreis": "23.944,57",
+      "kaufpreis": "22.919,57",
+      "ersparnis": "1.730,43 (7,02)",
+      "lieferzeit": "6-8 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "23.944,57",
+          "kaufpreis": "22.919,57",
+          "ersparnis": "1.730,43 (7,02)",
+          "lieferzeit": "6-8 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "22.712,07",
+          "kaufpreis": "21.687,07",
+          "ersparnis": "2.962,93 (12,02)",
+          "lieferzeit": "6-8 Monate"
+        }
+      ]
+    },
+    "Hyundai|INSTER Standard Range": {
+      "slug": "inster",
+      "confidence": 1,
+      "endpreis": "23.944,57",
+      "kaufpreis": "22.919,57",
+      "ersparnis": "1.730,43 (7,02)",
+      "lieferzeit": "6-8 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "23.944,57",
+          "kaufpreis": "22.919,57",
+          "ersparnis": "1.730,43 (7,02)",
+          "lieferzeit": "6-8 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "22.712,07",
+          "kaufpreis": "21.687,07",
+          "ersparnis": "2.962,93 (12,02)",
+          "lieferzeit": "6-8 Monate"
         }
       ]
     },
@@ -2136,6 +2136,198 @@
           "kaufpreis": "51.367,50",
           "ersparnis": "23.632,50 (31,51)",
           "lieferzeit": "5-7 Monate"
+        }
+      ]
+    },
+    "Toyota|bZ4X Touring AWD 74.7 kWh (MY26)": {
+      "slug": "bz4x",
+      "confidence": 1,
+      "endpreis": "37.161,35",
+      "kaufpreis": "35.862,35",
+      "ersparnis": "12.127,65 (25,27)",
+      "lieferzeit": "7-9 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.161,35",
+          "kaufpreis": "35.862,35",
+          "ersparnis": "12.127,65 (25,27)",
+          "lieferzeit": "7-9 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "37.146,75",
+          "kaufpreis": "35.747,75",
+          "ersparnis": "12.242,25 (25,51)",
+          "lieferzeit": "7-9 Monate"
+        }
+      ]
+    },
+    "Toyota|bZ4X AWD 73.1 kWh (MY25)": {
+      "slug": "bz4x",
+      "confidence": 1,
+      "endpreis": "37.161,35",
+      "kaufpreis": "35.862,35",
+      "ersparnis": "12.127,65 (25,27)",
+      "lieferzeit": "7-9 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.161,35",
+          "kaufpreis": "35.862,35",
+          "ersparnis": "12.127,65 (25,27)",
+          "lieferzeit": "7-9 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "37.146,75",
+          "kaufpreis": "35.747,75",
+          "ersparnis": "12.242,25 (25,51)",
+          "lieferzeit": "7-9 Monate"
+        }
+      ]
+    },
+    "Toyota|bZ4X Touring FWD 74.7 kWh (MY26)": {
+      "slug": "bz4x",
+      "confidence": 1,
+      "endpreis": "37.161,35",
+      "kaufpreis": "35.862,35",
+      "ersparnis": "12.127,65 (25,27)",
+      "lieferzeit": "7-9 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.161,35",
+          "kaufpreis": "35.862,35",
+          "ersparnis": "12.127,65 (25,27)",
+          "lieferzeit": "7-9 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "37.146,75",
+          "kaufpreis": "35.747,75",
+          "ersparnis": "12.242,25 (25,51)",
+          "lieferzeit": "7-9 Monate"
+        }
+      ]
+    },
+    "Toyota|bZ4X FWD 73.1 kWh (MY25)": {
+      "slug": "bz4x",
+      "confidence": 1,
+      "endpreis": "37.161,35",
+      "kaufpreis": "35.862,35",
+      "ersparnis": "12.127,65 (25,27)",
+      "lieferzeit": "7-9 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.161,35",
+          "kaufpreis": "35.862,35",
+          "ersparnis": "12.127,65 (25,27)",
+          "lieferzeit": "7-9 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "37.146,75",
+          "kaufpreis": "35.747,75",
+          "ersparnis": "12.242,25 (25,51)",
+          "lieferzeit": "7-9 Monate"
+        }
+      ]
+    },
+    "Toyota|bZ4X FWD 57.7 kWh (MY25)": {
+      "slug": "bz4x",
+      "confidence": 1,
+      "endpreis": "33.336,35",
+      "kaufpreis": "32.037,35",
+      "ersparnis": "10.952,65 (25,48)",
+      "lieferzeit": "7-9 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "33.336,35",
+          "kaufpreis": "32.037,35",
+          "ersparnis": "10.952,65 (25,48)",
+          "lieferzeit": "7-9 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.626,05",
+          "kaufpreis": "33.327,05",
+          "ersparnis": "9.662,95 (22,48)",
+          "lieferzeit": "7-9 Monate"
+        }
+      ]
+    },
+    "BYD|DOLPHIN 60.4 kWh (MY25)": {
+      "slug": "dolphin",
+      "confidence": 1,
+      "endpreis": "27.456,97",
+      "kaufpreis": "26.192,97",
+      "ersparnis": "7.797,03 (22,94)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "27.456,97",
+          "kaufpreis": "26.192,97",
+          "ersparnis": "7.797,03 (22,94)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "27.428,85",
+          "kaufpreis": "26.338,85",
+          "ersparnis": "7.651,15 (22,51)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Nissan|LEAF Extended Range 75 kWh (MY26)": {
+      "slug": "leaf",
+      "confidence": 1,
+      "endpreis": "35.377,76",
+      "kaufpreis": "34.187,76",
+      "ersparnis": "7.012,24 (17,02)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "35.377,76",
+          "kaufpreis": "34.187,76",
+          "ersparnis": "7.012,24 (17,02)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "32.022,26",
+          "kaufpreis": "30.891,76",
+          "ersparnis": "10.308,24 (25,02)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Nissan|LEAF Standard Range 52 kWh (MY26)": {
+      "slug": "leaf",
+      "confidence": 1,
+      "endpreis": "31.021,31",
+      "kaufpreis": "29.831,31",
+      "ersparnis": "6.118,69 (17,02)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "31.021,31",
+          "kaufpreis": "29.831,31",
+          "ersparnis": "6.118,69 (17,02)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "28.085,81",
+          "kaufpreis": "26.955,31",
+          "ersparnis": "8.994,69 (25,02)",
+          "lieferzeit": "3-5 Monate"
         }
       ]
     },
@@ -2283,174 +2475,6 @@
         }
       ]
     },
-    "Toyota|bZ4X Touring AWD 74.7 kWh (MY26)": {
-      "slug": "bz4x",
-      "confidence": 1,
-      "endpreis": "37.161,35",
-      "kaufpreis": "35.862,35",
-      "ersparnis": "12.127,65 (25,27)",
-      "lieferzeit": "7-9 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "37.161,35",
-          "kaufpreis": "35.862,35",
-          "ersparnis": "12.127,65 (25,27)",
-          "lieferzeit": "7-9 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "37.146,75",
-          "kaufpreis": "35.747,75",
-          "ersparnis": "12.242,25 (25,51)",
-          "lieferzeit": "7-9 Monate"
-        }
-      ]
-    },
-    "Toyota|bZ4X AWD 73.1 kWh (MY25)": {
-      "slug": "bz4x",
-      "confidence": 1,
-      "endpreis": "37.161,35",
-      "kaufpreis": "35.862,35",
-      "ersparnis": "12.127,65 (25,27)",
-      "lieferzeit": "7-9 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "37.161,35",
-          "kaufpreis": "35.862,35",
-          "ersparnis": "12.127,65 (25,27)",
-          "lieferzeit": "7-9 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "37.146,75",
-          "kaufpreis": "35.747,75",
-          "ersparnis": "12.242,25 (25,51)",
-          "lieferzeit": "7-9 Monate"
-        }
-      ]
-    },
-    "Toyota|bZ4X Touring FWD 74.7 kWh (MY26)": {
-      "slug": "bz4x",
-      "confidence": 1,
-      "endpreis": "37.161,35",
-      "kaufpreis": "35.862,35",
-      "ersparnis": "12.127,65 (25,27)",
-      "lieferzeit": "7-9 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "37.161,35",
-          "kaufpreis": "35.862,35",
-          "ersparnis": "12.127,65 (25,27)",
-          "lieferzeit": "7-9 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "37.146,75",
-          "kaufpreis": "35.747,75",
-          "ersparnis": "12.242,25 (25,51)",
-          "lieferzeit": "7-9 Monate"
-        }
-      ]
-    },
-    "Toyota|bZ4X FWD 73.1 kWh (MY25)": {
-      "slug": "bz4x",
-      "confidence": 1,
-      "endpreis": "37.161,35",
-      "kaufpreis": "35.862,35",
-      "ersparnis": "12.127,65 (25,27)",
-      "lieferzeit": "7-9 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "37.161,35",
-          "kaufpreis": "35.862,35",
-          "ersparnis": "12.127,65 (25,27)",
-          "lieferzeit": "7-9 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "37.146,75",
-          "kaufpreis": "35.747,75",
-          "ersparnis": "12.242,25 (25,51)",
-          "lieferzeit": "7-9 Monate"
-        }
-      ]
-    },
-    "Toyota|bZ4X FWD 57.7 kWh (MY25)": {
-      "slug": "bz4x",
-      "confidence": 1,
-      "endpreis": "33.336,35",
-      "kaufpreis": "32.037,35",
-      "ersparnis": "10.952,65 (25,48)",
-      "lieferzeit": "7-9 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "33.336,35",
-          "kaufpreis": "32.037,35",
-          "ersparnis": "10.952,65 (25,48)",
-          "lieferzeit": "7-9 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.626,05",
-          "kaufpreis": "33.327,05",
-          "ersparnis": "9.662,95 (22,48)",
-          "lieferzeit": "7-9 Monate"
-        }
-      ]
-    },
-    "Nissan|LEAF Extended Range 75 kWh (MY26)": {
-      "slug": "leaf",
-      "confidence": 1,
-      "endpreis": "35.377,76",
-      "kaufpreis": "34.187,76",
-      "ersparnis": "7.012,24 (17,02)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.377,76",
-          "kaufpreis": "34.187,76",
-          "ersparnis": "7.012,24 (17,02)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "32.022,26",
-          "kaufpreis": "30.891,76",
-          "ersparnis": "10.308,24 (25,02)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Nissan|LEAF Standard Range 52 kWh (MY26)": {
-      "slug": "leaf",
-      "confidence": 1,
-      "endpreis": "31.021,31",
-      "kaufpreis": "29.831,31",
-      "ersparnis": "6.118,69 (17,02)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "31.021,31",
-          "kaufpreis": "29.831,31",
-          "ersparnis": "6.118,69 (17,02)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "28.085,81",
-          "kaufpreis": "26.955,31",
-          "ersparnis": "8.994,69 (25,02)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
     "BMW|i4 eDrive40": {
       "slug": "i4",
       "confidence": 1,
@@ -2547,26 +2571,50 @@
         }
       ]
     },
-    "BYD|DOLPHIN 60.4 kWh (MY25)": {
-      "slug": "dolphin",
+    "Citroën|ë-C3 Aircross Extended Range 54 kWh": {
+      "slug": "e-c3-aircross",
       "confidence": 1,
-      "endpreis": "27.456,97",
-      "kaufpreis": "26.192,97",
-      "ersparnis": "7.797,03 (22,94)",
+      "endpreis": "27.287,18",
+      "kaufpreis": "26.394,68",
+      "ersparnis": "4.845,32 (15,51)",
       "lieferzeit": "4-5 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "27.456,97",
-          "kaufpreis": "26.192,97",
-          "ersparnis": "7.797,03 (22,94)",
+          "endpreis": "23.400,64",
+          "kaufpreis": "22.508,14",
+          "ersparnis": "4.131,86 (15,51)",
           "lieferzeit": "4-5 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "27.428,85",
-          "kaufpreis": "26.338,85",
-          "ersparnis": "7.651,15 (22,51)",
+          "endpreis": "19.792,74",
+          "kaufpreis": "18.245,74",
+          "ersparnis": "8.394,26 (31,51)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-C3 Aircross Comfort Range 44 kWh": {
+      "slug": "e-c3-aircross",
+      "confidence": 1,
+      "endpreis": "23.400,64",
+      "kaufpreis": "22.508,14",
+      "ersparnis": "4.131,86 (15,51)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "23.400,64",
+          "kaufpreis": "22.508,14",
+          "ersparnis": "4.131,86 (15,51)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "19.792,74",
+          "kaufpreis": "18.245,74",
+          "ersparnis": "8.394,26 (31,51)",
           "lieferzeit": "4-5 Monate"
         }
       ]
@@ -2667,51 +2715,51 @@
         }
       ]
     },
-    "Citroën|ë-C3 Aircross Extended Range 54 kWh": {
-      "slug": "e-c3-aircross",
+    "Leapmotor|B03X 53.0 kWh (MY27)": {
+      "slug": "b03x",
       "confidence": 1,
-      "endpreis": "27.287,18",
-      "kaufpreis": "26.394,68",
-      "ersparnis": "4.845,32 (15,51)",
-      "lieferzeit": "4-5 Monate",
+      "endpreis": "27.638,12",
+      "kaufpreis": "26.748,12",
+      "ersparnis": "2.651,88 (9,02)",
+      "lieferzeit": "3-4 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "23.400,64",
-          "kaufpreis": "22.508,14",
-          "ersparnis": "4.131,86 (15,51)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "27.638,12",
+          "kaufpreis": "26.748,12",
+          "ersparnis": "2.651,88 (9,02)",
+          "lieferzeit": "3-4 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "19.792,74",
-          "kaufpreis": "18.245,74",
-          "ersparnis": "8.394,26 (31,51)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "27.788,06",
+          "kaufpreis": "26.898,06",
+          "ersparnis": "2.501,94 (8,51)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
-    "Citroën|ë-C3 Aircross Comfort Range 44 kWh": {
-      "slug": "e-c3-aircross",
+    "Leapmotor|B03X 39.8 kWh (MY27)": {
+      "slug": "b03x",
       "confidence": 1,
-      "endpreis": "23.400,64",
-      "kaufpreis": "22.508,14",
-      "ersparnis": "4.131,86 (15,51)",
-      "lieferzeit": "4-5 Monate",
+      "endpreis": "23.671,01",
+      "kaufpreis": "22.781,01",
+      "ersparnis": "2.118,99 (8,51)",
+      "lieferzeit": "3-4 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "23.400,64",
-          "kaufpreis": "22.508,14",
-          "ersparnis": "4.131,86 (15,51)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "23.671,01",
+          "kaufpreis": "22.781,01",
+          "ersparnis": "2.118,99 (8,51)",
+          "lieferzeit": "3-4 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "19.792,74",
-          "kaufpreis": "18.245,74",
-          "ersparnis": "8.394,26 (31,51)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "23.671,01",
+          "kaufpreis": "22.781,01",
+          "ersparnis": "2.118,99 (8,51)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
@@ -2760,54 +2808,6 @@
           "kaufpreis": "19.936,55",
           "ersparnis": "9.603,45 (32,51)",
           "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Leapmotor|B03X 53.0 kWh (MY27)": {
-      "slug": "b03x",
-      "confidence": 1,
-      "endpreis": "27.638,12",
-      "kaufpreis": "26.748,12",
-      "ersparnis": "2.651,88 (9,02)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "27.638,12",
-          "kaufpreis": "26.748,12",
-          "ersparnis": "2.651,88 (9,02)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "27.788,06",
-          "kaufpreis": "26.898,06",
-          "ersparnis": "2.501,94 (8,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Leapmotor|B03X 39.8 kWh (MY27)": {
-      "slug": "b03x",
-      "confidence": 1,
-      "endpreis": "23.671,01",
-      "kaufpreis": "22.781,01",
-      "ersparnis": "2.118,99 (8,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "23.671,01",
-          "kaufpreis": "22.781,01",
-          "ersparnis": "2.118,99 (8,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "23.671,01",
-          "kaufpreis": "22.781,01",
-          "ersparnis": "2.118,99 (8,51)",
-          "lieferzeit": "3-4 Monate"
         }
       ]
     },
@@ -2907,30 +2907,6 @@
         }
       ]
     },
-    "Fiat|Grande Panda": {
-      "slug": "grande-panda",
-      "confidence": 1,
-      "endpreis": "19.906,50",
-      "kaufpreis": "19.016,50",
-      "ersparnis": "2.473,50 (11,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "17.579,65",
-          "kaufpreis": "16.689,65",
-          "ersparnis": "3.300,35 (16,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "17.277,80",
-          "kaufpreis": "16.387,80",
-          "ersparnis": "3.602,20 (18,02)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
     "Renault|4 E-Tech 52kWh 150hp": {
       "slug": "r4-e-tech",
       "confidence": 1,
@@ -2979,6 +2955,30 @@
         }
       ]
     },
+    "Fiat|Grande Panda": {
+      "slug": "grande-panda",
+      "confidence": 1,
+      "endpreis": "19.906,50",
+      "kaufpreis": "19.016,50",
+      "ersparnis": "2.473,50 (11,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "17.579,65",
+          "kaufpreis": "16.689,65",
+          "ersparnis": "3.300,35 (16,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "17.277,80",
+          "kaufpreis": "16.387,80",
+          "ersparnis": "3.602,20 (18,02)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
     "BMW|iX1 eDrive20 (MY26)": {
       "slug": "ix1",
       "confidence": 1,
@@ -3024,6 +3024,30 @@
           "kaufpreis": "38.498,50",
           "ersparnis": "10.901,50 (22,07)",
           "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "Renault|Megane E-Tech EV60 220hp (TU2025)": {
+      "slug": "megane-e-tech",
+      "confidence": 0.93,
+      "endpreis": "34.912,50",
+      "kaufpreis": "33.722,50",
+      "ersparnis": "7.277,50 (17,75)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "34.912,50",
+          "kaufpreis": "33.722,50",
+          "ersparnis": "7.277,50 (17,75)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.092,50",
+          "kaufpreis": "32.902,50",
+          "ersparnis": "8.097,50 (19,75)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
@@ -3171,102 +3195,6 @@
         }
       ]
     },
-    "Volkswagen|ID.4 Pro (MY27)": {
-      "slug": "id-4",
-      "confidence": 1,
-      "endpreis": "35.205,30",
-      "kaufpreis": "34.413,30",
-      "ersparnis": "6.166,70 (15,20)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Volkswagen|ID.4 Pure (MY27)": {
-      "slug": "id-4",
-      "confidence": 0.85,
-      "endpreis": "35.205,30",
-      "kaufpreis": "34.413,30",
-      "ersparnis": "6.166,70 (15,20)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Volkswagen|ID.4 Pro 4MOTION (MY27)": {
-      "slug": "id-4",
-      "confidence": 0.85,
-      "endpreis": "35.205,30",
-      "kaufpreis": "34.413,30",
-      "ersparnis": "6.166,70 (15,20)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Volkswagen|ID.4 GTX (MY27)": {
-      "slug": "id-4",
-      "confidence": 1,
-      "endpreis": "35.205,30",
-      "kaufpreis": "34.413,30",
-      "ersparnis": "6.166,70 (15,20)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "35.205,30",
-          "kaufpreis": "34.413,30",
-          "ersparnis": "6.166,70 (15,20)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
     "Škoda|Enyaq RS (MY27)": {
       "slug": "enyaq",
       "confidence": 0.85,
@@ -3363,27 +3291,219 @@
         }
       ]
     },
-    "Renault|Megane E-Tech EV60 220hp (TU2025)": {
-      "slug": "megane-e-tech",
-      "confidence": 0.93,
-      "endpreis": "34.912,50",
-      "kaufpreis": "33.722,50",
-      "ersparnis": "7.277,50 (17,75)",
+    "Volkswagen|ID.4 Pro (MY27)": {
+      "slug": "id-4",
+      "confidence": 1,
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
       "lieferzeit": "3-4 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "34.912,50",
-          "kaufpreis": "33.722,50",
-          "ersparnis": "7.277,50 (17,75)",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
           "lieferzeit": "3-4 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "34.092,50",
-          "kaufpreis": "32.902,50",
-          "ersparnis": "8.097,50 (19,75)",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
           "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Volkswagen|ID.4 Pure (MY27)": {
+      "slug": "id-4",
+      "confidence": 0.85,
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Volkswagen|ID.4 Pro 4MOTION (MY27)": {
+      "slug": "id-4",
+      "confidence": 0.85,
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Volkswagen|ID.4 GTX (MY27)": {
+      "slug": "id-4",
+      "confidence": 1,
+      "endpreis": "35.205,30",
+      "kaufpreis": "34.413,30",
+      "ersparnis": "6.166,70 (15,20)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "35.205,30",
+          "kaufpreis": "34.413,30",
+          "ersparnis": "6.166,70 (15,20)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Kia|EV9 99.8 kWh AWD GT-Line": {
+      "slug": "ev9",
+      "confidence": 0.85,
+      "endpreis": "72.409,19",
+      "kaufpreis": "71.039,19",
+      "ersparnis": "13.040,81 (15,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "72.409,19",
+          "kaufpreis": "71.039,19",
+          "ersparnis": "13.040,81 (15,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "66.935,58",
+          "kaufpreis": "65.565,58",
+          "ersparnis": "18.514,42 (22,02)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Kia|EV9 99.8 kWh AWD GT": {
+      "slug": "ev9",
+      "confidence": 1,
+      "endpreis": "77.825,00",
+      "kaufpreis": "76.455,00",
+      "ersparnis": "14.035,00 (15,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "77.825,00",
+          "kaufpreis": "76.455,00",
+          "ersparnis": "14.035,00 (15,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "71.490,70",
+          "kaufpreis": "70.120,70",
+          "ersparnis": "20.369,30 (22,51)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Kia|EV9 99.8 kWh AWD": {
+      "slug": "ev9",
+      "confidence": 1,
+      "endpreis": "57.716,38",
+      "kaufpreis": "56.346,38",
+      "ersparnis": "10.343,62 (15,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "57.716,38",
+          "kaufpreis": "56.346,38",
+          "ersparnis": "10.343,62 (15,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.374,86",
+          "kaufpreis": "52.004,86",
+          "ersparnis": "14.685,14 (22,02)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Kia|EV9 99.8 kWh RWD": {
+      "slug": "ev9",
+      "confidence": 1,
+      "endpreis": "57.716,38",
+      "kaufpreis": "56.346,38",
+      "ersparnis": "10.343,62 (15,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "57.716,38",
+          "kaufpreis": "56.346,38",
+          "ersparnis": "10.343,62 (15,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.374,86",
+          "kaufpreis": "52.004,86",
+          "ersparnis": "14.685,14 (22,02)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Kia|EV9 76.1 kWh RWD": {
+      "slug": "ev9",
+      "confidence": 1,
+      "endpreis": "55.181,68",
+      "kaufpreis": "53.811,68",
+      "ersparnis": "9.878,32 (15,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "55.181,68",
+          "kaufpreis": "53.811,68",
+          "ersparnis": "9.878,32 (15,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "51.035,46",
+          "kaufpreis": "49.665,46",
+          "ersparnis": "14.024,54 (22,02)",
+          "lieferzeit": "5-6 Monate"
         }
       ]
     },
@@ -3555,195 +3675,27 @@
         }
       ]
     },
-    "Kia|EV9 99.8 kWh AWD GT-Line": {
-      "slug": "ev9",
-      "confidence": 0.85,
-      "endpreis": "72.409,19",
-      "kaufpreis": "71.039,19",
-      "ersparnis": "13.040,81 (15,51)",
+    "Ford|Puma Gen-E (MY26)": {
+      "slug": "puma-gen-e",
+      "confidence": 0.9,
+      "endpreis": "27.644,05",
+      "kaufpreis": "26.365,05",
+      "ersparnis": "10.534,95 (28,55)",
       "lieferzeit": "5-6 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "72.409,19",
-          "kaufpreis": "71.039,19",
-          "ersparnis": "13.040,81 (15,51)",
+          "endpreis": "27.644,05",
+          "kaufpreis": "26.365,05",
+          "ersparnis": "10.534,95 (28,55)",
           "lieferzeit": "5-6 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "66.935,58",
-          "kaufpreis": "65.565,58",
-          "ersparnis": "18.514,42 (22,02)",
+          "endpreis": "26.906,05",
+          "kaufpreis": "25.627,05",
+          "ersparnis": "11.272,95 (30,55)",
           "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Kia|EV9 99.8 kWh AWD GT": {
-      "slug": "ev9",
-      "confidence": 1,
-      "endpreis": "77.825,00",
-      "kaufpreis": "76.455,00",
-      "ersparnis": "14.035,00 (15,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "77.825,00",
-          "kaufpreis": "76.455,00",
-          "ersparnis": "14.035,00 (15,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "71.490,70",
-          "kaufpreis": "70.120,70",
-          "ersparnis": "20.369,30 (22,51)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Kia|EV9 99.8 kWh AWD": {
-      "slug": "ev9",
-      "confidence": 1,
-      "endpreis": "57.716,38",
-      "kaufpreis": "56.346,38",
-      "ersparnis": "10.343,62 (15,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "57.716,38",
-          "kaufpreis": "56.346,38",
-          "ersparnis": "10.343,62 (15,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.374,86",
-          "kaufpreis": "52.004,86",
-          "ersparnis": "14.685,14 (22,02)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Kia|EV9 99.8 kWh RWD": {
-      "slug": "ev9",
-      "confidence": 1,
-      "endpreis": "57.716,38",
-      "kaufpreis": "56.346,38",
-      "ersparnis": "10.343,62 (15,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "57.716,38",
-          "kaufpreis": "56.346,38",
-          "ersparnis": "10.343,62 (15,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.374,86",
-          "kaufpreis": "52.004,86",
-          "ersparnis": "14.685,14 (22,02)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Kia|EV9 76.1 kWh RWD": {
-      "slug": "ev9",
-      "confidence": 1,
-      "endpreis": "55.181,68",
-      "kaufpreis": "53.811,68",
-      "ersparnis": "9.878,32 (15,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "55.181,68",
-          "kaufpreis": "53.811,68",
-          "ersparnis": "9.878,32 (15,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "51.035,46",
-          "kaufpreis": "49.665,46",
-          "ersparnis": "14.024,54 (22,02)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Suzuki|e VITARA 61 kWh 2WD": {
-      "slug": "e-vitara",
-      "confidence": 1,
-      "endpreis": "29.873,55",
-      "kaufpreis": "28.778,75",
-      "ersparnis": "7.711,25 (21,13)",
-      "lieferzeit": "3-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "25.680,60",
-          "kaufpreis": "24.585,80",
-          "ersparnis": "5.404,20 (18,02)",
-          "lieferzeit": "3-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.833,05",
-          "kaufpreis": "24.738,25",
-          "ersparnis": "5.251,75 (17,51)",
-          "lieferzeit": "3-7 Monate"
-        }
-      ]
-    },
-    "Suzuki|e VITARA 61 kWh 4WD AllGrip": {
-      "slug": "e-vitara",
-      "confidence": 0.88,
-      "endpreis": "29.873,55",
-      "kaufpreis": "28.778,75",
-      "ersparnis": "7.711,25 (21,13)",
-      "lieferzeit": "3-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "25.680,60",
-          "kaufpreis": "24.585,80",
-          "ersparnis": "5.404,20 (18,02)",
-          "lieferzeit": "3-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.833,05",
-          "kaufpreis": "24.738,25",
-          "ersparnis": "5.251,75 (17,51)",
-          "lieferzeit": "3-7 Monate"
-        }
-      ]
-    },
-    "Suzuki|e VITARA 49 kWh 2WD": {
-      "slug": "e-vitara",
-      "confidence": 1,
-      "endpreis": "25.680,60",
-      "kaufpreis": "24.585,80",
-      "ersparnis": "5.404,20 (18,02)",
-      "lieferzeit": "3-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "25.680,60",
-          "kaufpreis": "24.585,80",
-          "ersparnis": "5.404,20 (18,02)",
-          "lieferzeit": "3-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.833,05",
-          "kaufpreis": "24.738,25",
-          "ersparnis": "5.251,75 (17,51)",
-          "lieferzeit": "3-7 Monate"
         }
       ]
     },
@@ -3819,27 +3771,75 @@
         }
       ]
     },
-    "Ford|Puma Gen-E (MY26)": {
-      "slug": "puma-gen-e",
-      "confidence": 0.9,
-      "endpreis": "27.644,05",
-      "kaufpreis": "26.365,05",
-      "ersparnis": "10.534,95 (28,55)",
-      "lieferzeit": "5-6 Monate",
+    "Suzuki|e VITARA 61 kWh 2WD": {
+      "slug": "e-vitara",
+      "confidence": 1,
+      "endpreis": "29.873,55",
+      "kaufpreis": "28.778,75",
+      "ersparnis": "7.711,25 (21,13)",
+      "lieferzeit": "3-7 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "27.644,05",
-          "kaufpreis": "26.365,05",
-          "ersparnis": "10.534,95 (28,55)",
-          "lieferzeit": "5-6 Monate"
+          "endpreis": "25.680,60",
+          "kaufpreis": "24.585,80",
+          "ersparnis": "5.404,20 (18,02)",
+          "lieferzeit": "3-7 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "26.906,05",
-          "kaufpreis": "25.627,05",
-          "ersparnis": "11.272,95 (30,55)",
-          "lieferzeit": "5-6 Monate"
+          "endpreis": "25.833,05",
+          "kaufpreis": "24.738,25",
+          "ersparnis": "5.251,75 (17,51)",
+          "lieferzeit": "3-7 Monate"
+        }
+      ]
+    },
+    "Suzuki|e VITARA 61 kWh 4WD AllGrip": {
+      "slug": "e-vitara",
+      "confidence": 0.88,
+      "endpreis": "29.873,55",
+      "kaufpreis": "28.778,75",
+      "ersparnis": "7.711,25 (21,13)",
+      "lieferzeit": "3-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "25.680,60",
+          "kaufpreis": "24.585,80",
+          "ersparnis": "5.404,20 (18,02)",
+          "lieferzeit": "3-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.833,05",
+          "kaufpreis": "24.738,25",
+          "ersparnis": "5.251,75 (17,51)",
+          "lieferzeit": "3-7 Monate"
+        }
+      ]
+    },
+    "Suzuki|e VITARA 49 kWh 2WD": {
+      "slug": "e-vitara",
+      "confidence": 1,
+      "endpreis": "25.680,60",
+      "kaufpreis": "24.585,80",
+      "ersparnis": "5.404,20 (18,02)",
+      "lieferzeit": "3-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "25.680,60",
+          "kaufpreis": "24.585,80",
+          "ersparnis": "5.404,20 (18,02)",
+          "lieferzeit": "3-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.833,05",
+          "kaufpreis": "24.738,25",
+          "ersparnis": "5.251,75 (17,51)",
+          "lieferzeit": "3-7 Monate"
         }
       ]
     },
@@ -4179,30 +4179,6 @@
         }
       ]
     },
-    "Jeep|Avenger Electric": {
-      "slug": "avenger",
-      "confidence": 1,
-      "endpreis": "34.955,20",
-      "kaufpreis": "33.872,30",
-      "ersparnis": "4.627,70 (12,02)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "24.221,64",
-          "kaufpreis": "23.138,74",
-          "ersparnis": "3.161,26 (12,02)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "22.906,64",
-          "kaufpreis": "21.823,74",
-          "ersparnis": "4.476,26 (17,02)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
     "Peugeot|e-5008 73 kWh": {
       "slug": "e-5008",
       "confidence": 1,
@@ -4275,74 +4251,170 @@
         }
       ]
     },
-    "Peugeot|e-3008 97 kWh Long Range": {
-      "slug": "e-3008",
+    "BMW|iX xDrive60": {
+      "slug": "ix",
       "confidence": 1,
-      "endpreis": "45.142,20",
-      "kaufpreis": "44.249,70",
-      "ersparnis": "8.750,30 (16,51)",
-      "lieferzeit": "5-6 Monate",
+      "endpreis": "66.462,50",
+      "kaufpreis": "65.672,50",
+      "ersparnis": "17.827,50 (21,35)",
+      "lieferzeit": "3-4 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "41.719,11",
-          "kaufpreis": "40.826,61",
-          "ersparnis": "8.073,39 (16,51)",
-          "lieferzeit": "2-3 Monate"
+          "endpreis": "66.462,50",
+          "kaufpreis": "65.672,50",
+          "ersparnis": "17.827,50 (21,35)",
+          "lieferzeit": "3-4 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "35.527,61",
-          "kaufpreis": "33.980,61",
-          "ersparnis": "14.919,39 (30,51)",
-          "lieferzeit": "2-3 Monate"
+          "endpreis": "66.462,50",
+          "kaufpreis": "65.672,50",
+          "ersparnis": "17.827,50 (21,35)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
-    "Peugeot|e-3008 73 kWh": {
-      "slug": "e-3008",
+    "BMW|iX xDrive45": {
+      "slug": "ix",
       "confidence": 1,
-      "endpreis": "41.719,11",
-      "kaufpreis": "40.826,61",
-      "ersparnis": "8.073,39 (16,51)",
-      "lieferzeit": "2-3 Monate",
+      "endpreis": "66.462,50",
+      "kaufpreis": "65.672,50",
+      "ersparnis": "17.827,50 (21,35)",
+      "lieferzeit": "3-4 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "41.719,11",
-          "kaufpreis": "40.826,61",
-          "ersparnis": "8.073,39 (16,51)",
-          "lieferzeit": "2-3 Monate"
+          "endpreis": "66.462,50",
+          "kaufpreis": "65.672,50",
+          "ersparnis": "17.827,50 (21,35)",
+          "lieferzeit": "3-4 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "35.527,61",
-          "kaufpreis": "33.980,61",
-          "ersparnis": "14.919,39 (30,51)",
-          "lieferzeit": "2-3 Monate"
+          "endpreis": "66.462,50",
+          "kaufpreis": "65.672,50",
+          "ersparnis": "17.827,50 (21,35)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
-    "Peugeot|e-3008 73 kWh Dual Motor": {
-      "slug": "e-3008",
+    "BMW|iX M70 xDrive": {
+      "slug": "ix",
+      "confidence": 1,
+      "endpreis": "66.462,50",
+      "kaufpreis": "65.672,50",
+      "ersparnis": "17.827,50 (21,35)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "66.462,50",
+          "kaufpreis": "65.672,50",
+          "ersparnis": "17.827,50 (21,35)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "66.462,50",
+          "kaufpreis": "65.672,50",
+          "ersparnis": "17.827,50 (21,35)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Toyota|Proace Verso L 75 kWh": {
+      "slug": "proace-verso",
       "confidence": 0.88,
-      "endpreis": "41.719,11",
-      "kaufpreis": "40.826,61",
-      "ersparnis": "8.073,39 (16,51)",
+      "endpreis": "34.059,62",
+      "kaufpreis": "32.560,62",
+      "ersparnis": "6.064,38 (15,70)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "32.502,62",
+          "kaufpreis": "31.003,62",
+          "ersparnis": "5.821,38 (15,81)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "31.875,94",
+          "kaufpreis": "30.376,94",
+          "ersparnis": "6.448,06 (17,51)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Toyota|Proace Verso M 50 kWh": {
+      "slug": "proace-verso",
+      "confidence": 0.88,
+      "endpreis": "32.502,62",
+      "kaufpreis": "31.003,62",
+      "ersparnis": "5.821,38 (15,81)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "32.502,62",
+          "kaufpreis": "31.003,62",
+          "ersparnis": "5.821,38 (15,81)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "31.875,94",
+          "kaufpreis": "30.376,94",
+          "ersparnis": "6.448,06 (17,51)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Toyota|Proace Verso M 75 kWh": {
+      "slug": "proace-verso",
+      "confidence": 0.88,
+      "endpreis": "34.059,62",
+      "kaufpreis": "32.560,62",
+      "ersparnis": "6.064,38 (15,70)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "32.502,62",
+          "kaufpreis": "31.003,62",
+          "ersparnis": "5.821,38 (15,81)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "31.875,94",
+          "kaufpreis": "30.376,94",
+          "ersparnis": "6.448,06 (17,51)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Jeep|Avenger Electric": {
+      "slug": "avenger",
+      "confidence": 1,
+      "endpreis": "34.955,20",
+      "kaufpreis": "33.872,30",
+      "ersparnis": "4.627,70 (12,02)",
       "lieferzeit": "2-3 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "41.719,11",
-          "kaufpreis": "40.826,61",
-          "ersparnis": "8.073,39 (16,51)",
+          "endpreis": "24.221,64",
+          "kaufpreis": "23.138,74",
+          "ersparnis": "3.161,26 (12,02)",
           "lieferzeit": "2-3 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "35.527,61",
-          "kaufpreis": "33.980,61",
-          "ersparnis": "14.919,39 (30,51)",
+          "endpreis": "22.906,64",
+          "kaufpreis": "21.823,74",
+          "ersparnis": "4.476,26 (17,02)",
           "lieferzeit": "2-3 Monate"
         }
       ]
@@ -4419,171 +4491,75 @@
         }
       ]
     },
-    "Toyota|Proace Verso L 75 kWh": {
-      "slug": "proace-verso",
+    "Peugeot|e-3008 97 kWh Long Range": {
+      "slug": "e-3008",
+      "confidence": 1,
+      "endpreis": "45.142,20",
+      "kaufpreis": "44.249,70",
+      "ersparnis": "8.750,30 (16,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "41.719,11",
+          "kaufpreis": "40.826,61",
+          "ersparnis": "8.073,39 (16,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "35.527,61",
+          "kaufpreis": "33.980,61",
+          "ersparnis": "14.919,39 (30,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Peugeot|e-3008 73 kWh": {
+      "slug": "e-3008",
+      "confidence": 1,
+      "endpreis": "41.719,11",
+      "kaufpreis": "40.826,61",
+      "ersparnis": "8.073,39 (16,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "41.719,11",
+          "kaufpreis": "40.826,61",
+          "ersparnis": "8.073,39 (16,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "35.527,61",
+          "kaufpreis": "33.980,61",
+          "ersparnis": "14.919,39 (30,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Peugeot|e-3008 73 kWh Dual Motor": {
+      "slug": "e-3008",
       "confidence": 0.88,
-      "endpreis": "34.059,62",
-      "kaufpreis": "32.560,62",
-      "ersparnis": "6.064,38 (15,70)",
-      "lieferzeit": "3-5 Monate",
+      "endpreis": "41.719,11",
+      "kaufpreis": "40.826,61",
+      "ersparnis": "8.073,39 (16,51)",
+      "lieferzeit": "2-3 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "32.502,62",
-          "kaufpreis": "31.003,62",
-          "ersparnis": "5.821,38 (15,81)",
-          "lieferzeit": "3-5 Monate"
+          "endpreis": "41.719,11",
+          "kaufpreis": "40.826,61",
+          "ersparnis": "8.073,39 (16,51)",
+          "lieferzeit": "2-3 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "31.875,94",
-          "kaufpreis": "30.376,94",
-          "ersparnis": "6.448,06 (17,51)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Toyota|Proace Verso M 75 kWh": {
-      "slug": "proace-verso",
-      "confidence": 0.88,
-      "endpreis": "34.059,62",
-      "kaufpreis": "32.560,62",
-      "ersparnis": "6.064,38 (15,70)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "32.502,62",
-          "kaufpreis": "31.003,62",
-          "ersparnis": "5.821,38 (15,81)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "31.875,94",
-          "kaufpreis": "30.376,94",
-          "ersparnis": "6.448,06 (17,51)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Toyota|Proace Verso M 50 kWh": {
-      "slug": "proace-verso",
-      "confidence": 0.88,
-      "endpreis": "32.502,62",
-      "kaufpreis": "31.003,62",
-      "ersparnis": "5.821,38 (15,81)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "32.502,62",
-          "kaufpreis": "31.003,62",
-          "ersparnis": "5.821,38 (15,81)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "31.875,94",
-          "kaufpreis": "30.376,94",
-          "ersparnis": "6.448,06 (17,51)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "BMW|iX xDrive60": {
-      "slug": "ix",
-      "confidence": 1,
-      "endpreis": "66.462,50",
-      "kaufpreis": "65.672,50",
-      "ersparnis": "17.827,50 (21,35)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "66.462,50",
-          "kaufpreis": "65.672,50",
-          "ersparnis": "17.827,50 (21,35)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "66.462,50",
-          "kaufpreis": "65.672,50",
-          "ersparnis": "17.827,50 (21,35)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "BMW|iX xDrive45": {
-      "slug": "ix",
-      "confidence": 1,
-      "endpreis": "66.462,50",
-      "kaufpreis": "65.672,50",
-      "ersparnis": "17.827,50 (21,35)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "66.462,50",
-          "kaufpreis": "65.672,50",
-          "ersparnis": "17.827,50 (21,35)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "66.462,50",
-          "kaufpreis": "65.672,50",
-          "ersparnis": "17.827,50 (21,35)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "BMW|iX M70 xDrive": {
-      "slug": "ix",
-      "confidence": 1,
-      "endpreis": "66.462,50",
-      "kaufpreis": "65.672,50",
-      "ersparnis": "17.827,50 (21,35)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "66.462,50",
-          "kaufpreis": "65.672,50",
-          "ersparnis": "17.827,50 (21,35)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "66.462,50",
-          "kaufpreis": "65.672,50",
-          "ersparnis": "17.827,50 (21,35)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Volkswagen|ID. Cross 155 kW - 52 kWh (MY27)": {
-      "slug": "id-cross",
-      "confidence": 1,
-      "endpreis": "31.758,62",
-      "kaufpreis": "31.074,62",
-      "ersparnis": "5.450,38 (14,92)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "31.758,62",
-          "kaufpreis": "31.074,62",
-          "ersparnis": "5.450,38 (14,92)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "31.758,62",
-          "kaufpreis": "31.074,62",
-          "ersparnis": "5.450,38 (14,92)",
-          "lieferzeit": "4-6 Monate"
+          "endpreis": "35.527,61",
+          "kaufpreis": "33.980,61",
+          "ersparnis": "14.919,39 (30,51)",
+          "lieferzeit": "2-3 Monate"
         }
       ]
     },
@@ -4683,78 +4659,6 @@
         }
       ]
     },
-    "Kia|EV4 Fastback 81.4 kWh (MY25-26)": {
-      "slug": "ev4-fastback",
-      "confidence": 1,
-      "endpreis": "41.126,59",
-      "kaufpreis": "39.828,59",
-      "ersparnis": "7.311,41 (15,51)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "41.126,59",
-          "kaufpreis": "39.828,59",
-          "ersparnis": "7.311,41 (15,51)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.998,39",
-          "kaufpreis": "33.700,39",
-          "ersparnis": "13.439,61 (28,51)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "Kia|EV4 Fastback 58.3 kWh (MY25-26)": {
-      "slug": "ev4-fastback",
-      "confidence": 1,
-      "endpreis": "36.352,90",
-      "kaufpreis": "35.054,90",
-      "ersparnis": "6.435,10 (15,51)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "36.352,90",
-          "kaufpreis": "35.054,90",
-          "ersparnis": "6.435,10 (15,51)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "30.959,20",
-          "kaufpreis": "29.661,20",
-          "ersparnis": "11.828,80 (28,51)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "Fiat|600e": {
-      "slug": "600-elektro",
-      "confidence": 1,
-      "endpreis": "27.598,45",
-      "kaufpreis": "26.708,45",
-      "ersparnis": "5.281,55 (16,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "27.598,45",
-          "kaufpreis": "26.708,45",
-          "ersparnis": "5.281,55 (16,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "27.278,55",
-          "kaufpreis": "26.388,55",
-          "ersparnis": "5.601,45 (17,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
     "Volkswagen|ID. Buzz NWB Pro": {
       "slug": "id-buzz",
       "confidence": 1,
@@ -4827,30 +4731,6 @@
         }
       ]
     },
-    "Volkswagen|ID. Buzz LWB Pro": {
-      "slug": "id-buzz",
-      "confidence": 1,
-      "endpreis": "50.773,74",
-      "kaufpreis": "49.473,74",
-      "ersparnis": "6.587,16 (11,75)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "50.773,74",
-          "kaufpreis": "49.473,74",
-          "ersparnis": "6.587,16 (11,75)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "50.773,74",
-          "kaufpreis": "49.473,74",
-          "ersparnis": "6.587,16 (11,75)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
     "Volkswagen|ID. Buzz NWB GTX": {
       "slug": "id-buzz",
       "confidence": 1,
@@ -4871,6 +4751,30 @@
           "endpreis": "61.506,53",
           "kaufpreis": "60.206,53",
           "ersparnis": "8.016,17 (11,75)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Volkswagen|ID. Buzz LWB Pro": {
+      "slug": "id-buzz",
+      "confidence": 1,
+      "endpreis": "50.773,74",
+      "kaufpreis": "49.473,74",
+      "ersparnis": "6.587,16 (11,75)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "50.773,74",
+          "kaufpreis": "49.473,74",
+          "ersparnis": "6.587,16 (11,75)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "50.773,74",
+          "kaufpreis": "49.473,74",
+          "ersparnis": "6.587,16 (11,75)",
           "lieferzeit": "5-6 Monate"
         }
       ]
@@ -4971,6 +4875,30 @@
         }
       ]
     },
+    "Volkswagen|ID. Buzz NWB GTX (MY27)": {
+      "slug": "id-buzz",
+      "confidence": 1,
+      "endpreis": "61.506,53",
+      "kaufpreis": "60.206,53",
+      "ersparnis": "8.016,17 (11,75)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "61.506,53",
+          "kaufpreis": "60.206,53",
+          "ersparnis": "8.016,17 (11,75)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "61.506,53",
+          "kaufpreis": "60.206,53",
+          "ersparnis": "8.016,17 (11,75)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
     "Volkswagen|ID. Buzz NWB Pro 4MOTION (MY27)": {
       "slug": "id-buzz",
       "confidence": 0.85,
@@ -4995,27 +4923,99 @@
         }
       ]
     },
-    "Volkswagen|ID. Buzz NWB GTX (MY27)": {
-      "slug": "id-buzz",
+    "Fiat|600e": {
+      "slug": "600-elektro",
       "confidence": 1,
-      "endpreis": "61.506,53",
-      "kaufpreis": "60.206,53",
-      "ersparnis": "8.016,17 (11,75)",
-      "lieferzeit": "5-6 Monate",
+      "endpreis": "27.598,45",
+      "kaufpreis": "26.708,45",
+      "ersparnis": "5.281,55 (16,51)",
+      "lieferzeit": "3-4 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "61.506,53",
-          "kaufpreis": "60.206,53",
-          "ersparnis": "8.016,17 (11,75)",
-          "lieferzeit": "5-6 Monate"
+          "endpreis": "27.598,45",
+          "kaufpreis": "26.708,45",
+          "ersparnis": "5.281,55 (16,51)",
+          "lieferzeit": "3-4 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "61.506,53",
-          "kaufpreis": "60.206,53",
-          "ersparnis": "8.016,17 (11,75)",
-          "lieferzeit": "5-6 Monate"
+          "endpreis": "27.278,55",
+          "kaufpreis": "26.388,55",
+          "ersparnis": "5.601,45 (17,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Kia|EV4 Fastback 81.4 kWh (MY25-26)": {
+      "slug": "ev4-fastback",
+      "confidence": 1,
+      "endpreis": "41.126,59",
+      "kaufpreis": "39.828,59",
+      "ersparnis": "7.311,41 (15,51)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "41.126,59",
+          "kaufpreis": "39.828,59",
+          "ersparnis": "7.311,41 (15,51)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.998,39",
+          "kaufpreis": "33.700,39",
+          "ersparnis": "13.439,61 (28,51)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "Kia|EV4 Fastback 58.3 kWh (MY25-26)": {
+      "slug": "ev4-fastback",
+      "confidence": 1,
+      "endpreis": "36.352,90",
+      "kaufpreis": "35.054,90",
+      "ersparnis": "6.435,10 (15,51)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "36.352,90",
+          "kaufpreis": "35.054,90",
+          "ersparnis": "6.435,10 (15,51)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "30.959,20",
+          "kaufpreis": "29.661,20",
+          "ersparnis": "11.828,80 (28,51)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "Volkswagen|ID. Cross 155 kW - 52 kWh (MY27)": {
+      "slug": "id-cross",
+      "confidence": 1,
+      "endpreis": "31.758,62",
+      "kaufpreis": "31.074,62",
+      "ersparnis": "5.450,38 (14,92)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "31.758,62",
+          "kaufpreis": "31.074,62",
+          "ersparnis": "5.450,38 (14,92)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "31.758,62",
+          "kaufpreis": "31.074,62",
+          "ersparnis": "5.450,38 (14,92)",
+          "lieferzeit": "4-6 Monate"
         }
       ]
     },
@@ -5163,78 +5163,6 @@
         }
       ]
     },
-    "Opel|Grandland Electric 73 kWh": {
-      "slug": "grandland",
-      "confidence": 1,
-      "endpreis": "35.687,52",
-      "kaufpreis": "34.797,52",
-      "ersparnis": "12.552,49 (26,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.687,52",
-          "kaufpreis": "34.797,52",
-          "ersparnis": "12.552,49 (26,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "32.083,02",
-          "kaufpreis": "30.536,02",
-          "ersparnis": "16.813,99 (35,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Opel|Grandland Electric 97 kWh": {
-      "slug": "grandland",
-      "confidence": 1,
-      "endpreis": "39.215,04",
-      "kaufpreis": "38.325,04",
-      "ersparnis": "13.824,97 (26,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "39.215,04",
-          "kaufpreis": "38.325,04",
-          "ersparnis": "13.824,97 (26,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "36.607,54",
-          "kaufpreis": "35.717,54",
-          "ersparnis": "16.432,47 (31,51)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Opel|Grandland Electric 73 kWh AWD": {
-      "slug": "grandland",
-      "confidence": 1,
-      "endpreis": "35.687,52",
-      "kaufpreis": "34.797,52",
-      "ersparnis": "12.552,49 (26,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "35.687,52",
-          "kaufpreis": "34.797,52",
-          "ersparnis": "12.552,49 (26,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "32.083,02",
-          "kaufpreis": "30.536,02",
-          "ersparnis": "16.813,99 (35,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
     "Hyundai|IONIQ 9 Long Range AWD": {
       "slug": "ioniq-9",
       "confidence": 1,
@@ -5304,6 +5232,78 @@
           "kaufpreis": "56.920,77",
           "ersparnis": "12.929,24 (18,51)",
           "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Opel|Grandland Electric 73 kWh": {
+      "slug": "grandland",
+      "confidence": 1,
+      "endpreis": "35.687,52",
+      "kaufpreis": "34.797,52",
+      "ersparnis": "12.552,49 (26,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "35.687,52",
+          "kaufpreis": "34.797,52",
+          "ersparnis": "12.552,49 (26,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "32.083,02",
+          "kaufpreis": "30.536,02",
+          "ersparnis": "16.813,99 (35,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Opel|Grandland Electric 97 kWh": {
+      "slug": "grandland",
+      "confidence": 1,
+      "endpreis": "39.215,04",
+      "kaufpreis": "38.325,04",
+      "ersparnis": "13.824,97 (26,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "39.215,04",
+          "kaufpreis": "38.325,04",
+          "ersparnis": "13.824,97 (26,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "36.607,54",
+          "kaufpreis": "35.717,54",
+          "ersparnis": "16.432,47 (31,51)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Opel|Grandland Electric 73 kWh AWD": {
+      "slug": "grandland",
+      "confidence": 1,
+      "endpreis": "35.687,52",
+      "kaufpreis": "34.797,52",
+      "ersparnis": "12.552,49 (26,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "35.687,52",
+          "kaufpreis": "34.797,52",
+          "ersparnis": "12.552,49 (26,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "32.083,02",
+          "kaufpreis": "30.536,02",
+          "ersparnis": "16.813,99 (35,51)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
@@ -5523,6 +5523,30 @@
         }
       ]
     },
+    "Porsche|Taycan Turbo": {
+      "slug": "taycan",
+      "confidence": 1,
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "96.344,60",
+          "kaufpreis": "94.494,60",
+          "ersparnis": "8.105,40 (7,90)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "96.344,60",
+          "kaufpreis": "94.494,60",
+          "ersparnis": "8.105,40 (7,90)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
     "Porsche|Taycan Sport Turismo": {
       "slug": "taycan",
       "confidence": 0.85,
@@ -5550,30 +5574,6 @@
     "Porsche|Taycan GTS": {
       "slug": "taycan",
       "confidence": 0.85,
-      "endpreis": "96.344,60",
-      "kaufpreis": "94.494,60",
-      "ersparnis": "8.105,40 (7,90)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "96.344,60",
-          "kaufpreis": "94.494,60",
-          "ersparnis": "8.105,40 (7,90)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "96.344,60",
-          "kaufpreis": "94.494,60",
-          "ersparnis": "8.105,40 (7,90)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Porsche|Taycan Turbo": {
-      "slug": "taycan",
-      "confidence": 1,
       "endpreis": "96.344,60",
       "kaufpreis": "94.494,60",
       "ersparnis": "8.105,40 (7,90)",
@@ -5643,6 +5643,30 @@
         }
       ]
     },
+    "Porsche|Taycan Plus Sport Turismo": {
+      "slug": "taycan",
+      "confidence": 0.85,
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "96.344,60",
+          "kaufpreis": "94.494,60",
+          "ersparnis": "8.105,40 (7,90)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "96.344,60",
+          "kaufpreis": "94.494,60",
+          "ersparnis": "8.105,40 (7,90)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
     "Porsche|Taycan 4 Plus": {
       "slug": "taycan",
       "confidence": 1,
@@ -5667,7 +5691,31 @@
         }
       ]
     },
-    "Porsche|Taycan Plus Sport Turismo": {
+    "Porsche|Taycan Turbo Sport Turismo": {
+      "slug": "taycan",
+      "confidence": 0.85,
+      "endpreis": "96.344,60",
+      "kaufpreis": "94.494,60",
+      "ersparnis": "8.105,40 (7,90)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "96.344,60",
+          "kaufpreis": "94.494,60",
+          "ersparnis": "8.105,40 (7,90)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "96.344,60",
+          "kaufpreis": "94.494,60",
+          "ersparnis": "8.105,40 (7,90)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Porsche|Taycan 4S Sport Turismo": {
       "slug": "taycan",
       "confidence": 0.85,
       "endpreis": "96.344,60",
@@ -5739,54 +5787,6 @@
         }
       ]
     },
-    "Porsche|Taycan 4S Sport Turismo": {
-      "slug": "taycan",
-      "confidence": 0.85,
-      "endpreis": "96.344,60",
-      "kaufpreis": "94.494,60",
-      "ersparnis": "8.105,40 (7,90)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "96.344,60",
-          "kaufpreis": "94.494,60",
-          "ersparnis": "8.105,40 (7,90)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "96.344,60",
-          "kaufpreis": "94.494,60",
-          "ersparnis": "8.105,40 (7,90)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Porsche|Taycan Turbo Sport Turismo": {
-      "slug": "taycan",
-      "confidence": 0.85,
-      "endpreis": "96.344,60",
-      "kaufpreis": "94.494,60",
-      "ersparnis": "8.105,40 (7,90)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "96.344,60",
-          "kaufpreis": "94.494,60",
-          "ersparnis": "8.105,40 (7,90)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "96.344,60",
-          "kaufpreis": "94.494,60",
-          "ersparnis": "8.105,40 (7,90)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
     "Porsche|Taycan 4S Plus Sport Turismo": {
       "slug": "taycan",
       "confidence": 0.85,
@@ -5832,6 +5832,54 @@
           "kaufpreis": "94.494,60",
           "ersparnis": "8.105,40 (7,90)",
           "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Nissan|Micra Extended Range 52 kWh": {
+      "slug": "micra",
+      "confidence": 1,
+      "endpreis": "28.733,35",
+      "kaufpreis": "27.543,35",
+      "ersparnis": "5.446,65 (16,51)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.733,35",
+          "kaufpreis": "27.543,35",
+          "ersparnis": "5.446,65 (16,51)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.842,60",
+          "kaufpreis": "24.735,90",
+          "ersparnis": "8.254,10 (25,02)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Nissan|Micra Standard Range 40 kWh": {
+      "slug": "micra",
+      "confidence": 1,
+      "endpreis": "24.558,85",
+      "kaufpreis": "23.368,85",
+      "ersparnis": "4.621,15 (16,51)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "24.558,85",
+          "kaufpreis": "23.368,85",
+          "ersparnis": "4.621,15 (16,51)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "22.093,60",
+          "kaufpreis": "20.986,90",
+          "ersparnis": "7.003,10 (25,02)",
+          "lieferzeit": "3-5 Monate"
         }
       ]
     },
@@ -6051,198 +6099,6 @@
         }
       ]
     },
-    "Alfa Romeo|Junior Elettrica 54 kWh Veloce": {
-      "slug": "junior",
-      "confidence": 0.85,
-      "endpreis": "44.934,85",
-      "kaufpreis": "43.887,65",
-      "ersparnis": "4.612,35 (9,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "44.934,85",
-          "kaufpreis": "43.887,65",
-          "ersparnis": "4.612,35 (9,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "38.629,85",
-          "kaufpreis": "37.582,65",
-          "ersparnis": "10.917,35 (22,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Alfa Romeo|Junior Elettrica 54 kWh": {
-      "slug": "junior",
-      "confidence": 0.85,
-      "endpreis": "36.790,75",
-      "kaufpreis": "35.743,55",
-      "ersparnis": "3.756,45 (9,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "28.601,41",
-          "kaufpreis": "27.554,21",
-          "ersparnis": "2.895,80 (9,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "24.792,11",
-          "kaufpreis": "23.744,91",
-          "ersparnis": "6.705,09 (22,02)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Alpine|A290 Electric 220 hp": {
-      "slug": "a290",
-      "confidence": 1,
-      "endpreis": "38.921,10",
-      "kaufpreis": "37.631,10",
-      "ersparnis": "1.368,90 (3,51)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "38.921,10",
-          "kaufpreis": "37.631,10",
-          "ersparnis": "1.368,90 (3,51)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "33.461,10",
-          "kaufpreis": "32.171,10",
-          "ersparnis": "6.828,90 (17,51)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Alpine|A290 Electric 180 hp": {
-      "slug": "a290",
-      "confidence": 1,
-      "endpreis": "38.921,10",
-      "kaufpreis": "37.631,10",
-      "ersparnis": "1.368,90 (3,51)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "38.921,10",
-          "kaufpreis": "37.631,10",
-          "ersparnis": "1.368,90 (3,51)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "33.461,10",
-          "kaufpreis": "32.171,10",
-          "ersparnis": "6.828,90 (17,51)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Opel|Mokka Electric GSE": {
-      "slug": "mokka-electric",
-      "confidence": 0.93,
-      "endpreis": "36.496,22",
-      "kaufpreis": "35.606,22",
-      "ersparnis": "12.193,78 (25,51)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "36.496,22",
-          "kaufpreis": "35.606,22",
-          "ersparnis": "12.193,78 (25,51)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.509,54",
-          "kaufpreis": "33.450,44",
-          "ersparnis": "14.349,56 (30,02)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Opel|Mokka Electric": {
-      "slug": "mokka-electric",
-      "confidence": 0.93,
-      "endpreis": "28.630,08",
-      "kaufpreis": "27.740,08",
-      "ersparnis": "9.499,92 (25,51)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "28.630,08",
-          "kaufpreis": "27.740,08",
-          "ersparnis": "9.499,92 (25,51)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "27.309,58",
-          "kaufpreis": "26.250,48",
-          "ersparnis": "10.989,52 (29,51)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Nissan|Micra Extended Range 52 kWh": {
-      "slug": "micra",
-      "confidence": 1,
-      "endpreis": "28.733,35",
-      "kaufpreis": "27.543,35",
-      "ersparnis": "5.446,65 (16,51)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "28.733,35",
-          "kaufpreis": "27.543,35",
-          "ersparnis": "5.446,65 (16,51)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.842,60",
-          "kaufpreis": "24.735,90",
-          "ersparnis": "8.254,10 (25,02)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Nissan|Micra Standard Range 40 kWh": {
-      "slug": "micra",
-      "confidence": 1,
-      "endpreis": "24.558,85",
-      "kaufpreis": "23.368,85",
-      "ersparnis": "4.621,15 (16,51)",
-      "lieferzeit": "3-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "24.558,85",
-          "kaufpreis": "23.368,85",
-          "ersparnis": "4.621,15 (16,51)",
-          "lieferzeit": "3-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "22.093,60",
-          "kaufpreis": "20.986,90",
-          "ersparnis": "7.003,10 (25,02)",
-          "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
     "BMW|i5 eDrive40 Sedan (MY25)": {
       "slug": "i5-limousine",
       "confidence": 0.93,
@@ -6315,6 +6171,150 @@
         }
       ]
     },
+    "Alpine|A290 Electric 220 hp": {
+      "slug": "a290",
+      "confidence": 1,
+      "endpreis": "38.921,10",
+      "kaufpreis": "37.631,10",
+      "ersparnis": "1.368,90 (3,51)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "38.921,10",
+          "kaufpreis": "37.631,10",
+          "ersparnis": "1.368,90 (3,51)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "33.461,10",
+          "kaufpreis": "32.171,10",
+          "ersparnis": "6.828,90 (17,51)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Alpine|A290 Electric 180 hp": {
+      "slug": "a290",
+      "confidence": 1,
+      "endpreis": "38.921,10",
+      "kaufpreis": "37.631,10",
+      "ersparnis": "1.368,90 (3,51)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "38.921,10",
+          "kaufpreis": "37.631,10",
+          "ersparnis": "1.368,90 (3,51)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "33.461,10",
+          "kaufpreis": "32.171,10",
+          "ersparnis": "6.828,90 (17,51)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-C4": {
+      "slug": "e-c4",
+      "confidence": 1,
+      "endpreis": "28.292,05",
+      "kaufpreis": "27.399,55",
+      "ersparnis": "4.650,46 (14,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.292,05",
+          "kaufpreis": "27.399,55",
+          "ersparnis": "4.650,46 (14,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "24.885,55",
+          "kaufpreis": "23.874,05",
+          "ersparnis": "8.175,96 (25,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-C4 54 kWh": {
+      "slug": "e-c4",
+      "confidence": 1,
+      "endpreis": "28.292,05",
+      "kaufpreis": "27.399,55",
+      "ersparnis": "4.650,46 (14,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.292,05",
+          "kaufpreis": "27.399,55",
+          "ersparnis": "4.650,46 (14,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "24.885,55",
+          "kaufpreis": "23.874,05",
+          "ersparnis": "8.175,96 (25,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Opel|Mokka Electric GSE": {
+      "slug": "mokka-electric",
+      "confidence": 0.93,
+      "endpreis": "36.496,22",
+      "kaufpreis": "35.606,22",
+      "ersparnis": "12.193,78 (25,51)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "36.496,22",
+          "kaufpreis": "35.606,22",
+          "ersparnis": "12.193,78 (25,51)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.509,54",
+          "kaufpreis": "33.450,44",
+          "ersparnis": "14.349,56 (30,02)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
+    "Opel|Mokka Electric": {
+      "slug": "mokka-electric",
+      "confidence": 0.93,
+      "endpreis": "28.630,08",
+      "kaufpreis": "27.740,08",
+      "ersparnis": "9.499,92 (25,51)",
+      "lieferzeit": "3-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.630,08",
+          "kaufpreis": "27.740,08",
+          "ersparnis": "9.499,92 (25,51)",
+          "lieferzeit": "3-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "27.309,58",
+          "kaufpreis": "26.250,48",
+          "ersparnis": "10.989,52 (29,51)",
+          "lieferzeit": "3-5 Monate"
+        }
+      ]
+    },
     "Opel|Corsa Electric 54 kWh (MY25)": {
       "slug": "corsa-electric",
       "confidence": 0.93,
@@ -6384,6 +6384,126 @@
           "kaufpreis": "26.632,71",
           "ersparnis": "9.367,17 (26,02)",
           "lieferzeit": "6-8 Monate"
+        }
+      ]
+    },
+    "CUPRA|Tavascan 210 kW - 77 kWh Endurance (MY27)": {
+      "slug": "tavascan",
+      "confidence": 0.85,
+      "endpreis": "40.684,40",
+      "kaufpreis": "39.494,40",
+      "ersparnis": "14.905,60 (27,40)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "40.684,40",
+          "kaufpreis": "39.494,40",
+          "ersparnis": "14.905,60 (27,40)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "39.052,40",
+          "kaufpreis": "37.862,40",
+          "ersparnis": "16.537,60 (30,40)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "CUPRA|Tavascan 250 kW - 77 kWh VZ (MY27)": {
+      "slug": "tavascan",
+      "confidence": 0.85,
+      "endpreis": "43.987,70",
+      "kaufpreis": "42.797,70",
+      "ersparnis": "16.152,30 (27,40)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "43.987,70",
+          "kaufpreis": "42.797,70",
+          "ersparnis": "16.152,30 (27,40)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "42.219,20",
+          "kaufpreis": "41.029,20",
+          "ersparnis": "17.920,80 (30,40)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "CUPRA|Tavascan 140 kW - 58 kWh (MY27)": {
+      "slug": "tavascan",
+      "confidence": 1,
+      "endpreis": "37.417,40",
+      "kaufpreis": "36.227,40",
+      "ersparnis": "13.672,60 (27,40)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "37.417,40",
+          "kaufpreis": "36.227,40",
+          "ersparnis": "13.672,60 (27,40)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "35.920,40",
+          "kaufpreis": "34.730,40",
+          "ersparnis": "15.169,60 (30,40)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "Alfa Romeo|Junior Elettrica 54 kWh Veloce": {
+      "slug": "junior",
+      "confidence": 0.85,
+      "endpreis": "44.934,85",
+      "kaufpreis": "43.887,65",
+      "ersparnis": "4.612,35 (9,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "44.934,85",
+          "kaufpreis": "43.887,65",
+          "ersparnis": "4.612,35 (9,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "38.629,85",
+          "kaufpreis": "37.582,65",
+          "ersparnis": "10.917,35 (22,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Alfa Romeo|Junior Elettrica 54 kWh": {
+      "slug": "junior",
+      "confidence": 0.85,
+      "endpreis": "36.790,75",
+      "kaufpreis": "35.743,55",
+      "ersparnis": "3.756,45 (9,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.601,41",
+          "kaufpreis": "27.554,21",
+          "ersparnis": "2.895,80 (9,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "24.792,11",
+          "kaufpreis": "23.744,91",
+          "ersparnis": "6.705,09 (22,02)",
+          "lieferzeit": "2-3 Monate"
         }
       ]
     },
@@ -6483,30 +6603,6 @@
         }
       ]
     },
-    "Ford|Capri Extended Range AWD (MY27)": {
-      "slug": "capri",
-      "confidence": 1,
-      "endpreis": "32.421,80",
-      "kaufpreis": "31.142,80",
-      "ersparnis": "11.257,20 (26,55)",
-      "lieferzeit": "7-9 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "32.421,80",
-          "kaufpreis": "31.142,80",
-          "ersparnis": "11.257,20 (26,55)",
-          "lieferzeit": "7-9 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "31.573,80",
-          "kaufpreis": "30.294,80",
-          "ersparnis": "12.105,20 (28,55)",
-          "lieferzeit": "7-9 Monate"
-        }
-      ]
-    },
     "Ford|Capri Standard Range RWD (MY26)": {
       "slug": "capri",
       "confidence": 1,
@@ -6531,171 +6627,75 @@
         }
       ]
     },
-    "CUPRA|Tavascan 210 kW - 77 kWh Endurance (MY27)": {
-      "slug": "tavascan",
-      "confidence": 0.85,
-      "endpreis": "40.684,40",
-      "kaufpreis": "39.494,40",
-      "ersparnis": "14.905,60 (27,40)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "40.684,40",
-          "kaufpreis": "39.494,40",
-          "ersparnis": "14.905,60 (27,40)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "39.052,40",
-          "kaufpreis": "37.862,40",
-          "ersparnis": "16.537,60 (30,40)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "CUPRA|Tavascan 250 kW - 77 kWh VZ (MY27)": {
-      "slug": "tavascan",
-      "confidence": 0.85,
-      "endpreis": "43.987,70",
-      "kaufpreis": "42.797,70",
-      "ersparnis": "16.152,30 (27,40)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "43.987,70",
-          "kaufpreis": "42.797,70",
-          "ersparnis": "16.152,30 (27,40)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "42.219,20",
-          "kaufpreis": "41.029,20",
-          "ersparnis": "17.920,80 (30,40)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "CUPRA|Tavascan 140 kW - 58 kWh (MY27)": {
-      "slug": "tavascan",
+    "Ford|Capri Extended Range AWD (MY27)": {
+      "slug": "capri",
       "confidence": 1,
-      "endpreis": "37.417,40",
-      "kaufpreis": "36.227,40",
-      "ersparnis": "13.672,60 (27,40)",
-      "lieferzeit": "6-7 Monate",
+      "endpreis": "32.421,80",
+      "kaufpreis": "31.142,80",
+      "ersparnis": "11.257,20 (26,55)",
+      "lieferzeit": "7-9 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "37.417,40",
-          "kaufpreis": "36.227,40",
-          "ersparnis": "13.672,60 (27,40)",
-          "lieferzeit": "6-7 Monate"
+          "endpreis": "32.421,80",
+          "kaufpreis": "31.142,80",
+          "ersparnis": "11.257,20 (26,55)",
+          "lieferzeit": "7-9 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "35.920,40",
-          "kaufpreis": "34.730,40",
-          "ersparnis": "15.169,60 (30,40)",
-          "lieferzeit": "6-7 Monate"
+          "endpreis": "31.573,80",
+          "kaufpreis": "30.294,80",
+          "ersparnis": "12.105,20 (28,55)",
+          "lieferzeit": "7-9 Monate"
         }
       ]
     },
-    "Citroën|ë-C4": {
-      "slug": "e-c4",
+    "Jeep|Compass Electric 74 kWh (MY26)": {
+      "slug": "compass",
       "confidence": 1,
-      "endpreis": "28.292,05",
-      "kaufpreis": "27.399,55",
-      "ersparnis": "4.650,46 (14,51)",
+      "endpreis": "44.183,32",
+      "kaufpreis": "43.100,42",
+      "ersparnis": "4.799,58 (10,02)",
       "lieferzeit": "2-3 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "28.292,05",
-          "kaufpreis": "27.399,55",
-          "ersparnis": "4.650,46 (14,51)",
+          "endpreis": "44.183,32",
+          "kaufpreis": "43.100,42",
+          "ersparnis": "4.799,58 (10,02)",
           "lieferzeit": "2-3 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "24.885,55",
-          "kaufpreis": "23.874,05",
-          "ersparnis": "8.175,96 (25,51)",
+          "endpreis": "43.225,32",
+          "kaufpreis": "42.142,42",
+          "ersparnis": "5.757,58 (12,02)",
           "lieferzeit": "2-3 Monate"
         }
       ]
     },
-    "Citroën|ë-C4 54 kWh": {
-      "slug": "e-c4",
+    "Jeep|Compass Electric Long Range (MY26)": {
+      "slug": "compass",
       "confidence": 1,
-      "endpreis": "28.292,05",
-      "kaufpreis": "27.399,55",
-      "ersparnis": "4.650,46 (14,51)",
+      "endpreis": "36.186,92",
+      "kaufpreis": "35.104,02",
+      "ersparnis": "4.795,98 (12,02)",
       "lieferzeit": "2-3 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "28.292,05",
-          "kaufpreis": "27.399,55",
-          "ersparnis": "4.650,46 (14,51)",
+          "endpreis": "36.186,92",
+          "kaufpreis": "35.104,02",
+          "ersparnis": "4.795,98 (12,02)",
           "lieferzeit": "2-3 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "24.885,55",
-          "kaufpreis": "23.874,05",
-          "ersparnis": "8.175,96 (25,51)",
+          "endpreis": "34.191,92",
+          "kaufpreis": "33.109,02",
+          "ersparnis": "6.790,98 (17,02)",
           "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Nissan|Ariya 87kWh (MY26)": {
-      "slug": "ariya",
-      "confidence": 1,
-      "endpreis": "44.779,00",
-      "kaufpreis": "43.589,00",
-      "ersparnis": "9.901,00 (18,51)",
-      "lieferzeit": "7-8 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "44.779,00",
-          "kaufpreis": "43.589,00",
-          "ersparnis": "9.901,00 (18,51)",
-          "lieferzeit": "7-8 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "44.244,10",
-          "kaufpreis": "43.054,10",
-          "ersparnis": "10.435,90 (19,51)",
-          "lieferzeit": "7-8 Monate"
-        }
-      ]
-    },
-    "Nissan|Ariya e-4ORCE 87kWh - 225 kW (MY26)": {
-      "slug": "ariya",
-      "confidence": 1,
-      "endpreis": "48.038,60",
-      "kaufpreis": "46.848,60",
-      "ersparnis": "10.641,40 (18,51)",
-      "lieferzeit": "7-8 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "48.038,60",
-          "kaufpreis": "46.848,60",
-          "ersparnis": "10.641,40 (18,51)",
-          "lieferzeit": "7-8 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "47.463,70",
-          "kaufpreis": "46.273,70",
-          "ersparnis": "11.216,30 (19,51)",
-          "lieferzeit": "7-8 Monate"
         }
       ]
     },
@@ -6720,6 +6720,222 @@
           "kaufpreis": "86.564,61",
           "ersparnis": "22.335,39 (20,51)",
           "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Volvo|EX90 Twin Motor Performance (MY26-27)": {
+      "slug": "ex90",
+      "confidence": 0.85,
+      "endpreis": "78.560,42",
+      "kaufpreis": "77.211,42",
+      "ersparnis": "12.778,58 (14,20)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "73.584,02",
+          "kaufpreis": "72.235,02",
+          "ersparnis": "11.954,98 (14,20)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "65.357,56",
+          "kaufpreis": "63.967,56",
+          "ersparnis": "20.222,44 (24,02)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Volvo|EX90 Twin Motor (MY26-27)": {
+      "slug": "ex90",
+      "confidence": 0.85,
+      "endpreis": "78.560,42",
+      "kaufpreis": "77.211,42",
+      "ersparnis": "12.778,58 (14,20)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "73.584,02",
+          "kaufpreis": "72.235,02",
+          "ersparnis": "11.954,98 (14,20)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "65.357,56",
+          "kaufpreis": "63.967,56",
+          "ersparnis": "20.222,44 (24,02)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Volvo|EX90 Single Motor (MY26-27)": {
+      "slug": "ex90",
+      "confidence": 0.85,
+      "endpreis": "78.560,42",
+      "kaufpreis": "77.211,42",
+      "ersparnis": "12.778,58 (14,20)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "73.584,02",
+          "kaufpreis": "72.235,02",
+          "ersparnis": "11.954,98 (14,20)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "65.357,56",
+          "kaufpreis": "63.967,56",
+          "ersparnis": "20.222,44 (24,02)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Volvo|ES90 Single Motor (MY26-27)": {
+      "slug": "es90",
+      "confidence": 0.85,
+      "endpreis": "63.116,42",
+      "kaufpreis": "61.767,42",
+      "ersparnis": "10.222,58 (14,20)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "63.116,42",
+          "kaufpreis": "61.767,42",
+          "ersparnis": "10.222,58 (14,20)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "55.368,10",
+          "kaufpreis": "53.978,10",
+          "ersparnis": "18.011,90 (25,02)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Volvo|ES90 Twin Motor (MY26-27)": {
+      "slug": "es90",
+      "confidence": 0.85,
+      "endpreis": "63.116,42",
+      "kaufpreis": "61.767,42",
+      "ersparnis": "10.222,58 (14,20)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "63.116,42",
+          "kaufpreis": "61.767,42",
+          "ersparnis": "10.222,58 (14,20)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "55.368,10",
+          "kaufpreis": "53.978,10",
+          "ersparnis": "18.011,90 (25,02)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Volvo|ES90 Twin Motor Performance (MY26-27)": {
+      "slug": "es90",
+      "confidence": 0.85,
+      "endpreis": "63.116,42",
+      "kaufpreis": "61.767,42",
+      "ersparnis": "10.222,58 (14,20)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "63.116,42",
+          "kaufpreis": "61.767,42",
+          "ersparnis": "10.222,58 (14,20)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "55.368,10",
+          "kaufpreis": "53.978,10",
+          "ersparnis": "18.011,90 (25,02)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Peugeot|e-208 54 kWh (MY25)": {
+      "slug": "e-208",
+      "confidence": 1,
+      "endpreis": "30.840,35",
+      "kaufpreis": "29.947,85",
+      "ersparnis": "7.727,15 (20,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "30.045,45",
+          "kaufpreis": "29.152,95",
+          "ersparnis": "7.522,05 (20,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.565,45",
+          "kaufpreis": "24.018,45",
+          "ersparnis": "12.656,55 (34,51)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Peugeot|e-208 GTi (MY26)": {
+      "slug": "e-208",
+      "confidence": 1,
+      "endpreis": "30.045,45",
+      "kaufpreis": "29.152,95",
+      "ersparnis": "7.522,05 (20,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "30.045,45",
+          "kaufpreis": "29.152,95",
+          "ersparnis": "7.522,05 (20,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.565,45",
+          "kaufpreis": "24.018,45",
+          "ersparnis": "12.656,55 (34,51)",
+          "lieferzeit": "5-6 Monate"
+        }
+      ]
+    },
+    "Peugeot|e-208 50 kWh (MY25)": {
+      "slug": "e-208",
+      "confidence": 1,
+      "endpreis": "30.045,45",
+      "kaufpreis": "29.152,95",
+      "ersparnis": "7.522,05 (20,51)",
+      "lieferzeit": "5-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "30.045,45",
+          "kaufpreis": "29.152,95",
+          "ersparnis": "7.522,05 (20,51)",
+          "lieferzeit": "5-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.565,45",
+          "kaufpreis": "24.018,45",
+          "ersparnis": "12.656,55 (34,51)",
+          "lieferzeit": "5-6 Monate"
         }
       ]
     },
@@ -6819,126 +7035,6 @@
         }
       ]
     },
-    "Jeep|Compass Electric 74 kWh (MY26)": {
-      "slug": "compass",
-      "confidence": 1,
-      "endpreis": "44.183,32",
-      "kaufpreis": "43.100,42",
-      "ersparnis": "4.799,58 (10,02)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "44.183,32",
-          "kaufpreis": "43.100,42",
-          "ersparnis": "4.799,58 (10,02)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "43.225,32",
-          "kaufpreis": "42.142,42",
-          "ersparnis": "5.757,58 (12,02)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Jeep|Compass Electric Long Range (MY26)": {
-      "slug": "compass",
-      "confidence": 1,
-      "endpreis": "36.186,92",
-      "kaufpreis": "35.104,02",
-      "ersparnis": "4.795,98 (12,02)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "36.186,92",
-          "kaufpreis": "35.104,02",
-          "ersparnis": "4.795,98 (12,02)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.191,92",
-          "kaufpreis": "33.109,02",
-          "ersparnis": "6.790,98 (17,02)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Volvo|ES90 Twin Motor (MY26-27)": {
-      "slug": "es90",
-      "confidence": 0.85,
-      "endpreis": "63.116,42",
-      "kaufpreis": "61.767,42",
-      "ersparnis": "10.222,58 (14,20)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "63.116,42",
-          "kaufpreis": "61.767,42",
-          "ersparnis": "10.222,58 (14,20)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "55.368,10",
-          "kaufpreis": "53.978,10",
-          "ersparnis": "18.011,90 (25,02)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Volvo|ES90 Single Motor (MY26-27)": {
-      "slug": "es90",
-      "confidence": 0.85,
-      "endpreis": "63.116,42",
-      "kaufpreis": "61.767,42",
-      "ersparnis": "10.222,58 (14,20)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "63.116,42",
-          "kaufpreis": "61.767,42",
-          "ersparnis": "10.222,58 (14,20)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "55.368,10",
-          "kaufpreis": "53.978,10",
-          "ersparnis": "18.011,90 (25,02)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Volvo|ES90 Twin Motor Performance (MY26-27)": {
-      "slug": "es90",
-      "confidence": 0.85,
-      "endpreis": "63.116,42",
-      "kaufpreis": "61.767,42",
-      "ersparnis": "10.222,58 (14,20)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "63.116,42",
-          "kaufpreis": "61.767,42",
-          "ersparnis": "10.222,58 (14,20)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "55.368,10",
-          "kaufpreis": "53.978,10",
-          "ersparnis": "18.011,90 (25,02)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
     "Alpine|A390 GT": {
       "slug": "a390",
       "confidence": 1,
@@ -6960,78 +7056,6 @@
           "kaufpreis": "57.705,75",
           "ersparnis": "9.794,25 (14,51)",
           "lieferzeit": "3-5 Monate"
-        }
-      ]
-    },
-    "Peugeot|e-208 54 kWh (MY25)": {
-      "slug": "e-208",
-      "confidence": 1,
-      "endpreis": "30.840,35",
-      "kaufpreis": "29.947,85",
-      "ersparnis": "7.727,15 (20,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "30.045,45",
-          "kaufpreis": "29.152,95",
-          "ersparnis": "7.522,05 (20,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.565,45",
-          "kaufpreis": "24.018,45",
-          "ersparnis": "12.656,55 (34,51)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Peugeot|e-208 GTi (MY26)": {
-      "slug": "e-208",
-      "confidence": 1,
-      "endpreis": "30.045,45",
-      "kaufpreis": "29.152,95",
-      "ersparnis": "7.522,05 (20,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "30.045,45",
-          "kaufpreis": "29.152,95",
-          "ersparnis": "7.522,05 (20,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.565,45",
-          "kaufpreis": "24.018,45",
-          "ersparnis": "12.656,55 (34,51)",
-          "lieferzeit": "5-6 Monate"
-        }
-      ]
-    },
-    "Peugeot|e-208 50 kWh (MY25)": {
-      "slug": "e-208",
-      "confidence": 1,
-      "endpreis": "30.045,45",
-      "kaufpreis": "29.152,95",
-      "ersparnis": "7.522,05 (20,51)",
-      "lieferzeit": "5-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "30.045,45",
-          "kaufpreis": "29.152,95",
-          "ersparnis": "7.522,05 (20,51)",
-          "lieferzeit": "5-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.565,45",
-          "kaufpreis": "24.018,45",
-          "ersparnis": "12.656,55 (34,51)",
-          "lieferzeit": "5-6 Monate"
         }
       ]
     },
@@ -7083,75 +7107,291 @@
         }
       ]
     },
-    "Volvo|EX90 Twin Motor Performance (MY26-27)": {
-      "slug": "ex90",
-      "confidence": 0.85,
-      "endpreis": "78.560,42",
-      "kaufpreis": "77.211,42",
-      "ersparnis": "12.778,58 (14,20)",
-      "lieferzeit": "4-5 Monate",
+    "Nissan|Ariya 87kWh (MY26)": {
+      "slug": "ariya",
+      "confidence": 1,
+      "endpreis": "44.779,00",
+      "kaufpreis": "43.589,00",
+      "ersparnis": "9.901,00 (18,51)",
+      "lieferzeit": "7-8 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "73.584,02",
-          "kaufpreis": "72.235,02",
-          "ersparnis": "11.954,98 (14,20)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "44.779,00",
+          "kaufpreis": "43.589,00",
+          "ersparnis": "9.901,00 (18,51)",
+          "lieferzeit": "7-8 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "65.357,56",
-          "kaufpreis": "63.967,56",
-          "ersparnis": "20.222,44 (24,02)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "44.244,10",
+          "kaufpreis": "43.054,10",
+          "ersparnis": "10.435,90 (19,51)",
+          "lieferzeit": "7-8 Monate"
         }
       ]
     },
-    "Volvo|EX90 Twin Motor (MY26-27)": {
-      "slug": "ex90",
-      "confidence": 0.85,
-      "endpreis": "78.560,42",
-      "kaufpreis": "77.211,42",
-      "ersparnis": "12.778,58 (14,20)",
-      "lieferzeit": "4-5 Monate",
+    "Nissan|Ariya e-4ORCE 87kWh - 225 kW (MY26)": {
+      "slug": "ariya",
+      "confidence": 1,
+      "endpreis": "48.038,60",
+      "kaufpreis": "46.848,60",
+      "ersparnis": "10.641,40 (18,51)",
+      "lieferzeit": "7-8 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "73.584,02",
-          "kaufpreis": "72.235,02",
-          "ersparnis": "11.954,98 (14,20)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "48.038,60",
+          "kaufpreis": "46.848,60",
+          "ersparnis": "10.641,40 (18,51)",
+          "lieferzeit": "7-8 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "65.357,56",
-          "kaufpreis": "63.967,56",
-          "ersparnis": "20.222,44 (24,02)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "47.463,70",
+          "kaufpreis": "46.273,70",
+          "ersparnis": "11.216,30 (19,51)",
+          "lieferzeit": "7-8 Monate"
         }
       ]
     },
-    "Volvo|EX90 Single Motor (MY26-27)": {
-      "slug": "ex90",
-      "confidence": 0.85,
-      "endpreis": "78.560,42",
-      "kaufpreis": "77.211,42",
-      "ersparnis": "12.778,58 (14,20)",
-      "lieferzeit": "4-5 Monate",
+    "Nissan|Townstar EV Passenger L2": {
+      "slug": "townstar-kombi",
+      "confidence": 1,
+      "endpreis": "26.075,70",
+      "kaufpreis": "24.885,70",
+      "ersparnis": "5.104,30 (17,02)",
+      "lieferzeit": "4-6 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "73.584,02",
-          "kaufpreis": "72.235,02",
-          "ersparnis": "11.954,98 (14,20)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "26.075,70",
+          "kaufpreis": "24.885,70",
+          "ersparnis": "5.104,30 (17,02)",
+          "lieferzeit": "4-6 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "65.357,56",
-          "kaufpreis": "63.967,56",
-          "ersparnis": "20.222,44 (24,02)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "22.417,40",
+          "kaufpreis": "21.286,90",
+          "ersparnis": "8.703,10 (29,02)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Nissan|Townstar EV Passenger": {
+      "slug": "townstar-kombi",
+      "confidence": 1,
+      "endpreis": "26.075,70",
+      "kaufpreis": "24.885,70",
+      "ersparnis": "5.104,30 (17,02)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "26.075,70",
+          "kaufpreis": "24.885,70",
+          "ersparnis": "5.104,30 (17,02)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "22.417,40",
+          "kaufpreis": "21.286,90",
+          "ersparnis": "8.703,10 (29,02)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Subaru|Solterra AWD (MY22-25)": {
+      "slug": "solterra",
+      "confidence": 1,
+      "endpreis": "46.226,05",
+      "kaufpreis": "44.736,05",
+      "ersparnis": "5.253,95 (10,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "46.226,05",
+          "kaufpreis": "44.736,05",
+          "ersparnis": "5.253,95 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "46.226,05",
+          "kaufpreis": "44.736,05",
+          "ersparnis": "5.253,95 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Subaru|Solterra AWD 73.1 kWh (MY26)": {
+      "slug": "solterra",
+      "confidence": 1,
+      "endpreis": "46.226,05",
+      "kaufpreis": "44.736,05",
+      "ersparnis": "5.253,95 (10,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "46.226,05",
+          "kaufpreis": "44.736,05",
+          "ersparnis": "5.253,95 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "46.226,05",
+          "kaufpreis": "44.736,05",
+          "ersparnis": "5.253,95 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "DS Automobiles|N°8 AWD Long Range": {
+      "slug": "n-8",
+      "confidence": 1,
+      "endpreis": "53.303,17",
+      "kaufpreis": "52.172,67",
+      "ersparnis": "6.127,33 (10,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.303,17",
+          "kaufpreis": "52.172,67",
+          "ersparnis": "6.127,33 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "46.890,17",
+          "kaufpreis": "45.759,67",
+          "ersparnis": "12.540,33 (21,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "DS Automobiles|N°8 FWD Long Range": {
+      "slug": "n-8",
+      "confidence": 1,
+      "endpreis": "53.303,17",
+      "kaufpreis": "52.172,67",
+      "ersparnis": "6.127,33 (10,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.303,17",
+          "kaufpreis": "52.172,67",
+          "ersparnis": "6.127,33 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "46.890,17",
+          "kaufpreis": "45.759,67",
+          "ersparnis": "12.540,33 (21,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "DS Automobiles|N°8 FWD": {
+      "slug": "n-8",
+      "confidence": 1,
+      "endpreis": "53.303,17",
+      "kaufpreis": "52.172,67",
+      "ersparnis": "6.127,33 (10,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.303,17",
+          "kaufpreis": "52.172,67",
+          "ersparnis": "6.127,33 (10,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "46.890,17",
+          "kaufpreis": "45.759,67",
+          "ersparnis": "12.540,33 (21,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "BMW|i5 eDrive40 Touring (MY25)": {
+      "slug": "i5-touring",
+      "confidence": 0.93,
+      "endpreis": "53.476,25",
+      "kaufpreis": "52.686,25",
+      "ersparnis": "20.213,75 (27,73)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.476,25",
+          "kaufpreis": "52.686,25",
+          "ersparnis": "20.213,75 (27,73)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.476,25",
+          "kaufpreis": "52.686,25",
+          "ersparnis": "20.213,75 (27,73)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "BMW|i5 xDrive40 Touring (MY25)": {
+      "slug": "i5-touring",
+      "confidence": 0.93,
+      "endpreis": "53.476,25",
+      "kaufpreis": "52.686,25",
+      "ersparnis": "20.213,75 (27,73)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.476,25",
+          "kaufpreis": "52.686,25",
+          "ersparnis": "20.213,75 (27,73)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.476,25",
+          "kaufpreis": "52.686,25",
+          "ersparnis": "20.213,75 (27,73)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "BMW|i5 M60 xDrive Touring (MY25)": {
+      "slug": "i5-touring",
+      "confidence": 0.93,
+      "endpreis": "53.476,25",
+      "kaufpreis": "52.686,25",
+      "ersparnis": "20.213,75 (27,73)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.476,25",
+          "kaufpreis": "52.686,25",
+          "ersparnis": "20.213,75 (27,73)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.476,25",
+          "kaufpreis": "52.686,25",
+          "ersparnis": "20.213,75 (27,73)",
+          "lieferzeit": "3-4 Monate"
         }
       ]
     },
@@ -7251,126 +7491,6 @@
         }
       ]
     },
-    "DS Automobiles|N°8 AWD Long Range": {
-      "slug": "n-8",
-      "confidence": 1,
-      "endpreis": "53.303,17",
-      "kaufpreis": "52.172,67",
-      "ersparnis": "6.127,33 (10,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.303,17",
-          "kaufpreis": "52.172,67",
-          "ersparnis": "6.127,33 (10,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "46.890,17",
-          "kaufpreis": "45.759,67",
-          "ersparnis": "12.540,33 (21,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "DS Automobiles|N°8 FWD Long Range": {
-      "slug": "n-8",
-      "confidence": 1,
-      "endpreis": "53.303,17",
-      "kaufpreis": "52.172,67",
-      "ersparnis": "6.127,33 (10,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.303,17",
-          "kaufpreis": "52.172,67",
-          "ersparnis": "6.127,33 (10,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "46.890,17",
-          "kaufpreis": "45.759,67",
-          "ersparnis": "12.540,33 (21,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "DS Automobiles|N°8 FWD": {
-      "slug": "n-8",
-      "confidence": 1,
-      "endpreis": "53.303,17",
-      "kaufpreis": "52.172,67",
-      "ersparnis": "6.127,33 (10,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.303,17",
-          "kaufpreis": "52.172,67",
-          "ersparnis": "6.127,33 (10,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "46.890,17",
-          "kaufpreis": "45.759,67",
-          "ersparnis": "12.540,33 (21,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Nissan|Townstar EV Passenger L2": {
-      "slug": "townstar-kombi",
-      "confidence": 1,
-      "endpreis": "26.075,70",
-      "kaufpreis": "24.885,70",
-      "ersparnis": "5.104,30 (17,02)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "26.075,70",
-          "kaufpreis": "24.885,70",
-          "ersparnis": "5.104,30 (17,02)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "22.417,40",
-          "kaufpreis": "21.286,90",
-          "ersparnis": "8.703,10 (29,02)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Nissan|Townstar EV Passenger": {
-      "slug": "townstar-kombi",
-      "confidence": 1,
-      "endpreis": "26.075,70",
-      "kaufpreis": "24.885,70",
-      "ersparnis": "5.104,30 (17,02)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "26.075,70",
-          "kaufpreis": "24.885,70",
-          "ersparnis": "5.104,30 (17,02)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "22.417,40",
-          "kaufpreis": "21.286,90",
-          "ersparnis": "8.703,10 (29,02)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
     "Volkswagen|e-Transporter Kombi L2 210 kW 64 kWh": {
       "slug": "e-transporter-kombi",
       "confidence": 1,
@@ -7443,7 +7563,7 @@
         }
       ]
     },
-    "Volkswagen|e-Transporter Kombi L2 100 kW 64 kWh": {
+    "Volkswagen|e-Transporter Kombi L1 100 kW 64 kWh": {
       "slug": "e-transporter-kombi",
       "confidence": 1,
       "endpreis": "52.306,00",
@@ -7467,7 +7587,7 @@
         }
       ]
     },
-    "Volkswagen|e-Transporter Kombi L1 100 kW 64 kWh": {
+    "Volkswagen|e-Transporter Kombi L2 100 kW 64 kWh": {
       "slug": "e-transporter-kombi",
       "confidence": 1,
       "endpreis": "52.306,00",
@@ -7515,99 +7635,51 @@
         }
       ]
     },
-    "BMW|i5 eDrive40 Touring (MY25)": {
-      "slug": "i5-touring",
-      "confidence": 0.93,
-      "endpreis": "53.476,25",
-      "kaufpreis": "52.686,25",
-      "ersparnis": "20.213,75 (27,73)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.476,25",
-          "kaufpreis": "52.686,25",
-          "ersparnis": "20.213,75 (27,73)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.476,25",
-          "kaufpreis": "52.686,25",
-          "ersparnis": "20.213,75 (27,73)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "BMW|i5 xDrive40 Touring (MY25)": {
-      "slug": "i5-touring",
-      "confidence": 0.93,
-      "endpreis": "53.476,25",
-      "kaufpreis": "52.686,25",
-      "ersparnis": "20.213,75 (27,73)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.476,25",
-          "kaufpreis": "52.686,25",
-          "ersparnis": "20.213,75 (27,73)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.476,25",
-          "kaufpreis": "52.686,25",
-          "ersparnis": "20.213,75 (27,73)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "BMW|i5 M60 xDrive Touring (MY25)": {
-      "slug": "i5-touring",
-      "confidence": 0.93,
-      "endpreis": "53.476,25",
-      "kaufpreis": "52.686,25",
-      "ersparnis": "20.213,75 (27,73)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.476,25",
-          "kaufpreis": "52.686,25",
-          "ersparnis": "20.213,75 (27,73)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.476,25",
-          "kaufpreis": "52.686,25",
-          "ersparnis": "20.213,75 (27,73)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Abarth|500e Hatchback": {
-      "slug": "500e",
+    "Citroën|ë-C4 X 54 kWh": {
+      "slug": "e-c4-x",
       "confidence": 1,
-      "endpreis": "30.808,35",
-      "kaufpreis": "29.818,35",
-      "ersparnis": "8.171,65 (21,51)",
-      "lieferzeit": "4-5 Monate",
+      "endpreis": "28.890,48",
+      "kaufpreis": "27.997,98",
+      "ersparnis": "4.752,03 (14,51)",
+      "lieferzeit": "2-3 Monate",
       "offers": [
         {
           "tag": "für Privatkunden",
-          "endpreis": "30.808,35",
-          "kaufpreis": "29.818,35",
-          "ersparnis": "8.171,65 (21,51)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "28.890,48",
+          "kaufpreis": "27.997,98",
+          "ersparnis": "4.752,03 (14,51)",
+          "lieferzeit": "2-3 Monate"
         },
         {
           "tag": "für Geschäftskunden",
-          "endpreis": "30.428,45",
-          "kaufpreis": "29.438,45",
-          "ersparnis": "8.551,55 (22,51)",
-          "lieferzeit": "4-5 Monate"
+          "endpreis": "25.406,98",
+          "kaufpreis": "24.395,48",
+          "ersparnis": "8.354,53 (25,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-C4 X": {
+      "slug": "e-c4-x",
+      "confidence": 1,
+      "endpreis": "28.890,48",
+      "kaufpreis": "27.997,98",
+      "ersparnis": "4.752,03 (14,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.890,48",
+          "kaufpreis": "27.997,98",
+          "ersparnis": "4.752,03 (14,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.406,98",
+          "kaufpreis": "24.395,48",
+          "ersparnis": "8.354,53 (25,51)",
+          "lieferzeit": "2-3 Monate"
         }
       ]
     },
@@ -7728,102 +7800,6 @@
           "kaufpreis": "42.363,70",
           "ersparnis": "14.136,30 (25,02)",
           "lieferzeit": "herstellerüblich"
-        }
-      ]
-    },
-    "Citroën|ë-C4 X 54 kWh": {
-      "slug": "e-c4-x",
-      "confidence": 1,
-      "endpreis": "28.890,48",
-      "kaufpreis": "27.997,98",
-      "ersparnis": "4.752,03 (14,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "28.890,48",
-          "kaufpreis": "27.997,98",
-          "ersparnis": "4.752,03 (14,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.406,98",
-          "kaufpreis": "24.395,48",
-          "ersparnis": "8.354,53 (25,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Citroën|ë-C4 X": {
-      "slug": "e-c4-x",
-      "confidence": 1,
-      "endpreis": "28.890,48",
-      "kaufpreis": "27.997,98",
-      "ersparnis": "4.752,03 (14,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "28.890,48",
-          "kaufpreis": "27.997,98",
-          "ersparnis": "4.752,03 (14,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.406,98",
-          "kaufpreis": "24.395,48",
-          "ersparnis": "8.354,53 (25,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Subaru|Solterra AWD (MY22-25)": {
-      "slug": "solterra",
-      "confidence": 1,
-      "endpreis": "46.226,05",
-      "kaufpreis": "44.736,05",
-      "ersparnis": "5.253,95 (10,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "46.226,05",
-          "kaufpreis": "44.736,05",
-          "ersparnis": "5.253,95 (10,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "46.226,05",
-          "kaufpreis": "44.736,05",
-          "ersparnis": "5.253,95 (10,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Subaru|Solterra AWD 73.1 kWh (MY26)": {
-      "slug": "solterra",
-      "confidence": 1,
-      "endpreis": "46.226,05",
-      "kaufpreis": "44.736,05",
-      "ersparnis": "5.253,95 (10,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "46.226,05",
-          "kaufpreis": "44.736,05",
-          "ersparnis": "5.253,95 (10,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "46.226,05",
-          "kaufpreis": "44.736,05",
-          "ersparnis": "5.253,95 (10,51)",
-          "lieferzeit": "2-3 Monate"
         }
       ]
     },
@@ -7995,6 +7971,30 @@
         }
       ]
     },
+    "Abarth|500e Hatchback": {
+      "slug": "500e",
+      "confidence": 1,
+      "endpreis": "30.808,35",
+      "kaufpreis": "29.818,35",
+      "ersparnis": "8.171,65 (21,51)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "30.808,35",
+          "kaufpreis": "29.818,35",
+          "ersparnis": "8.171,65 (21,51)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "30.428,45",
+          "kaufpreis": "29.438,45",
+          "ersparnis": "8.551,55 (22,51)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
     "DS Automobiles|N°7 FWD Long Range": {
       "slug": "n-7",
       "confidence": 1,
@@ -8067,30 +8067,6 @@
         }
       ]
     },
-    "Peugeot|e-308 58 kWh (MY26)": {
-      "slug": "e-308",
-      "confidence": 1,
-      "endpreis": "36.062,11",
-      "kaufpreis": "35.169,61",
-      "ersparnis": "7.465,39 (17,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "36.062,11",
-          "kaufpreis": "35.169,61",
-          "ersparnis": "7.465,39 (17,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "30.638,56",
-          "kaufpreis": "29.627,06",
-          "ersparnis": "13.007,94 (30,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
     "Audi|RS e-tron GT": {
       "slug": "rs-e-tron-gt",
       "confidence": 0.93,
@@ -8135,6 +8111,30 @@
           "endpreis": "115.547,75",
           "kaufpreis": "114.297,75",
           "ersparnis": "33.202,25 (22,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Peugeot|e-308 58 kWh (MY26)": {
+      "slug": "e-308",
+      "confidence": 1,
+      "endpreis": "36.062,11",
+      "kaufpreis": "35.169,61",
+      "ersparnis": "7.465,39 (17,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "36.062,11",
+          "kaufpreis": "35.169,61",
+          "ersparnis": "7.465,39 (17,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "30.638,56",
+          "kaufpreis": "29.627,06",
+          "ersparnis": "13.007,94 (30,51)",
           "lieferzeit": "2-3 Monate"
         }
       ]
@@ -8283,6 +8283,198 @@
         }
       ]
     },
+    "DS Automobiles|DS 3 E-Tense": {
+      "slug": "ds3",
+      "confidence": 1,
+      "endpreis": "28.678,88",
+      "kaufpreis": "27.619,78",
+      "ersparnis": "5.070,22 (15,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "28.678,88",
+          "kaufpreis": "27.619,78",
+          "ersparnis": "5.070,22 (15,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "25.243,16",
+          "kaufpreis": "24.184,06",
+          "ersparnis": "8.505,94 (26,02)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "BMW|i7 50 xDrive (MY27)": {
+      "slug": "i7",
+      "confidence": 0.95,
+      "endpreis": "95.554,00",
+      "kaufpreis": "94.764,00",
+      "ersparnis": "26.636,00 (21,94)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "95.554,00",
+          "kaufpreis": "94.764,00",
+          "ersparnis": "26.636,00 (21,94)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "95.554,00",
+          "kaufpreis": "94.764,00",
+          "ersparnis": "26.636,00 (21,94)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "BMW|i7 60 xDrive (MY27)": {
+      "slug": "i7",
+      "confidence": 0.95,
+      "endpreis": "95.554,00",
+      "kaufpreis": "94.764,00",
+      "ersparnis": "26.636,00 (21,94)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "95.554,00",
+          "kaufpreis": "94.764,00",
+          "ersparnis": "26.636,00 (21,94)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "95.554,00",
+          "kaufpreis": "94.764,00",
+          "ersparnis": "26.636,00 (21,94)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "BMW|i7 M70 xDrive (MY27)": {
+      "slug": "i7",
+      "confidence": 1,
+      "endpreis": "95.554,00",
+      "kaufpreis": "94.764,00",
+      "ersparnis": "26.636,00 (21,94)",
+      "lieferzeit": "6-7 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "95.554,00",
+          "kaufpreis": "94.764,00",
+          "ersparnis": "26.636,00 (21,94)",
+          "lieferzeit": "6-7 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "95.554,00",
+          "kaufpreis": "94.764,00",
+          "ersparnis": "26.636,00 (21,94)",
+          "lieferzeit": "6-7 Monate"
+        }
+      ]
+    },
+    "Audi|S e-tron GT": {
+      "slug": "s-e-tron-gt",
+      "confidence": 0.93,
+      "endpreis": "101.407,40",
+      "kaufpreis": "100.157,40",
+      "ersparnis": "25.842,60 (20,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "101.407,40",
+          "kaufpreis": "100.157,40",
+          "ersparnis": "25.842,60 (20,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "101.407,40",
+          "kaufpreis": "100.157,40",
+          "ersparnis": "25.842,60 (20,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Audi|Q6 Sportback e-tron performance (MY25)": {
+      "slug": "q6-sportback-e-tron",
+      "confidence": 1,
+      "endpreis": "53.592,91",
+      "kaufpreis": "52.383,91",
+      "ersparnis": "13.516,09 (20,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.592,91",
+          "kaufpreis": "52.383,91",
+          "ersparnis": "13.516,09 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.592,91",
+          "kaufpreis": "52.383,91",
+          "ersparnis": "13.516,09 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Audi|Q6 Sportback e-tron quattro (MY26)": {
+      "slug": "q6-sportback-e-tron",
+      "confidence": 1,
+      "endpreis": "53.592,91",
+      "kaufpreis": "52.383,91",
+      "ersparnis": "13.516,09 (20,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.592,91",
+          "kaufpreis": "52.383,91",
+          "ersparnis": "13.516,09 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.592,91",
+          "kaufpreis": "52.383,91",
+          "ersparnis": "13.516,09 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
+    "Audi|Q6 Sportback e-tron (MY25)": {
+      "slug": "q6-sportback-e-tron",
+      "confidence": 1,
+      "endpreis": "53.592,91",
+      "kaufpreis": "52.383,91",
+      "ersparnis": "13.516,09 (20,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "53.592,91",
+          "kaufpreis": "52.383,91",
+          "ersparnis": "13.516,09 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "53.592,91",
+          "kaufpreis": "52.383,91",
+          "ersparnis": "13.516,09 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
     "Volvo|EC40 Single Motor ER (MY26)": {
       "slug": "ec40",
       "confidence": 0.85,
@@ -8379,78 +8571,6 @@
         }
       ]
     },
-    "BMW|i7 50 xDrive (MY27)": {
-      "slug": "i7",
-      "confidence": 0.95,
-      "endpreis": "95.554,00",
-      "kaufpreis": "94.764,00",
-      "ersparnis": "26.636,00 (21,94)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "95.554,00",
-          "kaufpreis": "94.764,00",
-          "ersparnis": "26.636,00 (21,94)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "95.554,00",
-          "kaufpreis": "94.764,00",
-          "ersparnis": "26.636,00 (21,94)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "BMW|i7 60 xDrive (MY27)": {
-      "slug": "i7",
-      "confidence": 0.95,
-      "endpreis": "95.554,00",
-      "kaufpreis": "94.764,00",
-      "ersparnis": "26.636,00 (21,94)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "95.554,00",
-          "kaufpreis": "94.764,00",
-          "ersparnis": "26.636,00 (21,94)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "95.554,00",
-          "kaufpreis": "94.764,00",
-          "ersparnis": "26.636,00 (21,94)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
-    "BMW|i7 M70 xDrive (MY27)": {
-      "slug": "i7",
-      "confidence": 1,
-      "endpreis": "95.554,00",
-      "kaufpreis": "94.764,00",
-      "ersparnis": "26.636,00 (21,94)",
-      "lieferzeit": "6-7 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "95.554,00",
-          "kaufpreis": "94.764,00",
-          "ersparnis": "26.636,00 (21,94)",
-          "lieferzeit": "6-7 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "95.554,00",
-          "kaufpreis": "94.764,00",
-          "ersparnis": "26.636,00 (21,94)",
-          "lieferzeit": "6-7 Monate"
-        }
-      ]
-    },
     "Toyota|Proace City Verso L1 50 kWh": {
       "slug": "proace-city-verso-electric",
       "confidence": 0.9600000000000001,
@@ -8496,102 +8616,6 @@
           "kaufpreis": "32.419,17",
           "ersparnis": "6.410,83 (16,51)",
           "lieferzeit": "4-5 Monate"
-        }
-      ]
-    },
-    "Citroën|ë-Berlingo M 50 kWh": {
-      "slug": "e-berlingo",
-      "confidence": 0.88,
-      "endpreis": "33.430,04",
-      "kaufpreis": "32.537,54",
-      "ersparnis": "5.082,46 (13,51)",
-      "lieferzeit": "4-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "33.430,04",
-          "kaufpreis": "32.537,54",
-          "ersparnis": "5.082,46 (13,51)",
-          "lieferzeit": "4-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "29.867,64",
-          "kaufpreis": "28.023,14",
-          "ersparnis": "9.596,86 (25,51)",
-          "lieferzeit": "4-5 Monate"
-        }
-      ]
-    },
-    "Citroën|ë-Berlingo XL 50 kWh": {
-      "slug": "e-berlingo",
-      "confidence": 1,
-      "endpreis": "33.430,04",
-      "kaufpreis": "32.537,54",
-      "ersparnis": "5.082,46 (13,51)",
-      "lieferzeit": "4-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "33.430,04",
-          "kaufpreis": "32.537,54",
-          "ersparnis": "5.082,46 (13,51)",
-          "lieferzeit": "4-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "29.867,64",
-          "kaufpreis": "28.023,14",
-          "ersparnis": "9.596,86 (25,51)",
-          "lieferzeit": "4-5 Monate"
-        }
-      ]
-    },
-    "DS Automobiles|DS 3 E-Tense": {
-      "slug": "ds3",
-      "confidence": 1,
-      "endpreis": "28.678,88",
-      "kaufpreis": "27.619,78",
-      "ersparnis": "5.070,22 (15,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "28.678,88",
-          "kaufpreis": "27.619,78",
-          "ersparnis": "5.070,22 (15,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "25.243,16",
-          "kaufpreis": "24.184,06",
-          "ersparnis": "8.505,94 (26,02)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Audi|S e-tron GT": {
-      "slug": "s-e-tron-gt",
-      "confidence": 0.93,
-      "endpreis": "101.407,40",
-      "kaufpreis": "100.157,40",
-      "ersparnis": "25.842,60 (20,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "101.407,40",
-          "kaufpreis": "100.157,40",
-          "ersparnis": "25.842,60 (20,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "101.407,40",
-          "kaufpreis": "100.157,40",
-          "ersparnis": "25.842,60 (20,51)",
-          "lieferzeit": "2-3 Monate"
         }
       ]
     },
@@ -8691,6 +8715,54 @@
         }
       ]
     },
+    "Citroën|ë-Berlingo M 50 kWh": {
+      "slug": "e-berlingo",
+      "confidence": 0.88,
+      "endpreis": "33.430,04",
+      "kaufpreis": "32.537,54",
+      "ersparnis": "5.082,46 (13,51)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "33.430,04",
+          "kaufpreis": "32.537,54",
+          "ersparnis": "5.082,46 (13,51)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "29.867,64",
+          "kaufpreis": "28.023,14",
+          "ersparnis": "9.596,86 (25,51)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Citroën|ë-Berlingo XL 50 kWh": {
+      "slug": "e-berlingo",
+      "confidence": 1,
+      "endpreis": "33.430,04",
+      "kaufpreis": "32.537,54",
+      "ersparnis": "5.082,46 (13,51)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "33.430,04",
+          "kaufpreis": "32.537,54",
+          "ersparnis": "5.082,46 (13,51)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "29.867,64",
+          "kaufpreis": "28.023,14",
+          "ersparnis": "9.596,86 (25,51)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
     "Peugeot|e-308 SW 58 kWh (MY26)": {
       "slug": "e-308-sw",
       "confidence": 1,
@@ -8715,78 +8787,6 @@
         }
       ]
     },
-    "Audi|Q6 Sportback e-tron performance (MY25)": {
-      "slug": "q6-sportback-e-tron",
-      "confidence": 1,
-      "endpreis": "53.592,91",
-      "kaufpreis": "52.383,91",
-      "ersparnis": "13.516,09 (20,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.592,91",
-          "kaufpreis": "52.383,91",
-          "ersparnis": "13.516,09 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.592,91",
-          "kaufpreis": "52.383,91",
-          "ersparnis": "13.516,09 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Audi|Q6 Sportback e-tron quattro (MY26)": {
-      "slug": "q6-sportback-e-tron",
-      "confidence": 1,
-      "endpreis": "53.592,91",
-      "kaufpreis": "52.383,91",
-      "ersparnis": "13.516,09 (20,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.592,91",
-          "kaufpreis": "52.383,91",
-          "ersparnis": "13.516,09 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.592,91",
-          "kaufpreis": "52.383,91",
-          "ersparnis": "13.516,09 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Audi|Q6 Sportback e-tron (MY25)": {
-      "slug": "q6-sportback-e-tron",
-      "confidence": 1,
-      "endpreis": "53.592,91",
-      "kaufpreis": "52.383,91",
-      "ersparnis": "13.516,09 (20,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "53.592,91",
-          "kaufpreis": "52.383,91",
-          "ersparnis": "13.516,09 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "53.592,91",
-          "kaufpreis": "52.383,91",
-          "ersparnis": "13.516,09 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
     "Audi|S6 Avant e-tron (MY25)": {
       "slug": "s6-avant-e-tron",
       "confidence": 1,
@@ -8807,54 +8807,6 @@
           "endpreis": "81.613,14",
           "kaufpreis": "80.404,14",
           "ersparnis": "20.745,87 (20,51)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Audi|SQ6 SUV e-tron (MY24)": {
-      "slug": "sq6-suv-e-tron",
-      "confidence": 0.8975000000000001,
-      "endpreis": "75.770,62",
-      "kaufpreis": "74.561,62",
-      "ersparnis": "19.238,38 (20,51)",
-      "lieferzeit": "3-4 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "75.770,62",
-          "kaufpreis": "74.561,62",
-          "ersparnis": "19.238,38 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "75.770,62",
-          "kaufpreis": "74.561,62",
-          "ersparnis": "19.238,38 (20,51)",
-          "lieferzeit": "3-4 Monate"
-        }
-      ]
-    },
-    "Opel|Astra Sports Tourer Electric 58 kWh (MY26)": {
-      "slug": "astra-sports-tourer-electric",
-      "confidence": 0.9600000000000001,
-      "endpreis": "31.002,96",
-      "kaufpreis": "30.112,96",
-      "ersparnis": "9.777,04 (24,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "31.002,96",
-          "kaufpreis": "30.112,96",
-          "ersparnis": "9.777,04 (24,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "30.064,36",
-          "kaufpreis": "28.517,36",
-          "ersparnis": "11.372,64 (28,51)",
           "lieferzeit": "2-3 Monate"
         }
       ]
@@ -8883,6 +8835,30 @@
         }
       ]
     },
+    "Audi|SQ6 SUV e-tron (MY24)": {
+      "slug": "sq6-suv-e-tron",
+      "confidence": 0.8975000000000001,
+      "endpreis": "75.770,62",
+      "kaufpreis": "74.561,62",
+      "ersparnis": "19.238,38 (20,51)",
+      "lieferzeit": "3-4 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "75.770,62",
+          "kaufpreis": "74.561,62",
+          "ersparnis": "19.238,38 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "75.770,62",
+          "kaufpreis": "74.561,62",
+          "ersparnis": "19.238,38 (20,51)",
+          "lieferzeit": "3-4 Monate"
+        }
+      ]
+    },
     "Audi|S6 Sportback e-tron (MY25)": {
       "slug": "s6-sportback-e-tron",
       "confidence": 1,
@@ -8903,6 +8879,30 @@
           "endpreis": "80.301,55",
           "kaufpreis": "79.092,55",
           "ersparnis": "20.407,45 (20,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Opel|Astra Sports Tourer Electric 58 kWh (MY26)": {
+      "slug": "astra-sports-tourer-electric",
+      "confidence": 0.9600000000000001,
+      "endpreis": "31.002,96",
+      "kaufpreis": "30.112,96",
+      "ersparnis": "9.777,04 (24,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "31.002,96",
+          "kaufpreis": "30.112,96",
+          "ersparnis": "9.777,04 (24,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "30.064,36",
+          "kaufpreis": "28.517,36",
+          "ersparnis": "11.372,64 (28,51)",
           "lieferzeit": "2-3 Monate"
         }
       ]
@@ -9003,30 +9003,6 @@
         }
       ]
     },
-    "Volkswagen|e-Caravelle L1 210 kW 64 kWh": {
-      "slug": "e-caravelle",
-      "confidence": 1,
-      "endpreis": "58.302,03",
-      "kaufpreis": "56.512,03",
-      "ersparnis": "13.697,97 (19,51)",
-      "lieferzeit": "4-5 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "58.302,03",
-          "kaufpreis": "56.512,03",
-          "ersparnis": "13.697,97 (19,51)",
-          "lieferzeit": "4-5 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "58.302,03",
-          "kaufpreis": "56.512,03",
-          "ersparnis": "13.697,97 (19,51)",
-          "lieferzeit": "4-5 Monate"
-        }
-      ]
-    },
     "Volkswagen|e-Caravelle L2 100 kW 64 kWh": {
       "slug": "e-caravelle",
       "confidence": 1,
@@ -9071,6 +9047,30 @@
           "endpreis": "56.666,17",
           "kaufpreis": "54.876,17",
           "ersparnis": "13.292,98 (19,50)",
+          "lieferzeit": "4-5 Monate"
+        }
+      ]
+    },
+    "Volkswagen|e-Caravelle L1 210 kW 64 kWh": {
+      "slug": "e-caravelle",
+      "confidence": 1,
+      "endpreis": "58.302,03",
+      "kaufpreis": "56.512,03",
+      "ersparnis": "13.697,97 (19,51)",
+      "lieferzeit": "4-5 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "58.302,03",
+          "kaufpreis": "56.512,03",
+          "ersparnis": "13.697,97 (19,51)",
+          "lieferzeit": "4-5 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "58.302,03",
+          "kaufpreis": "56.512,03",
+          "ersparnis": "13.697,97 (19,51)",
           "lieferzeit": "4-5 Monate"
         }
       ]
@@ -9123,7 +9123,7 @@
         }
       ]
     },
-    "Ford|e-Tourneo Custom L2 160 kW AWD": {
+    "Ford|e-Tourneo Custom L1 160 kW RWD": {
       "slug": "tourneo-custom",
       "confidence": 1,
       "endpreis": "43.770,87",
@@ -9147,7 +9147,7 @@
         }
       ]
     },
-    "Ford|e-Tourneo Custom L1 160 kW RWD": {
+    "Ford|e-Tourneo Custom L2 160 kW AWD": {
       "slug": "tourneo-custom",
       "confidence": 1,
       "endpreis": "43.770,87",
@@ -9195,7 +9195,7 @@
         }
       ]
     },
-    "Ford|e-Tourneo Custom L1 210 kW AWD": {
+    "Ford|e-Tourneo Custom L2 210 kW RWD": {
       "slug": "tourneo-custom",
       "confidence": 1,
       "endpreis": "43.770,87",
@@ -9219,7 +9219,7 @@
         }
       ]
     },
-    "Ford|e-Tourneo Custom L2 210 kW RWD": {
+    "Ford|e-Tourneo Custom L1 210 kW AWD": {
       "slug": "tourneo-custom",
       "confidence": 1,
       "endpreis": "43.770,87",
@@ -9339,6 +9339,126 @@
         }
       ]
     },
+    "Audi|SQ6 Sportback e-tron (MY25)": {
+      "slug": "sq6-sportback-e-tron",
+      "confidence": 1,
+      "endpreis": "77.678,38",
+      "kaufpreis": "76.469,38",
+      "ersparnis": "19.730,62 (20,51)",
+      "lieferzeit": "2-3 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "77.678,38",
+          "kaufpreis": "76.469,38",
+          "ersparnis": "19.730,62 (20,51)",
+          "lieferzeit": "2-3 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "77.678,38",
+          "kaufpreis": "76.469,38",
+          "ersparnis": "19.730,62 (20,51)",
+          "lieferzeit": "2-3 Monate"
+        }
+      ]
+    },
+    "Opel|Zafira Electric 75 kWh": {
+      "slug": "zafira-electric",
+      "confidence": 0.93,
+      "endpreis": "44.036,65",
+      "kaufpreis": "42.846,65",
+      "ersparnis": "11.403,35 (21,02)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "39.297,85",
+          "kaufpreis": "38.107,85",
+          "ersparnis": "10.142,15 (21,02)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.224,53",
+          "kaufpreis": "33.046,43",
+          "ersparnis": "15.203,58 (31,51)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Opel|Zafira Electric 50 kWh": {
+      "slug": "zafira-electric",
+      "confidence": 0.93,
+      "endpreis": "39.297,85",
+      "kaufpreis": "38.107,85",
+      "ersparnis": "10.142,15 (21,02)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "39.297,85",
+          "kaufpreis": "38.107,85",
+          "ersparnis": "10.142,15 (21,02)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.224,53",
+          "kaufpreis": "33.046,43",
+          "ersparnis": "15.203,58 (31,51)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Opel|Zafira Electric XL 75 kWh": {
+      "slug": "zafira-electric",
+      "confidence": 0.93,
+      "endpreis": "44.036,65",
+      "kaufpreis": "42.846,65",
+      "ersparnis": "11.403,35 (21,02)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "39.297,85",
+          "kaufpreis": "38.107,85",
+          "ersparnis": "10.142,15 (21,02)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.224,53",
+          "kaufpreis": "33.046,43",
+          "ersparnis": "15.203,58 (31,51)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
+    "Opel|Zafira Electric XL 50 kWh": {
+      "slug": "zafira-electric",
+      "confidence": 0.93,
+      "endpreis": "39.297,85",
+      "kaufpreis": "38.107,85",
+      "ersparnis": "10.142,15 (21,02)",
+      "lieferzeit": "4-6 Monate",
+      "offers": [
+        {
+          "tag": "für Privatkunden",
+          "endpreis": "39.297,85",
+          "kaufpreis": "38.107,85",
+          "ersparnis": "10.142,15 (21,02)",
+          "lieferzeit": "4-6 Monate"
+        },
+        {
+          "tag": "für Geschäftskunden",
+          "endpreis": "34.224,53",
+          "kaufpreis": "33.046,43",
+          "ersparnis": "15.203,58 (31,51)",
+          "lieferzeit": "4-6 Monate"
+        }
+      ]
+    },
     "Peugeot|e-Traveller L3 75 kWh": {
       "slug": "e-traveller",
       "confidence": 1,
@@ -9431,126 +9551,6 @@
           "endpreis": "34.701,95",
           "kaufpreis": "33.523,85",
           "ersparnis": "13.706,15 (29,02)",
-          "lieferzeit": "2-3 Monate"
-        }
-      ]
-    },
-    "Opel|Zafira Electric 75 kWh": {
-      "slug": "zafira-electric",
-      "confidence": 0.93,
-      "endpreis": "44.036,65",
-      "kaufpreis": "42.846,65",
-      "ersparnis": "11.403,35 (21,02)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "39.297,85",
-          "kaufpreis": "38.107,85",
-          "ersparnis": "10.142,15 (21,02)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.224,53",
-          "kaufpreis": "33.046,43",
-          "ersparnis": "15.203,58 (31,51)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Opel|Zafira Electric 50 kWh": {
-      "slug": "zafira-electric",
-      "confidence": 0.93,
-      "endpreis": "39.297,85",
-      "kaufpreis": "38.107,85",
-      "ersparnis": "10.142,15 (21,02)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "39.297,85",
-          "kaufpreis": "38.107,85",
-          "ersparnis": "10.142,15 (21,02)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.224,53",
-          "kaufpreis": "33.046,43",
-          "ersparnis": "15.203,58 (31,51)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Opel|Zafira Electric XL 50 kWh": {
-      "slug": "zafira-electric",
-      "confidence": 0.93,
-      "endpreis": "39.297,85",
-      "kaufpreis": "38.107,85",
-      "ersparnis": "10.142,15 (21,02)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "39.297,85",
-          "kaufpreis": "38.107,85",
-          "ersparnis": "10.142,15 (21,02)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.224,53",
-          "kaufpreis": "33.046,43",
-          "ersparnis": "15.203,58 (31,51)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Opel|Zafira Electric XL 75 kWh": {
-      "slug": "zafira-electric",
-      "confidence": 0.93,
-      "endpreis": "44.036,65",
-      "kaufpreis": "42.846,65",
-      "ersparnis": "11.403,35 (21,02)",
-      "lieferzeit": "4-6 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "39.297,85",
-          "kaufpreis": "38.107,85",
-          "ersparnis": "10.142,15 (21,02)",
-          "lieferzeit": "4-6 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "34.224,53",
-          "kaufpreis": "33.046,43",
-          "ersparnis": "15.203,58 (31,51)",
-          "lieferzeit": "4-6 Monate"
-        }
-      ]
-    },
-    "Audi|SQ6 Sportback e-tron (MY25)": {
-      "slug": "sq6-sportback-e-tron",
-      "confidence": 1,
-      "endpreis": "77.678,38",
-      "kaufpreis": "76.469,38",
-      "ersparnis": "19.730,62 (20,51)",
-      "lieferzeit": "2-3 Monate",
-      "offers": [
-        {
-          "tag": "für Privatkunden",
-          "endpreis": "77.678,38",
-          "kaufpreis": "76.469,38",
-          "ersparnis": "19.730,62 (20,51)",
-          "lieferzeit": "2-3 Monate"
-        },
-        {
-          "tag": "für Geschäftskunden",
-          "endpreis": "77.678,38",
-          "kaufpreis": "76.469,38",
-          "ersparnis": "19.730,62 (20,51)",
           "lieferzeit": "2-3 Monate"
         }
       ]
