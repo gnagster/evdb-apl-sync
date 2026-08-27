@@ -2978,49 +2978,49 @@
   },
   "lineData": {
     "8": {
-      "fetchedAt": "2026-08-24T05:51:07.077Z",
+      "fetchedAt": "2026-08-27T16:28:39.383Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "10": {
-      "fetchedAt": "2026-08-24T05:51:17.187Z",
+      "fetchedAt": "2026-08-27T16:28:49.299Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "11": {
-      "fetchedAt": "2026-08-24T05:51:18.738Z",
+      "fetchedAt": "2026-08-27T16:28:54.238Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "20": {
-      "fetchedAt": "2026-08-24T05:51:23.864Z",
+      "fetchedAt": "2026-08-27T16:28:57.914Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "21": {
-      "fetchedAt": "2026-08-24T05:51:05.686Z",
+      "fetchedAt": "2026-08-27T16:28:37.486Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "23": {
-      "fetchedAt": "2026-08-24T05:51:16.512Z",
+      "fetchedAt": "2026-08-27T16:28:49.995Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "40": {
-      "fetchedAt": "2026-08-24T05:51:51.022Z",
+      "fetchedAt": "2026-08-27T16:29:29.714Z",
       "data": {
         "byMotor": {
           "310": {
@@ -3179,7 +3179,7 @@
       }
     },
     "49": {
-      "fetchedAt": "2026-08-24T05:51:43.661Z",
+      "fetchedAt": "2026-08-27T16:29:22.290Z",
       "data": {
         "byMotor": {
           "242": {
@@ -3263,7 +3263,7 @@
       }
     },
     "94": {
-      "fetchedAt": "2026-08-24T05:51:39.521Z",
+      "fetchedAt": "2026-08-27T16:29:18.302Z",
       "data": {
         "byMotor": {
           "347": {
@@ -3316,7 +3316,7 @@
       }
     },
     "100": {
-      "fetchedAt": "2026-08-24T05:51:41.066Z",
+      "fetchedAt": "2026-08-27T16:29:19.301Z",
       "data": {
         "byMotor": {
           "353": {
@@ -3335,7 +3335,7 @@
             "endpreis": "38.774,10",
             "kaufpreis": "37.884,10",
             "ersparnis": "13.665,91 (26,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "4-5 Monate"
           },
           "3406": {
             "endpreis": "42.301,62",
@@ -3347,7 +3347,7 @@
             "endpreis": "42.301,62",
             "kaufpreis": "41.411,62",
             "ersparnis": "14.938,39 (26,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -3370,9 +3370,9 @@
           "356": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "35.006,44",
-              "kaufpreis": "33.459,44",
-              "ersparnis": "14.690,57 (30,51)",
+              "endpreis": "35.969,44",
+              "kaufpreis": "34.422,44",
+              "ersparnis": "13.727,57 (28,51)",
               "lieferzeit": "2-3 Monate"
             },
             {
@@ -3386,17 +3386,17 @@
           "3367": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "34.791,60",
-              "kaufpreis": "33.244,60",
-              "ersparnis": "18.305,41 (35,51)",
-              "lieferzeit": "3-4 Monate"
+              "endpreis": "36.196,60",
+              "kaufpreis": "35.306,60",
+              "ersparnis": "16.243,41 (31,51)",
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "38.774,10",
               "kaufpreis": "37.884,10",
               "ersparnis": "13.665,91 (26,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ],
           "3406": [
@@ -3418,24 +3418,24 @@
           "3710": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "37.887,12",
-              "kaufpreis": "36.340,12",
-              "ersparnis": "20.009,89 (35,51)",
-              "lieferzeit": "3-4 Monate"
+              "endpreis": "39.484,12",
+              "kaufpreis": "38.594,12",
+              "ersparnis": "17.755,89 (31,51)",
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "42.301,62",
               "kaufpreis": "41.411,62",
               "ersparnis": "14.938,39 (26,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "128": {
-      "fetchedAt": "2026-08-24T05:51:54.996Z",
+      "fetchedAt": "2026-08-27T16:29:32.041Z",
       "data": {
         "byMotor": {
           "466": {
@@ -3532,7 +3532,7 @@
       }
     },
     "133": {
-      "fetchedAt": "2026-08-24T05:51:53.948Z",
+      "fetchedAt": "2026-08-27T16:29:33.169Z",
       "data": {
         "byMotor": {
           "464": {
@@ -3585,7 +3585,7 @@
       }
     },
     "135": {
-      "fetchedAt": "2026-08-24T05:51:55.285Z",
+      "fetchedAt": "2026-08-27T16:29:32.428Z",
       "data": {
         "byMotor": {
           "466": {
@@ -3682,20 +3682,20 @@
       }
     },
     "138": {
-      "fetchedAt": "2026-08-24T05:51:40.719Z",
+      "fetchedAt": "2026-08-27T16:29:16.360Z",
       "data": {
         "byMotor": {
           "452": {
             "endpreis": "32.271,17",
             "kaufpreis": "31.378,67",
             "ersparnis": "8.096,33 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           },
           "453": {
             "endpreis": "31.476,27",
             "kaufpreis": "30.583,77",
             "ersparnis": "7.891,23 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -3705,14 +3705,14 @@
               "endpreis": "27.399,17",
               "kaufpreis": "25.852,17",
               "ersparnis": "13.622,83 (34,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "32.271,17",
               "kaufpreis": "31.378,67",
               "ersparnis": "8.096,33 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ],
           "453": [
@@ -3721,21 +3721,21 @@
               "endpreis": "26.744,27",
               "kaufpreis": "25.197,27",
               "ersparnis": "13.277,73 (34,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "31.476,27",
               "kaufpreis": "30.583,77",
               "ersparnis": "7.891,23 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "151": {
-      "fetchedAt": "2026-08-24T05:51:54.327Z",
+      "fetchedAt": "2026-08-27T16:29:33.532Z",
       "data": {
         "byMotor": {
           "464": {
@@ -3788,14 +3788,14 @@
       }
     },
     "158": {
-      "fetchedAt": "2026-08-24T05:51:41.057Z",
+      "fetchedAt": "2026-08-27T16:29:16.811Z",
       "data": {
         "byMotor": {
           "452": {
             "endpreis": "33.622,50",
             "kaufpreis": "32.730,00",
             "ersparnis": "8.445,00 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -3805,21 +3805,21 @@
               "endpreis": "28.302,52",
               "kaufpreis": "26.755,52",
               "ersparnis": "14.419,49 (35,02)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "33.622,50",
               "kaufpreis": "32.730,00",
               "ersparnis": "8.445,00 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "171": {
-      "fetchedAt": "2026-08-24T05:51:35.179Z",
+      "fetchedAt": "2026-08-27T16:29:10.921Z",
       "data": {
         "byMotor": {
           "558": {
@@ -4290,7 +4290,7 @@
       }
     },
     "218": {
-      "fetchedAt": "2026-08-24T05:51:31.962Z",
+      "fetchedAt": "2026-08-27T16:29:07.513Z",
       "data": {
         "byMotor": {
           "669": {
@@ -4321,7 +4321,7 @@
       }
     },
     "358": {
-      "fetchedAt": "2026-08-24T05:51:36.713Z",
+      "fetchedAt": "2026-08-27T16:29:13.690Z",
       "data": {
         "byMotor": {
           "872": {
@@ -4388,7 +4388,7 @@
       }
     },
     "368": {
-      "fetchedAt": "2026-08-24T05:51:10.631Z",
+      "fetchedAt": "2026-08-27T16:28:41.987Z",
       "data": {
         "byMotor": {
           "2544": {
@@ -4484,7 +4484,7 @@
       }
     },
     "370": {
-      "fetchedAt": "2026-08-24T05:51:37.350Z",
+      "fetchedAt": "2026-08-27T16:29:14.442Z",
       "data": {
         "byMotor": {
           "870": {
@@ -4609,7 +4609,7 @@
       }
     },
     "384": {
-      "fetchedAt": "2026-08-24T05:51:52.247Z",
+      "fetchedAt": "2026-08-27T16:29:30.368Z",
       "data": {
         "byMotor": {
           "881": {
@@ -4684,7 +4684,7 @@
       }
     },
     "531": {
-      "fetchedAt": "2026-08-24T05:51:28.653Z",
+      "fetchedAt": "2026-08-27T16:29:06.117Z",
       "data": {
         "byMotor": {
           "1047": {
@@ -4781,7 +4781,7 @@
       }
     },
     "648": {
-      "fetchedAt": "2026-08-24T05:51:43.458Z",
+      "fetchedAt": "2026-08-27T16:29:20.313Z",
       "data": {
         "byMotor": {
           "1241": {
@@ -4812,7 +4812,7 @@
       }
     },
     "654": {
-      "fetchedAt": "2026-08-24T05:51:43.751Z",
+      "fetchedAt": "2026-08-27T16:29:20.664Z",
       "data": {
         "byMotor": {
           "1241": {
@@ -4843,7 +4843,7 @@
       }
     },
     "657": {
-      "fetchedAt": "2026-08-24T05:51:44.049Z",
+      "fetchedAt": "2026-08-27T16:29:21.004Z",
       "data": {
         "byMotor": {
           "1241": {
@@ -4874,7 +4874,7 @@
       }
     },
     "658": {
-      "fetchedAt": "2026-08-24T05:51:27.690Z",
+      "fetchedAt": "2026-08-27T16:29:01.747Z",
       "data": {
         "byMotor": {
           "1240": {
@@ -4905,7 +4905,7 @@
       }
     },
     "662": {
-      "fetchedAt": "2026-08-24T05:51:47.707Z",
+      "fetchedAt": "2026-08-27T16:29:23.091Z",
       "data": {
         "byMotor": {
           "1244": {
@@ -4936,7 +4936,7 @@
       }
     },
     "671": {
-      "fetchedAt": "2026-08-24T05:51:37.493Z",
+      "fetchedAt": "2026-08-27T16:29:12.556Z",
       "data": {
         "byMotor": {
           "3679": {
@@ -4967,7 +4967,7 @@
       }
     },
     "733": {
-      "fetchedAt": "2026-08-24T05:51:40.478Z",
+      "fetchedAt": "2026-08-27T16:29:18.231Z",
       "data": {
         "byMotor": {
           "4076": {
@@ -5064,7 +5064,7 @@
       }
     },
     "734": {
-      "fetchedAt": "2026-08-24T05:51:51.458Z",
+      "fetchedAt": "2026-08-27T16:29:26.582Z",
       "data": {
         "byMotor": {
           "4080": {
@@ -5161,7 +5161,7 @@
       }
     },
     "742": {
-      "fetchedAt": "2026-08-24T05:51:44.804Z",
+      "fetchedAt": "2026-08-27T16:29:25.147Z",
       "data": {
         "byMotor": {
           "1482": {
@@ -5214,7 +5214,7 @@
       }
     },
     "847": {
-      "fetchedAt": "2026-08-24T05:51:42.025Z",
+      "fetchedAt": "2026-08-27T16:29:20.004Z",
       "data": {
         "byMotor": {
           "1746": {
@@ -5267,7 +5267,7 @@
       }
     },
     "850": {
-      "fetchedAt": "2026-08-24T05:51:23.352Z",
+      "fetchedAt": "2026-08-27T16:28:55.917Z",
       "data": {
         "byMotor": {
           "1744": {
@@ -5320,7 +5320,7 @@
       }
     },
     "851": {
-      "fetchedAt": "2026-08-24T05:51:29.509Z",
+      "fetchedAt": "2026-08-27T16:29:04.531Z",
       "data": {
         "byMotor": {
           "3504": {
@@ -5395,7 +5395,7 @@
       }
     },
     "852": {
-      "fetchedAt": "2026-08-24T05:51:35.430Z",
+      "fetchedAt": "2026-08-27T16:29:11.695Z",
       "data": {
         "byMotor": {
           "1737": {
@@ -5448,7 +5448,7 @@
       }
     },
     "856": {
-      "fetchedAt": "2026-08-24T05:51:22.644Z",
+      "fetchedAt": "2026-08-27T16:28:57.253Z",
       "data": {
         "byMotor": {
           "1732": {
@@ -5545,7 +5545,7 @@
       }
     },
     "881": {
-      "fetchedAt": "2026-08-24T05:51:48.322Z",
+      "fetchedAt": "2026-08-27T16:29:25.864Z",
       "data": {
         "byMotor": {
           "4119": {
@@ -5642,7 +5642,7 @@
       }
     },
     "957": {
-      "fetchedAt": "2026-08-24T05:51:42.547Z",
+      "fetchedAt": "2026-08-27T16:29:16.934Z",
       "data": {
         "byMotor": {
           "1895": {
@@ -5673,7 +5673,7 @@
       }
     },
     "958": {
-      "fetchedAt": "2026-08-24T05:51:47.851Z",
+      "fetchedAt": "2026-08-27T16:29:28.670Z",
       "data": {
         "byMotor": {
           "1897": {
@@ -5704,7 +5704,7 @@
       }
     },
     "982": {
-      "fetchedAt": "2026-08-24T05:51:41.958Z",
+      "fetchedAt": "2026-08-27T16:29:16.175Z",
       "data": {
         "byMotor": {
           "1894": {
@@ -5757,7 +5757,7 @@
       }
     },
     "983": {
-      "fetchedAt": "2026-08-24T05:51:47.539Z",
+      "fetchedAt": "2026-08-27T16:29:28.297Z",
       "data": {
         "byMotor": {
           "1896": {
@@ -5810,7 +5810,7 @@
       }
     },
     "1001": {
-      "fetchedAt": "2026-08-24T05:51:47.056Z",
+      "fetchedAt": "2026-08-27T16:29:27.910Z",
       "data": {
         "byMotor": {
           "1896": {
@@ -5841,7 +5841,7 @@
       }
     },
     "1002": {
-      "fetchedAt": "2026-08-24T05:51:41.652Z",
+      "fetchedAt": "2026-08-27T16:29:15.781Z",
       "data": {
         "byMotor": {
           "1894": {
@@ -5872,7 +5872,7 @@
       }
     },
     "1041": {
-      "fetchedAt": "2026-08-24T05:51:48.758Z",
+      "fetchedAt": "2026-08-27T16:29:23.374Z",
       "data": {
         "byMotor": {
           "2066": {
@@ -5903,7 +5903,7 @@
       }
     },
     "1045": {
-      "fetchedAt": "2026-08-24T05:51:53.632Z",
+      "fetchedAt": "2026-08-27T16:29:32.146Z",
       "data": {
         "byMotor": {
           "2104": {
@@ -6154,7 +6154,7 @@
       }
     },
     "1063": {
-      "fetchedAt": "2026-08-24T05:51:48.464Z",
+      "fetchedAt": "2026-08-27T16:29:23.014Z",
       "data": {
         "byMotor": {
           "2070": {
@@ -6185,7 +6185,7 @@
       }
     },
     "1077": {
-      "fetchedAt": "2026-08-24T05:51:53.976Z",
+      "fetchedAt": "2026-08-27T16:29:32.581Z",
       "data": {
         "byMotor": {
           "2105": {
@@ -6392,7 +6392,7 @@
       }
     },
     "1102": {
-      "fetchedAt": "2026-08-24T05:51:53.297Z",
+      "fetchedAt": "2026-08-27T16:29:31.747Z",
       "data": {
         "byMotor": {
           "2101": {
@@ -6775,7 +6775,7 @@
       }
     },
     "1114": {
-      "fetchedAt": "2026-08-24T05:51:54.365Z",
+      "fetchedAt": "2026-08-27T16:29:33.008Z",
       "data": {
         "byMotor": {
           "2105": {
@@ -6982,7 +6982,7 @@
       }
     },
     "1120": {
-      "fetchedAt": "2026-08-24T05:51:52.855Z",
+      "fetchedAt": "2026-08-27T16:29:31.359Z",
       "data": {
         "byMotor": {
           "2101": {
@@ -7123,7 +7123,7 @@
       }
     },
     "1156": {
-      "fetchedAt": "2026-08-24T05:51:10.377Z",
+      "fetchedAt": "2026-08-27T16:28:41.905Z",
       "data": {
         "byMotor": {
           "2253": {
@@ -7154,7 +7154,7 @@
       }
     },
     "1157": {
-      "fetchedAt": "2026-08-24T05:51:12.163Z",
+      "fetchedAt": "2026-08-27T16:28:44.545Z",
       "data": {
         "byMotor": {
           "2256": {
@@ -7185,7 +7185,7 @@
       }
     },
     "1168": {
-      "fetchedAt": "2026-08-24T05:51:11.343Z",
+      "fetchedAt": "2026-08-27T16:28:43.170Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -7238,7 +7238,7 @@
       }
     },
     "1245": {
-      "fetchedAt": "2026-08-24T05:51:29.874Z",
+      "fetchedAt": "2026-08-27T16:29:04.943Z",
       "data": {
         "byMotor": {
           "2321": {
@@ -7313,7 +7313,7 @@
       }
     },
     "1267": {
-      "fetchedAt": "2026-08-24T05:51:26.648Z",
+      "fetchedAt": "2026-08-27T16:29:01.912Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -7351,7 +7351,7 @@
       }
     },
     "1395": {
-      "fetchedAt": "2026-08-24T05:51:30.800Z",
+      "fetchedAt": "2026-08-27T16:29:09.184Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -7426,7 +7426,7 @@
       }
     },
     "1396": {
-      "fetchedAt": "2026-08-24T05:51:31.400Z",
+      "fetchedAt": "2026-08-27T16:29:09.887Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -7501,7 +7501,7 @@
       }
     },
     "1439": {
-      "fetchedAt": "2026-08-24T05:51:10.044Z",
+      "fetchedAt": "2026-08-27T16:28:41.547Z",
       "data": {
         "byMotor": {
           "2516": {
@@ -7532,7 +7532,7 @@
       }
     },
     "1470": {
-      "fetchedAt": "2026-08-24T05:51:10.952Z",
+      "fetchedAt": "2026-08-27T16:28:42.402Z",
       "data": {
         "byMotor": {
           "2545": {
@@ -7599,7 +7599,7 @@
       }
     },
     "1471": {
-      "fetchedAt": "2026-08-24T05:51:11.258Z",
+      "fetchedAt": "2026-08-27T16:28:42.797Z",
       "data": {
         "byMotor": {
           "2546": {
@@ -7666,7 +7666,7 @@
       }
     },
     "1473": {
-      "fetchedAt": "2026-08-24T05:51:11.571Z",
+      "fetchedAt": "2026-08-27T16:28:43.172Z",
       "data": {
         "byMotor": {
           "2546": {
@@ -7733,7 +7733,7 @@
       }
     },
     "1506": {
-      "fetchedAt": "2026-08-24T05:51:38.573Z",
+      "fetchedAt": "2026-08-27T16:29:10.357Z",
       "data": {
         "byMotor": {
           "2587": {
@@ -7852,7 +7852,7 @@
       }
     },
     "1565": {
-      "fetchedAt": "2026-08-24T05:51:44.136Z",
+      "fetchedAt": "2026-08-27T16:29:21.318Z",
       "data": {
         "byMotor": {
           "2632": {
@@ -7905,7 +7905,7 @@
       }
     },
     "1580": {
-      "fetchedAt": "2026-08-24T05:51:37.912Z",
+      "fetchedAt": "2026-08-27T16:29:12.942Z",
       "data": {
         "byMotor": {
           "1257": {
@@ -7936,7 +7936,7 @@
       }
     },
     "1616": {
-      "fetchedAt": "2026-08-24T05:51:37.030Z",
+      "fetchedAt": "2026-08-27T16:29:14.041Z",
       "data": {
         "byMotor": {
           "870": {
@@ -8061,7 +8061,7 @@
       }
     },
     "1655": {
-      "fetchedAt": "2026-08-24T05:51:44.726Z",
+      "fetchedAt": "2026-08-27T16:29:23.705Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -8092,7 +8092,7 @@
       }
     },
     "1656": {
-      "fetchedAt": "2026-08-24T05:51:46.444Z",
+      "fetchedAt": "2026-08-27T16:29:25.374Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -8123,7 +8123,7 @@
       }
     },
     "1663": {
-      "fetchedAt": "2026-08-24T05:51:06.504Z",
+      "fetchedAt": "2026-08-27T16:28:38.501Z",
       "data": {
         "byMotor": {
           "1960": {
@@ -8176,7 +8176,7 @@
       }
     },
     "1672": {
-      "fetchedAt": "2026-08-24T05:51:20.485Z",
+      "fetchedAt": "2026-08-27T16:28:54.878Z",
       "data": {
         "byMotor": {
           "2845": {
@@ -8207,7 +8207,7 @@
       }
     },
     "1691": {
-      "fetchedAt": "2026-08-24T05:51:14.318Z",
+      "fetchedAt": "2026-08-27T16:28:46.831Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -8260,7 +8260,7 @@
       }
     },
     "1692": {
-      "fetchedAt": "2026-08-24T05:51:15.796Z",
+      "fetchedAt": "2026-08-27T16:28:48.279Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -8291,7 +8291,7 @@
       }
     },
     "1721": {
-      "fetchedAt": "2026-08-24T05:51:36.543Z",
+      "fetchedAt": "2026-08-27T16:29:12.637Z",
       "data": {
         "byMotor": {
           "2897": {
@@ -8366,7 +8366,7 @@
       }
     },
     "1724": {
-      "fetchedAt": "2026-08-24T05:51:51.621Z",
+      "fetchedAt": "2026-08-27T16:29:28.031Z",
       "data": {
         "byMotor": {
           "2898": {
@@ -8397,7 +8397,7 @@
       }
     },
     "1741": {
-      "fetchedAt": "2026-08-24T05:51:34.183Z",
+      "fetchedAt": "2026-08-27T16:29:11.309Z",
       "data": {
         "byMotor": {
           "2919": {
@@ -8428,7 +8428,7 @@
       }
     },
     "1781": {
-      "fetchedAt": "2026-08-24T05:51:37.656Z",
+      "fetchedAt": "2026-08-27T16:29:14.827Z",
       "data": {
         "byMotor": {
           "870": {
@@ -8495,7 +8495,7 @@
       }
     },
     "1782": {
-      "fetchedAt": "2026-08-24T05:51:38.050Z",
+      "fetchedAt": "2026-08-27T16:29:15.314Z",
       "data": {
         "byMotor": {
           "870": {
@@ -8562,7 +8562,7 @@
       }
     },
     "1783": {
-      "fetchedAt": "2026-08-24T05:51:36.351Z",
+      "fetchedAt": "2026-08-27T16:29:13.281Z",
       "data": {
         "byMotor": {
           "872": {
@@ -8629,7 +8629,7 @@
       }
     },
     "1792": {
-      "fetchedAt": "2026-08-24T05:51:08.783Z",
+      "fetchedAt": "2026-08-27T16:28:40.438Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -8668,7 +8668,7 @@
       }
     },
     "1793": {
-      "fetchedAt": "2026-08-24T05:51:09.125Z",
+      "fetchedAt": "2026-08-27T16:28:40.805Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -8692,14 +8692,14 @@
       }
     },
     "1813": {
-      "fetchedAt": "2026-08-24T05:51:31.391Z",
+      "fetchedAt": "2026-08-27T16:29:07.606Z",
       "data": {
         "byMotor": {
           "2985": {
             "endpreis": "44.109,14",
             "kaufpreis": "43.216,64",
             "ersparnis": "7.933,37 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "3368": {
             "endpreis": "47.573,23",
@@ -8711,7 +8711,7 @@
             "endpreis": "46.221,39",
             "kaufpreis": "45.328,89",
             "ersparnis": "8.321,12 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -8721,14 +8721,14 @@
               "endpreis": "37.091,14",
               "kaufpreis": "35.544,14",
               "ersparnis": "15.605,87 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "44.109,14",
               "kaufpreis": "43.216,64",
               "ersparnis": "7.933,37 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "3368": [
@@ -8753,28 +8753,28 @@
               "endpreis": "38.828,39",
               "kaufpreis": "37.281,39",
               "ersparnis": "16.368,62 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "46.221,39",
               "kaufpreis": "45.328,89",
               "ersparnis": "8.321,12 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "1814": {
-      "fetchedAt": "2026-08-24T05:51:32.281Z",
+      "fetchedAt": "2026-08-27T16:29:08.340Z",
       "data": {
         "byMotor": {
           "2985": {
             "endpreis": "47.742,21",
             "kaufpreis": "46.849,71",
             "ersparnis": "8.600,30 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "3368": {
             "endpreis": "51.206,30",
@@ -8786,7 +8786,7 @@
             "endpreis": "49.854,46",
             "kaufpreis": "48.961,96",
             "ersparnis": "8.988,05 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -8796,14 +8796,14 @@
               "endpreis": "40.079,21",
               "kaufpreis": "38.532,21",
               "ersparnis": "16.917,80 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "47.742,21",
               "kaufpreis": "46.849,71",
               "ersparnis": "8.600,30 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "3368": [
@@ -8828,21 +8828,21 @@
               "endpreis": "41.816,46",
               "kaufpreis": "40.269,46",
               "ersparnis": "17.680,55 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "49.854,46",
               "kaufpreis": "48.961,96",
               "ersparnis": "8.988,05 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "1823": {
-      "fetchedAt": "2026-08-24T05:51:37.193Z",
+      "fetchedAt": "2026-08-27T16:29:12.186Z",
       "data": {
         "byMotor": {
           "3000": {
@@ -8873,7 +8873,7 @@
       }
     },
     "1848": {
-      "fetchedAt": "2026-08-24T05:51:28.813Z",
+      "fetchedAt": "2026-08-27T16:29:04.550Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -8886,13 +8886,13 @@
             "endpreis": "21.050,63",
             "kaufpreis": "20.160,63",
             "ersparnis": "4.579,37 (18,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3121": {
             "endpreis": "22.517,45",
             "kaufpreis": "21.627,45",
             "ersparnis": "4.912,55 (18,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3748": {
             "endpreis": "23.580,93",
@@ -8924,14 +8924,14 @@
               "endpreis": "18.250,93",
               "kaufpreis": "17.191,83",
               "ersparnis": "7.548,17 (30,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "21.050,63",
               "kaufpreis": "20.160,63",
               "ersparnis": "4.579,37 (18,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3121": [
@@ -8940,14 +8940,14 @@
               "endpreis": "19.501,75",
               "kaufpreis": "18.442,65",
               "ersparnis": "8.097,35 (30,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "22.517,45",
               "kaufpreis": "21.627,45",
               "ersparnis": "4.912,55 (18,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3748": [
@@ -8970,7 +8970,7 @@
       }
     },
     "1849": {
-      "fetchedAt": "2026-08-24T05:51:29.107Z",
+      "fetchedAt": "2026-08-27T16:29:05.050Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -8983,13 +8983,13 @@
             "endpreis": "23.902,78",
             "kaufpreis": "23.012,78",
             "ersparnis": "5.227,22 (18,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3121": {
             "endpreis": "25.369,60",
             "kaufpreis": "24.479,60",
             "ersparnis": "5.560,40 (18,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3748": {
             "endpreis": "26.083,08",
@@ -9021,14 +9021,14 @@
               "endpreis": "20.683,08",
               "kaufpreis": "19.623,98",
               "ersparnis": "8.616,02 (30,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "23.902,78",
               "kaufpreis": "23.012,78",
               "ersparnis": "5.227,22 (18,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3121": [
@@ -9037,14 +9037,14 @@
               "endpreis": "21.933,90",
               "kaufpreis": "20.874,80",
               "ersparnis": "9.165,20 (30,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "25.369,60",
               "kaufpreis": "24.479,60",
               "ersparnis": "5.560,40 (18,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3748": [
@@ -9067,7 +9067,7 @@
       }
     },
     "1850": {
-      "fetchedAt": "2026-08-24T05:51:45.095Z",
+      "fetchedAt": "2026-08-27T16:29:24.104Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -9098,7 +9098,7 @@
       }
     },
     "1851": {
-      "fetchedAt": "2026-08-24T05:51:46.729Z",
+      "fetchedAt": "2026-08-27T16:29:25.759Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -9129,7 +9129,7 @@
       }
     },
     "1875": {
-      "fetchedAt": "2026-08-24T05:51:46.456Z",
+      "fetchedAt": "2026-08-27T16:29:21.644Z",
       "data": {
         "byMotor": {
           "1042": {
@@ -9314,7 +9314,7 @@
       }
     },
     "1889": {
-      "fetchedAt": "2026-08-24T05:51:25.008Z",
+      "fetchedAt": "2026-08-27T16:28:59.141Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -9345,7 +9345,7 @@
       }
     },
     "1890": {
-      "fetchedAt": "2026-08-24T05:51:25.329Z",
+      "fetchedAt": "2026-08-27T16:28:59.496Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -9398,7 +9398,7 @@
       }
     },
     "1891": {
-      "fetchedAt": "2026-08-24T05:51:25.613Z",
+      "fetchedAt": "2026-08-27T16:28:59.883Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -9451,7 +9451,7 @@
       }
     },
     "1892": {
-      "fetchedAt": "2026-08-24T05:51:55.973Z",
+      "fetchedAt": "2026-08-27T16:29:34.191Z",
       "data": {
         "byMotor": {
           "1906": {
@@ -9548,7 +9548,7 @@
       }
     },
     "1893": {
-      "fetchedAt": "2026-08-24T05:51:56.264Z",
+      "fetchedAt": "2026-08-27T16:29:34.545Z",
       "data": {
         "byMotor": {
           "1906": {
@@ -9645,7 +9645,7 @@
       }
     },
     "1906": {
-      "fetchedAt": "2026-08-24T05:51:22.094Z",
+      "fetchedAt": "2026-08-27T16:28:56.831Z",
       "data": {
         "byMotor": {
           "3953": {
@@ -9673,9 +9673,9 @@
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "38.214,75",
-              "kaufpreis": "36.915,75",
-              "ersparnis": "6.074,25 (14,13)",
+              "endpreis": "36.214,75",
+              "kaufpreis": "34.915,75",
+              "ersparnis": "8.074,25 (18,78)",
               "lieferzeit": "7-9 Monate"
             }
           ]
@@ -9683,7 +9683,7 @@
       }
     },
     "1907": {
-      "fetchedAt": "2026-08-24T05:51:22.391Z",
+      "fetchedAt": "2026-08-27T16:28:57.173Z",
       "data": {
         "byMotor": {
           "834": {
@@ -9717,9 +9717,9 @@
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "42.839,75",
-              "kaufpreis": "41.540,75",
-              "ersparnis": "6.449,25 (13,44)",
+              "endpreis": "40.839,75",
+              "kaufpreis": "39.540,75",
+              "ersparnis": "8.449,25 (17,61)",
               "lieferzeit": "7-9 Monate"
             }
           ],
@@ -9740,9 +9740,9 @@
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "45.614,75",
-              "kaufpreis": "44.315,75",
-              "ersparnis": "6.674,25 (13,09)",
+              "endpreis": "43.610,50",
+              "kaufpreis": "42.311,50",
+              "ersparnis": "8.678,50 (17,02)",
               "lieferzeit": "7-9 Monate"
             }
           ]
@@ -9750,7 +9750,7 @@
       }
     },
     "1908": {
-      "fetchedAt": "2026-08-24T05:51:22.789Z",
+      "fetchedAt": "2026-08-27T16:28:57.527Z",
       "data": {
         "byMotor": {
           "834": {
@@ -9784,9 +9784,9 @@
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "47.464,75",
-              "kaufpreis": "46.165,75",
-              "ersparnis": "6.824,25 (12,88)",
+              "endpreis": "45.464,75",
+              "kaufpreis": "44.165,75",
+              "ersparnis": "8.824,25 (16,65)",
               "lieferzeit": "7-9 Monate"
             }
           ],
@@ -9807,9 +9807,9 @@
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.239,75",
-              "kaufpreis": "48.940,75",
-              "ersparnis": "7.049,25 (12,59)",
+              "endpreis": "48.239,75",
+              "kaufpreis": "46.940,75",
+              "ersparnis": "9.049,25 (16,16)",
               "lieferzeit": "7-9 Monate"
             }
           ]
@@ -9817,7 +9817,7 @@
       }
     },
     "1912": {
-      "fetchedAt": "2026-08-24T05:51:42.617Z",
+      "fetchedAt": "2026-08-27T16:29:18.601Z",
       "data": {
         "byMotor": {
           "887": {
@@ -9870,7 +9870,7 @@
       }
     },
     "1918": {
-      "fetchedAt": "2026-08-24T05:51:11.017Z",
+      "fetchedAt": "2026-08-27T16:28:42.793Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -9923,7 +9923,7 @@
       }
     },
     "1919": {
-      "fetchedAt": "2026-08-24T05:51:11.975Z",
+      "fetchedAt": "2026-08-27T16:28:43.868Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -9976,32 +9976,32 @@
       }
     },
     "1941": {
-      "fetchedAt": "2026-08-24T05:51:55.481Z",
+      "fetchedAt": "2026-08-27T16:29:33.328Z",
       "data": {
         "byMotor": {
           "402": {
             "endpreis": "40.087,65",
             "kaufpreis": "38.897,65",
             "ersparnis": "10.352,35 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "403": {
             "endpreis": "44.826,45",
             "kaufpreis": "43.636,45",
             "ersparnis": "11.613,55 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "404": {
             "endpreis": "39.297,85",
             "kaufpreis": "38.107,85",
             "ersparnis": "10.142,15 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "405": {
             "endpreis": "44.036,65",
             "kaufpreis": "42.846,65",
             "ersparnis": "11.403,35 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -10011,14 +10011,14 @@
               "endpreis": "34.909,43",
               "kaufpreis": "33.731,33",
               "ersparnis": "15.518,68 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "40.087,65",
               "kaufpreis": "38.897,65",
               "ersparnis": "10.352,35 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "403": [
@@ -10027,14 +10027,14 @@
               "endpreis": "39.018,83",
               "kaufpreis": "37.840,73",
               "ersparnis": "17.409,28 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "44.826,45",
               "kaufpreis": "43.636,45",
               "ersparnis": "11.613,55 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "404": [
@@ -10043,14 +10043,14 @@
               "endpreis": "34.224,53",
               "kaufpreis": "33.046,43",
               "ersparnis": "15.203,58 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "39.297,85",
               "kaufpreis": "38.107,85",
               "ersparnis": "10.142,15 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "405": [
@@ -10059,46 +10059,46 @@
               "endpreis": "38.333,93",
               "kaufpreis": "37.155,83",
               "ersparnis": "17.094,18 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "44.036,65",
               "kaufpreis": "42.846,65",
               "ersparnis": "11.403,35 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "1942": {
-      "fetchedAt": "2026-08-24T05:51:55.867Z",
+      "fetchedAt": "2026-08-27T16:29:33.737Z",
       "data": {
         "byMotor": {
           "402": {
             "endpreis": "46.050,64",
             "kaufpreis": "44.860,64",
             "ersparnis": "11.939,36 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "403": {
             "endpreis": "50.789,44",
             "kaufpreis": "49.599,44",
             "ersparnis": "13.200,56 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "404": {
             "endpreis": "45.260,84",
             "kaufpreis": "44.070,84",
             "ersparnis": "11.729,16 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "405": {
             "endpreis": "49.999,64",
             "kaufpreis": "48.809,64",
             "ersparnis": "12.990,36 (21,02)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -10108,14 +10108,14 @@
               "endpreis": "40.080,42",
               "kaufpreis": "38.902,32",
               "ersparnis": "17.897,68 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "46.050,64",
               "kaufpreis": "44.860,64",
               "ersparnis": "11.939,36 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "403": [
@@ -10124,14 +10124,14 @@
               "endpreis": "43.869,54",
               "kaufpreis": "42.691,44",
               "ersparnis": "20.108,56 (32,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "50.789,44",
               "kaufpreis": "49.599,44",
               "ersparnis": "13.200,56 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "404": [
@@ -10140,14 +10140,14 @@
               "endpreis": "39.395,52",
               "kaufpreis": "38.217,42",
               "ersparnis": "17.582,58 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "45.260,84",
               "kaufpreis": "44.070,84",
               "ersparnis": "11.729,16 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "405": [
@@ -10156,21 +10156,21 @@
               "endpreis": "43.504,92",
               "kaufpreis": "42.326,82",
               "ersparnis": "19.473,18 (31,51)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "49.999,64",
               "kaufpreis": "48.809,64",
               "ersparnis": "12.990,36 (21,02)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "1947": {
-      "fetchedAt": "2026-08-24T05:51:27.466Z",
+      "fetchedAt": "2026-08-27T16:29:03.520Z",
       "data": {
         "byMotor": {
           "451": {
@@ -10201,20 +10201,20 @@
       }
     },
     "1949": {
-      "fetchedAt": "2026-08-24T05:51:40.043Z",
+      "fetchedAt": "2026-08-27T16:29:15.517Z",
       "data": {
         "byMotor": {
           "452": {
             "endpreis": "30.840,35",
             "kaufpreis": "29.947,85",
             "ersparnis": "7.727,15 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           },
           "453": {
             "endpreis": "30.045,45",
             "kaufpreis": "29.152,95",
             "ersparnis": "7.522,05 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -10224,14 +10224,14 @@
               "endpreis": "26.220,35",
               "kaufpreis": "24.673,35",
               "ersparnis": "13.001,65 (34,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "30.840,35",
               "kaufpreis": "29.947,85",
               "ersparnis": "7.727,15 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ],
           "453": [
@@ -10240,21 +10240,21 @@
               "endpreis": "25.565,45",
               "kaufpreis": "24.018,45",
               "ersparnis": "12.656,55 (34,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "30.045,45",
               "kaufpreis": "29.152,95",
               "ersparnis": "7.522,05 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "1964": {
-      "fetchedAt": "2026-08-24T05:51:50.281Z",
+      "fetchedAt": "2026-08-27T16:29:29.294Z",
       "data": {
         "byMotor": {
           "3243": {
@@ -10285,7 +10285,7 @@
       }
     },
     "1965": {
-      "fetchedAt": "2026-08-24T05:51:14.981Z",
+      "fetchedAt": "2026-08-27T16:28:47.522Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -10338,7 +10338,7 @@
       }
     },
     "1966": {
-      "fetchedAt": "2026-08-24T05:51:07.185Z",
+      "fetchedAt": "2026-08-27T16:28:38.809Z",
       "data": {
         "byMotor": {
           "3246": {
@@ -10405,7 +10405,7 @@
       }
     },
     "1986": {
-      "fetchedAt": "2026-08-24T05:51:30.760Z",
+      "fetchedAt": "2026-08-27T16:29:07.289Z",
       "data": {
         "byMotor": {
           "3272": {
@@ -10480,7 +10480,7 @@
       }
     },
     "1990": {
-      "fetchedAt": "2026-08-24T05:51:28.200Z",
+      "fetchedAt": "2026-08-27T16:29:04.180Z",
       "data": {
         "byMotor": {
           "3273": {
@@ -10555,7 +10555,7 @@
       }
     },
     "1994": {
-      "fetchedAt": "2026-08-24T05:51:51.022Z",
+      "fetchedAt": "2026-08-27T16:29:29.326Z",
       "data": {
         "byMotor": {
           "3274": {
@@ -10586,7 +10586,7 @@
       }
     },
     "1998": {
-      "fetchedAt": "2026-08-24T05:51:50.865Z",
+      "fetchedAt": "2026-08-27T16:29:27.202Z",
       "data": {
         "byMotor": {
           "3275": {
@@ -10617,7 +10617,7 @@
       }
     },
     "2003": {
-      "fetchedAt": "2026-08-24T05:51:28.973Z",
+      "fetchedAt": "2026-08-27T16:29:06.476Z",
       "data": {
         "byMotor": {
           "3276": {
@@ -10670,7 +10670,7 @@
       }
     },
     "2021": {
-      "fetchedAt": "2026-08-24T05:51:38.820Z",
+      "fetchedAt": "2026-08-27T16:29:17.540Z",
       "data": {
         "byMotor": {
           "347": {
@@ -10723,7 +10723,7 @@
       }
     },
     "2022": {
-      "fetchedAt": "2026-08-24T05:51:40.667Z",
+      "fetchedAt": "2026-08-27T16:29:18.875Z",
       "data": {
         "byMotor": {
           "353": {
@@ -10742,7 +10742,7 @@
             "endpreis": "35.687,52",
             "kaufpreis": "34.797,52",
             "ersparnis": "12.552,49 (26,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "4-5 Monate"
           },
           "3406": {
             "endpreis": "39.215,04",
@@ -10754,7 +10754,7 @@
             "endpreis": "39.215,04",
             "kaufpreis": "38.325,04",
             "ersparnis": "13.824,97 (26,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -10777,9 +10777,9 @@
           "356": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "32.087,86",
-              "kaufpreis": "30.540,86",
-              "ersparnis": "13.409,15 (30,51)",
+              "endpreis": "32.966,86",
+              "kaufpreis": "31.419,86",
+              "ersparnis": "12.530,15 (28,51)",
               "lieferzeit": "2-3 Monate"
             },
             {
@@ -10793,17 +10793,17 @@
           "3367": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "32.083,02",
-              "kaufpreis": "30.536,02",
-              "ersparnis": "16.813,99 (35,51)",
-              "lieferzeit": "3-4 Monate"
+              "endpreis": "33.320,02",
+              "kaufpreis": "32.430,02",
+              "ersparnis": "14.919,99 (31,51)",
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "35.687,52",
               "kaufpreis": "34.797,52",
               "ersparnis": "12.552,49 (26,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ],
           "3406": [
@@ -10825,24 +10825,24 @@
           "3710": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "35.178,54",
-              "kaufpreis": "33.631,54",
-              "ersparnis": "18.518,47 (35,51)",
-              "lieferzeit": "3-4 Monate"
+              "endpreis": "36.607,54",
+              "kaufpreis": "35.717,54",
+              "ersparnis": "16.432,47 (31,51)",
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "39.215,04",
               "kaufpreis": "38.325,04",
               "ersparnis": "13.824,97 (26,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "2024": {
-      "fetchedAt": "2026-08-24T05:51:14.686Z",
+      "fetchedAt": "2026-08-27T16:28:48.400Z",
       "data": {
         "byMotor": {
           "2262": {
@@ -10895,7 +10895,7 @@
       }
     },
     "2025": {
-      "fetchedAt": "2026-08-24T05:51:15.034Z",
+      "fetchedAt": "2026-08-27T16:28:48.786Z",
       "data": {
         "byMotor": {
           "2262": {
@@ -10948,7 +10948,7 @@
       }
     },
     "2026": {
-      "fetchedAt": "2026-08-24T05:51:15.398Z",
+      "fetchedAt": "2026-08-27T16:28:49.195Z",
       "data": {
         "byMotor": {
           "2263": {
@@ -10979,7 +10979,7 @@
       }
     },
     "2027": {
-      "fetchedAt": "2026-08-24T05:51:15.824Z",
+      "fetchedAt": "2026-08-27T16:28:49.638Z",
       "data": {
         "byMotor": {
           "2263": {
@@ -11010,7 +11010,7 @@
       }
     },
     "2029": {
-      "fetchedAt": "2026-08-24T05:51:16.153Z",
+      "fetchedAt": "2026-08-27T16:28:50.073Z",
       "data": {
         "byMotor": {
           "2263": {
@@ -11041,7 +11041,7 @@
       }
     },
     "2034": {
-      "fetchedAt": "2026-08-24T05:51:37.272Z",
+      "fetchedAt": "2026-08-27T16:29:15.954Z",
       "data": {
         "byMotor": {
           "2965": {
@@ -11072,7 +11072,7 @@
       }
     },
     "2035": {
-      "fetchedAt": "2026-08-24T05:51:37.574Z",
+      "fetchedAt": "2026-08-27T16:29:16.401Z",
       "data": {
         "byMotor": {
           "2966": {
@@ -11103,14 +11103,14 @@
       }
     },
     "2040": {
-      "fetchedAt": "2026-08-24T05:51:33.966Z",
+      "fetchedAt": "2026-08-27T16:29:09.704Z",
       "data": {
         "byMotor": {
           "361": {
             "endpreis": "28.630,08",
             "kaufpreis": "27.740,08",
             "ersparnis": "9.499,92 (25,51)",
-            "lieferzeit": "3-5 Monate"
+            "lieferzeit": "2-3 Monate"
           }
         },
         "offers": {
@@ -11120,21 +11120,21 @@
               "endpreis": "27.309,58",
               "kaufpreis": "26.250,48",
               "ersparnis": "10.989,52 (29,51)",
-              "lieferzeit": "3-5 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "28.630,08",
               "kaufpreis": "27.740,08",
               "ersparnis": "9.499,92 (25,51)",
-              "lieferzeit": "3-5 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ]
         }
       }
     },
     "2046": {
-      "fetchedAt": "2026-08-24T05:51:13.042Z",
+      "fetchedAt": "2026-08-27T16:28:46.173Z",
       "data": {
         "byMotor": {
           "2347": {
@@ -11230,7 +11230,7 @@
       }
     },
     "2050": {
-      "fetchedAt": "2026-08-24T05:51:45.290Z",
+      "fetchedAt": "2026-08-27T16:29:25.847Z",
       "data": {
         "byMotor": {
           "454": {
@@ -11261,7 +11261,7 @@
       }
     },
     "2051": {
-      "fetchedAt": "2026-08-24T05:51:51.629Z",
+      "fetchedAt": "2026-08-27T16:29:30.001Z",
       "data": {
         "byMotor": {
           "455": {
@@ -11292,7 +11292,7 @@
       }
     },
     "2070": {
-      "fetchedAt": "2026-08-24T05:51:08.476Z",
+      "fetchedAt": "2026-08-27T16:28:40.089Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -11331,14 +11331,14 @@
       }
     },
     "2071": {
-      "fetchedAt": "2026-08-24T05:51:50.406Z",
+      "fetchedAt": "2026-08-27T16:29:29.065Z",
       "data": {
         "byMotor": {
           "320": {
             "endpreis": "30.254,51",
             "kaufpreis": "29.364,51",
             "ersparnis": "9.025,49 (23,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -11348,28 +11348,28 @@
               "endpreis": "28.992,01",
               "kaufpreis": "27.445,01",
               "ersparnis": "10.944,99 (28,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "30.254,51",
               "kaufpreis": "29.364,51",
               "ersparnis": "9.025,49 (23,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "2072": {
-      "fetchedAt": "2026-08-24T05:51:52.053Z",
+      "fetchedAt": "2026-08-27T16:29:30.002Z",
       "data": {
         "byMotor": {
           "327": {
             "endpreis": "31.002,96",
             "kaufpreis": "30.112,96",
             "ersparnis": "9.777,04 (24,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -11379,21 +11379,21 @@
               "endpreis": "30.064,36",
               "kaufpreis": "28.517,36",
               "ersparnis": "11.372,64 (28,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "31.002,96",
               "kaufpreis": "30.112,96",
               "ersparnis": "9.777,04 (24,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "2073": {
-      "fetchedAt": "2026-08-24T05:51:49.096Z",
+      "fetchedAt": "2026-08-27T16:29:26.575Z",
       "data": {
         "byMotor": {
           "341": {
@@ -11446,7 +11446,7 @@
       }
     },
     "2074": {
-      "fetchedAt": "2026-08-24T05:51:49.623Z",
+      "fetchedAt": "2026-08-27T16:29:26.946Z",
       "data": {
         "byMotor": {
           "341": {
@@ -11499,7 +11499,7 @@
       }
     },
     "2076": {
-      "fetchedAt": "2026-08-24T05:51:14.896Z",
+      "fetchedAt": "2026-08-27T16:28:48.387Z",
       "data": {
         "byMotor": {
           "3435": {
@@ -11552,7 +11552,7 @@
       }
     },
     "2083": {
-      "fetchedAt": "2026-08-24T05:51:49.781Z",
+      "fetchedAt": "2026-08-27T16:29:27.312Z",
       "data": {
         "byMotor": {
           "3459": {
@@ -11605,7 +11605,7 @@
       }
     },
     "2108": {
-      "fetchedAt": "2026-08-24T05:51:27.289Z",
+      "fetchedAt": "2026-08-27T16:29:02.834Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -11701,7 +11701,7 @@
       }
     },
     "2109": {
-      "fetchedAt": "2026-08-24T05:51:27.592Z",
+      "fetchedAt": "2026-08-27T16:29:03.179Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -11768,14 +11768,14 @@
       }
     },
     "2115": {
-      "fetchedAt": "2026-08-24T05:51:52.261Z",
+      "fetchedAt": "2026-08-27T16:29:30.665Z",
       "data": {
         "byMotor": {
           "3487": {
             "endpreis": "39.548,37",
             "kaufpreis": "38.655,87",
             "ersparnis": "7.644,13 (16,51)",
-            "lieferzeit": "10-12 Monate"
+            "lieferzeit": "9-11 Monate"
           }
         },
         "offers": {
@@ -11785,21 +11785,21 @@
               "endpreis": "35.084,97",
               "kaufpreis": "34.025,87",
               "ersparnis": "12.274,13 (26,51)",
-              "lieferzeit": "10-12 Monate"
+              "lieferzeit": "9-11 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "39.548,37",
               "kaufpreis": "38.655,87",
               "ersparnis": "7.644,13 (16,51)",
-              "lieferzeit": "10-12 Monate"
+              "lieferzeit": "9-11 Monate"
             }
           ]
         }
       }
     },
     "2117": {
-      "fetchedAt": "2026-08-24T05:51:31.066Z",
+      "fetchedAt": "2026-08-27T16:29:05.645Z",
       "data": {
         "byMotor": {
           "3488": {
@@ -11830,7 +11830,7 @@
       }
     },
     "2119": {
-      "fetchedAt": "2026-08-24T05:51:45.902Z",
+      "fetchedAt": "2026-08-27T16:29:20.661Z",
       "data": {
         "byMotor": {
           "3489": {
@@ -11861,7 +11861,7 @@
       }
     },
     "2141": {
-      "fetchedAt": "2026-08-24T05:51:26.875Z",
+      "fetchedAt": "2026-08-27T16:29:03.853Z",
       "data": {
         "byMotor": {
           "3498": {
@@ -11899,7 +11899,7 @@
       }
     },
     "2181": {
-      "fetchedAt": "2026-08-24T05:51:12.622Z",
+      "fetchedAt": "2026-08-27T16:28:45.821Z",
       "data": {
         "byMotor": {
           "3514": {
@@ -11937,7 +11937,7 @@
       }
     },
     "2187": {
-      "fetchedAt": "2026-08-24T05:51:39.225Z",
+      "fetchedAt": "2026-08-27T16:29:17.945Z",
       "data": {
         "byMotor": {
           "347": {
@@ -11990,7 +11990,7 @@
       }
     },
     "2197": {
-      "fetchedAt": "2026-08-24T05:51:49.620Z",
+      "fetchedAt": "2026-08-27T16:29:27.596Z",
       "data": {
         "byMotor": {
           "3548": {
@@ -12057,7 +12057,7 @@
       }
     },
     "2198": {
-      "fetchedAt": "2026-08-24T05:51:50.080Z",
+      "fetchedAt": "2026-08-27T16:29:28.040Z",
       "data": {
         "byMotor": {
           "3548": {
@@ -12124,7 +12124,7 @@
       }
     },
     "2199": {
-      "fetchedAt": "2026-08-24T05:51:50.414Z",
+      "fetchedAt": "2026-08-27T16:29:28.412Z",
       "data": {
         "byMotor": {
           "3548": {
@@ -12191,7 +12191,7 @@
       }
     },
     "2216": {
-      "fetchedAt": "2026-08-24T05:51:53.321Z",
+      "fetchedAt": "2026-08-27T16:29:31.364Z",
       "data": {
         "byMotor": {
           "3562": {
@@ -12222,7 +12222,7 @@
       }
     },
     "2219": {
-      "fetchedAt": "2026-08-24T05:51:06.458Z",
+      "fetchedAt": "2026-08-27T16:28:39.497Z",
       "data": {
         "byMotor": {
           "3559": {
@@ -12297,7 +12297,7 @@
       }
     },
     "2251": {
-      "fetchedAt": "2026-08-24T05:51:44.242Z",
+      "fetchedAt": "2026-08-27T16:29:22.624Z",
       "data": {
         "byMotor": {
           "3626": {
@@ -12438,7 +12438,7 @@
       }
     },
     "2252": {
-      "fetchedAt": "2026-08-24T05:51:44.595Z",
+      "fetchedAt": "2026-08-27T16:29:23.026Z",
       "data": {
         "byMotor": {
           "3626": {
@@ -12579,7 +12579,7 @@
       }
     },
     "2258": {
-      "fetchedAt": "2026-08-24T05:51:41.202Z",
+      "fetchedAt": "2026-08-27T16:29:17.591Z",
       "data": {
         "byMotor": {
           "3382": {
@@ -12610,7 +12610,7 @@
       }
     },
     "2260": {
-      "fetchedAt": "2026-08-24T05:51:35.913Z",
+      "fetchedAt": "2026-08-27T16:29:11.973Z",
       "data": {
         "byMotor": {
           "3383": {
@@ -12641,7 +12641,7 @@
       }
     },
     "2263": {
-      "fetchedAt": "2026-08-24T05:51:19.006Z",
+      "fetchedAt": "2026-08-27T16:28:50.741Z",
       "data": {
         "byMotor": {
           "3647": {
@@ -12694,7 +12694,7 @@
       }
     },
     "2264": {
-      "fetchedAt": "2026-08-24T05:51:19.323Z",
+      "fetchedAt": "2026-08-27T16:28:51.153Z",
       "data": {
         "byMotor": {
           "3647": {
@@ -12747,7 +12747,7 @@
       }
     },
     "2265": {
-      "fetchedAt": "2026-08-24T05:51:26.049Z",
+      "fetchedAt": "2026-08-27T16:28:59.844Z",
       "data": {
         "byMotor": {
           "1034": {
@@ -12932,7 +12932,7 @@
       }
     },
     "2266": {
-      "fetchedAt": "2026-08-24T05:51:34.564Z",
+      "fetchedAt": "2026-08-27T16:29:09.350Z",
       "data": {
         "byMotor": {
           "1046": {
@@ -13007,26 +13007,26 @@
       }
     },
     "2267": {
-      "fetchedAt": "2026-08-24T05:51:30.468Z",
+      "fetchedAt": "2026-08-27T16:29:06.297Z",
       "data": {
         "byMotor": {
           "2791": {
             "endpreis": "47.233,66",
             "kaufpreis": "46.306,66",
             "ersparnis": "8.998,34 (16,27)",
-            "lieferzeit": "4-5 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "2998": {
             "endpreis": "54.967,39",
             "kaufpreis": "54.040,39",
             "ersparnis": "10.594,61 (16,39)",
-            "lieferzeit": "4-5 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "3650": {
             "endpreis": "51.137,34",
             "kaufpreis": "50.210,34",
             "ersparnis": "10.084,66 (16,73)",
-            "lieferzeit": "4-5 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -13036,14 +13036,14 @@
               "endpreis": "47.233,66",
               "kaufpreis": "46.306,66",
               "ersparnis": "8.998,34 (16,27)",
-              "lieferzeit": "4-5 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "47.233,66",
               "kaufpreis": "46.306,66",
               "ersparnis": "8.998,34 (16,27)",
-              "lieferzeit": "4-5 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "2998": [
@@ -13052,14 +13052,14 @@
               "endpreis": "54.967,39",
               "kaufpreis": "54.040,39",
               "ersparnis": "10.594,61 (16,39)",
-              "lieferzeit": "4-5 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "54.967,39",
               "kaufpreis": "54.040,39",
               "ersparnis": "10.594,61 (16,39)",
-              "lieferzeit": "4-5 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "3650": [
@@ -13068,21 +13068,21 @@
               "endpreis": "51.137,34",
               "kaufpreis": "50.210,34",
               "ersparnis": "10.084,66 (16,73)",
-              "lieferzeit": "4-5 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "51.137,34",
               "kaufpreis": "50.210,34",
               "ersparnis": "10.084,66 (16,73)",
-              "lieferzeit": "4-5 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "2269": {
-      "fetchedAt": "2026-08-24T05:51:13.681Z",
+      "fetchedAt": "2026-08-27T16:28:47.693Z",
       "data": {
         "byMotor": {
           "3654": {
@@ -13113,7 +13113,7 @@
       }
     },
     "2270": {
-      "fetchedAt": "2026-08-24T05:51:24.462Z",
+      "fetchedAt": "2026-08-27T16:28:58.679Z",
       "data": {
         "byMotor": {
           "3655": {
@@ -13166,7 +13166,7 @@
       }
     },
     "2271": {
-      "fetchedAt": "2026-08-24T05:51:24.775Z",
+      "fetchedAt": "2026-08-27T16:28:59.131Z",
       "data": {
         "byMotor": {
           "3655": {
@@ -13263,7 +13263,7 @@
       }
     },
     "2272": {
-      "fetchedAt": "2026-08-24T05:51:24.322Z",
+      "fetchedAt": "2026-08-27T16:28:58.182Z",
       "data": {
         "byMotor": {
           "3657": {
@@ -13316,7 +13316,7 @@
       }
     },
     "2273": {
-      "fetchedAt": "2026-08-24T05:51:25.535Z",
+      "fetchedAt": "2026-08-27T16:28:59.956Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -13347,7 +13347,7 @@
       }
     },
     "2274": {
-      "fetchedAt": "2026-08-24T05:51:24.936Z",
+      "fetchedAt": "2026-08-27T16:28:59.154Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -13378,7 +13378,7 @@
       }
     },
     "2275": {
-      "fetchedAt": "2026-08-24T05:51:11.674Z",
+      "fetchedAt": "2026-08-27T16:28:43.511Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -13431,7 +13431,7 @@
       }
     },
     "2276": {
-      "fetchedAt": "2026-08-24T05:51:09.434Z",
+      "fetchedAt": "2026-08-27T16:28:41.149Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -13455,7 +13455,7 @@
       }
     },
     "2282": {
-      "fetchedAt": "2026-08-24T05:51:21.097Z",
+      "fetchedAt": "2026-08-27T16:28:55.776Z",
       "data": {
         "byMotor": {
           "3664": {
@@ -13486,7 +13486,7 @@
       }
     },
     "2286": {
-      "fetchedAt": "2026-08-24T05:51:41.800Z",
+      "fetchedAt": "2026-08-27T16:29:19.351Z",
       "data": {
         "byMotor": {
           "3671": {
@@ -13517,7 +13517,7 @@
       }
     },
     "2289": {
-      "fetchedAt": "2026-08-24T05:51:23.411Z",
+      "fetchedAt": "2026-08-27T16:28:58.071Z",
       "data": {
         "byMotor": {
           "3674": {
@@ -13548,7 +13548,7 @@
       }
     },
     "2290": {
-      "fetchedAt": "2026-08-24T05:51:45.460Z",
+      "fetchedAt": "2026-08-27T16:29:21.655Z",
       "data": {
         "byMotor": {
           "3675": {
@@ -13579,7 +13579,7 @@
       }
     },
     "2295": {
-      "fetchedAt": "2026-08-24T05:51:27.005Z",
+      "fetchedAt": "2026-08-27T16:29:02.436Z",
       "data": {
         "byMotor": {
           "3687": {
@@ -13617,7 +13617,7 @@
       }
     },
     "2315": {
-      "fetchedAt": "2026-08-24T05:51:23.260Z",
+      "fetchedAt": "2026-08-27T16:28:57.382Z",
       "data": {
         "byMotor": {
           "3689": {
@@ -13692,7 +13692,7 @@
       }
     },
     "2334": {
-      "fetchedAt": "2026-08-24T05:51:41.399Z",
+      "fetchedAt": "2026-08-27T16:29:19.661Z",
       "data": {
         "byMotor": {
           "353": {
@@ -13711,7 +13711,7 @@
             "endpreis": "41.125,78",
             "kaufpreis": "40.235,78",
             "ersparnis": "14.514,23 (26,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "4-5 Monate"
           },
           "3406": {
             "endpreis": "44.653,30",
@@ -13723,7 +13723,7 @@
             "endpreis": "45.270,61",
             "kaufpreis": "44.380,61",
             "ersparnis": "16.009,39 (26,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -13746,9 +13746,9 @@
           "356": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "37.230,12",
-              "kaufpreis": "35.683,12",
-              "ersparnis": "15.666,89 (30,51)",
+              "endpreis": "38.257,12",
+              "kaufpreis": "36.710,12",
+              "ersparnis": "14.639,89 (28,51)",
               "lieferzeit": "2-3 Monate"
             },
             {
@@ -13762,17 +13762,17 @@
           "3367": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "36.855,28",
-              "kaufpreis": "35.308,28",
-              "ersparnis": "19.441,73 (35,51)",
-              "lieferzeit": "3-4 Monate"
+              "endpreis": "38.388,28",
+              "kaufpreis": "37.498,28",
+              "ersparnis": "17.251,73 (31,51)",
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "41.125,78",
               "kaufpreis": "40.235,78",
               "ersparnis": "14.514,23 (26,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ],
           "3406": [
@@ -13794,24 +13794,24 @@
           "3710": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "40.492,51",
-              "kaufpreis": "38.945,51",
-              "ersparnis": "21.444,49 (35,51)",
-              "lieferzeit": "3-4 Monate"
+              "endpreis": "42.251,11",
+              "kaufpreis": "41.361,11",
+              "ersparnis": "19.028,89 (31,51)",
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "45.270,61",
               "kaufpreis": "44.380,61",
               "ersparnis": "16.009,39 (26,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "2340": {
-      "fetchedAt": "2026-08-24T05:51:30.152Z",
+      "fetchedAt": "2026-08-27T16:29:06.935Z",
       "data": {
         "byMotor": {
           "3720": {
@@ -13842,7 +13842,7 @@
       }
     },
     "2344": {
-      "fetchedAt": "2026-08-24T05:51:09.042Z",
+      "fetchedAt": "2026-08-27T16:28:43.833Z",
       "data": {
         "byMotor": {
           "3723": {
@@ -13967,7 +13967,7 @@
       }
     },
     "2345": {
-      "fetchedAt": "2026-08-24T05:51:09.401Z",
+      "fetchedAt": "2026-08-27T16:28:44.195Z",
       "data": {
         "byMotor": {
           "3723": {
@@ -14004,6 +14004,18 @@
             "endpreis": "39.762,26",
             "kaufpreis": "38.392,26",
             "ersparnis": "7.047,74 (15,51)",
+            "lieferzeit": "7-8 Monate"
+          },
+          "4203": {
+            "endpreis": "39.339,81",
+            "kaufpreis": "37.969,81",
+            "ersparnis": "6.970,19 (15,51)",
+            "lieferzeit": "7-8 Monate"
+          },
+          "4204": {
+            "endpreis": "42.719,41",
+            "kaufpreis": "41.349,41",
+            "ersparnis": "7.590,59 (15,51)",
             "lieferzeit": "7-8 Monate"
           }
         },
@@ -14145,12 +14157,58 @@
               "ersparnis": "7.047,74 (15,51)",
               "lieferzeit": "7-8 Monate"
             }
+          ],
+          "4203": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "35.066,01",
+              "kaufpreis": "33.696,01",
+              "ersparnis": "11.243,99 (25,02)",
+              "lieferzeit": "7-8 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "35.066,01",
+              "kaufpreis": "33.696,01",
+              "ersparnis": "11.243,99 (25,02)",
+              "lieferzeit": "7-8 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "39.339,81",
+              "kaufpreis": "37.969,81",
+              "ersparnis": "6.970,19 (15,51)",
+              "lieferzeit": "7-8 Monate"
+            }
+          ],
+          "4204": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "38.065,21",
+              "kaufpreis": "36.695,21",
+              "ersparnis": "12.244,79 (25,02)",
+              "lieferzeit": "7-8 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "38.065,21",
+              "kaufpreis": "36.695,21",
+              "ersparnis": "12.244,79 (25,02)",
+              "lieferzeit": "7-8 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "42.719,41",
+              "kaufpreis": "41.349,41",
+              "ersparnis": "7.590,59 (15,51)",
+              "lieferzeit": "7-8 Monate"
+            }
           ]
         }
       }
     },
     "2346": {
-      "fetchedAt": "2026-08-24T05:51:09.699Z",
+      "fetchedAt": "2026-08-27T16:28:44.569Z",
       "data": {
         "byMotor": {
           "3724": {
@@ -14175,6 +14233,12 @@
             "endpreis": "41.283,08",
             "kaufpreis": "39.913,08",
             "ersparnis": "7.326,92 (15,51)",
+            "lieferzeit": "7-8 Monate"
+          },
+          "4204": {
+            "endpreis": "44.857,00",
+            "kaufpreis": "43.487,00",
+            "ersparnis": "7.983,00 (15,51)",
             "lieferzeit": "7-8 Monate"
           }
         },
@@ -14228,9 +14292,9 @@
           "4144": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "36.559,08",
-              "kaufpreis": "35.189,08",
-              "ersparnis": "12.050,92 (25,51)",
+              "endpreis": "36.790,55",
+              "kaufpreis": "35.420,55",
+              "ersparnis": "11.819,45 (25,02)",
               "lieferzeit": "7-8 Monate"
             },
             {
@@ -14270,12 +14334,35 @@
               "ersparnis": "7.326,92 (15,51)",
               "lieferzeit": "7-8 Monate"
             }
+          ],
+          "4204": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "39.710,00",
+              "kaufpreis": "38.340,00",
+              "ersparnis": "13.130,00 (25,51)",
+              "lieferzeit": "7-8 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "39.962,21",
+              "kaufpreis": "38.592,21",
+              "ersparnis": "12.877,79 (25,02)",
+              "lieferzeit": "7-8 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "44.857,00",
+              "kaufpreis": "43.487,00",
+              "ersparnis": "7.983,00 (15,51)",
+              "lieferzeit": "7-8 Monate"
+            }
           ]
         }
       }
     },
     "2348": {
-      "fetchedAt": "2026-08-24T05:51:43.222Z",
+      "fetchedAt": "2026-08-27T16:29:19.322Z",
       "data": {
         "byMotor": {
           "3726": {
@@ -14306,7 +14393,7 @@
       }
     },
     "2349": {
-      "fetchedAt": "2026-08-24T05:51:43.533Z",
+      "fetchedAt": "2026-08-27T16:29:19.686Z",
       "data": {
         "byMotor": {
           "3726": {
@@ -14359,28 +14446,28 @@
       }
     },
     "2361": {
-      "fetchedAt": "2026-08-24T05:51:25.395Z",
+      "fetchedAt": "2026-08-27T16:29:00.544Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2362": {
-      "fetchedAt": "2026-08-24T05:51:46.572Z",
+      "fetchedAt": "2026-08-27T16:29:20.976Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2367": {
-      "fetchedAt": "2026-08-24T05:51:35.766Z",
+      "fetchedAt": "2026-08-27T16:29:12.368Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2378": {
-      "fetchedAt": "2026-08-24T05:51:31.092Z",
+      "fetchedAt": "2026-08-27T16:29:09.535Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -14433,7 +14520,7 @@
       }
     },
     "2379": {
-      "fetchedAt": "2026-08-24T05:51:11.736Z",
+      "fetchedAt": "2026-08-27T16:28:45.740Z",
       "data": {
         "byMotor": {
           "3752": {
@@ -14500,7 +14587,7 @@
       }
     },
     "2380": {
-      "fetchedAt": "2026-08-24T05:51:12.059Z",
+      "fetchedAt": "2026-08-27T16:28:46.110Z",
       "data": {
         "byMotor": {
           "3752": {
@@ -14513,6 +14600,12 @@
             "endpreis": "39.774,75",
             "kaufpreis": "38.476,75",
             "ersparnis": "7.063,25 (15,51)",
+            "lieferzeit": "4-5 Monate"
+          },
+          "4202": {
+            "endpreis": "42.469,98",
+            "kaufpreis": "41.171,98",
+            "ersparnis": "7.558,02 (15,51)",
             "lieferzeit": "4-5 Monate"
           }
         },
@@ -14562,12 +14655,35 @@
               "ersparnis": "7.063,25 (15,51)",
               "lieferzeit": "4-5 Monate"
             }
+          ],
+          "4202": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "36.135,08",
+              "kaufpreis": "34.837,08",
+              "ersparnis": "13.892,92 (28,51)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "36.135,08",
+              "kaufpreis": "34.837,08",
+              "ersparnis": "13.892,92 (28,51)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "42.469,98",
+              "kaufpreis": "41.171,98",
+              "ersparnis": "7.558,02 (15,51)",
+              "lieferzeit": "4-5 Monate"
+            }
           ]
         }
       }
     },
     "2381": {
-      "fetchedAt": "2026-08-24T05:51:12.380Z",
+      "fetchedAt": "2026-08-27T16:28:46.458Z",
       "data": {
         "byMotor": {
           "3753": {
@@ -14575,15 +14691,21 @@
             "kaufpreis": "41.771,86",
             "ersparnis": "7.668,14 (15,51)",
             "lieferzeit": "4-5 Monate"
+          },
+          "4202": {
+            "endpreis": "45.182,11",
+            "kaufpreis": "43.884,11",
+            "ersparnis": "8.055,89 (15,51)",
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
           "3753": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "36.390,51",
-              "kaufpreis": "35.092,51",
-              "ersparnis": "14.347,49 (29,02)",
+              "endpreis": "36.642,66",
+              "kaufpreis": "35.344,66",
+              "ersparnis": "14.095,34 (28,51)",
               "lieferzeit": "4-5 Monate"
             },
             {
@@ -14600,12 +14722,35 @@
               "ersparnis": "7.668,14 (15,51)",
               "lieferzeit": "4-5 Monate"
             }
+          ],
+          "4202": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "38.165,01",
+              "kaufpreis": "36.867,01",
+              "ersparnis": "15.072,99 (29,02)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "38.429,91",
+              "kaufpreis": "37.131,91",
+              "ersparnis": "14.808,09 (28,51)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "45.182,11",
+              "kaufpreis": "43.884,11",
+              "ersparnis": "8.055,89 (15,51)",
+              "lieferzeit": "4-5 Monate"
+            }
           ]
         }
       }
     },
     "2382": {
-      "fetchedAt": "2026-08-24T05:51:32.645Z",
+      "fetchedAt": "2026-08-27T16:29:08.169Z",
       "data": {
         "byMotor": {
           "3754": {
@@ -14672,7 +14817,7 @@
       }
     },
     "2383": {
-      "fetchedAt": "2026-08-24T05:51:33.000Z",
+      "fetchedAt": "2026-08-27T16:29:08.527Z",
       "data": {
         "byMotor": {
           "3754": {
@@ -14710,7 +14855,7 @@
       }
     },
     "2384": {
-      "fetchedAt": "2026-08-24T05:51:52.646Z",
+      "fetchedAt": "2026-08-27T16:29:30.664Z",
       "data": {
         "byMotor": {
           "3755": {
@@ -14729,7 +14874,7 @@
             "endpreis": "41.747,41",
             "kaufpreis": "40.616,91",
             "ersparnis": "5.283,09 (11,51)",
-            "lieferzeit": "6-7 Monate"
+            "lieferzeit": "9-11 Monate"
           }
         },
         "offers": {
@@ -14771,21 +14916,21 @@
               "endpreis": "37.157,41",
               "kaufpreis": "36.026,91",
               "ersparnis": "9.873,09 (21,51)",
-              "lieferzeit": "6-7 Monate"
+              "lieferzeit": "9-11 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "41.747,41",
               "kaufpreis": "40.616,91",
               "ersparnis": "5.283,09 (11,51)",
-              "lieferzeit": "6-7 Monate"
+              "lieferzeit": "9-11 Monate"
             }
           ]
         }
       }
     },
     "2388": {
-      "fetchedAt": "2026-08-24T05:51:42.398Z",
+      "fetchedAt": "2026-08-27T16:29:21.969Z",
       "data": {
         "byMotor": {
           "3758": {
@@ -14798,13 +14943,13 @@
             "endpreis": "58.583,08",
             "kaufpreis": "57.452,58",
             "ersparnis": "6.747,42 (10,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3760": {
             "endpreis": "62.968,09",
             "kaufpreis": "61.837,59",
             "ersparnis": "7.262,41 (10,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           }
         },
         "offers": {
@@ -14830,14 +14975,14 @@
               "endpreis": "51.521,08",
               "kaufpreis": "50.390,58",
               "ersparnis": "13.809,42 (21,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "58.583,08",
               "kaufpreis": "57.452,58",
               "ersparnis": "6.747,42 (10,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3760": [
@@ -14846,34 +14991,34 @@
               "endpreis": "55.367,09",
               "kaufpreis": "54.236,59",
               "ersparnis": "14.863,41 (21,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "62.968,09",
               "kaufpreis": "61.837,59",
               "ersparnis": "7.262,41 (10,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ]
         }
       }
     },
     "2395": {
-      "fetchedAt": "2026-08-24T05:51:40.367Z",
+      "fetchedAt": "2026-08-27T16:29:15.892Z",
       "data": {
         "byMotor": {
           "452": {
             "endpreis": "31.635,25",
             "kaufpreis": "30.742,75",
             "ersparnis": "7.932,25 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           },
           "453": {
             "endpreis": "30.840,35",
             "kaufpreis": "29.947,85",
             "ersparnis": "7.727,15 (20,51)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -14883,14 +15028,14 @@
               "endpreis": "26.875,25",
               "kaufpreis": "25.328,25",
               "ersparnis": "13.346,75 (34,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "31.635,25",
               "kaufpreis": "30.742,75",
               "ersparnis": "7.932,25 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ],
           "453": [
@@ -14899,34 +15044,34 @@
               "endpreis": "26.220,35",
               "kaufpreis": "24.673,35",
               "ersparnis": "13.001,65 (34,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "30.840,35",
               "kaufpreis": "29.947,85",
               "ersparnis": "7.727,15 (20,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "2399": {
-      "fetchedAt": "2026-08-24T05:51:31.910Z",
+      "fetchedAt": "2026-08-27T16:29:07.977Z",
       "data": {
         "byMotor": {
           "2985": {
             "endpreis": "45.629,96",
             "kaufpreis": "44.737,46",
             "ersparnis": "8.212,55 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "3762": {
             "endpreis": "47.742,21",
             "kaufpreis": "46.849,71",
             "ersparnis": "8.600,30 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -14936,14 +15081,14 @@
               "endpreis": "38.341,96",
               "kaufpreis": "36.794,96",
               "ersparnis": "16.155,05 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "45.629,96",
               "kaufpreis": "44.737,46",
               "ersparnis": "8.212,55 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "3762": [
@@ -14952,21 +15097,21 @@
               "endpreis": "40.079,21",
               "kaufpreis": "38.532,21",
               "ersparnis": "16.917,80 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "47.742,21",
               "kaufpreis": "46.849,71",
               "ersparnis": "8.600,30 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "2443": {
-      "fetchedAt": "2026-08-24T05:51:34.725Z",
+      "fetchedAt": "2026-08-27T16:29:10.671Z",
       "data": {
         "byMotor": {
           "1869": {
@@ -14980,9 +15125,9 @@
           "1869": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "24.486,85",
-              "kaufpreis": "22.939,85",
-              "ersparnis": "11.050,15 (32,51)",
+              "endpreis": "25.506,55",
+              "kaufpreis": "23.959,55",
+              "ersparnis": "10.030,45 (29,51)",
               "lieferzeit": "3-4 Monate"
             },
             {
@@ -14997,7 +15142,7 @@
       }
     },
     "2453": {
-      "fetchedAt": "2026-08-24T05:51:05.809Z",
+      "fetchedAt": "2026-08-27T16:28:37.772Z",
       "data": {
         "byMotor": {
           "3811": {
@@ -15050,7 +15195,7 @@
       }
     },
     "2457": {
-      "fetchedAt": "2026-08-24T05:51:21.058Z",
+      "fetchedAt": "2026-08-27T16:28:53.560Z",
       "data": {
         "byMotor": {
           "3818": {
@@ -15081,7 +15226,7 @@
       }
     },
     "2458": {
-      "fetchedAt": "2026-08-24T05:51:20.767Z",
+      "fetchedAt": "2026-08-27T16:28:53.206Z",
       "data": {
         "byMotor": {
           "3819": {
@@ -15112,7 +15257,7 @@
       }
     },
     "2459": {
-      "fetchedAt": "2026-08-24T05:51:20.475Z",
+      "fetchedAt": "2026-08-27T16:28:52.782Z",
       "data": {
         "byMotor": {
           "3820": {
@@ -15143,7 +15288,7 @@
       }
     },
     "2460": {
-      "fetchedAt": "2026-08-24T05:51:22.016Z",
+      "fetchedAt": "2026-08-27T16:28:56.582Z",
       "data": {
         "byMotor": {
           "3821": {
@@ -15174,7 +15319,7 @@
       }
     },
     "2466": {
-      "fetchedAt": "2026-08-24T05:51:34.127Z",
+      "fetchedAt": "2026-08-27T16:29:08.685Z",
       "data": {
         "byMotor": {
           "3824": {
@@ -15205,7 +15350,7 @@
       }
     },
     "2467": {
-      "fetchedAt": "2026-08-24T05:51:33.505Z",
+      "fetchedAt": "2026-08-27T16:29:07.947Z",
       "data": {
         "byMotor": {
           "3825": {
@@ -15236,7 +15381,7 @@
       }
     },
     "2468": {
-      "fetchedAt": "2026-08-24T05:51:33.805Z",
+      "fetchedAt": "2026-08-27T16:29:08.307Z",
       "data": {
         "byMotor": {
           "3826": {
@@ -15267,7 +15412,7 @@
       }
     },
     "2474": {
-      "fetchedAt": "2026-08-24T05:51:08.133Z",
+      "fetchedAt": "2026-08-27T16:28:40.538Z",
       "data": {
         "byMotor": {
           "3832": {
@@ -15298,7 +15443,7 @@
       }
     },
     "2475": {
-      "fetchedAt": "2026-08-24T05:51:08.438Z",
+      "fetchedAt": "2026-08-27T16:28:40.937Z",
       "data": {
         "byMotor": {
           "3833": {
@@ -15329,7 +15474,7 @@
       }
     },
     "2476": {
-      "fetchedAt": "2026-08-24T05:51:07.843Z",
+      "fetchedAt": "2026-08-27T16:28:40.192Z",
       "data": {
         "byMotor": {
           "3834": {
@@ -15391,7 +15536,7 @@
       }
     },
     "2487": {
-      "fetchedAt": "2026-08-24T05:51:10.702Z",
+      "fetchedAt": "2026-08-27T16:28:42.341Z",
       "data": {
         "byMotor": {
           "2253": {
@@ -15444,7 +15589,7 @@
       }
     },
     "2492": {
-      "fetchedAt": "2026-08-24T05:51:17.217Z",
+      "fetchedAt": "2026-08-27T16:28:46.982Z",
       "data": {
         "byMotor": {
           "3849": {
@@ -15482,7 +15627,7 @@
       }
     },
     "2493": {
-      "fetchedAt": "2026-08-24T05:51:17.513Z",
+      "fetchedAt": "2026-08-27T16:28:47.325Z",
       "data": {
         "byMotor": {
           "3849": {
@@ -15549,7 +15694,7 @@
       }
     },
     "2494": {
-      "fetchedAt": "2026-08-24T05:51:17.824Z",
+      "fetchedAt": "2026-08-27T16:28:47.683Z",
       "data": {
         "byMotor": {
           "3849": {
@@ -15616,7 +15761,7 @@
       }
     },
     "2512": {
-      "fetchedAt": "2026-08-24T05:51:52.870Z",
+      "fetchedAt": "2026-08-27T16:29:31.024Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -15757,7 +15902,7 @@
       }
     },
     "2513": {
-      "fetchedAt": "2026-08-24T05:51:53.326Z",
+      "fetchedAt": "2026-08-27T16:29:31.461Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -15898,7 +16043,7 @@
       }
     },
     "2514": {
-      "fetchedAt": "2026-08-24T05:51:54.553Z",
+      "fetchedAt": "2026-08-27T16:29:32.204Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16039,7 +16184,7 @@
       }
     },
     "2515": {
-      "fetchedAt": "2026-08-24T05:51:54.866Z",
+      "fetchedAt": "2026-08-27T16:29:32.642Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16180,7 +16325,7 @@
       }
     },
     "2516": {
-      "fetchedAt": "2026-08-24T05:51:53.651Z",
+      "fetchedAt": "2026-08-27T16:29:31.824Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16321,7 +16466,7 @@
       }
     },
     "2517": {
-      "fetchedAt": "2026-08-24T05:51:33.592Z",
+      "fetchedAt": "2026-08-27T16:29:11.028Z",
       "data": {
         "byMotor": {
           "3870": {
@@ -16352,7 +16497,7 @@
       }
     },
     "2519": {
-      "fetchedAt": "2026-08-24T05:51:39.818Z",
+      "fetchedAt": "2026-08-27T16:29:18.652Z",
       "data": {
         "byMotor": {
           "347": {
@@ -16405,7 +16550,7 @@
       }
     },
     "2520": {
-      "fetchedAt": "2026-08-24T05:51:29.453Z",
+      "fetchedAt": "2026-08-27T16:29:05.444Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -16418,13 +16563,13 @@
             "endpreis": "24.147,25",
             "kaufpreis": "23.257,25",
             "ersparnis": "5.282,75 (18,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3121": {
             "endpreis": "25.614,07",
             "kaufpreis": "24.724,07",
             "ersparnis": "5.615,93 (18,51)",
-            "lieferzeit": "3-4 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "3748": {
             "endpreis": "26.297,55",
@@ -16456,14 +16601,14 @@
               "endpreis": "20.891,55",
               "kaufpreis": "19.832,45",
               "ersparnis": "8.707,55 (30,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "24.147,25",
               "kaufpreis": "23.257,25",
               "ersparnis": "5.282,75 (18,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3121": [
@@ -16472,14 +16617,14 @@
               "endpreis": "22.142,37",
               "kaufpreis": "21.083,27",
               "ersparnis": "9.256,73 (30,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "25.614,07",
               "kaufpreis": "24.724,07",
               "ersparnis": "5.615,93 (18,51)",
-              "lieferzeit": "3-4 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "3748": [
@@ -16502,14 +16647,14 @@
       }
     },
     "2525": {
-      "fetchedAt": "2026-08-24T05:51:33.671Z",
+      "fetchedAt": "2026-08-27T16:29:09.355Z",
       "data": {
         "byMotor": {
           "3873": {
             "endpreis": "36.496,22",
             "kaufpreis": "35.606,22",
             "ersparnis": "12.193,78 (25,51)",
-            "lieferzeit": "3-5 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -16519,28 +16664,28 @@
               "endpreis": "34.509,54",
               "kaufpreis": "33.450,44",
               "ersparnis": "14.349,56 (30,02)",
-              "lieferzeit": "3-5 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "36.496,22",
               "kaufpreis": "35.606,22",
               "ersparnis": "12.193,78 (25,51)",
-              "lieferzeit": "3-5 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "2546": {
-      "fetchedAt": "2026-08-24T05:51:32.803Z",
+      "fetchedAt": "2026-08-27T16:29:08.704Z",
       "data": {
         "byMotor": {
           "2985": {
             "endpreis": "50.952,83",
             "kaufpreis": "50.060,33",
             "ersparnis": "9.189,68 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           },
           "3368": {
             "endpreis": "54.416,92",
@@ -16552,7 +16697,7 @@
             "endpreis": "53.065,08",
             "kaufpreis": "52.172,58",
             "ersparnis": "9.577,43 (15,51)",
-            "lieferzeit": "2-3 Monate"
+            "lieferzeit": "3-4 Monate"
           }
         },
         "offers": {
@@ -16562,14 +16707,14 @@
               "endpreis": "42.719,83",
               "kaufpreis": "41.172,83",
               "ersparnis": "18.077,18 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "50.952,83",
               "kaufpreis": "50.060,33",
               "ersparnis": "9.189,68 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ],
           "3368": [
@@ -16594,21 +16739,21 @@
               "endpreis": "44.457,08",
               "kaufpreis": "42.910,08",
               "ersparnis": "18.839,93 (30,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "53.065,08",
               "kaufpreis": "52.172,58",
               "ersparnis": "9.577,43 (15,51)",
-              "lieferzeit": "2-3 Monate"
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
       }
     },
     "2548": {
-      "fetchedAt": "2026-08-24T05:51:28.059Z",
+      "fetchedAt": "2026-08-27T16:29:01.381Z",
       "data": {
         "byMotor": {
           "3909": {
@@ -16661,7 +16806,7 @@
       }
     },
     "2552": {
-      "fetchedAt": "2026-08-24T05:51:31.948Z",
+      "fetchedAt": "2026-08-27T16:29:10.240Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -16736,7 +16881,7 @@
       }
     },
     "2560": {
-      "fetchedAt": "2026-08-24T05:51:09.243Z",
+      "fetchedAt": "2026-08-27T16:28:41.802Z",
       "data": {
         "byMotor": {
           "3923": {
@@ -16789,7 +16934,7 @@
       }
     },
     "2562": {
-      "fetchedAt": "2026-08-24T05:51:09.561Z",
+      "fetchedAt": "2026-08-27T16:28:42.203Z",
       "data": {
         "byMotor": {
           "3924": {
@@ -16842,7 +16987,7 @@
       }
     },
     "2565": {
-      "fetchedAt": "2026-08-24T05:51:32.762Z",
+      "fetchedAt": "2026-08-27T16:29:09.997Z",
       "data": {
         "byMotor": {
           "1964": {
@@ -16873,7 +17018,7 @@
       }
     },
     "2573": {
-      "fetchedAt": "2026-08-24T05:51:05.830Z",
+      "fetchedAt": "2026-08-27T16:28:37.740Z",
       "data": {
         "byMotor": {
           "1960": {
@@ -16926,7 +17071,7 @@
       }
     },
     "2574": {
-      "fetchedAt": "2026-08-24T05:51:54.936Z",
+      "fetchedAt": "2026-08-27T16:29:34.387Z",
       "data": {
         "byMotor": {
           "1961": {
@@ -16979,7 +17124,7 @@
       }
     },
     "2593": {
-      "fetchedAt": "2026-08-24T05:51:07.846Z",
+      "fetchedAt": "2026-08-27T16:28:40.188Z",
       "data": {
         "byMotor": {
           "3946": {
@@ -17010,7 +17155,7 @@
       }
     },
     "2603": {
-      "fetchedAt": "2026-08-24T05:51:28.278Z",
+      "fetchedAt": "2026-08-27T16:29:05.200Z",
       "data": {
         "byMotor": {
           "3950": {
@@ -17041,7 +17186,7 @@
       }
     },
     "2604": {
-      "fetchedAt": "2026-08-24T05:51:28.566Z",
+      "fetchedAt": "2026-08-27T16:29:05.606Z",
       "data": {
         "byMotor": {
           "3951": {
@@ -17094,7 +17239,7 @@
       }
     },
     "2605": {
-      "fetchedAt": "2026-08-24T05:51:28.897Z",
+      "fetchedAt": "2026-08-27T16:29:05.955Z",
       "data": {
         "byMotor": {
           "3951": {
@@ -17147,7 +17292,7 @@
       }
     },
     "2619": {
-      "fetchedAt": "2026-08-24T05:51:38.779Z",
+      "fetchedAt": "2026-08-27T16:29:14.336Z",
       "data": {
         "byMotor": {
           "3958": {
@@ -17178,7 +17323,7 @@
       }
     },
     "2620": {
-      "fetchedAt": "2026-08-24T05:51:39.157Z",
+      "fetchedAt": "2026-08-27T16:29:14.727Z",
       "data": {
         "byMotor": {
           "3958": {
@@ -17231,7 +17376,7 @@
       }
     },
     "2621": {
-      "fetchedAt": "2026-08-24T05:51:39.448Z",
+      "fetchedAt": "2026-08-27T16:29:15.128Z",
       "data": {
         "byMotor": {
           "3959": {
@@ -17262,7 +17407,7 @@
       }
     },
     "2650": {
-      "fetchedAt": "2026-08-24T05:51:07.161Z",
+      "fetchedAt": "2026-08-27T16:28:38.705Z",
       "data": {
         "byMotor": {
           "3987": {
@@ -17337,7 +17482,7 @@
       }
     },
     "2652": {
-      "fetchedAt": "2026-08-24T05:51:12.499Z",
+      "fetchedAt": "2026-08-27T16:28:44.924Z",
       "data": {
         "byMotor": {
           "2256": {
@@ -17390,7 +17535,7 @@
       }
     },
     "2653": {
-      "fetchedAt": "2026-08-24T05:51:12.829Z",
+      "fetchedAt": "2026-08-27T16:28:45.278Z",
       "data": {
         "byMotor": {
           "3990": {
@@ -17443,7 +17588,7 @@
       }
     },
     "2654": {
-      "fetchedAt": "2026-08-24T05:51:13.172Z",
+      "fetchedAt": "2026-08-27T16:28:45.629Z",
       "data": {
         "byMotor": {
           "3990": {
@@ -17496,7 +17641,7 @@
       }
     },
     "2655": {
-      "fetchedAt": "2026-08-24T05:51:13.468Z",
+      "fetchedAt": "2026-08-27T16:28:45.983Z",
       "data": {
         "byMotor": {
           "3990": {
@@ -17549,7 +17694,7 @@
       }
     },
     "2657": {
-      "fetchedAt": "2026-08-24T05:51:16.118Z",
+      "fetchedAt": "2026-08-27T16:28:48.633Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -17580,7 +17725,7 @@
       }
     },
     "2662": {
-      "fetchedAt": "2026-08-24T05:51:26.242Z",
+      "fetchedAt": "2026-08-27T16:29:00.635Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -17633,7 +17778,7 @@
       }
     },
     "2667": {
-      "fetchedAt": "2026-08-24T05:51:42.853Z",
+      "fetchedAt": "2026-08-27T16:29:17.293Z",
       "data": {
         "byMotor": {
           "1895": {
@@ -17664,7 +17809,7 @@
       }
     },
     "2683": {
-      "fetchedAt": "2026-08-24T05:51:19.370Z",
+      "fetchedAt": "2026-08-27T16:28:51.803Z",
       "data": {
         "byMotor": {
           "4007": {
@@ -17695,7 +17840,7 @@
       }
     },
     "2685": {
-      "fetchedAt": "2026-08-24T05:51:21.641Z",
+      "fetchedAt": "2026-08-27T16:28:55.519Z",
       "data": {
         "byMotor": {
           "4008": {
@@ -17748,7 +17893,7 @@
       }
     },
     "2686": {
-      "fetchedAt": "2026-08-24T05:51:22.013Z",
+      "fetchedAt": "2026-08-27T16:28:55.941Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -17779,7 +17924,7 @@
       }
     },
     "2687": {
-      "fetchedAt": "2026-08-24T05:51:22.310Z",
+      "fetchedAt": "2026-08-27T16:28:56.310Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -17810,7 +17955,7 @@
       }
     },
     "2688": {
-      "fetchedAt": "2026-08-24T05:51:22.701Z",
+      "fetchedAt": "2026-08-27T16:28:56.711Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -17841,7 +17986,7 @@
       }
     },
     "2699": {
-      "fetchedAt": "2026-08-24T05:51:40.028Z",
+      "fetchedAt": "2026-08-27T16:29:14.852Z",
       "data": {
         "byMotor": {
           "3214": {
@@ -17894,7 +18039,7 @@
       }
     },
     "2702": {
-      "fetchedAt": "2026-08-24T05:51:39.725Z",
+      "fetchedAt": "2026-08-27T16:29:14.472Z",
       "data": {
         "byMotor": {
           "4017": {
@@ -17925,7 +18070,7 @@
       }
     },
     "2704": {
-      "fetchedAt": "2026-08-24T05:51:14.063Z",
+      "fetchedAt": "2026-08-27T16:28:49.065Z",
       "data": {
         "byMotor": {
           "3948": {
@@ -17956,7 +18101,7 @@
       }
     },
     "2705": {
-      "fetchedAt": "2026-08-24T05:51:55.892Z",
+      "fetchedAt": "2026-08-27T16:29:34.091Z",
       "data": {
         "byMotor": {
           "3711": {
@@ -17987,7 +18132,7 @@
       }
     },
     "2706": {
-      "fetchedAt": "2026-08-24T05:51:55.537Z",
+      "fetchedAt": "2026-08-27T16:29:33.727Z",
       "data": {
         "byMotor": {
           "3712": {
@@ -18018,7 +18163,7 @@
       }
     },
     "2707": {
-      "fetchedAt": "2026-08-24T05:51:17.853Z",
+      "fetchedAt": "2026-08-27T16:28:49.777Z",
       "data": {
         "byMotor": {
           "4018": {
@@ -18049,7 +18194,7 @@
       }
     },
     "2708": {
-      "fetchedAt": "2026-08-24T05:51:18.147Z",
+      "fetchedAt": "2026-08-27T16:28:50.160Z",
       "data": {
         "byMotor": {
           "4019": {
@@ -18080,7 +18225,7 @@
       }
     },
     "2715": {
-      "fetchedAt": "2026-08-24T05:51:16.796Z",
+      "fetchedAt": "2026-08-27T16:28:46.632Z",
       "data": {
         "byMotor": {
           "4026": {
@@ -18118,7 +18263,7 @@
       }
     },
     "2716": {
-      "fetchedAt": "2026-08-24T05:51:13.040Z",
+      "fetchedAt": "2026-08-27T16:28:52.111Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -18156,7 +18301,7 @@
       }
     },
     "2717": {
-      "fetchedAt": "2026-08-24T05:51:13.329Z",
+      "fetchedAt": "2026-08-27T16:28:52.725Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -18223,7 +18368,7 @@
       }
     },
     "2718": {
-      "fetchedAt": "2026-08-24T05:51:13.690Z",
+      "fetchedAt": "2026-08-27T16:28:53.182Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -18290,7 +18435,7 @@
       }
     },
     "2719": {
-      "fetchedAt": "2026-08-24T05:51:13.986Z",
+      "fetchedAt": "2026-08-27T16:28:53.594Z",
       "data": {
         "byMotor": {
           "4028": {
@@ -18328,7 +18473,7 @@
       }
     },
     "2727": {
-      "fetchedAt": "2026-08-24T05:51:15.275Z",
+      "fetchedAt": "2026-08-27T16:28:47.874Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -18359,7 +18504,7 @@
       }
     },
     "2735": {
-      "fetchedAt": "2026-08-24T05:51:43.033Z",
+      "fetchedAt": "2026-08-27T16:29:20.330Z",
       "data": {
         "byMotor": {
           "4047": {
@@ -18390,7 +18535,7 @@
       }
     },
     "2736": {
-      "fetchedAt": "2026-08-24T05:51:36.020Z",
+      "fetchedAt": "2026-08-27T16:29:13.668Z",
       "data": {
         "byMotor": {
           "4048": {
@@ -18421,7 +18566,7 @@
       }
     },
     "2740": {
-      "fetchedAt": "2026-08-24T05:51:10.291Z",
+      "fetchedAt": "2026-08-27T16:28:41.628Z",
       "data": {
         "byMotor": {
           "2544": {
@@ -18459,7 +18604,7 @@
       }
     },
     "2742": {
-      "fetchedAt": "2026-08-24T05:51:42.258Z",
+      "fetchedAt": "2026-08-27T16:29:16.545Z",
       "data": {
         "byMotor": {
           "1895": {
@@ -18490,14 +18635,14 @@
       }
     },
     "2744": {
-      "fetchedAt": "2026-08-24T05:51:10.525Z",
+      "fetchedAt": "2026-08-27T16:28:43.340Z",
       "data": {
         "byMotor": {
           "3122": {
             "endpreis": "29.355,57",
             "kaufpreis": "28.585,57",
             "ersparnis": "5.409,43 (15,91)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           }
         },
         "offers": {
@@ -18507,40 +18652,40 @@
               "endpreis": "29.355,57",
               "kaufpreis": "28.585,57",
               "ersparnis": "5.409,43 (15,91)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "29.355,57",
               "kaufpreis": "28.585,57",
               "ersparnis": "5.409,43 (15,91)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ]
         }
       }
     },
     "2745": {
-      "fetchedAt": "2026-08-24T05:51:10.831Z",
+      "fetchedAt": "2026-08-27T16:28:43.688Z",
       "data": {
         "byMotor": {
           "3122": {
             "endpreis": "31.329,12",
             "kaufpreis": "30.559,12",
             "ersparnis": "5.665,88 (15,64)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "4054": {
             "endpreis": "33.957,57",
             "kaufpreis": "33.187,57",
             "ersparnis": "6.007,43 (15,33)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "4055": {
             "endpreis": "39.090,57",
             "kaufpreis": "38.320,57",
             "ersparnis": "6.674,43 (14,83)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           }
         },
         "offers": {
@@ -18550,14 +18695,14 @@
               "endpreis": "31.329,12",
               "kaufpreis": "30.559,12",
               "ersparnis": "5.665,88 (15,64)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "31.329,12",
               "kaufpreis": "30.559,12",
               "ersparnis": "5.665,88 (15,64)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "4054": [
@@ -18566,14 +18711,14 @@
               "endpreis": "33.957,57",
               "kaufpreis": "33.187,57",
               "ersparnis": "6.007,43 (15,33)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "33.957,57",
               "kaufpreis": "33.187,57",
               "ersparnis": "6.007,43 (15,33)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "4055": [
@@ -18582,40 +18727,40 @@
               "endpreis": "39.090,57",
               "kaufpreis": "38.320,57",
               "ersparnis": "6.674,43 (14,83)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "39.090,57",
               "kaufpreis": "38.320,57",
               "ersparnis": "6.674,43 (14,83)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ]
         }
       }
     },
     "2746": {
-      "fetchedAt": "2026-08-24T05:51:11.123Z",
+      "fetchedAt": "2026-08-27T16:28:44.038Z",
       "data": {
         "byMotor": {
           "3122": {
             "endpreis": "32.997,60",
             "kaufpreis": "32.227,60",
             "ersparnis": "6.667,40 (17,14)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "4054": {
             "endpreis": "35.829,37",
             "kaufpreis": "35.059,37",
             "ersparnis": "6.815,63 (16,28)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           },
           "4055": {
             "endpreis": "40.891,57",
             "kaufpreis": "40.121,57",
             "ersparnis": "7.473,43 (15,70)",
-            "lieferzeit": "7-8 Monate"
+            "lieferzeit": "2-3 Monate"
           }
         },
         "offers": {
@@ -18625,14 +18770,14 @@
               "endpreis": "32.997,60",
               "kaufpreis": "32.227,60",
               "ersparnis": "6.667,40 (17,14)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "33.192,07",
               "kaufpreis": "32.422,07",
               "ersparnis": "6.472,93 (16,64)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "4054": [
@@ -18641,14 +18786,14 @@
               "endpreis": "35.829,37",
               "kaufpreis": "35.059,37",
               "ersparnis": "6.815,63 (16,28)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "35.829,37",
               "kaufpreis": "35.059,37",
               "ersparnis": "6.815,63 (16,28)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ],
           "4055": [
@@ -18657,21 +18802,21 @@
               "endpreis": "40.891,57",
               "kaufpreis": "40.121,57",
               "ersparnis": "7.473,43 (15,70)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "40.891,57",
               "kaufpreis": "40.121,57",
               "ersparnis": "7.473,43 (15,70)",
-              "lieferzeit": "7-8 Monate"
+              "lieferzeit": "2-3 Monate"
             }
           ]
         }
       }
     },
     "2747": {
-      "fetchedAt": "2026-08-24T05:51:25.231Z",
+      "fetchedAt": "2026-08-27T16:28:59.555Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -18702,7 +18847,7 @@
       }
     },
     "2748": {
-      "fetchedAt": "2026-08-24T05:51:25.863Z",
+      "fetchedAt": "2026-08-27T16:29:00.312Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -18733,7 +18878,7 @@
       }
     },
     "2750": {
-      "fetchedAt": "2026-08-24T05:51:29.263Z",
+      "fetchedAt": "2026-08-27T16:29:06.823Z",
       "data": {
         "byMotor": {
           "4058": {
@@ -18764,7 +18909,7 @@
       }
     },
     "2752": {
-      "fetchedAt": "2026-08-24T05:51:21.423Z",
+      "fetchedAt": "2026-08-27T16:28:56.139Z",
       "data": {
         "byMotor": {
           "4063": {
@@ -18795,7 +18940,7 @@
       }
     },
     "2755": {
-      "fetchedAt": "2026-08-24T05:51:23.716Z",
+      "fetchedAt": "2026-08-27T16:28:58.457Z",
       "data": {
         "byMotor": {
           "4061": {
@@ -18826,7 +18971,7 @@
       }
     },
     "2757": {
-      "fetchedAt": "2026-08-24T05:51:45.761Z",
+      "fetchedAt": "2026-08-27T16:29:22.361Z",
       "data": {
         "byMotor": {
           "780": {
@@ -18901,7 +19046,7 @@
       }
     },
     "2758": {
-      "fetchedAt": "2026-08-24T05:51:09.882Z",
+      "fetchedAt": "2026-08-27T16:28:42.672Z",
       "data": {
         "byMotor": {
           "3924": {
@@ -18932,7 +19077,7 @@
       }
     },
     "2759": {
-      "fetchedAt": "2026-08-24T05:51:38.006Z",
+      "fetchedAt": "2026-08-27T16:29:16.876Z",
       "data": {
         "byMotor": {
           "4066": {
@@ -18963,14 +19108,14 @@
       }
     },
     "2762": {
-      "fetchedAt": "2026-08-24T05:51:19.854Z",
+      "fetchedAt": "2026-08-27T16:28:53.504Z",
       "data": {
         "byMotor": {
           "4071": {
             "endpreis": "18.238,10",
             "kaufpreis": "17.238,10",
             "ersparnis": "7.751,90 (31,02)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "6-8 Monate"
           }
         },
         "offers": {
@@ -18980,34 +19125,34 @@
               "endpreis": "18.238,10",
               "kaufpreis": "17.238,10",
               "ersparnis": "7.751,90 (31,02)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "18.573,67",
               "kaufpreis": "17.365,67",
               "ersparnis": "7.624,33 (30,51)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             }
           ]
         }
       }
     },
     "2763": {
-      "fetchedAt": "2026-08-24T05:51:19.260Z",
+      "fetchedAt": "2026-08-27T16:28:52.683Z",
       "data": {
         "byMotor": {
           "4071": {
             "endpreis": "20.422,65",
             "kaufpreis": "19.422,65",
             "ersparnis": "7.767,35 (28,57)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "6-8 Monate"
           },
           "4072": {
             "endpreis": "21.638,15",
             "kaufpreis": "20.638,15",
             "ersparnis": "7.851,85 (27,56)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "6-8 Monate"
           }
         },
         "offers": {
@@ -19017,14 +19162,14 @@
               "endpreis": "20.422,65",
               "kaufpreis": "19.422,65",
               "ersparnis": "7.767,35 (28,57)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "20.630,67",
               "kaufpreis": "19.422,67",
               "ersparnis": "7.767,33 (28,57)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             }
           ],
           "4072": [
@@ -19033,28 +19178,28 @@
               "endpreis": "21.638,15",
               "kaufpreis": "20.638,15",
               "ersparnis": "7.851,85 (27,56)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "21.846,17",
               "kaufpreis": "20.638,17",
               "ersparnis": "7.851,83 (27,56)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             }
           ]
         }
       }
     },
     "2764": {
-      "fetchedAt": "2026-08-24T05:51:19.551Z",
+      "fetchedAt": "2026-08-27T16:28:53.102Z",
       "data": {
         "byMotor": {
           "4072": {
             "endpreis": "24.443,15",
             "kaufpreis": "23.443,15",
             "ersparnis": "8.046,85 (25,55)",
-            "lieferzeit": "5-6 Monate"
+            "lieferzeit": "6-8 Monate"
           }
         },
         "offers": {
@@ -19064,21 +19209,21 @@
               "endpreis": "24.443,15",
               "kaufpreis": "23.443,15",
               "ersparnis": "8.046,85 (25,55)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "24.651,17",
               "kaufpreis": "23.443,17",
               "ersparnis": "8.046,83 (25,55)",
-              "lieferzeit": "5-6 Monate"
+              "lieferzeit": "6-8 Monate"
             }
           ]
         }
       }
     },
     "2765": {
-      "fetchedAt": "2026-08-24T05:51:17.133Z",
+      "fetchedAt": "2026-08-27T16:28:51.032Z",
       "data": {
         "byMotor": {
           "4073": {
@@ -19131,7 +19276,7 @@
       }
     },
     "2766": {
-      "fetchedAt": "2026-08-24T05:51:17.423Z",
+      "fetchedAt": "2026-08-27T16:28:51.381Z",
       "data": {
         "byMotor": {
           "4073": {
@@ -19184,7 +19329,7 @@
       }
     },
     "2770": {
-      "fetchedAt": "2026-08-24T05:51:24.639Z",
+      "fetchedAt": "2026-08-27T16:28:58.660Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -19215,7 +19360,7 @@
       }
     },
     "2772": {
-      "fetchedAt": "2026-08-24T05:51:06.130Z",
+      "fetchedAt": "2026-08-27T16:28:38.095Z",
       "data": {
         "byMotor": {
           "1960": {
@@ -19268,7 +19413,7 @@
       }
     },
     "2785": {
-      "fetchedAt": "2026-08-24T05:51:27.080Z",
+      "fetchedAt": "2026-08-27T16:29:03.876Z",
       "data": {
         "byMotor": {
           "4045": {
@@ -19299,7 +19444,7 @@
       }
     },
     "2786": {
-      "fetchedAt": "2026-08-24T05:51:26.457Z",
+      "fetchedAt": "2026-08-27T16:29:02.200Z",
       "data": {
         "byMotor": {
           "4046": {
@@ -19330,7 +19475,7 @@
       }
     },
     "2787": {
-      "fetchedAt": "2026-08-24T05:51:18.027Z",
+      "fetchedAt": "2026-08-27T16:28:52.033Z",
       "data": {
         "byMotor": {
           "4090": {
@@ -19361,14 +19506,14 @@
       }
     },
     "2794": {
-      "fetchedAt": "2026-08-24T05:51:36.647Z",
+      "fetchedAt": "2026-08-27T16:29:13.070Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2801": {
-      "fetchedAt": "2026-08-24T05:51:25.950Z",
+      "fetchedAt": "2026-08-27T16:29:00.229Z",
       "data": {
         "byMotor": {
           "3803": {
@@ -19399,32 +19544,32 @@
       }
     },
     "2808": {
-      "fetchedAt": "2026-08-24T05:51:48.937Z",
+      "fetchedAt": "2026-08-27T16:29:26.417Z",
       "data": {
         "byMotor": {
           "4110": {
             "endpreis": "41.909,23",
             "kaufpreis": "40.778,73",
             "ersparnis": "6.921,27 (14,51)",
-            "lieferzeit": "7-9 Monate"
+            "lieferzeit": "7-8 Monate"
           },
           "4111": {
             "endpreis": "50.950,37",
             "kaufpreis": "49.819,87",
             "ersparnis": "6.480,13 (11,51)",
-            "lieferzeit": "7-9 Monate"
+            "lieferzeit": "7-8 Monate"
           },
           "4112": {
             "endpreis": "55.728,83",
             "kaufpreis": "54.598,33",
             "ersparnis": "7.101,67 (11,51)",
-            "lieferzeit": "7-9 Monate"
+            "lieferzeit": "7-8 Monate"
           },
           "4113": {
             "endpreis": "60.064,84",
             "kaufpreis": "58.934,34",
             "ersparnis": "7.665,66 (11,51)",
-            "lieferzeit": "7-9 Monate"
+            "lieferzeit": "7-8 Monate"
           }
         },
         "offers": {
@@ -19434,14 +19579,14 @@
               "endpreis": "34.987,96",
               "kaufpreis": "33.857,46",
               "ersparnis": "13.842,54 (29,02)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "41.909,23",
               "kaufpreis": "40.778,73",
               "ersparnis": "6.921,27 (14,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             }
           ],
           "4111": [
@@ -19450,14 +19595,14 @@
               "endpreis": "43.631,37",
               "kaufpreis": "42.500,87",
               "ersparnis": "13.799,13 (24,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "50.950,37",
               "kaufpreis": "49.819,87",
               "ersparnis": "6.480,13 (11,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             }
           ],
           "4112": [
@@ -19466,14 +19611,14 @@
               "endpreis": "47.707,83",
               "kaufpreis": "46.577,33",
               "ersparnis": "15.122,67 (24,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "55.728,83",
               "kaufpreis": "54.598,33",
               "ersparnis": "7.101,67 (11,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             }
           ],
           "4113": [
@@ -19482,21 +19627,21 @@
               "endpreis": "51.406,84",
               "kaufpreis": "50.276,34",
               "ersparnis": "16.323,66 (24,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             },
             {
               "tag": "für Privatkunden",
               "endpreis": "60.064,84",
               "kaufpreis": "58.934,34",
               "ersparnis": "7.665,66 (11,51)",
-              "lieferzeit": "7-9 Monate"
+              "lieferzeit": "7-8 Monate"
             }
           ]
         }
       }
     },
     "2833": {
-      "fetchedAt": "2026-08-24T05:51:07.712Z",
+      "fetchedAt": "2026-08-27T16:28:39.145Z",
       "data": {
         "byMotor": {
           "4133": {
@@ -19527,7 +19672,7 @@
       }
     },
     "2834": {
-      "fetchedAt": "2026-08-24T05:51:08.018Z",
+      "fetchedAt": "2026-08-27T16:28:39.508Z",
       "data": {
         "byMotor": {
           "4134": {
@@ -19558,7 +19703,7 @@
       }
     },
     "2846": {
-      "fetchedAt": "2026-08-24T05:51:14.285Z",
+      "fetchedAt": "2026-08-27T16:28:53.954Z",
       "data": {
         "byMotor": {
           "4028": {
@@ -19596,7 +19741,7 @@
       }
     },
     "2849": {
-      "fetchedAt": "2026-08-24T05:51:21.390Z",
+      "fetchedAt": "2026-08-27T16:28:55.193Z",
       "data": {
         "byMotor": {
           "4146": {
@@ -19671,7 +19816,7 @@
       }
     },
     "2852": {
-      "fetchedAt": "2026-08-24T05:51:14.624Z",
+      "fetchedAt": "2026-08-27T16:28:47.176Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -19724,7 +19869,7 @@
       }
     },
     "2853": {
-      "fetchedAt": "2026-08-24T05:51:19.976Z",
+      "fetchedAt": "2026-08-27T16:28:54.174Z",
       "data": {
         "byMotor": {
           "4151": {
@@ -19755,7 +19900,7 @@
       }
     },
     "2854": {
-      "fetchedAt": "2026-08-24T05:51:20.285Z",
+      "fetchedAt": "2026-08-27T16:28:54.530Z",
       "data": {
         "byMotor": {
           "4152": {
@@ -19786,7 +19931,7 @@
       }
     },
     "2860": {
-      "fetchedAt": "2026-08-24T05:51:47.583Z",
+      "fetchedAt": "2026-08-27T16:29:23.817Z",
       "data": {
         "byMotor": {
           "2322": {
@@ -19883,7 +20028,7 @@
       }
     },
     "2861": {
-      "fetchedAt": "2026-08-24T05:51:47.885Z",
+      "fetchedAt": "2026-08-27T16:29:24.250Z",
       "data": {
         "byMotor": {
           "2322": {
@@ -19980,7 +20125,7 @@
       }
     },
     "2862": {
-      "fetchedAt": "2026-08-24T05:51:48.176Z",
+      "fetchedAt": "2026-08-27T16:29:24.701Z",
       "data": {
         "byMotor": {
           "4156": {
@@ -20011,7 +20156,7 @@
       }
     },
     "2863": {
-      "fetchedAt": "2026-08-24T05:51:48.492Z",
+      "fetchedAt": "2026-08-27T16:29:25.146Z",
       "data": {
         "byMotor": {
           "4156": {
@@ -20042,14 +20187,14 @@
       }
     },
     "2867": {
-      "fetchedAt": "2026-08-24T05:51:30.201Z",
+      "fetchedAt": "2026-08-27T16:29:06.639Z",
       "data": {
         "byMotor": {
           "4162": {
             "endpreis": "31.758,62",
             "kaufpreis": "31.074,62",
             "ersparnis": "5.450,38 (14,92)",
-            "lieferzeit": "4-6 Monate"
+            "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
@@ -20059,42 +20204,42 @@
               "endpreis": "31.758,62",
               "kaufpreis": "31.074,62",
               "ersparnis": "5.450,38 (14,92)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "4-5 Monate"
             },
             {
               "tag": "für Geschäftskunden",
               "endpreis": "31.758,62",
               "kaufpreis": "31.074,62",
               "ersparnis": "5.450,38 (14,92)",
-              "lieferzeit": "4-6 Monate"
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
       }
     },
     "2869": {
-      "fetchedAt": "2026-08-24T05:51:34.770Z",
+      "fetchedAt": "2026-08-27T16:29:13.803Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2870": {
-      "fetchedAt": "2026-08-24T05:51:18.623Z",
+      "fetchedAt": "2026-08-27T16:28:50.811Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2871": {
-      "fetchedAt": "2026-08-24T05:51:08.619Z",
+      "fetchedAt": "2026-08-27T16:28:40.879Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2873": {
-      "fetchedAt": "2026-08-24T05:51:16.782Z",
+      "fetchedAt": "2026-08-27T16:28:50.648Z",
       "data": {
         "byMotor": {
           "4192": {
@@ -20125,7 +20270,7 @@
       }
     },
     "2874": {
-      "fetchedAt": "2026-08-24T05:51:26.778Z",
+      "fetchedAt": "2026-08-27T16:29:03.516Z",
       "data": {
         "byMotor": {
           "4173": {
@@ -20156,7 +20301,7 @@
       }
     },
     "2875": {
-      "fetchedAt": "2026-08-24T05:51:06.810Z",
+      "fetchedAt": "2026-08-27T16:28:38.466Z",
       "data": {
         "byMotor": {
           "4177": {
@@ -20194,28 +20339,28 @@
       }
     },
     "2877": {
-      "fetchedAt": "2026-08-24T05:51:15.914Z",
+      "fetchedAt": "2026-08-27T16:28:45.090Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2878": {
-      "fetchedAt": "2026-08-24T05:51:15.519Z",
+      "fetchedAt": "2026-08-27T16:28:44.721Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2881": {
-      "fetchedAt": "2026-08-24T05:51:18.412Z",
+      "fetchedAt": "2026-08-27T16:28:51.464Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2882": {
-      "fetchedAt": "2026-08-24T05:51:45.485Z",
+      "fetchedAt": "2026-08-27T16:29:24.596Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -20246,7 +20391,7 @@
       }
     },
     "2883": {
-      "fetchedAt": "2026-08-24T05:51:46.057Z",
+      "fetchedAt": "2026-08-27T16:29:25.018Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -20961,6 +21106,18 @@
     "4192": {
       "kwh": 37,
       "kw": 85
+    },
+    "4202": {
+      "kwh": 81,
+      "kw": 195
+    },
+    "4203": {
+      "kwh": 51,
+      "kw": 89
+    },
+    "4204": {
+      "kwh": 71,
+      "kw": 120
     }
   }
 }
