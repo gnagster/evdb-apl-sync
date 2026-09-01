@@ -2979,6 +2979,16 @@
           "url": "/neuwagen/citroen/e-spacetourer/max/"
         }
       ]
+    },
+    "i3": {
+      "fetchedAt": "2026-09-01T10:02:36.120Z",
+      "lines": [
+        {
+          "id": "2898",
+          "name": "BMW i3 First Edition (neues Modell)",
+          "url": "/neuwagen/bmw/i3/first-edition/"
+        }
+      ]
     }
   },
   "lineData": {
@@ -4910,7 +4920,7 @@
       }
     },
     "662": {
-      "fetchedAt": "2026-08-27T16:29:23.091Z",
+      "fetchedAt": "2026-09-01T10:02:50.631Z",
       "data": {
         "byMotor": {
           "1244": {
@@ -20421,6 +20431,37 @@
               "kaufpreis": "34.656,54",
               "ersparnis": "5.413,46 (13,51)",
               "lieferzeit": "4-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2898": {
+      "fetchedAt": "2026-09-01T10:02:36.458Z",
+      "data": {
+        "byMotor": {
+          "4198": {
+            "endpreis": "68.580,93",
+            "kaufpreis": "67.790,93",
+            "ersparnis": "7.549,07 (10,02)",
+            "lieferzeit": "herstellerüblich"
+          }
+        },
+        "offers": {
+          "4198": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "68.580,93",
+              "kaufpreis": "67.790,93",
+              "ersparnis": "7.549,07 (10,02)",
+              "lieferzeit": "herstellerüblich"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "68.580,93",
+              "kaufpreis": "67.790,93",
+              "ersparnis": "7.549,07 (10,02)",
+              "lieferzeit": "herstellerüblich"
             }
           ]
         }
