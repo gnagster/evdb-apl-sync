@@ -2989,6 +2989,26 @@
           "url": "/neuwagen/bmw/i3/first-edition/"
         }
       ]
+    },
+    "e5": {
+      "fetchedAt": "2026-09-03T09:44:26.243Z",
+      "lines": [
+        {
+          "id": "2886",
+          "name": "Geely E5 Pro",
+          "url": "/neuwagen/geely/e5/pro/"
+        },
+        {
+          "id": "2887",
+          "name": "Geely E5 Pro+",
+          "url": "/neuwagen/geely/e5/pro-/"
+        },
+        {
+          "id": "2888",
+          "name": "Geely E5 Max+",
+          "url": "/neuwagen/geely/e5/max-/"
+        }
+      ]
     }
   },
   "lineData": {
@@ -20430,6 +20450,68 @@
               "endpreis": "35.549,04",
               "kaufpreis": "34.656,54",
               "ersparnis": "5.413,46 (13,51)",
+              "lieferzeit": "4-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2886": {
+      "fetchedAt": "2026-09-03T09:44:26.944Z",
+      "data": {
+        "byMotor": {
+          "4185": {
+            "endpreis": "35.600,60",
+            "kaufpreis": "34.710,60",
+            "ersparnis": "3.279,40 (8,63)",
+            "lieferzeit": "4-5 Monate"
+          }
+        },
+        "offers": {
+          "4185": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "35.600,60",
+              "kaufpreis": "34.710,60",
+              "ersparnis": "3.279,40 (8,63)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "35.600,60",
+              "kaufpreis": "34.710,60",
+              "ersparnis": "3.279,40 (8,63)",
+              "lieferzeit": "4-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2888": {
+      "fetchedAt": "2026-09-03T09:44:26.567Z",
+      "data": {
+        "byMotor": {
+          "4186": {
+            "endpreis": "40.300,60",
+            "kaufpreis": "39.410,60",
+            "ersparnis": "3.579,40 (8,33)",
+            "lieferzeit": "4-5 Monate"
+          }
+        },
+        "offers": {
+          "4186": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "40.300,60",
+              "kaufpreis": "39.410,60",
+              "ersparnis": "3.579,40 (8,33)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "40.300,60",
+              "kaufpreis": "39.410,60",
+              "ersparnis": "3.579,40 (8,33)",
               "lieferzeit": "4-5 Monate"
             }
           ]
