@@ -1,7 +1,7 @@
 {
   "slugLines": {
     "cla-coup-": {
-      "fetchedAt": "2026-08-29T11:38:28.965Z",
+      "fetchedAt": "2026-09-06T09:23:59.300Z",
       "lines": [
         {
           "id": "21",
@@ -11,7 +11,7 @@
       ]
     },
     "ix3": {
-      "fetchedAt": "2026-08-29T11:38:29.248Z",
+      "fetchedAt": "2026-09-06T09:23:58.359Z",
       "lines": [
         {
           "id": "2453",
@@ -31,7 +31,7 @@
       ]
     },
     "500e-3-plus1": {
-      "fetchedAt": "2026-08-29T11:38:29.239Z",
+      "fetchedAt": "2026-09-06T09:23:58.651Z",
       "lines": [
         {
           "id": "2573",
@@ -51,7 +51,7 @@
       ]
     },
     "ev3": {
-      "fetchedAt": "2026-08-29T11:38:29.748Z",
+      "fetchedAt": "2026-09-06T09:23:59.324Z",
       "lines": [
         {
           "id": "1966",
@@ -76,7 +76,7 @@
       ]
     },
     "b05": {
-      "fetchedAt": "2026-08-29T11:38:30.261Z",
+      "fetchedAt": "2026-09-06T09:23:59.824Z",
       "lines": [
         {
           "id": "2833",
@@ -91,7 +91,7 @@
       ]
     },
     "ex60": {
-      "fetchedAt": "2026-08-29T11:38:29.758Z",
+      "fetchedAt": "2026-09-06T09:23:59.139Z",
       "lines": [
         {
           "id": "2650",
@@ -106,7 +106,7 @@
       ]
     },
     "glc-suv": {
-      "fetchedAt": "2026-08-29T11:38:29.949Z",
+      "fetchedAt": "2026-09-06T09:23:59.626Z",
       "lines": [
         {
           "id": "8",
@@ -116,7 +116,7 @@
       ]
     },
     "c-klasse-limousine": {
-      "fetchedAt": "2026-08-29T11:38:32.921Z",
+      "fetchedAt": "2026-09-06T09:24:02.999Z",
       "lines": [
         {
           "id": "23",
@@ -126,7 +126,7 @@
       ]
     },
     "atto-2": {
-      "fetchedAt": "2026-08-29T11:38:30.782Z",
+      "fetchedAt": "2026-09-06T09:24:00.325Z",
       "lines": [
         {
           "id": "2593",
@@ -136,7 +136,7 @@
       ]
     },
     "gla": {
-      "fetchedAt": "2026-08-29T11:38:36.618Z",
+      "fetchedAt": "2026-09-06T09:24:05.389Z",
       "lines": [
         {
           "id": "11",
@@ -146,7 +146,7 @@
       ]
     },
     "r5-e-tech": {
-      "fetchedAt": "2026-08-29T11:38:30.436Z",
+      "fetchedAt": "2026-09-06T09:23:59.826Z",
       "lines": [
         {
           "id": "2070",
@@ -171,7 +171,7 @@
       ]
     },
     "sealion-7": {
-      "fetchedAt": "2026-08-29T11:38:30.797Z",
+      "fetchedAt": "2026-09-06T09:24:00.815Z",
       "lines": [
         {
           "id": "2474",
@@ -191,7 +191,7 @@
       ]
     },
     "7gt": {
-      "fetchedAt": "2026-08-29T11:38:30.925Z",
+      "fetchedAt": "2026-09-06T09:24:00.596Z",
       "lines": [
         {
           "id": "2871",
@@ -206,7 +206,7 @@
       ]
     },
     "c-hr": {
-      "fetchedAt": "2026-08-29T11:38:31.435Z",
+      "fetchedAt": "2026-09-06T09:24:00.841Z",
       "lines": [
         {
           "id": "2740",
@@ -236,7 +236,7 @@
       ]
     },
     "id-3": {
-      "fetchedAt": "2026-08-29T11:38:31.794Z",
+      "fetchedAt": "2026-09-06T09:24:01.359Z",
       "lines": [
         {
           "id": "2744",
@@ -256,7 +256,7 @@
       ]
     },
     "b10": {
-      "fetchedAt": "2026-08-29T11:38:31.293Z",
+      "fetchedAt": "2026-09-06T09:24:00.109Z",
       "lines": [
         {
           "id": "2560",
@@ -276,7 +276,7 @@
       ]
     },
     "ioniq-5": {
-      "fetchedAt": "2026-08-29T11:38:31.290Z",
+      "fetchedAt": "2026-09-06T09:24:00.318Z",
       "lines": [
         {
           "id": "1156",
@@ -316,7 +316,7 @@
       ]
     },
     "ioniq-6": {
-      "fetchedAt": "2026-08-29T11:38:32.853Z",
+      "fetchedAt": "2026-09-06T09:24:04.081Z",
       "lines": [
         {
           "id": "1157",
@@ -342,11 +342,16 @@
           "id": "2655",
           "name": "Hyundai IONIQ 6 N Line X",
           "url": "/neuwagen/hyundai/ioniq-6/n-line-x/"
+        },
+        {
+          "id": "2908",
+          "name": "Hyundai IONIQ 6 N",
+          "url": "/neuwagen/hyundai/ioniq-6/n/"
         }
       ]
     },
     "glb": {
-      "fetchedAt": "2026-08-29T11:38:33.915Z",
+      "fetchedAt": "2026-09-06T09:24:03.596Z",
       "lines": [
         {
           "id": "10",
@@ -356,7 +361,7 @@
       ]
     },
     "twingo": {
-      "fetchedAt": "2026-08-29T11:38:33.896Z",
+      "fetchedAt": "2026-09-06T09:24:03.386Z",
       "lines": [
         {
           "id": "2704",
@@ -371,7 +376,7 @@
       ]
     },
     "ev6": {
-      "fetchedAt": "2026-08-29T11:38:32.859Z",
+      "fetchedAt": "2026-09-06T09:24:03.878Z",
       "lines": [
         {
           "id": "2046",
@@ -396,7 +401,7 @@
       ]
     },
     "ev4": {
-      "fetchedAt": "2026-08-29T11:38:31.922Z",
+      "fetchedAt": "2026-09-06T09:24:02.371Z",
       "lines": [
         {
           "id": "2379",
@@ -416,7 +421,7 @@
       ]
     },
     "t03": {
-      "fetchedAt": "2026-08-29T11:38:32.414Z",
+      "fetchedAt": "2026-09-06T09:24:01.601Z",
       "lines": [
         {
           "id": "2269",
@@ -426,7 +431,7 @@
       ]
     },
     "deepal-s05": {
-      "fetchedAt": "2026-08-29T11:38:31.799Z",
+      "fetchedAt": "2026-09-06T09:24:02.501Z",
       "lines": [
         {
           "id": "2877",
@@ -441,7 +446,7 @@
       ]
     },
     "6e": {
-      "fetchedAt": "2026-08-29T11:38:34.416Z",
+      "fetchedAt": "2026-09-06T09:24:07.498Z",
       "lines": [
         {
           "id": "2263",
@@ -456,7 +461,7 @@
       ]
     },
     "kona-elektro": {
-      "fetchedAt": "2026-08-29T11:38:33.418Z",
+      "fetchedAt": "2026-09-06T09:24:03.110Z",
       "lines": [
         {
           "id": "2024",
@@ -486,27 +491,27 @@
       ]
     },
     "epiq": {
-      "fetchedAt": "2026-08-29T11:38:35.560Z",
+      "fetchedAt": "2026-09-06T09:24:04.448Z",
       "lines": [
         {
           "id": "2787",
-          "name": "Skoda Epiq Essence (neues Modell)",
+          "name": "Skoda Epiq Essence",
           "url": "/neuwagen/skoda/epiq/essence/"
         },
         {
           "id": "2788",
-          "name": "Skoda Epiq Selection (neues Modell)",
+          "name": "Skoda Epiq Selection",
           "url": "/neuwagen/skoda/epiq/selection/"
         },
         {
           "id": "2789",
-          "name": "Skoda Epiq First Edition (neues Modell)",
+          "name": "Skoda Epiq First Edition",
           "url": "/neuwagen/skoda/epiq/first-edition/"
         }
       ]
     },
     "pv5-passenger": {
-      "fetchedAt": "2026-08-29T11:38:33.930Z",
+      "fetchedAt": "2026-09-06T09:24:05.012Z",
       "lines": [
         {
           "id": "2344",
@@ -526,7 +531,7 @@
       ]
     },
     "id-polo": {
-      "fetchedAt": "2026-08-29T11:38:34.451Z",
+      "fetchedAt": "2026-09-06T09:24:01.082Z",
       "lines": [
         {
           "id": "2873",
@@ -546,7 +551,7 @@
       ]
     },
     "atto-3-evo": {
-      "fetchedAt": "2026-08-29T11:38:33.372Z",
+      "fetchedAt": "2026-09-06T09:24:04.897Z",
       "lines": [
         {
           "id": "2707",
@@ -561,7 +566,7 @@
       ]
     },
     "deepal-s07": {
-      "fetchedAt": "2026-08-29T11:38:35.559Z",
+      "fetchedAt": "2026-09-06T09:24:06.508Z",
       "lines": [
         {
           "id": "2881",
@@ -571,7 +576,7 @@
       ]
     },
     "dolphin-surf": {
-      "fetchedAt": "2026-08-29T11:38:35.574Z",
+      "fetchedAt": "2026-09-06T09:24:04.942Z",
       "lines": [
         {
           "id": "2457",
@@ -591,7 +596,7 @@
       ]
     },
     "inster": {
-      "fetchedAt": "2026-08-29T11:38:32.306Z",
+      "fetchedAt": "2026-09-06T09:24:03.498Z",
       "lines": [
         {
           "id": "2076",
@@ -616,7 +621,7 @@
       ]
     },
     "7x": {
-      "fetchedAt": "2026-08-29T11:38:35.053Z",
+      "fetchedAt": "2026-09-06T09:24:04.514Z",
       "lines": [
         {
           "id": "2870",
@@ -626,22 +631,22 @@
       ]
     },
     "peaq": {
-      "fetchedAt": "2026-08-29T11:38:37.657Z",
+      "fetchedAt": "2026-09-06T09:24:01.970Z",
       "lines": [
         {
           "id": "2849",
-          "name": "Skoda Peaq Selection (neues Modell)",
+          "name": "Skoda Peaq Selection",
           "url": "/neuwagen/skoda/peaq/selection/"
         },
         {
           "id": "2850",
-          "name": "Skoda Peaq Sportline (neues Modell)",
+          "name": "Skoda Peaq Sportline",
           "url": "/neuwagen/skoda/peaq/sportline/"
         }
       ]
     },
     "e-c3": {
-      "fetchedAt": "2026-08-29T11:38:32.303Z",
+      "fetchedAt": "2026-09-06T09:24:02.896Z",
       "lines": [
         {
           "id": "1691",
@@ -676,7 +681,7 @@
       ]
     },
     "cla-shooting-brake": {
-      "fetchedAt": "2026-08-29T11:38:38.201Z",
+      "fetchedAt": "2026-09-06T09:24:07.996Z",
       "lines": [
         {
           "id": "20",
@@ -686,7 +691,7 @@
       ]
     },
     "scenic-e-tech": {
-      "fetchedAt": "2026-08-29T11:38:36.104Z",
+      "fetchedAt": "2026-09-06T09:24:02.624Z",
       "lines": [
         {
           "id": "1672",
@@ -721,7 +726,7 @@
       ]
     },
     "ev2": {
-      "fetchedAt": "2026-08-29T11:38:35.028Z",
+      "fetchedAt": "2026-09-06T09:24:03.999Z",
       "lines": [
         {
           "id": "2716",
@@ -751,7 +756,7 @@
       ]
     },
     "4-urban": {
-      "fetchedAt": "2026-08-29T11:38:35.041Z",
+      "fetchedAt": "2026-09-06T09:24:05.516Z",
       "lines": [
         {
           "id": "2762",
@@ -771,7 +776,7 @@
       ]
     },
     "bz4x": {
-      "fetchedAt": "2026-08-29T11:38:38.178Z",
+      "fetchedAt": "2026-09-06T09:24:07.329Z",
       "lines": [
         {
           "id": "1906",
@@ -791,8 +796,13 @@
       ]
     },
     "frontera": {
-      "fetchedAt": "2026-08-29T11:38:41.581Z",
+      "fetchedAt": "2026-09-06T09:24:09.442Z",
       "lines": [
+        {
+          "id": "2903",
+          "name": "Opel Frontera Start",
+          "url": "/neuwagen/opel/frontera/start/"
+        },
         {
           "id": "1848",
           "name": "Opel Frontera Edition",
@@ -811,7 +821,7 @@
       ]
     },
     "leaf": {
-      "fetchedAt": "2026-08-29T11:38:37.133Z",
+      "fetchedAt": "2026-09-06T09:24:02.118Z",
       "lines": [
         {
           "id": "2685",
@@ -836,7 +846,7 @@
       ]
     },
     "raval": {
-      "fetchedAt": "2026-08-29T11:38:40.289Z",
+      "fetchedAt": "2026-09-06T09:24:07.439Z",
       "lines": [
         {
           "id": "2874",
@@ -856,7 +866,7 @@
       ]
     },
     "i4": {
-      "fetchedAt": "2026-08-29T11:38:37.669Z",
+      "fetchedAt": "2026-09-06T09:24:06.009Z",
       "lines": [
         {
           "id": "856",
@@ -876,7 +886,7 @@
       ]
     },
     "e-c3-aircross": {
-      "fetchedAt": "2026-08-29T11:38:38.722Z",
+      "fetchedAt": "2026-09-06T09:24:08.437Z",
       "lines": [
         {
           "id": "1889",
@@ -906,7 +916,7 @@
       ]
     },
     "dolphin": {
-      "fetchedAt": "2026-08-29T11:38:36.633Z",
+      "fetchedAt": "2026-09-06T09:24:06.361Z",
       "lines": [
         {
           "id": "2460",
@@ -921,7 +931,7 @@
       ]
     },
     "b03x": {
-      "fetchedAt": "2026-08-29T11:38:36.103Z",
+      "fetchedAt": "2026-09-06T09:24:05.442Z",
       "lines": [
         {
           "id": "2853",
@@ -936,7 +946,7 @@
       ]
     },
     "ev5": {
-      "fetchedAt": "2026-08-29T11:38:33.384Z",
+      "fetchedAt": "2026-09-06T09:24:06.938Z",
       "lines": [
         {
           "id": "2492",
@@ -961,7 +971,7 @@
       ]
     },
     "grande-panda": {
-      "fetchedAt": "2026-08-29T11:38:37.154Z",
+      "fetchedAt": "2026-09-06T09:24:07.004Z",
       "lines": [
         {
           "id": "2315",
@@ -981,7 +991,7 @@
       ]
     },
     "cx-6e": {
-      "fetchedAt": "2026-08-29T11:38:34.429Z",
+      "fetchedAt": "2026-09-06T09:24:01.419Z",
       "lines": [
         {
           "id": "2683",
@@ -996,7 +1006,7 @@
       ]
     },
     "r4-e-tech": {
-      "fetchedAt": "2026-08-29T11:38:38.707Z",
+      "fetchedAt": "2026-09-06T09:24:09.463Z",
       "lines": [
         {
           "id": "2272",
@@ -1031,7 +1041,7 @@
       ]
     },
     "enyaq": {
-      "fetchedAt": "2026-08-29T11:38:38.191Z",
+      "fetchedAt": "2026-09-06T09:24:05.938Z",
       "lines": [
         {
           "id": "2755",
@@ -1056,7 +1066,7 @@
       ]
     },
     "ix1": {
-      "fetchedAt": "2026-08-29T11:38:36.621Z",
+      "fetchedAt": "2026-09-06T09:24:05.880Z",
       "lines": [
         {
           "id": "850",
@@ -1081,7 +1091,7 @@
       ]
     },
     "megane-e-tech": {
-      "fetchedAt": "2026-08-29T11:38:41.894Z",
+      "fetchedAt": "2026-09-06T09:24:08.778Z",
       "lines": [
         {
           "id": "218",
@@ -1101,7 +1111,7 @@
       ]
     },
     "cayenne-electric": {
-      "fetchedAt": "2026-08-29T11:38:39.801Z",
+      "fetchedAt": "2026-09-06T09:24:10.226Z",
       "lines": [
         {
           "id": "2548",
@@ -1111,7 +1121,7 @@
       ]
     },
     "elroq": {
-      "fetchedAt": "2026-08-29T11:38:37.675Z",
+      "fetchedAt": "2026-09-06T09:24:06.844Z",
       "lines": [
         {
           "id": "2752",
@@ -1136,7 +1146,7 @@
       ]
     },
     "id-4": {
-      "fetchedAt": "2026-08-29T11:38:39.203Z",
+      "fetchedAt": "2026-09-06T09:24:08.942Z",
       "lines": [
         {
           "id": "2265",
@@ -1156,7 +1166,7 @@
       ]
     },
     "c10": {
-      "fetchedAt": "2026-08-29T11:38:38.685Z",
+      "fetchedAt": "2026-09-06T09:24:07.944Z",
       "lines": [
         {
           "id": "2270",
@@ -1171,7 +1181,7 @@
       ]
     },
     "a6-avant-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:40.899Z",
+      "fetchedAt": "2026-09-06T09:24:12.485Z",
       "lines": [
         {
           "id": "1990",
@@ -1186,7 +1196,7 @@
       ]
     },
     "seal": {
-      "fetchedAt": "2026-08-29T11:38:43.571Z",
+      "fetchedAt": "2026-09-06T09:24:11.707Z",
       "lines": [
         {
           "id": "2466",
@@ -1206,7 +1216,7 @@
       ]
     },
     "spring": {
-      "fetchedAt": "2026-08-29T11:38:40.404Z",
+      "fetchedAt": "2026-09-06T09:24:08.476Z",
       "lines": [
         {
           "id": "2141",
@@ -1221,7 +1231,7 @@
       ]
     },
     "e-2008": {
-      "fetchedAt": "2026-08-29T11:38:39.758Z",
+      "fetchedAt": "2026-09-06T09:24:08.294Z",
       "lines": [
         {
           "id": "1947",
@@ -1251,7 +1261,7 @@
       ]
     },
     "e-vitara": {
-      "fetchedAt": "2026-08-29T11:38:40.884Z",
+      "fetchedAt": "2026-09-06T09:24:11.013Z",
       "lines": [
         {
           "id": "2603",
@@ -1271,7 +1281,7 @@
       ]
     },
     "id-7-tourer": {
-      "fetchedAt": "2026-08-29T11:38:42.556Z",
+      "fetchedAt": "2026-09-06T09:24:12.235Z",
       "lines": [
         {
           "id": "2267",
@@ -1281,7 +1291,7 @@
       ]
     },
     "ev9": {
-      "fetchedAt": "2026-08-29T11:38:40.790Z",
+      "fetchedAt": "2026-09-06T09:24:09.948Z",
       "lines": [
         {
           "id": "2108",
@@ -1311,7 +1321,7 @@
       ]
     },
     "puma-gen-e": {
-      "fetchedAt": "2026-08-29T11:38:41.399Z",
+      "fetchedAt": "2026-09-06T09:24:12.210Z",
       "lines": [
         {
           "id": "2117",
@@ -1331,7 +1341,7 @@
       ]
     },
     "outback": {
-      "fetchedAt": "2026-08-29T11:38:40.392Z",
+      "fetchedAt": "2026-09-06T09:24:09.744Z",
       "lines": [
         {
           "id": "658",
@@ -1356,7 +1366,7 @@
       ]
     },
     "avenger": {
-      "fetchedAt": "2026-08-29T11:38:42.945Z",
+      "fetchedAt": "2026-09-06T09:24:23.423Z",
       "lines": [
         {
           "id": "1245",
@@ -1396,7 +1406,7 @@
       ]
     },
     "a6-sportback-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:42.443Z",
+      "fetchedAt": "2026-09-06T09:24:11.720Z",
       "lines": [
         {
           "id": "1986",
@@ -1411,7 +1421,7 @@
       ]
     },
     "cooper-electric": {
-      "fetchedAt": "2026-08-29T11:38:39.235Z",
+      "fetchedAt": "2026-09-06T09:24:10.710Z",
       "lines": [
         {
           "id": "2361",
@@ -1421,7 +1431,7 @@
       ]
     },
     "born": {
-      "fetchedAt": "2026-08-29T11:38:45.992Z",
+      "fetchedAt": "2026-09-06T09:24:12.736Z",
       "lines": [
         {
           "id": "671",
@@ -1441,7 +1451,7 @@
       ]
     },
     "id-cross": {
-      "fetchedAt": "2026-08-29T11:38:42.072Z",
+      "fetchedAt": "2026-09-06T09:24:11.988Z",
       "lines": [
         {
           "id": "2867",
@@ -1456,7 +1466,7 @@
       ]
     },
     "e-3008": {
-      "fetchedAt": "2026-08-29T11:38:43.458Z",
+      "fetchedAt": "2026-09-06T09:24:11.218Z",
       "lines": [
         {
           "id": "1395",
@@ -1481,7 +1491,7 @@
       ]
     },
     "e-5008": {
-      "fetchedAt": "2026-08-29T11:38:42.444Z",
+      "fetchedAt": "2026-09-06T09:24:10.525Z",
       "lines": [
         {
           "id": "1813",
@@ -1506,7 +1516,7 @@
       ]
     },
     "ex40": {
-      "fetchedAt": "2026-08-29T11:38:44.560Z",
+      "fetchedAt": "2026-09-06T09:24:12.970Z",
       "lines": [
         {
           "id": "1741",
@@ -1541,7 +1551,7 @@
       ]
     },
     "ix": {
-      "fetchedAt": "2026-08-29T11:38:41.390Z",
+      "fetchedAt": "2026-09-06T09:24:11.214Z",
       "lines": [
         {
           "id": "851",
@@ -1561,7 +1571,7 @@
       ]
     },
     "proace-verso": {
-      "fetchedAt": "2026-08-29T11:38:46.060Z",
+      "fetchedAt": "2026-09-06T09:24:16.738Z",
       "lines": [
         {
           "id": "1783",
@@ -1596,7 +1606,7 @@
       ]
     },
     "600-elektro": {
-      "fetchedAt": "2026-08-29T11:38:44.467Z",
+      "fetchedAt": "2026-09-06T09:24:12.712Z",
       "lines": [
         {
           "id": "2565",
@@ -1621,7 +1631,7 @@
       ]
     },
     "id-buzz": {
-      "fetchedAt": "2026-08-29T11:38:41.892Z",
+      "fetchedAt": "2026-09-06T09:24:21.461Z",
       "lines": [
         {
           "id": "2750",
@@ -1646,7 +1656,7 @@
       ]
     },
     "ev4-fastback": {
-      "fetchedAt": "2026-08-29T11:38:43.467Z",
+      "fetchedAt": "2026-09-06T09:24:13.200Z",
       "lines": [
         {
           "id": "2382",
@@ -1661,7 +1671,7 @@
       ]
     },
     "c5-aircross": {
-      "fetchedAt": "2026-08-29T11:38:44.468Z",
+      "fetchedAt": "2026-09-06T09:24:14.245Z",
       "lines": [
         {
           "id": "2443",
@@ -1686,7 +1696,7 @@
       ]
     },
     "countryman-electric": {
-      "fetchedAt": "2026-08-29T11:38:45.485Z",
+      "fetchedAt": "2026-09-06T09:24:15.285Z",
       "lines": [
         {
           "id": "2367",
@@ -1696,7 +1706,7 @@
       ]
     },
     "id-7-limousine": {
-      "fetchedAt": "2026-08-29T11:38:43.968Z",
+      "fetchedAt": "2026-09-06T09:24:11.500Z",
       "lines": [
         {
           "id": "2266",
@@ -1706,7 +1716,7 @@
       ]
     },
     "ioniq-9": {
-      "fetchedAt": "2026-08-29T11:38:43.082Z",
+      "fetchedAt": "2026-09-06T09:24:13.457Z",
       "lines": [
         {
           "id": "2340",
@@ -1731,7 +1741,7 @@
       ]
     },
     "taycan": {
-      "fetchedAt": "2026-08-29T11:38:43.969Z",
+      "fetchedAt": "2026-09-06T09:24:10.726Z",
       "lines": [
         {
           "id": "171",
@@ -1741,7 +1751,7 @@
       ]
     },
     "grandland": {
-      "fetchedAt": "2026-08-29T11:38:47.650Z",
+      "fetchedAt": "2026-09-06T09:24:15.093Z",
       "lines": [
         {
           "id": "2022",
@@ -1761,7 +1771,7 @@
       ]
     },
     "explorer": {
-      "fetchedAt": "2026-08-29T11:38:44.967Z",
+      "fetchedAt": "2026-09-06T09:24:14.289Z",
       "lines": [
         {
           "id": "2260",
@@ -1786,7 +1796,7 @@
       ]
     },
     "mokka-electric": {
-      "fetchedAt": "2026-08-29T11:38:45.056Z",
+      "fetchedAt": "2026-09-06T09:24:13.234Z",
       "lines": [
         {
           "id": "2040",
@@ -1811,7 +1821,7 @@
       ]
     },
     "i5-limousine": {
-      "fetchedAt": "2026-08-29T11:38:44.069Z",
+      "fetchedAt": "2026-09-06T09:24:13.761Z",
       "lines": [
         {
           "id": "852",
@@ -1831,7 +1841,7 @@
       ]
     },
     "corsa-electric": {
-      "fetchedAt": "2026-08-29T11:38:47.662Z",
+      "fetchedAt": "2026-09-06T09:24:16.296Z",
       "lines": [
         {
           "id": "2021",
@@ -1856,7 +1866,7 @@
       ]
     },
     "junior": {
-      "fetchedAt": "2026-08-29T11:38:48.167Z",
+      "fetchedAt": "2026-09-06T09:24:16.790Z",
       "lines": [
         {
           "id": "2699",
@@ -1886,7 +1896,7 @@
       ]
     },
     "q6-suv-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:46.002Z",
+      "fetchedAt": "2026-09-06T09:24:14.793Z",
       "lines": [
         {
           "id": "1721",
@@ -1901,7 +1911,7 @@
       ]
     },
     "a290": {
-      "fetchedAt": "2026-08-29T11:38:46.526Z",
+      "fetchedAt": "2026-09-06T09:24:16.236Z",
       "lines": [
         {
           "id": "2736",
@@ -1926,7 +1936,7 @@
       ]
     },
     "micra": {
-      "fetchedAt": "2026-08-29T11:38:46.580Z",
+      "fetchedAt": "2026-09-06T09:24:14.610Z",
       "lines": [
         {
           "id": "2619",
@@ -1946,7 +1956,7 @@
       ]
     },
     "eclipse-cross": {
-      "fetchedAt": "2026-08-29T11:38:45.506Z",
+      "fetchedAt": "2026-09-06T09:24:14.730Z",
       "lines": [
         {
           "id": "2794",
@@ -1961,7 +1971,7 @@
       ]
     },
     "tavascan": {
-      "fetchedAt": "2026-08-29T11:38:47.605Z",
+      "fetchedAt": "2026-09-06T09:24:17.733Z",
       "lines": [
         {
           "id": "2759",
@@ -1991,7 +2001,7 @@
       ]
     },
     "x": {
-      "fetchedAt": "2026-08-29T11:38:47.107Z",
+      "fetchedAt": "2026-09-06T09:24:17.075Z",
       "lines": [
         {
           "id": "2869",
@@ -2001,7 +2011,7 @@
       ]
     },
     "capri": {
-      "fetchedAt": "2026-08-29T11:38:48.153Z",
+      "fetchedAt": "2026-09-06T09:24:17.238Z",
       "lines": [
         {
           "id": "2258",
@@ -2021,7 +2031,7 @@
       ]
     },
     "e-tourneo-courier": {
-      "fetchedAt": "2026-08-29T11:38:49.178Z",
+      "fetchedAt": "2026-09-06T09:24:18.768Z",
       "lines": [
         {
           "id": "2119",
@@ -2041,7 +2051,7 @@
       ]
     },
     "e-c4": {
-      "fetchedAt": "2026-08-29T11:38:47.165Z",
+      "fetchedAt": "2026-09-06T09:24:15.809Z",
       "lines": [
         {
           "id": "1002",
@@ -2071,7 +2081,7 @@
       ]
     },
     "ariya": {
-      "fetchedAt": "2026-08-29T11:38:51.314Z",
+      "fetchedAt": "2026-09-06T09:24:21.757Z",
       "lines": [
         {
           "id": "49",
@@ -2081,7 +2091,7 @@
       ]
     },
     "e-tron-gt": {
-      "fetchedAt": "2026-08-29T11:38:44.968Z",
+      "fetchedAt": "2026-09-06T09:24:13.790Z",
       "lines": [
         {
           "id": "2517",
@@ -2091,17 +2101,17 @@
       ]
     },
     "q4-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:48.646Z",
+      "fetchedAt": "2026-09-06T09:24:18.262Z",
       "lines": [
         {
           "id": "733",
-          "name": "Audi Q4 e-tron (neues Modell)",
+          "name": "Audi Q4 e-tron",
           "url": "/neuwagen/audi/q4-e-tron/basis/"
         }
       ]
     },
     "es90": {
-      "fetchedAt": "2026-08-29T11:38:48.607Z",
+      "fetchedAt": "2026-09-06T09:24:18.045Z",
       "lines": [
         {
           "id": "2286",
@@ -2121,7 +2131,7 @@
       ]
     },
     "ix2": {
-      "fetchedAt": "2026-08-29T11:38:50.191Z",
+      "fetchedAt": "2026-09-06T09:24:17.278Z",
       "lines": [
         {
           "id": "847",
@@ -2141,7 +2151,7 @@
       ]
     },
     "aceman-electric": {
-      "fetchedAt": "2026-08-29T11:38:49.678Z",
+      "fetchedAt": "2026-09-06T09:24:21.260Z",
       "lines": [
         {
           "id": "2362",
@@ -2151,7 +2161,7 @@
       ]
     },
     "e-208": {
-      "fetchedAt": "2026-08-29T11:38:48.106Z",
+      "fetchedAt": "2026-09-06T09:24:16.565Z",
       "lines": [
         {
           "id": "1949",
@@ -2176,7 +2186,7 @@
       ]
     },
     "compass": {
-      "fetchedAt": "2026-08-29T11:38:51.341Z",
+      "fetchedAt": "2026-09-06T09:24:19.766Z",
       "lines": [
         {
           "id": "2860",
@@ -2201,7 +2211,7 @@
       ]
     },
     "a390": {
-      "fetchedAt": "2026-08-29T11:38:49.110Z",
+      "fetchedAt": "2026-09-06T09:24:19.022Z",
       "lines": [
         {
           "id": "2735",
@@ -2211,7 +2221,7 @@
       ]
     },
     "ex90": {
-      "fetchedAt": "2026-08-29T11:38:47.139Z",
+      "fetchedAt": "2026-09-06T09:24:15.589Z",
       "lines": [
         {
           "id": "1912",
@@ -2236,7 +2246,7 @@
       ]
     },
     "n-8": {
-      "fetchedAt": "2026-08-29T11:38:50.727Z",
+      "fetchedAt": "2026-09-06T09:24:20.000Z",
       "lines": [
         {
           "id": "2388",
@@ -2251,7 +2261,7 @@
       ]
     },
     "i5-touring": {
-      "fetchedAt": "2026-08-29T11:38:49.165Z",
+      "fetchedAt": "2026-09-06T09:24:19.510Z",
       "lines": [
         {
           "id": "1565",
@@ -2271,7 +2281,7 @@
       ]
     },
     "id-5": {
-      "fetchedAt": "2026-08-29T11:38:49.622Z",
+      "fetchedAt": "2026-09-06T09:24:17.771Z",
       "lines": [
         {
           "id": "1875",
@@ -2286,27 +2296,27 @@
       ]
     },
     "n-7": {
-      "fetchedAt": "2026-08-29T11:38:52.327Z",
+      "fetchedAt": "2026-09-06T09:24:20.974Z",
       "lines": [
         {
           "id": "2808",
-          "name": "DS N°7 Pallas (neues Modell)",
+          "name": "DS N°7 Pallas",
           "url": "/neuwagen/ds/n-7/pallas/"
         },
         {
           "id": "2809",
-          "name": "DS N°7 Etoile (neues Modell)",
+          "name": "DS N°7 Etoile",
           "url": "/neuwagen/ds/n-7/etoile/"
         },
         {
           "id": "2810",
-          "name": "DS N°7 La Premiere (neues Modell)",
+          "name": "DS N°7 La Premiere",
           "url": "/neuwagen/ds/n-7/la-premiere/"
         }
       ]
     },
     "500e": {
-      "fetchedAt": "2026-08-29T11:38:50.819Z",
+      "fetchedAt": "2026-09-06T09:24:20.486Z",
       "lines": [
         {
           "id": "662",
@@ -2321,7 +2331,7 @@
       ]
     },
     "solterra": {
-      "fetchedAt": "2026-08-29T11:38:49.681Z",
+      "fetchedAt": "2026-09-06T09:24:17.562Z",
       "lines": [
         {
           "id": "648",
@@ -2341,7 +2351,7 @@
       ]
     },
     "e-c4-x": {
-      "fetchedAt": "2026-08-29T11:38:54.230Z",
+      "fetchedAt": "2026-09-06T09:24:20.688Z",
       "lines": [
         {
           "id": "1001",
@@ -2361,7 +2371,7 @@
       ]
     },
     "e-transporter-kombi": {
-      "fetchedAt": "2026-08-29T11:38:52.218Z",
+      "fetchedAt": "2026-09-06T09:24:24.749Z",
       "lines": [
         {
           "id": "2251",
@@ -2376,7 +2386,7 @@
       ]
     },
     "enyaq-coupe": {
-      "fetchedAt": "2026-08-29T11:38:51.221Z",
+      "fetchedAt": "2026-09-06T09:24:20.758Z",
       "lines": [
         {
           "id": "2757",
@@ -2396,7 +2406,7 @@
       ]
     },
     "mustang-mach-e": {
-      "fetchedAt": "2026-08-29T11:38:50.231Z",
+      "fetchedAt": "2026-09-06T09:24:18.232Z",
       "lines": [
         {
           "id": "1041",
@@ -2416,7 +2426,7 @@
       ]
     },
     "urban-cruiser": {
-      "fetchedAt": "2026-08-29T11:38:48.663Z",
+      "fetchedAt": "2026-09-06T09:24:19.269Z",
       "lines": [
         {
           "id": "2348",
@@ -2431,7 +2441,7 @@
       ]
     },
     "townstar-kombi": {
-      "fetchedAt": "2026-08-29T11:38:50.801Z",
+      "fetchedAt": "2026-09-06T09:24:20.264Z",
       "lines": [
         {
           "id": "40",
@@ -2451,7 +2461,7 @@
       ]
     },
     "e-308": {
-      "fetchedAt": "2026-08-29T11:38:51.723Z",
+      "fetchedAt": "2026-09-06T09:24:19.227Z",
       "lines": [
         {
           "id": "2050",
@@ -2476,7 +2486,7 @@
       ]
     },
     "macan-electric": {
-      "fetchedAt": "2026-08-29T11:38:42.938Z",
+      "fetchedAt": "2026-09-06T09:24:18.533Z",
       "lines": [
         {
           "id": "1506",
@@ -2486,7 +2496,7 @@
       ]
     },
     "rs-e-tron-gt": {
-      "fetchedAt": "2026-08-29T11:38:50.208Z",
+      "fetchedAt": "2026-09-06T09:24:19.713Z",
       "lines": [
         {
           "id": "742",
@@ -2496,7 +2506,7 @@
       ]
     },
     "e-berlingo": {
-      "fetchedAt": "2026-08-29T11:38:51.814Z",
+      "fetchedAt": "2026-09-06T09:24:22.262Z",
       "lines": [
         {
           "id": "1655",
@@ -2531,7 +2541,7 @@
       ]
     },
     "i7": {
-      "fetchedAt": "2026-08-29T11:38:52.819Z",
+      "fetchedAt": "2026-09-06T09:24:23.142Z",
       "lines": [
         {
           "id": "881",
@@ -2556,7 +2566,7 @@
       ]
     },
     "combo-electric": {
-      "fetchedAt": "2026-08-29T11:38:52.372Z",
+      "fetchedAt": "2026-09-06T09:24:21.951Z",
       "lines": [
         {
           "id": "2073",
@@ -2571,7 +2581,7 @@
       ]
     },
     "ds3": {
-      "fetchedAt": "2026-08-29T11:38:52.866Z",
+      "fetchedAt": "2026-09-06T09:24:22.158Z",
       "lines": [
         {
           "id": "2083",
@@ -2591,7 +2601,7 @@
       ]
     },
     "q6-sportback-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:30.268Z",
+      "fetchedAt": "2026-09-06T09:24:20.200Z",
       "lines": [
         {
           "id": "2219",
@@ -2606,7 +2616,7 @@
       ]
     },
     "proace-city-verso-electric": {
-      "fetchedAt": "2026-08-29T11:38:51.846Z",
+      "fetchedAt": "2026-09-06T09:24:21.178Z",
       "lines": [
         {
           "id": "2197",
@@ -2626,7 +2636,7 @@
       ]
     },
     "astra-electric": {
-      "fetchedAt": "2026-08-29T11:38:53.327Z",
+      "fetchedAt": "2026-09-06T09:24:21.666Z",
       "lines": [
         {
           "id": "2071",
@@ -2646,7 +2656,7 @@
       ]
     },
     "s-e-tron-gt": {
-      "fetchedAt": "2026-08-29T11:38:53.872Z",
+      "fetchedAt": "2026-09-06T09:24:23.630Z",
       "lines": [
         {
           "id": "1964",
@@ -2656,7 +2666,7 @@
       ]
     },
     "ec40": {
-      "fetchedAt": "2026-08-29T11:38:54.359Z",
+      "fetchedAt": "2026-09-06T09:24:22.936Z",
       "lines": [
         {
           "id": "384",
@@ -2665,8 +2675,8 @@
         },
         {
           "id": "411",
-          "name": "Volvo EC40 Plus Dark",
-          "url": "/neuwagen/volvo/ec40/plus-dark/"
+          "name": "Volvo EC40 Plus",
+          "url": "/neuwagen/volvo/ec40/plus/"
         },
         {
           "id": "1909",
@@ -2675,8 +2685,8 @@
         },
         {
           "id": "1910",
-          "name": "Volvo EC40 Ultra Dark",
-          "url": "/neuwagen/volvo/ec40/ultra-dark/"
+          "name": "Volvo EC40 Ultra",
+          "url": "/neuwagen/volvo/ec40/ultra/"
         },
         {
           "id": "1911",
@@ -2686,17 +2696,17 @@
       ]
     },
     "q4-sportback-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:52.719Z",
+      "fetchedAt": "2026-09-06T09:24:22.447Z",
       "lines": [
         {
           "id": "734",
-          "name": "Audi Q4 Sportback e-tron (neues Modell)",
+          "name": "Audi Q4 Sportback e-tron",
           "url": "/neuwagen/audi/q4-sportback-e-tron/basis/"
         }
       ]
     },
     "sq6-suv-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:53.226Z",
+      "fetchedAt": "2026-09-06T09:24:24.115Z",
       "lines": [
         {
           "id": "1724",
@@ -2706,7 +2716,7 @@
       ]
     },
     "s6-avant-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:53.813Z",
+      "fetchedAt": "2026-09-06T09:24:22.761Z",
       "lines": [
         {
           "id": "1998",
@@ -2716,7 +2726,7 @@
       ]
     },
     "e-308-sw": {
-      "fetchedAt": "2026-08-29T11:38:54.304Z",
+      "fetchedAt": "2026-09-06T09:24:23.262Z",
       "lines": [
         {
           "id": "2051",
@@ -2741,7 +2751,7 @@
       ]
     },
     "astra-sports-tourer-electric": {
-      "fetchedAt": "2026-08-29T11:38:54.795Z",
+      "fetchedAt": "2026-09-06T09:24:24.401Z",
       "lines": [
         {
           "id": "2072",
@@ -2761,7 +2771,7 @@
       ]
     },
     "n-4": {
-      "fetchedAt": "2026-08-29T11:38:54.726Z",
+      "fetchedAt": "2026-09-06T09:24:22.647Z",
       "lines": [
         {
           "id": "2384",
@@ -2786,7 +2796,7 @@
       ]
     },
     "e-408": {
-      "fetchedAt": "2026-08-29T11:38:54.849Z",
+      "fetchedAt": "2026-09-06T09:24:25.107Z",
       "lines": [
         {
           "id": "2115",
@@ -2806,7 +2816,7 @@
       ]
     },
     "e-caravelle": {
-      "fetchedAt": "2026-08-29T11:38:55.284Z",
+      "fetchedAt": "2026-09-06T09:24:24.885Z",
       "lines": [
         {
           "id": "2512",
@@ -2836,7 +2846,7 @@
       ]
     },
     "s6-sportback-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:53.722Z",
+      "fetchedAt": "2026-09-06T09:24:23.757Z",
       "lines": [
         {
           "id": "1994",
@@ -2846,7 +2856,7 @@
       ]
     },
     "tourneo-custom": {
-      "fetchedAt": "2026-08-29T11:38:55.340Z",
+      "fetchedAt": "2026-09-06T09:24:25.772Z",
       "lines": [
         {
           "id": "1120",
@@ -2876,7 +2886,7 @@
       ]
     },
     "500e-cabrio": {
-      "fetchedAt": "2026-08-29T11:38:56.319Z",
+      "fetchedAt": "2026-09-06T09:24:24.596Z",
       "lines": [
         {
           "id": "2574",
@@ -2896,7 +2906,7 @@
       ]
     },
     "e-rifter": {
-      "fetchedAt": "2026-08-29T11:38:55.725Z",
+      "fetchedAt": "2026-09-06T09:24:25.621Z",
       "lines": [
         {
           "id": "133",
@@ -2911,7 +2921,7 @@
       ]
     },
     "e-traveller": {
-      "fetchedAt": "2026-08-29T11:38:55.827Z",
+      "fetchedAt": "2026-09-06T09:24:26.114Z",
       "lines": [
         {
           "id": "128",
@@ -2926,7 +2936,7 @@
       ]
     },
     "600e": {
-      "fetchedAt": "2026-08-29T11:38:56.261Z",
+      "fetchedAt": "2026-09-06T09:24:25.900Z",
       "lines": [
         {
           "id": "2705",
@@ -2941,7 +2951,7 @@
       ]
     },
     "zafira-electric": {
-      "fetchedAt": "2026-08-29T11:38:55.773Z",
+      "fetchedAt": "2026-09-06T09:24:25.259Z",
       "lines": [
         {
           "id": "1941",
@@ -2956,7 +2966,7 @@
       ]
     },
     "sq6-sportback-e-tron": {
-      "fetchedAt": "2026-08-29T11:38:55.226Z",
+      "fetchedAt": "2026-09-06T09:24:24.253Z",
       "lines": [
         {
           "id": "2216",
@@ -2966,7 +2976,7 @@
       ]
     },
     "e-spacetourer": {
-      "fetchedAt": "2026-08-29T11:38:56.227Z",
+      "fetchedAt": "2026-09-06T09:24:25.409Z",
       "lines": [
         {
           "id": "1892",
@@ -20594,7 +20604,7 @@
       }
     },
     "2899": {
-      "fetchedAt": "2026-09-02T09:34:12.935Z",
+      "fetchedAt": "2026-09-06T09:24:10.223Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -20626,6 +20636,68 @@
               "kaufpreis": "67.583,55",
               "ersparnis": "12.406,45 (15,51)",
               "lieferzeit": "5-6 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2903": {
+      "fetchedAt": "2026-09-06T09:24:09.727Z",
+      "data": {
+        "byMotor": {
+          "4205": {
+            "endpreis": "18.809,65",
+            "kaufpreis": "17.919,65",
+            "ersparnis": "4.070,35 (18,51)",
+            "lieferzeit": "2-3 Monate"
+          }
+        },
+        "offers": {
+          "4205": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "16.339,95",
+              "kaufpreis": "15.280,85",
+              "ersparnis": "6.709,15 (30,51)",
+              "lieferzeit": "2-3 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "18.809,65",
+              "kaufpreis": "17.919,65",
+              "ersparnis": "4.070,35 (18,51)",
+              "lieferzeit": "2-3 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2908": {
+      "fetchedAt": "2026-09-06T09:24:04.402Z",
+      "data": {
+        "byMotor": {
+          "3991": {
+            "endpreis": "68.959,85",
+            "kaufpreis": "67.694,85",
+            "ersparnis": "8.805,15 (11,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "3991": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "63.979,70",
+              "kaufpreis": "62.714,70",
+              "ersparnis": "13.785,30 (18,02)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "68.959,85",
+              "kaufpreis": "67.694,85",
+              "ersparnis": "8.805,15 (11,51)",
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
