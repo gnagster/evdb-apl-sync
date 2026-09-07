@@ -3023,49 +3023,49 @@
   },
   "lineData": {
     "8": {
-      "fetchedAt": "2026-09-04T09:35:34.141Z",
+      "fetchedAt": "2026-09-07T10:12:59.923Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "10": {
-      "fetchedAt": "2026-09-04T09:35:40.467Z",
+      "fetchedAt": "2026-09-07T10:13:10.792Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "11": {
-      "fetchedAt": "2026-09-04T09:35:46.328Z",
+      "fetchedAt": "2026-09-07T10:13:13.822Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "20": {
-      "fetchedAt": "2026-09-04T09:35:50.508Z",
+      "fetchedAt": "2026-09-07T10:13:20.034Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "21": {
-      "fetchedAt": "2026-09-04T09:35:32.747Z",
+      "fetchedAt": "2026-09-07T10:12:59.286Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "23": {
-      "fetchedAt": "2026-09-04T09:35:43.313Z",
+      "fetchedAt": "2026-09-07T10:13:09.755Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "40": {
-      "fetchedAt": "2026-09-04T09:36:14.430Z",
+      "fetchedAt": "2026-09-07T10:13:45.149Z",
       "data": {
         "byMotor": {
           "310": {
@@ -3224,7 +3224,7 @@
       }
     },
     "49": {
-      "fetchedAt": "2026-09-04T09:36:15.772Z",
+      "fetchedAt": "2026-09-07T10:13:48.085Z",
       "data": {
         "byMotor": {
           "242": {
@@ -3308,7 +3308,7 @@
       }
     },
     "94": {
-      "fetchedAt": "2026-09-04T09:36:08.819Z",
+      "fetchedAt": "2026-09-07T10:13:37.267Z",
       "data": {
         "byMotor": {
           "347": {
@@ -3361,7 +3361,7 @@
       }
     },
     "100": {
-      "fetchedAt": "2026-09-04T09:36:05.984Z",
+      "fetchedAt": "2026-09-07T10:13:35.853Z",
       "data": {
         "byMotor": {
           "353": {
@@ -3480,7 +3480,7 @@
       }
     },
     "128": {
-      "fetchedAt": "2026-09-04T09:36:24.406Z",
+      "fetchedAt": "2026-09-07T10:13:55.837Z",
       "data": {
         "byMotor": {
           "466": {
@@ -3577,7 +3577,7 @@
       }
     },
     "133": {
-      "fetchedAt": "2026-09-04T09:36:23.255Z",
+      "fetchedAt": "2026-09-07T10:13:54.768Z",
       "data": {
         "byMotor": {
           "464": {
@@ -3630,7 +3630,7 @@
       }
     },
     "135": {
-      "fetchedAt": "2026-09-04T09:36:24.729Z",
+      "fetchedAt": "2026-09-07T10:13:56.175Z",
       "data": {
         "byMotor": {
           "466": {
@@ -3727,7 +3727,7 @@
       }
     },
     "138": {
-      "fetchedAt": "2026-09-04T09:36:06.618Z",
+      "fetchedAt": "2026-09-07T10:13:38.776Z",
       "data": {
         "byMotor": {
           "452": {
@@ -3780,7 +3780,7 @@
       }
     },
     "151": {
-      "fetchedAt": "2026-09-04T09:36:23.580Z",
+      "fetchedAt": "2026-09-07T10:13:55.191Z",
       "data": {
         "byMotor": {
           "464": {
@@ -3833,7 +3833,7 @@
       }
     },
     "158": {
-      "fetchedAt": "2026-09-04T09:36:06.905Z",
+      "fetchedAt": "2026-09-07T10:13:39.171Z",
       "data": {
         "byMotor": {
           "452": {
@@ -3864,7 +3864,7 @@
       }
     },
     "171": {
-      "fetchedAt": "2026-09-04T09:35:57.747Z",
+      "fetchedAt": "2026-09-07T10:13:26.479Z",
       "data": {
         "byMotor": {
           "558": {
@@ -4335,7 +4335,7 @@
       }
     },
     "218": {
-      "fetchedAt": "2026-09-04T09:35:53.140Z",
+      "fetchedAt": "2026-09-07T10:13:21.761Z",
       "data": {
         "byMotor": {
           "669": {
@@ -4366,7 +4366,7 @@
       }
     },
     "358": {
-      "fetchedAt": "2026-09-04T09:36:08.065Z",
+      "fetchedAt": "2026-09-07T10:13:38.323Z",
       "data": {
         "byMotor": {
           "872": {
@@ -4433,7 +4433,7 @@
       }
     },
     "368": {
-      "fetchedAt": "2026-09-04T09:35:37.151Z",
+      "fetchedAt": "2026-09-07T10:13:03.465Z",
       "data": {
         "byMotor": {
           "2544": {
@@ -4529,7 +4529,7 @@
       }
     },
     "370": {
-      "fetchedAt": "2026-09-04T09:36:08.657Z",
+      "fetchedAt": "2026-09-07T10:13:39.074Z",
       "data": {
         "byMotor": {
           "870": {
@@ -4654,7 +4654,7 @@
       }
     },
     "384": {
-      "fetchedAt": "2026-09-04T09:36:19.705Z",
+      "fetchedAt": "2026-09-07T10:13:51.227Z",
       "data": {
         "byMotor": {
           "882": {
@@ -4707,7 +4707,7 @@
       }
     },
     "531": {
-      "fetchedAt": "2026-09-04T09:36:16.315Z",
+      "fetchedAt": "2026-09-07T10:13:47.976Z",
       "data": {
         "byMotor": {
           "1047": {
@@ -4804,7 +4804,7 @@
       }
     },
     "648": {
-      "fetchedAt": "2026-09-04T09:36:10.976Z",
+      "fetchedAt": "2026-09-07T10:13:41.129Z",
       "data": {
         "byMotor": {
           "1241": {
@@ -4835,7 +4835,7 @@
       }
     },
     "654": {
-      "fetchedAt": "2026-09-04T09:36:11.287Z",
+      "fetchedAt": "2026-09-07T10:13:41.549Z",
       "data": {
         "byMotor": {
           "1241": {
@@ -4866,7 +4866,7 @@
       }
     },
     "657": {
-      "fetchedAt": "2026-09-04T09:36:11.597Z",
+      "fetchedAt": "2026-09-07T10:13:41.924Z",
       "data": {
         "byMotor": {
           "1241": {
@@ -4897,7 +4897,7 @@
       }
     },
     "658": {
-      "fetchedAt": "2026-09-04T09:35:55.004Z",
+      "fetchedAt": "2026-09-07T10:13:23.157Z",
       "data": {
         "byMotor": {
           "1240": {
@@ -4959,7 +4959,7 @@
       }
     },
     "671": {
-      "fetchedAt": "2026-09-04T09:36:00.999Z",
+      "fetchedAt": "2026-09-07T10:13:31.255Z",
       "data": {
         "byMotor": {
           "3679": {
@@ -4990,7 +4990,7 @@
       }
     },
     "733": {
-      "fetchedAt": "2026-09-04T09:36:10.804Z",
+      "fetchedAt": "2026-09-07T10:13:42.605Z",
       "data": {
         "byMotor": {
           "4076": {
@@ -5087,7 +5087,7 @@
       }
     },
     "734": {
-      "fetchedAt": "2026-09-04T09:36:18.970Z",
+      "fetchedAt": "2026-09-07T10:13:51.070Z",
       "data": {
         "byMotor": {
           "4080": {
@@ -5184,7 +5184,7 @@
       }
     },
     "742": {
-      "fetchedAt": "2026-09-04T09:36:13.963Z",
+      "fetchedAt": "2026-09-07T10:13:43.852Z",
       "data": {
         "byMotor": {
           "1482": {
@@ -5237,7 +5237,7 @@
       }
     },
     "847": {
-      "fetchedAt": "2026-09-04T09:36:11.439Z",
+      "fetchedAt": "2026-09-07T10:13:40.440Z",
       "data": {
         "byMotor": {
           "1746": {
@@ -5290,7 +5290,7 @@
       }
     },
     "850": {
-      "fetchedAt": "2026-09-04T09:35:47.124Z",
+      "fetchedAt": "2026-09-07T10:13:16.517Z",
       "data": {
         "byMotor": {
           "1744": {
@@ -5343,7 +5343,7 @@
       }
     },
     "851": {
-      "fetchedAt": "2026-09-04T09:35:57.708Z",
+      "fetchedAt": "2026-09-07T10:13:27.523Z",
       "data": {
         "byMotor": {
           "3504": {
@@ -5418,7 +5418,7 @@
       }
     },
     "852": {
-      "fetchedAt": "2026-09-04T09:36:04.121Z",
+      "fetchedAt": "2026-09-07T10:13:32.973Z",
       "data": {
         "byMotor": {
           "1737": {
@@ -5471,7 +5471,7 @@
       }
     },
     "856": {
-      "fetchedAt": "2026-09-04T09:35:48.326Z",
+      "fetchedAt": "2026-09-07T10:13:15.933Z",
       "data": {
         "byMotor": {
           "1732": {
@@ -5568,7 +5568,7 @@
       }
     },
     "881": {
-      "fetchedAt": "2026-09-04T09:36:19.120Z",
+      "fetchedAt": "2026-09-07T10:13:50.599Z",
       "data": {
         "byMotor": {
           "4119": {
@@ -5665,7 +5665,7 @@
       }
     },
     "957": {
-      "fetchedAt": "2026-09-04T09:36:07.761Z",
+      "fetchedAt": "2026-09-07T10:13:36.728Z",
       "data": {
         "byMotor": {
           "1895": {
@@ -5696,7 +5696,7 @@
       }
     },
     "958": {
-      "fetchedAt": "2026-09-04T09:36:17.006Z",
+      "fetchedAt": "2026-09-07T10:13:47.079Z",
       "data": {
         "byMotor": {
           "1897": {
@@ -5727,7 +5727,7 @@
       }
     },
     "982": {
-      "fetchedAt": "2026-09-04T09:36:07.159Z",
+      "fetchedAt": "2026-09-07T10:13:35.823Z",
       "data": {
         "byMotor": {
           "1894": {
@@ -5780,7 +5780,7 @@
       }
     },
     "983": {
-      "fetchedAt": "2026-09-04T09:36:16.710Z",
+      "fetchedAt": "2026-09-07T10:13:46.167Z",
       "data": {
         "byMotor": {
           "1896": {
@@ -5833,7 +5833,7 @@
       }
     },
     "1001": {
-      "fetchedAt": "2026-09-04T09:36:16.236Z",
+      "fetchedAt": "2026-09-07T10:13:45.831Z",
       "data": {
         "byMotor": {
           "1896": {
@@ -5864,7 +5864,7 @@
       }
     },
     "1002": {
-      "fetchedAt": "2026-09-04T09:36:06.865Z",
+      "fetchedAt": "2026-09-07T10:13:35.352Z",
       "data": {
         "byMotor": {
           "1894": {
@@ -5895,7 +5895,7 @@
       }
     },
     "1041": {
-      "fetchedAt": "2026-09-04T09:36:12.696Z",
+      "fetchedAt": "2026-09-07T10:13:41.728Z",
       "data": {
         "byMotor": {
           "2066": {
@@ -5926,41 +5926,41 @@
       }
     },
     "1045": {
-      "fetchedAt": "2026-09-04T09:36:23.795Z",
+      "fetchedAt": "2026-09-07T10:13:55.625Z",
       "data": {
         "byMotor": {
           "2104": {
-            "endpreis": "48.736,04",
+            "endpreis": "49.030,04",
             "kaufpreis": "46.941,04",
             "ersparnis": "12.856,46 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2105": {
-            "endpreis": "51.625,55",
+            "endpreis": "51.919,55",
             "kaufpreis": "49.830,55",
             "ersparnis": "13.655,95 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "54.427,64",
+            "endpreis": "54.721,64",
             "kaufpreis": "52.632,64",
             "ersparnis": "14.423,86 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2110": {
-            "endpreis": "49.670,19",
+            "endpreis": "49.964,19",
             "kaufpreis": "47.875,19",
             "ersparnis": "13.112,31 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "52.559,58",
+            "endpreis": "52.853,58",
             "kaufpreis": "50.764,58",
             "ersparnis": "13.911,92 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "55.361,68",
+            "endpreis": "55.655,68",
             "kaufpreis": "53.566,68",
             "ersparnis": "14.679,82 (21,51)",
             "lieferzeit": "herstellerüblich"
@@ -5978,21 +5978,21 @@
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "56.635,95",
-            "kaufpreis": "54.840,95",
-            "ersparnis": "14.595,55 (21,02)",
+            "endpreis": "57.291,02",
+            "kaufpreis": "55.202,02",
+            "ersparnis": "14.234,48 (20,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "57.387,84",
-            "kaufpreis": "55.592,84",
-            "ersparnis": "14.795,66 (21,02)",
+            "endpreis": "58.047,86",
+            "kaufpreis": "55.958,86",
+            "ersparnis": "14.429,64 (20,50)",
             "lieferzeit": "herstellerüblich"
           },
           "3941": {
-            "endpreis": "62.369,11",
-            "kaufpreis": "60.574,11",
-            "ersparnis": "16.121,39 (21,02)",
+            "endpreis": "63.054,25",
+            "kaufpreis": "60.965,25",
+            "ersparnis": "15.730,25 (20,51)",
             "lieferzeit": "herstellerüblich"
           }
         },
@@ -6000,14 +6000,14 @@
           "2104": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "48.736,04",
+              "endpreis": "49.030,04",
               "kaufpreis": "46.941,04",
               "ersparnis": "12.856,46 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "48.736,04",
+              "endpreis": "49.030,04",
               "kaufpreis": "46.941,04",
               "ersparnis": "12.856,46 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6016,14 +6016,14 @@
           "2105": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.625,55",
+              "endpreis": "51.919,55",
               "kaufpreis": "49.830,55",
               "ersparnis": "13.655,95 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.625,55",
+              "endpreis": "51.919,55",
               "kaufpreis": "49.830,55",
               "ersparnis": "13.655,95 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6032,14 +6032,14 @@
           "2106": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "54.427,64",
+              "endpreis": "54.721,64",
               "kaufpreis": "52.632,64",
               "ersparnis": "14.423,86 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "54.427,64",
+              "endpreis": "54.721,64",
               "kaufpreis": "52.632,64",
               "ersparnis": "14.423,86 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6048,14 +6048,14 @@
           "2110": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.670,19",
+              "endpreis": "49.964,19",
               "kaufpreis": "47.875,19",
               "ersparnis": "13.112,31 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.670,19",
+              "endpreis": "49.964,19",
               "kaufpreis": "47.875,19",
               "ersparnis": "13.112,31 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6064,14 +6064,14 @@
           "2111": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "52.559,58",
+              "endpreis": "52.853,58",
               "kaufpreis": "50.764,58",
               "ersparnis": "13.911,92 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "52.559,58",
+              "endpreis": "52.853,58",
               "kaufpreis": "50.764,58",
               "ersparnis": "13.911,92 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6080,14 +6080,14 @@
           "2112": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "55.361,68",
+              "endpreis": "55.655,68",
               "kaufpreis": "53.566,68",
               "ersparnis": "14.679,82 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "55.361,68",
+              "endpreis": "55.655,68",
               "kaufpreis": "53.566,68",
               "ersparnis": "14.679,82 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6128,48 +6128,48 @@
           "2576": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "56.635,95",
-              "kaufpreis": "54.840,95",
-              "ersparnis": "14.595,55 (21,02)",
+              "endpreis": "57.291,02",
+              "kaufpreis": "55.202,02",
+              "ersparnis": "14.234,48 (20,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "56.635,95",
-              "kaufpreis": "54.840,95",
-              "ersparnis": "14.595,55 (21,02)",
+              "endpreis": "57.291,02",
+              "kaufpreis": "55.202,02",
+              "ersparnis": "14.234,48 (20,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "57.387,84",
-              "kaufpreis": "55.592,84",
-              "ersparnis": "14.795,66 (21,02)",
+              "endpreis": "58.047,86",
+              "kaufpreis": "55.958,86",
+              "ersparnis": "14.429,64 (20,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "57.387,84",
-              "kaufpreis": "55.592,84",
-              "ersparnis": "14.795,66 (21,02)",
+              "endpreis": "58.047,86",
+              "kaufpreis": "55.958,86",
+              "ersparnis": "14.429,64 (20,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3941": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "62.369,11",
-              "kaufpreis": "60.574,11",
-              "ersparnis": "16.121,39 (21,02)",
+              "endpreis": "63.054,25",
+              "kaufpreis": "60.965,25",
+              "ersparnis": "15.730,25 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "62.369,11",
-              "kaufpreis": "60.574,11",
-              "ersparnis": "16.121,39 (21,02)",
+              "endpreis": "63.054,25",
+              "kaufpreis": "60.965,25",
+              "ersparnis": "15.730,25 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -6177,7 +6177,7 @@
       }
     },
     "1063": {
-      "fetchedAt": "2026-09-04T09:36:12.281Z",
+      "fetchedAt": "2026-09-07T10:13:41.347Z",
       "data": {
         "byMotor": {
           "2070": {
@@ -6208,29 +6208,29 @@
       }
     },
     "1077": {
-      "fetchedAt": "2026-09-04T09:36:24.089Z",
+      "fetchedAt": "2026-09-07T10:13:55.994Z",
       "data": {
         "byMotor": {
           "2105": {
-            "endpreis": "50.604,34",
+            "endpreis": "50.898,34",
             "kaufpreis": "48.809,34",
             "ersparnis": "13.368,16 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "53.406,79",
+            "endpreis": "53.700,79",
             "kaufpreis": "51.611,79",
             "ersparnis": "14.135,71 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "51.538,49",
+            "endpreis": "51.832,49",
             "kaufpreis": "49.743,49",
             "ersparnis": "13.624,01 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "54.340,94",
+            "endpreis": "54.634,94",
             "kaufpreis": "52.545,94",
             "ersparnis": "14.391,56 (21,50)",
             "lieferzeit": "herstellerüblich"
@@ -6248,21 +6248,21 @@
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "55.602,10",
-            "kaufpreis": "53.807,10",
-            "ersparnis": "14.320,40 (21,02)",
+            "endpreis": "56.243,55",
+            "kaufpreis": "54.154,55",
+            "ersparnis": "13.972,95 (20,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "56.353,99",
-            "kaufpreis": "54.558,99",
-            "ersparnis": "14.520,51 (21,02)",
+            "endpreis": "57.000,29",
+            "kaufpreis": "54.911,29",
+            "ersparnis": "14.168,21 (20,51)",
             "lieferzeit": "herstellerüblich"
           },
           "3652": {
-            "endpreis": "63.167,99",
-            "kaufpreis": "61.372,99",
-            "ersparnis": "16.334,01 (21,02)",
+            "endpreis": "63.858,29",
+            "kaufpreis": "61.769,29",
+            "ersparnis": "15.937,71 (20,51)",
             "lieferzeit": "herstellerüblich"
           }
         },
@@ -6270,14 +6270,14 @@
           "2105": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.604,34",
+              "endpreis": "50.898,34",
               "kaufpreis": "48.809,34",
               "ersparnis": "13.368,16 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.604,34",
+              "endpreis": "50.898,34",
               "kaufpreis": "48.809,34",
               "ersparnis": "13.368,16 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6286,14 +6286,14 @@
           "2106": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "53.406,79",
+              "endpreis": "53.700,79",
               "kaufpreis": "51.611,79",
               "ersparnis": "14.135,71 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "53.406,79",
+              "endpreis": "53.700,79",
               "kaufpreis": "51.611,79",
               "ersparnis": "14.135,71 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6302,14 +6302,14 @@
           "2111": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.538,49",
+              "endpreis": "51.832,49",
               "kaufpreis": "49.743,49",
               "ersparnis": "13.624,01 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.538,49",
+              "endpreis": "51.832,49",
               "kaufpreis": "49.743,49",
               "ersparnis": "13.624,01 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6318,14 +6318,14 @@
           "2112": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "54.340,94",
+              "endpreis": "54.634,94",
               "kaufpreis": "52.545,94",
               "ersparnis": "14.391,56 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "54.340,94",
+              "endpreis": "54.634,94",
               "kaufpreis": "52.545,94",
               "ersparnis": "14.391,56 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6366,48 +6366,48 @@
           "2576": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "55.602,10",
-              "kaufpreis": "53.807,10",
-              "ersparnis": "14.320,40 (21,02)",
+              "endpreis": "56.243,55",
+              "kaufpreis": "54.154,55",
+              "ersparnis": "13.972,95 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "55.602,10",
-              "kaufpreis": "53.807,10",
-              "ersparnis": "14.320,40 (21,02)",
+              "endpreis": "56.243,55",
+              "kaufpreis": "54.154,55",
+              "ersparnis": "13.972,95 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "56.353,99",
-              "kaufpreis": "54.558,99",
-              "ersparnis": "14.520,51 (21,02)",
+              "endpreis": "57.000,29",
+              "kaufpreis": "54.911,29",
+              "ersparnis": "14.168,21 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "56.353,99",
-              "kaufpreis": "54.558,99",
-              "ersparnis": "14.520,51 (21,02)",
+              "endpreis": "57.000,29",
+              "kaufpreis": "54.911,29",
+              "ersparnis": "14.168,21 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3652": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "63.167,99",
-              "kaufpreis": "61.372,99",
-              "ersparnis": "16.334,01 (21,02)",
+              "endpreis": "63.858,29",
+              "kaufpreis": "61.769,29",
+              "ersparnis": "15.937,71 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "63.167,99",
-              "kaufpreis": "61.372,99",
-              "ersparnis": "16.334,01 (21,02)",
+              "endpreis": "63.858,29",
+              "kaufpreis": "61.769,29",
+              "ersparnis": "15.937,71 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -6415,77 +6415,77 @@
       }
     },
     "1102": {
-      "fetchedAt": "2026-09-04T09:36:23.414Z",
+      "fetchedAt": "2026-09-07T10:13:55.263Z",
       "data": {
         "byMotor": {
           "2101": {
-            "endpreis": "43.966,50",
+            "endpreis": "44.260,50",
             "kaufpreis": "42.171,50",
             "ersparnis": "11.557,00 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2102": {
-            "endpreis": "45.834,56",
+            "endpreis": "46.128,56",
             "kaufpreis": "44.039,56",
             "ersparnis": "12.068,94 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2103": {
-            "endpreis": "48.636,65",
+            "endpreis": "48.930,65",
             "kaufpreis": "46.841,65",
             "ersparnis": "12.836,85 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2104": {
-            "endpreis": "44.812,61",
+            "endpreis": "45.106,61",
             "kaufpreis": "43.017,61",
             "ersparnis": "11.781,89 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2105": {
-            "endpreis": "47.702,62",
+            "endpreis": "47.996,62",
             "kaufpreis": "45.907,62",
             "ersparnis": "12.580,88 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "50.504,71",
+            "endpreis": "50.798,71",
             "kaufpreis": "48.709,71",
             "ersparnis": "13.348,79 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2107": {
-            "endpreis": "44.900,53",
+            "endpreis": "45.194,53",
             "kaufpreis": "43.105,53",
             "ersparnis": "11.812,97 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2108": {
-            "endpreis": "46.768,20",
+            "endpreis": "47.062,20",
             "kaufpreis": "44.973,20",
             "ersparnis": "12.324,80 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2109": {
-            "endpreis": "49.570,68",
+            "endpreis": "49.864,68",
             "kaufpreis": "47.775,68",
             "ersparnis": "13.092,82 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2110": {
-            "endpreis": "45.746,76",
+            "endpreis": "46.040,76",
             "kaufpreis": "43.951,76",
             "ersparnis": "12.037,74 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "48.636,65",
+            "endpreis": "48.930,65",
             "kaufpreis": "46.841,65",
             "ersparnis": "12.836,85 (21,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "51.438,75",
+            "endpreis": "51.732,75",
             "kaufpreis": "49.643,75",
             "ersparnis": "13.604,75 (21,51)",
             "lieferzeit": "herstellerüblich"
@@ -6503,21 +6503,21 @@
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "52.688,53",
-            "kaufpreis": "50.893,53",
-            "ersparnis": "13.544,97 (21,02)",
+            "endpreis": "53.317,61",
+            "kaufpreis": "51.228,61",
+            "ersparnis": "13.209,89 (20,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "53.440,42",
-            "kaufpreis": "51.645,42",
-            "ersparnis": "13.745,08 (21,02)",
+            "endpreis": "54.074,45",
+            "kaufpreis": "51.985,45",
+            "ersparnis": "13.405,05 (20,50)",
             "lieferzeit": "herstellerüblich"
           },
           "3941": {
-            "endpreis": "58.421,69",
-            "kaufpreis": "56.626,69",
-            "ersparnis": "15.070,81 (21,02)",
+            "endpreis": "59.081,34",
+            "kaufpreis": "56.992,34",
+            "ersparnis": "14.705,16 (20,51)",
             "lieferzeit": "herstellerüblich"
           }
         },
@@ -6525,14 +6525,14 @@
           "2101": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "43.966,50",
+              "endpreis": "44.260,50",
               "kaufpreis": "42.171,50",
               "ersparnis": "11.557,00 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "43.966,50",
+              "endpreis": "44.260,50",
               "kaufpreis": "42.171,50",
               "ersparnis": "11.557,00 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6541,14 +6541,14 @@
           "2102": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "45.834,56",
+              "endpreis": "46.128,56",
               "kaufpreis": "44.039,56",
               "ersparnis": "12.068,94 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "45.834,56",
+              "endpreis": "46.128,56",
               "kaufpreis": "44.039,56",
               "ersparnis": "12.068,94 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6557,14 +6557,14 @@
           "2103": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "48.636,65",
+              "endpreis": "48.930,65",
               "kaufpreis": "46.841,65",
               "ersparnis": "12.836,85 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "48.636,65",
+              "endpreis": "48.930,65",
               "kaufpreis": "46.841,65",
               "ersparnis": "12.836,85 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6573,14 +6573,14 @@
           "2104": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "44.812,61",
+              "endpreis": "45.106,61",
               "kaufpreis": "43.017,61",
               "ersparnis": "11.781,89 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "44.812,61",
+              "endpreis": "45.106,61",
               "kaufpreis": "43.017,61",
               "ersparnis": "11.781,89 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6589,14 +6589,14 @@
           "2105": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "47.702,62",
+              "endpreis": "47.996,62",
               "kaufpreis": "45.907,62",
               "ersparnis": "12.580,88 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "47.702,62",
+              "endpreis": "47.996,62",
               "kaufpreis": "45.907,62",
               "ersparnis": "12.580,88 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6605,14 +6605,14 @@
           "2106": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.504,71",
+              "endpreis": "50.798,71",
               "kaufpreis": "48.709,71",
               "ersparnis": "13.348,79 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.504,71",
+              "endpreis": "50.798,71",
               "kaufpreis": "48.709,71",
               "ersparnis": "13.348,79 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6621,14 +6621,14 @@
           "2107": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "44.900,53",
+              "endpreis": "45.194,53",
               "kaufpreis": "43.105,53",
               "ersparnis": "11.812,97 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "44.900,53",
+              "endpreis": "45.194,53",
               "kaufpreis": "43.105,53",
               "ersparnis": "11.812,97 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6637,14 +6637,14 @@
           "2108": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "46.768,20",
+              "endpreis": "47.062,20",
               "kaufpreis": "44.973,20",
               "ersparnis": "12.324,80 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "46.768,20",
+              "endpreis": "47.062,20",
               "kaufpreis": "44.973,20",
               "ersparnis": "12.324,80 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6653,14 +6653,14 @@
           "2109": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.570,68",
+              "endpreis": "49.864,68",
               "kaufpreis": "47.775,68",
               "ersparnis": "13.092,82 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.570,68",
+              "endpreis": "49.864,68",
               "kaufpreis": "47.775,68",
               "ersparnis": "13.092,82 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6669,14 +6669,14 @@
           "2110": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "45.746,76",
+              "endpreis": "46.040,76",
               "kaufpreis": "43.951,76",
               "ersparnis": "12.037,74 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "45.746,76",
+              "endpreis": "46.040,76",
               "kaufpreis": "43.951,76",
               "ersparnis": "12.037,74 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6685,14 +6685,14 @@
           "2111": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "48.636,65",
+              "endpreis": "48.930,65",
               "kaufpreis": "46.841,65",
               "ersparnis": "12.836,85 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "48.636,65",
+              "endpreis": "48.930,65",
               "kaufpreis": "46.841,65",
               "ersparnis": "12.836,85 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6701,14 +6701,14 @@
           "2112": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.438,75",
+              "endpreis": "51.732,75",
               "kaufpreis": "49.643,75",
               "ersparnis": "13.604,75 (21,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.438,75",
+              "endpreis": "51.732,75",
               "kaufpreis": "49.643,75",
               "ersparnis": "13.604,75 (21,51)",
               "lieferzeit": "herstellerüblich"
@@ -6749,48 +6749,48 @@
           "2576": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "52.688,53",
-              "kaufpreis": "50.893,53",
-              "ersparnis": "13.544,97 (21,02)",
+              "endpreis": "53.317,61",
+              "kaufpreis": "51.228,61",
+              "ersparnis": "13.209,89 (20,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "52.688,53",
-              "kaufpreis": "50.893,53",
-              "ersparnis": "13.544,97 (21,02)",
+              "endpreis": "53.317,61",
+              "kaufpreis": "51.228,61",
+              "ersparnis": "13.209,89 (20,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "53.440,42",
-              "kaufpreis": "51.645,42",
-              "ersparnis": "13.745,08 (21,02)",
+              "endpreis": "54.074,45",
+              "kaufpreis": "51.985,45",
+              "ersparnis": "13.405,05 (20,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "53.440,42",
-              "kaufpreis": "51.645,42",
-              "ersparnis": "13.745,08 (21,02)",
+              "endpreis": "54.074,45",
+              "kaufpreis": "51.985,45",
+              "ersparnis": "13.405,05 (20,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3941": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "58.421,69",
-              "kaufpreis": "56.626,69",
-              "ersparnis": "15.070,81 (21,02)",
+              "endpreis": "59.081,34",
+              "kaufpreis": "56.992,34",
+              "ersparnis": "14.705,16 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "58.421,69",
-              "kaufpreis": "56.626,69",
-              "ersparnis": "15.070,81 (21,02)",
+              "endpreis": "59.081,34",
+              "kaufpreis": "56.992,34",
+              "ersparnis": "14.705,16 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -6798,29 +6798,29 @@
       }
     },
     "1114": {
-      "fetchedAt": "2026-09-04T09:36:24.429Z",
+      "fetchedAt": "2026-09-07T10:13:56.319Z",
       "data": {
         "byMotor": {
           "2105": {
-            "endpreis": "52.659,47",
+            "endpreis": "52.953,47",
             "kaufpreis": "50.864,47",
             "ersparnis": "13.931,03 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "55.461,92",
+            "endpreis": "55.755,92",
             "kaufpreis": "53.666,92",
             "ersparnis": "14.698,58 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "53.593,62",
+            "endpreis": "53.887,62",
             "kaufpreis": "51.798,62",
             "ersparnis": "14.186,88 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "56.396,07",
+            "endpreis": "56.690,07",
             "kaufpreis": "54.601,07",
             "ersparnis": "14.954,43 (21,50)",
             "lieferzeit": "herstellerüblich"
@@ -6838,21 +6838,21 @@
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "57.669,80",
-            "kaufpreis": "55.874,80",
-            "ersparnis": "14.870,70 (21,02)",
+            "endpreis": "58.324,60",
+            "kaufpreis": "56.235,60",
+            "ersparnis": "14.509,90 (20,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "58.421,69",
-            "kaufpreis": "56.626,69",
-            "ersparnis": "15.070,81 (21,02)",
+            "endpreis": "59.081,34",
+            "kaufpreis": "56.992,34",
+            "ersparnis": "14.705,16 (20,51)",
             "lieferzeit": "herstellerüblich"
           },
           "3652": {
-            "endpreis": "65.235,69",
-            "kaufpreis": "63.440,69",
-            "ersparnis": "16.884,32 (21,02)",
+            "endpreis": "65.939,34",
+            "kaufpreis": "63.850,34",
+            "ersparnis": "16.474,66 (20,51)",
             "lieferzeit": "herstellerüblich"
           }
         },
@@ -6860,14 +6860,14 @@
           "2105": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "52.659,47",
+              "endpreis": "52.953,47",
               "kaufpreis": "50.864,47",
               "ersparnis": "13.931,03 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "52.659,47",
+              "endpreis": "52.953,47",
               "kaufpreis": "50.864,47",
               "ersparnis": "13.931,03 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6876,14 +6876,14 @@
           "2106": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "55.461,92",
+              "endpreis": "55.755,92",
               "kaufpreis": "53.666,92",
               "ersparnis": "14.698,58 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "55.461,92",
+              "endpreis": "55.755,92",
               "kaufpreis": "53.666,92",
               "ersparnis": "14.698,58 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6892,14 +6892,14 @@
           "2111": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "53.593,62",
+              "endpreis": "53.887,62",
               "kaufpreis": "51.798,62",
               "ersparnis": "14.186,88 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "53.593,62",
+              "endpreis": "53.887,62",
               "kaufpreis": "51.798,62",
               "ersparnis": "14.186,88 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6908,14 +6908,14 @@
           "2112": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "56.396,07",
+              "endpreis": "56.690,07",
               "kaufpreis": "54.601,07",
               "ersparnis": "14.954,43 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "56.396,07",
+              "endpreis": "56.690,07",
               "kaufpreis": "54.601,07",
               "ersparnis": "14.954,43 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -6956,48 +6956,48 @@
           "2576": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "57.669,80",
-              "kaufpreis": "55.874,80",
-              "ersparnis": "14.870,70 (21,02)",
+              "endpreis": "58.324,60",
+              "kaufpreis": "56.235,60",
+              "ersparnis": "14.509,90 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "57.669,80",
-              "kaufpreis": "55.874,80",
-              "ersparnis": "14.870,70 (21,02)",
+              "endpreis": "58.324,60",
+              "kaufpreis": "56.235,60",
+              "ersparnis": "14.509,90 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "58.421,69",
-              "kaufpreis": "56.626,69",
-              "ersparnis": "15.070,81 (21,02)",
+              "endpreis": "59.081,34",
+              "kaufpreis": "56.992,34",
+              "ersparnis": "14.705,16 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "58.421,69",
-              "kaufpreis": "56.626,69",
-              "ersparnis": "15.070,81 (21,02)",
+              "endpreis": "59.081,34",
+              "kaufpreis": "56.992,34",
+              "ersparnis": "14.705,16 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3652": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "65.235,69",
-              "kaufpreis": "63.440,69",
-              "ersparnis": "16.884,32 (21,02)",
+              "endpreis": "65.939,34",
+              "kaufpreis": "63.850,34",
+              "ersparnis": "16.474,66 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "65.235,69",
-              "kaufpreis": "63.440,69",
-              "ersparnis": "16.884,32 (21,02)",
+              "endpreis": "65.939,34",
+              "kaufpreis": "63.850,34",
+              "ersparnis": "16.474,66 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -7005,17 +7005,17 @@
       }
     },
     "1120": {
-      "fetchedAt": "2026-09-04T09:36:23.082Z",
+      "fetchedAt": "2026-09-07T10:13:54.870Z",
       "data": {
         "byMotor": {
           "2101": {
-            "endpreis": "41.823,33",
+            "endpreis": "42.117,33",
             "kaufpreis": "40.028,33",
             "ersparnis": "10.963,17 (21,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2107": {
-            "endpreis": "42.757,48",
+            "endpreis": "43.051,48",
             "kaufpreis": "40.962,48",
             "ersparnis": "11.219,02 (21,50)",
             "lieferzeit": "herstellerüblich"
@@ -7033,15 +7033,15 @@
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "50.526,84",
-            "kaufpreis": "48.731,84",
-            "ersparnis": "12.969,66 (21,02)",
+            "endpreis": "51.135,52",
+            "kaufpreis": "49.046,52",
+            "ersparnis": "12.654,98 (20,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "51.278,73",
-            "kaufpreis": "49.483,73",
-            "ersparnis": "13.169,77 (21,02)",
+            "endpreis": "51.892,26",
+            "kaufpreis": "49.803,26",
+            "ersparnis": "12.850,24 (20,51)",
             "lieferzeit": "herstellerüblich"
           }
         },
@@ -7049,14 +7049,14 @@
           "2101": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "41.823,33",
+              "endpreis": "42.117,33",
               "kaufpreis": "40.028,33",
               "ersparnis": "10.963,17 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "41.823,33",
+              "endpreis": "42.117,33",
               "kaufpreis": "40.028,33",
               "ersparnis": "10.963,17 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -7065,14 +7065,14 @@
           "2107": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "42.757,48",
+              "endpreis": "43.051,48",
               "kaufpreis": "40.962,48",
               "ersparnis": "11.219,02 (21,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "42.757,48",
+              "endpreis": "43.051,48",
               "kaufpreis": "40.962,48",
               "ersparnis": "11.219,02 (21,50)",
               "lieferzeit": "herstellerüblich"
@@ -7113,32 +7113,32 @@
           "2576": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.526,84",
-              "kaufpreis": "48.731,84",
-              "ersparnis": "12.969,66 (21,02)",
+              "endpreis": "51.135,52",
+              "kaufpreis": "49.046,52",
+              "ersparnis": "12.654,98 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.526,84",
-              "kaufpreis": "48.731,84",
-              "ersparnis": "12.969,66 (21,02)",
+              "endpreis": "51.135,52",
+              "kaufpreis": "49.046,52",
+              "ersparnis": "12.654,98 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.278,73",
-              "kaufpreis": "49.483,73",
-              "ersparnis": "13.169,77 (21,02)",
+              "endpreis": "51.892,26",
+              "kaufpreis": "49.803,26",
+              "ersparnis": "12.850,24 (20,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.278,73",
-              "kaufpreis": "49.483,73",
-              "ersparnis": "13.169,77 (21,02)",
+              "endpreis": "51.892,26",
+              "kaufpreis": "49.803,26",
+              "ersparnis": "12.850,24 (20,51)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -7146,7 +7146,7 @@
       }
     },
     "1156": {
-      "fetchedAt": "2026-09-04T09:35:35.542Z",
+      "fetchedAt": "2026-09-07T10:13:01.818Z",
       "data": {
         "byMotor": {
           "2253": {
@@ -7177,7 +7177,7 @@
       }
     },
     "1157": {
-      "fetchedAt": "2026-09-04T09:35:41.777Z",
+      "fetchedAt": "2026-09-07T10:13:10.400Z",
       "data": {
         "byMotor": {
           "2256": {
@@ -7208,7 +7208,7 @@
       }
     },
     "1168": {
-      "fetchedAt": "2026-09-04T09:35:36.715Z",
+      "fetchedAt": "2026-09-07T10:13:03.262Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -7261,7 +7261,7 @@
       }
     },
     "1245": {
-      "fetchedAt": "2026-09-04T09:35:59.360Z",
+      "fetchedAt": "2026-09-07T10:13:46.432Z",
       "data": {
         "byMotor": {
           "2321": {
@@ -7336,7 +7336,7 @@
       }
     },
     "1267": {
-      "fetchedAt": "2026-09-04T09:35:54.347Z",
+      "fetchedAt": "2026-09-07T10:13:24.117Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -7374,7 +7374,7 @@
       }
     },
     "1395": {
-      "fetchedAt": "2026-09-04T09:35:58.960Z",
+      "fetchedAt": "2026-09-07T10:13:27.104Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -7449,7 +7449,7 @@
       }
     },
     "1396": {
-      "fetchedAt": "2026-09-04T09:35:59.606Z",
+      "fetchedAt": "2026-09-07T10:13:28.045Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -7524,7 +7524,7 @@
       }
     },
     "1439": {
-      "fetchedAt": "2026-09-04T09:35:35.123Z",
+      "fetchedAt": "2026-09-07T10:13:01.389Z",
       "data": {
         "byMotor": {
           "2516": {
@@ -7555,7 +7555,7 @@
       }
     },
     "1470": {
-      "fetchedAt": "2026-09-04T09:35:37.438Z",
+      "fetchedAt": "2026-09-07T10:13:03.801Z",
       "data": {
         "byMotor": {
           "2545": {
@@ -7622,7 +7622,7 @@
       }
     },
     "1471": {
-      "fetchedAt": "2026-09-04T09:35:37.768Z",
+      "fetchedAt": "2026-09-07T10:13:04.132Z",
       "data": {
         "byMotor": {
           "2546": {
@@ -7689,7 +7689,7 @@
       }
     },
     "1473": {
-      "fetchedAt": "2026-09-04T09:35:38.125Z",
+      "fetchedAt": "2026-09-07T10:13:04.463Z",
       "data": {
         "byMotor": {
           "2546": {
@@ -7756,7 +7756,7 @@
       }
     },
     "1506": {
-      "fetchedAt": "2026-09-04T09:36:09.968Z",
+      "fetchedAt": "2026-09-07T10:13:43.213Z",
       "data": {
         "byMotor": {
           "2587": {
@@ -7875,7 +7875,7 @@
       }
     },
     "1565": {
-      "fetchedAt": "2026-09-04T09:36:13.254Z",
+      "fetchedAt": "2026-09-07T10:13:44.475Z",
       "data": {
         "byMotor": {
           "2632": {
@@ -7928,7 +7928,7 @@
       }
     },
     "1580": {
-      "fetchedAt": "2026-09-04T09:36:01.399Z",
+      "fetchedAt": "2026-09-07T10:13:31.605Z",
       "data": {
         "byMotor": {
           "1257": {
@@ -7959,7 +7959,7 @@
       }
     },
     "1616": {
-      "fetchedAt": "2026-09-04T09:36:08.359Z",
+      "fetchedAt": "2026-09-07T10:13:38.712Z",
       "data": {
         "byMotor": {
           "870": {
@@ -8084,7 +8084,7 @@
       }
     },
     "1655": {
-      "fetchedAt": "2026-09-04T09:36:17.789Z",
+      "fetchedAt": "2026-09-07T10:13:48.783Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -8115,7 +8115,7 @@
       }
     },
     "1656": {
-      "fetchedAt": "2026-09-04T09:36:18.988Z",
+      "fetchedAt": "2026-09-07T10:13:50.112Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -8146,7 +8146,7 @@
       }
     },
     "1663": {
-      "fetchedAt": "2026-09-04T09:35:33.516Z",
+      "fetchedAt": "2026-09-07T10:12:58.809Z",
       "data": {
         "byMotor": {
           "1960": {
@@ -8199,7 +8199,7 @@
       }
     },
     "1672": {
-      "fetchedAt": "2026-09-04T09:35:40.703Z",
+      "fetchedAt": "2026-09-07T10:13:07.778Z",
       "data": {
         "byMotor": {
           "2845": {
@@ -8230,7 +8230,7 @@
       }
     },
     "1691": {
-      "fetchedAt": "2026-09-04T09:35:39.680Z",
+      "fetchedAt": "2026-09-07T10:13:08.320Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -8283,7 +8283,7 @@
       }
     },
     "1692": {
-      "fetchedAt": "2026-09-04T09:35:40.881Z",
+      "fetchedAt": "2026-09-07T10:13:09.674Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -8314,7 +8314,7 @@
       }
     },
     "1721": {
-      "fetchedAt": "2026-09-04T09:36:05.331Z",
+      "fetchedAt": "2026-09-07T10:13:34.554Z",
       "data": {
         "byMotor": {
           "2897": {
@@ -8389,7 +8389,7 @@
       }
     },
     "1724": {
-      "fetchedAt": "2026-09-04T09:36:20.708Z",
+      "fetchedAt": "2026-09-07T10:13:51.963Z",
       "data": {
         "byMotor": {
           "2898": {
@@ -8420,7 +8420,7 @@
       }
     },
     "1741": {
-      "fetchedAt": "2026-09-04T09:36:02.489Z",
+      "fetchedAt": "2026-09-07T10:13:31.191Z",
       "data": {
         "byMotor": {
           "2919": {
@@ -8451,7 +8451,7 @@
       }
     },
     "1781": {
-      "fetchedAt": "2026-09-04T09:36:08.998Z",
+      "fetchedAt": "2026-09-07T10:13:39.459Z",
       "data": {
         "byMotor": {
           "870": {
@@ -8518,7 +8518,7 @@
       }
     },
     "1782": {
-      "fetchedAt": "2026-09-04T09:36:09.364Z",
+      "fetchedAt": "2026-09-07T10:13:39.799Z",
       "data": {
         "byMotor": {
           "870": {
@@ -8585,7 +8585,7 @@
       }
     },
     "1783": {
-      "fetchedAt": "2026-09-04T09:36:07.742Z",
+      "fetchedAt": "2026-09-07T10:13:37.785Z",
       "data": {
         "byMotor": {
           "872": {
@@ -8652,7 +8652,7 @@
       }
     },
     "1792": {
-      "fetchedAt": "2026-09-04T09:35:34.611Z",
+      "fetchedAt": "2026-09-07T10:13:00.607Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -8691,7 +8691,7 @@
       }
     },
     "1793": {
-      "fetchedAt": "2026-09-04T09:35:34.892Z",
+      "fetchedAt": "2026-09-07T10:13:00.932Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -8715,7 +8715,7 @@
       }
     },
     "1813": {
-      "fetchedAt": "2026-09-04T09:35:55.920Z",
+      "fetchedAt": "2026-09-07T10:13:29.045Z",
       "data": {
         "byMotor": {
           "2985": {
@@ -8790,7 +8790,7 @@
       }
     },
     "1814": {
-      "fetchedAt": "2026-09-04T09:35:56.654Z",
+      "fetchedAt": "2026-09-07T10:13:29.828Z",
       "data": {
         "byMotor": {
           "2985": {
@@ -8865,7 +8865,7 @@
       }
     },
     "1823": {
-      "fetchedAt": "2026-09-04T09:36:00.662Z",
+      "fetchedAt": "2026-09-07T10:13:30.906Z",
       "data": {
         "byMotor": {
           "3000": {
@@ -8896,7 +8896,7 @@
       }
     },
     "1848": {
-      "fetchedAt": "2026-09-04T09:35:53.544Z",
+      "fetchedAt": "2026-09-07T10:13:23.026Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -9015,7 +9015,7 @@
       }
     },
     "1849": {
-      "fetchedAt": "2026-09-04T09:35:53.858Z",
+      "fetchedAt": "2026-09-07T10:13:23.545Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -9134,7 +9134,7 @@
       }
     },
     "1850": {
-      "fetchedAt": "2026-09-04T09:36:18.073Z",
+      "fetchedAt": "2026-09-07T10:13:49.107Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -9165,7 +9165,7 @@
       }
     },
     "1851": {
-      "fetchedAt": "2026-09-04T09:36:19.260Z",
+      "fetchedAt": "2026-09-07T10:13:50.439Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -9196,7 +9196,7 @@
       }
     },
     "1875": {
-      "fetchedAt": "2026-09-04T09:36:12.097Z",
+      "fetchedAt": "2026-09-07T10:13:40.441Z",
       "data": {
         "byMotor": {
           "1042": {
@@ -9381,7 +9381,7 @@
       }
     },
     "1889": {
-      "fetchedAt": "2026-09-04T09:35:51.448Z",
+      "fetchedAt": "2026-09-07T10:13:21.059Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -9412,7 +9412,7 @@
       }
     },
     "1890": {
-      "fetchedAt": "2026-09-04T09:35:51.785Z",
+      "fetchedAt": "2026-09-07T10:13:21.483Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -9465,7 +9465,7 @@
       }
     },
     "1891": {
-      "fetchedAt": "2026-09-04T09:35:52.156Z",
+      "fetchedAt": "2026-09-07T10:13:21.885Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -9518,7 +9518,7 @@
       }
     },
     "1892": {
-      "fetchedAt": "2026-09-04T09:36:23.412Z",
+      "fetchedAt": "2026-09-07T10:13:53.626Z",
       "data": {
         "byMotor": {
           "1906": {
@@ -9615,7 +9615,7 @@
       }
     },
     "1893": {
-      "fetchedAt": "2026-09-04T09:36:23.775Z",
+      "fetchedAt": "2026-09-07T10:13:53.971Z",
       "data": {
         "byMotor": {
           "1906": {
@@ -9712,7 +9712,7 @@
       }
     },
     "1906": {
-      "fetchedAt": "2026-09-04T09:35:50.070Z",
+      "fetchedAt": "2026-09-07T10:13:18.390Z",
       "data": {
         "byMotor": {
           "3953": {
@@ -9750,7 +9750,7 @@
       }
     },
     "1907": {
-      "fetchedAt": "2026-09-04T09:35:50.629Z",
+      "fetchedAt": "2026-09-07T10:13:18.914Z",
       "data": {
         "byMotor": {
           "834": {
@@ -9817,7 +9817,7 @@
       }
     },
     "1908": {
-      "fetchedAt": "2026-09-04T09:35:51.083Z",
+      "fetchedAt": "2026-09-07T10:13:19.304Z",
       "data": {
         "byMotor": {
           "834": {
@@ -9884,7 +9884,7 @@
       }
     },
     "1912": {
-      "fetchedAt": "2026-09-04T09:36:04.929Z",
+      "fetchedAt": "2026-09-07T10:13:35.026Z",
       "data": {
         "byMotor": {
           "887": {
@@ -9937,7 +9937,7 @@
       }
     },
     "1918": {
-      "fetchedAt": "2026-09-04T09:35:36.387Z",
+      "fetchedAt": "2026-09-07T10:13:02.869Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -9990,7 +9990,7 @@
       }
     },
     "1919": {
-      "fetchedAt": "2026-09-04T09:35:37.311Z",
+      "fetchedAt": "2026-09-07T10:13:03.934Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -10043,7 +10043,7 @@
       }
     },
     "1941": {
-      "fetchedAt": "2026-09-04T09:36:22.332Z",
+      "fetchedAt": "2026-09-07T10:13:54.628Z",
       "data": {
         "byMotor": {
           "402": {
@@ -10140,7 +10140,7 @@
       }
     },
     "1942": {
-      "fetchedAt": "2026-09-04T09:36:22.652Z",
+      "fetchedAt": "2026-09-07T10:13:55.019Z",
       "data": {
         "byMotor": {
           "402": {
@@ -10237,7 +10237,7 @@
       }
     },
     "1947": {
-      "fetchedAt": "2026-09-04T09:35:52.392Z",
+      "fetchedAt": "2026-09-07T10:13:20.934Z",
       "data": {
         "byMotor": {
           "451": {
@@ -10268,7 +10268,7 @@
       }
     },
     "1949": {
-      "fetchedAt": "2026-09-04T09:36:05.998Z",
+      "fetchedAt": "2026-09-07T10:13:37.811Z",
       "data": {
         "byMotor": {
           "452": {
@@ -10321,7 +10321,7 @@
       }
     },
     "1964": {
-      "fetchedAt": "2026-09-04T09:36:19.554Z",
+      "fetchedAt": "2026-09-07T10:13:49.963Z",
       "data": {
         "byMotor": {
           "3243": {
@@ -10352,7 +10352,7 @@
       }
     },
     "1965": {
-      "fetchedAt": "2026-09-04T09:35:40.282Z",
+      "fetchedAt": "2026-09-07T10:13:09.006Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -10405,7 +10405,7 @@
       }
     },
     "1966": {
-      "fetchedAt": "2026-09-04T09:35:33.620Z",
+      "fetchedAt": "2026-09-07T10:12:59.570Z",
       "data": {
         "byMotor": {
           "3246": {
@@ -10472,7 +10472,7 @@
       }
     },
     "1986": {
-      "fetchedAt": "2026-09-04T09:35:57.529Z",
+      "fetchedAt": "2026-09-07T10:13:30.169Z",
       "data": {
         "byMotor": {
           "3272": {
@@ -10547,7 +10547,7 @@
       }
     },
     "1990": {
-      "fetchedAt": "2026-09-04T09:35:58.111Z",
+      "fetchedAt": "2026-09-07T10:13:29.502Z",
       "data": {
         "byMotor": {
           "3273": {
@@ -10622,7 +10622,7 @@
       }
     },
     "1994": {
-      "fetchedAt": "2026-09-04T09:36:18.293Z",
+      "fetchedAt": "2026-09-07T10:13:51.434Z",
       "data": {
         "byMotor": {
           "3274": {
@@ -10653,7 +10653,7 @@
       }
     },
     "1998": {
-      "fetchedAt": "2026-09-04T09:36:20.293Z",
+      "fetchedAt": "2026-09-07T10:13:50.170Z",
       "data": {
         "byMotor": {
           "3275": {
@@ -10684,7 +10684,7 @@
       }
     },
     "2003": {
-      "fetchedAt": "2026-09-04T09:36:17.100Z",
+      "fetchedAt": "2026-09-07T10:13:48.691Z",
       "data": {
         "byMotor": {
           "3276": {
@@ -10737,7 +10737,7 @@
       }
     },
     "2021": {
-      "fetchedAt": "2026-09-04T09:36:08.190Z",
+      "fetchedAt": "2026-09-07T10:13:36.493Z",
       "data": {
         "byMotor": {
           "347": {
@@ -10790,7 +10790,7 @@
       }
     },
     "2022": {
-      "fetchedAt": "2026-09-04T09:36:05.553Z",
+      "fetchedAt": "2026-09-07T10:13:35.327Z",
       "data": {
         "byMotor": {
           "353": {
@@ -10909,7 +10909,7 @@
       }
     },
     "2024": {
-      "fetchedAt": "2026-09-04T09:35:41.285Z",
+      "fetchedAt": "2026-09-07T10:13:08.160Z",
       "data": {
         "byMotor": {
           "2262": {
@@ -10962,7 +10962,7 @@
       }
     },
     "2025": {
-      "fetchedAt": "2026-09-04T09:35:41.575Z",
+      "fetchedAt": "2026-09-07T10:13:08.486Z",
       "data": {
         "byMotor": {
           "2262": {
@@ -11015,7 +11015,7 @@
       }
     },
     "2026": {
-      "fetchedAt": "2026-09-04T09:35:41.876Z",
+      "fetchedAt": "2026-09-07T10:13:08.819Z",
       "data": {
         "byMotor": {
           "2263": {
@@ -11046,7 +11046,7 @@
       }
     },
     "2027": {
-      "fetchedAt": "2026-09-04T09:35:42.169Z",
+      "fetchedAt": "2026-09-07T10:13:09.215Z",
       "data": {
         "byMotor": {
           "2263": {
@@ -11077,7 +11077,7 @@
       }
     },
     "2029": {
-      "fetchedAt": "2026-09-04T09:35:42.554Z",
+      "fetchedAt": "2026-09-07T10:13:09.542Z",
       "data": {
         "byMotor": {
           "2263": {
@@ -11108,7 +11108,7 @@
       }
     },
     "2034": {
-      "fetchedAt": "2026-09-04T09:36:09.727Z",
+      "fetchedAt": "2026-09-07T10:13:41.105Z",
       "data": {
         "byMotor": {
           "2965": {
@@ -11139,7 +11139,7 @@
       }
     },
     "2035": {
-      "fetchedAt": "2026-09-04T09:36:10.069Z",
+      "fetchedAt": "2026-09-07T10:13:41.535Z",
       "data": {
         "byMotor": {
           "2966": {
@@ -11170,7 +11170,7 @@
       }
     },
     "2040": {
-      "fetchedAt": "2026-09-04T09:36:04.208Z",
+      "fetchedAt": "2026-09-07T10:13:32.275Z",
       "data": {
         "byMotor": {
           "361": {
@@ -11201,7 +11201,7 @@
       }
     },
     "2046": {
-      "fetchedAt": "2026-09-04T09:35:41.989Z",
+      "fetchedAt": "2026-09-07T10:13:10.696Z",
       "data": {
         "byMotor": {
           "2347": {
@@ -11297,7 +11297,7 @@
       }
     },
     "2050": {
-      "fetchedAt": "2026-09-04T09:36:13.422Z",
+      "fetchedAt": "2026-09-07T10:13:43.295Z",
       "data": {
         "byMotor": {
           "454": {
@@ -11328,7 +11328,7 @@
       }
     },
     "2051": {
-      "fetchedAt": "2026-09-04T09:36:19.842Z",
+      "fetchedAt": "2026-09-07T10:13:49.541Z",
       "data": {
         "byMotor": {
           "455": {
@@ -11359,7 +11359,7 @@
       }
     },
     "2070": {
-      "fetchedAt": "2026-09-04T09:35:34.300Z",
+      "fetchedAt": "2026-09-07T10:13:00.218Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -11398,7 +11398,7 @@
       }
     },
     "2071": {
-      "fetchedAt": "2026-09-04T09:36:17.706Z",
+      "fetchedAt": "2026-09-07T10:13:47.410Z",
       "data": {
         "byMotor": {
           "320": {
@@ -11429,7 +11429,7 @@
       }
     },
     "2072": {
-      "fetchedAt": "2026-09-04T09:36:20.929Z",
+      "fetchedAt": "2026-09-07T10:13:52.262Z",
       "data": {
         "byMotor": {
           "327": {
@@ -11460,7 +11460,7 @@
       }
     },
     "2073": {
-      "fetchedAt": "2026-09-04T09:36:17.613Z",
+      "fetchedAt": "2026-09-07T10:13:48.598Z",
       "data": {
         "byMotor": {
           "341": {
@@ -11513,7 +11513,7 @@
       }
     },
     "2074": {
-      "fetchedAt": "2026-09-04T09:36:17.905Z",
+      "fetchedAt": "2026-09-07T10:13:48.914Z",
       "data": {
         "byMotor": {
           "341": {
@@ -11566,7 +11566,7 @@
       }
     },
     "2076": {
-      "fetchedAt": "2026-09-04T09:35:41.054Z",
+      "fetchedAt": "2026-09-07T10:13:09.124Z",
       "data": {
         "byMotor": {
           "3435": {
@@ -11619,7 +11619,7 @@
       }
     },
     "2083": {
-      "fetchedAt": "2026-09-04T09:36:18.493Z",
+      "fetchedAt": "2026-09-07T10:13:49.331Z",
       "data": {
         "byMotor": {
           "3459": {
@@ -11672,7 +11672,7 @@
       }
     },
     "2108": {
-      "fetchedAt": "2026-09-04T09:35:54.979Z",
+      "fetchedAt": "2026-09-07T10:13:25.117Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -11768,7 +11768,7 @@
       }
     },
     "2109": {
-      "fetchedAt": "2026-09-04T09:35:55.275Z",
+      "fetchedAt": "2026-09-07T10:13:25.502Z",
       "data": {
         "byMotor": {
           "2349": {
@@ -11835,7 +11835,7 @@
       }
     },
     "2115": {
-      "fetchedAt": "2026-09-04T09:36:22.139Z",
+      "fetchedAt": "2026-09-07T10:13:52.775Z",
       "data": {
         "byMotor": {
           "3487": {
@@ -11866,7 +11866,7 @@
       }
     },
     "2117": {
-      "fetchedAt": "2026-09-04T09:36:00.546Z",
+      "fetchedAt": "2026-09-07T10:13:29.155Z",
       "data": {
         "byMotor": {
           "3488": {
@@ -11897,7 +11897,7 @@
       }
     },
     "2119": {
-      "fetchedAt": "2026-09-04T09:36:12.749Z",
+      "fetchedAt": "2026-09-07T10:13:42.372Z",
       "data": {
         "byMotor": {
           "3489": {
@@ -11928,7 +11928,7 @@
       }
     },
     "2141": {
-      "fetchedAt": "2026-09-04T09:35:52.653Z",
+      "fetchedAt": "2026-09-07T10:13:21.083Z",
       "data": {
         "byMotor": {
           "3498": {
@@ -11966,7 +11966,7 @@
       }
     },
     "2181": {
-      "fetchedAt": "2026-09-04T09:35:41.662Z",
+      "fetchedAt": "2026-09-07T10:13:10.188Z",
       "data": {
         "byMotor": {
           "3514": {
@@ -12004,7 +12004,7 @@
       }
     },
     "2187": {
-      "fetchedAt": "2026-09-04T09:36:08.499Z",
+      "fetchedAt": "2026-09-07T10:13:36.909Z",
       "data": {
         "byMotor": {
           "347": {
@@ -12057,7 +12057,7 @@
       }
     },
     "2197": {
-      "fetchedAt": "2026-09-04T09:36:16.544Z",
+      "fetchedAt": "2026-09-07T10:13:47.033Z",
       "data": {
         "byMotor": {
           "3548": {
@@ -12124,7 +12124,7 @@
       }
     },
     "2198": {
-      "fetchedAt": "2026-09-04T09:36:16.903Z",
+      "fetchedAt": "2026-09-07T10:13:47.396Z",
       "data": {
         "byMotor": {
           "3548": {
@@ -12191,7 +12191,7 @@
       }
     },
     "2199": {
-      "fetchedAt": "2026-09-04T09:36:17.196Z",
+      "fetchedAt": "2026-09-07T10:13:47.931Z",
       "data": {
         "byMotor": {
           "3548": {
@@ -12258,7 +12258,7 @@
       }
     },
     "2216": {
-      "fetchedAt": "2026-09-04T09:36:21.516Z",
+      "fetchedAt": "2026-09-07T10:13:52.118Z",
       "data": {
         "byMotor": {
           "3562": {
@@ -12289,7 +12289,7 @@
       }
     },
     "2219": {
-      "fetchedAt": "2026-09-04T09:36:11.525Z",
+      "fetchedAt": "2026-09-07T10:13:44.703Z",
       "data": {
         "byMotor": {
           "3559": {
@@ -12364,7 +12364,7 @@
       }
     },
     "2251": {
-      "fetchedAt": "2026-09-04T09:36:20.880Z",
+      "fetchedAt": "2026-09-07T10:13:53.755Z",
       "data": {
         "byMotor": {
           "3626": {
@@ -12505,7 +12505,7 @@
       }
     },
     "2252": {
-      "fetchedAt": "2026-09-04T09:36:21.165Z",
+      "fetchedAt": "2026-09-07T10:13:54.109Z",
       "data": {
         "byMotor": {
           "3626": {
@@ -12646,7 +12646,7 @@
       }
     },
     "2258": {
-      "fetchedAt": "2026-09-04T09:36:07.131Z",
+      "fetchedAt": "2026-09-07T10:13:39.814Z",
       "data": {
         "byMotor": {
           "3382": {
@@ -12677,7 +12677,7 @@
       }
     },
     "2260": {
-      "fetchedAt": "2026-09-04T09:36:04.742Z",
+      "fetchedAt": "2026-09-07T10:13:33.168Z",
       "data": {
         "byMotor": {
           "3383": {
@@ -12708,7 +12708,7 @@
       }
     },
     "2263": {
-      "fetchedAt": "2026-09-04T09:35:56.270Z",
+      "fetchedAt": "2026-09-07T10:13:15.894Z",
       "data": {
         "byMotor": {
           "3647": {
@@ -12814,7 +12814,7 @@
       }
     },
     "2265": {
-      "fetchedAt": "2026-09-04T09:35:53.752Z",
+      "fetchedAt": "2026-09-07T10:13:22.422Z",
       "data": {
         "byMotor": {
           "1034": {
@@ -12999,7 +12999,7 @@
       }
     },
     "2266": {
-      "fetchedAt": "2026-09-04T09:35:58.951Z",
+      "fetchedAt": "2026-09-07T10:13:26.782Z",
       "data": {
         "byMotor": {
           "1046": {
@@ -13074,7 +13074,7 @@
       }
     },
     "2267": {
-      "fetchedAt": "2026-09-04T09:36:00.032Z",
+      "fetchedAt": "2026-09-07T10:13:30.804Z",
       "data": {
         "byMotor": {
           "2791": {
@@ -13149,7 +13149,7 @@
       }
     },
     "2269": {
-      "fetchedAt": "2026-09-04T09:35:39.056Z",
+      "fetchedAt": "2026-09-07T10:13:06.038Z",
       "data": {
         "byMotor": {
           "3654": {
@@ -13180,7 +13180,7 @@
       }
     },
     "2270": {
-      "fetchedAt": "2026-09-04T09:35:49.355Z",
+      "fetchedAt": "2026-09-07T10:13:19.768Z",
       "data": {
         "byMotor": {
           "3655": {
@@ -13233,7 +13233,7 @@
       }
     },
     "2271": {
-      "fetchedAt": "2026-09-04T09:35:49.709Z",
+      "fetchedAt": "2026-09-07T10:13:20.212Z",
       "data": {
         "byMotor": {
           "3655": {
@@ -13330,7 +13330,7 @@
       }
     },
     "2272": {
-      "fetchedAt": "2026-09-04T09:35:54.255Z",
+      "fetchedAt": "2026-09-07T10:13:23.408Z",
       "data": {
         "byMotor": {
           "3657": {
@@ -13383,7 +13383,7 @@
       }
     },
     "2273": {
-      "fetchedAt": "2026-09-04T09:35:55.439Z",
+      "fetchedAt": "2026-09-07T10:13:25.408Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -13414,7 +13414,7 @@
       }
     },
     "2274": {
-      "fetchedAt": "2026-09-04T09:35:54.836Z",
+      "fetchedAt": "2026-09-07T10:13:24.496Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -13445,7 +13445,7 @@
       }
     },
     "2275": {
-      "fetchedAt": "2026-09-04T09:35:37.013Z",
+      "fetchedAt": "2026-09-07T10:13:03.599Z",
       "data": {
         "byMotor": {
           "2254": {
@@ -13498,7 +13498,7 @@
       }
     },
     "2276": {
-      "fetchedAt": "2026-09-04T09:35:35.213Z",
+      "fetchedAt": "2026-09-07T10:13:01.414Z",
       "data": {
         "byMotor": {
           "2963": {
@@ -13522,7 +13522,7 @@
       }
     },
     "2282": {
-      "fetchedAt": "2026-09-04T09:35:48.483Z",
+      "fetchedAt": "2026-09-07T10:13:17.856Z",
       "data": {
         "byMotor": {
           "3664": {
@@ -13553,7 +13553,7 @@
       }
     },
     "2286": {
-      "fetchedAt": "2026-09-04T09:36:10.157Z",
+      "fetchedAt": "2026-09-07T10:13:40.698Z",
       "data": {
         "byMotor": {
           "3671": {
@@ -13584,7 +13584,7 @@
       }
     },
     "2289": {
-      "fetchedAt": "2026-09-04T09:35:47.807Z",
+      "fetchedAt": "2026-09-07T10:13:15.997Z",
       "data": {
         "byMotor": {
           "3674": {
@@ -13615,7 +13615,7 @@
       }
     },
     "2290": {
-      "fetchedAt": "2026-09-04T09:36:14.583Z",
+      "fetchedAt": "2026-09-07T10:13:45.358Z",
       "data": {
         "byMotor": {
           "3675": {
@@ -13646,7 +13646,7 @@
       }
     },
     "2295": {
-      "fetchedAt": "2026-09-04T09:35:54.634Z",
+      "fetchedAt": "2026-09-07T10:13:24.555Z",
       "data": {
         "byMotor": {
           "3687": {
@@ -13684,7 +13684,7 @@
       }
     },
     "2315": {
-      "fetchedAt": "2026-09-04T09:35:50.816Z",
+      "fetchedAt": "2026-09-07T10:13:18.943Z",
       "data": {
         "byMotor": {
           "3689": {
@@ -13759,7 +13759,7 @@
       }
     },
     "2334": {
-      "fetchedAt": "2026-09-04T09:36:06.277Z",
+      "fetchedAt": "2026-09-07T10:13:36.394Z",
       "data": {
         "byMotor": {
           "353": {
@@ -13878,7 +13878,7 @@
       }
     },
     "2340": {
-      "fetchedAt": "2026-09-04T09:36:02.063Z",
+      "fetchedAt": "2026-09-07T10:13:32.488Z",
       "data": {
         "byMotor": {
           "3720": {
@@ -13909,7 +13909,7 @@
       }
     },
     "2344": {
-      "fetchedAt": "2026-09-04T09:35:45.792Z",
+      "fetchedAt": "2026-09-07T10:13:14.083Z",
       "data": {
         "byMotor": {
           "3723": {
@@ -14034,7 +14034,7 @@
       }
     },
     "2345": {
-      "fetchedAt": "2026-09-04T09:35:46.177Z",
+      "fetchedAt": "2026-09-07T10:13:14.586Z",
       "data": {
         "byMotor": {
           "3723": {
@@ -14275,7 +14275,7 @@
       }
     },
     "2346": {
-      "fetchedAt": "2026-09-04T09:35:46.479Z",
+      "fetchedAt": "2026-09-07T10:13:15.275Z",
       "data": {
         "byMotor": {
           "3724": {
@@ -14429,7 +14429,7 @@
       }
     },
     "2348": {
-      "fetchedAt": "2026-09-04T09:36:12.228Z",
+      "fetchedAt": "2026-09-07T10:13:42.993Z",
       "data": {
         "byMotor": {
           "3726": {
@@ -14460,7 +14460,7 @@
       }
     },
     "2349": {
-      "fetchedAt": "2026-09-04T09:36:12.628Z",
+      "fetchedAt": "2026-09-07T10:13:43.381Z",
       "data": {
         "byMotor": {
           "3726": {
@@ -14513,28 +14513,28 @@
       }
     },
     "2361": {
-      "fetchedAt": "2026-09-04T09:35:56.909Z",
+      "fetchedAt": "2026-09-07T10:13:26.144Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2362": {
-      "fetchedAt": "2026-09-04T09:36:15.630Z",
+      "fetchedAt": "2026-09-07T10:13:46.407Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2367": {
-      "fetchedAt": "2026-09-04T09:36:04.853Z",
+      "fetchedAt": "2026-09-07T10:13:33.826Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2378": {
-      "fetchedAt": "2026-09-04T09:35:59.267Z",
+      "fetchedAt": "2026-09-07T10:13:27.674Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -14587,7 +14587,7 @@
       }
     },
     "2379": {
-      "fetchedAt": "2026-09-04T09:35:39.190Z",
+      "fetchedAt": "2026-09-07T10:13:07.017Z",
       "data": {
         "byMotor": {
           "3752": {
@@ -14654,7 +14654,7 @@
       }
     },
     "2380": {
-      "fetchedAt": "2026-09-04T09:35:39.529Z",
+      "fetchedAt": "2026-09-07T10:13:07.357Z",
       "data": {
         "byMotor": {
           "3752": {
@@ -14750,7 +14750,7 @@
       }
     },
     "2381": {
-      "fetchedAt": "2026-09-04T09:35:39.886Z",
+      "fetchedAt": "2026-09-07T10:13:07.688Z",
       "data": {
         "byMotor": {
           "3753": {
@@ -14817,7 +14817,7 @@
       }
     },
     "2382": {
-      "fetchedAt": "2026-09-04T09:36:00.812Z",
+      "fetchedAt": "2026-09-07T10:13:31.476Z",
       "data": {
         "byMotor": {
           "3754": {
@@ -14884,7 +14884,7 @@
       }
     },
     "2383": {
-      "fetchedAt": "2026-09-04T09:36:01.214Z",
+      "fetchedAt": "2026-09-07T10:13:31.870Z",
       "data": {
         "byMotor": {
           "3754": {
@@ -14922,7 +14922,7 @@
       }
     },
     "2384": {
-      "fetchedAt": "2026-09-04T09:36:20.131Z",
+      "fetchedAt": "2026-09-07T10:13:50.792Z",
       "data": {
         "byMotor": {
           "3755": {
@@ -14997,7 +14997,7 @@
       }
     },
     "2388": {
-      "fetchedAt": "2026-09-04T09:36:13.843Z",
+      "fetchedAt": "2026-09-07T10:13:44.030Z",
       "data": {
         "byMotor": {
           "3758": {
@@ -15072,7 +15072,7 @@
       }
     },
     "2395": {
-      "fetchedAt": "2026-09-04T09:36:06.301Z",
+      "fetchedAt": "2026-09-07T10:13:38.355Z",
       "data": {
         "byMotor": {
           "452": {
@@ -15125,7 +15125,7 @@
       }
     },
     "2399": {
-      "fetchedAt": "2026-09-04T09:35:56.328Z",
+      "fetchedAt": "2026-09-07T10:13:29.396Z",
       "data": {
         "byMotor": {
           "2985": {
@@ -15178,7 +15178,7 @@
       }
     },
     "2443": {
-      "fetchedAt": "2026-09-04T09:36:02.861Z",
+      "fetchedAt": "2026-09-07T10:13:33.615Z",
       "data": {
         "byMotor": {
           "1869": {
@@ -15209,7 +15209,7 @@
       }
     },
     "2453": {
-      "fetchedAt": "2026-09-04T09:35:32.023Z",
+      "fetchedAt": "2026-09-07T10:12:58.073Z",
       "data": {
         "byMotor": {
           "3811": {
@@ -15262,7 +15262,7 @@
       }
     },
     "2457": {
-      "fetchedAt": "2026-09-04T09:35:44.584Z",
+      "fetchedAt": "2026-09-07T10:13:13.640Z",
       "data": {
         "byMotor": {
           "3818": {
@@ -15293,7 +15293,7 @@
       }
     },
     "2458": {
-      "fetchedAt": "2026-09-04T09:35:44.237Z",
+      "fetchedAt": "2026-09-07T10:13:13.295Z",
       "data": {
         "byMotor": {
           "3819": {
@@ -15324,7 +15324,7 @@
       }
     },
     "2459": {
-      "fetchedAt": "2026-09-04T09:35:43.938Z",
+      "fetchedAt": "2026-09-07T10:13:12.796Z",
       "data": {
         "byMotor": {
           "3820": {
@@ -15355,7 +15355,7 @@
       }
     },
     "2460": {
-      "fetchedAt": "2026-09-04T09:35:48.720Z",
+      "fetchedAt": "2026-09-07T10:13:16.562Z",
       "data": {
         "byMotor": {
           "3821": {
@@ -15386,7 +15386,7 @@
       }
     },
     "2466": {
-      "fetchedAt": "2026-09-04T09:36:00.201Z",
+      "fetchedAt": "2026-09-07T10:13:28.875Z",
       "data": {
         "byMotor": {
           "3824": {
@@ -15417,7 +15417,7 @@
       }
     },
     "2467": {
-      "fetchedAt": "2026-09-04T09:35:59.567Z",
+      "fetchedAt": "2026-09-07T10:13:28.175Z",
       "data": {
         "byMotor": {
           "3825": {
@@ -15448,7 +15448,7 @@
       }
     },
     "2468": {
-      "fetchedAt": "2026-09-04T09:35:59.894Z",
+      "fetchedAt": "2026-09-07T10:13:28.528Z",
       "data": {
         "byMotor": {
           "3826": {
@@ -15479,7 +15479,7 @@
       }
     },
     "2474": {
-      "fetchedAt": "2026-09-04T09:35:36.915Z",
+      "fetchedAt": "2026-09-07T10:13:03.351Z",
       "data": {
         "byMotor": {
           "3832": {
@@ -15510,7 +15510,7 @@
       }
     },
     "2475": {
-      "fetchedAt": "2026-09-04T09:35:37.217Z",
+      "fetchedAt": "2026-09-07T10:13:03.676Z",
       "data": {
         "byMotor": {
           "3833": {
@@ -15541,7 +15541,7 @@
       }
     },
     "2476": {
-      "fetchedAt": "2026-09-04T09:35:36.620Z",
+      "fetchedAt": "2026-09-07T10:13:03.006Z",
       "data": {
         "byMotor": {
           "3834": {
@@ -15603,7 +15603,7 @@
       }
     },
     "2487": {
-      "fetchedAt": "2026-09-04T09:35:36.038Z",
+      "fetchedAt": "2026-09-07T10:13:02.506Z",
       "data": {
         "byMotor": {
           "2253": {
@@ -15656,7 +15656,7 @@
       }
     },
     "2492": {
-      "fetchedAt": "2026-09-04T09:35:49.217Z",
+      "fetchedAt": "2026-09-07T10:13:18.915Z",
       "data": {
         "byMotor": {
           "3849": {
@@ -15694,7 +15694,7 @@
       }
     },
     "2493": {
-      "fetchedAt": "2026-09-04T09:35:49.535Z",
+      "fetchedAt": "2026-09-07T10:13:19.514Z",
       "data": {
         "byMotor": {
           "3849": {
@@ -15761,7 +15761,7 @@
       }
     },
     "2494": {
-      "fetchedAt": "2026-09-04T09:35:50.104Z",
+      "fetchedAt": "2026-09-07T10:13:20.088Z",
       "data": {
         "byMotor": {
           "3849": {
@@ -15828,7 +15828,7 @@
       }
     },
     "2512": {
-      "fetchedAt": "2026-09-04T09:36:21.289Z",
+      "fetchedAt": "2026-09-07T10:13:52.593Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -15969,7 +15969,7 @@
       }
     },
     "2513": {
-      "fetchedAt": "2026-09-04T09:36:21.570Z",
+      "fetchedAt": "2026-09-07T10:13:52.939Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16110,7 +16110,7 @@
       }
     },
     "2514": {
-      "fetchedAt": "2026-09-04T09:36:22.186Z",
+      "fetchedAt": "2026-09-07T10:13:53.740Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16251,7 +16251,7 @@
       }
     },
     "2515": {
-      "fetchedAt": "2026-09-04T09:36:22.497Z",
+      "fetchedAt": "2026-09-07T10:13:54.097Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16392,7 +16392,7 @@
       }
     },
     "2516": {
-      "fetchedAt": "2026-09-04T09:36:21.853Z",
+      "fetchedAt": "2026-09-07T10:13:53.324Z",
       "data": {
         "byMotor": {
           "3860": {
@@ -16533,7 +16533,7 @@
       }
     },
     "2517": {
-      "fetchedAt": "2026-09-04T09:36:04.257Z",
+      "fetchedAt": "2026-09-07T10:13:32.278Z",
       "data": {
         "byMotor": {
           "3870": {
@@ -16564,7 +16564,7 @@
       }
     },
     "2519": {
-      "fetchedAt": "2026-09-04T09:36:09.138Z",
+      "fetchedAt": "2026-09-07T10:13:37.593Z",
       "data": {
         "byMotor": {
           "347": {
@@ -16617,7 +16617,7 @@
       }
     },
     "2520": {
-      "fetchedAt": "2026-09-04T09:35:54.155Z",
+      "fetchedAt": "2026-09-07T10:13:24.175Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -16736,7 +16736,7 @@
       }
     },
     "2525": {
-      "fetchedAt": "2026-09-04T09:36:03.571Z",
+      "fetchedAt": "2026-09-07T10:13:31.936Z",
       "data": {
         "byMotor": {
           "3873": {
@@ -16767,7 +16767,7 @@
       }
     },
     "2546": {
-      "fetchedAt": "2026-09-04T09:35:56.991Z",
+      "fetchedAt": "2026-09-07T10:13:30.269Z",
       "data": {
         "byMotor": {
           "2985": {
@@ -16842,7 +16842,7 @@
       }
     },
     "2548": {
-      "fetchedAt": "2026-09-04T09:35:55.644Z",
+      "fetchedAt": "2026-09-07T10:13:25.127Z",
       "data": {
         "byMotor": {
           "3909": {
@@ -16895,7 +16895,7 @@
       }
     },
     "2552": {
-      "fetchedAt": "2026-09-04T09:35:59.965Z",
+      "fetchedAt": "2026-09-07T10:13:28.381Z",
       "data": {
         "byMotor": {
           "2458": {
@@ -16970,7 +16970,7 @@
       }
     },
     "2560": {
-      "fetchedAt": "2026-09-04T09:35:35.393Z",
+      "fetchedAt": "2026-09-07T10:13:01.044Z",
       "data": {
         "byMotor": {
           "3923": {
@@ -17023,7 +17023,7 @@
       }
     },
     "2562": {
-      "fetchedAt": "2026-09-04T09:35:35.844Z",
+      "fetchedAt": "2026-09-07T10:13:01.473Z",
       "data": {
         "byMotor": {
           "3924": {
@@ -17076,7 +17076,7 @@
       }
     },
     "2565": {
-      "fetchedAt": "2026-09-04T09:36:01.283Z",
+      "fetchedAt": "2026-09-07T10:13:30.542Z",
       "data": {
         "byMotor": {
           "1964": {
@@ -17107,7 +17107,7 @@
       }
     },
     "2573": {
-      "fetchedAt": "2026-09-04T09:35:32.735Z",
+      "fetchedAt": "2026-09-07T10:12:58.166Z",
       "data": {
         "byMotor": {
           "1960": {
@@ -17160,7 +17160,7 @@
       }
     },
     "2574": {
-      "fetchedAt": "2026-09-04T09:36:22.754Z",
+      "fetchedAt": "2026-09-07T10:13:52.927Z",
       "data": {
         "byMotor": {
           "1961": {
@@ -17213,7 +17213,7 @@
       }
     },
     "2593": {
-      "fetchedAt": "2026-09-04T09:35:34.731Z",
+      "fetchedAt": "2026-09-07T10:13:02.457Z",
       "data": {
         "byMotor": {
           "3946": {
@@ -17244,7 +17244,7 @@
       }
     },
     "2603": {
-      "fetchedAt": "2026-09-04T09:35:56.473Z",
+      "fetchedAt": "2026-09-07T10:13:27.758Z",
       "data": {
         "byMotor": {
           "3950": {
@@ -17275,7 +17275,7 @@
       }
     },
     "2604": {
-      "fetchedAt": "2026-09-04T09:35:56.784Z",
+      "fetchedAt": "2026-09-07T10:13:28.167Z",
       "data": {
         "byMotor": {
           "3951": {
@@ -17328,7 +17328,7 @@
       }
     },
     "2605": {
-      "fetchedAt": "2026-09-04T09:35:57.061Z",
+      "fetchedAt": "2026-09-07T10:13:28.516Z",
       "data": {
         "byMotor": {
           "3951": {
@@ -17381,7 +17381,7 @@
       }
     },
     "2619": {
-      "fetchedAt": "2026-09-04T09:36:08.698Z",
+      "fetchedAt": "2026-09-07T10:13:32.969Z",
       "data": {
         "byMotor": {
           "3958": {
@@ -17412,7 +17412,7 @@
       }
     },
     "2620": {
-      "fetchedAt": "2026-09-04T09:36:09.044Z",
+      "fetchedAt": "2026-09-07T10:13:33.331Z",
       "data": {
         "byMotor": {
           "3958": {
@@ -17465,7 +17465,7 @@
       }
     },
     "2621": {
-      "fetchedAt": "2026-09-04T09:36:09.502Z",
+      "fetchedAt": "2026-09-07T10:13:33.770Z",
       "data": {
         "byMotor": {
           "3959": {
@@ -17496,7 +17496,7 @@
       }
     },
     "2650": {
-      "fetchedAt": "2026-09-04T09:35:33.486Z",
+      "fetchedAt": "2026-09-07T10:12:59.433Z",
       "data": {
         "byMotor": {
           "3987": {
@@ -17571,7 +17571,7 @@
       }
     },
     "2652": {
-      "fetchedAt": "2026-09-04T09:35:42.076Z",
+      "fetchedAt": "2026-09-07T10:13:10.919Z",
       "data": {
         "byMotor": {
           "2256": {
@@ -17624,7 +17624,7 @@
       }
     },
     "2653": {
-      "fetchedAt": "2026-09-04T09:35:42.415Z",
+      "fetchedAt": "2026-09-07T10:13:11.267Z",
       "data": {
         "byMotor": {
           "3990": {
@@ -17677,7 +17677,7 @@
       }
     },
     "2654": {
-      "fetchedAt": "2026-09-04T09:35:42.760Z",
+      "fetchedAt": "2026-09-07T10:13:11.595Z",
       "data": {
         "byMotor": {
           "3990": {
@@ -17730,7 +17730,7 @@
       }
     },
     "2655": {
-      "fetchedAt": "2026-09-04T09:35:43.072Z",
+      "fetchedAt": "2026-09-07T10:13:11.934Z",
       "data": {
         "byMotor": {
           "3990": {
@@ -17783,7 +17783,7 @@
       }
     },
     "2657": {
-      "fetchedAt": "2026-09-04T09:35:41.176Z",
+      "fetchedAt": "2026-09-07T10:13:10.003Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -17814,7 +17814,7 @@
       }
     },
     "2662": {
-      "fetchedAt": "2026-09-04T09:35:53.132Z",
+      "fetchedAt": "2026-09-07T10:13:22.606Z",
       "data": {
         "byMotor": {
           "3146": {
@@ -17867,7 +17867,7 @@
       }
     },
     "2667": {
-      "fetchedAt": "2026-09-04T09:36:08.068Z",
+      "fetchedAt": "2026-09-07T10:13:37.136Z",
       "data": {
         "byMotor": {
           "1895": {
@@ -17898,7 +17898,7 @@
       }
     },
     "2683": {
-      "fetchedAt": "2026-09-04T09:35:42.676Z",
+      "fetchedAt": "2026-09-07T10:13:04.311Z",
       "data": {
         "byMotor": {
           "4007": {
@@ -17929,7 +17929,7 @@
       }
     },
     "2685": {
-      "fetchedAt": "2026-09-04T09:35:44.109Z",
+      "fetchedAt": "2026-09-07T10:13:06.389Z",
       "data": {
         "byMotor": {
           "4008": {
@@ -17982,7 +17982,7 @@
       }
     },
     "2686": {
-      "fetchedAt": "2026-09-04T09:35:44.409Z",
+      "fetchedAt": "2026-09-07T10:13:06.828Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -18013,7 +18013,7 @@
       }
     },
     "2687": {
-      "fetchedAt": "2026-09-04T09:35:44.725Z",
+      "fetchedAt": "2026-09-07T10:13:07.208Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -18044,7 +18044,7 @@
       }
     },
     "2688": {
-      "fetchedAt": "2026-09-04T09:35:45.200Z",
+      "fetchedAt": "2026-09-07T10:13:07.532Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -18075,7 +18075,7 @@
       }
     },
     "2699": {
-      "fetchedAt": "2026-09-04T09:36:10.890Z",
+      "fetchedAt": "2026-09-07T10:13:39.531Z",
       "data": {
         "byMotor": {
           "3214": {
@@ -18128,7 +18128,7 @@
       }
     },
     "2702": {
-      "fetchedAt": "2026-09-04T09:36:10.548Z",
+      "fetchedAt": "2026-09-07T10:13:39.127Z",
       "data": {
         "byMotor": {
           "4017": {
@@ -18159,7 +18159,7 @@
       }
     },
     "2704": {
-      "fetchedAt": "2026-09-04T09:35:40.095Z",
+      "fetchedAt": "2026-09-07T10:13:08.438Z",
       "data": {
         "byMotor": {
           "3948": {
@@ -18190,7 +18190,7 @@
       }
     },
     "2705": {
-      "fetchedAt": "2026-09-04T09:36:24.580Z",
+      "fetchedAt": "2026-09-07T10:13:56.006Z",
       "data": {
         "byMotor": {
           "3711": {
@@ -18221,7 +18221,7 @@
       }
     },
     "2706": {
-      "fetchedAt": "2026-09-04T09:36:24.167Z",
+      "fetchedAt": "2026-09-07T10:13:55.655Z",
       "data": {
         "byMotor": {
           "3712": {
@@ -18252,7 +18252,7 @@
       }
     },
     "2707": {
-      "fetchedAt": "2026-09-04T09:35:43.210Z",
+      "fetchedAt": "2026-09-07T10:13:12.937Z",
       "data": {
         "byMotor": {
           "4018": {
@@ -18283,7 +18283,7 @@
       }
     },
     "2708": {
-      "fetchedAt": "2026-09-04T09:35:43.504Z",
+      "fetchedAt": "2026-09-07T10:13:13.402Z",
       "data": {
         "byMotor": {
           "4019": {
@@ -18314,7 +18314,7 @@
       }
     },
     "2715": {
-      "fetchedAt": "2026-09-04T09:35:48.915Z",
+      "fetchedAt": "2026-09-07T10:13:18.369Z",
       "data": {
         "byMotor": {
           "4026": {
@@ -18352,7 +18352,7 @@
       }
     },
     "2716": {
-      "fetchedAt": "2026-09-04T09:35:44.286Z",
+      "fetchedAt": "2026-09-07T10:13:11.426Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -18390,7 +18390,7 @@
       }
     },
     "2717": {
-      "fetchedAt": "2026-09-04T09:35:44.628Z",
+      "fetchedAt": "2026-09-07T10:13:11.758Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -18457,7 +18457,7 @@
       }
     },
     "2718": {
-      "fetchedAt": "2026-09-04T09:35:44.928Z",
+      "fetchedAt": "2026-09-07T10:13:12.101Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -18524,7 +18524,7 @@
       }
     },
     "2719": {
-      "fetchedAt": "2026-09-04T09:35:45.388Z",
+      "fetchedAt": "2026-09-07T10:13:12.454Z",
       "data": {
         "byMotor": {
           "4028": {
@@ -18562,7 +18562,7 @@
       }
     },
     "2727": {
-      "fetchedAt": "2026-09-04T09:35:40.593Z",
+      "fetchedAt": "2026-09-07T10:13:09.336Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -18593,7 +18593,7 @@
       }
     },
     "2735": {
-      "fetchedAt": "2026-09-04T09:36:13.357Z",
+      "fetchedAt": "2026-09-07T10:13:42.563Z",
       "data": {
         "byMotor": {
           "4047": {
@@ -18624,7 +18624,7 @@
       }
     },
     "2736": {
-      "fetchedAt": "2026-09-04T09:36:07.550Z",
+      "fetchedAt": "2026-09-07T10:13:37.105Z",
       "data": {
         "byMotor": {
           "4048": {
@@ -18655,7 +18655,7 @@
       }
     },
     "2740": {
-      "fetchedAt": "2026-09-04T09:35:36.842Z",
+      "fetchedAt": "2026-09-07T10:13:03.145Z",
       "data": {
         "byMotor": {
           "2544": {
@@ -18693,7 +18693,7 @@
       }
     },
     "2742": {
-      "fetchedAt": "2026-09-04T09:36:07.455Z",
+      "fetchedAt": "2026-09-07T10:13:36.338Z",
       "data": {
         "byMotor": {
           "1895": {
@@ -18724,7 +18724,7 @@
       }
     },
     "2744": {
-      "fetchedAt": "2026-09-04T09:35:37.834Z",
+      "fetchedAt": "2026-09-07T10:13:05.130Z",
       "data": {
         "byMotor": {
           "3122": {
@@ -18755,7 +18755,7 @@
       }
     },
     "2745": {
-      "fetchedAt": "2026-09-04T09:35:38.242Z",
+      "fetchedAt": "2026-09-07T10:13:05.846Z",
       "data": {
         "byMotor": {
           "3122": {
@@ -18830,7 +18830,7 @@
       }
     },
     "2746": {
-      "fetchedAt": "2026-09-04T09:35:38.575Z",
+      "fetchedAt": "2026-09-07T10:13:06.384Z",
       "data": {
         "byMotor": {
           "3122": {
@@ -18905,7 +18905,7 @@
       }
     },
     "2747": {
-      "fetchedAt": "2026-09-04T09:35:55.152Z",
+      "fetchedAt": "2026-09-07T10:13:25.049Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -18936,7 +18936,7 @@
       }
     },
     "2748": {
-      "fetchedAt": "2026-09-04T09:35:55.850Z",
+      "fetchedAt": "2026-09-07T10:13:25.957Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -18967,7 +18967,7 @@
       }
     },
     "2750": {
-      "fetchedAt": "2026-09-04T09:36:16.812Z",
+      "fetchedAt": "2026-09-07T10:13:48.308Z",
       "data": {
         "byMotor": {
           "4058": {
@@ -18998,7 +18998,7 @@
       }
     },
     "2752": {
-      "fetchedAt": "2026-09-04T09:35:48.764Z",
+      "fetchedAt": "2026-09-07T10:13:18.243Z",
       "data": {
         "byMotor": {
           "4063": {
@@ -19029,7 +19029,7 @@
       }
     },
     "2755": {
-      "fetchedAt": "2026-09-04T09:35:48.136Z",
+      "fetchedAt": "2026-09-07T10:13:16.319Z",
       "data": {
         "byMotor": {
           "4061": {
@@ -19060,7 +19060,7 @@
       }
     },
     "2757": {
-      "fetchedAt": "2026-09-04T09:36:14.860Z",
+      "fetchedAt": "2026-09-07T10:13:45.714Z",
       "data": {
         "byMotor": {
           "780": {
@@ -19135,7 +19135,7 @@
       }
     },
     "2758": {
-      "fetchedAt": "2026-09-04T09:35:36.219Z",
+      "fetchedAt": "2026-09-07T10:13:02.363Z",
       "data": {
         "byMotor": {
           "3924": {
@@ -19166,7 +19166,7 @@
       }
     },
     "2759": {
-      "fetchedAt": "2026-09-04T09:36:10.356Z",
+      "fetchedAt": "2026-09-07T10:13:41.907Z",
       "data": {
         "byMotor": {
           "4066": {
@@ -19197,7 +19197,7 @@
       }
     },
     "2762": {
-      "fetchedAt": "2026-09-04T09:35:47.363Z",
+      "fetchedAt": "2026-09-07T10:13:15.219Z",
       "data": {
         "byMotor": {
           "4071": {
@@ -19228,7 +19228,7 @@
       }
     },
     "2763": {
-      "fetchedAt": "2026-09-04T09:35:46.735Z",
+      "fetchedAt": "2026-09-07T10:13:14.388Z",
       "data": {
         "byMotor": {
           "4071": {
@@ -19281,7 +19281,7 @@
       }
     },
     "2764": {
-      "fetchedAt": "2026-09-04T09:35:47.052Z",
+      "fetchedAt": "2026-09-07T10:13:14.777Z",
       "data": {
         "byMotor": {
           "4072": {
@@ -19312,7 +19312,7 @@
       }
     },
     "2765": {
-      "fetchedAt": "2026-09-04T09:35:39.114Z",
+      "fetchedAt": "2026-09-07T10:13:05.035Z",
       "data": {
         "byMotor": {
           "4073": {
@@ -19365,7 +19365,7 @@
       }
     },
     "2766": {
-      "fetchedAt": "2026-09-04T09:35:39.424Z",
+      "fetchedAt": "2026-09-07T10:13:05.607Z",
       "data": {
         "byMotor": {
           "4073": {
@@ -19418,7 +19418,7 @@
       }
     },
     "2770": {
-      "fetchedAt": "2026-09-04T09:35:54.532Z",
+      "fetchedAt": "2026-09-07T10:13:24.045Z",
       "data": {
         "byMotor": {
           "3658": {
@@ -19449,7 +19449,7 @@
       }
     },
     "2772": {
-      "fetchedAt": "2026-09-04T09:35:33.034Z",
+      "fetchedAt": "2026-09-07T10:12:58.479Z",
       "data": {
         "byMotor": {
           "1960": {
@@ -19502,7 +19502,7 @@
       }
     },
     "2785": {
-      "fetchedAt": "2026-09-04T09:35:51.950Z",
+      "fetchedAt": "2026-09-07T10:13:17.653Z",
       "data": {
         "byMotor": {
           "4045": {
@@ -19533,7 +19533,7 @@
       }
     },
     "2786": {
-      "fetchedAt": "2026-09-04T09:35:51.257Z",
+      "fetchedAt": "2026-09-07T10:13:16.941Z",
       "data": {
         "byMotor": {
           "4046": {
@@ -19564,7 +19564,7 @@
       }
     },
     "2787": {
-      "fetchedAt": "2026-09-04T09:35:46.148Z",
+      "fetchedAt": "2026-09-07T10:13:11.347Z",
       "data": {
         "byMotor": {
           "4090": {
@@ -19595,14 +19595,14 @@
       }
     },
     "2794": {
-      "fetchedAt": "2026-09-04T09:36:03.249Z",
+      "fetchedAt": "2026-09-07T10:13:34.354Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2801": {
-      "fetchedAt": "2026-09-04T09:35:52.655Z",
+      "fetchedAt": "2026-09-07T10:13:22.276Z",
       "data": {
         "byMotor": {
           "3803": {
@@ -19633,7 +19633,7 @@
       }
     },
     "2808": {
-      "fetchedAt": "2026-09-04T09:36:15.018Z",
+      "fetchedAt": "2026-09-07T10:13:45.702Z",
       "data": {
         "byMotor": {
           "4110": {
@@ -19730,7 +19730,7 @@
       }
     },
     "2833": {
-      "fetchedAt": "2026-09-04T09:35:34.214Z",
+      "fetchedAt": "2026-09-07T10:13:00.085Z",
       "data": {
         "byMotor": {
           "4133": {
@@ -19761,7 +19761,7 @@
       }
     },
     "2834": {
-      "fetchedAt": "2026-09-04T09:35:34.534Z",
+      "fetchedAt": "2026-09-07T10:13:00.414Z",
       "data": {
         "byMotor": {
           "4134": {
@@ -19792,7 +19792,7 @@
       }
     },
     "2846": {
-      "fetchedAt": "2026-09-04T09:35:45.670Z",
+      "fetchedAt": "2026-09-07T10:13:13.129Z",
       "data": {
         "byMotor": {
           "4028": {
@@ -19830,7 +19830,7 @@
       }
     },
     "2849": {
-      "fetchedAt": "2026-09-04T09:35:43.679Z",
+      "fetchedAt": "2026-09-07T10:13:05.214Z",
       "data": {
         "byMotor": {
           "4146": {
@@ -19905,7 +19905,7 @@
       }
     },
     "2852": {
-      "fetchedAt": "2026-09-04T09:35:40.001Z",
+      "fetchedAt": "2026-09-07T10:13:08.641Z",
       "data": {
         "byMotor": {
           "2872": {
@@ -19958,7 +19958,7 @@
       }
     },
     "2853": {
-      "fetchedAt": "2026-09-04T09:35:46.929Z",
+      "fetchedAt": "2026-09-07T10:13:14.523Z",
       "data": {
         "byMotor": {
           "4151": {
@@ -19989,7 +19989,7 @@
       }
     },
     "2854": {
-      "fetchedAt": "2026-09-04T09:35:47.217Z",
+      "fetchedAt": "2026-09-07T10:13:15.236Z",
       "data": {
         "byMotor": {
           "4152": {
@@ -20020,7 +20020,7 @@
       }
     },
     "2860": {
-      "fetchedAt": "2026-09-04T09:36:14.025Z",
+      "fetchedAt": "2026-09-07T10:13:43.977Z",
       "data": {
         "byMotor": {
           "2322": {
@@ -20117,7 +20117,7 @@
       }
     },
     "2861": {
-      "fetchedAt": "2026-09-04T09:36:14.317Z",
+      "fetchedAt": "2026-09-07T10:13:44.312Z",
       "data": {
         "byMotor": {
           "2322": {
@@ -20214,7 +20214,7 @@
       }
     },
     "2862": {
-      "fetchedAt": "2026-09-04T09:36:14.616Z",
+      "fetchedAt": "2026-09-07T10:13:44.652Z",
       "data": {
         "byMotor": {
           "4156": {
@@ -20245,7 +20245,7 @@
       }
     },
     "2863": {
-      "fetchedAt": "2026-09-04T09:36:15.594Z",
+      "fetchedAt": "2026-09-07T10:13:45.014Z",
       "data": {
         "byMotor": {
           "4156": {
@@ -20276,7 +20276,7 @@
       }
     },
     "2867": {
-      "fetchedAt": "2026-09-04T09:35:58.732Z",
+      "fetchedAt": "2026-09-07T10:13:29.921Z",
       "data": {
         "byMotor": {
           "4162": {
@@ -20307,28 +20307,28 @@
       }
     },
     "2869": {
-      "fetchedAt": "2026-09-04T09:36:06.547Z",
+      "fetchedAt": "2026-09-07T10:13:38.418Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2870": {
-      "fetchedAt": "2026-09-04T09:35:45.445Z",
+      "fetchedAt": "2026-09-07T10:13:11.998Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2871": {
-      "fetchedAt": "2026-09-04T09:35:36.009Z",
+      "fetchedAt": "2026-09-07T10:13:00.618Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2873": {
-      "fetchedAt": "2026-09-04T09:35:38.728Z",
+      "fetchedAt": "2026-09-07T10:13:04.573Z",
       "data": {
         "byMotor": {
           "4192": {
@@ -20359,7 +20359,7 @@
       }
     },
     "2874": {
-      "fetchedAt": "2026-09-04T09:35:51.630Z",
+      "fetchedAt": "2026-09-07T10:13:17.325Z",
       "data": {
         "byMotor": {
           "4173": {
@@ -20390,7 +20390,7 @@
       }
     },
     "2875": {
-      "fetchedAt": "2026-09-04T09:35:33.242Z",
+      "fetchedAt": "2026-09-07T10:12:59.242Z",
       "data": {
         "byMotor": {
           "4177": {
@@ -20428,28 +20428,28 @@
       }
     },
     "2877": {
-      "fetchedAt": "2026-09-04T09:35:38.382Z",
+      "fetchedAt": "2026-09-07T10:13:07.144Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2878": {
-      "fetchedAt": "2026-09-04T09:35:37.924Z",
+      "fetchedAt": "2026-09-07T10:13:06.786Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2881": {
-      "fetchedAt": "2026-09-04T09:35:47.725Z",
+      "fetchedAt": "2026-09-07T10:13:17.228Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2882": {
-      "fetchedAt": "2026-09-04T09:36:18.354Z",
+      "fetchedAt": "2026-09-07T10:13:49.449Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -20480,7 +20480,7 @@
       }
     },
     "2883": {
-      "fetchedAt": "2026-09-04T09:36:18.632Z",
+      "fetchedAt": "2026-09-07T10:13:49.786Z",
       "data": {
         "byMotor": {
           "1889": {
@@ -20511,7 +20511,7 @@
       }
     },
     "2886": {
-      "fetchedAt": "2026-09-03T09:44:26.944Z",
+      "fetchedAt": "2026-09-07T10:13:26.959Z",
       "data": {
         "byMotor": {
           "4185": {
@@ -20542,7 +20542,7 @@
       }
     },
     "2888": {
-      "fetchedAt": "2026-09-03T09:44:26.567Z",
+      "fetchedAt": "2026-09-07T10:13:26.629Z",
       "data": {
         "byMotor": {
           "4186": {
