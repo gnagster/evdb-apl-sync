@@ -3019,6 +3019,56 @@
           "url": "/neuwagen/geely/e5/max-/"
         }
       ]
+    },
+    "ioniq-3": {
+      "fetchedAt": "2026-09-10T09:39:43.426Z",
+      "lines": [
+        {
+          "id": "2909",
+          "name": "Hyundai IONIQ 3 Select",
+          "url": "/neuwagen/hyundai/ioniq-3/select/"
+        },
+        {
+          "id": "2910",
+          "name": "Hyundai IONIQ 3 Trend",
+          "url": "/neuwagen/hyundai/ioniq-3/trend/"
+        },
+        {
+          "id": "2911",
+          "name": "Hyundai IONIQ 3 N Line",
+          "url": "/neuwagen/hyundai/ioniq-3/n-line/"
+        },
+        {
+          "id": "2912",
+          "name": "Hyundai IONIQ 3 Prime",
+          "url": "/neuwagen/hyundai/ioniq-3/prime/"
+        },
+        {
+          "id": "2913",
+          "name": "Hyundai IONIQ 3 N Line Evo",
+          "url": "/neuwagen/hyundai/ioniq-3/n-line-evo/"
+        }
+      ]
+    },
+    "staria-elektro": {
+      "fetchedAt": "2026-09-10T09:39:47.652Z",
+      "lines": [
+        {
+          "id": "2905",
+          "name": "Hyundai Staria Elektro Trend",
+          "url": "/neuwagen/hyundai/staria-elektro/trend/"
+        },
+        {
+          "id": "2906",
+          "name": "Hyundai Staria Elektro Prime",
+          "url": "/neuwagen/hyundai/staria-elektro/prime/"
+        },
+        {
+          "id": "2907",
+          "name": "Hyundai Staria Elektro Calligraphy",
+          "url": "/neuwagen/hyundai/staria-elektro/calligraphy/"
+        }
+      ]
     }
   },
   "lineData": {
@@ -20672,6 +20722,37 @@
         }
       }
     },
+    "2905": {
+      "fetchedAt": "2026-09-10T09:39:47.956Z",
+      "data": {
+        "byMotor": {
+          "4207": {
+            "endpreis": "50.883,51",
+            "kaufpreis": "49.688,51",
+            "ersparnis": "7.761,50 (13,51)",
+            "lieferzeit": "4-7 Monate"
+          }
+        },
+        "offers": {
+          "4207": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "49.734,51",
+              "kaufpreis": "48.539,51",
+              "ersparnis": "8.910,50 (15,51)",
+              "lieferzeit": "4-7 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "50.883,51",
+              "kaufpreis": "49.688,51",
+              "ersparnis": "7.761,50 (13,51)",
+              "lieferzeit": "4-7 Monate"
+            }
+          ]
+        }
+      }
+    },
     "2908": {
       "fetchedAt": "2026-09-09T09:40:48.104Z",
       "data": {
@@ -20698,6 +20779,205 @@
               "kaufpreis": "67.694,85",
               "ersparnis": "8.805,15 (11,51)",
               "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2909": {
+      "fetchedAt": "2026-09-10T09:39:43.708Z",
+      "data": {
+        "byMotor": {
+          "4208": {
+            "endpreis": "26.303,86",
+            "kaufpreis": "25.038,86",
+            "ersparnis": "3.911,15 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          },
+          "4209": {
+            "endpreis": "29.763,46",
+            "kaufpreis": "28.498,46",
+            "ersparnis": "4.451,55 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "4208": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "26.014,36",
+              "kaufpreis": "24.749,36",
+              "ersparnis": "4.200,65 (14,51)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "26.303,86",
+              "kaufpreis": "25.038,86",
+              "ersparnis": "3.911,15 (13,51)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ],
+          "4209": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "29.433,96",
+              "kaufpreis": "28.168,96",
+              "ersparnis": "4.781,05 (14,51)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "29.763,46",
+              "kaufpreis": "28.498,46",
+              "ersparnis": "4.451,55 (13,51)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2910": {
+      "fetchedAt": "2026-09-10T09:39:43.989Z",
+      "data": {
+        "byMotor": {
+          "4208": {
+            "endpreis": "28.898,56",
+            "kaufpreis": "27.633,56",
+            "ersparnis": "4.316,45 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          },
+          "4209": {
+            "endpreis": "32.358,16",
+            "kaufpreis": "31.093,16",
+            "ersparnis": "4.856,85 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "4208": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "28.579,06",
+              "kaufpreis": "27.314,06",
+              "ersparnis": "4.635,95 (14,51)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "28.898,56",
+              "kaufpreis": "27.633,56",
+              "ersparnis": "4.316,45 (13,51)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ],
+          "4209": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "31.998,66",
+              "kaufpreis": "30.733,66",
+              "ersparnis": "5.216,35 (14,51)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "32.358,16",
+              "kaufpreis": "31.093,16",
+              "ersparnis": "4.856,85 (13,51)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2911": {
+      "fetchedAt": "2026-09-10T09:39:44.265Z",
+      "data": {
+        "byMotor": {
+          "4209": {
+            "endpreis": "35.558,29",
+            "kaufpreis": "34.293,29",
+            "ersparnis": "5.356,72 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "4209": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "35.161,79",
+              "kaufpreis": "33.896,79",
+              "ersparnis": "5.753,22 (14,51)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "35.558,29",
+              "kaufpreis": "34.293,29",
+              "ersparnis": "5.356,72 (13,51)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2912": {
+      "fetchedAt": "2026-09-10T09:39:44.549Z",
+      "data": {
+        "byMotor": {
+          "4209": {
+            "endpreis": "36.682,66",
+            "kaufpreis": "35.417,66",
+            "ersparnis": "5.532,35 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "4209": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "36.273,16",
+              "kaufpreis": "35.008,16",
+              "ersparnis": "5.941,85 (14,51)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "36.682,66",
+              "kaufpreis": "35.417,66",
+              "ersparnis": "5.532,35 (13,51)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2913": {
+      "fetchedAt": "2026-09-10T09:39:44.831Z",
+      "data": {
+        "byMotor": {
+          "4209": {
+            "endpreis": "37.980,01",
+            "kaufpreis": "36.715,01",
+            "ersparnis": "5.735,00 (13,51)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "4209": [
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "37.339,01",
+              "kaufpreis": "36.074,01",
+              "ersparnis": "6.375,99 (15,02)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "37.980,01",
+              "kaufpreis": "36.715,01",
+              "ersparnis": "5.735,00 (13,51)",
+              "lieferzeit": "3-5 Monate"
             }
           ]
         }
@@ -21404,6 +21684,14 @@
     "4205": {
       "kwh": null,
       "kw": 74
+    },
+    "4208": {
+      "kwh": 42,
+      "kw": 108
+    },
+    "4209": {
+      "kwh": 61,
+      "kw": 99
     }
   }
 }
