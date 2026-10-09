@@ -22,6 +22,14 @@ assert.deepStrictEqual(APLScraper.parseModelUrls('<html>No models</html>'), []);
 // Real Abarth 500e response: tarifs 159 (behindert) / 69 (GK) / 71 (PK).
 const abarth = fs.readFileSync(path.join(__dirname, 'fixtures/apl-preisliste-abarth.html'), 'utf8');
 
+// APL now emits class=" preis-item"; all price views must still find blocks.
+for (const classes of [' preis-item', 'preis-item ', 'extra preis-item extra']) {
+  const html = abarth.replaceAll('class="preis-item"', `class="${classes}"`);
+  for (const parse of [APLScraper.parsePrices, APLScraper.parsePricesByMotor, APLScraper.parseOffers]) {
+    assert.deepStrictEqual(parse(html), parse(abarth));
+  }
+}
+
 const p = APLScraper.parsePrices(abarth);
 assert.strictEqual(p.geschaeftskunden.endpreis, '30.428,45', 'GK endpreis');
 assert.strictEqual(p.geschaeftskunden.kaufpreis, '29.438,45', 'GK kaufpreis');

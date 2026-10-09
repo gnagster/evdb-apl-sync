@@ -44,7 +44,7 @@
     // Raw German price strings kept as-is (decimal comma).
     parsePrices(html) {
       const out = {};
-      for (let block of String(html).split(/<div class="preis-item"/).slice(1)) {
+      for (let block of String(html).split(/<div class="(?:[^"]*\s)?preis-item(?:\s[^"]*)?"/).slice(1)) {
         const text = block.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
         const kind = classify(text);
         if (!kind || out[kind]) continue; // first block per kind wins (base motor first)
@@ -65,7 +65,7 @@
     // pipeline to match evdb battery sizes against the APL motor price rank.
     parsePricesByMotor(html) {
       const out = {};
-      for (let block of String(html).split(/<div class="preis-item"/).slice(1)) {
+      for (let block of String(html).split(/<div class="(?:[^"]*\s)?preis-item(?:\s[^"]*)?"/).slice(1)) {
         const text = block.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
         if (classify(text) !== 'privatkunden') continue;
         const motor = (block.match(/data-motor="(\d+)"/) || [])[1];
@@ -88,7 +88,7 @@
     // else (behindert/Beamte/Tageszulassung/Abrufschein) is skipped.
     parseOffers(html) {
       const out = {};
-      for (let block of String(html).split(/<div class="preis-item"/).slice(1)) {
+      for (let block of String(html).split(/<div class="(?:[^"]*\s)?preis-item(?:\s[^"]*)?"/).slice(1)) {
         const text = block.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
         let tag;
         if (/Freiberufler/i.test(text)) tag = 'für Freiberufler';

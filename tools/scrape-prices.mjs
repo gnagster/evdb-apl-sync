@@ -371,8 +371,6 @@ async function main() {
   console.log('Mapped ' + Object.keys(mapping).length + ' vehicles (' + jobs.length + ' APL models), scraping Privatkunden…');
   await runPool();
 
-  if (aborted) { console.error('Incomplete run - apl-prices.json not touched.'); process.exit(1); }
-
   if (failures.length) {
     console.log('Failures by reason:');
     for (const [r, n] of Object.entries(cats).sort((a, b) => b[1] - a[1])) console.log('  ' + n + '\t' + r);
@@ -380,6 +378,7 @@ async function main() {
     for (const f of failures) { const m = (f.match(/^([^|]+)\|/) || [])[1]; if (m) makes[m] = (makes[m] || 0) + 1; }
     console.log('Top failure makes: ' + Object.entries(makes).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([m, n]) => m + ':' + n).join(', '));
   }
+  if (aborted) { console.error('Incomplete run - apl-prices.json not touched.'); process.exit(1); }
 
   // Never overwrite a good dataset with a bot-blocked/partial run.
   try {
