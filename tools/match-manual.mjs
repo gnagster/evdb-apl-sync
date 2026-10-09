@@ -9,6 +9,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { createInterface } from 'node:readline/promises';
 import APLMatcher from '../matcher.js';
+import APLScraper from '../scraper.js';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36';
 const OVERRIDES_PATH = 'tools/overrides.json';
@@ -22,12 +23,11 @@ const fetchText = async (url) => {
 // Same inputs + parsing as scrape-prices.mjs, so the review queue matches
 // what the pipeline saw when it built apl-prices.json.
 const load = async () => {
-  const [xml, html] = await Promise.all([
-    fetchText('https://www.apl.de/sitemap.xml'),
+  const [catalogue, html] = await Promise.all([
+    fetchText('https://www.apl.de/neuwagen/'),
     fetchText('https://ev-database.org/'),
   ]);
-  const paths = [...xml.matchAll(/<loc>\s*([^<]*\/neuwagen\/[^<]*?\/modellvarianten\/)\s*<\/loc>/gi)]
-    .map((m) => new URL(m[1]).pathname);
+  const paths = APLScraper.parseModelUrls(catalogue).map((u) => new URL(u).pathname);
   const vehicles = [];
   for (const chunk of String(html).split('<div class="list-item" data-jplist-item>').slice(1)) {
     if (!/class="availability current"/.test(chunk)) continue;
@@ -39,6 +39,7 @@ const load = async () => {
     const shape = (chunk.match(/class="shape-([a-z]+) hidden"/) || [])[1];
     if (make && model) vehicles.push({ make: make.trim(), model, shape });
   }
+  if (!paths.length || !vehicles.length) throw new Error('No APL models or EVDB vehicles found.');
   return { paths, vehicles };
 };
 

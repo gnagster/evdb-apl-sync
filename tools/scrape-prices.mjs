@@ -79,8 +79,8 @@ const parseNum = (s) => {
 async function main() {
   const [aplSlugs, vehicles] = await Promise.all([
     (async () => {
-      const xml = await fetchText('https://www.apl.de/sitemap.xml', 'application/xml,text/xml,*/*');
-      return [...xml.matchAll(/<loc>\s*([^<]*\/neuwagen\/[^<]*?\/modellvarianten\/)\s*<\/loc>/gi)].map((m) => m[1]);
+      const html = await fetchText('https://www.apl.de/neuwagen/', 'text/html');
+      return APLScraper.parseModelUrls(html);
     })(),
     (async () => {
       const html = await fetchText('https://ev-database.org/', 'text/html');
@@ -98,6 +98,7 @@ async function main() {
       return out;
     })(),
   ]);
+  if (!aplSlugs.length || !vehicles.length) throw new Error('No APL models or EVDB vehicles found; keeping existing prices.');
 
   const paths = aplSlugs.map((u) => new URL(u).pathname);
   const built = APLMatcher.buildMapping(vehicles, paths); // 'Make|Model' -> apl slug (+ confidence/lowConfidence)

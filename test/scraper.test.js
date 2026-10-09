@@ -7,6 +7,18 @@ const path = require('path');
 const APLScraper = require('../scraper.js');
 const { selectEndpreis } = require('../content.js');
 
+assert.deepStrictEqual(APLScraper.parseModelUrls(`
+  <a href="/neuwagen/abarth/500e/modellvarianten/">500e</a>
+  <a href='https://www.apl.de/neuwagen/abarth/500e/modellvarianten/'>duplicate</a>
+  <a href="/neuwagen/volkswagen/id-3/modellvarianten/">ID.3</a>
+  <a href="/neuwagen/abarth/">brand</a>
+  <a href="https://example.com/neuwagen/abarth/500e/modellvarianten/">external</a>
+`), [
+  'https://www.apl.de/neuwagen/abarth/500e/modellvarianten/',
+  'https://www.apl.de/neuwagen/volkswagen/id-3/modellvarianten/',
+]);
+assert.deepStrictEqual(APLScraper.parseModelUrls('<html>No models</html>'), []);
+
 // Real Abarth 500e response: tarifs 159 (behindert) / 69 (GK) / 71 (PK).
 const abarth = fs.readFileSync(path.join(__dirname, 'fixtures/apl-preisliste-abarth.html'), 'utf8');
 

@@ -34,6 +34,12 @@
   const APLScraper = {
     UA,
 
+    // The sitemap no longer lists models; the catalogue links every model.
+    parseModelUrls(html) {
+      return [...new Set([...String(html).matchAll(/href=["']((?:https:\/\/www\.apl\.de)?\/neuwagen\/[^/"']+\/[^/"']+\/modellvarianten\/)["']/gi)]
+        .map((m) => new URL(m[1], 'https://www.apl.de').href))];
+    },
+
     // html -> { geschaeftskunden: {...}, privatkunden: {...} }
     // Raw German price strings kept as-is (decimal comma).
     parsePrices(html) {
