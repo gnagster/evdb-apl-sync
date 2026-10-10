@@ -147,7 +147,7 @@ async function main() {
   }
   for (const [key, m] of Object.entries(corrections.mapping)) {
     if (idMode && !key.startsWith('evdb:')) continue;
-    if (m === null) { delete mapping[key]; continue; }
+    if (m === null || m.evdbOnly) { delete mapping[key]; continue; }
     const slug = m.slug || m.base?.slug || mapping[key];
     if (!slug || !slugToUrl[slug]) throw new Error('Unknown APL model for ' + key);
     mapping[key] = slug;

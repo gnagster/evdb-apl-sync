@@ -31,6 +31,13 @@ assert.equal(found.priceEur,30000);assert.equal(found.pricePerKm,30000/v.rangeKm
 assert.equal(E.rows(database,prices,cfg,{tag:D.TAGS[1]},D.money).length,1);
 assert.equal(E.rows(database,prices,cfg,{tag:D.TAGS[1]},D.money)[0][1].priceEur,18000);
 assert.equal(E.rows(database,prices,{mapping:{[k]:null},prices:{}},{},D.money).some(([id])=>id===k),false);
+const evdbOnly={mapping:{[k]:{evdbOnly:true}},prices:{}};D.validate(evdbOnly);
+assert.equal(E.rows(database,prices,evdbOnly,{},D.money).find(([id])=>id===k)[1].priceEur,v.priceEur);
+assert.equal(E.rows(database,prices,evdbOnly,{tag:D.TAGS[1]},D.money).length,0);
+assert.equal(D.applyMappings(prices,evdbOnly,{} )[k],undefined);
+assert.equal(E.rows(database,prices,evdbOnly,{corrected:true},D.money).length,1);
+assert.throws(()=>D.validate({mapping:{[k]:{evdbOnly:true,base:ref}},prices:{}}));
+assert.throws(()=>D.validate({mapping:{[k]:{evdbOnly:false}},prices:{}}));
 const historical={...database,vehicles:[{...v,status:'archive'}]};
 assert.equal(E.rows(historical,prices,cfg,{},D.money)[0][1].priceEur,v.priceEur);
 assert.equal(E.rows(historical,prices,{mapping:{[k]:{base:ref}},prices:{}},{},D.money)[0][1].priceEur,20000);

@@ -186,3 +186,11 @@ Preisvorrang, Kundenangebote, IDs und Erweiterungskompatibilität. Die vorhanden
 Scraper-, Zuordnungs-, Veröffentlichungs- und Zugangstests bleiben aktiv.
 Live-Abruf: `node tools/scrape-evdb.mjs` und `node tools/scrape-prices.mjs`.
 Die Veröffentlichungsskripte sind für isolierte CI-Checkouts bestimmt.
+
+In den Fahrzeugdetails lässt sich **Nicht bei APL gelistet – EVDB-Listenpreis
+verwenden** ankreuzen. Nach dem Speichern bleibt das Fahrzeug sichtbar, verwendet
+ausschließlich seinen deutschen EVDB-Listenpreis und wird bei APL-Zuordnungen
+übersprungen. Vorhandene APL-Zuordnungen und Zahlenkorrekturen werden beim Wechsel
+entfernt; Zahlenkorrekturen erfordern eine Bestätigung. Ohne EVDB-Preis erscheint
+kein Preis. Entfernen der Markierung aktiviert die automatische APL-Zuordnung
+wieder. Die Korrektur wird als `mapping["evdb:ID"] = { "evdbOnly": true }` gespeichert.

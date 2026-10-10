@@ -134,7 +134,7 @@ function render() {
     model.append(el('span', p.make, 'make-label'), button(p.model, () => openDetail(key), 'model-button'));
     if (p.manualPrice || p.offers?.some((o) => o.manualPrice)) model.append(el('span', 'Preis korrigiert', 'badge'));
     if (p.stale) model.append(el('span', 'Letzter guter Preis', 'badge warn'));
-    if (key in draft.mapping) model.append(el('span', 'Quelle korrigiert', 'badge'));
+    if (key in draft.mapping) model.append(el('span', draft.mapping[key]?.evdbOnly ? 'Nicht bei APL gelistet' : 'Quelle korrigiert', 'badge'));
     model.append(el('span', E.labels[p.status], 'badge'));
     const price = el('td', p.priceEur === null ? '—' : eur.format(p.priceEur), 'amount');price.append(el('small', p.priceSource, 'make-label'));
     row.append(model, price);
@@ -154,7 +154,7 @@ function render() {
   $('correction-list').replaceChildren();
   for (const key of [...new Set([...correctedKeys, ...changed])]) {
     const row = el('div', undefined, 'correction-row'), text = el('div', labelFor(key));
-    if (key in draft.mapping) text.append(el('span', draft.mapping[key] === null ? 'Ausgeschlossen' : 'Zuordnung', 'badge'));
+    if (key in draft.mapping) text.append(el('span', draft.mapping[key] === null ? 'Ausgeschlossen' : draft.mapping[key].evdbOnly ? 'Nicht bei APL gelistet · EVDB-Listenpreis' : 'Zuordnung', 'badge'));
     if (key in draft.prices) text.append(el('span', 'Preiswerte', 'badge'));
     if (changed.includes(key)) text.append(el('span', 'Entwurf', 'badge draft'));
     row.append(text, button('Korrekturen zurücksetzen', () => { delete draft.mapping[key];delete draft.prices[key];render(); }));
@@ -243,7 +243,21 @@ function openDetail(key) {
     content.append(specs);
     if (!entry.source) content.append(el('p', 'EVDB-Listenpreis: ' + (vehicle.priceEur == null ? 'nicht verfügbar' : eur.format(vehicle.priceEur)) + '. Für eigene Preiswerte zuerst eine APL-Quelle auswählen.', 'detail-note'));
   }
-  content.append(actions, el('p', 'Quellenänderungen werden nach dem Speichern verarbeitet. Ein Neuabruf erhält manuelle Preiswerte; mit „Preiswerte zurücksetzen“ verwendest du wieder die Abrufwerte.', 'detail-note'));
+  const evdbOnly = el('input');evdbOnly.type = 'checkbox';evdbOnly.checked = !!draft.mapping[key]?.evdbOnly;
+  const evdbLabel = el('label', undefined, 'unknown-option');evdbLabel.append(evdbOnly, el('span', 'Nicht bei APL gelistet – EVDB-Listenpreis verwenden'));
+  evdbOnly.onchange = () => {
+    if (evdbOnly.checked) {
+      if (draft.prices[key] && !confirm('Mit dem Wechsel zum EVDB-Listenpreis werden die APL-Zuordnung und die vorhandenen Zahlenkorrekturen entfernt. Fortfahren?')) { evdbOnly.checked = false;return; }
+      draft.mapping[key] = { evdbOnly: true };delete draft.prices[key];
+    } else delete draft.mapping[key];
+    render();openDetail(key);notice('Preisquelle als Entwurf geändert. Mit „In GitHub speichern“ dauerhaft übernehmen.');
+  };
+  content.append(evdbLabel, actions, el('p', 'Quellenänderungen werden nach dem Speichern verarbeitet. Ein Neuabruf erhält manuelle Preiswerte; mit „Preiswerte zurücksetzen“ verwendest du wieder die Abrufwerte.', 'detail-note'));
+  if (draft.mapping[key]?.evdbOnly) {
+    actions.firstChild.disabled = true;
+    content.append(el('p', 'Für dieses Fahrzeug wird ausschließlich der EVDB-Listenpreis verwendet. Zum erneuten Zuordnen einer APL-Quelle die Markierung entfernen.', 'detail-note'));
+    if (!$('detail').open) $('detail').showModal();return;
+  }
   for (const slot of ['base', ...D.TAGS]) {
     const value = slot === 'base' ? entry : entry.offers?.find((o) => o.tag === slot);
     const raw = slot === 'base' ? original : original?.offers?.find((o) => o.tag === slot);

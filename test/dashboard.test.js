@@ -81,6 +81,10 @@ try {
   reset(config);fs.rmSync(path.join(dir,'calls.json'),{force:true});result=run('corrections');
   assert.equal(result.status, 0, result.stdout + result.stderr);
   assert.ok(!fs.existsSync(path.join(dir,'calls.json')), 'numeric correction needs no scraping');
+  reset({mapping:{'Nissan|Ariya 87kWh':{evdbOnly:true}},prices:{}});fs.rmSync(path.join(dir,'calls.json'),{force:true});
+  result=run('corrections');assert.equal(result.status,0,result.stdout+result.stderr);
+  assert(!fs.existsSync(path.join(dir,'calls.json')),'EVDB-only needs no APL request');
+  output=JSON.parse(fs.readFileSync(path.join(dir,'apl-prices.json')));assert(!output.prices['Nissan|Ariya 87kWh']);assert.deepEqual(output.prices['Tesla|Model 3'],prices['Tesla|Model 3']);
   const pinned = D.clone(config);pinned.mapping['Nissan|Ariya 87kWh'] = { base: ref() };
   reset(pinned);
   const pinnedInitial = { ...initial, appliedOverrides: pinned };

@@ -28,6 +28,10 @@
     for (const m of Object.values(config.mapping)) {
       if (m === null) continue;
       if (!m || typeof m !== 'object' || Array.isArray(m)) throw new Error('Ungültige Zuordnung.');
+      if ('evdbOnly' in m) {
+        if (m.evdbOnly !== true || Object.keys(m).length !== 1) throw new Error('EVDB-Listenpreis kann nicht mit APL-Quellen kombiniert werden.');
+        continue;
+      }
       if (m.slug && !/^[a-z0-9-]+$/.test(m.slug)) throw new Error('Ungültiges APL-Modell.');
       if (m.base) validateSource(m.base);
       for (const [tag, source] of Object.entries(m.offers || {})) {
@@ -65,7 +69,7 @@
   function applyMappings(prices, config, cache) {
     const out = clone(prices);
     for (const [key, m] of Object.entries(config.mapping)) {
-      if (m === null) { delete out[key]; continue; }
+      if (m === null || m.evdbOnly) { delete out[key]; continue; }
       if (!out[key]) out[key] = { confidence: 1, offers: [] };
       if (m.base) {
         const base = sourceOffer(m.base, TAGS[0], cache);
