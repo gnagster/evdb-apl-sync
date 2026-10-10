@@ -81,16 +81,23 @@ gespiegelt.
 
 [Preis-Dashboard öffnen](https://gnagster.github.io/evdb-apl-sync/)
 
-Die öffentliche Übersicht zeigt Fahrzeugpreise, Angebote für alle Kundenarten,
-Lieferzeiten, Abrufdatum und die genaue APL-Quelle. Suche, Hersteller-, Preis-
+Nach Prüfung eines gültigen Repo-Tokens zeigt die Übersicht Fahrzeugpreise,
+Angebote für alle Kundenarten, Lieferzeiten, Abrufdatum und die genaue APL-Quelle. Suche, Hersteller-, Preis-
 und Zuordnungsfilter lassen sich kombinieren. Die gefilterte Tabelle kann als
 CSV und der aktuelle Stand einschließlich Entwürfen als JSON exportiert werden.
 
-Zum Bearbeiten **GitHub verbinden** wählen und ein kurzlebiges, fine-grained
-Personal Access Token eingeben: nur das Repository `evdb-apl-sync` auswählen,
+Zum Öffnen ein kurzlebiges, fine-grained Personal Access Token eingeben:
+nur das Repository `evdb-apl-sync` auswählen,
 **Contents: Read and write** und **Actions: Read and write** erlauben. Das Token
-bleibt ausschließlich im Arbeitsspeicher der Seite; beim Neuladen oder Abmelden
-wird es verworfen. Keine Zugangsdaten in Dateien, Commits oder Exporten speichern.
+wird im lokalen Browserspeicher gespeichert und beim nächsten Öffnen erneut
+geprüft. **Abmelden** entfernt das Token und sperrt die Übersicht. Ungültige
+oder abgelaufene Tokens werden entfernt. Keine Zugangsdaten in Dateien,
+Commits oder Exporten speichern.
+
+Die Zugangssperre betrifft die Dashboard-Oberfläche. GitHub Pages, das Repository
+und die Preisdateien bleiben öffentlich zugänglich; vertrauliche Daten benötigen
+eine serverseitige Zugangskontrolle. Wer Zugriff auf dieses Browserprofil hat,
+kann auch das dort gespeicherte Token verwenden.
 
 Fahrzeugdetails erlauben getrennte Korrekturen der Fahrzeugwerte und einzelnen
 Kundenangebote. Die Quelle lässt sich bis zu APL-Modell, Ausstattungsvariante,
@@ -102,7 +109,7 @@ Vor einem Neuladen können sie als JSON gesichert werden.
 
 Die Datei `tools/dashboard-overrides.json` trennt `mapping` (Quellen oder `null`
 zum Ausschließen) von `prices` (quellengebundene Feldkorrekturen). Diese Datei ist
-wie das Dashboard öffentlich. Änderungen lösen eine gezielte Neuberechnung aus.
+öffentlich im Repository. Änderungen lösen eine gezielte Neuberechnung aus.
 Zahlenkorrekturen überstehen spätere Abrufe; **Preiswerte zurücksetzen** entfernt
 sie. **Zuordnung zurücksetzen** stellt den bestehenden manuellen Override bzw.
 die automatische Zuordnung wieder her. Ausgeschlossene Fahrzeuge können unter
@@ -122,6 +129,9 @@ GitHub Pages veröffentlicht ausschließlich `dashboard/`, über den Workflow
 nicht in die Website eingebettet. Zum lokalen Prüfen einen statischen Server im
 Repo starten und `dashboard/` öffnen; auch die lokale Oberfläche nutzt GitHub als
 Datenquelle.
+
+Zugangstests: `node test/dashboard-auth.test.js` prüfen Token-Speicherung,
+erneute Prüfung, Sperre, Abmelden und abgelaufene Sitzungen.
 
 Zusätzliche Tests: `node test/dashboard.test.js`. Sie prüfen Quellenkennungen,
 gebundene Korrekturen, Filter, Einzelabrufe, Fehlererhaltung und das Zusammenführen

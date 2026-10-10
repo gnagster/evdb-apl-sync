@@ -1,7 +1,9 @@
 'use strict';
 const D = APLDashboard, $ = (id) => document.getElementById(id);
 const REPO = 'gnagster/evdb-apl-sync', API = 'https://api.github.com/repos/' + REPO;
+const TOKEN_KEY = 'apl-dashboard:' + REPO + ':token';
 let token = '', data, cache, saved = D.empty(), draft = D.empty(), fileSha = '', page = 0;
+let authGeneration = 0;
 let sort = 'model', direction = 1, selectedKey = '', visibleRows = [], requests = [], polling = false;
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
 const date = (value) => value ? new Date(value).toLocaleString('de-DE') : 'unbekannt';
@@ -18,25 +20,32 @@ function button(text, action, className) {
   node.addEventListener('click', () => Promise.resolve().then(action).catch(showError)); return node;
 }
 function notice(message, error = false) {
-  for (const node of [$('message'), ...document.querySelectorAll('dialog[open] .notice')]) {
+  for (const node of [$('message'), ...(!$('auth').hidden ? [$('auth-message')] : []), ...document.querySelectorAll('dialog[open] .notice')]) {
     node.hidden = false;node.textContent = message;node.classList.toggle('error', error);
   }
 }
 function showError(error) { notice(error.message || String(error), true); }
 async function api(path, options = {}) {
+  if (!token) throw new Error('Bitte zuerst das Dashboard mit einem gültigen Token entsperren.');
+  const requestToken = token;
   const response = await fetch(API + path, { ...options, headers: {
     Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
     ...(token ? { Authorization: 'Bearer ' + token } : {}), ...(options.body ? { 'Content-Type': 'application/json' } : {})
   }, cache: 'no-store' });
+  if (requestToken !== token) throw new Error('Die Sitzung wurde beendet.');
   if (!response.ok) {
     const messages = { 401: 'Das Token ist ungültig oder abgelaufen.', 403: 'GitHub verweigert den Zugriff. Prüfe die Token-Rechte und das API-Limit.',
       409: 'Die Datei wurde zwischenzeitlich geändert. Deine Entwürfe bleiben erhalten. Exportiere sie oder lade den aktuellen Stand.',
       422: 'GitHub konnte die Anfrage nicht übernehmen. Bitte den aktuellen Stand laden und erneut versuchen.' };
-    throw new Error(messages[response.status] || 'GitHub-Anfrage fehlgeschlagen (' + response.status + ').');
+    const message = messages[response.status] || 'GitHub-Anfrage fehlgeschlagen (' + response.status + ').';
+    if (response.status === 401) lock(true, message);
+    throw new Error(message);
   }
   return response.status === 204 ? null : response.json();
 }
 async function load() {
+  if (!token) throw new Error('Bitte zuerst das Dashboard entsperren.');
+  const requestToken = token;
   if (dirty() && !confirm('Ungespeicherte Entwürfe verwerfen und neu laden?')) return;
   $('reload').disabled = true;
   try {
@@ -50,6 +59,7 @@ async function load() {
     const [prices, scrapeCache, configFile] = await Promise.all([
       read('apl-prices.json'), read('tools/scrape-cache.json'), api('/contents/tools/dashboard-overrides.json?ref=' + commit.sha)
     ]);
+    if (requestToken !== token) return;
     if (!prices.prices || typeof prices.count !== 'number') throw new Error('Ungültige Preisdatei.');
     const decoded = new TextDecoder().decode(Uint8Array.from(atob(configFile.content.replace(/\s/g, '')), (c) => c.charCodeAt(0)));
     saved = D.validate(JSON.parse(decoded)); draft = D.clone(saved); fileSha = configFile.sha;
@@ -237,7 +247,7 @@ function openDetail(key) {
   if (!$('detail').open) $('detail').showModal();
 }
 async function save() {
-  if (!token) { $('auth').showModal();notice('Bitte GitHub verbinden, danach erneut speichern.');return; }
+  if (!token) { lock(false, 'Bitte das Dashboard entsperren, danach erneut speichern.');return; }
   D.validate(draft);$('save').disabled = true;
   try {
     const bytes = new TextEncoder().encode(JSON.stringify(draft, null, 2) + '\n');
@@ -251,7 +261,7 @@ async function save() {
   } finally { $('save').disabled = !dirty(); }
 }
 async function dispatch(mode, target) {
-  if (!token) { $('auth').showModal();notice('Zum Starten eines Abrufs bitte GitHub verbinden.');return; }
+  if (!token) { lock(false, 'Zum Starten eines Abrufs bitte das Dashboard entsperren.');return; }
   if (dirty()) throw new Error('Bitte zuerst die Entwürfe speichern oder verwerfen. Neuabrufe verwenden die gespeicherten Zuordnungen.');
   const ids = mode === 'offer' ? [JSON.parse(target).variantId] : mode === 'catalogue' ? (cache.slugLines[target]?.lines || []).map((v) => v.id) :
     [...new Set([...(cache.slugLines[data.prices[target]?.slug]?.lines || []).map((v) => v.id), ...D.references(data.prices[target]).map((s) => s.variantId)])];
@@ -293,13 +303,45 @@ async function pollRuns() {
 function download(name, text, type) {
   const url = URL.createObjectURL(new Blob([text], { type })), link = el('a');link.href = url;link.download = name;link.click();setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
-$('auth-form').onsubmit = async (event) => {
-  event.preventDefault();token = $('token').value.trim();$('token').value = '';
-  try { const repo = await api('');if (!repo.permissions?.push) throw new Error('Dieser GitHub-Account hat keinen Schreibzugriff auf das Repo.');
-    $('auth').close();$('connect').textContent = 'Verbunden · Abmelden';notice('GitHub verbunden. Das Token wird beim Neuladen gelöscht.');pollRuns();
-  } catch (error) { token = '';showError(error); }
+// shortcut: This gates the Pages UI; private data requires server authentication.
+function lock(removeStored = false, message = '') {
+  token = '';authGeneration++;
+  $('dashboard').hidden = true;$('auth').hidden = false;$('detail').close();
+  $('token').value = '';$('auth-submit').disabled = false;
+  if (removeStored) {
+    try { localStorage.removeItem(TOKEN_KEY); } catch {}
+  }
+  if (message) notice(message, true);
+  $('token').focus();
+}
+async function authenticate(value) {
+  const attempt = ++authGeneration;
+  token = value.trim();$('token').value = '';$('auth-submit').disabled = true;
+  notice('Token wird geprüft …');
+  try {
+    const repo = await api('');
+    if (attempt !== authGeneration) return;
+    if (!repo.permissions?.push) {
+      lock(true, 'Dieses Token hat keinen Schreibzugriff auf das Repository.');return;
+    }
+    try { localStorage.setItem(TOKEN_KEY, token); }
+    catch { throw new Error('Das Token kann in diesem Browser nicht gespeichert werden. Bitte die Website-Speicherung erlauben.'); }
+    await load();
+    if (attempt !== authGeneration) return;
+    $('auth').hidden = true;$('dashboard').hidden = false;$('connect').textContent = 'Abmelden';
+    $('connect').focus();pollRuns();
+  } catch (error) {
+    if (attempt !== authGeneration) return;
+    lock(false, error.message || String(error));
+  } finally { if (attempt === authGeneration) $('auth-submit').disabled = false; }
+}
+$('auth-form').onsubmit = (event) => { event.preventDefault();authenticate($('token').value); };
+$('connect').onclick = () => {
+  if (dirty() && !confirm('Ungespeicherte Entwürfe verwerfen und abmelden?')) return;
+  saved = D.empty();draft = D.empty();data = undefined;cache = undefined;visibleRows = [];requests = [];
+  $('rows').replaceChildren();$('detail-content').replaceChildren();$('correction-list').replaceChildren();$('run-list').replaceChildren();
+  lock(true, 'Abgemeldet. Das gespeicherte Token wurde entfernt.');
 };
-$('connect').onclick = () => { if (token) { token = '';$('connect').textContent = 'GitHub verbinden';notice('Abgemeldet.'); } else $('auth').showModal(); };
 for (const node of document.querySelectorAll('[data-close]')) node.onclick = () => $(node.dataset.close).close();
 $('save').onclick = () => save().catch(showError);
 $('discard').onclick = () => { if (confirm('Alle ungespeicherten Entwürfe verwerfen?')) { draft = D.clone(saved);render(); } };
@@ -320,4 +362,9 @@ $('csv').onclick = () => {
 };
 $('json').onclick = () => download('apl-dashboard.json', JSON.stringify({ ...data, prices: effective(), dashboardDraft: draft }, null, 2), 'application/json');
 window.addEventListener('beforeunload', (event) => { if (dirty()) { event.preventDefault();event.returnValue = ''; } });
-load().catch(showError);
+let storedToken = '';
+try { storedToken = localStorage.getItem(TOKEN_KEY) || ''; }
+catch { notice('Die Website-Speicherung ist gesperrt. Bitte im Browser erlauben.', true); }
+if (storedToken) authenticate(storedToken);
+else $('token').focus();
+storedToken = '';
