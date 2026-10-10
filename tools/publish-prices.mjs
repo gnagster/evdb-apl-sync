@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import D from '../dashboard/core.js';
 import E from '../dashboard/evdb.js';
-const git = (...args) => execFileSync('git', args, { encoding: 'utf8' }).trim();
+const git = (...args) => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }).trim();
 const result = JSON.parse(readFileSync('tools/scrape-result.json', 'utf8'));
 const output = JSON.parse(readFileSync('apl-prices.json', 'utf8'));
 const cache = JSON.parse(readFileSync('tools/scrape-cache.json', 'utf8'));

@@ -121,7 +121,7 @@ console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapp
 {
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'apl-publication-test-'));
   const { execFileSync }=require('node:child_process');
-  const git=(cwd,...args)=>execFileSync('git',args,{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim();
+  const git=(cwd,...args)=>execFileSync('git',args,{cwd,encoding:'utf8',maxBuffer:64*1024*1024,stdio:['ignore','pipe','pipe']}).trim();
   const write=(cwd,file,value)=>fs.writeFileSync(path.join(cwd,file),JSON.stringify(value,null,2)+'\n');
   try {
     const remote=path.join(dir,'remote.git'), work=path.join(dir,'work'), other=path.join(dir,'other');
@@ -134,11 +134,11 @@ console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapp
     fs.copyFileSync(path.join(root,'tools/publish-evdb.mjs'),path.join(work,'tools/publish-evdb.mjs'));
     const vehicles=[{id:'1',make:'A',model:'One',status:'current'},{id:'2',make:'B',model:'Two',status:'current'}];
     write(work,'evdb-vehicles.json',{fetchedAt:'2026-10-10T00:00:00Z',vehicles});
-    const base={count:2,prices:{'A|One':{endpreis:'10.000,00'},'B|Two':{endpreis:'20.000,00'}},originalPrices:{},appliedOverrides:D.empty(),lowConfidence:[]};
+    const base={padding:'x'.repeat(1200000),count:2,prices:{'A|One':{endpreis:'10.000,00'},'B|Two':{endpreis:'20.000,00'}},originalPrices:{},appliedOverrides:D.empty(),lowConfidence:[]};
     write(work,'apl-prices.json',base);write(work,'tools/scrape-cache.json',{slugLines:{},lineData:{},motorSpecs:{}});write(work,'tools/dashboard-overrides.json',D.empty());
     git(work,'add','.');git(work,'commit','-m','baseline');git(work,'remote','add','origin',remote);git(work,'push','origin','main');
     git(dir,'clone',remote,other);git(other,'config','user.name','Other');git(other,'config','user.email','other@example.com');
-    write(other,'evdb-vehicles.json',{fetchedAt:'2026-10-10T02:00:00Z',vehicles:[...vehicles,{id:'9',make:'A',model:'One',status:'archive'}]});
+    write(other,'evdb-vehicles.json',{padding:'x'.repeat(1200000),fetchedAt:'2026-10-10T02:00:00Z',vehicles:[...vehicles,{id:'9',make:'A',model:'One',status:'archive'}]});
     const newer=D.clone(base);newer.prices['B|Two'].endpreis='25.000,00';write(other,'apl-prices.json',newer);git(other,'add','.');git(other,'commit','-m','other source');git(other,'push');
     const updated=D.clone(base);updated.prices['A|One'].endpreis='11.000,00';
     updated.pricesByEvdbId={'evdb:1':updated.prices['A|One'],'evdb:2':updated.prices['B|Two']};updated.originalPricesByEvdbId={};updated.vehicles=vehicles;write(work,'apl-prices.json',updated);
