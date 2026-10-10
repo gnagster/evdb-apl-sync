@@ -1,10 +1,10 @@
 'use strict';
-const D = APLDashboard, $ = (id) => document.getElementById(id);
+const E = EVDB, D = APLDashboard, $ = (id) => document.getElementById(id);
 const REPO = 'gnagster/evdb-apl-sync', API = 'https://api.github.com/repos/' + REPO;
 const TOKEN_KEY = 'apl-dashboard:' + REPO + ':token';
-let token = '', data, cache, saved = D.empty(), draft = D.empty(), fileSha = '', page = 0;
+let token = '', data, database, cache, filterControls = { groups: {}, ranges: {} }, saved = D.empty(), draft = D.empty(), fileSha = '', page = 0;
 let authGeneration = 0;
-let sort = 'model', direction = 1, selectedKey = '', visibleRows = [], requests = [], polling = false;
+let sort = 'rank', direction = -1, selectedKey = '', visibleRows = [], requests = [], polling = false;
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
 const date = (value) => value ? new Date(value).toLocaleString('de-DE') : 'unbekannt';
 const amount = (value) => D.money(value) === null ? '—' : eur.format(D.money(value));
@@ -56,65 +56,95 @@ async function load() {
       if (!response.ok) throw new Error('Daten konnten nicht geladen werden: ' + path);
       return response.json();
     };
-    const [prices, scrapeCache, configFile] = await Promise.all([
-      read('apl-prices.json'), read('tools/scrape-cache.json'), api('/contents/tools/dashboard-overrides.json?ref=' + commit.sha)
+    const [prices, scrapeCache, configFile, vehicles] = await Promise.all([
+      read('apl-prices.json'), read('tools/scrape-cache.json'), api('/contents/tools/dashboard-overrides.json?ref=' + commit.sha), read('evdb-vehicles.json')
     ]);
     if (requestToken !== token) return;
     if (!prices.prices || typeof prices.count !== 'number') throw new Error('Ungültige Preisdatei.');
     const decoded = new TextDecoder().decode(Uint8Array.from(atob(configFile.content.replace(/\s/g, '')), (c) => c.charCodeAt(0)));
-    saved = D.validate(JSON.parse(decoded)); draft = D.clone(saved); fileSha = configFile.sha;
-    data = prices; cache = scrapeCache;
-    const makes = [...new Set(Object.keys(data.prices).map((k) => k.split('|')[0]))].sort((a, b) => a.localeCompare(b, 'de'));
-    const currentMake = $('make').value;
-    $('make').replaceChildren(new Option('Alle Hersteller', ''), ...makes.map((m) => new Option(m, m)));
-    $('make').value = makes.includes(currentMake) ? currentMake : '';
+    const migration = E.migrate(D.validate(JSON.parse(decoded)), vehicles.vehicles);
+    saved = migration.config;draft = D.clone(saved);fileSha = configFile.sha;
+    if (migration.conflicts.length) notice('Zuordnungskonflikte (bitte getrennt nach EVDB-ID korrigieren): ' + migration.conflicts.join(', '), true);
+    data = prices;database = vehicles;cache = scrapeCache;buildFilters();
     page = 0; render();
     if (!data.modelUrls) notice('Die Quellenübersicht wird beim nächsten vollständigen Abruf ergänzt.');
     else if (JSON.stringify(saved) !== JSON.stringify(data.appliedOverrides)) notice('Korrekturen sind gespeichert. Die Übernahme in die Preisdatei läuft noch.');
+    else if (data.migrationConflicts?.length) notice('Zuordnungskonflikte: ' + data.migrationConflicts.join(', '), true);
     else if (data.warnings?.length) notice(data.warnings.join('\n'), true);
-    else $('message').hidden = true;
+    else if (!migration.conflicts.length) $('message').hidden = true;
   } finally { $('reload').disabled = false; }
 }
 function effective() {
-  let prices = D.rawPrices(data);
+  let prices = E.idPrices(data, database.vehicles, true);
   try { prices = D.applyMappings(prices, draft, cache); }
   catch { /* Saved assignment may be waiting for its targeted source fetch. */ }
   return D.applyPrices(prices, draft).prices;
 }
+function buildFilters() {
+  filterControls = { groups: {}, ranges: {} };$('evdb-filters').replaceChildren();
+  $('sort').replaceChildren(...E.sorts.map(([value,label]) => new Option(label, value)));$('sort').value = sort;
+  for (const [name, group] of Object.entries(database.filters.groups)) {
+    const details = el('details'), summary = el('summary', group.label), options = el('div', undefined, 'filter-checks');
+    details.append(summary, options);filterControls.groups[name] = [];
+    for (const option of group.options) {
+      const input = el('input');input.type = 'checkbox';input.value = option.value;
+      input.defaultChecked = input.checked = name === 'availability' && option.value === 'current';
+      const label = el('label');label.append(input, el('span', option.label));options.append(label);filterControls.groups[name].push(input);
+    }
+    $('evdb-filters').append(details);
+  }
+  for (const def of database.filters.ranges) {
+    const details = el('details'), summary = el('summary', def.label + ' · ' + def.unit + (def.openMax ? ' · oberes Ende offen' : ''));
+    const controls = {}, grid = el('div', undefined, 'range-controls');
+    for (const side of ['min','max']) {
+      const label = el('label', side === 'min' ? 'Von' : 'Bis'), number = el('input'), slider = el('input');
+      for (const input of [number,slider]) { input.type = input === number ? 'number' : 'range';input.min = def.min;input.max = def.max;input.step = def.step;input.value = input.defaultValue = def[side];input.setAttribute('aria-label', def.label + ' ' + (side === 'min' ? 'von' : 'bis')); }
+      number.oninput = () => { slider.value = number.value; };slider.oninput = () => { number.value = slider.value; };
+      label.append(number, slider);grid.append(label);controls[side] = number;
+    }
+    const unknown = el('input');unknown.type = 'checkbox';controls.unknown = unknown;
+    const label = el('label', undefined, 'unknown-option');label.append(unknown, el('span', def.field === 'safetyStars' ? 'Nicht getestet einschließen' : def.field === 'cargoL' ? 'Unbekanntes Ladevolumen einschließen' : 'Unbekannte Angaben einschließen'));
+    const only = el('input');only.type = 'checkbox';controls.only = only;
+    const onlyLabel = el('label', undefined, 'unknown-option');onlyLabel.append(only, el('span', def.field === 'safetyStars' ? 'Nur nicht getestete Fahrzeuge' : 'Nur unbekannte Angaben'));
+    details.append(summary, grid, label, onlyLabel);filterControls.ranges[def.field] = controls;$('evdb-filters').append(details);
+  }
+}
 function filters() {
-  const min = $('min-price').value.trim(), max = $('max-price').value.trim();
-  $('min-price').setCustomValidity(min && D.money(min) === null ? 'Bitte einen gültigen Eurobetrag eingeben.' : '');
-  $('max-price').setCustomValidity(max && D.money(max) === null ? 'Bitte einen gültigen Eurobetrag eingeben.' : '');
-  return { query: $('query').value, make: $('make').value, tag: $('tag').value,
-    min: min ? D.money(min) : null, max: max ? D.money(max) : null,
+  const groups = Object.fromEntries(Object.entries(filterControls.groups).map(([key,nodes]) => [key,nodes.filter((n) => n.checked).map((n) => n.value)]));
+  const ranges = Object.fromEntries(Object.entries(filterControls.ranges).map(([key,nodes]) => [key,{ min: Number(nodes.min.value), max: Number(nodes.max.value), unknown: nodes.unknown.checked, unknownOnly: nodes.only.checked }]));
+  return { query: $('query').value, tag: $('tag').value, groups, ranges,
     uncertain: $('uncertain').checked, corrected: $('corrected').checked, sort, direction };
 }
+function labelFor(key) { const v = database?.vehicles.find((v) => E.key(v) === key);return v ? v.title + ' · EVDB ' + v.id : key.replace('|', ' · ') + ' · Zuordnungskonflikt'; }
 function render() {
   if (!data) return;
   const prices = effective();
-  visibleRows = D.filterRows(prices, draft, filters());
+  visibleRows = E.rows(database, prices, draft, filters(), D.money);
   const totalPages = Math.max(1, Math.ceil(visibleRows.length / 50)); page = Math.min(page, totalPages - 1);
-  $('updated').textContent = 'Letzter Datenabruf: ' + date(data.generatedAt);
-  $('vehicle-count').textContent = Object.keys(prices).length;
+  $('updated').textContent = 'EVDB: ' + date(database.fetchedAt) + ' · APL: ' + date(data.generatedAt);
+  $('vehicle-count').textContent = database.vehicles.length;
   $('offer-count').textContent = Object.values(prices).reduce((n, p) => n + (p.offers || []).length, 0);
   $('uncertain-count').textContent = Object.values(prices).filter((p) => p.confidence < .85).length;
   const correctedKeys = [...new Set([...Object.keys(draft.mapping), ...Object.keys(draft.prices)])];
   $('correction-count').textContent = correctedKeys.length;
-  $('result-count').textContent = visibleRows.length + ' von ' + Object.keys(prices).length + ' Fahrzeugen';
+  $('result-count').textContent = visibleRows.length + ' von ' + database.vehicles.length + ' Fahrzeugen';
   $('rows').replaceChildren();
   for (const [key, p] of visibleRows.slice(page * 50, (page + 1) * 50)) {
     const row = el('tr'), model = el('td');
-    model.append(el('span', key.split('|')[0], 'make-label'), button(key.split('|')[1], () => openDetail(key), 'model-button'));
+    model.append(el('span', p.make, 'make-label'), button(p.model, () => openDetail(key), 'model-button'));
     if (p.manualPrice || p.offers?.some((o) => o.manualPrice)) model.append(el('span', 'Preis korrigiert', 'badge'));
     if (p.stale) model.append(el('span', 'Letzter guter Preis', 'badge warn'));
     if (key in draft.mapping) model.append(el('span', 'Quelle korrigiert', 'badge'));
-    row.append(model, el('td', amount(p.endpreis), 'amount'));
+    model.append(el('span', E.labels[p.status], 'badge'));
+    const price = el('td', p.priceEur === null ? '—' : eur.format(p.priceEur), 'amount');price.append(el('small', p.priceSource, 'make-label'));
+    row.append(model, price);
     for (const tag of D.TAGS.slice(0, 2)) row.append(el('td', amount(p.offers?.find((o) => o.tag === tag)?.endpreis), 'amount'));
     row.append(el('td', p.lieferzeit || '—'));
-    const confidence = el('td');confidence.append(el('span', Math.round((p.confidence || 0) * 100) + ' %', 'badge' + (p.confidence < .85 ? ' warn' : '')));row.append(confidence);
+    for (const [field,unit] of [['rangeKm','km'],['batteryKwh','kWh'],['efficiencyWhKm','Wh/km']]) row.append(el('td', p[field] == null ? '—' : p[field] + ' ' + unit));
+    const confidence = el('td');confidence.append(el('span', p.confidence == null ? '—' : Math.round(p.confidence * 100) + ' %', 'badge' + (p.confidence < .85 ? ' warn' : '')));row.append(confidence);
     $('rows').append(row);
   }
-  if (!visibleRows.length) { const td = el('td', 'Keine Fahrzeuge für diese Filter.');td.colSpan = 6;const row = el('tr');row.append(td);$('rows').append(row); }
+  if (!visibleRows.length) { const td = el('td', 'Keine Fahrzeuge für diese Filter.');td.colSpan = 9;const row = el('tr');row.append(td);$('rows').append(row); }
   $('prev').disabled = page === 0; $('next').disabled = page >= totalPages - 1;
   $('page-label').textContent = 'Seite ' + (page + 1) + ' von ' + totalPages;
   const changed = [...new Set([...correctedKeys, ...Object.keys(saved.mapping), ...Object.keys(saved.prices)])]
@@ -123,7 +153,7 @@ function render() {
   $('save').disabled = !dirty(); $('discard').disabled = !dirty();
   $('correction-list').replaceChildren();
   for (const key of [...new Set([...correctedKeys, ...changed])]) {
-    const row = el('div', undefined, 'correction-row'), text = el('div', key.replace('|', ' · '));
+    const row = el('div', undefined, 'correction-row'), text = el('div', labelFor(key));
     if (key in draft.mapping) text.append(el('span', draft.mapping[key] === null ? 'Ausgeschlossen' : 'Zuordnung', 'badge'));
     if (key in draft.prices) text.append(el('span', 'Preiswerte', 'badge'));
     if (changed.includes(key)) text.append(el('span', 'Entwurf', 'badge draft'));
@@ -195,16 +225,24 @@ function cleanPrices(key) {
 function openDetail(key) {
   selectedKey = key;
   $('detail-message').hidden = true;
-  const entry = effective()[key];
-  let original = D.rawPrices(data)[key];
-  try { original = D.applyMappings(D.rawPrices(data), draft, cache)[key]; } catch {}
+  const vehicle = database.vehicles.find((v) => E.key(v) === key);
+  const entry = effective()[key] || (vehicle && draft.mapping[key] !== null ? { offers: [] } : null);
+  let original = E.idPrices(data, database.vehicles, true)[key];
+  try { original = D.applyMappings(E.idPrices(data, database.vehicles, true), draft, cache)[key]; } catch {}
   if (!entry) throw new Error('Fahrzeug ist ausgeschlossen oder hat noch keinen Preis.');
-  $('detail-title').textContent = key.replace('|', ' · ');const content = $('detail-content');content.replaceChildren();
+  $('detail-title').textContent = labelFor(key);const content = $('detail-content');content.replaceChildren();
   const actions = el('div', undefined, 'detail-actions');
   actions.append(button('Fahrzeug neu abrufen', () => dispatch('vehicle', key), 'primary'), button('Fahrzeug ausschließen', () => {
     if (!confirm('Fahrzeug dauerhaft ausschließen? Es kann über die Korrekturliste wiederhergestellt werden.')) return;
     draft.mapping[key] = null;delete draft.prices[key];$('detail').close();render();
   }), button('Alle Korrekturen zurücksetzen', () => { delete draft.mapping[key];delete draft.prices[key];render();openDetail(key); }));
+  if (vehicle) {
+    const specs = el('dl', undefined, 'spec-list');
+    const link = el('a', 'EVDB-Fahrzeug öffnen ↗');const sourceUrl = new URL(vehicle.url);if (sourceUrl.origin !== 'https://ev-database.org' || !/^\/car\/\d+\//.test(sourceUrl.pathname)) throw Error('Ungültiger EVDB-Link.');link.href = sourceUrl.href;link.target = '_blank';link.rel = 'noopener';content.append(link);
+    for (const [field,value] of Object.entries(vehicle)) { const definition = Object.values(E.fields).find((d) => d[0] === field);specs.append(el('dt', definition?.[1] || ({id:'EVDB-ID',make:'Hersteller',model:'Modell',title:'Fahrzeug',status:'Status',tokens:'Merkmale',shape:'Karosserie',rank:'Beliebtheit',url:'Quelle',availableFrom:'Verfügbar ab',availableTo:'Verfügbar bis',yearFrom:'Von Jahr',yearTo:'Bis Jahr'})[field] || field), el('dd', value == null ? 'Unbekannt / offen' : field === 'status' ? E.labels[value] : field.startsWith('available') ? new Date(value * 1000).toLocaleDateString('de-DE') : Array.isArray(value) ? value.map((v) => E.labels[v] || v).join(', ') : value + (definition ? ' ' + definition[2] : ''))); }
+    content.append(specs);
+    if (!entry.source) content.append(el('p', 'EVDB-Listenpreis: ' + (vehicle.priceEur == null ? 'nicht verfügbar' : eur.format(vehicle.priceEur)) + '. Für eigene Preiswerte zuerst eine APL-Quelle auswählen.', 'detail-note'));
+  }
   content.append(actions, el('p', 'Quellenänderungen werden nach dem Speichern verarbeitet. Ein Neuabruf erhält manuelle Preiswerte; mit „Preiswerte zurücksetzen“ verwendest du wieder die Abrufwerte.', 'detail-note'));
   for (const slot of ['base', ...D.TAGS]) {
     const value = slot === 'base' ? entry : entry.offers?.find((o) => o.tag === slot);
@@ -264,8 +302,8 @@ async function dispatch(mode, target) {
   if (!token) { lock(false, 'Zum Starten eines Abrufs bitte das Dashboard entsperren.');return; }
   if (dirty()) throw new Error('Bitte zuerst die Entwürfe speichern oder verwerfen. Neuabrufe verwenden die gespeicherten Zuordnungen.');
   const ids = mode === 'offer' ? [JSON.parse(target).variantId] : mode === 'catalogue' ? (cache.slugLines[target]?.lines || []).map((v) => v.id) :
-    [...new Set([...(cache.slugLines[data.prices[target]?.slug]?.lines || []).map((v) => v.id), ...D.references(data.prices[target]).map((s) => s.variantId)])];
-  const affected = D.affected(data.prices, ids);
+    [...new Set([...(cache.slugLines[effective()[target]?.slug]?.lines || []).map((v) => v.id), ...D.references(effective()[target]).map((s) => s.variantId)])];
+  const affected = D.affected(effective(), ids);
   if (!confirm('APL-Quelle neu abrufen? ' + affected.length + ' damit verknüpfte Fahrzeuge können aktualisiert werden. Der übrige Bestand und manuelle Preiswerte bleiben erhalten.')) return;
   const requestId = crypto.randomUUID();
   const result = await api('/actions/workflows/apl-prices.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: { mode, target, request_id: requestId } }) });
@@ -348,19 +386,22 @@ $('discard').onclick = () => { if (confirm('Alle ungespeicherten Entwürfe verwe
 $('reload').onclick = () => load().catch(showError);
 $('filters').onsubmit = (event) => event.preventDefault();
 $('filters').oninput = () => { page = 0;render(); };
-$('reset-filters').onclick = () => { $('filters').reset();page = 0;render(); };
+$('reset-filters').onclick = () => { $('filters').reset();sort = 'rank';direction = -1;$('sort').value = sort;page = 0;render(); };
+$('sort').onchange = () => { sort = $('sort').value;direction = E.sorts.find((s) => s[0] === sort)[3];page = 0;render(); };
 for (const node of document.querySelectorAll('[data-sort]')) node.onclick = () => {
-  direction = sort === node.dataset.sort ? -direction : 1;sort = node.dataset.sort;page = 0;
+  direction = sort === node.dataset.sort || (sort === 'price-desc' && node.dataset.sort === 'price') ? -direction : 1;sort = node.dataset.sort;page = 0;
   for (const th of document.querySelectorAll('th[aria-sort]')) th.setAttribute('aria-sort', 'none');
-  node.closest('th').setAttribute('aria-sort', direction === 1 ? 'ascending' : 'descending');render();
+  if (sort === 'price' && direction === -1) sort = 'price-desc';
+  $('sort').value = sort;node.closest('th').setAttribute('aria-sort', direction === 1 ? 'ascending' : 'descending');render();
 };
 $('prev').onclick = () => { page--;render(); };$('next').onclick = () => { page++;render(); };
 $('csv').onclick = () => {
   const quote = (v) => '"' + String(v ?? '').replace(/^[=+@-]/, "'$&").replace(/"/g, '""') + '"';
-  const rows = [['Fahrzeug', 'Fahrzeugpreis', ...D.TAGS, 'Lieferzeit', 'Zuordnung'], ...visibleRows.map(([key, p]) => [key.replace('|', ' · '), p.endpreis, ...D.TAGS.map((tag) => p.offers?.find((o) => o.tag === tag)?.endpreis), p.lieferzeit, p.confidence])];
+  const fields = ['id','make','model','status','priceSource','priceEur','pricePerKm','rangeKm','batteryKwh','efficiencyWhKm','fastchargeKw','accelerationS','stopRangeKm','towingKg','weightKg','cargoL','safetyStars','yearFrom','yearTo','url'];
+  const rows = [fields, ...visibleRows.map(([,p]) => fields.map((f) => p[f]))];
   download('apl-preise.csv', '\uFEFF' + rows.map((r) => r.map(quote).join(';')).join('\r\n'), 'text/csv;charset=utf-8');
 };
-$('json').onclick = () => download('apl-dashboard.json', JSON.stringify({ ...data, prices: effective(), dashboardDraft: draft }, null, 2), 'application/json');
+$('json').onclick = () => download('apl-dashboard.json', JSON.stringify({ evdbFetchedAt: database.fetchedAt, aplFetchedAt: data.generatedAt, dashboardDraft: draft, vehicles: visibleRows.map(([,row]) => row) }, null, 2), 'application/json');
 window.addEventListener('beforeunload', (event) => { if (dirty()) { event.preventDefault();event.returnValue = ''; } });
 let storedToken = '';
 try { storedToken = localStorage.getItem(TOKEN_KEY) || ''; }

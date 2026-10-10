@@ -105,7 +105,7 @@ Motor und Tarif auswählen. **Varianten laden / aktualisieren** ergänzt fehlend
 Angebote. Bei einem Quellenwechsel werden bestehende Zahlenkorrekturen für dieses
 Angebot nach Bestätigung entfernt. **In GitHub speichern** übernimmt alle
 Entwürfe in einem Commit; bei einem Schreibkonflikt bleiben die Entwürfe erhalten.
-Vor einem Neuladen können sie als JSON gesichert werden.
+Vor einem Neuladen können Entwürfe im JSON-Export gesichert werden.
 
 Die Datei `tools/dashboard-overrides.json` trennt `mapping` (Quellen oder `null`
 zum Ausschließen) von `prices` (quellengebundene Feldkorrekturen). Diese Datei ist
@@ -137,3 +137,52 @@ Zusätzliche Tests: `node test/dashboard.test.js`. Sie prüfen Quellenkennungen,
 gebundene Korrekturen, Filter, Einzelabrufe, Fehlererhaltung und das Zusammenführen
 paralleler Veröffentlichungen. Der Preisworkflow akzeptiert `mode` (`full`,
 `vehicle`, `offer`, `catalogue`, `corrections`), `target` und `request_id`.
+
+
+## Vollständige EVDB-Datenbank
+
+Das [Dashboard](https://gnagster.github.io/evdb-apl-sync/) enthält alle Fahrzeuge
+von [EV Database](https://ev-database.org/), einschließlich angekündigter und
+früherer Modelle. Standard: **Bestellbar · Meistgesehen**. Alle aktuellen
+EVDB-Fahrzeugfilter, deren Bereiche und 18 Sortierungen stehen deutschsprachig
+bereit; zusätzlich Kundenart, unsichere Zuordnung und Korrekturstatus.
+Mehrfachauswahlen gelten innerhalb einer Gruppe als ODER, Gruppen und einzelne
+Ausstattungsanforderungen als UND. Unveränderte volle Bereiche schließen keine
+unbekannten Angaben aus. Eingeschränkte Bereiche bieten deren ausdrückliche
+Einbeziehung oder alleinige Auswahl. Jahresfilter prüfen Zeitüberschneidung;
+laufende Verfügbarkeit besitzt ein offenes Ende.
+
+Preise verwenden APL-Angebote mit ihren quellengebundenen Korrekturen, sonst den
+**deutschen EVDB-Listenpreis**. Ein Fahrzeug ohne Preis bleibt ohne eingeschränkten
+Preisfilter sichtbar. Bei Kundenart-Auswahl werden ausschließlich Fahrzeuge mit
+diesem Angebot angezeigt. Preis/km wird aus dem wirksamen Preis berechnet.
+CSV und JSON enthalten die gefilterten Fahrzeuge samt IDs und technischen Werten;
+JSON enthält zusätzlich die Korrekturentwürfe. Die Tokensperre bleibt bestehen.
+
+`evdb-vehicles.json` enthält metrische Übersichtsdaten, deutsche Listenpreise,
+Quellenlinks, Einheiten und die aktuellen Filterdefinitionen. Der Workflow
+`evdb.yml` holt täglich um 05:00 UTC genau eine Übersichtsseite ohne zusätzliche
+Fahrzeugdetailabrufe. EVDB und APL zeigen getrennte Abrufzeitpunkte und werden
+unabhängig veröffentlicht. Ein fehlerhafter oder unvollständiger EVDB-Abruf lässt
+den letzten gültigen Bestand bestehen. Änderungen am Filter-/Sortierinventar
+stoppen die Veröffentlichung zur Parserprüfung. Parallel veröffentlichte
+APL-Preise können neuere EVDB-Daten nicht überschreiben.
+
+Die Preisdatei mit `schemaVersion: 2` verwendet `pricesByEvdbId` mit Schlüsseln
+wie `evdb:3657`; Zahlenkorrekturen stehen roh in `originalPricesByEvdbId`.
+Neue Dashboard-Korrekturen und gezielte Fahrzeugabrufe verwenden dieselben IDs.
+Die Erweiterung bevorzugt diese ID-Zuordnung. Alte Preisdateien werden weiterhin
+unterstützt. Die bisherige `prices`-Ansicht für ältere Erweiterungen wird nur bei
+über alle Generationen eindeutigem Hersteller-/Modellnamen veröffentlicht.
+Automatische Zuordnungen gelten nur für bestellbare Fahrzeuge; gespeicherte
+Quellen können auch für angekündigte oder frühere Fahrzeuge verwendet werden.
+Alte Korrekturen werden nur bei eindeutigen Namen übernommen; mehrdeutige Einträge
+bleiben als Konflikte in der Korrekturliste erhalten und müssen anhand der IDs
+neu zugeordnet werden. Ausschlüsse gelten auch ohne APL-Angebot.
+
+Prüfung: `node test/evdb.test.js` testet Parser, Inventar, alle Filtergruppen und
+Sortierungen, Grenzen, unbekannte Werte, offene Obergrenzen, Jahresüberschneidung,
+Preisvorrang, Kundenangebote, IDs und Erweiterungskompatibilität. Die vorhandenen
+Scraper-, Zuordnungs-, Veröffentlichungs- und Zugangstests bleiben aktiv.
+Live-Abruf: `node tools/scrape-evdb.mjs` und `node tools/scrape-prices.mjs`.
+Die Veröffentlichungsskripte sind für isolierte CI-Checkouts bestimmt.

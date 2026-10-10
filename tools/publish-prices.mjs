@@ -3,6 +3,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import D from '../dashboard/core.js';
+import E from '../dashboard/evdb.js';
 const git = (...args) => execFileSync('git', args, { encoding: 'utf8' }).trim();
 const result = JSON.parse(readFileSync('tools/scrape-result.json', 'utf8'));
 const output = JSON.parse(readFileSync('apl-prices.json', 'utf8'));
@@ -20,7 +21,7 @@ for (let attempt = 0; attempt < 3; attempt++) {
   }
   const latest = JSON.parse(readRemote('apl-prices.json'));
   const latestCache = JSON.parse(readRemote('tools/scrape-cache.json'));
-  const latestRaw = D.rawPrices(latest), outputRaw = D.rawPrices(output);
+  const latestRaw = output.pricesByEvdbId && !latest.pricesByEvdbId ? E.idPrices(latest, output.vehicles, true) : D.rawPrices(latest), outputRaw = D.rawPrices(output);
   for (const key of result.changedKeys) {
     if (digest(latestRaw[key] || null) !== result.baseline[key] &&
         digest(latestRaw[key] || null) !== digest(outputRaw[key] || null)) {
@@ -38,8 +39,14 @@ for (let attempt = 0; attempt < 3; attempt++) {
   }
   const applied = D.applyPrices(latestRaw, output.appliedOverrides);
   const merged = { ...latest, ...output, ...applied, count: Object.keys(applied.prices).length };
+  if (output.pricesByEvdbId) {
+    merged.pricesByEvdbId = applied.prices;merged.originalPricesByEvdbId = applied.originalPrices;
+    let currentVehicles = output.vehicles;
+    try { currentVehicles = JSON.parse(readRemote('evdb-vehicles.json')).vehicles; } catch (e) { if (!String(e.message).includes('does not exist')) throw e; }
+    merged.prices = E.legacy(applied.prices, currentVehicles);merged.originalPrices = E.legacy(applied.originalPrices, currentVehicles);
+  }
   if (result.mode !== 'full') {
-    merged.lowConfidence = Object.entries(merged.prices).filter(([, v]) => v.confidence < 0.85).map(([k]) => k);
+    merged.lowConfidence = Object.entries(merged.pricesByEvdbId || merged.prices).filter(([, v]) => v.confidence < 0.85).map(([k]) => k);
   }
   const combinedCache = { slugLines: { ...latestCache.slugLines, ...cache.slugLines },
     motorSpecs: { ...latestCache.motorSpecs, ...cache.motorSpecs }, lineData: { ...latestCache.lineData } };

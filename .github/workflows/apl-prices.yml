@@ -39,6 +39,7 @@ jobs:
           node test/scraper.test.js
           node test/matcher.test.js
           node test/dashboard.test.js
+          node test/evdb.test.js
       - name: Scrape APL Privatkunden prices
         env:
           APL_MODE: ${{ inputs.mode || (github.event_name == 'push' && 'corrections') || 'full' }}

@@ -6,17 +6,18 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import APLMatcher from '../matcher.js';
 import APLScraper from '../scraper.js';
 import Dashboard from '../dashboard/core.js';
+import EVDB from '../dashboard/evdb.js';
 import { createHash } from 'node:crypto';
 
 const UA = APLScraper.UA;
 const MODE = process.env.APL_MODE || 'full';
 const TARGET = process.env.APL_TARGET || '';
 if (!['full', 'vehicle', 'offer', 'catalogue', 'corrections'].includes(MODE)) throw new Error('Unknown scrape mode');
-const corrections = Dashboard.validate(JSON.parse(readFileSync('tools/dashboard-overrides.json', 'utf8')));
+let corrections = Dashboard.validate(JSON.parse(readFileSync('tools/dashboard-overrides.json', 'utf8')));
 const correctionText = readFileSync('tools/dashboard-overrides.json', 'utf8');
 let previous = null;
 try { previous = JSON.parse(readFileSync('apl-prices.json', 'utf8')); } catch (e) { if (e.code !== 'ENOENT') throw e; }
-const basePrices = previous ? Dashboard.rawPrices(previous) : {};
+let basePrices = previous ? Dashboard.rawPrices(previous) : {};
 const forceLines = new Set();
 const touched = new Set();
 const originalCache = JSON.parse(readFileSync('tools/scrape-cache.json', 'utf8'));
@@ -84,26 +85,28 @@ async function main() {
       const html = await fetchText('https://www.apl.de/neuwagen/', 'text/html');
       return APLScraper.parseModelUrls(html);
     })(),
-    (async () => {
-      const html = await fetchText('https://ev-database.org/', 'text/html');
-      const out = [];
-      for (const chunk of String(html).split('<div class="list-item" data-jplist-item>').slice(1)) {
-        if (!/class="availability current"/.test(chunk)) continue; // nur bestellbar
-        const title = chunk.match(/class="title">([\s\S]*?)<\/a>/);
-        if (!title) continue;
-        const make = (title[1].match(/<span class="[a-z0-9_]+">([^<]*)<\/span>/) || [])[1];
-        const modelRaw = (title[1].match(/class="model">([\s\S]*?)<\/span>/) || [])[1];
-        const model = modelRaw ? modelRaw.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : null;
-        const shape = (chunk.match(/class="shape-([a-z]+) hidden"/) || [])[1];
-        if (make && model) out.push({ make: make.trim(), model, shape });
-      }
-      return out;
-    })(),
-  ]) : [Object.values(previous?.modelUrls || {}), previous?.vehicles || []];
+    Promise.resolve(JSON.parse(readFileSync('evdb-vehicles.json', 'utf8')).vehicles),
+  ]) : [Object.values(previous?.modelUrls || {}), (() => { try { return JSON.parse(readFileSync('evdb-vehicles.json', 'utf8')).vehicles; } catch (e) { if (e.code !== 'ENOENT') throw e; return previous?.vehicles || []; } })()];
   if (!aplSlugs.length || !vehicles.length) throw new Error('No APL models or EVDB vehicles found; keeping existing prices.');
 
+  const idMode = vehicles.every((v) => v.id);
+  const vehicleKey = (v) => idMode ? EVDB.key(v) : v.make + '|' + v.model;
+  const nameOf = (k) => vehicles.find((v) => vehicleKey(v) === k)?.model || k.split('|')[1];
+  const migration = idMode ? EVDB.migrate(corrections, vehicles) : { config: corrections, conflicts: [] };
+  corrections = migration.config;
+  if (idMode && previous && !previous.pricesByEvdbId) basePrices = EVDB.idPrices(previous, vehicles, true);
+  for (const k of Object.keys(corrections.mapping)) if (idMode && k.startsWith('evdb:') && !vehicles.some((v) => vehicleKey(v) === k)) throw Error('Unbekannte EVDB-ID in Korrektur: ' + k);
   const paths = aplSlugs.map((u) => new URL(u).pathname);
-  const built = APLMatcher.buildMapping(vehicles, paths); // 'Make|Model' -> apl slug (+ confidence/lowConfidence)
+  const built = APLMatcher.buildMapping(vehicles.filter((v) => !v.status || v.status === 'current'), paths); // 'Make|Model' -> apl slug (+ confidence/lowConfidence)
+  if (idMode) {
+    const oldMapping = built.mapping, oldConfidence = built.confidence;
+    built.mapping = {};built.confidence = {};
+    for (const v of vehicles.filter((v) => v.status === 'current')) {
+      const oldKey = v.make + '|' + v.model, k = vehicleKey(v);
+      if (oldMapping[oldKey]) { built.mapping[k] = oldMapping[oldKey];built.confidence[k] = oldConfidence[oldKey]; }
+    }
+    built.lowConfidence = Object.keys(built.mapping).filter((k) => built.confidence[k] < .85);
+  }
   const { mapping, unmatched, candidates } = built;
   const slugToUrl = {};
   for (const u of aplSlugs) {
@@ -123,7 +126,10 @@ async function main() {
     if (e.code !== 'ENOENT') throw e; // missing file is fine
   }
   let overriddenCount = 0, overrideSkipped = 0;
-  for (const [key, slug] of Object.entries(overrides)) {
+  for (const [legacyKey, slug] of Object.entries(overrides)) {
+    const matches = vehicles.filter((v) => v.make + '|' + v.model === legacyKey);
+    if (idMode && matches.length !== 1) { migration.conflicts.push(legacyKey);continue; }
+    const key = idMode ? vehicleKey(matches[0]) : legacyKey;
     const i = unmatched.findIndex((u) => u.key === key);
     if (i >= 0) unmatched.splice(i, 1);
     delete candidates[key];
@@ -140,6 +146,7 @@ async function main() {
     }
   }
   for (const [key, m] of Object.entries(corrections.mapping)) {
+    if (idMode && !key.startsWith('evdb:')) continue;
     if (m === null) { delete mapping[key]; continue; }
     const slug = m.slug || m.base?.slug || mapping[key];
     if (!slug || !slugToUrl[slug]) throw new Error('Unknown APL model for ' + key);
@@ -266,7 +273,7 @@ async function main() {
     // name names one of the page's trims.
     const matched = new Map(); // key -> matched variant
     for (const k of job.keys) {
-      const v = APLMatcher.matchVariant(k.split('|')[1], variants);
+      const v = APLMatcher.matchVariant(nameOf(k), variants);
       if (v) matched.set(k, v);
     }
     for (const [k, v] of matched) {
@@ -286,7 +293,7 @@ async function main() {
     // instead pick the motor whose (kWh, kW) matches the name (pickMotor).
     // Motor specs come from the trim detail pages and are cached permanently.
     const specKeys = job.keys.filter((k) => {
-      const m = k.split('|')[1];
+      const m = nameOf(k);
       return APLMatcher.specKwhOf(m) != null || APLMatcher.specKwOf(m) != null;
     });
     if (specKeys.length && job.keys.length > 1) {
@@ -314,7 +321,7 @@ async function main() {
       const specMatched = new Set();
       for (const k of specKeys) {
         const motors = [...cands].map(([id, cand]) => ({ id, num: cand.num, ...(cache.motorSpecs[id] || {}) }));
-        const pick = APLMatcher.pickMotor(k.split('|')[1], motors);
+        const pick = APLMatcher.pickMotor(nameOf(k), motors);
         if (pick && cands.has(pick)) {
           const cand = cands.get(pick);
           // Same offer ordering as the other lanes (PK, GK, Freiberufler).
@@ -328,7 +335,7 @@ async function main() {
     }
     if (!job.keys.length) return;
 
-    const batteries = job.keys.map(batteryOf).filter((b) => b !== null).sort((a, b) => a - b);
+    const batteries = job.keys.map((k) => batteryOf(nameOf(k))).filter((b) => b !== null).sort((a, b) => a - b);
 
     const byMotor = new Map(); // motorId -> { price, num } (PK only)
     const offers = new Map(); // tag -> { offer, num }, cheapest endpreis wins
@@ -378,7 +385,7 @@ async function main() {
     if (!motors.length) throw new Error('no PK price');
 
     for (const k of job.keys) {
-      const b = batteryOf(k);
+      const b = batteryOf(nameOf(k));
       let chosen = motors[0].price; // no battery info -> base motor
       if (b !== null) {
         const rank = batteries.indexOf(b); // ascending order
@@ -461,7 +468,7 @@ async function main() {
     }
     if (aborted) throw new Error('Incomplete run; existing prices kept.');
     if (MODE === 'full') {
-      const active = new Set(vehicles.map((v) => v.make + '|' + v.model));
+      const active = new Set(vehicles.filter((v) => !v.status || v.status === 'current').map(vehicleKey));
       for (const [key, old] of Object.entries(basePrices)) {
         if (!prices[key] && active.has(key) && corrections.mapping[key] !== null) {
           prices[key] = { ...old, stale: true, lastError: 'Quelle konnte nicht aktualisiert werden. Letzter guter Preis bleibt erhalten.' };
@@ -481,7 +488,7 @@ async function main() {
   }
   // Resolve pinned sources explicitly; never fall back if a pinned source vanishes.
   for (const [key, m] of Object.entries(corrections.mapping)) {
-    if (!m) continue;
+    if (!m || (idMode && !key.startsWith('evdb:'))) continue;
     const refs = [m.base, ...Object.values(m.offers || {})].filter(Boolean);
     for (const ref of refs) {
       if (MODE === 'full' || !cache.lineData[ref.variantId] || changedMappingKeys.has(key) || (forceLines.has(ref.variantId) && !touched.has(ref.variantId))) {
@@ -493,8 +500,9 @@ async function main() {
     }
   }
   if (MODE !== 'full') replaceSourceValues(touched, prices);
-  prices = Dashboard.applyMappings(prices, corrections, cache);
-  const applied = Dashboard.applyPrices(prices, corrections);
+  const activeCorrections = idMode ? Object.fromEntries(['mapping','prices'].map((section) => [section, Object.fromEntries(Object.entries(corrections[section]).filter(([k]) => k.startsWith('evdb:')))])) : corrections;
+  prices = Dashboard.applyMappings(prices, activeCorrections, cache);
+  const applied = Dashboard.applyPrices(prices, activeCorrections);
   prices = applied.prices;
   for (const warning of applied.warnings) console.warn(warning);
   // lowConfidence from the matcher, minus anything overridden (slug overrides
@@ -508,6 +516,12 @@ async function main() {
     source: 'privatkunden', count: Object.keys(prices).length, prices, lowConfidence,
     originalPrices: applied.originalPrices, appliedOverrides: corrections,
     modelUrls: slugToUrl, vehicles, warnings: applied.warnings };
+  if (idMode) {
+    out.pricesByEvdbId = out.prices;out.originalPricesByEvdbId = out.originalPrices;
+    out.prices = EVDB.legacy(prices, vehicles);out.originalPrices = EVDB.legacy(applied.originalPrices, vehicles);
+    out.vehicles = vehicles.map(({id,make,model,shape,status}) => ({id,make,model,shape,status}));
+    out.schemaVersion = 2;out.migrationConflicts = [...new Set(migration.conflicts)];
+  }
   const rawOutput = Dashboard.rawPrices(out);
   const changedKeys = Object.keys({ ...basePrices, ...prices }).filter((key) => JSON.stringify(basePrices[key]) !== JSON.stringify(rawOutput[key]));
   writeFileSync('tools/scrape-result.json', JSON.stringify({ mode: MODE, correctionText, legacyOverrides: overrides,

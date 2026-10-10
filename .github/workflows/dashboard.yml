@@ -23,7 +23,9 @@ jobs:
         with:
           node-version: '22'
       - name: Check dashboard access
-        run: node test/dashboard-auth.test.js
+        run: |
+          node test/dashboard-auth.test.js
+          node test/evdb.test.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

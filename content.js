@@ -110,8 +110,12 @@ function offerLines(entry) {
   return lines;
 }
 
+function priceForVehicle(data, id, legacyKey) {
+  return data.pricesByEvdbId ? data.pricesByEvdbId['evdb:' + id] : data.prices?.[legacyKey];
+}
+
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
+  module.exports = { priceForVehicle,
     parsePriceNum, formatPrice, pricePerKm, parseRangeKm, DAY,
     selectEndpreis, offerLines, MODES,
   };
@@ -457,10 +461,12 @@ if (typeof module !== 'undefined' && module.exports) {
         let recognized = 0;
         for (const item of document.querySelectorAll('.list-item')) {
           try {
-            if (!item.querySelector('.availability.current')) continue; // not orderable
+            if (!(st.aplData || {}).pricesByEvdbId && !item.querySelector('.availability.current')) continue;
             const key = itemKey(item);
             if (!key) continue;
-            const entry = prices[key];
+            const id = item.querySelector('[data-vehicle-id]')?.getAttribute('data-vehicle-id') || item.querySelector('.title')?.getAttribute('href')?.match(/\/car\/(\d+)\//)?.[1];
+            const entry = priceForVehicle(st.aplData || {}, id, key);
+            if (!item.querySelector('.availability.current') && !entry?.manualMapping) continue;
             if (entry) recognized++;
             let priceText = null;
             let priceNum = null;

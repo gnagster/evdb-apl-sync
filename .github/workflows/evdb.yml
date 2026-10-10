@@ -1,0 +1,26 @@
+name: evdb
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  overview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node test/evdb.test.js
+      - name: Fetch complete EVDB overview
+        run: node tools/scrape-evdb.mjs
+      - name: Publish independently of APL
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node tools/publish-evdb.mjs

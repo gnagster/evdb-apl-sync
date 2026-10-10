@@ -22,7 +22,7 @@
     for (const section of [config.mapping, config.prices]) {
       if (typeof section !== 'object') throw new Error('Ungültige Korrekturen.');
       for (const key of Object.keys(section)) {
-        if (!/^[^|]+\|[^|]+$/.test(key) || ['__proto__', 'constructor', 'prototype'].includes(key)) throw new Error('Ungültiger Fahrzeugschlüssel.');
+        if (!/^(?:evdb:\d+|[^|]+\|[^|]+)$/.test(key) || ['__proto__', 'constructor', 'prototype'].includes(key)) throw new Error('Ungültiger Fahrzeugschlüssel.');
       }
     }
     for (const m of Object.values(config.mapping)) {
@@ -66,7 +66,7 @@
     const out = clone(prices);
     for (const [key, m] of Object.entries(config.mapping)) {
       if (m === null) { delete out[key]; continue; }
-      if (!out[key]) throw new Error('Fahrzeug hat keinen Abrufwert: ' + key);
+      if (!out[key]) out[key] = { confidence: 1, offers: [] };
       if (m.base) {
         const base = sourceOffer(m.base, TAGS[0], cache);
         for (const f of FIELDS) out[key][f] = base[f];
@@ -98,7 +98,7 @@
     }
     return { prices: out, originalPrices: originals, warnings };
   }
-  function rawPrices(data) { return { ...clone(data.prices || {}), ...clone(data.originalPrices || {}) }; }
+  function rawPrices(data) { return data.pricesByEvdbId ? { ...clone(data.pricesByEvdbId), ...clone(data.originalPricesByEvdbId || {}) } : { ...clone(data.prices || {}), ...clone(data.originalPrices || {}) }; }
   function references(entry) { return [entry?.source, ...(entry?.offers || []).map((o) => o.source)].filter(Boolean); }
   function affected(prices, variantIds) {
     const ids = new Set(variantIds);

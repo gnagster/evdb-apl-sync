@@ -21,7 +21,7 @@ function browser(storage = new Map(), state = {}) {
   const get = (id) => { if (!nodes.has(id)) nodes.set(id, new Element());return nodes.get(id); };
   get('dashboard').hidden = true;
   const context = vm.createContext({
-    APLDashboard: D, document: { getElementById: get, querySelectorAll: () => [], createElement: () => new Element() },
+    APLDashboard: D, EVDB: require('../dashboard/evdb.js'), document: { getElementById: get, querySelectorAll: () => [], createElement: () => new Element() },
     window: { addEventListener() {} }, Option: Element, TextEncoder, TextDecoder, Uint8Array, URL,
     atob: (s) => Buffer.from(s, 'base64').toString('binary'), btoa: (s) => Buffer.from(s, 'binary').toString('base64'),
     confirm: () => true, setTimeout() {},
@@ -39,6 +39,7 @@ function browser(storage = new Map(), state = {}) {
       else if (url.includes('/commits/main')) value = { sha: 'fixture' };
       else if (url.includes('/contents/')) value = { sha: 'blob', content: Buffer.from(JSON.stringify(D.empty())).toString('base64') };
       else if (url.endsWith('/scrape-cache.json')) value = { slugLines: {}, motorSpecs: {}, lineData: {} };
+      else if (url.endsWith('/evdb-vehicles.json')) value = { vehicles: [{id:'1',make:'Test',model:'Car',title:'Test Car',status:'current',tokens:[],priceEur:25000}], filters: {groups:{},ranges:[]} };
       else if (url.endsWith('/apl-prices.json')) {
         if (state.priceWait) await state.priceWait;
         value = { count: 1, prices: { 'Test|Car': { endpreis: '25.000,00', confidence: 1, offers: [] } }, appliedOverrides: D.empty(), modelUrls: {} };

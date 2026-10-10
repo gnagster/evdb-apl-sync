@@ -38,7 +38,7 @@ assert.ok(!D.applyMappings(prices, { mapping: { 'Tesla|Model 3': null }, prices:
 const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'apl-dashboard-test-'));
 try {
   fs.mkdirSync(path.join(dir, 'tools'));fs.mkdirSync(path.join(dir, 'dashboard'));
-  for (const file of ['scraper.js', 'matcher.js', 'dashboard/core.js', 'tools/scrape-prices.mjs']) fs.copyFileSync(path.join(root, file), path.join(dir, file));
+  for (const file of ['scraper.js', 'matcher.js', 'dashboard/core.js', 'dashboard/evdb.js', 'tools/scrape-prices.mjs']) fs.copyFileSync(path.join(root, file), path.join(dir, file));
   const initial = { generatedAt: '2026-10-10T00:00:00Z', count: 3, prices, lowConfidence: [], originalPrices: {}, appliedOverrides: D.empty(),
     modelUrls: { ariya: 'https://www.apl.de/neuwagen/nissan/ariya/modellvarianten/', 'model-3': 'https://www.apl.de/neuwagen/tesla/model-3/modellvarianten/' },
     vehicles: [{ make: 'Nissan', model: 'Ariya 87kWh' }, { make: 'Nissan', model: 'Ariya e-4ORCE 87kWh - 225 kW' }, { make: 'Tesla', model: 'Model 3' }] };
@@ -96,6 +96,23 @@ try {
   assert.equal(output.prices['Nissan|Ariya e-4ORCE 87kWh - 225 kW'].source.motorId,'242');
   assert.equal(output.prices['Nissan|Ariya 87kWh'].source.motorId,'243');
   assert.deepEqual(output.prices['Tesla|Model 3'], prices['Tesla|Model 3']);
+  // Repeat targeted refresh with canonical IDs, including a duplicate historic name.
+  reset();
+  const evdbVehicles=initial.vehicles.map((v,i)=>({...v,id:String(i+1),status:'current'}));
+  evdbVehicles.push({...evdbVehicles[0],id:'9',status:'archive'});
+  fs.writeFileSync(path.join(dir,'evdb-vehicles.json'),JSON.stringify({vehicles:evdbVehicles}));
+  const ids=Object.fromEntries(initial.vehicles.map((v,i)=>['evdb:'+String(i+1),prices[v.make+'|'+v.model]]));
+  fs.writeFileSync(path.join(dir,'apl-prices.json'),JSON.stringify({...initial,pricesByEvdbId:ids,originalPricesByEvdbId:{}}));
+  result=run('vehicle','evdb:1');assert.equal(result.status,0,result.stdout+result.stderr);
+  output=JSON.parse(fs.readFileSync(path.join(dir,'apl-prices.json')));
+  assert.equal(output.pricesByEvdbId['evdb:1'].source.motorId,'243');
+  assert.equal(output.pricesByEvdbId['evdb:2'].source.motorId,'242');
+  assert.deepEqual(output.pricesByEvdbId['evdb:3'],ids['evdb:3']);
+  assert(!output.pricesByEvdbId['evdb:9'],'archive gets no automatic APL assignment');
+  assert(!output.prices['Nissan|Ariya 87kWh'],'ambiguous legacy name is omitted');
+  const unchanged=fs.readFileSync(path.join(dir,'apl-prices.json'),'utf8');
+  result=run('offer',JSON.stringify(ref()),{MISSING:'1'});assert.notEqual(result.status,0);
+  assert.equal(fs.readFileSync(path.join(dir,'apl-prices.json'),'utf8'),unchanged);
 } finally { fs.rmSync(dir, { recursive: true, force: true }); }
 console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapping, shared targeted refresh and failure safety');
 
@@ -113,10 +130,14 @@ console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapp
     fs.mkdirSync(path.join(work,'tools'));fs.mkdirSync(path.join(work,'dashboard'));
     fs.copyFileSync(path.join(root,'tools/publish-prices.mjs'),path.join(work,'tools/publish-prices.mjs'));
     fs.copyFileSync(path.join(root,'dashboard/core.js'),path.join(work,'dashboard/core.js'));
+    fs.copyFileSync(path.join(root,'dashboard/evdb.js'),path.join(work,'dashboard/evdb.js'));
+    fs.copyFileSync(path.join(root,'tools/publish-evdb.mjs'),path.join(work,'tools/publish-evdb.mjs'));
+    write(work,'evdb-vehicles.json',{fetchedAt:'2026-10-10T00:00:00Z',vehicles:[]});
     const base={count:2,prices:{'A|One':{endpreis:'10.000,00'},'B|Two':{endpreis:'20.000,00'}},originalPrices:{},appliedOverrides:D.empty(),lowConfidence:[]};
     write(work,'apl-prices.json',base);write(work,'tools/scrape-cache.json',{slugLines:{},lineData:{},motorSpecs:{}});write(work,'tools/dashboard-overrides.json',D.empty());
     git(work,'add','.');git(work,'commit','-m','baseline');git(work,'remote','add','origin',remote);git(work,'push','origin','main');
     git(dir,'clone',remote,other);git(other,'config','user.name','Other');git(other,'config','user.email','other@example.com');
+    write(other,'evdb-vehicles.json',{fetchedAt:'2026-10-10T02:00:00Z',vehicles:[{id:'1'}]});
     const newer=D.clone(base);newer.prices['B|Two'].endpreis='25.000,00';write(other,'apl-prices.json',newer);git(other,'add','.');git(other,'commit','-m','other source');git(other,'push');
     const updated=D.clone(base);updated.prices['A|One'].endpreis='11.000,00';write(work,'apl-prices.json',updated);
     const hash=require('node:crypto').createHash('sha256').update(JSON.stringify(base.prices['A|One'])).digest('hex');
@@ -124,6 +145,7 @@ console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapp
     let result=spawnSync(process.execPath,['tools/publish-prices.mjs'],{cwd:work,encoding:'utf8'});
     assert.equal(result.status,0,result.stdout+result.stderr);
     const merged=JSON.parse(git(work,'show','origin/main:apl-prices.json'));
+    assert.equal(JSON.parse(git(work,'show','origin/main:evdb-vehicles.json')).fetchedAt,'2026-10-10T02:00:00Z','APL publication preserves newer EVDB');
     assert.equal(merged.prices['A|One'].endpreis,'11.000,00');assert.equal(merged.prices['B|Two'].endpreis,'25.000,00');
     write(work,'apl-prices.json',updated);
     write(work,'tools/scrape-result.json',{mode:'offer',correctionText:fs.readFileSync(path.join(work,'tools/dashboard-overrides.json'),'utf8'),changedKeys:['A|One'],baseline:{'A|One':hash},touched:[],cacheBaseline:{}});
@@ -135,6 +157,12 @@ console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapp
     git(other,'add','tools/dashboard-overrides.json');git(other,'commit','-m','changed assignment');git(other,'push');
     result=spawnSync(process.execPath,['tools/publish-prices.mjs'],{cwd:work,encoding:'utf8'});
     assert.notEqual(result.status,0);assert.match(result.stderr,/Corrections changed during scrape/);
+    write(work,'evdb-vehicles.json',{fetchedAt:'2026-10-10T03:00:00Z',vehicles:[{id:'2'}]});
+    result=spawnSync(process.execPath,['tools/publish-evdb.mjs'],{cwd:work,encoding:'utf8'});assert.equal(result.status,0,result.stderr);
+    assert.deepEqual(JSON.parse(git(work,'show','origin/main:apl-prices.json')),merged,'EVDB publication preserves APL');
+    write(work,'evdb-vehicles.json',{fetchedAt:'2026-10-10T01:00:00Z',vehicles:[]});
+    result=spawnSync(process.execPath,['tools/publish-evdb.mjs'],{cwd:work,encoding:'utf8'});assert.equal(result.status,0,result.stderr);
+    assert.equal(JSON.parse(git(work,'show','origin/main:evdb-vehicles.json')).fetchedAt,'2026-10-10T03:00:00Z','old EVDB run cannot roll back data');
   } finally {fs.rmSync(dir,{recursive:true,force:true});}
   console.log('PASS: publication merges disjoint updates and rejects overlapping updates');
 }
