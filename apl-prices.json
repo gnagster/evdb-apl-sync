@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T12:02:46.294Z",
+  "generatedAt": "2026-10-10T13:38:21.833Z",
   "source": "privatkunden",
   "count": 408,
   "prices": {
@@ -7644,7 +7644,7 @@
         "url": "/neuwagen/fiat/grande-panda/pop/",
         "kwh": null,
         "kw": 81,
-        "fetchedAt": "2026-10-10T11:52:04.348Z"
+        "fetchedAt": "2026-10-10T13:38:19.499Z"
       },
       "offers": [
         {
@@ -7664,7 +7664,7 @@
             "url": "/neuwagen/fiat/grande-panda/pop/",
             "kwh": null,
             "kw": 74,
-            "fetchedAt": "2026-10-10T11:52:04.348Z"
+            "fetchedAt": "2026-10-10T13:38:19.499Z"
           }
         },
         {
@@ -7684,7 +7684,7 @@
             "url": "/neuwagen/fiat/grande-panda/pop/",
             "kwh": null,
             "kw": 74,
-            "fetchedAt": "2026-10-10T11:52:04.348Z"
+            "fetchedAt": "2026-10-10T13:38:19.499Z"
           }
         }
       ]
