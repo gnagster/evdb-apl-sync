@@ -118,7 +118,7 @@ function browser(storage = new Map(), state = {}) {
   assert.match(b.evaluate('sourceViews[0].status.children[0].textContent'),/Warteschlange/);
   await b.evaluate("dispatch('catalogue','ariya')");
   assert.equal(b.calls.filter(c=>c.url.includes('/dispatches')).length,1,'duplicate clicks share a pending request');
-  catalogueState.cache = {slugLines:{ariya:{lines:[{id:'49',name:'New trim'}]}},lineData:{49:{data:{offers:{}}}},motorSpecs:{}};
+  catalogueState.cache = {slugLines:{ariya:{lines:[{id:'49',name:'New trim'}]}},lineData:{49:{data:{offers:{1:[{tag:D.TAGS[0],tariffId:'1',endpreis:'20.000,00'}]}}}},motorSpecs:{}};
   catalogueState.runs[0].status='completed';catalogueState.runs[0].conclusion='success';
   await b.evaluate('pollRuns()');
   assert.equal(b.evaluate('cache.slugLines.ariya.lines[0].name'),'New trim');
@@ -127,9 +127,11 @@ function browser(storage = new Map(), state = {}) {
   assert.equal(b.evaluate("draft.mapping['evdb:1'].evdbOnly"),true);
   assert.equal(b.get('unsaved-price').value,'21.234,00','raw edit fields stay untouched');
   assert.equal(b.get('detail').open,true);assert.equal(b.evaluate('fileSha'),'blob','source refresh must not overwrite conflict baseline');
+  catalogueState.cache.lineData[49].data.offers={};b.evaluate('requests[0].done=false');await b.evaluate('pollRuns()');
+  assert.match(b.evaluate('sourceViews[0].status.children[0].textContent'),/keine zuordenbaren Kundenangebote/);
   catalogueState.runs[0].conclusion='failure';
   b.evaluate('requests[0].done=false');await b.evaluate('pollRuns()');
-  assert.equal(b.evaluate('refreshCount'),1,'failed runs must not reload cache');
+  assert.equal(b.evaluate('refreshCount'),2,'failed runs must not reload cache');
   assert.match(b.evaluate('sourceViews[0].status.children[0].textContent'),/Fehlgeschlagen/);
   catalogueState.runs[0].conclusion='success';catalogueState.cache.lineData={};
   b.evaluate('requests[0].done=false');await b.evaluate('pollRuns()');

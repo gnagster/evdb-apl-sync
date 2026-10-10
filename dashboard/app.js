@@ -378,7 +378,8 @@ async function refreshCatalogue(request) {
   if (!Array.isArray(lines) || !lines.length || lines.some((v) => !fresh.lineData?.[v.id]?.data?.offers) || !fresh.motorSpecs) throw new Error('Unvollständige Variantenliste; bisherige Auswahl bleibt erhalten.');
   cache = { ...cache, slugLines: { ...cache.slugLines, [request.target]: fresh.slugLines[request.target] },
     lineData: { ...cache.lineData, ...Object.fromEntries(lines.map((v) => [v.id, fresh.lineData[v.id]])) }, motorSpecs: { ...cache.motorSpecs, ...fresh.motorSpecs } };
-  request.needsResults = false;request.status = 'Varianten geladen – Auswahl kann fortgesetzt werden.';
+  const offerCount = lines.reduce((n, v) => n + Object.values(fresh.lineData[v.id].data.offers).flat().length, 0);
+  request.needsResults = false;request.status = lines.length + (offerCount ? ' Varianten geladen – Auswahl kann fortgesetzt werden.' : ' Varianten geladen. APL liefert derzeit keine zuordenbaren Kundenangebote für dieses Modell.');
   for (const view of sourceViews) if (view.model.value === request.target) view.refresh();
   render();
 }
