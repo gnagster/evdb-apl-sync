@@ -18,7 +18,9 @@ function button(text, action, className) {
   node.addEventListener('click', () => Promise.resolve().then(action).catch(showError)); return node;
 }
 function notice(message, error = false) {
-  $('message').hidden = false; $('message').textContent = message; $('message').classList.toggle('error', error);
+  for (const node of [$('message'), ...document.querySelectorAll('dialog[open] .notice')]) {
+    node.hidden = false;node.textContent = message;node.classList.toggle('error', error);
+  }
 }
 function showError(error) { notice(error.message || String(error), true); }
 async function api(path, options = {}) {
@@ -182,6 +184,7 @@ function cleanPrices(key) {
 }
 function openDetail(key) {
   selectedKey = key;
+  $('detail-message').hidden = true;
   const entry = effective()[key];
   let original = D.rawPrices(data)[key];
   try { original = D.applyMappings(D.rawPrices(data), draft, cache)[key]; } catch {}
