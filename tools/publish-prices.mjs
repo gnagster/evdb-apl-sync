@@ -11,6 +11,9 @@ const digest = (x) => createHash('sha256').update(JSON.stringify(x)).digest('hex
 const readRemote = (path) => git('show', 'origin/main:' + path);
 for (let attempt = 0; attempt < 3; attempt++) {
   git('fetch', 'origin', 'main');
+  if (result.legacyOverrides && JSON.stringify(JSON.parse(readRemote('tools/overrides.json'))) !== JSON.stringify(result.legacyOverrides)) {
+    throw new Error('Legacy assignments changed during scrape. Please retry.');
+  }
   if (readRemote('tools/dashboard-overrides.json') + '\n' !== result.correctionText &&
       readRemote('tools/dashboard-overrides.json') !== result.correctionText) {
     throw new Error('Corrections changed during scrape. Please retry against the latest assignments.');

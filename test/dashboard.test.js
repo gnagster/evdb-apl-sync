@@ -81,6 +81,15 @@ try {
   reset(config);fs.rmSync(path.join(dir,'calls.json'),{force:true});result=run('corrections');
   assert.equal(result.status, 0, result.stdout + result.stderr);
   assert.ok(!fs.existsSync(path.join(dir,'calls.json')), 'numeric correction needs no scraping');
+  const pinned = D.clone(config);pinned.mapping['Nissan|Ariya 87kWh'] = { base: ref() };
+  reset(pinned);
+  const pinnedInitial = { ...initial, appliedOverrides: pinned };
+  fs.writeFileSync(path.join(dir, 'apl-prices.json'), JSON.stringify(pinnedInitial));
+  const expired = D.clone(cache);expired.slugLines.ariya.fetchedAt = '2020-01-01';expired.lineData[49].fetchedAt = '2020-01-01';
+  fs.writeFileSync(path.join(dir, 'tools/scrape-cache.json'), JSON.stringify(expired));
+  result = run('corrections');
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.ok(!fs.existsSync(path.join(dir,'calls.json')), 'unchanged pinned source and numeric correction need no scraping');
   reset();result=run('vehicle','Nissan|Ariya 87kWh');
   assert.equal(result.status, 0, result.stdout + result.stderr);
   output=JSON.parse(fs.readFileSync(path.join(dir, 'apl-prices.json')));
@@ -121,6 +130,11 @@ console.log('PASS: dashboard filters, bound corrections, exact motor/tariff mapp
     updated.prices['A|One'].endpreis='12.000,00';write(work,'apl-prices.json',updated);
     result=spawnSync(process.execPath,['tools/publish-prices.mjs'],{cwd:work,encoding:'utf8'});
     assert.notEqual(result.status,0);assert.match(result.stderr,/Concurrent update/);
+    git(other,'pull','--ff-only');
+    write(other,'tools/dashboard-overrides.json',{mapping:{'A|One':null},prices:{}});
+    git(other,'add','tools/dashboard-overrides.json');git(other,'commit','-m','changed assignment');git(other,'push');
+    result=spawnSync(process.execPath,['tools/publish-prices.mjs'],{cwd:work,encoding:'utf8'});
+    assert.notEqual(result.status,0);assert.match(result.stderr,/Corrections changed during scrape/);
   } finally {fs.rmSync(dir,{recursive:true,force:true});}
   console.log('PASS: publication merges disjoint updates and rejects overlapping updates');
 }

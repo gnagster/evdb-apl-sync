@@ -510,7 +510,7 @@ async function main() {
     modelUrls: slugToUrl, vehicles, warnings: applied.warnings };
   const rawOutput = Dashboard.rawPrices(out);
   const changedKeys = Object.keys({ ...basePrices, ...prices }).filter((key) => JSON.stringify(basePrices[key]) !== JSON.stringify(rawOutput[key]));
-  writeFileSync('tools/scrape-result.json', JSON.stringify({ mode: MODE, correctionText,
+  writeFileSync('tools/scrape-result.json', JSON.stringify({ mode: MODE, correctionText, legacyOverrides: overrides,
     baseline: Object.fromEntries(changedKeys.map((key) => [key, digest(basePrices[key] || null)])),
     changedKeys, touched: [...touched], cacheBaseline: Object.fromEntries([...touched].map((id) => [id, digest(originalCache.lineData[id] || null)])) }));
   writeFileSync('apl-prices.json', JSON.stringify(out, null, 2));
