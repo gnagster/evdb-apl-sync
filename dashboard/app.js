@@ -4,7 +4,7 @@ const REPO = 'gnagster/evdb-apl-sync', API = 'https://api.github.com/repos/' + R
 const TOKEN_KEY = 'apl-dashboard:' + REPO + ':token';
 let token = '', data, database, cache, filterControls = { groups: {}, ranges: {} }, saved = D.empty(), draft = D.empty(), fileSha = '', page = 0;
 let authGeneration = 0;
-let sort = 'rank', direction = -1, selectedKey = '', visibleRows = [], requests = [], polling = false;
+let sort = 'rank', direction = -1, selectedKey = '', visibleRows = [], requests = [], sourceViews = [], polling = false;
 const eur = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
 const date = (value) => value ? new Date(value).toLocaleString('de-DE') : 'unbekannt';
 const amount = (value) => D.money(value) === null ? '—' : eur.format(D.money(value));
@@ -202,9 +202,30 @@ function sourceSelector(key, slot, current, container) {
   }
   model.onchange = updateVariants;variant.onchange = updateMotors;motor.onchange = updateOffers; updateVariants();
   const actions = el('div', undefined, 'actions');
-  actions.append(button('Varianten laden / aktualisieren', () => {
-    if (!model.value) throw new Error('Bitte zuerst ein APL-Modell wählen.');return dispatch('catalogue', model.value);
-  }));
+  const status = el('div', undefined, 'catalogue-status');status.setAttribute('role', 'status');status.setAttribute('aria-live', 'polite');
+  const loadButton = button('Varianten laden / aktualisieren', async () => {
+    if (!model.value) throw new Error('Bitte zuerst ein APL-Modell wählen.');
+    const previous = requests.find((r) => r.mode === 'catalogue' && r.target === model.value);
+    if (previous?.needsResults) {
+      loadButton.disabled = true;
+      try { await refreshCatalogue(previous); }
+      catch (e) { previous.status = 'Ergebnisse konnten nicht geladen werden: ' + e.message; }
+      finally { renderRuns();updateSourceViews(); }
+      return;
+    }
+    return dispatch('catalogue', model.value);
+  });
+  sourceViews.push({ model, status, loadButton, grid, refresh: () => {
+    const selection = { variant: variant.value, motor: motor.value, offer: offer.value };
+    updateVariants();
+    if ([...variant.options].some((o) => o.value === selection.variant)) variant.value = selection.variant;
+    updateMotors();
+    if ([...motor.options].some((o) => o.value === selection.motor)) motor.value = selection.motor;
+    updateOffers();
+    if ([...offer.options].some((o) => o.value === selection.offer)) offer.value = selection.offer;
+  } });
+  model.onchange = () => { updateVariants();updateSourceViews(); };
+  actions.append(loadButton);
   actions.append(button('Quelle als Entwurf übernehmen', () => {
     if (!model.value || !variant.value || !motor.value || offer.selectedIndex <= 0) throw new Error('Bitte Modell, Variante, Motor und Angebot auswählen.');
     const ref = { slug: model.value, variantId: variant.value, motorId: motor.value, tariffId: offer.value };
@@ -215,7 +236,7 @@ function sourceSelector(key, slot, current, container) {
     else { draft.mapping[key].offers ||= {};draft.mapping[key].offers[slot] = ref;if (draft.prices[key]?.offers && D.sourceId(current) !== D.sourceId(ref)) delete draft.prices[key].offers[slot]; }
     cleanPrices(key);D.validate(draft);render();openDetail(key);notice('Neue Quelle als Entwurf übernommen. Zum Anwenden in GitHub speichern.');
   }, 'secondary'));
-  grid.append(actions);container.append(grid);
+  grid.append(actions, status);container.append(grid);updateSourceViews();
 }
 function cleanPrices(key) {
   const p = draft.prices[key];if (!p) return;
@@ -223,6 +244,7 @@ function cleanPrices(key) {
   if (!p.base && !p.offers) delete draft.prices[key];
 }
 function openDetail(key) {
+  sourceViews = [];
   selectedKey = key;
   $('detail-message').hidden = true;
   const vehicle = database.vehicles.find((v) => E.key(v) === key);
@@ -314,15 +336,51 @@ async function save() {
 }
 async function dispatch(mode, target) {
   if (!token) { lock(false, 'Zum Starten eines Abrufs bitte das Dashboard entsperren.');return; }
-  if (dirty()) throw new Error('Bitte zuerst die Entwürfe speichern oder verwerfen. Neuabrufe verwenden die gespeicherten Zuordnungen.');
+  if (mode !== 'catalogue' && dirty()) throw new Error('Bitte zuerst die Entwürfe speichern oder verwerfen. Neuabrufe verwenden die gespeicherten Zuordnungen.');
   const ids = mode === 'offer' ? [JSON.parse(target).variantId] : mode === 'catalogue' ? (cache.slugLines[target]?.lines || []).map((v) => v.id) :
     [...new Set([...(cache.slugLines[effective()[target]?.slug]?.lines || []).map((v) => v.id), ...D.references(effective()[target]).map((s) => s.variantId)])];
   const affected = D.affected(effective(), ids);
-  if (!confirm('APL-Quelle neu abrufen? ' + affected.length + ' damit verknüpfte Fahrzeuge können aktualisiert werden. Der übrige Bestand und manuelle Preiswerte bleiben erhalten.')) return;
+  if (mode !== 'catalogue' && !confirm('APL-Quelle neu abrufen? ' + affected.length + ' damit verknüpfte Fahrzeuge können aktualisiert werden. Der übrige Bestand und manuelle Preiswerte bleiben erhalten.')) return;
+  const existing = requests.find((r) => r.mode === 'catalogue' && r.target === target && !r.done);
+  if (mode === 'catalogue' && existing) return existing;
   const requestId = crypto.randomUUID();
-  const result = await api('/actions/workflows/apl-prices.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: { mode, target, request_id: requestId } }) });
-  requests.unshift({ id: result?.workflow_run_id, requestId, label: mode === 'vehicle' ? target.replace('|', ' · ') : mode === 'catalogue' ? 'Varianten: ' + target : 'Einzelangebot neu abrufen',
-    status: 'angefordert', url: result?.html_url });renderRuns();notice('Neuabruf angefordert. Der Status erscheint unter „Abrufe“.');pollRuns();
+  const request = { mode, target, requestId, label: mode === 'vehicle' ? labelFor(target) : mode === 'catalogue' ? 'Varianten: ' + target : 'Einzelangebot neu abrufen', status: 'Abruf wird angefordert', done: false };
+  requests.unshift(request);renderRuns();updateSourceViews();
+  try {
+    const result = await api('/actions/workflows/apl-prices.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: { mode, target, request_id: requestId } }) });
+    Object.assign(request, { id: result?.workflow_run_id, url: result?.html_url, status: 'Angefordert – wartet auf GitHub Actions' });
+    renderRuns();updateSourceViews();
+    if (mode !== 'catalogue') notice('Neuabruf angefordert. Der Status erscheint unter „Abrufe“.');
+    pollRuns();return request;
+  } catch (e) {
+    request.done = true;request.status = 'Abruf konnte nicht gestartet werden: ' + e.message;
+    renderRuns();updateSourceViews();throw e;
+  }
+}
+function updateSourceViews() {
+  for (const view of sourceViews) {
+    const request = requests.find((r) => r.mode === 'catalogue' && r.target === view.model.value);
+    view.loadButton.disabled = !!request && !request.done;
+    view.loadButton.textContent = request?.needsResults ? 'Ergebnisse erneut laden' : request && !request.done ? 'Varianten werden geladen …' : 'Varianten laden / aktualisieren';
+    view.loadButton.setAttribute('aria-busy', request && !request.done ? 'true' : 'false');view.grid.classList.toggle('is-loading', !!request && !request.done);
+    const ids = (cache.slugLines[view.model.value]?.lines || []).map((v) => v.id);
+    view.status.replaceChildren(el('span', request?.status || 'Aktualisiert die Varianten und Angebote; ' + D.affected(effective(), ids).length + ' verknüpfte Fahrzeuge werden mit aktualisiert.'));
+    if (request?.url) { const link = el('a', 'GitHub-Lauf ↗');link.href = request.url;link.target = '_blank';link.rel = 'noopener';view.status.append(link); }
+  }
+}
+async function refreshCatalogue(request) {
+  const generation = authGeneration;
+  const commit = await api('/commits/main');
+  const response = await fetch('https://raw.githubusercontent.com/' + REPO + '/' + commit.sha + '/tools/scrape-cache.json', { cache: 'no-store' });
+  if (!response.ok) throw new Error('Quelldaten konnten nicht geladen werden (' + response.status + ').');
+  const fresh = await response.json(), lines = fresh.slugLines?.[request.target]?.lines;
+  if (generation !== authGeneration || !token) throw new Error('Die Sitzung wurde beendet.');
+  if (!Array.isArray(lines) || !lines.length || lines.some((v) => !fresh.lineData?.[v.id]?.data?.offers) || !fresh.motorSpecs) throw new Error('Unvollständige Variantenliste; bisherige Auswahl bleibt erhalten.');
+  cache = { ...cache, slugLines: { ...cache.slugLines, [request.target]: fresh.slugLines[request.target] },
+    lineData: { ...cache.lineData, ...Object.fromEntries(lines.map((v) => [v.id, fresh.lineData[v.id]])) }, motorSpecs: { ...cache.motorSpecs, ...fresh.motorSpecs } };
+  request.needsResults = false;request.status = 'Varianten geladen – Auswahl kann fortgesetzt werden.';
+  for (const view of sourceViews) if (view.model.value === request.target) view.refresh();
+  render();
 }
 function renderRuns() {
   $('run-list').replaceChildren();
@@ -345,19 +403,28 @@ async function pollRuns() {
       request.id = run.id;request.url = run.html_url;
       const names = { queued: 'In Warteschlange', in_progress: 'Abruf läuft', waiting: 'Wartet auf Freigabe', completed: run.conclusion === 'success' ? 'Erfolgreich abgeschlossen' : 'Fehlgeschlagen: ' + run.conclusion };
       request.status = names[run.status] || run.status;
-      if (run.status === 'completed') { request.done = true;completed ||= run.conclusion === 'success'; }
+      if (run.status === 'completed') {
+        request.done = true;
+        if (run.conclusion === 'success' && request.mode === 'catalogue') {
+          try { await refreshCatalogue(request); }
+          catch (e) { request.needsResults = true;request.status = 'Ergebnisse konnten nicht geladen werden: ' + e.message; }
+        } else completed ||= run.conclusion === 'success';
+      }
     }
-    renderRuns();if (completed && !dirty() && !$('detail').open) await load();
+    renderRuns();updateSourceViews();if (completed && !dirty() && !$('detail').open) await load();
     else if (completed) notice('Abruf abgeschlossen. Schließe die Details und lade den aktuellen Stand; Entwürfe vorher speichern.');
-  } catch (error) { showError(error); }
-  finally { polling = false;if (token && requests.some((r) => !r.done)) setTimeout(pollRuns, 20000); }
+  } catch (error) {
+    for (const r of requests.filter((r) => !r.done && r.mode === 'catalogue')) r.status = 'Statusabfrage fehlgeschlagen – wird erneut versucht: ' + error.message;
+    updateSourceViews();showError(error);
+  }
+  finally { polling = false;if (token && requests.some((r) => !r.done)) setTimeout(pollRuns, 5000); }
 }
 function download(name, text, type) {
   const url = URL.createObjectURL(new Blob([text], { type })), link = el('a');link.href = url;link.download = name;link.click();setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 // shortcut: This gates the Pages UI; private data requires server authentication.
 function lock(removeStored = false, message = '') {
-  token = '';authGeneration++;
+  token = '';authGeneration++;sourceViews = [];
   $('dashboard').hidden = true;$('auth').hidden = false;$('detail').close();
   $('token').value = '';$('auth-submit').disabled = false;
   if (removeStored) {

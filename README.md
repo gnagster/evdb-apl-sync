@@ -194,3 +194,14 @@ ausschließlich seinen deutschen EVDB-Listenpreis und wird bei APL-Zuordnungen
 entfernt; Zahlenkorrekturen erfordern eine Bestätigung. Ohne EVDB-Preis erscheint
 kein Preis. Entfernen der Markierung aktiviert die automatische APL-Zuordnung
 wieder. Die Korrektur wird als `mapping["evdb:ID"] = { "evdbOnly": true }` gespeichert.
+
+
+**Varianten laden / aktualisieren** zeigt den Abrufstatus unmittelbar in der
+Quellenauswahl an. Der Abruf läuft über GitHub Actions; Warteschlange und Lauf
+werden automatisch abgefragt und verlinkt. Erfolgreiche Ergebnisse ergänzen die
+Varianten, Motoren und Angebote im geöffneten Detailfenster. Vorhandene Eingaben,
+Auswahlen und Korrekturentwürfe bleiben erhalten; ein manuelles Neuladen ist nicht
+nötig. Varianten können auch mit ungespeicherten Entwürfen geladen werden, da der
+Abruf die gespeicherten Repository-Zuordnungen verwendet. Bei Fehlern bleiben die
+bisherigen Auswahlwerte verfügbar. Falls nur das Laden der Ergebnisse scheitert,
+holt **Ergebnisse erneut laden** sie ohne erneutes Scraping ab.
