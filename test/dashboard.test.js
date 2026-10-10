@@ -34,6 +34,17 @@ assert.equal(D.filterRows(prices, config, { corrected: true }).length, 1);
 assert.equal(D.filterRows(prices, config, { sort: 'price', direction: -1 })[0][0], 'Tesla|Model 3');
 assert.equal(D.applyMappings(prices, { mapping: { 'Nissan|Ariya 87kWh': { base: ref('242') } }, prices: {} }, cache)['Nissan|Ariya 87kWh'].endpreis, '30.000,00');
 assert.ok(!D.applyMappings(prices, { mapping: { 'Tesla|Model 3': null }, prices: {} }, cache)['Tesla|Model 3']);
+const restrictedCache = D.clone(cache);
+restrictedCache.lineData['49'].data.offers['243'].push({ tag: 'mit Kurzzulassung', motorId: '243', tariffId: '223', endpreis: '18.000,00', conditions: 'Haltefrist von 6 Monaten' });
+const restrictedConfig = { mapping: { 'Nissan|Ariya 87kWh': { base: ref('243', '223'), offers: { 'mit Kurzzulassung': ref('243', '223') } } }, prices: {} };
+D.validate(restrictedConfig);
+const restricted = D.applyMappings(prices, restrictedConfig, restrictedCache)['Nissan|Ariya 87kWh'];
+assert.equal(restricted.endpreis, '18.000,00');
+assert.equal(restricted.conditions, 'Haltefrist von 6 Monaten');
+assert.equal(restricted.tag, 'mit Kurzzulassung');
+assert.equal(restricted.offers.find(o => o.tag === 'mit Kurzzulassung').source.tariffId, '223');
+assert.throws(() => D.sourceOffer(ref('243', '223'), 'für Privatkunden', restrictedCache), /nicht gefunden/);
+assert.equal(D.applyMappings({ 'Nissan|Ariya 87kWh': restricted }, { mapping: { 'Nissan|Ariya 87kWh': { base: ref() } }, prices: {} }, restrictedCache)['Nissan|Ariya 87kWh'].conditions, undefined);
 
 const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'apl-dashboard-test-'));
 try {
@@ -56,6 +67,7 @@ try {
       if(url.includes('getPreisliste.php')) {
         const motors=process.env.MISSING==='1'?['243']:['243','242'];
         body=motors.map(m=>'<div class=" preis-item" data-motor="'+m+'" data-tarif="71"><div class="data-endpreis">'+(m==='243'?'22.000,00':'33.000,00')+'</div><div class="data-kaufpreis">20.000,00</div><div class="data-ersparnis">1.000,00 (5,00)</div><div class="data-Lieferzeit">1 Monat</div><div class="data-AbholortText">Abholung beim Nissan-Vertragshändler</div></div>').join('');
+        body+='<div class=" preis-item" data-motor="243" data-tarif="223"><div class="data-endpreis">18.000,00</div><div class="data-TarifInfos"><p>Das Fahrzeug wird vorab zugelassen, mit einer Haltefrist von 6 Monaten.</p></div><div class="data-AbholortText">Abholung beim Nissan-Vertragshändler</div></div>';
       }else if(url.endsWith('/modellvarianten/')) body='<h2>Ariya Evolve</h2><div class="FzgBlock-infos" data-id="49"></div><a href="/neuwagen/nissan/ariya/evolve/">Details</a>';
       else if(url.endsWith('/evolve/')) body='<div class="item-motor" data-id="243" data-sortkw="178" data-sortmotor="87kWh"><div class="item-motor" data-id="242" data-sortkw="225" data-sortmotor="87kWh">';
       else throw new Error('Unexpected full scrape: '+url);
@@ -78,6 +90,19 @@ try {
   result=run('offer', JSON.stringify(ref()), { MISSING: '1' });
   assert.notEqual(result.status, 0, 'disappeared shared offer fails');
   assert.equal(fs.readFileSync(path.join(dir, 'apl-prices.json'), 'utf8'), before, 'failure must not change data');
+  reset(restrictedConfig);
+  fs.writeFileSync(path.join(dir,'tools/scrape-cache.json'),JSON.stringify(restrictedCache));
+  result=run('corrections');
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  output=JSON.parse(fs.readFileSync(path.join(dir, 'apl-prices.json')));
+  assert.equal(output.prices['Nissan|Ariya 87kWh'].tag, 'mit Kurzzulassung');
+  assert.match(output.prices['Nissan|Ariya 87kWh'].conditions, /Haltefrist von 6 Monaten/);
+  result=run('offer',JSON.stringify({...ref('243','223'),tag:'mit Kurzzulassung'}));
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  output=JSON.parse(fs.readFileSync(path.join(dir, 'apl-prices.json')));
+  assert.equal(output.prices['Nissan|Ariya 87kWh'].endpreis, '18.000,00', 'restricted base survives targeted refresh');
+  assert.equal(output.prices['Nissan|Ariya e-4ORCE 87kWh - 225 kW'].endpreis, '33.000,00');
+  assert.deepEqual(output.prices['Tesla|Model 3'],prices['Tesla|Model 3']);
   reset(config);fs.rmSync(path.join(dir,'calls.json'),{force:true});result=run('corrections');
   assert.equal(result.status, 0, result.stdout + result.stderr);
   assert.ok(!fs.existsSync(path.join(dir,'calls.json')), 'numeric correction needs no scraping');

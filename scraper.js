@@ -98,7 +98,7 @@
     // html -> { [motorId]: [{ tag, endpreis, kaufpreis, ersparnis, lieferzeit }, ...] }
     // EVERY classified block per motor (not just PK) for the v2 offers array.
     // Tag rule (Freiberufler first, then existing GK/PK semantics): anything
-    // else (behindert/Beamte/Tageszulassung/Abrufschein) is skipped.
+    // Kurzzulassung is selectable explicitly; it never enters the automatic PK map.
     parseOffers(html) {
       const out = {};
       for (let block of String(html).split(/<div class="(?:[^"]*\s)?preis-item(?:\s[^"]*)?"/).slice(1)) {
@@ -106,6 +106,7 @@
         let tag;
         if (/Freiberufler/i.test(text)) tag = 'für Freiberufler';
         else if (GK_RE.test(text)) tag = 'für Geschäftskunden';
+        else if (/vorab zugelassen/i.test(text) && PK_RE.test(text)) tag = 'mit Kurzzulassung';
         else if (PK_RE.test(text) && !PK_BAD_RE.test(text)) tag = 'für Privatkunden';
         else continue;
         const motor = (block.match(/data-motor="(\d+)"/) || [])[1];
@@ -120,6 +121,10 @@
           ersparnis: blockField(block, 'ersparnis'),
           lieferzeit: blockField(block, 'lieferzeit'),
         };
+        if (tag === 'mit Kurzzulassung') {
+          offer.conditions = (block.match(/class="data-TarifInfos"[^>]*>([\s\S]*?)<\/div>/i)?.[1] || '')
+            .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        }
         if (offer.endpreis !== undefined) (out[motor] = out[motor] || []).push(offer);
       }
       return out;

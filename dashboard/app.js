@@ -177,6 +177,11 @@ function safeLink(url, text) {
 function sourceSelector(key, slot, current, container) {
   const grid = el('div', undefined, 'source-grid');
   const model = el('select'), variant = el('select'), motor = el('select'), offer = el('select');
+  const conditions = el('p', undefined, 'detail-note');
+  function updateConditions() {
+    conditions.textContent = (cache.lineData[variant.value]?.data.offers?.[motor.value] || []).find((o) => o.tariffId === offer.value)?.conditions || '';
+    conditions.hidden = !conditions.textContent;
+  }
   for (const [name, node] of [['APL-Modell', model], ['Ausstattungsvariante', variant], ['Motorisierung', motor], ['Konkretes Angebot', offer]]) {
     const label = el('label', name);label.append(node);grid.append(label);
   }
@@ -184,11 +189,11 @@ function sourceSelector(key, slot, current, container) {
   model.append(new Option('Modell auswählen', ''), ...models.map(([slug, url]) => new Option(new URL(url).pathname.split('/').slice(2, 4).join(' · '), slug)));
   model.value = current?.slug || effective()[key]?.slug || '';
   function updateOffers() {
-    const tag = slot === 'base' ? D.TAGS[0] : slot;
     const offers = cache.lineData[variant.value]?.data.offers?.[motor.value] || [];
-    offer.replaceChildren(new Option('Angebot auswählen', ''), ...offers.filter((o) => o.tag === tag && o.tariffId !== undefined)
-      .map((o) => new Option(amount(o.endpreis) + ' · Tarif ' + (o.tariffId || 'ohne ID'), o.tariffId)));
+    offer.replaceChildren(new Option('Angebot auswählen', ''), ...offers.filter((o) => (slot === 'base' || o.tag === slot) && o.tariffId !== undefined)
+      .map((o) => new Option(amount(o.endpreis) + ' · ' + o.tag + ' · Tarif ' + (o.tariffId || 'ohne ID'), o.tariffId)));
     offer.value = current?.variantId === variant.value && current?.motorId === motor.value ? current.tariffId : '';
+    updateConditions();
   }
   function updateMotors() {
     motor.replaceChildren(new Option('Motor auswählen', ''), ...Object.keys(cache.lineData[variant.value]?.data.offers || {}).map((id) => {
@@ -200,7 +205,7 @@ function sourceSelector(key, slot, current, container) {
     variant.replaceChildren(new Option('Variante auswählen', ''), ...(cache.slugLines[model.value]?.lines || []).map((v) => new Option(v.name, v.id)));
     variant.value = current?.slug === model.value ? current.variantId : '';updateMotors();
   }
-  model.onchange = updateVariants;variant.onchange = updateMotors;motor.onchange = updateOffers; updateVariants();
+  model.onchange = updateVariants;variant.onchange = updateMotors;motor.onchange = updateOffers;offer.onchange = updateConditions; updateVariants();
   const actions = el('div', undefined, 'actions');
   const status = el('div', undefined, 'catalogue-status');status.setAttribute('role', 'status');status.setAttribute('aria-live', 'polite');
   const loadButton = button('Varianten laden / aktualisieren', async () => {
@@ -223,6 +228,7 @@ function sourceSelector(key, slot, current, container) {
     if ([...motor.options].some((o) => o.value === selection.motor)) motor.value = selection.motor;
     updateOffers();
     if ([...offer.options].some((o) => o.value === selection.offer)) offer.value = selection.offer;
+    updateConditions();
   } });
   model.onchange = () => { updateVariants();updateSourceViews(); };
   actions.append(loadButton);
@@ -236,7 +242,7 @@ function sourceSelector(key, slot, current, container) {
     else { draft.mapping[key].offers ||= {};draft.mapping[key].offers[slot] = ref;if (draft.prices[key]?.offers && D.sourceId(current) !== D.sourceId(ref)) delete draft.prices[key].offers[slot]; }
     cleanPrices(key);D.validate(draft);render();openDetail(key);notice('Neue Quelle als Entwurf übernommen. Zum Anwenden in GitHub speichern.');
   }, 'secondary'));
-  grid.append(actions, status);container.append(grid);updateSourceViews();
+  grid.append(conditions, actions, status);container.append(grid);updateSourceViews();
 }
 function cleanPrices(key) {
   const p = draft.prices[key];if (!p) return;
@@ -285,6 +291,7 @@ function openDetail(key) {
     const raw = slot === 'base' ? original : original?.offers?.find((o) => o.tag === slot);
     const card = el('section', undefined, 'offer-card');card.append(el('h3', slot === 'base' ? 'Zugeordneter Fahrzeugpreis' : slot));
     card.append(el('p', sourceText(value?.source), 'source-label'));
+    if (value?.conditions) card.append(el('p', value.tag + ': ' + value.conditions, 'detail-note'));
     if (value?.source?.url) card.append(safeLink(value.source.url, 'APL-Quelle öffnen ↗'));
     const inputs = {}, fields = el('div', undefined, 'value-grid');
     for (const field of D.FIELDS) {
@@ -309,7 +316,7 @@ function openDetail(key) {
       else if (draft.prices[key]?.offers) delete draft.prices[key].offers[slot];
       cleanPrices(key);render();openDetail(key);
     }));
-    if (value?.source) buttons.append(button('Dieses Angebot neu abrufen', () => dispatch('offer', JSON.stringify({ ...value.source, tag: slot === 'base' ? D.TAGS[0] : slot }))));
+    if (value?.source) buttons.append(button('Dieses Angebot neu abrufen', () => dispatch('offer', JSON.stringify({ ...value.source, tag: slot === 'base' ? value.tag || D.TAGS[0] : slot }))));
     buttons.append(button('Zuordnung zurücksetzen', () => {
       const m = draft.mapping[key];if (!m) return;
       if (slot === 'base') { delete m.base;delete m.slug; } else if (m.offers) delete m.offers[slot];

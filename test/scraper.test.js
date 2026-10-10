@@ -21,6 +21,17 @@ assert.deepStrictEqual(APLScraper.parseModelUrls('<html>No models</html>'), []);
 
 // Real Abarth 500e response: tarifs 159 (behindert) / 69 (GK) / 71 (PK).
 const abarth = fs.readFileSync(path.join(__dirname, 'fixtures/apl-preisliste-abarth.html'), 'utf8');
+const mg = fs.readFileSync(path.join(__dirname, 'fixtures/apl-preisliste-mg4-premium.html'), 'utf8');
+const mgOffers = APLScraper.parseOffers(mg);
+assert.deepStrictEqual(Object.keys(mgOffers), ['4247', '4249']);
+assert.strictEqual(mgOffers['4247'][0].endpreis, '32.283,55');
+assert.strictEqual(mgOffers['4249'][0].endpreis, '33.713,35');
+assert.strictEqual(mgOffers['4247'][0].tariffId, '223');
+assert.strictEqual(mgOffers['4247'][0].tag, 'mit Kurzzulassung');
+assert.match(mgOffers['4247'][0].conditions, /Haltefrist von 6 Monaten/);
+assert.match(mgOffers['4247'][0].conditions, /nicht in Anspruch genommen/);
+assert.deepStrictEqual(APLScraper.parsePricesByMotor(mg), {}, 'Restricted offers must not become automatic PK prices');
+assert.deepStrictEqual(APLScraper.parsePrices(mg), {});
 
 // APL now emits class=" preis-item"; all price views must still find blocks.
 for (const classes of [' preis-item', 'preis-item ', 'extra preis-item extra']) {

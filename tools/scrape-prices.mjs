@@ -435,8 +435,9 @@ async function main() {
     for (const key of Dashboard.affected(sourcePrices, ids)) {
       const entry = Dashboard.clone(sourcePrices[key]);
       if (entry.source && ids.has(entry.source.variantId)) {
-        const fresh = Dashboard.sourceOffer(entry.source, TAG_ORDER[0], cache);
+        const fresh = Dashboard.sourceOffer(entry.source, entry.tag || TAG_ORDER[0], cache);
         for (const f of Dashboard.FIELDS) entry[f] = fresh[f];
+        entry.tag = fresh.tag;entry.conditions = fresh.conditions;
         entry.source = fresh.source;
       }
       entry.offers = (entry.offers || []).map((o) => o.source && ids.has(o.source.variantId)
@@ -478,7 +479,7 @@ async function main() {
       if (scraped < floor) throw new Error('Coverage drop; existing prices kept.');
     } else {
       const expected = jobs.flatMap((j) => [...slugJobs.get(j.slug).keys]).filter((key) => basePrices[key] || key === TARGET);
-      const failed = expected.filter((key) => !prices[key] && !corrections.mapping[key]?.base);
+      const failed = expected.filter((key) => (MODE !== 'corrections' || changedMappingKeys.has(key)) && !prices[key] && !corrections.mapping[key]?.base);
       if (failed.length) throw new Error('Targeted scrape incomplete: ' + failed.join(', '));
       const updated = prices;
       prices = Dashboard.clone(basePrices);

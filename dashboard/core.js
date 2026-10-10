@@ -1,6 +1,6 @@
 'use strict';
 (function (global) {
-  const TAGS = ['für Privatkunden', 'für Geschäftskunden', 'für Freiberufler'];
+  const TAGS = ['für Privatkunden', 'für Geschäftskunden', 'für Freiberufler', 'mit Kurzzulassung'];
   const FIELDS = ['endpreis', 'kaufpreis', 'ersparnis', 'lieferzeit'];
   const clone = (x) => JSON.parse(JSON.stringify(x));
   const empty = () => ({ mapping: {}, prices: {} });
@@ -61,7 +61,7 @@
     const variant = (cache.slugLines[ref.slug]?.lines || []).find((v) => v.id === ref.variantId);
     if (!variant) throw new Error('APL-Variante nicht gefunden: ' + sourceId(ref));
     const offer = (cache.lineData[ref.variantId]?.data.offers?.[ref.motorId] || [])
-      .find((o) => o.tag === tag && o.tariffId === ref.tariffId);
+      .find((o) => (!tag || o.tag === tag) && o.tariffId === ref.tariffId);
     if (!offer) throw new Error('APL-Angebot nicht gefunden: ' + sourceId(ref));
     return { ...clone(offer), source: { ...ref, variantName: variant.name, url: variant.url,
       ...(cache.motorSpecs[ref.motorId] || {}), fetchedAt: cache.lineData[ref.variantId].fetchedAt } };
@@ -72,8 +72,9 @@
       if (m === null || m.evdbOnly) { delete out[key]; continue; }
       if (!out[key]) out[key] = { confidence: 1, offers: [] };
       if (m.base) {
-        const base = sourceOffer(m.base, TAGS[0], cache);
+        const base = sourceOffer(m.base, null, cache);
         for (const f of FIELDS) out[key][f] = base[f];
+        out[key].tag = base.tag;out[key].conditions = base.conditions;
         out[key].source = base.source;
         out[key].slug = m.base.slug;
       }

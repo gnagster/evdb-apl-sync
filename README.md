@@ -196,6 +196,12 @@ kein Preis. Entfernen der Markierung aktiviert die automatische APL-Zuordnung
 wieder. Die Korrektur wird als `mapping["evdb:ID"] = { "evdbOnly": true }` gespeichert.
 
 
+APL-Angebote mit **Kurzzulassung** sind bei der manuellen Quellenwahl auswählbar,
+einschließlich ihrer Haltefrist und Förderbedingungen. Sie werden separat
+gekennzeichnet und nicht automatisch als uneingeschränkte Privatkundenpreise
+übernommen. Der zugeordnete Fahrzeugpreis kann ausdrücklich auf ein solches
+Angebot gesetzt werden; Korrekturen und gezielte Neuabrufe bleiben verfügbar.
+
 **Varianten laden / aktualisieren** zeigt den Abrufstatus unmittelbar in der
 Quellenauswahl an. Der Abruf läuft über GitHub Actions; Warteschlange und Lauf
 werden automatisch abgefragt und verlinkt. Erfolgreiche Ergebnisse ergänzen die
