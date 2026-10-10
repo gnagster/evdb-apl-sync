@@ -2981,7 +2981,7 @@
       ]
     },
     "zafira-electric": {
-      "fetchedAt": "2026-09-06T09:24:25.259Z",
+      "fetchedAt": "2026-10-10T11:08:14.031Z",
       "lines": [
         {
           "id": "1941",
@@ -3247,6 +3247,21 @@
           "id": "2817",
           "name": "GWM ORA 5 SUV Premium",
           "url": "/neuwagen/gwm/ora-5-suv/premium/"
+        }
+      ]
+    },
+    "ix4": {
+      "fetchedAt": "2026-10-10T11:08:05.767Z",
+      "lines": [
+        {
+          "id": "2982",
+          "name": "BMW iX4 M Sportpaket",
+          "url": "/neuwagen/bmw/ix4/m-sportpaket/"
+        },
+        {
+          "id": "2983",
+          "name": "BMW iX4 M Sportpaket Pro",
+          "url": "/neuwagen/bmw/ix4/m-sportpaket-pro/"
         }
       ]
     }
@@ -10363,7 +10378,7 @@
       }
     },
     "1941": {
-      "fetchedAt": "2026-09-07T10:13:54.628Z",
+      "fetchedAt": "2026-10-10T11:08:14.331Z",
       "data": {
         "byMotor": {
           "402": {
@@ -10460,7 +10475,7 @@
       }
     },
     "1942": {
-      "fetchedAt": "2026-09-07T10:13:55.019Z",
+      "fetchedAt": "2026-10-10T11:08:14.635Z",
       "data": {
         "byMotor": {
           "402": {
@@ -22365,6 +22380,59 @@
               "kaufpreis": "53.299,02",
               "ersparnis": "6.600,98 (11,02)",
               "lieferzeit": "herstellerüblich"
+            }
+          ]
+        }
+      }
+    },
+    "2982": {
+      "fetchedAt": "2026-10-10T11:08:06.091Z",
+      "data": {
+        "byMotor": {
+          "4264": {
+            "endpreis": "66.365,41",
+            "kaufpreis": "65.575,41",
+            "ersparnis": "5.324,59 (7,51)",
+            "lieferzeit": "6-7 Monate"
+          },
+          "4265": {
+            "endpreis": "70.989,91",
+            "kaufpreis": "70.199,91",
+            "ersparnis": "5.700,09 (7,51)",
+            "lieferzeit": "6-7 Monate"
+          }
+        },
+        "offers": {
+          "4264": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "66.365,41",
+              "kaufpreis": "65.575,41",
+              "ersparnis": "5.324,59 (7,51)",
+              "lieferzeit": "6-7 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "66.365,41",
+              "kaufpreis": "65.575,41",
+              "ersparnis": "5.324,59 (7,51)",
+              "lieferzeit": "6-7 Monate"
+            }
+          ],
+          "4265": [
+            {
+              "tag": "für Privatkunden",
+              "endpreis": "70.989,91",
+              "kaufpreis": "70.199,91",
+              "ersparnis": "5.700,09 (7,51)",
+              "lieferzeit": "6-7 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "endpreis": "70.989,91",
+              "kaufpreis": "70.199,91",
+              "ersparnis": "5.700,09 (7,51)",
+              "lieferzeit": "6-7 Monate"
             }
           ]
         }
