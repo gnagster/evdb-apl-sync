@@ -971,7 +971,7 @@
       ]
     },
     "grande-panda": {
-      "fetchedAt": "2026-10-09T08:47:51.726Z",
+      "fetchedAt": "2026-10-10T13:39:07.683Z",
       "lines": [
         {
           "id": "2315",
@@ -17407,7 +17407,7 @@
       }
     },
     "2315": {
-      "fetchedAt": "2026-10-10T11:52:04.348Z",
+      "fetchedAt": "2026-10-10T13:39:08.001Z",
       "data": {
         "byMotor": {
           "3689": {
@@ -17493,6 +17493,192 @@
               "endpreis": "16.180,35",
               "kaufpreis": "15.290,35",
               "ersparnis": "4.699,65 (23,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2316": {
+      "fetchedAt": "2026-10-10T13:39:08.896Z",
+      "data": {
+        "byMotor": {
+          "3689": {
+            "motorId": "3689",
+            "tariffId": "98",
+            "endpreis": "20.032,00",
+            "kaufpreis": "19.142,00",
+            "ersparnis": "4.348,00 (18,51)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3690": {
+            "motorId": "3690",
+            "tariffId": "98",
+            "endpreis": "20.340,25",
+            "kaufpreis": "19.450,25",
+            "ersparnis": "8.539,75 (30,51)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3872": {
+            "motorId": "3872",
+            "tariffId": "98",
+            "endpreis": "17.710,15",
+            "kaufpreis": "16.820,15",
+            "ersparnis": "5.169,85 (23,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "3689": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3689",
+              "tariffId": "96",
+              "endpreis": "19.797,10",
+              "kaufpreis": "18.907,10",
+              "ersparnis": "4.582,90 (19,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3689",
+              "tariffId": "98",
+              "endpreis": "20.032,00",
+              "kaufpreis": "19.142,00",
+              "ersparnis": "4.348,00 (18,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3690": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3690",
+              "tariffId": "96",
+              "endpreis": "20.060,35",
+              "kaufpreis": "19.170,35",
+              "ersparnis": "8.819,65 (31,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3690",
+              "tariffId": "98",
+              "endpreis": "20.340,25",
+              "kaufpreis": "19.450,25",
+              "ersparnis": "8.539,75 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3872": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3872",
+              "tariffId": "96",
+              "endpreis": "17.490,25",
+              "kaufpreis": "16.600,25",
+              "ersparnis": "5.389,75 (24,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3872",
+              "tariffId": "98",
+              "endpreis": "17.710,15",
+              "kaufpreis": "16.820,15",
+              "ersparnis": "5.169,85 (23,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2317": {
+      "fetchedAt": "2026-10-10T13:39:09.782Z",
+      "data": {
+        "byMotor": {
+          "3689": {
+            "motorId": "3689",
+            "tariffId": "98",
+            "endpreis": "22.476,70",
+            "kaufpreis": "21.586,70",
+            "ersparnis": "4.903,30 (18,51)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3690": {
+            "motorId": "3690",
+            "tariffId": "98",
+            "endpreis": "22.424,95",
+            "kaufpreis": "21.534,95",
+            "ersparnis": "9.455,05 (30,51)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3872": {
+            "motorId": "3872",
+            "tariffId": "98",
+            "endpreis": "20.004,85",
+            "kaufpreis": "19.114,85",
+            "ersparnis": "5.875,15 (23,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "3689": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3689",
+              "tariffId": "96",
+              "endpreis": "22.211,80",
+              "kaufpreis": "21.321,80",
+              "ersparnis": "5.168,20 (19,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3689",
+              "tariffId": "98",
+              "endpreis": "22.476,70",
+              "kaufpreis": "21.586,70",
+              "ersparnis": "4.903,30 (18,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3690": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3690",
+              "tariffId": "96",
+              "endpreis": "21.957,00",
+              "kaufpreis": "21.067,00",
+              "ersparnis": "9.923,00 (32,02)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3690",
+              "tariffId": "98",
+              "endpreis": "22.424,95",
+              "kaufpreis": "21.534,95",
+              "ersparnis": "9.455,05 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3872": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3872",
+              "tariffId": "96",
+              "endpreis": "19.754,95",
+              "kaufpreis": "18.864,95",
+              "ersparnis": "6.125,05 (24,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3872",
+              "tariffId": "98",
+              "endpreis": "20.004,85",
+              "kaufpreis": "19.114,85",
+              "ersparnis": "5.875,15 (23,51)",
               "lieferzeit": "3-4 Monate"
             }
           ]
