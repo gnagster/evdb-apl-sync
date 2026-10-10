@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:57:09.763Z",
+  "generatedAt": "2026-10-10T14:00:37.166Z",
   "source": "privatkunden",
   "count": 408,
   "prices": {
@@ -15771,7 +15771,7 @@
         "url": "/neuwagen/abarth/500e/basis/",
         "kwh": null,
         "kw": 113,
-        "fetchedAt": "2026-10-10T12:02:46.055Z"
+        "fetchedAt": "2026-10-10T14:00:36.620Z"
       },
       "offers": [
         {
@@ -15791,7 +15791,7 @@
             "url": "/neuwagen/abarth/500e/basis/",
             "kwh": null,
             "kw": 113,
-            "fetchedAt": "2026-10-10T12:02:46.055Z"
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         },
         {
@@ -15811,7 +15811,7 @@
             "url": "/neuwagen/abarth/500e/basis/",
             "kwh": null,
             "kw": 113,
-            "fetchedAt": "2026-10-10T12:02:46.055Z"
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         }
       ]
@@ -22243,64 +22243,64 @@
       ]
     },
     "Abarth|500e Convertible": {
-      "slug": "500e-cabrio",
-      "confidence": 0.93,
-      "motorId": "1961",
-      "tariffId": "98",
-      "endpreis": "21.614,95",
-      "kaufpreis": "20.724,95",
-      "ersparnis": "8.265,05 (28,51)",
-      "lieferzeit": "3-4 Monate",
+      "slug": "500e",
+      "confidence": 1,
+      "motorId": "1244",
+      "tariffId": "71",
+      "endpreis": "30.808,35",
+      "kaufpreis": "29.818,35",
+      "ersparnis": "8.171,65 (21,51)",
+      "lieferzeit": "4-5 Monate",
       "source": {
-        "slug": "500e-cabrio",
-        "variantId": "2574",
-        "motorId": "1961",
-        "tariffId": "98",
-        "variantName": "Fiat 500e Cabrio Pop",
-        "url": "/neuwagen/fiat/500e-cabrio/pop/",
-        "kwh": 23,
-        "kw": 70,
-        "fetchedAt": "2026-10-10T11:52:36.026Z"
+        "slug": "500e",
+        "variantId": "662",
+        "motorId": "1244",
+        "tariffId": "71",
+        "variantName": "Abarth 500e",
+        "url": "/neuwagen/abarth/500e/basis/",
+        "kwh": null,
+        "kw": 113,
+        "fetchedAt": "2026-10-10T14:00:36.620Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "1961",
-          "tariffId": "98",
-          "endpreis": "21.614,95",
-          "kaufpreis": "20.724,95",
-          "ersparnis": "8.265,05 (28,51)",
-          "lieferzeit": "3-4 Monate",
+          "motorId": "1244",
+          "tariffId": "71",
+          "endpreis": "30.808,35",
+          "kaufpreis": "29.818,35",
+          "ersparnis": "8.171,65 (21,51)",
+          "lieferzeit": "4-5 Monate",
           "source": {
-            "slug": "500e-cabrio",
-            "variantId": "2574",
-            "motorId": "1961",
-            "tariffId": "98",
-            "variantName": "Fiat 500e Cabrio Pop",
-            "url": "/neuwagen/fiat/500e-cabrio/pop/",
-            "kwh": 23,
-            "kw": 70,
-            "fetchedAt": "2026-10-10T11:52:36.026Z"
+            "slug": "500e",
+            "variantId": "662",
+            "motorId": "1244",
+            "tariffId": "71",
+            "variantName": "Abarth 500e",
+            "url": "/neuwagen/abarth/500e/basis/",
+            "kwh": null,
+            "kw": 113,
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "1961",
-          "tariffId": "96",
-          "endpreis": "21.325,05",
-          "kaufpreis": "20.435,05",
-          "ersparnis": "8.554,95 (29,51)",
-          "lieferzeit": "3-4 Monate",
+          "motorId": "1244",
+          "tariffId": "69",
+          "endpreis": "30.428,45",
+          "kaufpreis": "29.438,45",
+          "ersparnis": "8.551,55 (22,51)",
+          "lieferzeit": "4-5 Monate",
           "source": {
-            "slug": "500e-cabrio",
-            "variantId": "2574",
-            "motorId": "1961",
-            "tariffId": "96",
-            "variantName": "Fiat 500e Cabrio Pop",
-            "url": "/neuwagen/fiat/500e-cabrio/pop/",
-            "kwh": 23,
-            "kw": 70,
-            "fetchedAt": "2026-10-10T11:52:36.026Z"
+            "slug": "500e",
+            "variantId": "662",
+            "motorId": "1244",
+            "tariffId": "69",
+            "variantName": "Abarth 500e",
+            "url": "/neuwagen/abarth/500e/basis/",
+            "kwh": null,
+            "kw": 113,
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         }
       ]
@@ -56453,7 +56453,7 @@
         "url": "/neuwagen/abarth/500e/basis/",
         "kwh": null,
         "kw": 113,
-        "fetchedAt": "2026-10-10T12:02:46.055Z"
+        "fetchedAt": "2026-10-10T14:00:36.620Z"
       },
       "offers": [
         {
@@ -56473,7 +56473,7 @@
             "url": "/neuwagen/abarth/500e/basis/",
             "kwh": null,
             "kw": 113,
-            "fetchedAt": "2026-10-10T12:02:46.055Z"
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         },
         {
@@ -56493,7 +56493,7 @@
             "url": "/neuwagen/abarth/500e/basis/",
             "kwh": null,
             "kw": 113,
-            "fetchedAt": "2026-10-10T12:02:46.055Z"
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         }
       ]
@@ -59712,64 +59712,64 @@
       ]
     },
     "evdb:1904": {
-      "slug": "500e-cabrio",
-      "confidence": 0.93,
-      "motorId": "1961",
-      "tariffId": "98",
-      "endpreis": "21.614,95",
-      "kaufpreis": "20.724,95",
-      "ersparnis": "8.265,05 (28,51)",
-      "lieferzeit": "3-4 Monate",
+      "slug": "500e",
+      "confidence": 1,
+      "motorId": "1244",
+      "tariffId": "71",
+      "endpreis": "30.808,35",
+      "kaufpreis": "29.818,35",
+      "ersparnis": "8.171,65 (21,51)",
+      "lieferzeit": "4-5 Monate",
       "source": {
-        "slug": "500e-cabrio",
-        "variantId": "2574",
-        "motorId": "1961",
-        "tariffId": "98",
-        "variantName": "Fiat 500e Cabrio Pop",
-        "url": "/neuwagen/fiat/500e-cabrio/pop/",
-        "kwh": 23,
-        "kw": 70,
-        "fetchedAt": "2026-10-10T11:52:36.026Z"
+        "slug": "500e",
+        "variantId": "662",
+        "motorId": "1244",
+        "tariffId": "71",
+        "variantName": "Abarth 500e",
+        "url": "/neuwagen/abarth/500e/basis/",
+        "kwh": null,
+        "kw": 113,
+        "fetchedAt": "2026-10-10T14:00:36.620Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "1961",
-          "tariffId": "98",
-          "endpreis": "21.614,95",
-          "kaufpreis": "20.724,95",
-          "ersparnis": "8.265,05 (28,51)",
-          "lieferzeit": "3-4 Monate",
+          "motorId": "1244",
+          "tariffId": "71",
+          "endpreis": "30.808,35",
+          "kaufpreis": "29.818,35",
+          "ersparnis": "8.171,65 (21,51)",
+          "lieferzeit": "4-5 Monate",
           "source": {
-            "slug": "500e-cabrio",
-            "variantId": "2574",
-            "motorId": "1961",
-            "tariffId": "98",
-            "variantName": "Fiat 500e Cabrio Pop",
-            "url": "/neuwagen/fiat/500e-cabrio/pop/",
-            "kwh": 23,
-            "kw": 70,
-            "fetchedAt": "2026-10-10T11:52:36.026Z"
+            "slug": "500e",
+            "variantId": "662",
+            "motorId": "1244",
+            "tariffId": "71",
+            "variantName": "Abarth 500e",
+            "url": "/neuwagen/abarth/500e/basis/",
+            "kwh": null,
+            "kw": 113,
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "1961",
-          "tariffId": "96",
-          "endpreis": "21.325,05",
-          "kaufpreis": "20.435,05",
-          "ersparnis": "8.554,95 (29,51)",
-          "lieferzeit": "3-4 Monate",
+          "motorId": "1244",
+          "tariffId": "69",
+          "endpreis": "30.428,45",
+          "kaufpreis": "29.438,45",
+          "ersparnis": "8.551,55 (22,51)",
+          "lieferzeit": "4-5 Monate",
           "source": {
-            "slug": "500e-cabrio",
-            "variantId": "2574",
-            "motorId": "1961",
-            "tariffId": "96",
-            "variantName": "Fiat 500e Cabrio Pop",
-            "url": "/neuwagen/fiat/500e-cabrio/pop/",
-            "kwh": 23,
-            "kw": 70,
-            "fetchedAt": "2026-10-10T11:52:36.026Z"
+            "slug": "500e",
+            "variantId": "662",
+            "motorId": "1244",
+            "tariffId": "69",
+            "variantName": "Abarth 500e",
+            "url": "/neuwagen/abarth/500e/basis/",
+            "kwh": null,
+            "kw": 113,
+            "fetchedAt": "2026-10-10T14:00:36.620Z"
           }
         }
       ]
