@@ -40,6 +40,17 @@
         .map((m) => new URL(m[1], 'https://www.apl.de').href))];
     },
 
+    parseVariantLines(page) {
+      const variants = [];
+      for (const m of String(page).matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2|$)/g)) {
+        const name = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        const id = (m[2].match(/FzgBlock-infos" data-id="(\d+)"/) || [])[1];
+        const url = (m[2].match(/href="(\/neuwagen\/[^"]+)"/) || [])[1];
+        if (id && !/bewertung/i.test(name)) variants.push({ id, name, url: url || null });
+      }
+      return variants;
+    },
+
     // html -> { geschaeftskunden: {...}, privatkunden: {...} }
     // Raw German price strings kept as-is (decimal comma).
     parsePrices(html) {
@@ -72,6 +83,8 @@
         if (!motor) continue;
         block = block.split(/<div class="motor-rabatt"/)[0];
         const p = {
+          motorId: motor,
+          tariffId: (block.match(/data-tarif="(\d+)"/) || [])[1] || '',
           endpreis: blockField(block, 'endpreis'),
           kaufpreis: blockField(block, 'kaufpreis'),
           ersparnis: blockField(block, 'ersparnis'),
@@ -100,6 +113,8 @@
         block = block.split(/<div class="motor-rabatt"/)[0];
         const offer = {
           tag,
+          motorId: motor,
+          tariffId: (block.match(/data-tarif="(\d+)"/) || [])[1] || '',
           endpreis: blockField(block, 'endpreis'),
           kaufpreis: blockField(block, 'kaufpreis'),
           ersparnis: blockField(block, 'ersparnis'),

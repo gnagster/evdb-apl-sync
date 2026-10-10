@@ -1,2 +1,5 @@
 # Local opencode data (RAG DB, session transcripts, logs) - machine-local only
 .opencode/
+tools/scrape-result.json
+output/
+.playwright-cli/

@@ -76,3 +76,54 @@ gespiegelt.
 - `node test/matcher.test.js` — 91 Spot-Checks.
 - `node test/scraper.test.js` — Scraper-Smoke-Test.
 - Content-Smoke-Test: `/tmp/opencode/smoke-content.js`.
+
+## Dashboard
+
+[Preis-Dashboard öffnen](https://gnagster.github.io/evdb-apl-sync/)
+
+Die öffentliche Übersicht zeigt Fahrzeugpreise, Angebote für alle Kundenarten,
+Lieferzeiten, Abrufdatum und die genaue APL-Quelle. Suche, Hersteller-, Preis-
+und Zuordnungsfilter lassen sich kombinieren. Die gefilterte Tabelle kann als
+CSV und der aktuelle Stand einschließlich Entwürfen als JSON exportiert werden.
+
+Zum Bearbeiten **GitHub verbinden** wählen und ein kurzlebiges, fine-grained
+Personal Access Token eingeben: nur das Repository `evdb-apl-sync` auswählen,
+**Contents: Read and write** und **Actions: Read and write** erlauben. Das Token
+bleibt ausschließlich im Arbeitsspeicher der Seite; beim Neuladen oder Abmelden
+wird es verworfen. Keine Zugangsdaten in Dateien, Commits oder Exporten speichern.
+
+Fahrzeugdetails erlauben getrennte Korrekturen der Fahrzeugwerte und einzelnen
+Kundenangebote. Die Quelle lässt sich bis zu APL-Modell, Ausstattungsvariante,
+Motor und Tarif auswählen. **Varianten laden / aktualisieren** ergänzt fehlende
+Angebote. Bei einem Quellenwechsel werden bestehende Zahlenkorrekturen für dieses
+Angebot nach Bestätigung entfernt. **In GitHub speichern** übernimmt alle
+Entwürfe in einem Commit; bei einem Schreibkonflikt bleiben die Entwürfe erhalten.
+Vor einem Neuladen können sie als JSON gesichert werden.
+
+Die Datei `tools/dashboard-overrides.json` trennt `mapping` (Quellen oder `null`
+zum Ausschließen) von `prices` (quellengebundene Feldkorrekturen). Diese Datei ist
+wie das Dashboard öffentlich. Änderungen lösen eine gezielte Neuberechnung aus.
+Zahlenkorrekturen überstehen spätere Abrufe; **Preiswerte zurücksetzen** entfernt
+sie. **Zuordnung zurücksetzen** stellt den bestehenden manuellen Override bzw.
+die automatische Zuordnung wieder her. Ausgeschlossene Fahrzeuge können unter
+**Meine Korrekturen** wiederhergestellt werden.
+
+**Fahrzeug neu abrufen** aktualisiert die erforderliche Modellfamilie;
+**Dieses Angebot neu abrufen** lädt dessen Variantenpreisliste trotz frischem
+Cache. Alle Fahrzeuge mit derselben aktualisierten Quelle werden mitgezogen,
+andere Fahrzeuge bleiben unverändert. Lauf und Ergebnis sind unter **Abrufe**
+sichtbar. Nicht mehr verfügbare Angebote und parallele Änderungen führen zu
+sichtbaren Fehlern, statt bestehende Daten zu überschreiben. Bei ungespeicherten
+Entwürfen wird kein Abruf gestartet. Die Erweiterung lädt die veröffentlichte
+Preisdatei mit ihrer bisherigen täglichen Aktualisierung.
+
+GitHub Pages veröffentlicht ausschließlich `dashboard/`, über den Workflow
+`dashboard.yml`. Die Preise werden aus dem aktuellen Repository-Stand geladen,
+nicht in die Website eingebettet. Zum lokalen Prüfen einen statischen Server im
+Repo starten und `dashboard/` öffnen; auch die lokale Oberfläche nutzt GitHub als
+Datenquelle.
+
+Zusätzliche Tests: `node test/dashboard.test.js`. Sie prüfen Quellenkennungen,
+gebundene Korrekturen, Filter, Einzelabrufe, Fehlererhaltung und das Zusammenführen
+paralleler Veröffentlichungen. Der Preisworkflow akzeptiert `mode` (`full`,
+`vehicle`, `offer`, `catalogue`, `corrections`), `target` und `request_id`.

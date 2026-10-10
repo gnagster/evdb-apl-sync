@@ -1,9 +1,24 @@
 name: apl-prices
+run-name: 'APL ${{ inputs.mode || ''corrections / nightly'' }} ${{ inputs.request_id }}'
 
 on:
   schedule:
     - cron: '10 5 * * *'
+  push:
+    branches: [main]
+    paths: ['tools/dashboard-overrides.json', 'tools/overrides.json']
   workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [full, vehicle, offer, catalogue, corrections]
+        default: full
+      target:
+        type: string
+        default: ''
+      request_id:
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -13,15 +28,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check price and dashboard logic
+        run: |
+          node test/scraper.test.js
+          node test/matcher.test.js
+          node test/dashboard.test.js
       - name: Scrape APL Privatkunden prices
+        env:
+          APL_MODE: ${{ inputs.mode || (github.event_name == 'push' && 'corrections') || 'full' }}
+          APL_TARGET: ${{ inputs.target }}
         run: node tools/scrape-prices.mjs 2>&1
       - name: Commit updated prices
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add apl-prices.json tools/scrape-cache.json
-          git diff --cached --quiet || git commit -m "apl-prices: nightly Privatkunden update"
-          git push
+          node tools/publish-prices.mjs

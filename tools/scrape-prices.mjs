@@ -5,13 +5,26 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import APLMatcher from '../matcher.js';
 import APLScraper from '../scraper.js';
+import Dashboard from '../dashboard/core.js';
+import { createHash } from 'node:crypto';
 
 const UA = APLScraper.UA;
+const MODE = process.env.APL_MODE || 'full';
+const TARGET = process.env.APL_TARGET || '';
+if (!['full', 'vehicle', 'offer', 'catalogue', 'corrections'].includes(MODE)) throw new Error('Unknown scrape mode');
+const corrections = Dashboard.validate(JSON.parse(readFileSync('tools/dashboard-overrides.json', 'utf8')));
+const correctionText = readFileSync('tools/dashboard-overrides.json', 'utf8');
+let previous = null;
+try { previous = JSON.parse(readFileSync('apl-prices.json', 'utf8')); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+const basePrices = previous ? Dashboard.rawPrices(previous) : {};
+const forceLines = new Set();
+const touched = new Set();
+const originalCache = JSON.parse(readFileSync('tools/scrape-cache.json', 'utf8'));
+const digest = (x) => createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const MAX = Number(process.argv[2]) || Infinity;
 const CONCURRENCY = Number(process.env.APL_CONCURRENCY) || 3;
 const DELAY = Number(process.env.APL_DELAY) || 300;
 const CONSEC_FAIL_ABORT = 25; // stop early if APL starts bot-blocking us
-const PREV_JSON_URL = 'https://raw.githubusercontent.com/gnagster/evdb-apl-sync/main/apl-prices.json';
 const MAX_LINES = 6; // cap on variant lines probed per model (base + top trims)
 const TAG_ORDER = ['für Privatkunden', 'für Geschäftskunden', 'für Freiberufler'];
 // Persistent cache so already-wired lines/specs are not re-scraped every day.
@@ -57,18 +70,7 @@ const batteryOf = (key) => {
 // review blocks). name is the trim label ("VW ID.Buzz Pure", "Kia EV9 GT-line")
 // used by matchVariant for per-variant pricing; url is the trim detail page
 // ("/neuwagen/nissan/ariya/advance/") whose item-motor blocks carry the specs.
-const parseVariantLines = (page) => {
-  const variants = [];
-  const re = /<h2[^>]*>([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2|$)/g;
-  let m;
-  while ((m = re.exec(page))) {
-    const name = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    const id = (m[2].match(/FzgBlock-infos" data-id="(\d+)"/) || [])[1];
-    const url = (m[2].match(/href="(\/neuwagen\/[^"]+)"/) || [])[1];
-    if (id && !/bewertung/i.test(name)) variants.push({ id, name, url: url || null });
-  }
-  return variants;
-};
+const parseVariantLines = APLScraper.parseVariantLines;
 
 const parseNum = (s) => {
   if (s == null) return null;
@@ -77,7 +79,7 @@ const parseNum = (s) => {
 };
 
 async function main() {
-  const [aplSlugs, vehicles] = await Promise.all([
+  const [aplSlugs, vehicles] = MODE === 'full' ? await Promise.all([
     (async () => {
       const html = await fetchText('https://www.apl.de/neuwagen/', 'text/html');
       return APLScraper.parseModelUrls(html);
@@ -97,7 +99,7 @@ async function main() {
       }
       return out;
     })(),
-  ]);
+  ]) : [Object.values(previous?.modelUrls || {}), previous?.vehicles || []];
   if (!aplSlugs.length || !vehicles.length) throw new Error('No APL models or EVDB vehicles found; keeping existing prices.');
 
   const paths = aplSlugs.map((u) => new URL(u).pathname);
@@ -137,6 +139,73 @@ async function main() {
       overriddenCount++;
     }
   }
+  for (const [key, m] of Object.entries(corrections.mapping)) {
+    if (m === null) { delete mapping[key]; continue; }
+    const slug = m.slug || m.base?.slug || mapping[key];
+    if (!slug || !slugToUrl[slug]) throw new Error('Unknown APL model for ' + key);
+    mapping[key] = slug;
+    built.confidence[key] = 1;
+  }
+  const ensureLines = async (slug, force = false) => {
+    if (!slugToUrl[slug]) throw new Error('Unknown APL model: ' + slug);
+    let lines = force ? null : cachedLines(slug);
+    if (!lines) {
+      lines = parseVariantLines(await fetchText(slugToUrl[slug], 'text/html'));
+      if (!lines.length) throw new Error('No variants for ' + slug);
+      setCachedLines(slug, lines);
+    }
+    return lines;
+  };
+  const fetchLine = async (slug, variant, force = false) => {
+    let data = !force && cachedLine(variant.id);
+    // Old cache entries have no tariff identity and must be fetched once.
+    if (data && Object.values(data.offers || {}).flat().some((o) => o.tariffId === undefined)) data = null;
+    if (!data) {
+      data = await APLScraper.fetchOffers(variant.id);
+      setCachedLine(variant.id, data);
+      touched.add(variant.id);
+    }
+    const ids = Object.keys(data.offers || {});
+    if (variant.url && (force || ids.some((id) => !cache.motorSpecs[id]))) {
+      try { Object.assign(cache.motorSpecs, APLScraper.parseMotorSpecs(await fetchText('https://www.apl.de' + variant.url, 'text/html'))); }
+      catch (e) { console.warn('Motor specs unavailable for ' + variant.id + ': ' + e.message); }
+    }
+    const out = Dashboard.clone(data);
+    for (const [motor, offers] of Object.entries(out.offers || {})) {
+      for (const o of offers) o.source = { slug, variantId: variant.id, motorId: motor, tariffId: o.tariffId,
+        variantName: variant.name, url: variant.url, ...(cache.motorSpecs[motor] || {}), fetchedAt: cache.lineData[variant.id].fetchedAt };
+      if (out.byMotor[motor]) out.byMotor[motor].source = offers.find((o) => o.tag === TAG_ORDER[0])?.source;
+    }
+    return out;
+  };
+  const ensureSource = async (ref, force = false) => {
+    Dashboard.validateSource(ref);
+    const variants = await ensureLines(ref.slug, force);
+    const v = variants.find((v) => v.id === ref.variantId);
+    if (!v) throw new Error('Selected APL variant disappeared: ' + Dashboard.sourceId(ref));
+    return fetchLine(ref.slug, v, force);
+  };
+  let selectedSlugs = null;
+  const changedMappingKeys = new Set();
+  if (MODE === 'vehicle') {
+    if (!mapping[TARGET]) throw new Error('Unknown or excluded vehicle: ' + TARGET);
+    selectedSlugs = new Set([mapping[TARGET]]);
+    for (const ref of Dashboard.references(basePrices[TARGET])) selectedSlugs.add(ref.slug);
+    for (const ref of [corrections.mapping[TARGET]?.base, ...Object.values(corrections.mapping[TARGET]?.offers || {})].filter(Boolean)) selectedSlugs.add(ref.slug);
+    for (const slug of selectedSlugs) {
+      for (const v of await ensureLines(slug, true)) forceLines.add(v.id);
+    }
+  } else if (MODE === 'corrections') {
+    const old = previous.appliedOverrides?.mapping || {};
+    const keys = new Set([...Object.keys(old), ...Object.keys(corrections.mapping)]);
+    selectedSlugs = new Set();
+    for (const key of keys) {
+      if (JSON.stringify(old[key]) === JSON.stringify(corrections.mapping[key])) continue;
+      changedMappingKeys.add(key);
+      if (mapping[key]) selectedSlugs.add(mapping[key]);
+      for (const ref of [corrections.mapping[key]?.base, ...Object.values(corrections.mapping[key]?.offers || {})].filter(Boolean)) selectedSlugs.add(ref.slug);
+    }
+  }
   if (overriddenCount) console.log('Overrides applied: ' + overriddenCount + (overrideSkipped ? ' (' + overrideSkipped + ' skipped)' : ''));
 
   // group jobs per slug so battery-size ranks are computed across all variants
@@ -146,9 +215,9 @@ async function main() {
     if (!slugJobs.has(slug)) slugJobs.set(slug, { url: slugToUrl[slug], keys: [] });
     slugJobs.get(slug).keys.push(key);
   }
-  const jobs = [...slugJobs.entries()].map(([slug, v]) => ({ slug, ...v }));
+  const jobs = [...slugJobs.entries()].filter(([slug]) => !selectedSlugs || selectedSlugs.has(slug)).map(([slug, v]) => ({ slug, ...v }));
 
-  const prices = {};
+  let prices = {};
   const failures = []; // 'key -> slug [reason]' for diagnosis
   const cats = {};
   const failCount = () => Object.values(cats).reduce((a, b) => a + b, 0);
@@ -182,26 +251,13 @@ async function main() {
     return TAG_ORDER.map((t) => (best.get(t) || {}).offer).filter(Boolean);
   };
   const scrapeSlug = async (job) => {
-    let variants = cachedLines(job.slug);
-    if (!variants) {
-      const page = await fetchText(job.url, 'text/html');
-      variants = parseVariantLines(page);
-      if (!variants.length) throw new Error('no variant id');
-      setCachedLines(job.slug, variants);
-    }
+    const variants = await ensureLines(job.slug);
     const lines = variants.map((v) => v.id);
-
-    // line id -> cached fetchOffers result, else one POST (cached on success).
     const lineCache = new Map();
     const getLine = (id) => {
       if (!lineCache.has(id)) {
-        const hit = cachedLine(id);
-        lineCache.set(
-          id,
-          hit
-            ? Promise.resolve(hit)
-            : APLScraper.fetchOffers(id).then((r) => { setCachedLine(id, r); return r; })
-        );
+        const variant = variants.find((v) => v.id === id);
+        lineCache.set(id, fetchLine(job.slug, variant, forceLines.has(id)));
       }
       return lineCache.get(id);
     };
@@ -368,25 +424,79 @@ async function main() {
     await Promise.all(Array.from({ length: Math.min(CONCURRENCY, jobs.length) }, next));
   };
 
-  console.log('Mapped ' + Object.keys(mapping).length + ' vehicles (' + jobs.length + ' APL models), scraping Privatkunden…');
-  await runPool();
-
-  if (failures.length) {
-    console.log('Failures by reason:');
-    for (const [r, n] of Object.entries(cats).sort((a, b) => b[1] - a[1])) console.log('  ' + n + '\t' + r);
-    const makes = {};
-    for (const f of failures) { const m = (f.match(/^([^|]+)\|/) || [])[1]; if (m) makes[m] = (makes[m] || 0) + 1; }
-    console.log('Top failure makes: ' + Object.entries(makes).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([m, n]) => m + ':' + n).join(', '));
+  const replaceSourceValues = (ids, sourcePrices = basePrices) => {
+    for (const key of Dashboard.affected(sourcePrices, ids)) {
+      const entry = Dashboard.clone(sourcePrices[key]);
+      if (entry.source && ids.has(entry.source.variantId)) {
+        const fresh = Dashboard.sourceOffer(entry.source, TAG_ORDER[0], cache);
+        for (const f of Dashboard.FIELDS) entry[f] = fresh[f];
+        entry.source = fresh.source;
+      }
+      entry.offers = (entry.offers || []).map((o) => o.source && ids.has(o.source.variantId)
+        ? Dashboard.sourceOffer(o.source, o.tag, cache) : o);
+      prices[key] = entry;
+    }
+  };
+  if (MODE === 'catalogue') {
+    const variants = await ensureLines(TARGET, true);
+    for (const v of variants) {
+      // Variants without classified offers remain visible, but cannot be assigned.
+      await fetchLine(TARGET, v, true);
+      await sleep(DELAY);
+    }
+    prices = Dashboard.clone(basePrices);
+    replaceSourceValues(touched);
+  } else if (MODE === 'offer') {
+    const ref = JSON.parse(TARGET);
+    await ensureSource(ref, true);
+    Dashboard.sourceOffer(ref, ref.tag || TAG_ORDER[0], cache);
+    prices = Dashboard.clone(basePrices);
+    replaceSourceValues(new Set([ref.variantId]));
+  } else {
+    console.log('Mapped ' + Object.keys(mapping).length + ' vehicles (' + jobs.length + ' APL models), scraping Privatkunden…');
+    await runPool();
+    if (failures.length) {
+      console.log('Failures by reason:', cats);
+      console.log(failures.slice(0, 20).join('\n'));
+    }
+    if (aborted) throw new Error('Incomplete run; existing prices kept.');
+    if (MODE === 'full') {
+      const active = new Set(vehicles.map((v) => v.make + '|' + v.model));
+      for (const [key, old] of Object.entries(basePrices)) {
+        if (!prices[key] && active.has(key) && corrections.mapping[key] !== null) {
+          prices[key] = { ...old, stale: true, lastError: 'Quelle konnte nicht aktualisiert werden. Letzter guter Preis bleibt erhalten.' };
+        }
+      }
+      const floor = Math.max(50, (previous?.count || 0) * 0.5);
+      if (scraped < floor) throw new Error('Coverage drop; existing prices kept.');
+    } else {
+      const expected = jobs.flatMap((j) => [...slugJobs.get(j.slug).keys]).filter((key) => basePrices[key] || key === TARGET);
+      const failed = expected.filter((key) => !prices[key] && !corrections.mapping[key]?.base);
+      if (failed.length) throw new Error('Targeted scrape incomplete: ' + failed.join(', '));
+      const updated = prices;
+      prices = Dashboard.clone(basePrices);
+      replaceSourceValues(touched);
+      Object.assign(prices, updated);
+    }
   }
-  if (aborted) { console.error('Incomplete run - apl-prices.json not touched.'); process.exit(1); }
-
-  // Never overwrite a good dataset with a bot-blocked/partial run.
-  try {
-    const prev = await (await fetch(PREV_JSON_URL)).json();
-    const floor = Math.max(50, (prev.count || 0) * 0.5);
-    if (scraped < floor) { console.error('Coverage drop (' + scraped + ' < ' + floor + ') - keeping existing file.'); process.exit(1); }
-  } catch { /* first run / fetch hiccup -> write anyway */ }
-
+  // Resolve pinned sources explicitly; never fall back if a pinned source vanishes.
+  for (const [key, m] of Object.entries(corrections.mapping)) {
+    if (!m) continue;
+    const refs = [m.base, ...Object.values(m.offers || {})].filter(Boolean);
+    for (const ref of refs) {
+      if (MODE === 'full' || !cache.lineData[ref.variantId] || changedMappingKeys.has(key) || (forceLines.has(ref.variantId) && !touched.has(ref.variantId))) {
+        await ensureSource(ref, forceLines.has(ref.variantId) && !touched.has(ref.variantId));
+      }
+    }
+    if (!prices[key] && m.base) {
+      prices[key] = { slug: m.base.slug, confidence: 1, offers: [] };
+    }
+  }
+  if (MODE !== 'full') replaceSourceValues(touched, prices);
+  prices = Dashboard.applyMappings(prices, corrections, cache);
+  const applied = Dashboard.applyPrices(prices, corrections);
+  prices = applied.prices;
+  for (const warning of applied.warnings) console.warn(warning);
   // lowConfidence from the matcher, minus anything overridden (slug overrides
   // get confidence 1.0; null overrides aren't in prices anyway) and minus keys
   // that failed to scrape.
@@ -394,10 +504,18 @@ async function main() {
   const lowConfidence = Array.isArray(built.lowConfidence)
     ? built.lowConfidence.filter((k) => !overridden.has(k) && Object.prototype.hasOwnProperty.call(prices, k))
     : [];
-  const out = { generatedAt: new Date().toISOString(), source: 'privatkunden', count: scraped, prices, lowConfidence };
+  const out = { generatedAt: MODE === 'corrections' ? previous.generatedAt : new Date().toISOString(),
+    source: 'privatkunden', count: Object.keys(prices).length, prices, lowConfidence,
+    originalPrices: applied.originalPrices, appliedOverrides: corrections,
+    modelUrls: slugToUrl, vehicles, warnings: applied.warnings };
+  const rawOutput = Dashboard.rawPrices(out);
+  const changedKeys = Object.keys({ ...basePrices, ...prices }).filter((key) => JSON.stringify(basePrices[key]) !== JSON.stringify(rawOutput[key]));
+  writeFileSync('tools/scrape-result.json', JSON.stringify({ mode: MODE, correctionText,
+    baseline: Object.fromEntries(changedKeys.map((key) => [key, digest(basePrices[key] || null)])),
+    changedKeys, touched: [...touched], cacheBaseline: Object.fromEntries([...touched].map((id) => [id, digest(originalCache.lineData[id] || null)])) }));
   writeFileSync('apl-prices.json', JSON.stringify(out, null, 2));
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
-  console.log('Wrote apl-prices.json with ' + scraped + ' prices (' + failCount() + ' failed).');
+  console.log('Wrote apl-prices.json with ' + out.count + ' prices (' + failCount() + ' failed).');
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
