@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T12:01:07.950Z",
+  "generatedAt": "2026-10-10T12:02:46.294Z",
   "source": "privatkunden",
   "count": 408,
   "prices": {
@@ -22008,7 +22008,7 @@
         "url": "/neuwagen/abarth/500e/basis/",
         "kwh": null,
         "kw": 113,
-        "fetchedAt": "2026-10-10T12:01:07.730Z"
+        "fetchedAt": "2026-10-10T12:02:46.055Z"
       },
       "offers": [
         {
@@ -22028,7 +22028,7 @@
             "url": "/neuwagen/abarth/500e/basis/",
             "kwh": null,
             "kw": 113,
-            "fetchedAt": "2026-10-10T12:01:07.730Z"
+            "fetchedAt": "2026-10-10T12:02:46.055Z"
           }
         },
         {
@@ -22048,7 +22048,7 @@
             "url": "/neuwagen/abarth/500e/basis/",
             "kwh": null,
             "kw": 113,
-            "fetchedAt": "2026-10-10T12:01:07.730Z"
+            "fetchedAt": "2026-10-10T12:02:46.055Z"
           }
         }
       ]
