@@ -3307,6 +3307,134 @@
     }
   },
   "motorSpecs": {
+    "51": {
+      "kwh": null,
+      "kw": 120
+    },
+    "57": {
+      "kwh": null,
+      "kw": 130
+    },
+    "59": {
+      "kwh": null,
+      "kw": 190
+    },
+    "61": {
+      "kwh": null,
+      "kw": 240
+    },
+    "62": {
+      "kwh": null,
+      "kw": 240
+    },
+    "63": {
+      "kwh": null,
+      "kw": 290
+    },
+    "84": {
+      "kwh": null,
+      "kw": 122
+    },
+    "85": {
+      "kwh": null,
+      "kw": 142
+    },
+    "86": {
+      "kwh": null,
+      "kw": 162
+    },
+    "94": {
+      "kwh": null,
+      "kw": 122
+    },
+    "95": {
+      "kwh": null,
+      "kw": 144
+    },
+    "148": {
+      "kwh": null,
+      "kw": 110
+    },
+    "149": {
+      "kwh": null,
+      "kw": 140
+    },
+    "150": {
+      "kwh": null,
+      "kw": 130
+    },
+    "151": {
+      "kwh": null,
+      "kw": 175
+    },
+    "152": {
+      "kwh": null,
+      "kw": 110
+    },
+    "153": {
+      "kwh": null,
+      "kw": 85
+    },
+    "154": {
+      "kwh": null,
+      "kw": 110
+    },
+    "155": {
+      "kwh": null,
+      "kw": 160
+    },
+    "156": {
+      "kwh": null,
+      "kw": 235
+    },
+    "157": {
+      "kwh": null,
+      "kw": 150
+    },
+    "158": {
+      "kwh": null,
+      "kw": 142
+    },
+    "164": {
+      "kwh": null,
+      "kw": 122
+    },
+    "166": {
+      "kwh": null,
+      "kw": 162
+    },
+    "174": {
+      "kwh": null,
+      "kw": 167
+    },
+    "175": {
+      "kwh": null,
+      "kw": 162
+    },
+    "176": {
+      "kwh": null,
+      "kw": 207
+    },
+    "177": {
+      "kwh": null,
+      "kw": 215
+    },
+    "178": {
+      "kwh": null,
+      "kw": 230
+    },
+    "179": {
+      "kwh": null,
+      "kw": 280
+    },
+    "180": {
+      "kwh": null,
+      "kw": 245
+    },
+    "182": {
+      "kwh": null,
+      "kw": 500
+    },
     "242": {
       "kwh": 87,
       "kw": 225
@@ -3719,6 +3847,10 @@
       "kwh": null,
       "kw": 157
     },
+    "2473": {
+      "kwh": null,
+      "kw": 310
+    },
     "2516": {
       "kwh": null,
       "kw": 448
@@ -3779,6 +3911,22 @@
       "kwh": null,
       "kw": 290
     },
+    "2757": {
+      "kwh": null,
+      "kw": 135
+    },
+    "2758": {
+      "kwh": null,
+      "kw": 160
+    },
+    "2760": {
+      "kwh": null,
+      "kw": 150
+    },
+    "2761": {
+      "kwh": null,
+      "kw": 230
+    },
     "2786": {
       "kwh": null,
       "kw": 168
@@ -3810,6 +3958,14 @@
     "2898": {
       "kwh": null,
       "kw": 360
+    },
+    "2899": {
+      "kwh": null,
+      "kw": 287
+    },
+    "2919": {
+      "kwh": null,
+      "kw": 175
     },
     "2958": {
       "kwh": null,
@@ -3862,6 +4018,14 @@
     "3137": {
       "kwh": null,
       "kw": 210
+    },
+    "3138": {
+      "kwh": null,
+      "kw": 135
+    },
+    "3139": {
+      "kwh": null,
+      "kw": 160
     },
     "3146": {
       "kwh": null,
@@ -3939,6 +4103,14 @@
       "kwh": 58,
       "kw": 140
     },
+    "3390": {
+      "kwh": null,
+      "kw": 190
+    },
+    "3395": {
+      "kwh": null,
+      "kw": 190
+    },
     "3396": {
       "kwh": 83,
       "kw": 210
@@ -3994,6 +4166,10 @@
     "3484": {
       "kwh": 76,
       "kw": 160
+    },
+    "3485": {
+      "kwh": null,
+      "kw": 137
     },
     "3487": {
       "kwh": null,
@@ -4519,6 +4695,14 @@
       "kwh": 52,
       "kw": 130
     },
+    "4050": {
+      "kwh": null,
+      "kw": 162
+    },
+    "4051": {
+      "kwh": null,
+      "kw": 142
+    },
     "4054": {
       "kwh": null,
       "kw": 140
@@ -4599,6 +4783,18 @@
       "kwh": null,
       "kw": 155
     },
+    "4097": {
+      "kwh": 87,
+      "kw": 160
+    },
+    "4098": {
+      "kwh": null,
+      "kw": 142
+    },
+    "4099": {
+      "kwh": null,
+      "kw": 162
+    },
     "4100": {
       "kwh": null,
       "kw": 235
@@ -4618,6 +4814,14 @@
     "4113": {
       "kwh": null,
       "kw": 257
+    },
+    "4115": {
+      "kwh": 77,
+      "kw": 250
+    },
+    "4116": {
+      "kwh": 77,
+      "kw": 375
     },
     "4119": {
       "kwh": null,
@@ -4707,6 +4911,42 @@
       "kwh": null,
       "kw": 155
     },
+    "4163": {
+      "kwh": null,
+      "kw": 200
+    },
+    "4164": {
+      "kwh": null,
+      "kw": 250
+    },
+    "4165": {
+      "kwh": null,
+      "kw": 365
+    },
+    "4166": {
+      "kwh": null,
+      "kw": 310
+    },
+    "4167": {
+      "kwh": null,
+      "kw": 310
+    },
+    "4168": {
+      "kwh": null,
+      "kw": 475
+    },
+    "4169": {
+      "kwh": null,
+      "kw": 310
+    },
+    "4170": {
+      "kwh": null,
+      "kw": 310
+    },
+    "4171": {
+      "kwh": null,
+      "kw": 475
+    },
     "4172": {
       "kwh": 37,
       "kw": 99
@@ -4766,6 +5006,22 @@
     "4210": {
       "kwh": null,
       "kw": 207
+    },
+    "4222": {
+      "kwh": null,
+      "kw": 160
+    },
+    "4223": {
+      "kwh": null,
+      "kw": 160
+    },
+    "4224": {
+      "kwh": null,
+      "kw": 147
+    },
+    "4225": {
+      "kwh": null,
+      "kw": 147
     },
     "4236": {
       "kwh": null,
@@ -4858,49 +5114,619 @@
     "4265": {
       "kwh": null,
       "kw": 345
+    },
+    "4267": {
+      "kwh": null,
+      "kw": 144
+    },
+    "4268": {
+      "kwh": null,
+      "kw": 162
+    },
+    "4269": {
+      "kwh": null,
+      "kw": 162
     }
   },
   "lineData": {
     "8": {
-      "fetchedAt": "2026-10-09T08:47:35.260Z",
+      "fetchedAt": "2026-10-12T13:07:12.277Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "174": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "174",
+              "tariffId": "1",
+              "endpreis": "49.669,03",
+              "kaufpreis": "48.359,03",
+              "ersparnis": "12.104,87 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "175": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "175",
+              "tariffId": "1",
+              "endpreis": "51.753,39",
+              "kaufpreis": "50.443,39",
+              "ersparnis": "12.626,61 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "176": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "176",
+              "tariffId": "1",
+              "endpreis": "54.356,46",
+              "kaufpreis": "53.046,46",
+              "ersparnis": "13.278,19 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "177": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "177",
+              "tariffId": "1",
+              "endpreis": "56.307,57",
+              "kaufpreis": "54.997,57",
+              "ersparnis": "13.766,58 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "178": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "178",
+              "tariffId": "1",
+              "endpreis": "70.543,55",
+              "kaufpreis": "69.233,55",
+              "ersparnis": "-344,45 (-0,50)",
+              "lieferzeit": "aktuell KEIN Angebot!",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "179": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "179",
+              "tariffId": "1",
+              "endpreis": "74.004,57",
+              "kaufpreis": "72.694,57",
+              "ersparnis": "-354,47 (-0,49)",
+              "lieferzeit": "aktuell KEIN Angebot!",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "180": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "180",
+              "tariffId": "1",
+              "endpreis": "72.091,24",
+              "kaufpreis": "70.781,24",
+              "ersparnis": "-345,14 (-0,49)",
+              "lieferzeit": "aktuell KEIN Angebot!",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "182": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "182",
+              "tariffId": "1",
+              "endpreis": "123.990,30",
+              "kaufpreis": "122.680,30",
+              "ersparnis": "-598,20 (-0,49)",
+              "lieferzeit": "aktuell KEIN Angebot!",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "2899": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2899",
+              "tariffId": "1",
+              "endpreis": "63.987,39",
+              "kaufpreis": "62.677,39",
+              "ersparnis": "16.172,01 (20,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "3485": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3485",
+              "tariffId": "1",
+              "endpreis": "48.269,94",
+              "kaufpreis": "46.959,94",
+              "ersparnis": "11.754,66 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "10": {
-      "fetchedAt": "2026-10-09T08:47:48.476Z",
+      "fetchedAt": "2026-10-12T13:07:17.060Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "158": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "158",
+              "tariffId": "1",
+              "endpreis": "43.691,96",
+              "kaufpreis": "42.381,96",
+              "ersparnis": "10.608,74 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "164": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "164",
+              "tariffId": "1",
+              "endpreis": "41.617,12",
+              "kaufpreis": "40.307,12",
+              "ersparnis": "10.089,38 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "166": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "166",
+              "tariffId": "1",
+              "endpreis": "46.663,64",
+              "kaufpreis": "45.353,64",
+              "ersparnis": "11.694,96 (20,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4050": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4050",
+              "tariffId": "1",
+              "endpreis": "45.167,19",
+              "kaufpreis": "43.857,19",
+              "ersparnis": "10.978,01 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4051": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4051",
+              "tariffId": "1",
+              "endpreis": "45.462,24",
+              "kaufpreis": "44.152,24",
+              "ersparnis": "11.051,86 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "11": {
-      "fetchedAt": "2026-10-09T08:47:46.337Z",
+      "fetchedAt": "2026-10-12T13:07:16.152Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "148": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "148",
+              "tariffId": "1",
+              "endpreis": "40.245,88",
+              "kaufpreis": "38.935,88",
+              "ersparnis": "9.431,67 (19,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "149": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "149",
+              "tariffId": "1",
+              "endpreis": "44.642,87",
+              "kaufpreis": "43.332,87",
+              "ersparnis": "10.496,78 (19,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "150": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "150",
+              "tariffId": "1",
+              "endpreis": "39.216,16",
+              "kaufpreis": "37.906,16",
+              "ersparnis": "9.188,09 (19,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "151": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "151",
+              "tariffId": "1",
+              "endpreis": "47.645,07",
+              "kaufpreis": "46.335,07",
+              "ersparnis": "11.231,18 (19,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "152": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "152",
+              "tariffId": "1",
+              "endpreis": "42.022,60",
+              "kaufpreis": "40.712,60",
+              "ersparnis": "9.868,35 (19,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "153": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "153",
+              "tariffId": "1",
+              "endpreis": "38.852,19",
+              "kaufpreis": "37.542,19",
+              "ersparnis": "9.099,86 (19,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "154": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "154",
+              "tariffId": "1",
+              "endpreis": "37.783,95",
+              "kaufpreis": "36.473,95",
+              "ersparnis": "8.835,30 (19,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "155": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "155",
+              "tariffId": "1",
+              "endpreis": "45.456,64",
+              "kaufpreis": "44.146,64",
+              "ersparnis": "7.802,81 (15,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "156": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "156",
+              "tariffId": "1",
+              "endpreis": "56.382,55",
+              "kaufpreis": "55.072,55",
+              "ersparnis": "13.340,55 (19,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "157": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "157",
+              "tariffId": "1",
+              "endpreis": "42.152,20",
+              "kaufpreis": "40.842,20",
+              "ersparnis": "9.893,45 (19,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "2473": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2473",
+              "tariffId": "1",
+              "endpreis": "68.423,50",
+              "kaufpreis": "67.113,50",
+              "ersparnis": "16.799,35 (20,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "20": {
-      "fetchedAt": "2026-10-09T08:47:53.766Z",
+      "fetchedAt": "2026-10-12T13:07:18.834Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "94": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "94",
+              "tariffId": "1",
+              "endpreis": "38.204,46",
+              "kaufpreis": "36.894,46",
+              "ersparnis": "10.717,44 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "95": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "95",
+              "tariffId": "1",
+              "endpreis": "40.306,92",
+              "kaufpreis": "38.996,92",
+              "ersparnis": "11.328,18 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4267": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4267",
+              "tariffId": "1",
+              "endpreis": "42.012,86",
+              "kaufpreis": "40.702,86",
+              "ersparnis": "11.823,74 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4268": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4268",
+              "tariffId": "1",
+              "endpreis": "42.691,36",
+              "kaufpreis": "41.381,36",
+              "ersparnis": "12.013,94 (22,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4269": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4269",
+              "tariffId": "1",
+              "endpreis": "44.108,42",
+              "kaufpreis": "42.798,42",
+              "ersparnis": "12.798,38 (23,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "21": {
-      "fetchedAt": "2026-10-09T08:47:32.999Z",
+      "fetchedAt": "2026-10-12T13:07:11.665Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "84": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "84",
+              "tariffId": "1",
+              "endpreis": "37.144,01",
+              "kaufpreis": "35.834,01",
+              "ersparnis": "10.409,39 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "85": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "85",
+              "tariffId": "1",
+              "endpreis": "39.246,46",
+              "kaufpreis": "37.936,46",
+              "ersparnis": "11.020,14 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "86": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "86",
+              "tariffId": "1",
+              "endpreis": "43.054,95",
+              "kaufpreis": "41.744,95",
+              "ersparnis": "12.483,35 (23,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4098": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4098",
+              "tariffId": "1",
+              "endpreis": "40.957,53",
+              "kaufpreis": "39.647,53",
+              "ersparnis": "11.510,57 (22,50)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4099": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4099",
+              "tariffId": "1",
+              "endpreis": "41.625,57",
+              "kaufpreis": "40.315,57",
+              "ersparnis": "11.711,23 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "23": {
-      "fetchedAt": "2026-10-09T08:47:35.997Z",
+      "fetchedAt": "2026-10-12T13:07:13.395Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "51": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "51",
+              "tariffId": "1",
+              "endpreis": "42.901,26",
+              "kaufpreis": "41.591,26",
+              "ersparnis": "11.744,54 (22,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "57": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "57",
+              "tariffId": "1",
+              "endpreis": "39.398,20",
+              "kaufpreis": "38.088,20",
+              "ersparnis": "10.755,35 (22,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "59": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "59",
+              "tariffId": "1",
+              "endpreis": "48.020,54",
+              "kaufpreis": "46.710,54",
+              "ersparnis": "13.568,91 (22,51)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "61": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "61",
+              "tariffId": "1",
+              "endpreis": "auf Anfrage",
+              "kaufpreis": "auf Anfrage",
+              "ersparnis": "auf Anfrage",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "62": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "62",
+              "tariffId": "1",
+              "endpreis": "auf Anfrage",
+              "kaufpreis": "auf Anfrage",
+              "ersparnis": "auf Anfrage",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "63": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "63",
+              "tariffId": "1",
+              "endpreis": "auf Anfrage",
+              "kaufpreis": "auf Anfrage",
+              "ersparnis": "auf Anfrage",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4222": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4222",
+              "tariffId": "1",
+              "endpreis": "44.038,01",
+              "kaufpreis": "42.728,01",
+              "ersparnis": "12.065,54 (22,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4223": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4223",
+              "tariffId": "1",
+              "endpreis": "45.893,93",
+              "kaufpreis": "44.583,93",
+              "ersparnis": "12.589,62 (22,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4224": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4224",
+              "tariffId": "1",
+              "endpreis": "46.102,73",
+              "kaufpreis": "44.792,73",
+              "ersparnis": "12.648,57 (22,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4225": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4225",
+              "tariffId": "1",
+              "endpreis": "47.958,65",
+              "kaufpreis": "46.648,65",
+              "ersparnis": "13.172,65 (22,02)",
+              "lieferzeit": "5-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Angebot nicht möglich für Sondermodelle. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "40": {
@@ -11226,10 +12052,23 @@
       }
     },
     "1741": {
-      "fetchedAt": "2026-10-09T08:48:04.912Z",
+      "fetchedAt": "2026-10-12T13:07:22.165Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "2919": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2919",
+              "tariffId": "45",
+              "endpreis": "39.994,60",
+              "kaufpreis": "38.699,60",
+              "ersparnis": "8.790,40 (18,51)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "1781": {
@@ -18653,24 +19492,123 @@
       }
     },
     "2361": {
-      "fetchedAt": "2026-10-09T08:47:58.452Z",
+      "fetchedAt": "2026-10-12T13:07:20.835Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "2757": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2757",
+              "tariffId": "158",
+              "endpreis": "24.979,50",
+              "kaufpreis": "23.644,50",
+              "ersparnis": "3.855,50 (14,02)",
+              "lieferzeit": "9-10 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI Cooper Deals\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "2758": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2758",
+              "tariffId": "158",
+              "endpreis": "27.988,80",
+              "kaufpreis": "26.653,80",
+              "ersparnis": "4.346,20 (14,02)",
+              "lieferzeit": "9-10 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI Cooper Deals\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "3395": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3395",
+              "tariffId": "158",
+              "endpreis": "35.531,00",
+              "kaufpreis": "34.196,00",
+              "ersparnis": "5.804,00 (14,51)",
+              "lieferzeit": "9-10 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI Cooper Deals\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2362": {
-      "fetchedAt": "2026-10-09T08:48:16.081Z",
+      "fetchedAt": "2026-10-12T13:07:27.453Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "3138": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3138",
+              "tariffId": "158",
+              "endpreis": "28.722,66",
+              "kaufpreis": "27.387,66",
+              "ersparnis": "3.562,35 (11,51)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI to the Max\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "3139": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3139",
+              "tariffId": "158",
+              "endpreis": "31.819,81",
+              "kaufpreis": "30.484,81",
+              "ersparnis": "3.965,20 (11,51)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI to the Max\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "3390": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3390",
+              "tariffId": "158",
+              "endpreis": "39.562,31",
+              "kaufpreis": "38.227,31",
+              "ersparnis": "5.222,69 (12,02)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI to the Max\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2367": {
-      "fetchedAt": "2026-10-09T08:48:08.602Z",
+      "fetchedAt": "2026-10-12T13:07:23.658Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "2760": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2760",
+              "tariffId": "158",
+              "endpreis": "35.049,69",
+              "kaufpreis": "33.714,69",
+              "ersparnis": "4.385,31 (11,51)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI to the Max\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "2761": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2761",
+              "tariffId": "158",
+              "endpreis": "39.430,34",
+              "kaufpreis": "38.095,34",
+              "ersparnis": "5.204,66 (12,02)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI to the Max\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2378": {
@@ -23728,10 +24666,41 @@
       }
     },
     "2716": {
-      "fetchedAt": "2026-10-09T08:47:41.026Z",
+      "fetchedAt": "2026-10-12T13:07:14.523Z",
       "data": {
-        "byMotor": {},
-        "offers": {}
+        "byMotor": {
+          "4027": {
+            "motorId": "4027",
+            "tariffId": "120",
+            "endpreis": "25.633,44",
+            "kaufpreis": "24.336,34",
+            "ersparnis": "2.263,66 (8,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "4027": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4027",
+              "tariffId": "119",
+              "endpreis": "22.298,50",
+              "kaufpreis": "21.213,50",
+              "ersparnis": "5.386,50 (20,25)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "4027",
+              "tariffId": "120",
+              "endpreis": "25.633,44",
+              "kaufpreis": "24.336,34",
+              "ersparnis": "2.263,66 (8,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
       }
     },
     "2717": {
@@ -25254,10 +26223,23 @@
       }
     },
     "2794": {
-      "fetchedAt": "2026-10-09T08:48:10.018Z",
+      "fetchedAt": "2026-10-12T13:07:24.303Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "4097": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4097",
+              "tariffId": "210",
+              "endpreis": "44.176,40",
+              "kaufpreis": "43.181,40",
+              "ersparnis": "4.808,60 (10,02)",
+              "lieferzeit": "4-6 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2801": {
@@ -25419,10 +26401,35 @@
       }
     },
     "2813": {
-      "fetchedAt": "2026-10-09T08:48:16.832Z",
+      "fetchedAt": "2026-10-12T13:07:27.123Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "4115": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4115",
+              "tariffId": "223",
+              "endpreis": "62.627,60",
+              "kaufpreis": "61.077,60",
+              "ersparnis": "3.912,40 (6,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4116": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4116",
+              "tariffId": "223",
+              "endpreis": "67.326,60",
+              "kaufpreis": "65.776,60",
+              "ersparnis": "4.213,40 (6,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2817": {
@@ -26168,24 +27175,135 @@
       }
     },
     "2869": {
-      "fetchedAt": "2026-10-09T08:48:14.326Z",
+      "fetchedAt": "2026-10-12T13:07:26.121Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "4163": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4163",
+              "tariffId": "215",
+              "endpreis": "33.077,75",
+              "kaufpreis": "32.097,75",
+              "ersparnis": "5.892,25 (15,51)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4164": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4164",
+              "tariffId": "215",
+              "endpreis": "37.302,25",
+              "kaufpreis": "36.322,25",
+              "ersparnis": "6.667,75 (15,51)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4165": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4165",
+              "tariffId": "215",
+              "endpreis": "41.282,00",
+              "kaufpreis": "40.302,00",
+              "ersparnis": "7.688,00 (16,02)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2870": {
-      "fetchedAt": "2026-10-09T08:47:48.669Z",
+      "fetchedAt": "2026-10-12T13:07:17.409Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "4166": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4166",
+              "tariffId": "215",
+              "endpreis": "47.441,05",
+              "kaufpreis": "46.461,05",
+              "ersparnis": "8.528,95 (15,51)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4167": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4167",
+              "tariffId": "215",
+              "endpreis": "49.975,75",
+              "kaufpreis": "48.995,75",
+              "ersparnis": "8.994,25 (15,51)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4168": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4168",
+              "tariffId": "215",
+              "endpreis": "55.558,60",
+              "kaufpreis": "54.578,60",
+              "ersparnis": "10.411,40 (16,02)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2871": {
-      "fetchedAt": "2026-10-09T08:47:36.770Z",
+      "fetchedAt": "2026-10-12T13:07:13.703Z",
       "data": {
         "byMotor": {},
-        "offers": {}
+        "offers": {
+          "4169": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4169",
+              "tariffId": "215",
+              "endpreis": "46.325,75",
+              "kaufpreis": "45.345,75",
+              "ersparnis": "2.644,25 (5,51)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4170": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4170",
+              "tariffId": "215",
+              "endpreis": "51.522,70",
+              "kaufpreis": "50.542,70",
+              "ersparnis": "2.947,30 (5,51)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ],
+          "4171": [
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4171",
+              "tariffId": "215",
+              "endpreis": "56.888,70",
+              "kaufpreis": "55.908,70",
+              "ersparnis": "3.581,30 (6,02)",
+              "lieferzeit": "4-5 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
       }
     },
     "2873": {
@@ -26309,21 +27427,21 @@
       }
     },
     "2877": {
-      "fetchedAt": "2026-10-09T08:47:47.566Z",
+      "fetchedAt": "2026-10-12T13:07:16.330Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2878": {
-      "fetchedAt": "2026-10-09T08:47:47.110Z",
+      "fetchedAt": "2026-10-12T13:07:15.852Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2881": {
-      "fetchedAt": "2026-10-09T08:47:51.577Z",
+      "fetchedAt": "2026-10-12T13:07:18.700Z",
       "data": {
         "byMotor": {},
         "offers": {}
