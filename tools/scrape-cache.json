@@ -3304,6 +3304,26 @@
           "url": "/neuwagen/citroen/e-c5-aircross/team-d/"
         }
       ]
+    },
+    "id-tiguan": {
+      "fetchedAt": "2026-10-14T10:06:48.300Z",
+      "lines": [
+        {
+          "id": "2988",
+          "name": "VW ID.Tiguan Trend (neues Modell)",
+          "url": "/neuwagen/vw/id-tiguan/trend/"
+        },
+        {
+          "id": "2990",
+          "name": "VW ID.Tiguan Life (neues Modell)",
+          "url": "/neuwagen/vw/id-tiguan/life/"
+        },
+        {
+          "id": "2989",
+          "name": "VW ID.Tiguan Style (neues Modell)",
+          "url": "/neuwagen/vw/id-tiguan/style/"
+        }
+      ]
     }
   },
   "motorSpecs": {
@@ -5126,6 +5146,10 @@
     "4269": {
       "kwh": null,
       "kw": 162
+    },
+    "4273": {
+      "kwh": 58,
+      "kw": 140
     }
   },
   "lineData": {
@@ -8295,7 +8319,7 @@
       }
     },
     "662": {
-      "fetchedAt": "2026-10-10T14:00:36.620Z",
+      "fetchedAt": "2026-10-14T10:07:03.826Z",
       "data": {
         "byMotor": {
           "1244": {
@@ -20336,7 +20360,7 @@
       }
     },
     "2315": {
-      "fetchedAt": "2026-10-10T13:39:08.001Z",
+      "fetchedAt": "2026-10-14T10:06:54.093Z",
       "data": {
         "byMotor": {
           "3689": {
@@ -27072,15 +27096,15 @@
       }
     },
     "2686": {
-      "fetchedAt": "2026-10-10T11:52:00.050Z",
+      "fetchedAt": "2026-10-14T10:06:53.177Z",
       "data": {
         "byMotor": {
           "4009": {
             "motorId": "4009",
             "tariffId": "10",
-            "endpreis": "36.622,46",
-            "kaufpreis": "35.432,46",
-            "ersparnis": "7.267,54 (17,02)",
+            "endpreis": "36.801,80",
+            "kaufpreis": "35.611,80",
+            "ersparnis": "7.088,20 (16,60)",
             "lieferzeit": "3-5 Monate"
           }
         },
@@ -27099,9 +27123,9 @@
               "tag": "für Privatkunden",
               "motorId": "4009",
               "tariffId": "10",
-              "endpreis": "36.622,46",
-              "kaufpreis": "35.432,46",
-              "ersparnis": "7.267,54 (17,02)",
+              "endpreis": "36.801,80",
+              "kaufpreis": "35.611,80",
+              "ersparnis": "7.088,20 (16,60)",
               "lieferzeit": "3-5 Monate"
             }
           ]
@@ -28695,7 +28719,7 @@
       }
     },
     "2762": {
-      "fetchedAt": "2026-10-10T14:06:53.491Z",
+      "fetchedAt": "2026-10-14T10:06:52.873Z",
       "data": {
         "byMotor": {
           "4071": {
@@ -28726,13 +28750,23 @@
               "kaufpreis": "18.865,65",
               "ersparnis": "6.124,35 (24,51)",
               "lieferzeit": "6-8 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4071",
+              "tariffId": "223",
+              "endpreis": "22.286,70",
+              "kaufpreis": "20.736,70",
+              "ersparnis": "4.253,30 (17,02)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
           ]
         }
       }
     },
     "2763": {
-      "fetchedAt": "2026-10-10T14:06:52.282Z",
+      "fetchedAt": "2026-10-14T10:06:52.244Z",
       "data": {
         "byMotor": {
           "4071": {
@@ -28771,6 +28805,16 @@
               "kaufpreis": "19.422,65",
               "ersparnis": "7.767,35 (28,57)",
               "lieferzeit": "6-8 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4071",
+              "tariffId": "223",
+              "endpreis": "24.112,26",
+              "kaufpreis": "22.562,26",
+              "ersparnis": "4.627,74 (17,02)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
           ],
           "4072": [
@@ -28791,13 +28835,23 @@
               "kaufpreis": "20.638,15",
               "ersparnis": "7.851,85 (27,56)",
               "lieferzeit": "6-8 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4072",
+              "tariffId": "223",
+              "endpreis": "25.191,00",
+              "kaufpreis": "23.641,00",
+              "ersparnis": "4.849,00 (17,02)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
           ]
         }
       }
     },
     "2764": {
-      "fetchedAt": "2026-10-10T14:06:52.895Z",
+      "fetchedAt": "2026-10-14T10:06:52.556Z",
       "data": {
         "byMotor": {
           "4072": {
@@ -28828,6 +28882,16 @@
               "kaufpreis": "23.443,15",
               "ersparnis": "8.046,85 (25,55)",
               "lieferzeit": "6-8 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "4072",
+              "tariffId": "223",
+              "endpreis": "27.680,40",
+              "kaufpreis": "26.130,40",
+              "ersparnis": "5.359,60 (17,02)",
+              "lieferzeit": "6-8 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
           ]
         }
@@ -32839,6 +32903,43 @@
               "kaufpreis": "70.199,91",
               "ersparnis": "5.700,09 (7,51)",
               "lieferzeit": "6-7 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2988": {
+      "fetchedAt": "2026-10-14T10:06:48.617Z",
+      "data": {
+        "byMotor": {
+          "4273": {
+            "motorId": "4273",
+            "tariffId": "51",
+            "endpreis": "36.577,07",
+            "kaufpreis": "35.785,07",
+            "ersparnis": "6.909,93 (16,18)",
+            "lieferzeit": "4-5 Monate"
+          }
+        },
+        "offers": {
+          "4273": [
+            {
+              "tag": "für Privatkunden",
+              "motorId": "4273",
+              "tariffId": "51",
+              "endpreis": "36.577,07",
+              "kaufpreis": "35.785,07",
+              "ersparnis": "6.909,93 (16,18)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "4273",
+              "tariffId": "52",
+              "endpreis": "36.577,07",
+              "kaufpreis": "35.785,07",
+              "ersparnis": "6.909,93 (16,18)",
+              "lieferzeit": "4-5 Monate"
             }
           ]
         }
