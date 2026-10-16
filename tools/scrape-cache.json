@@ -16,7 +16,7 @@
       ]
     },
     "cla-coup-": {
-      "fetchedAt": "2026-10-09T08:47:32.722Z",
+      "fetchedAt": "2026-10-16T09:42:26.531Z",
       "lines": [
         {
           "id": "21",
@@ -26,7 +26,7 @@
       ]
     },
     "ix3": {
-      "fetchedAt": "2026-10-09T08:47:31.809Z",
+      "fetchedAt": "2026-10-16T09:42:26.254Z",
       "lines": [
         {
           "id": "2453",
@@ -46,7 +46,7 @@
       ]
     },
     "500e-3-plus1": {
-      "fetchedAt": "2026-10-09T08:47:31.268Z",
+      "fetchedAt": "2026-10-16T09:42:25.982Z",
       "lines": [
         {
           "id": "2573",
@@ -66,7 +66,7 @@
       ]
     },
     "ev3": {
-      "fetchedAt": "2026-10-09T08:47:52.549Z",
+      "fetchedAt": "2026-10-16T09:42:33.896Z",
       "lines": [
         {
           "id": "1966",
@@ -91,7 +91,7 @@
       ]
     },
     "b05": {
-      "fetchedAt": "2026-10-09T08:47:33.304Z",
+      "fetchedAt": "2026-10-16T09:42:27.047Z",
       "lines": [
         {
           "id": "2833",
@@ -106,7 +106,7 @@
       ]
     },
     "ex60": {
-      "fetchedAt": "2026-10-09T08:47:33.510Z",
+      "fetchedAt": "2026-10-16T09:42:27.573Z",
       "lines": [
         {
           "id": "2650",
@@ -121,7 +121,7 @@
       ]
     },
     "glc-suv": {
-      "fetchedAt": "2026-10-09T08:47:34.983Z",
+      "fetchedAt": "2026-10-16T09:42:27.619Z",
       "lines": [
         {
           "id": "8",
@@ -131,7 +131,7 @@
       ]
     },
     "c-klasse-limousine": {
-      "fetchedAt": "2026-10-09T08:47:35.750Z",
+      "fetchedAt": "2026-10-16T09:42:28.611Z",
       "lines": [
         {
           "id": "23",
@@ -141,7 +141,7 @@
       ]
     },
     "atto-2": {
-      "fetchedAt": "2026-10-09T08:47:34.293Z",
+      "fetchedAt": "2026-10-16T09:42:26.789Z",
       "lines": [
         {
           "id": "2593",
@@ -151,7 +151,7 @@
       ]
     },
     "gla": {
-      "fetchedAt": "2026-10-09T08:47:46.013Z",
+      "fetchedAt": "2026-10-16T09:42:33.267Z",
       "lines": [
         {
           "id": "11",
@@ -161,7 +161,7 @@
       ]
     },
     "r5-e-tech": {
-      "fetchedAt": "2026-10-09T08:47:49.926Z",
+      "fetchedAt": "2026-10-16T09:42:35.274Z",
       "lines": [
         {
           "id": "2070",
@@ -186,7 +186,7 @@
       ]
     },
     "sealion-7": {
-      "fetchedAt": "2026-10-09T08:47:37.271Z",
+      "fetchedAt": "2026-10-16T09:42:29.264Z",
       "lines": [
         {
           "id": "2474",
@@ -206,22 +206,17 @@
       ]
     },
     "7gt": {
-      "fetchedAt": "2026-10-09T08:47:36.501Z",
+      "fetchedAt": "2026-10-16T09:42:29.974Z",
       "lines": [
         {
           "id": "2871",
           "name": "Zeekr 7GT",
           "url": "/neuwagen/zeekr/7gt/basis/"
-        },
-        {
-          "id": "2872",
-          "name": "Zeekr 7GT Launch Edition",
-          "url": "/neuwagen/zeekr/7gt/launch-edition/"
         }
       ]
     },
     "c-hr": {
-      "fetchedAt": "2026-10-09T08:47:38.278Z",
+      "fetchedAt": "2026-10-16T09:42:29.791Z",
       "lines": [
         {
           "id": "2740",
@@ -251,7 +246,7 @@
       ]
     },
     "id-3": {
-      "fetchedAt": "2026-10-09T08:47:50.307Z",
+      "fetchedAt": "2026-10-16T09:42:35.812Z",
       "lines": [
         {
           "id": "2744",
@@ -271,7 +266,7 @@
       ]
     },
     "b10": {
-      "fetchedAt": "2026-10-09T08:47:38.672Z",
+      "fetchedAt": "2026-10-16T09:42:29.455Z",
       "lines": [
         {
           "id": "2560",
@@ -291,7 +286,7 @@
       ]
     },
     "ioniq-5": {
-      "fetchedAt": "2026-10-09T08:47:35.843Z",
+      "fetchedAt": "2026-10-16T09:42:28.962Z",
       "lines": [
         {
           "id": "1156",
@@ -331,7 +326,7 @@
       ]
     },
     "ioniq-6": {
-      "fetchedAt": "2026-10-09T08:47:44.529Z",
+      "fetchedAt": "2026-10-16T09:42:33.374Z",
       "lines": [
         {
           "id": "1157",
@@ -366,7 +361,7 @@
       ]
     },
     "glb": {
-      "fetchedAt": "2026-10-09T08:47:48.138Z",
+      "fetchedAt": "2026-10-16T09:42:33.931Z",
       "lines": [
         {
           "id": "10",
@@ -376,7 +371,7 @@
       ]
     },
     "twingo": {
-      "fetchedAt": "2026-10-09T08:47:39.979Z",
+      "fetchedAt": "2026-10-16T09:42:28.093Z",
       "lines": [
         {
           "id": "2704",
@@ -391,7 +386,7 @@
       ]
     },
     "ev6": {
-      "fetchedAt": "2026-10-09T08:47:43.460Z",
+      "fetchedAt": "2026-10-16T09:42:32.208Z",
       "lines": [
         {
           "id": "2046",
@@ -416,7 +411,7 @@
       ]
     },
     "ev4": {
-      "fetchedAt": "2026-10-09T08:47:53.859Z",
+      "fetchedAt": "2026-10-16T09:42:34.752Z",
       "lines": [
         {
           "id": "2379",
@@ -436,7 +431,7 @@
       ]
     },
     "t03": {
-      "fetchedAt": "2026-10-09T08:47:41.023Z",
+      "fetchedAt": "2026-10-16T09:42:32.855Z",
       "lines": [
         {
           "id": "2269",
@@ -446,7 +441,7 @@
       ]
     },
     "deepal-s05": {
-      "fetchedAt": "2026-10-09T08:47:46.839Z",
+      "fetchedAt": "2026-10-16T09:42:31.777Z",
       "lines": [
         {
           "id": "2877",
@@ -461,7 +456,7 @@
       ]
     },
     "6e": {
-      "fetchedAt": "2026-10-09T08:47:52.572Z",
+      "fetchedAt": "2026-10-16T09:42:37.401Z",
       "lines": [
         {
           "id": "2263",
@@ -481,7 +476,7 @@
       ]
     },
     "kona-elektro": {
-      "fetchedAt": "2026-10-09T08:47:43.897Z",
+      "fetchedAt": "2026-10-16T09:42:32.329Z",
       "lines": [
         {
           "id": "2024",
@@ -511,7 +506,7 @@
       ]
     },
     "epiq": {
-      "fetchedAt": "2026-10-09T08:47:35.057Z",
+      "fetchedAt": "2026-10-16T09:42:27.356Z",
       "lines": [
         {
           "id": "2787",
@@ -526,7 +521,7 @@
       ]
     },
     "pv5-passenger": {
-      "fetchedAt": "2026-10-09T08:47:48.967Z",
+      "fetchedAt": "2026-10-16T09:42:35.990Z",
       "lines": [
         {
           "id": "2344",
@@ -546,7 +541,7 @@
       ]
     },
     "id-polo": {
-      "fetchedAt": "2026-10-09T08:47:34.389Z",
+      "fetchedAt": "2026-10-16T09:42:28.430Z",
       "lines": [
         {
           "id": "2873",
@@ -571,7 +566,7 @@
       ]
     },
     "atto-3-evo": {
-      "fetchedAt": "2026-10-09T08:47:41.817Z",
+      "fetchedAt": "2026-10-16T09:42:31.256Z",
       "lines": [
         {
           "id": "2707",
@@ -586,7 +581,7 @@
       ]
     },
     "deepal-s07": {
-      "fetchedAt": "2026-10-09T08:47:51.300Z",
+      "fetchedAt": "2026-10-16T09:42:36.508Z",
       "lines": [
         {
           "id": "2881",
@@ -596,7 +591,7 @@
       ]
     },
     "dolphin-surf": {
-      "fetchedAt": "2026-10-09T08:47:45.587Z",
+      "fetchedAt": "2026-10-16T09:42:31.816Z",
       "lines": [
         {
           "id": "2457",
@@ -616,7 +611,7 @@
       ]
     },
     "inster": {
-      "fetchedAt": "2026-10-09T08:47:43.078Z",
+      "fetchedAt": "2026-10-16T09:42:32.735Z",
       "lines": [
         {
           "id": "2076",
@@ -641,7 +636,7 @@
       ]
     },
     "7x": {
-      "fetchedAt": "2026-10-09T08:47:48.369Z",
+      "fetchedAt": "2026-10-16T09:42:34.439Z",
       "lines": [
         {
           "id": "2870",
@@ -651,7 +646,7 @@
       ]
     },
     "peaq": {
-      "fetchedAt": "2026-10-09T08:47:42.664Z",
+      "fetchedAt": "2026-10-16T09:42:33.408Z",
       "lines": [
         {
           "id": "2849",
@@ -666,7 +661,7 @@
       ]
     },
     "e-c3": {
-      "fetchedAt": "2026-10-09T08:47:43.268Z",
+      "fetchedAt": "2026-10-16T09:42:31.302Z",
       "lines": [
         {
           "id": "1691",
@@ -701,7 +696,7 @@
       ]
     },
     "cla-shooting-brake": {
-      "fetchedAt": "2026-10-09T08:47:53.513Z",
+      "fetchedAt": "2026-10-16T09:42:36.909Z",
       "lines": [
         {
           "id": "20",
@@ -711,7 +706,7 @@
       ]
     },
     "scenic-e-tech": {
-      "fetchedAt": "2026-10-09T08:47:33.445Z",
+      "fetchedAt": "2026-10-16T09:42:27.874Z",
       "lines": [
         {
           "id": "1673",
@@ -741,7 +736,7 @@
       ]
     },
     "ev2": {
-      "fetchedAt": "2026-10-09T08:47:40.743Z",
+      "fetchedAt": "2026-10-16T09:42:30.848Z",
       "lines": [
         {
           "id": "2716",
@@ -791,7 +786,7 @@
       ]
     },
     "bz4x": {
-      "fetchedAt": "2026-10-09T08:47:54.266Z",
+      "fetchedAt": "2026-10-16T09:42:35.475Z",
       "lines": [
         {
           "id": "1906",
@@ -811,7 +806,7 @@
       ]
     },
     "frontera": {
-      "fetchedAt": "2026-10-09T08:47:58.073Z",
+      "fetchedAt": "2026-10-16T09:42:36.883Z",
       "lines": [
         {
           "id": "2903",
@@ -836,7 +831,7 @@
       ]
     },
     "leaf": {
-      "fetchedAt": "2026-10-09T08:47:48.372Z",
+      "fetchedAt": "2026-10-16T09:42:35.290Z",
       "lines": [
         {
           "id": "2685",
@@ -861,7 +856,7 @@
       ]
     },
     "raval": {
-      "fetchedAt": "2026-10-09T08:47:49.226Z",
+      "fetchedAt": "2026-10-16T09:42:34.071Z",
       "lines": [
         {
           "id": "2874",
@@ -874,9 +869,19 @@
           "url": "/neuwagen/cupra/raval/endurance/"
         },
         {
+          "id": "2993",
+          "name": "Cupra Raval Endurance Custom by ABT",
+          "url": "/neuwagen/cupra/raval/endurance-custom-by-abt/"
+        },
+        {
           "id": "2786",
           "name": "Cupra Raval VZ",
           "url": "/neuwagen/cupra/raval/vz/"
+        },
+        {
+          "id": "2992",
+          "name": "Cupra Raval VZ Custom by ABT",
+          "url": "/neuwagen/cupra/raval/vz-custom-by-abt/"
         }
       ]
     },
@@ -901,7 +906,7 @@
       ]
     },
     "e-c3-aircross": {
-      "fetchedAt": "2026-10-09T08:47:55.519Z",
+      "fetchedAt": "2026-10-16T09:42:38.439Z",
       "lines": [
         {
           "id": "1889",
@@ -931,7 +936,7 @@
       ]
     },
     "dolphin": {
-      "fetchedAt": "2026-10-09T08:47:50.532Z",
+      "fetchedAt": "2026-10-16T09:42:36.327Z",
       "lines": [
         {
           "id": "2460",
@@ -946,7 +951,7 @@
       ]
     },
     "b03x": {
-      "fetchedAt": "2026-10-09T08:47:40.007Z",
+      "fetchedAt": "2026-10-16T09:42:30.778Z",
       "lines": [
         {
           "id": "2853",
@@ -961,7 +966,7 @@
       ]
     },
     "ev5": {
-      "fetchedAt": "2026-10-09T08:47:41.431Z",
+      "fetchedAt": "2026-10-16T09:42:31.685Z",
       "lines": [
         {
           "id": "2492",
@@ -1006,7 +1011,7 @@
       ]
     },
     "cx-6e": {
-      "fetchedAt": "2026-10-09T08:47:36.841Z",
+      "fetchedAt": "2026-10-16T09:42:30.185Z",
       "lines": [
         {
           "id": "2683",
@@ -1021,17 +1026,12 @@
       ]
     },
     "r4-e-tech": {
-      "fetchedAt": "2026-10-09T08:47:52.985Z",
+      "fetchedAt": "2026-10-16T09:42:37.725Z",
       "lines": [
         {
           "id": "2272",
           "name": "Renault R4 E-Tech Evolution",
           "url": "/neuwagen/renault/r4-e-tech/evolution/"
-        },
-        {
-          "id": "2770",
-          "name": "Renault R4 E-Tech Advance",
-          "url": "/neuwagen/renault/r4-e-tech/advance/"
         },
         {
           "id": "2274",
@@ -1052,11 +1052,16 @@
           "id": "2748",
           "name": "Renault R4 E-Tech Iconic plein sud",
           "url": "/neuwagen/renault/r4-e-tech/iconic-plein-sud/"
+        },
+        {
+          "id": "2987",
+          "name": "Renault R4 E-Tech Roland-Garros plein sud",
+          "url": "/neuwagen/renault/r4-e-tech/roland-garros-plein-sud/"
         }
       ]
     },
     "enyaq": {
-      "fetchedAt": "2026-10-09T08:47:47.030Z",
+      "fetchedAt": "2026-10-16T09:42:32.897Z",
       "lines": [
         {
           "id": "2755",
@@ -1081,7 +1086,7 @@
       ]
     },
     "ix1": {
-      "fetchedAt": "2026-10-09T08:47:55.116Z",
+      "fetchedAt": "2026-10-16T09:42:36.342Z",
       "lines": [
         {
           "id": "850",
@@ -1106,7 +1111,7 @@
       ]
     },
     "megane-e-tech": {
-      "fetchedAt": "2026-10-09T08:47:32.684Z",
+      "fetchedAt": "2026-10-16T09:42:26.519Z",
       "lines": [
         {
           "id": "218",
@@ -1121,7 +1126,7 @@
       ]
     },
     "cayenne-electric": {
-      "fetchedAt": "2026-10-09T08:48:00.709Z",
+      "fetchedAt": "2026-10-16T09:42:41.082Z",
       "lines": [
         {
           "id": "2548",
@@ -1131,7 +1136,7 @@
       ]
     },
     "elroq": {
-      "fetchedAt": "2026-10-09T08:47:46.975Z",
+      "fetchedAt": "2026-10-16T09:42:30.710Z",
       "lines": [
         {
           "id": "2752",
@@ -1176,7 +1181,7 @@
       ]
     },
     "c10": {
-      "fetchedAt": "2026-10-09T08:47:51.484Z",
+      "fetchedAt": "2026-10-16T09:42:38.529Z",
       "lines": [
         {
           "id": "2270",
@@ -1191,7 +1196,7 @@
       ]
     },
     "a6-avant-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:02.550Z",
+      "fetchedAt": "2026-10-16T09:42:42.178Z",
       "lines": [
         {
           "id": "1990",
@@ -1206,7 +1211,7 @@
       ]
     },
     "seal": {
-      "fetchedAt": "2026-10-09T08:47:55.888Z",
+      "fetchedAt": "2026-10-16T09:42:39.220Z",
       "lines": [
         {
           "id": "2466",
@@ -1226,7 +1231,7 @@
       ]
     },
     "spring": {
-      "fetchedAt": "2026-10-09T08:47:57.751Z",
+      "fetchedAt": "2026-10-16T09:42:38.959Z",
       "lines": [
         {
           "id": "2141",
@@ -1241,7 +1246,7 @@
       ]
     },
     "e-2008": {
-      "fetchedAt": "2026-10-09T08:47:57.264Z",
+      "fetchedAt": "2026-10-16T09:42:38.677Z",
       "lines": [
         {
           "id": "1947",
@@ -1271,7 +1276,7 @@
       ]
     },
     "e-vitara": {
-      "fetchedAt": "2026-10-09T08:47:58.541Z",
+      "fetchedAt": "2026-10-16T09:42:39.052Z",
       "lines": [
         {
           "id": "2603",
@@ -1291,7 +1296,7 @@
       ]
     },
     "id-7-tourer": {
-      "fetchedAt": "2026-10-09T08:48:01.038Z",
+      "fetchedAt": "2026-10-16T09:42:40.567Z",
       "lines": [
         {
           "id": "2267",
@@ -1301,7 +1306,7 @@
       ]
     },
     "ev9": {
-      "fetchedAt": "2026-10-09T08:48:00.530Z",
+      "fetchedAt": "2026-10-16T09:42:42.211Z",
       "lines": [
         {
           "id": "2108",
@@ -1331,7 +1336,7 @@
       ]
     },
     "puma-gen-e": {
-      "fetchedAt": "2026-10-09T08:48:06.879Z",
+      "fetchedAt": "2026-10-16T09:42:41.644Z",
       "lines": [
         {
           "id": "2117",
@@ -1376,7 +1381,7 @@
       ]
     },
     "avenger": {
-      "fetchedAt": "2026-10-09T08:48:14.962Z",
+      "fetchedAt": "2026-10-16T09:42:47.630Z",
       "lines": [
         {
           "id": "1245",
@@ -1416,7 +1421,7 @@
       ]
     },
     "a6-sportback-e-tron": {
-      "fetchedAt": "2026-10-09T08:47:57.396Z",
+      "fetchedAt": "2026-10-16T09:42:40.109Z",
       "lines": [
         {
           "id": "1986",
@@ -1431,7 +1436,7 @@
       ]
     },
     "cooper-electric": {
-      "fetchedAt": "2026-10-09T08:47:58.177Z",
+      "fetchedAt": "2026-10-16T09:42:39.740Z",
       "lines": [
         {
           "id": "2361",
@@ -1441,7 +1446,7 @@
       ]
     },
     "born": {
-      "fetchedAt": "2026-10-09T08:48:01.814Z",
+      "fetchedAt": "2026-10-16T09:42:41.104Z",
       "lines": [
         {
           "id": "671",
@@ -1461,7 +1466,7 @@
       ]
     },
     "id-cross": {
-      "fetchedAt": "2026-10-09T08:47:59.834Z",
+      "fetchedAt": "2026-10-16T09:42:40.017Z",
       "lines": [
         {
           "id": "2867",
@@ -1476,7 +1481,7 @@
       ]
     },
     "e-3008": {
-      "fetchedAt": "2026-10-09T08:47:58.949Z",
+      "fetchedAt": "2026-10-16T09:42:39.477Z",
       "lines": [
         {
           "id": "1395",
@@ -1501,22 +1506,22 @@
       ]
     },
     "e-5008": {
-      "fetchedAt": "2026-10-09T08:48:04.633Z",
+      "fetchedAt": "2026-10-16T09:42:42.710Z",
       "lines": [
         {
-          "id": "1813",
-          "name": "Peugeot e-5008 Allure",
-          "url": "/neuwagen/peugeot/e-5008/allure/"
+          "id": "2997",
+          "name": "Peugeot e-5008 Style",
+          "url": "/neuwagen/peugeot/e-5008/style/"
         },
         {
-          "id": "2399",
-          "name": "Peugeot e-5008 Allure Business",
-          "url": "/neuwagen/peugeot/e-5008/allure-business/"
+          "id": "2998",
+          "name": "Peugeot e-5008 Allure Plus",
+          "url": "/neuwagen/peugeot/e-5008/allure-plus/"
         },
         {
-          "id": "1814",
-          "name": "Peugeot e-5008 GT",
-          "url": "/neuwagen/peugeot/e-5008/gt/"
+          "id": "2999",
+          "name": "Peugeot e-5008 GT Plus",
+          "url": "/neuwagen/peugeot/e-5008/gt-plus/"
         },
         {
           "id": "2546",
@@ -1526,7 +1531,7 @@
       ]
     },
     "ex40": {
-      "fetchedAt": "2026-10-09T08:48:04.668Z",
+      "fetchedAt": "2026-10-16T09:42:41.724Z",
       "lines": [
         {
           "id": "1741",
@@ -1561,7 +1566,7 @@
       ]
     },
     "ix": {
-      "fetchedAt": "2026-10-09T08:48:03.839Z",
+      "fetchedAt": "2026-10-16T09:42:40.532Z",
       "lines": [
         {
           "id": "851",
@@ -1581,7 +1586,7 @@
       ]
     },
     "proace-verso": {
-      "fetchedAt": "2026-10-09T08:48:19.149Z",
+      "fetchedAt": "2026-10-16T09:42:48.712Z",
       "lines": [
         {
           "id": "2922",
@@ -1621,7 +1626,7 @@
       ]
     },
     "600-elektro": {
-      "fetchedAt": "2026-10-09T08:48:09.104Z",
+      "fetchedAt": "2026-10-16T09:42:44.171Z",
       "lines": [
         {
           "id": "2565",
@@ -1646,7 +1651,7 @@
       ]
     },
     "id-buzz": {
-      "fetchedAt": "2026-10-09T08:48:21.119Z",
+      "fetchedAt": "2026-10-16T09:42:49.261Z",
       "lines": [
         {
           "id": "2750",
@@ -1671,7 +1676,7 @@
       ]
     },
     "ev4-fastback": {
-      "fetchedAt": "2026-10-09T08:48:03.172Z",
+      "fetchedAt": "2026-10-16T09:42:42.546Z",
       "lines": [
         {
           "id": "2382",
@@ -1686,7 +1691,7 @@
       ]
     },
     "c5-aircross": {
-      "fetchedAt": "2026-10-09T08:48:05.477Z",
+      "fetchedAt": "2026-10-16T09:42:41.676Z",
       "lines": [
         {
           "id": "2443",
@@ -1711,7 +1716,7 @@
       ]
     },
     "countryman-electric": {
-      "fetchedAt": "2026-10-09T08:48:08.256Z",
+      "fetchedAt": "2026-10-16T09:42:45.235Z",
       "lines": [
         {
           "id": "2367",
@@ -1721,7 +1726,7 @@
       ]
     },
     "id-7-limousine": {
-      "fetchedAt": "2026-10-09T08:47:56.985Z",
+      "fetchedAt": "2026-10-16T09:42:39.595Z",
       "lines": [
         {
           "id": "2266",
@@ -1731,7 +1736,7 @@
       ]
     },
     "ioniq-9": {
-      "fetchedAt": "2026-10-09T08:48:10.526Z",
+      "fetchedAt": "2026-10-16T09:42:46.915Z",
       "lines": [
         {
           "id": "2340",
@@ -1756,7 +1761,7 @@
       ]
     },
     "taycan": {
-      "fetchedAt": "2026-10-09T08:48:13.665Z",
+      "fetchedAt": "2026-10-16T09:42:45.345Z",
       "lines": [
         {
           "id": "171",
@@ -1766,7 +1771,7 @@
       ]
     },
     "grandland": {
-      "fetchedAt": "2026-10-09T08:48:07.914Z",
+      "fetchedAt": "2026-10-16T09:42:43.619Z",
       "lines": [
         {
           "id": "2022",
@@ -1786,7 +1791,7 @@
       ]
     },
     "explorer": {
-      "fetchedAt": "2026-10-09T08:48:09.871Z",
+      "fetchedAt": "2026-10-16T09:42:42.746Z",
       "lines": [
         {
           "id": "2260",
@@ -1811,7 +1816,7 @@
       ]
     },
     "mokka-electric": {
-      "fetchedAt": "2026-10-09T08:48:10.062Z",
+      "fetchedAt": "2026-10-16T09:42:44.826Z",
       "lines": [
         {
           "id": "2040",
@@ -1836,7 +1841,7 @@
       ]
     },
     "i5-limousine": {
-      "fetchedAt": "2026-10-09T08:48:04.479Z",
+      "fetchedAt": "2026-10-16T09:42:43.787Z",
       "lines": [
         {
           "id": "852",
@@ -1856,7 +1861,7 @@
       ]
     },
     "corsa-electric": {
-      "fetchedAt": "2026-10-09T08:48:12.192Z",
+      "fetchedAt": "2026-10-16T09:42:47.435Z",
       "lines": [
         {
           "id": "2021",
@@ -1886,7 +1891,7 @@
       ]
     },
     "junior": {
-      "fetchedAt": "2026-10-09T08:48:11.421Z",
+      "fetchedAt": "2026-10-16T09:42:47.120Z",
       "lines": [
         {
           "id": "2699",
@@ -1916,7 +1921,7 @@
       ]
     },
     "q6-suv-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:09.283Z",
+      "fetchedAt": "2026-10-16T09:42:45.514Z",
       "lines": [
         {
           "id": "1721",
@@ -1931,7 +1936,7 @@
       ]
     },
     "a290": {
-      "fetchedAt": "2026-10-09T08:48:13.333Z",
+      "fetchedAt": "2026-10-16T09:42:46.578Z",
       "lines": [
         {
           "id": "2736",
@@ -1956,7 +1961,7 @@
       ]
     },
     "micra": {
-      "fetchedAt": "2026-10-09T08:48:06.270Z",
+      "fetchedAt": "2026-10-16T09:42:43.072Z",
       "lines": [
         {
           "id": "2619",
@@ -1976,7 +1981,7 @@
       ]
     },
     "eclipse-cross": {
-      "fetchedAt": "2026-10-09T08:48:09.745Z",
+      "fetchedAt": "2026-10-16T09:42:44.710Z",
       "lines": [
         {
           "id": "2794",
@@ -1991,7 +1996,7 @@
       ]
     },
     "tavascan": {
-      "fetchedAt": "2026-10-09T08:48:14.404Z",
+      "fetchedAt": "2026-10-16T09:42:46.600Z",
       "lines": [
         {
           "id": "2759",
@@ -2021,7 +2026,7 @@
       ]
     },
     "x": {
-      "fetchedAt": "2026-10-09T08:48:14.079Z",
+      "fetchedAt": "2026-10-16T09:42:50.078Z",
       "lines": [
         {
           "id": "2869",
@@ -2031,7 +2036,7 @@
       ]
     },
     "capri": {
-      "fetchedAt": "2026-10-09T08:48:22.528Z",
+      "fetchedAt": "2026-10-16T09:42:48.480Z",
       "lines": [
         {
           "id": "2258",
@@ -2056,7 +2061,7 @@
       ]
     },
     "e-tourneo-courier": {
-      "fetchedAt": "2026-10-09T08:48:22.229Z",
+      "fetchedAt": "2026-10-16T09:42:51.491Z",
       "lines": [
         {
           "id": "2119",
@@ -2076,7 +2081,7 @@
       ]
     },
     "e-c4": {
-      "fetchedAt": "2026-10-09T08:48:15.577Z",
+      "fetchedAt": "2026-10-16T09:42:47.104Z",
       "lines": [
         {
           "id": "1002",
@@ -2106,7 +2111,7 @@
       ]
     },
     "ariya": {
-      "fetchedAt": "2026-10-09T08:48:21.401Z",
+      "fetchedAt": "2026-10-16T09:42:50.318Z",
       "lines": [
         {
           "id": "49",
@@ -2116,7 +2121,7 @@
       ]
     },
     "e-tron-gt": {
-      "fetchedAt": "2026-10-09T08:48:05.260Z",
+      "fetchedAt": "2026-10-16T09:42:43.266Z",
       "lines": [
         {
           "id": "2517",
@@ -2126,7 +2131,7 @@
       ]
     },
     "q4-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:08.968Z",
+      "fetchedAt": "2026-10-16T09:42:44.306Z",
       "lines": [
         {
           "id": "733",
@@ -2136,7 +2141,7 @@
       ]
     },
     "es90": {
-      "fetchedAt": "2026-10-09T08:48:06.067Z",
+      "fetchedAt": "2026-10-16T09:42:48.203Z",
       "lines": [
         {
           "id": "2286",
@@ -2156,7 +2161,7 @@
       ]
     },
     "ix2": {
-      "fetchedAt": "2026-10-09T08:48:14.833Z",
+      "fetchedAt": "2026-10-16T09:42:49.001Z",
       "lines": [
         {
           "id": "847",
@@ -2176,7 +2181,7 @@
       ]
     },
     "aceman-electric": {
-      "fetchedAt": "2026-10-09T08:48:15.748Z",
+      "fetchedAt": "2026-10-16T09:42:50.073Z",
       "lines": [
         {
           "id": "2362",
@@ -2186,7 +2191,7 @@
       ]
     },
     "e-208": {
-      "fetchedAt": "2026-10-09T08:48:06.291Z",
+      "fetchedAt": "2026-10-16T09:42:44.149Z",
       "lines": [
         {
           "id": "1949",
@@ -2211,7 +2216,7 @@
       ]
     },
     "compass": {
-      "fetchedAt": "2026-10-09T08:48:24.955Z",
+      "fetchedAt": "2026-10-16T09:42:53.104Z",
       "lines": [
         {
           "id": "2860",
@@ -2236,7 +2241,7 @@
       ]
     },
     "a390": {
-      "fetchedAt": "2026-10-09T08:48:20.948Z",
+      "fetchedAt": "2026-10-16T09:42:51.366Z",
       "lines": [
         {
           "id": "2735",
@@ -2246,7 +2251,7 @@
       ]
     },
     "ex90": {
-      "fetchedAt": "2026-10-09T08:48:15.694Z",
+      "fetchedAt": "2026-10-16T09:42:47.956Z",
       "lines": [
         {
           "id": "1912",
@@ -2271,7 +2276,7 @@
       ]
     },
     "n-8": {
-      "fetchedAt": "2026-10-09T08:48:19.547Z",
+      "fetchedAt": "2026-10-16T09:42:51.884Z",
       "lines": [
         {
           "id": "2388",
@@ -2286,7 +2291,7 @@
       ]
     },
     "i5-touring": {
-      "fetchedAt": "2026-10-09T08:48:20.357Z",
+      "fetchedAt": "2026-10-16T09:42:50.840Z",
       "lines": [
         {
           "id": "1565",
@@ -2321,7 +2326,7 @@
       ]
     },
     "n-7": {
-      "fetchedAt": "2026-10-09T08:48:19.215Z",
+      "fetchedAt": "2026-10-16T09:42:51.494Z",
       "lines": [
         {
           "id": "2808",
@@ -2356,7 +2361,7 @@
       ]
     },
     "solterra": {
-      "fetchedAt": "2026-10-09T08:48:17.344Z",
+      "fetchedAt": "2026-10-16T09:42:49.781Z",
       "lines": [
         {
           "id": "2968",
@@ -2381,7 +2386,7 @@
       ]
     },
     "e-c4-x": {
-      "fetchedAt": "2026-10-09T08:48:25.707Z",
+      "fetchedAt": "2026-10-16T09:42:54.018Z",
       "lines": [
         {
           "id": "1001",
@@ -2401,7 +2406,7 @@
       ]
     },
     "e-transporter-kombi": {
-      "fetchedAt": "2026-10-09T08:48:30.602Z",
+      "fetchedAt": "2026-10-16T09:42:57.015Z",
       "lines": [
         {
           "id": "2251",
@@ -2416,7 +2421,7 @@
       ]
     },
     "enyaq-coupe": {
-      "fetchedAt": "2026-10-09T08:48:18.254Z",
+      "fetchedAt": "2026-10-16T09:42:49.551Z",
       "lines": [
         {
           "id": "2757",
@@ -2436,7 +2441,7 @@
       ]
     },
     "mustang-mach-e": {
-      "fetchedAt": "2026-10-09T08:48:17.150Z",
+      "fetchedAt": "2026-10-16T09:42:46.389Z",
       "lines": [
         {
           "id": "1041",
@@ -2456,7 +2461,7 @@
       ]
     },
     "urban-cruiser": {
-      "fetchedAt": "2026-10-09T08:48:17.531Z",
+      "fetchedAt": "2026-10-16T09:42:48.186Z",
       "lines": [
         {
           "id": "2618",
@@ -2476,7 +2481,7 @@
       ]
     },
     "townstar-kombi": {
-      "fetchedAt": "2026-10-09T08:48:10.646Z",
+      "fetchedAt": "2026-10-16T09:42:52.591Z",
       "lines": [
         {
           "id": "40",
@@ -2496,7 +2501,7 @@
       ]
     },
     "e-308": {
-      "fetchedAt": "2026-10-09T08:48:24.828Z",
+      "fetchedAt": "2026-10-16T09:42:50.962Z",
       "lines": [
         {
           "id": "2050",
@@ -2521,7 +2526,7 @@
       ]
     },
     "macan-electric": {
-      "fetchedAt": "2026-10-09T08:48:29.010Z",
+      "fetchedAt": "2026-10-16T09:42:52.064Z",
       "lines": [
         {
           "id": "1506",
@@ -2531,7 +2536,7 @@
       ]
     },
     "rs-e-tron-gt": {
-      "fetchedAt": "2026-10-09T08:48:21.760Z",
+      "fetchedAt": "2026-10-16T09:42:50.948Z",
       "lines": [
         {
           "id": "742",
@@ -2541,7 +2546,7 @@
       ]
     },
     "e-berlingo": {
-      "fetchedAt": "2026-10-09T08:48:24.963Z",
+      "fetchedAt": "2026-10-16T09:42:52.408Z",
       "lines": [
         {
           "id": "1655",
@@ -2576,7 +2581,7 @@
       ]
     },
     "i7": {
-      "fetchedAt": "2026-10-09T08:48:20.092Z",
+      "fetchedAt": "2026-10-16T09:42:48.724Z",
       "lines": [
         {
           "id": "881",
@@ -2601,7 +2606,7 @@
       ]
     },
     "combo-electric": {
-      "fetchedAt": "2026-10-09T08:48:23.023Z",
+      "fetchedAt": "2026-10-16T09:42:54.539Z",
       "lines": [
         {
           "id": "2073",
@@ -2616,7 +2621,7 @@
       ]
     },
     "ds3": {
-      "fetchedAt": "2026-10-09T08:48:23.236Z",
+      "fetchedAt": "2026-10-16T09:42:53.462Z",
       "lines": [
         {
           "id": "2083",
@@ -2636,7 +2641,7 @@
       ]
     },
     "q6-sportback-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:24.137Z",
+      "fetchedAt": "2026-10-16T09:42:52.940Z",
       "lines": [
         {
           "id": "2219",
@@ -2651,7 +2656,7 @@
       ]
     },
     "proace-city-verso-electric": {
-      "fetchedAt": "2026-10-09T08:48:27.595Z",
+      "fetchedAt": "2026-10-16T09:42:54.654Z",
       "lines": [
         {
           "id": "2197",
@@ -2671,7 +2676,7 @@
       ]
     },
     "astra-electric": {
-      "fetchedAt": "2026-10-09T08:48:26.939Z",
+      "fetchedAt": "2026-10-16T09:42:55.958Z",
       "lines": [
         {
           "id": "2964",
@@ -2696,7 +2701,7 @@
       ]
     },
     "s-e-tron-gt": {
-      "fetchedAt": "2026-10-09T08:48:24.079Z",
+      "fetchedAt": "2026-10-16T09:42:53.993Z",
       "lines": [
         {
           "id": "1964",
@@ -2706,7 +2711,7 @@
       ]
     },
     "ec40": {
-      "fetchedAt": "2026-10-09T08:48:22.474Z",
+      "fetchedAt": "2026-10-16T09:42:52.588Z",
       "lines": [
         {
           "id": "384",
@@ -2736,7 +2741,7 @@
       ]
     },
     "q4-sportback-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:24.135Z",
+      "fetchedAt": "2026-10-16T09:42:53.490Z",
       "lines": [
         {
           "id": "734",
@@ -2746,7 +2751,7 @@
       ]
     },
     "sq6-suv-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:28.186Z",
+      "fetchedAt": "2026-10-16T09:42:52.050Z",
       "lines": [
         {
           "id": "1724",
@@ -2756,7 +2761,7 @@
       ]
     },
     "s6-avant-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:28.959Z",
+      "fetchedAt": "2026-10-16T09:42:54.518Z",
       "lines": [
         {
           "id": "1998",
@@ -2766,7 +2771,7 @@
       ]
     },
     "e-308-sw": {
-      "fetchedAt": "2026-10-09T08:48:29.628Z",
+      "fetchedAt": "2026-10-16T09:42:54.137Z",
       "lines": [
         {
           "id": "2051",
@@ -2791,7 +2796,7 @@
       ]
     },
     "astra-sports-tourer-electric": {
-      "fetchedAt": "2026-10-09T08:48:23.274Z",
+      "fetchedAt": "2026-10-16T09:42:53.622Z",
       "lines": [
         {
           "id": "2966",
@@ -2841,7 +2846,7 @@
       ]
     },
     "e-408": {
-      "fetchedAt": "2026-10-09T08:48:29.755Z",
+      "fetchedAt": "2026-10-16T09:42:55.943Z",
       "lines": [
         {
           "id": "2115",
@@ -2861,7 +2866,7 @@
       ]
     },
     "e-caravelle": {
-      "fetchedAt": "2026-10-09T08:48:27.711Z",
+      "fetchedAt": "2026-10-16T09:42:56.487Z",
       "lines": [
         {
           "id": "2512",
@@ -2891,7 +2896,7 @@
       ]
     },
     "s6-sportback-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:30.379Z",
+      "fetchedAt": "2026-10-16T09:42:55.048Z",
       "lines": [
         {
           "id": "1994",
@@ -2931,7 +2936,7 @@
       ]
     },
     "500e-cabrio": {
-      "fetchedAt": "2026-10-09T08:48:31.281Z",
+      "fetchedAt": "2026-10-16T09:42:57.540Z",
       "lines": [
         {
           "id": "2574",
@@ -2951,7 +2956,7 @@
       ]
     },
     "e-rifter": {
-      "fetchedAt": "2026-10-09T08:48:31.111Z",
+      "fetchedAt": "2026-10-16T09:42:56.010Z",
       "lines": [
         {
           "id": "133",
@@ -2966,7 +2971,7 @@
       ]
     },
     "e-traveller": {
-      "fetchedAt": "2026-10-09T08:48:32.809Z",
+      "fetchedAt": "2026-10-16T09:42:57.042Z",
       "lines": [
         {
           "id": "128",
@@ -2981,7 +2986,7 @@
       ]
     },
     "600e": {
-      "fetchedAt": "2026-10-09T08:48:33.103Z",
+      "fetchedAt": "2026-10-16T09:42:57.358Z",
       "lines": [
         {
           "id": "2705",
@@ -3011,7 +3016,7 @@
       ]
     },
     "sq6-sportback-e-tron": {
-      "fetchedAt": "2026-10-09T08:48:32.790Z",
+      "fetchedAt": "2026-10-16T09:42:56.474Z",
       "lines": [
         {
           "id": "2216",
@@ -3021,7 +3026,7 @@
       ]
     },
     "e-spacetourer": {
-      "fetchedAt": "2026-10-09T08:48:32.009Z",
+      "fetchedAt": "2026-10-16T09:42:56.532Z",
       "lines": [
         {
           "id": "1892",
@@ -3036,7 +3041,7 @@
       ]
     },
     "i3": {
-      "fetchedAt": "2026-10-09T08:47:30.719Z",
+      "fetchedAt": "2026-10-16T09:42:25.995Z",
       "lines": [
         {
           "id": "2979",
@@ -3056,7 +3061,7 @@
       ]
     },
     "e5": {
-      "fetchedAt": "2026-10-09T08:48:11.038Z",
+      "fetchedAt": "2026-10-16T09:42:46.044Z",
       "lines": [
         {
           "id": "2886",
@@ -3076,7 +3081,7 @@
       ]
     },
     "ioniq-3": {
-      "fetchedAt": "2026-10-09T08:47:31.473Z",
+      "fetchedAt": "2026-10-16T09:42:25.148Z",
       "lines": [
         {
           "id": "2909",
@@ -3106,7 +3111,7 @@
       ]
     },
     "staria-elektro": {
-      "fetchedAt": "2026-10-09T08:48:12.552Z",
+      "fetchedAt": "2026-10-16T09:42:47.636Z",
       "lines": [
         {
           "id": "2905",
@@ -3126,7 +3131,7 @@
       ]
     },
     "e2": {
-      "fetchedAt": "2026-10-09T08:47:38.222Z",
+      "fetchedAt": "2026-10-16T09:42:28.705Z",
       "lines": [
         {
           "id": "2952",
@@ -3146,7 +3151,7 @@
       ]
     },
     "seal-u-dm-i": {
-      "fetchedAt": "2026-10-09T08:47:52.080Z",
+      "fetchedAt": "2026-10-16T09:42:35.801Z",
       "lines": [
         {
           "id": "2471",
@@ -3166,7 +3171,7 @@
       ]
     },
     "a2-e-tron": {
-      "fetchedAt": "2026-10-09T08:47:55.162Z",
+      "fetchedAt": "2026-10-16T09:42:38.159Z",
       "lines": [
         {
           "id": "2938",
@@ -3176,7 +3181,7 @@
       ]
     },
     "e-outback": {
-      "fetchedAt": "2026-10-09T08:47:56.197Z",
+      "fetchedAt": "2026-10-16T09:42:37.923Z",
       "lines": [
         {
           "id": "2969",
@@ -3201,7 +3206,7 @@
       ]
     },
     "im5": {
-      "fetchedAt": "2026-10-09T08:48:00.203Z",
+      "fetchedAt": "2026-10-16T09:42:41.149Z",
       "lines": [
         {
           "id": "2961",
@@ -3211,7 +3216,7 @@
       ]
     },
     "im6": {
-      "fetchedAt": "2026-10-09T08:48:08.167Z",
+      "fetchedAt": "2026-10-16T09:42:40.625Z",
       "lines": [
         {
           "id": "2962",
@@ -3221,7 +3226,7 @@
       ]
     },
     "uncharted": {
-      "fetchedAt": "2026-10-09T08:48:11.379Z",
+      "fetchedAt": "2026-10-16T09:42:46.064Z",
       "lines": [
         {
           "id": "2973",
@@ -3246,7 +3251,7 @@
       ]
     },
     "cyberster": {
-      "fetchedAt": "2026-10-09T08:48:16.515Z",
+      "fetchedAt": "2026-10-16T09:42:49.247Z",
       "lines": [
         {
           "id": "2813",
@@ -3256,7 +3261,7 @@
       ]
     },
     "ora-5-suv": {
-      "fetchedAt": "2026-10-09T08:48:29.836Z",
+      "fetchedAt": "2026-10-16T09:42:55.484Z",
       "lines": [
         {
           "id": "2817",
@@ -5154,7 +5159,7 @@
   },
   "lineData": {
     "8": {
-      "fetchedAt": "2026-10-12T13:07:12.277Z",
+      "fetchedAt": "2026-10-16T09:42:27.908Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5282,7 +5287,7 @@
       }
     },
     "10": {
-      "fetchedAt": "2026-10-12T13:07:17.060Z",
+      "fetchedAt": "2026-10-16T09:42:34.231Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5350,7 +5355,7 @@
       }
     },
     "11": {
-      "fetchedAt": "2026-10-12T13:07:16.152Z",
+      "fetchedAt": "2026-10-16T09:42:33.551Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5490,7 +5495,7 @@
       }
     },
     "20": {
-      "fetchedAt": "2026-10-12T13:07:18.834Z",
+      "fetchedAt": "2026-10-16T09:42:37.197Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5558,7 +5563,7 @@
       }
     },
     "21": {
-      "fetchedAt": "2026-10-12T13:07:11.665Z",
+      "fetchedAt": "2026-10-16T09:42:26.829Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5626,7 +5631,7 @@
       }
     },
     "23": {
-      "fetchedAt": "2026-10-12T13:07:13.395Z",
+      "fetchedAt": "2026-10-16T09:42:28.918Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -12916,11 +12921,29 @@
       }
     },
     "1741": {
-      "fetchedAt": "2026-10-12T13:07:22.165Z",
+      "fetchedAt": "2026-10-16T09:42:42.017Z",
       "data": {
-        "byMotor": {},
+        "byMotor": {
+          "2919": {
+            "motorId": "2919",
+            "tariffId": "43",
+            "endpreis": "42.095,42",
+            "kaufpreis": "40.746,42",
+            "ersparnis": "6.743,58 (14,20)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
         "offers": {
           "2919": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2919",
+              "tariffId": "44",
+              "endpreis": "38.190,00",
+              "kaufpreis": "36.800,00",
+              "ersparnis": "10.690,00 (22,51)",
+              "lieferzeit": "3-4 Monate"
+            },
             {
               "tag": "mit Kurzzulassung",
               "motorId": "2919",
@@ -12930,6 +12953,15 @@
               "ersparnis": "8.790,40 (18,51)",
               "lieferzeit": "3-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2919",
+              "tariffId": "43",
+              "endpreis": "42.095,42",
+              "kaufpreis": "40.746,42",
+              "ersparnis": "6.743,58 (14,20)",
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
@@ -21766,7 +21798,7 @@
       }
     },
     "2361": {
-      "fetchedAt": "2026-10-12T13:07:20.835Z",
+      "fetchedAt": "2026-10-16T09:42:40.044Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -21810,7 +21842,7 @@
       }
     },
     "2362": {
-      "fetchedAt": "2026-10-12T13:07:27.453Z",
+      "fetchedAt": "2026-10-16T09:42:50.396Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -21854,7 +21886,7 @@
       }
     },
     "2367": {
-      "fetchedAt": "2026-10-12T13:07:23.658Z",
+      "fetchedAt": "2026-10-16T09:42:45.535Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -27580,15 +27612,15 @@
       }
     },
     "2716": {
-      "fetchedAt": "2026-10-12T13:07:14.523Z",
+      "fetchedAt": "2026-10-16T09:42:31.151Z",
       "data": {
         "byMotor": {
           "4027": {
             "motorId": "4027",
             "tariffId": "120",
-            "endpreis": "25.633,44",
-            "kaufpreis": "24.336,34",
-            "ersparnis": "2.263,66 (8,51)",
+            "endpreis": "24.662,34",
+            "kaufpreis": "23.272,34",
+            "ersparnis": "3.327,66 (12,51)",
             "lieferzeit": "3-4 Monate"
           }
         },
@@ -27605,12 +27637,30 @@
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
             {
+              "tag": "für Geschäftskunden",
+              "motorId": "4027",
+              "tariffId": "117",
+              "endpreis": "24.662,34",
+              "kaufpreis": "23.272,34",
+              "ersparnis": "3.327,66 (12,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
               "tag": "für Privatkunden",
               "motorId": "4027",
               "tariffId": "120",
-              "endpreis": "25.633,44",
-              "kaufpreis": "24.336,34",
-              "ersparnis": "2.263,66 (8,51)",
+              "endpreis": "24.662,34",
+              "kaufpreis": "23.272,34",
+              "ersparnis": "3.327,66 (12,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "4027",
+              "tariffId": "174",
+              "endpreis": "24.662,34",
+              "kaufpreis": "23.272,34",
+              "ersparnis": "3.327,66 (12,51)",
               "lieferzeit": "3-4 Monate"
             }
           ]
@@ -29297,7 +29347,7 @@
       }
     },
     "2794": {
-      "fetchedAt": "2026-10-12T13:07:24.303Z",
+      "fetchedAt": "2026-10-16T09:42:44.994Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -29495,7 +29545,7 @@
       }
     },
     "2813": {
-      "fetchedAt": "2026-10-12T13:07:27.123Z",
+      "fetchedAt": "2026-10-16T09:42:49.549Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -30399,7 +30449,7 @@
       }
     },
     "2869": {
-      "fetchedAt": "2026-10-12T13:07:26.121Z",
+      "fetchedAt": "2026-10-16T09:42:50.414Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -30443,7 +30493,7 @@
       }
     },
     "2870": {
-      "fetchedAt": "2026-10-12T13:07:17.409Z",
+      "fetchedAt": "2026-10-16T09:42:34.730Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -30464,9 +30514,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "4167",
               "tariffId": "215",
-              "endpreis": "49.975,75",
-              "kaufpreis": "48.995,75",
-              "ersparnis": "8.994,25 (15,51)",
+              "endpreis": "51.665,55",
+              "kaufpreis": "50.685,55",
+              "ersparnis": "9.304,45 (15,51)",
               "lieferzeit": "4-5 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
@@ -30476,9 +30526,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "4168",
               "tariffId": "215",
-              "endpreis": "55.558,60",
-              "kaufpreis": "54.578,60",
-              "ersparnis": "10.411,40 (16,02)",
+              "endpreis": "57.238,20",
+              "kaufpreis": "56.258,20",
+              "ersparnis": "10.731,80 (16,02)",
               "lieferzeit": "4-5 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
@@ -30487,7 +30537,7 @@
       }
     },
     "2871": {
-      "fetchedAt": "2026-10-12T13:07:13.703Z",
+      "fetchedAt": "2026-10-16T09:42:30.263Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -30661,21 +30711,21 @@
       }
     },
     "2877": {
-      "fetchedAt": "2026-10-12T13:07:16.330Z",
+      "fetchedAt": "2026-10-16T09:42:32.363Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2878": {
-      "fetchedAt": "2026-10-12T13:07:15.852Z",
+      "fetchedAt": "2026-10-16T09:42:32.066Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2881": {
-      "fetchedAt": "2026-10-12T13:07:18.700Z",
+      "fetchedAt": "2026-10-16T09:42:36.823Z",
       "data": {
         "byMotor": {},
         "offers": {}
@@ -32908,6 +32958,53 @@
         }
       }
     },
+    "2987": {
+      "fetchedAt": "2026-10-16T09:42:38.012Z",
+      "data": {
+        "byMotor": {
+          "3658": {
+            "motorId": "3658",
+            "tariffId": "26",
+            "endpreis": "34.073,70",
+            "kaufpreis": "32.983,70",
+            "ersparnis": "4.506,30 (12,02)",
+            "lieferzeit": "2-4 Monate"
+          }
+        },
+        "offers": {
+          "3658": [
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3658",
+              "tariffId": "26",
+              "endpreis": "34.073,70",
+              "kaufpreis": "32.983,70",
+              "ersparnis": "4.506,30 (12,02)",
+              "lieferzeit": "2-4 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3658",
+              "tariffId": "23",
+              "endpreis": "34.264,90",
+              "kaufpreis": "33.174,90",
+              "ersparnis": "4.315,10 (11,51)",
+              "lieferzeit": "2-4 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3658",
+              "tariffId": "24",
+              "endpreis": "35.434,60",
+              "kaufpreis": "34.299,60",
+              "ersparnis": "3.190,40 (8,51)",
+              "lieferzeit": "2-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            }
+          ]
+        }
+      }
+    },
     "2988": {
       "fetchedAt": "2026-10-14T10:06:48.617Z",
       "data": {
@@ -32940,6 +33037,373 @@
               "kaufpreis": "35.785,07",
               "ersparnis": "6.909,93 (16,18)",
               "lieferzeit": "4-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2992": {
+      "fetchedAt": "2026-10-16T09:42:34.659Z",
+      "data": {
+        "byMotor": {
+          "4046": {
+            "motorId": "4046",
+            "tariffId": "132",
+            "endpreis": "34.063,41",
+            "kaufpreis": "32.893,41",
+            "ersparnis": "8.796,59 (21,10)",
+            "lieferzeit": "6-7 Monate"
+          }
+        },
+        "offers": {
+          "4046": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "4046",
+              "tariffId": "73",
+              "endpreis": "32.812,71",
+              "kaufpreis": "31.642,71",
+              "ersparnis": "10.047,29 (24,10)",
+              "lieferzeit": "6-7 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "4046",
+              "tariffId": "132",
+              "endpreis": "34.063,41",
+              "kaufpreis": "32.893,41",
+              "ersparnis": "8.796,59 (21,10)",
+              "lieferzeit": "6-7 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2993": {
+      "fetchedAt": "2026-10-16T09:42:34.370Z",
+      "data": {
+        "byMotor": {
+          "4045": {
+            "motorId": "4045",
+            "tariffId": "132",
+            "endpreis": "30.916,93",
+            "kaufpreis": "29.746,93",
+            "ersparnis": "7.023,07 (19,10)",
+            "lieferzeit": "6-7 Monate"
+          }
+        },
+        "offers": {
+          "4045": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "4045",
+              "tariffId": "73",
+              "endpreis": "29.997,68",
+              "kaufpreis": "28.827,68",
+              "ersparnis": "7.942,32 (21,60)",
+              "lieferzeit": "6-7 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "4045",
+              "tariffId": "132",
+              "endpreis": "30.916,93",
+              "kaufpreis": "29.746,93",
+              "ersparnis": "7.023,07 (19,10)",
+              "lieferzeit": "6-7 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2997": {
+      "fetchedAt": "2026-10-16T09:42:43.002Z",
+      "data": {
+        "byMotor": {
+          "2985": {
+            "motorId": "2985",
+            "tariffId": "17",
+            "endpreis": "42.665,44",
+            "kaufpreis": "41.772,94",
+            "ersparnis": "8.867,06 (17,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2985": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2985",
+              "tariffId": "18",
+              "endpreis": "36.736,74",
+              "kaufpreis": "35.189,74",
+              "ersparnis": "15.450,26 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2985",
+              "tariffId": "19",
+              "endpreis": "38.122,40",
+              "kaufpreis": "36.587,40",
+              "ersparnis": "14.052,60 (27,75)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2985",
+              "tariffId": "17",
+              "endpreis": "42.665,44",
+              "kaufpreis": "41.772,94",
+              "ersparnis": "8.867,06 (17,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2998": {
+      "fetchedAt": "2026-10-16T09:42:43.312Z",
+      "data": {
+        "byMotor": {
+          "2985": {
+            "motorId": "2985",
+            "tariffId": "17",
+            "endpreis": "44.315,24",
+            "kaufpreis": "43.422,74",
+            "ersparnis": "9.217,26 (17,51)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3368": {
+            "motorId": "3368",
+            "tariffId": "17",
+            "endpreis": "47.697,33",
+            "kaufpreis": "46.804,83",
+            "ersparnis": "9.935,17 (17,51)",
+            "lieferzeit": "5-6 Monate"
+          },
+          "3762": {
+            "motorId": "3762",
+            "tariffId": "17",
+            "endpreis": "46.377,49",
+            "kaufpreis": "45.484,99",
+            "ersparnis": "9.655,01 (17,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2985": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2985",
+              "tariffId": "18",
+              "endpreis": "38.126,54",
+              "kaufpreis": "36.579,54",
+              "ersparnis": "16.060,46 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2985",
+              "tariffId": "19",
+              "endpreis": "39.567,40",
+              "kaufpreis": "38.032,40",
+              "ersparnis": "14.607,60 (27,75)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2985",
+              "tariffId": "17",
+              "endpreis": "44.315,24",
+              "kaufpreis": "43.422,74",
+              "ersparnis": "9.217,26 (17,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3368": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3368",
+              "tariffId": "18",
+              "endpreis": "40.975,63",
+              "kaufpreis": "39.428,63",
+              "ersparnis": "17.311,37 (30,51)",
+              "lieferzeit": "5-6 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3368",
+              "tariffId": "19",
+              "endpreis": "42.529,65",
+              "kaufpreis": "40.994,65",
+              "ersparnis": "15.745,35 (27,75)",
+              "lieferzeit": "5-6 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3368",
+              "tariffId": "17",
+              "endpreis": "47.697,33",
+              "kaufpreis": "46.804,83",
+              "ersparnis": "9.935,17 (17,51)",
+              "lieferzeit": "5-6 Monate"
+            }
+          ],
+          "3762": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3762",
+              "tariffId": "18",
+              "endpreis": "39.863,79",
+              "kaufpreis": "38.316,79",
+              "ersparnis": "16.823,21 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3762",
+              "tariffId": "19",
+              "endpreis": "41.373,65",
+              "kaufpreis": "39.838,65",
+              "ersparnis": "15.301,35 (27,75)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3762",
+              "tariffId": "17",
+              "endpreis": "46.377,49",
+              "kaufpreis": "45.484,99",
+              "ersparnis": "9.655,01 (17,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2999": {
+      "fetchedAt": "2026-10-16T09:42:43.644Z",
+      "data": {
+        "byMotor": {
+          "2985": {
+            "motorId": "2985",
+            "tariffId": "17",
+            "endpreis": "47.565,34",
+            "kaufpreis": "46.672,84",
+            "ersparnis": "9.907,16 (17,51)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3368": {
+            "motorId": "3368",
+            "tariffId": "17",
+            "endpreis": "50.947,43",
+            "kaufpreis": "50.054,93",
+            "ersparnis": "10.625,07 (17,51)",
+            "lieferzeit": "5-6 Monate"
+          },
+          "3762": {
+            "motorId": "3762",
+            "tariffId": "17",
+            "endpreis": "49.627,59",
+            "kaufpreis": "48.735,09",
+            "ersparnis": "10.344,91 (17,51)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2985": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2985",
+              "tariffId": "18",
+              "endpreis": "40.864,44",
+              "kaufpreis": "39.317,44",
+              "ersparnis": "17.262,56 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2985",
+              "tariffId": "19",
+              "endpreis": "42.414,05",
+              "kaufpreis": "40.879,05",
+              "ersparnis": "15.700,95 (27,75)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2985",
+              "tariffId": "17",
+              "endpreis": "47.565,34",
+              "kaufpreis": "46.672,84",
+              "ersparnis": "9.907,16 (17,51)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3368": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3368",
+              "tariffId": "18",
+              "endpreis": "43.713,53",
+              "kaufpreis": "42.166,53",
+              "ersparnis": "18.513,47 (30,51)",
+              "lieferzeit": "5-6 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3368",
+              "tariffId": "19",
+              "endpreis": "45.376,30",
+              "kaufpreis": "43.841,30",
+              "ersparnis": "16.838,70 (27,75)",
+              "lieferzeit": "5-6 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3368",
+              "tariffId": "17",
+              "endpreis": "50.947,43",
+              "kaufpreis": "50.054,93",
+              "ersparnis": "10.625,07 (17,51)",
+              "lieferzeit": "5-6 Monate"
+            }
+          ],
+          "3762": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3762",
+              "tariffId": "18",
+              "endpreis": "42.601,69",
+              "kaufpreis": "41.054,69",
+              "ersparnis": "18.025,31 (30,51)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3762",
+              "tariffId": "19",
+              "endpreis": "44.220,30",
+              "kaufpreis": "42.685,30",
+              "ersparnis": "16.394,70 (27,75)",
+              "lieferzeit": "3-4 Monate",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3762",
+              "tariffId": "17",
+              "endpreis": "49.627,59",
+              "kaufpreis": "48.735,09",
+              "ersparnis": "10.344,91 (17,51)",
+              "lieferzeit": "3-4 Monate"
             }
           ]
         }
