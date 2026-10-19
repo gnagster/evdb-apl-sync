@@ -5283,7 +5283,7 @@
   },
   "lineData": {
     "8": {
-      "fetchedAt": "2026-10-16T09:42:27.908Z",
+      "fetchedAt": "2026-10-19T10:42:05.363Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5411,7 +5411,7 @@
       }
     },
     "10": {
-      "fetchedAt": "2026-10-16T09:42:34.231Z",
+      "fetchedAt": "2026-10-19T10:42:10.171Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5479,7 +5479,7 @@
       }
     },
     "11": {
-      "fetchedAt": "2026-10-16T09:42:33.551Z",
+      "fetchedAt": "2026-10-19T10:42:08.448Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5619,7 +5619,7 @@
       }
     },
     "20": {
-      "fetchedAt": "2026-10-16T09:42:37.197Z",
+      "fetchedAt": "2026-10-19T10:42:11.948Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5687,7 +5687,7 @@
       }
     },
     "21": {
-      "fetchedAt": "2026-10-16T09:42:26.829Z",
+      "fetchedAt": "2026-10-19T10:42:05.028Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -5755,7 +5755,7 @@
       }
     },
     "23": {
-      "fetchedAt": "2026-10-16T09:42:28.918Z",
+      "fetchedAt": "2026-10-19T10:42:05.956Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -14355,7 +14355,7 @@
       }
     },
     "1741": {
-      "fetchedAt": "2026-10-16T09:42:42.017Z",
+      "fetchedAt": "2026-10-19T10:42:14.457Z",
       "data": {
         "byMotor": {
           "2919": {
@@ -23393,7 +23393,7 @@
       }
     },
     "2361": {
-      "fetchedAt": "2026-10-16T09:42:40.044Z",
+      "fetchedAt": "2026-10-19T10:42:13.429Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -23402,9 +23402,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "2757",
               "tariffId": "158",
-              "endpreis": "24.979,50",
-              "kaufpreis": "23.644,50",
-              "ersparnis": "3.855,50 (14,02)",
+              "endpreis": "25.839,30",
+              "kaufpreis": "24.504,30",
+              "ersparnis": "3.995,70 (14,02)",
               "lieferzeit": "9-10 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI Cooper Deals\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
@@ -23414,9 +23414,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "2758",
               "tariffId": "158",
-              "endpreis": "27.988,80",
-              "kaufpreis": "26.653,80",
-              "ersparnis": "4.346,20 (14,02)",
+              "endpreis": "28.848,60",
+              "kaufpreis": "27.513,60",
+              "ersparnis": "4.486,40 (14,02)",
               "lieferzeit": "9-10 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI Cooper Deals\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
@@ -23426,9 +23426,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3395",
               "tariffId": "158",
-              "endpreis": "35.531,00",
-              "kaufpreis": "34.196,00",
-              "ersparnis": "5.804,00 (14,51)",
+              "endpreis": "36.385,90",
+              "kaufpreis": "35.050,90",
+              "ersparnis": "5.949,10 (14,51)",
               "lieferzeit": "9-10 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Den Preisvorteil \"MINI Cooper Deals\" haben wir bereits berücksichtigt, sollte dieser im Konfigurator bereits abgezogen worden sein, muss der Listengesamtpreis entsprechend erhöht werden, da die Prämie nicht doppelt in Abzug gebracht werden kann. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             }
@@ -23437,7 +23437,7 @@
       }
     },
     "2362": {
-      "fetchedAt": "2026-10-16T09:42:50.396Z",
+      "fetchedAt": "2026-10-19T10:42:19.571Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -23481,7 +23481,7 @@
       }
     },
     "2367": {
-      "fetchedAt": "2026-10-16T09:42:45.535Z",
+      "fetchedAt": "2026-10-19T10:42:17.623Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -29245,7 +29245,7 @@
       }
     },
     "2716": {
-      "fetchedAt": "2026-10-16T09:42:31.151Z",
+      "fetchedAt": "2026-10-19T10:42:07.439Z",
       "data": {
         "byMotor": {
           "4027": {
@@ -30980,7 +30980,7 @@
       }
     },
     "2794": {
-      "fetchedAt": "2026-10-16T09:42:44.994Z",
+      "fetchedAt": "2026-10-19T10:42:16.780Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -31178,7 +31178,7 @@
       }
     },
     "2813": {
-      "fetchedAt": "2026-10-16T09:42:49.549Z",
+      "fetchedAt": "2026-10-19T10:42:18.858Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -32175,7 +32175,7 @@
       }
     },
     "2869": {
-      "fetchedAt": "2026-10-16T09:42:50.414Z",
+      "fetchedAt": "2026-10-19T10:42:19.099Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -32219,7 +32219,7 @@
       }
     },
     "2870": {
-      "fetchedAt": "2026-10-16T09:42:34.730Z",
+      "fetchedAt": "2026-10-19T10:42:09.414Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -32263,7 +32263,7 @@
       }
     },
     "2871": {
-      "fetchedAt": "2026-10-16T09:42:30.263Z",
+      "fetchedAt": "2026-10-19T10:42:06.530Z",
       "data": {
         "byMotor": {},
         "offers": {
@@ -32437,21 +32437,21 @@
       }
     },
     "2877": {
-      "fetchedAt": "2026-10-16T09:42:32.363Z",
+      "fetchedAt": "2026-10-19T10:42:08.366Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2878": {
-      "fetchedAt": "2026-10-16T09:42:32.066Z",
+      "fetchedAt": "2026-10-19T10:42:07.999Z",
       "data": {
         "byMotor": {},
         "offers": {}
       }
     },
     "2881": {
-      "fetchedAt": "2026-10-16T09:42:36.823Z",
+      "fetchedAt": "2026-10-19T10:42:11.402Z",
       "data": {
         "byMotor": {},
         "offers": {}
@@ -34685,36 +34685,36 @@
       }
     },
     "2987": {
-      "fetchedAt": "2026-10-16T09:42:38.012Z",
+      "fetchedAt": "2026-10-19T10:42:12.472Z",
       "data": {
         "byMotor": {
           "3658": {
             "motorId": "3658",
             "tariffId": "26",
-            "endpreis": "34.073,70",
-            "kaufpreis": "32.983,70",
-            "ersparnis": "4.506,30 (12,02)",
+            "endpreis": "35.314,70",
+            "kaufpreis": "33.924,70",
+            "ersparnis": "3.565,30 (9,51)",
             "lieferzeit": "2-4 Monate"
           }
         },
         "offers": {
           "3658": [
             {
-              "tag": "für Privatkunden",
-              "motorId": "3658",
-              "tariffId": "26",
-              "endpreis": "34.073,70",
-              "kaufpreis": "32.983,70",
-              "ersparnis": "4.506,30 (12,02)",
-              "lieferzeit": "2-4 Monate"
-            },
-            {
               "tag": "für Geschäftskunden",
               "motorId": "3658",
               "tariffId": "23",
-              "endpreis": "34.264,90",
-              "kaufpreis": "33.174,90",
-              "ersparnis": "4.315,10 (11,51)",
+              "endpreis": "34.837,27",
+              "kaufpreis": "33.647,27",
+              "ersparnis": "3.842,73 (10,25)",
+              "lieferzeit": "2-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3658",
+              "tariffId": "26",
+              "endpreis": "35.314,70",
+              "kaufpreis": "33.924,70",
+              "ersparnis": "3.565,30 (9,51)",
               "lieferzeit": "2-4 Monate"
             },
             {
@@ -34769,7 +34769,7 @@
       }
     },
     "2992": {
-      "fetchedAt": "2026-10-16T09:42:34.659Z",
+      "fetchedAt": "2026-10-19T10:42:09.939Z",
       "data": {
         "byMotor": {
           "4046": {
@@ -34806,7 +34806,7 @@
       }
     },
     "2993": {
-      "fetchedAt": "2026-10-16T09:42:34.370Z",
+      "fetchedAt": "2026-10-19T10:42:09.529Z",
       "data": {
         "byMotor": {
           "4045": {
@@ -34843,7 +34843,7 @@
       }
     },
     "2997": {
-      "fetchedAt": "2026-10-16T09:42:43.002Z",
+      "fetchedAt": "2026-10-19T10:42:15.446Z",
       "data": {
         "byMotor": {
           "2985": {
@@ -34890,7 +34890,7 @@
       }
     },
     "2998": {
-      "fetchedAt": "2026-10-16T09:42:43.312Z",
+      "fetchedAt": "2026-10-19T10:42:15.721Z",
       "data": {
         "byMotor": {
           "2985": {
@@ -35013,7 +35013,7 @@
       }
     },
     "2999": {
-      "fetchedAt": "2026-10-16T09:42:43.644Z",
+      "fetchedAt": "2026-10-19T10:42:16.000Z",
       "data": {
         "byMotor": {
           "2985": {
