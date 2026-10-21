@@ -6106,7 +6106,7 @@
       }
     },
     "49": {
-      "fetchedAt": "2026-10-17T09:16:18.786Z",
+      "fetchedAt": "2026-10-21T10:03:53.092Z",
       "data": {
         "byMotor": {
           "242": {
@@ -8480,7 +8480,7 @@
       }
     },
     "662": {
-      "fetchedAt": "2026-10-18T09:31:07.639Z",
+      "fetchedAt": "2026-10-21T10:03:54.538Z",
       "data": {
         "byMotor": {
           "1244": {
@@ -22028,7 +22028,7 @@
       }
     },
     "2315": {
-      "fetchedAt": "2026-10-18T09:30:59.345Z",
+      "fetchedAt": "2026-10-21T10:03:46.166Z",
       "data": {
         "byMotor": {
           "3689": {
@@ -29642,7 +29642,7 @@
       }
     },
     "2686": {
-      "fetchedAt": "2026-10-18T09:30:58.167Z",
+      "fetchedAt": "2026-10-21T10:03:42.432Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -31283,13 +31283,13 @@
       }
     },
     "2762": {
-      "fetchedAt": "2026-10-18T09:30:57.267Z",
+      "fetchedAt": "2026-10-21T10:03:43.691Z",
       "data": {
         "byMotor": {
           "4071": {
             "motorId": "4071",
             "tariffId": "156",
-            "endpreis": "19.865,65",
+            "endpreis": "19.904,65",
             "kaufpreis": "18.865,65",
             "ersparnis": "6.124,35 (24,51)",
             "lieferzeit": "6-8 Monate"
@@ -31301,7 +31301,7 @@
               "tag": "für Privatkunden",
               "motorId": "4071",
               "tariffId": "156",
-              "endpreis": "19.865,65",
+              "endpreis": "19.904,65",
               "kaufpreis": "18.865,65",
               "ersparnis": "6.124,35 (24,51)",
               "lieferzeit": "6-8 Monate"
@@ -31310,7 +31310,7 @@
               "tag": "für Geschäftskunden",
               "motorId": "4071",
               "tariffId": "157",
-              "endpreis": "19.865,65",
+              "endpreis": "19.904,65",
               "kaufpreis": "18.865,65",
               "ersparnis": "6.124,35 (24,51)",
               "lieferzeit": "6-8 Monate"
@@ -31330,13 +31330,13 @@
       }
     },
     "2763": {
-      "fetchedAt": "2026-10-18T09:30:56.637Z",
+      "fetchedAt": "2026-10-21T10:03:43.081Z",
       "data": {
         "byMotor": {
           "4071": {
             "motorId": "4071",
             "tariffId": "156",
-            "endpreis": "20.286,70",
+            "endpreis": "20.325,70",
             "kaufpreis": "19.286,70",
             "ersparnis": "7.903,30 (29,07)",
             "lieferzeit": "6-8 Monate"
@@ -31344,7 +31344,7 @@
           "4072": {
             "motorId": "4072",
             "tariffId": "156",
-            "endpreis": "21.638,15",
+            "endpreis": "21.677,15",
             "kaufpreis": "20.638,15",
             "ersparnis": "7.851,85 (27,56)",
             "lieferzeit": "6-8 Monate"
@@ -31356,7 +31356,7 @@
               "tag": "für Privatkunden",
               "motorId": "4071",
               "tariffId": "156",
-              "endpreis": "20.286,70",
+              "endpreis": "20.325,70",
               "kaufpreis": "19.286,70",
               "ersparnis": "7.903,30 (29,07)",
               "lieferzeit": "6-8 Monate"
@@ -31365,7 +31365,7 @@
               "tag": "für Geschäftskunden",
               "motorId": "4071",
               "tariffId": "157",
-              "endpreis": "20.422,65",
+              "endpreis": "20.461,65",
               "kaufpreis": "19.422,65",
               "ersparnis": "7.767,35 (28,57)",
               "lieferzeit": "6-8 Monate"
@@ -31386,7 +31386,7 @@
               "tag": "für Privatkunden",
               "motorId": "4072",
               "tariffId": "156",
-              "endpreis": "21.638,15",
+              "endpreis": "21.677,15",
               "kaufpreis": "20.638,15",
               "ersparnis": "7.851,85 (27,56)",
               "lieferzeit": "6-8 Monate"
@@ -31395,7 +31395,7 @@
               "tag": "für Geschäftskunden",
               "motorId": "4072",
               "tariffId": "157",
-              "endpreis": "21.638,15",
+              "endpreis": "21.677,15",
               "kaufpreis": "20.638,15",
               "ersparnis": "7.851,85 (27,56)",
               "lieferzeit": "6-8 Monate"
@@ -31415,13 +31415,13 @@
       }
     },
     "2764": {
-      "fetchedAt": "2026-10-18T09:30:56.959Z",
+      "fetchedAt": "2026-10-21T10:03:43.396Z",
       "data": {
         "byMotor": {
           "4072": {
             "motorId": "4072",
             "tariffId": "156",
-            "endpreis": "24.443,15",
+            "endpreis": "24.482,15",
             "kaufpreis": "23.443,15",
             "ersparnis": "8.046,85 (25,55)",
             "lieferzeit": "6-8 Monate"
@@ -31433,7 +31433,7 @@
               "tag": "für Privatkunden",
               "motorId": "4072",
               "tariffId": "156",
-              "endpreis": "24.443,15",
+              "endpreis": "24.482,15",
               "kaufpreis": "23.443,15",
               "ersparnis": "8.046,85 (25,55)",
               "lieferzeit": "6-8 Monate"
@@ -31442,7 +31442,7 @@
               "tag": "für Geschäftskunden",
               "motorId": "4072",
               "tariffId": "157",
-              "endpreis": "24.443,15",
+              "endpreis": "24.482,15",
               "kaufpreis": "23.443,15",
               "ersparnis": "8.046,85 (25,55)",
               "lieferzeit": "6-8 Monate"
@@ -35613,7 +35613,7 @@
       }
     },
     "2988": {
-      "fetchedAt": "2026-10-18T09:30:52.161Z",
+      "fetchedAt": "2026-10-21T10:03:38.579Z",
       "data": {
         "byMotor": {
           "4273": {
