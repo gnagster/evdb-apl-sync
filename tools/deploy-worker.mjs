@@ -8,12 +8,12 @@ for(const name of ['CLOUDFLARE_ACCOUNT_ID','CLOUDFLARE_API_TOKEN','DEEPSEEK_API_
 const run=(args)=>spawnSync(process.execPath,['node_modules/wrangler/bin/wrangler.js',...args],{stdio:'inherit',env:{...process.env,WRANGLER_SEND_METRICS:'false'}});
 const legacy=run(['deploy','--config','wrangler.legacy.jsonc']);
 if(legacy.error || legacy.status!==0) throw Error('Der bestehende Kostenrechner konnte nicht unter seiner neuen Adresse bereitgestellt werden. Dashboard-Umstellung gestoppt.');
-let available=false;
+let available=false,lastFailure='';
 for(let attempt=0;attempt<8;attempt++) {
-  try {const r=await fetch('https://ev-kosten.dinne.beer/',{signal:AbortSignal.timeout(5000)});if(r.ok && (await r.text()).includes('E-Auto Vollkostenrechner')){available=true;break;}}catch{}
+  try {const r=await fetch('https://ev-kosten.dinne.beer/',{signal:AbortSignal.timeout(5000)});if(r.ok && (await r.text()).includes('E-Auto Vollkostenrechner')){available=true;break;}lastFailure='HTTP '+r.status+(r.headers.get('cf-mitigated')?' (Cloudflare '+r.headers.get('cf-mitigated')+')':'');}catch(e){lastFailure=e.cause?.code||e.name;}
   await new Promise(resolve=>setTimeout(resolve,3000));
 }
-if(!available) throw Error('Der bisherige Kostenrechner ist unter ev-kosten.dinne.beer noch nicht erreichbar. Dashboard-Umstellung gestoppt.');
+if(!available) throw Error('Der bisherige Kostenrechner ist unter ev-kosten.dinne.beer noch nicht erreichbar ('+lastFailure+'). Dashboard-Umstellung gestoppt.');
 const folder=mkdtempSync(join(tmpdir(),'ev-worker-secrets-'));
 try {
   const file=join(folder,'secrets.json');writeFileSync(file,JSON.stringify({DEEPSEEK_API_KEY:process.env.DEEPSEEK_API_KEY}),{mode:0o600});
