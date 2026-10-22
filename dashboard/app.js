@@ -196,7 +196,7 @@ function sourceSelector(key, slot, current, container) {
     updateConditions();
   }
   function updateMotors() {
-    motor.replaceChildren(new Option('Motor auswählen', ''), ...Object.keys(cache.lineData[variant.value]?.data.offers || {}).map((id) => {
+    motor.replaceChildren(new Option('Motor auswählen', ''), ...Object.keys(cache.lineData[variant.value]?.data.offers || {}).filter((id) => cache.motorSpecs[id]?.electric === true).map((id) => {
       const spec = cache.motorSpecs[id]; return new Option(['Motor ' + id, spec?.kwh != null ? spec.kwh + ' kWh' : '', spec?.kw != null ? spec.kw + ' kW' : ''].filter(Boolean).join(' · '), id);
     }));
     motor.value = current?.variantId === variant.value ? current.motorId : '';updateOffers();

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T13:26:57.582Z",
+  "generatedAt": "2026-10-22T14:05:30.325Z",
   "source": "privatkunden",
   "count": 421,
   "prices": {
@@ -777,7 +777,9 @@
         "url": "/neuwagen/leapmotor/b10/design/",
         "kwh": 67,
         "kw": 160,
-        "fetchedAt": "2026-10-20T09:58:42.834Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:45.575Z"
       },
       "offers": [
         {
@@ -797,7 +799,9 @@
             "url": "/neuwagen/leapmotor/b10/design/",
             "kwh": 67,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.834Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.575Z"
           }
         },
         {
@@ -817,10 +821,13 @@
             "url": "/neuwagen/leapmotor/b10/design/",
             "kwh": 67,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.834Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.575Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "BYD|SEALION 7 91.3 kWh AWD Excellence": {
       "slug": "sealion-7",
@@ -949,67 +956,74 @@
       ]
     },
     "Toyota|C-HR+ 77 kWh (MY26)": {
-      "slug": "c-hr",
+      "slug": "c-hr-",
       "confidence": 1,
-      "motorId": "2545",
-      "tariffId": "144",
-      "endpreis": "34.982,05",
-      "kaufpreis": "33.683,05",
-      "ersparnis": "7.006,95 (17,22)",
-      "lieferzeit": "5-6 Monate",
+      "motorId": "3993",
+      "tariffId": "38",
+      "endpreis": "39.139,75",
+      "kaufpreis": "37.840,75",
+      "ersparnis": "8.149,25 (17,72)",
+      "lieferzeit": "3-5 Monate",
       "source": {
-        "slug": "c-hr",
-        "variantId": "368",
-        "motorId": "2545",
-        "tariffId": "144",
-        "variantName": "Toyota C-HR Teamplayer",
-        "url": "/neuwagen/toyota/c-hr/teamplayer/",
-        "kwh": null,
-        "kw": 145,
-        "fetchedAt": "2026-10-20T09:58:43.445Z"
+        "slug": "c-hr-",
+        "variantId": "2659",
+        "motorId": "3993",
+        "tariffId": "38",
+        "variantName": "Toyota C-HR+ Teamplayer",
+        "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+        "kwh": 77,
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:46.697Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2544",
-          "tariffId": "144",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "motorId": "3993",
+          "tariffId": "38",
+          "endpreis": "39.139,75",
+          "kaufpreis": "37.840,75",
+          "ersparnis": "8.149,25 (17,72)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
-            "tariffId": "144",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
+            "tariffId": "38",
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2544",
+          "motorId": "3993",
           "tariffId": "39",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "endpreis": "41.300,15",
+          "kaufpreis": "40.001,15",
+          "ersparnis": "5.988,85 (13,02)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
             "tariffId": "39",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Hyundai|IONIQ 5 84 kWh RWD (MY24)": {
       "slug": "ioniq-5",
@@ -3045,7 +3059,9 @@
         "url": "/neuwagen/opel/frontera/edition/",
         "kwh": 54,
         "kw": 83,
-        "fetchedAt": "2026-10-20T09:59:01.590Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:48.130Z"
       },
       "offers": [
         {
@@ -3065,7 +3081,9 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 54,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         },
         {
@@ -3085,10 +3103,13 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 54,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "BYD|SEAL U 87 kWh Design": {
       "slug": "seal-u-dm-i",
@@ -3297,7 +3318,9 @@
         "url": "/neuwagen/subaru/e-outback/trend/",
         "kwh": null,
         "kw": 280,
-        "fetchedAt": "2026-10-20T09:59:01.776Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:51.281Z"
       },
       "offers": [
         {
@@ -3317,7 +3340,9 @@
             "url": "/neuwagen/subaru/e-outback/trend/",
             "kwh": null,
             "kw": 280,
-            "fetchedAt": "2026-10-20T09:59:01.776Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:51.281Z"
           }
         },
         {
@@ -3337,10 +3362,13 @@
             "url": "/neuwagen/subaru/e-outback/trend/",
             "kwh": null,
             "kw": 280,
-            "fetchedAt": "2026-10-20T09:59:01.776Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:51.281Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Mazda|6e 78 kWh (MY27)": {
       "slug": "6e",
@@ -3534,65 +3562,72 @@
     "Fiat|Grande Panda": {
       "slug": "grande-panda",
       "confidence": 1,
-      "motorId": "3689",
+      "motorId": "3690",
       "tariffId": "98",
-      "endpreis": "18.402,20",
-      "kaufpreis": "17.512,20",
-      "ersparnis": "3.977,80 (18,51)",
+      "endpreis": "18.950,45",
+      "kaufpreis": "18.060,45",
+      "ersparnis": "7.929,55 (30,51)",
       "lieferzeit": "3-4 Monate",
       "source": {
         "slug": "grande-panda",
         "variantId": "2315",
-        "motorId": "3689",
+        "motorId": "3690",
         "tariffId": "98",
         "variantName": "Fiat Grande Panda Pop",
         "url": "/neuwagen/fiat/grande-panda/pop/",
         "kwh": null,
-        "kw": 81,
-        "fetchedAt": "2026-10-21T10:03:46.166Z"
+        "kw": 83,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:49.497Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3872",
+          "motorId": "3690",
           "tariffId": "98",
-          "endpreis": "16.180,35",
-          "kaufpreis": "15.290,35",
-          "ersparnis": "4.699,65 (23,51)",
+          "endpreis": "18.950,45",
+          "kaufpreis": "18.060,45",
+          "ersparnis": "7.929,55 (30,51)",
           "lieferzeit": "3-4 Monate",
           "source": {
             "slug": "grande-panda",
             "variantId": "2315",
-            "motorId": "3872",
+            "motorId": "3690",
             "tariffId": "98",
             "variantName": "Fiat Grande Panda Pop",
             "url": "/neuwagen/fiat/grande-panda/pop/",
             "kwh": null,
-            "kw": 74,
-            "fetchedAt": "2026-10-21T10:03:46.166Z"
+            "kw": 83,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:49.497Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3872",
+          "motorId": "3690",
           "tariffId": "96",
-          "endpreis": "15.980,45",
-          "kaufpreis": "15.090,45",
-          "ersparnis": "4.899,55 (24,51)",
+          "endpreis": "18.690,55",
+          "kaufpreis": "17.800,55",
+          "ersparnis": "8.189,45 (31,51)",
           "lieferzeit": "3-4 Monate",
           "source": {
             "slug": "grande-panda",
             "variantId": "2315",
-            "motorId": "3872",
+            "motorId": "3690",
             "tariffId": "96",
             "variantName": "Fiat Grande Panda Pop",
             "url": "/neuwagen/fiat/grande-panda/pop/",
             "kwh": null,
-            "kw": 74,
-            "fetchedAt": "2026-10-21T10:03:46.166Z"
+            "kw": 83,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:49.497Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Volkswagen|ID. Polo 85 kW - 37 kWh (MY27)": {
       "slug": "id-polo",
@@ -3990,7 +4025,9 @@
         "url": "/neuwagen/leapmotor/c10/design/",
         "kwh": 81,
         "kw": 220,
-        "fetchedAt": "2026-10-20T09:59:05.759Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:50.540Z"
       },
       "offers": [
         {
@@ -4010,7 +4047,9 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         },
         {
@@ -4030,10 +4069,13 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "BYD|SEALION 7 82.5 kWh RWD Comfort": {
       "slug": "sealion-7",
@@ -5506,7 +5548,9 @@
         "url": "/neuwagen/opel/frontera/edition/",
         "kwh": 44,
         "kw": 83,
-        "fetchedAt": "2026-10-20T09:59:01.590Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:48.130Z"
       },
       "offers": [
         {
@@ -5526,7 +5570,9 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 44,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         },
         {
@@ -5546,10 +5592,13 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 44,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Peugeot|e-3008 97 kWh Long Range": {
       "slug": "e-3008",
@@ -6201,7 +6250,9 @@
         "url": "/neuwagen/leapmotor/c10/design/",
         "kwh": 81,
         "kw": 220,
-        "fetchedAt": "2026-10-20T09:59:05.759Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:50.540Z"
       },
       "offers": [
         {
@@ -6221,7 +6272,9 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         },
         {
@@ -6241,73 +6294,83 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Citroën|C5 Aircross Long Range": {
-      "slug": "c5-aircross",
+      "slug": "e-c5-aircross",
       "confidence": 1,
-      "motorId": "1869",
+      "motorId": "3806",
       "tariffId": "91",
-      "endpreis": "29.168,85",
-      "kaufpreis": "28.038,35",
-      "ersparnis": "5.951,65 (17,51)",
-      "lieferzeit": "3-4 Monate",
+      "endpreis": "38.154,49",
+      "kaufpreis": "37.261,99",
+      "ersparnis": "5.328,01 (12,51)",
+      "lieferzeit": "2-4 Monate",
       "source": {
-        "slug": "c5-aircross",
-        "variantId": "2443",
-        "motorId": "1869",
+        "slug": "e-c5-aircross",
+        "variantId": "2444",
+        "motorId": "3806",
         "tariffId": "91",
-        "variantName": "Citroen C5 Aircross You",
-        "url": "/neuwagen/citroen/c5-aircross/you/",
+        "variantName": "Citroen e-C5 Aircross You",
+        "url": "/neuwagen/citroen/e-c5-aircross/you/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:09.456Z"
+        "kw": 157,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:54.539Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "91",
-          "endpreis": "29.168,85",
-          "kaufpreis": "28.038,35",
-          "ersparnis": "5.951,65 (17,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "38.154,49",
+          "kaufpreis": "37.261,99",
+          "ersparnis": "5.328,01 (12,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "91",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "92",
-          "endpreis": "25.506,55",
-          "kaufpreis": "23.959,55",
-          "ersparnis": "10.030,45 (29,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "31.994,59",
+          "kaufpreis": "30.447,59",
+          "ersparnis": "12.142,41 (28,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "92",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "CUPRA|Born 170 kW - 79 kWh (MY27)": {
       "slug": "born",
@@ -7461,7 +7524,9 @@
         "url": "/neuwagen/opel/grandland/edition/",
         "kwh": 73,
         "kw": 157,
-        "fetchedAt": "2026-10-20T09:59:11.996Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:55.271Z"
       },
       "offers": [
         {
@@ -7481,7 +7546,9 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         },
         {
@@ -7501,10 +7568,13 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Hyundai|IONIQ 5 N (MY24)": {
       "slug": "ioniq-5",
@@ -8471,7 +8541,9 @@
         "url": "/neuwagen/leapmotor/b10/life/",
         "kwh": 56,
         "kw": 160,
-        "fetchedAt": "2026-10-20T09:58:42.542Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:45.210Z"
       },
       "offers": [
         {
@@ -8491,7 +8563,9 @@
             "url": "/neuwagen/leapmotor/b10/life/",
             "kwh": 56,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.542Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.210Z"
           }
         },
         {
@@ -8511,10 +8585,13 @@
             "url": "/neuwagen/leapmotor/b10/life/",
             "kwh": 56,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.542Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.210Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Porsche|Taycan (MY25-27)": {
       "slug": "taycan",
@@ -8722,8 +8799,10 @@
         "variantName": "Leapmotor C10 Life",
         "url": "/neuwagen/leapmotor/c10/life/",
         "kwh": 69,
-        "kw": 160,
-        "fetchedAt": "2026-10-20T09:59:05.329Z"
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:50.236Z"
       },
       "offers": [
         {
@@ -8742,8 +8821,10 @@
             "variantName": "Leapmotor C10 Life",
             "url": "/neuwagen/leapmotor/c10/life/",
             "kwh": 69,
-            "kw": 160,
-            "fetchedAt": "2026-10-20T09:59:05.329Z"
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.236Z"
           }
         },
         {
@@ -8762,11 +8843,14 @@
             "variantName": "Leapmotor C10 Life",
             "url": "/neuwagen/leapmotor/c10/life/",
             "kwh": 69,
-            "kw": 160,
-            "fetchedAt": "2026-10-20T09:59:05.329Z"
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.236Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Audi|Q6 SUV e-tron quattro (MY26)": {
       "slug": "q6-suv-e-tron",
@@ -8832,67 +8916,74 @@
       ]
     },
     "Citroën|C5 Aircross Comfort Range": {
-      "slug": "c5-aircross",
+      "slug": "e-c5-aircross",
       "confidence": 1,
-      "motorId": "1869",
+      "motorId": "3806",
       "tariffId": "91",
-      "endpreis": "29.168,85",
-      "kaufpreis": "28.038,35",
-      "ersparnis": "5.951,65 (17,51)",
-      "lieferzeit": "3-4 Monate",
+      "endpreis": "38.154,49",
+      "kaufpreis": "37.261,99",
+      "ersparnis": "5.328,01 (12,51)",
+      "lieferzeit": "2-4 Monate",
       "source": {
-        "slug": "c5-aircross",
-        "variantId": "2443",
-        "motorId": "1869",
+        "slug": "e-c5-aircross",
+        "variantId": "2444",
+        "motorId": "3806",
         "tariffId": "91",
-        "variantName": "Citroen C5 Aircross You",
-        "url": "/neuwagen/citroen/c5-aircross/you/",
+        "variantName": "Citroen e-C5 Aircross You",
+        "url": "/neuwagen/citroen/e-c5-aircross/you/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:09.456Z"
+        "kw": 157,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:54.539Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "91",
-          "endpreis": "29.168,85",
-          "kaufpreis": "28.038,35",
-          "ersparnis": "5.951,65 (17,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "38.154,49",
+          "kaufpreis": "37.261,99",
+          "ersparnis": "5.328,01 (12,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "91",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "92",
-          "endpreis": "25.506,55",
-          "kaufpreis": "23.959,55",
-          "ersparnis": "10.030,45 (29,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "31.994,59",
+          "kaufpreis": "30.447,59",
+          "ersparnis": "12.142,41 (28,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "92",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Alpine|A290 Electric 220 hp": {
       "slug": "a290",
@@ -9164,7 +9255,9 @@
         "url": "/neuwagen/opel/grandland/edition/",
         "kwh": 97,
         "kw": 170,
-        "fetchedAt": "2026-10-20T09:59:11.996Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:55.271Z"
       },
       "offers": [
         {
@@ -9184,7 +9277,9 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 97,
             "kw": 170,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         },
         {
@@ -9204,10 +9299,13 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 97,
             "kw": 170,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Ford|Mustang Mach-E ER RWD (MY25)": {
       "slug": "mustang-mach-e",
@@ -9542,50 +9640,57 @@
         "url": "/neuwagen/alfa-romeo/junior/junior/",
         "kwh": 54,
         "kw": 115,
-        "fetchedAt": "2026-10-20T09:59:18.731Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:56.831Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3651",
+          "motorId": "3214",
           "tariffId": "80",
-          "endpreis": "28.601,41",
-          "kaufpreis": "27.554,21",
-          "ersparnis": "2.895,80 (9,51)",
+          "endpreis": "36.790,75",
+          "kaufpreis": "35.743,55",
+          "ersparnis": "3.756,45 (9,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "junior",
             "variantId": "2699",
-            "motorId": "3651",
+            "motorId": "3214",
             "tariffId": "80",
             "variantName": "Alfa Romeo Junior Junior",
             "url": "/neuwagen/alfa-romeo/junior/junior/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:18.731Z"
+            "kwh": 54,
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.831Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3651",
+          "motorId": "3214",
           "tariffId": "81",
-          "endpreis": "24.947,41",
-          "kaufpreis": "23.900,21",
-          "ersparnis": "6.549,80 (21,51)",
+          "endpreis": "32.050,75",
+          "kaufpreis": "31.003,55",
+          "ersparnis": "8.496,45 (21,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "junior",
             "variantId": "2699",
-            "motorId": "3651",
+            "motorId": "3214",
             "tariffId": "81",
             "variantName": "Alfa Romeo Junior Junior",
             "url": "/neuwagen/alfa-romeo/junior/junior/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:18.731Z"
+            "kwh": 54,
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.831Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Geely|E5 Max+": {
       "slug": "e5",
@@ -10850,130 +10955,144 @@
       ]
     },
     "Toyota|C-HR+ 57.7 kWh (MY26)": {
-      "slug": "c-hr",
+      "slug": "c-hr-",
       "confidence": 1,
-      "motorId": "2544",
-      "tariffId": "144",
-      "endpreis": "29.320,55",
-      "kaufpreis": "28.021,55",
-      "ersparnis": "5.968,45 (17,56)",
-      "lieferzeit": "5-6 Monate",
+      "motorId": "3993",
+      "tariffId": "38",
+      "endpreis": "39.139,75",
+      "kaufpreis": "37.840,75",
+      "ersparnis": "8.149,25 (17,72)",
+      "lieferzeit": "3-5 Monate",
       "source": {
-        "slug": "c-hr",
-        "variantId": "2740",
-        "motorId": "2544",
-        "tariffId": "144",
-        "variantName": "Toyota C-HR Active",
-        "url": "/neuwagen/toyota/c-hr/active/",
-        "kwh": null,
-        "kw": 103,
-        "fetchedAt": "2026-10-20T09:58:43.100Z"
+        "slug": "c-hr-",
+        "variantId": "2659",
+        "motorId": "3993",
+        "tariffId": "38",
+        "variantName": "Toyota C-HR+ Teamplayer",
+        "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+        "kwh": 77,
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:46.697Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2544",
-          "tariffId": "144",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "motorId": "3993",
+          "tariffId": "38",
+          "endpreis": "39.139,75",
+          "kaufpreis": "37.840,75",
+          "ersparnis": "8.149,25 (17,72)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
-            "tariffId": "144",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
+            "tariffId": "38",
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2544",
+          "motorId": "3993",
           "tariffId": "39",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "endpreis": "41.300,15",
+          "kaufpreis": "40.001,15",
+          "ersparnis": "5.988,85 (13,02)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
             "tariffId": "39",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Toyota|C-HR+ 77 kWh AWD (MY26)": {
-      "slug": "c-hr",
+      "slug": "c-hr-",
       "confidence": 1,
-      "motorId": "2545",
-      "tariffId": "144",
-      "endpreis": "34.982,05",
-      "kaufpreis": "33.683,05",
-      "ersparnis": "7.006,95 (17,22)",
-      "lieferzeit": "5-6 Monate",
+      "motorId": "3993",
+      "tariffId": "38",
+      "endpreis": "39.139,75",
+      "kaufpreis": "37.840,75",
+      "ersparnis": "8.149,25 (17,72)",
+      "lieferzeit": "3-5 Monate",
       "source": {
-        "slug": "c-hr",
-        "variantId": "368",
-        "motorId": "2545",
-        "tariffId": "144",
-        "variantName": "Toyota C-HR Teamplayer",
-        "url": "/neuwagen/toyota/c-hr/teamplayer/",
-        "kwh": null,
-        "kw": 145,
-        "fetchedAt": "2026-10-20T09:58:43.445Z"
+        "slug": "c-hr-",
+        "variantId": "2659",
+        "motorId": "3993",
+        "tariffId": "38",
+        "variantName": "Toyota C-HR+ Teamplayer",
+        "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+        "kwh": 77,
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:46.697Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2544",
-          "tariffId": "144",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "motorId": "3993",
+          "tariffId": "38",
+          "endpreis": "39.139,75",
+          "kaufpreis": "37.840,75",
+          "ersparnis": "8.149,25 (17,72)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
-            "tariffId": "144",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
+            "tariffId": "38",
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2544",
+          "motorId": "3993",
           "tariffId": "39",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "endpreis": "41.300,15",
+          "kaufpreis": "40.001,15",
+          "ersparnis": "5.988,85 (13,02)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
             "tariffId": "39",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Volkswagen|ID. Buzz LWB Pro (MY27)": {
       "slug": "id-buzz",
@@ -13372,65 +13491,72 @@
     "DS Automobiles|N°7 FWD Long Range": {
       "slug": "n-7",
       "confidence": 1,
-      "motorId": "4110",
+      "motorId": "4111",
       "tariffId": "150",
-      "endpreis": "41.909,23",
-      "kaufpreis": "40.778,73",
-      "ersparnis": "6.921,27 (14,51)",
+      "endpreis": "50.950,37",
+      "kaufpreis": "49.819,87",
+      "ersparnis": "6.480,13 (11,51)",
       "lieferzeit": "7-8 Monate",
       "source": {
         "slug": "n-7",
         "variantId": "2808",
-        "motorId": "4110",
+        "motorId": "4111",
         "tariffId": "150",
         "variantName": "DS N°7 Pallas",
         "url": "/neuwagen/ds/n-7/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:24.897Z"
+        "kw": 169,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.150Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "150",
-          "endpreis": "41.909,23",
-          "kaufpreis": "40.778,73",
-          "ersparnis": "6.921,27 (14,51)",
+          "endpreis": "50.950,37",
+          "kaufpreis": "49.819,87",
+          "ersparnis": "6.480,13 (11,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "150",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "151",
-          "endpreis": "33.282,73",
-          "kaufpreis": "32.192,73",
-          "ersparnis": "15.507,27 (32,51)",
+          "endpreis": "43.631,37",
+          "kaufpreis": "42.500,87",
+          "ersparnis": "13.799,13 (24,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "151",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Kia|EV5 60.3 kWh (MY27)": {
       "slug": "ev5",
@@ -13939,65 +14065,72 @@
     "Jeep|Compass Electric Long Range (MY26)": {
       "slug": "compass",
       "confidence": 1,
-      "motorId": "2322",
+      "motorId": "3747",
       "tariffId": "113",
-      "endpreis": "36.497,51",
-      "kaufpreis": "35.307,51",
-      "ersparnis": "4.592,49 (11,51)",
+      "endpreis": "44.534,71",
+      "kaufpreis": "43.344,71",
+      "ersparnis": "4.555,29 (9,51)",
       "lieferzeit": "2-4 Monate",
       "source": {
         "slug": "compass",
         "variantId": "2860",
-        "motorId": "2322",
+        "motorId": "3747",
         "tariffId": "113",
         "variantName": "Jeep Compass Altitude (neues Modell)",
         "url": "/neuwagen/jeep/compass/altitude/",
-        "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:25.232Z"
+        "kwh": 74,
+        "kw": 157,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:57.576Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2322",
+          "motorId": "3747",
           "tariffId": "113",
-          "endpreis": "36.497,51",
-          "kaufpreis": "35.307,51",
-          "ersparnis": "4.592,49 (11,51)",
+          "endpreis": "44.534,71",
+          "kaufpreis": "43.344,71",
+          "ersparnis": "4.555,29 (9,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "compass",
             "variantId": "2860",
-            "motorId": "2322",
+            "motorId": "3747",
             "tariffId": "113",
             "variantName": "Jeep Compass Altitude (neues Modell)",
             "url": "/neuwagen/jeep/compass/altitude/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "kwh": 74,
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2322",
+          "motorId": "3747",
           "tariffId": "114",
-          "endpreis": "34.794,41",
-          "kaufpreis": "33.711,51",
-          "ersparnis": "6.188,49 (15,51)",
+          "endpreis": "43.948,61",
+          "kaufpreis": "42.865,71",
+          "ersparnis": "5.034,29 (10,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "compass",
             "variantId": "2860",
-            "motorId": "2322",
+            "motorId": "3747",
             "tariffId": "114",
             "variantName": "Jeep Compass Altitude (neues Modell)",
             "url": "/neuwagen/jeep/compass/altitude/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "kwh": 74,
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Audi|A2 e-tron 125 kW - 50 kWh (MY27)": {
       "slug": "a2-e-tron",
@@ -15088,7 +15221,9 @@
         "url": "/neuwagen/opel/grandland/edition/",
         "kwh": 73,
         "kw": 157,
-        "fetchedAt": "2026-10-20T09:59:11.996Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:55.271Z"
       },
       "offers": [
         {
@@ -15108,7 +15243,9 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         },
         {
@@ -15128,10 +15265,13 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "BMW|iX2 xDrive30 (MY26)": {
       "slug": "ix2",
@@ -16333,65 +16473,72 @@
     "DS Automobiles|DS 3 E-Tense": {
       "slug": "ds3",
       "confidence": 1,
-      "motorId": "3459",
+      "motorId": "3609",
       "tariffId": "150",
-      "endpreis": "28.678,88",
-      "kaufpreis": "27.619,78",
-      "ersparnis": "5.070,22 (15,51)",
+      "endpreis": "37.782,45",
+      "kaufpreis": "36.723,35",
+      "ersparnis": "4.776,65 (11,51)",
       "lieferzeit": "2-4 Monate",
       "source": {
         "slug": "ds3",
         "variantId": "2083",
-        "motorId": "3459",
+        "motorId": "3609",
         "tariffId": "150",
         "variantName": "DS DS3 Pallas",
         "url": "/neuwagen/ds/ds3/pallas/",
         "kwh": null,
-        "kw": 100,
-        "fetchedAt": "2026-10-20T09:59:26.973Z"
+        "kw": 115,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T14:00:00.587Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3459",
+          "motorId": "3609",
           "tariffId": "150",
-          "endpreis": "28.678,88",
-          "kaufpreis": "27.619,78",
-          "ersparnis": "5.070,22 (15,51)",
+          "endpreis": "37.782,45",
+          "kaufpreis": "36.723,35",
+          "ersparnis": "4.776,65 (11,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "ds3",
             "variantId": "2083",
-            "motorId": "3459",
+            "motorId": "3609",
             "tariffId": "150",
             "variantName": "DS DS3 Pallas",
             "url": "/neuwagen/ds/ds3/pallas/",
             "kwh": null,
-            "kw": 100,
-            "fetchedAt": "2026-10-20T09:59:26.973Z"
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:00.587Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3459",
+          "motorId": "3609",
           "tariffId": "151",
-          "endpreis": "25.243,16",
-          "kaufpreis": "24.184,06",
-          "ersparnis": "8.505,94 (26,02)",
+          "endpreis": "33.420,80",
+          "kaufpreis": "32.361,70",
+          "ersparnis": "9.138,30 (22,02)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "ds3",
             "variantId": "2083",
-            "motorId": "3459",
+            "motorId": "3609",
             "tariffId": "151",
             "variantName": "DS DS3 Pallas",
             "url": "/neuwagen/ds/ds3/pallas/",
             "kwh": null,
-            "kw": 100,
-            "fetchedAt": "2026-10-20T09:59:26.973Z"
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:00.587Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Opel|Combo Electric 50 kWh": {
       "slug": "combo-electric",
@@ -17593,65 +17740,72 @@
     "DS Automobiles|N°7 FWD": {
       "slug": "n-7",
       "confidence": 1,
-      "motorId": "4110",
+      "motorId": "4111",
       "tariffId": "150",
-      "endpreis": "41.909,23",
-      "kaufpreis": "40.778,73",
-      "ersparnis": "6.921,27 (14,51)",
+      "endpreis": "50.950,37",
+      "kaufpreis": "49.819,87",
+      "ersparnis": "6.480,13 (11,51)",
       "lieferzeit": "7-8 Monate",
       "source": {
         "slug": "n-7",
         "variantId": "2808",
-        "motorId": "4110",
+        "motorId": "4111",
         "tariffId": "150",
         "variantName": "DS N°7 Pallas",
         "url": "/neuwagen/ds/n-7/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:24.897Z"
+        "kw": 169,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.150Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "150",
-          "endpreis": "41.909,23",
-          "kaufpreis": "40.778,73",
-          "ersparnis": "6.921,27 (14,51)",
+          "endpreis": "50.950,37",
+          "kaufpreis": "49.819,87",
+          "ersparnis": "6.480,13 (11,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "150",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "151",
-          "endpreis": "33.282,73",
-          "kaufpreis": "32.192,73",
-          "ersparnis": "15.507,27 (32,51)",
+          "endpreis": "43.631,37",
+          "kaufpreis": "42.500,87",
+          "ersparnis": "13.799,13 (24,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "151",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Volvo|EX90 Single Motor (MY26-27)": {
       "slug": "ex90",
@@ -18538,65 +18692,72 @@
     "DS Automobiles|N°7 AWD Long Range": {
       "slug": "n-7",
       "confidence": 1,
-      "motorId": "4110",
+      "motorId": "4111",
       "tariffId": "150",
-      "endpreis": "41.909,23",
-      "kaufpreis": "40.778,73",
-      "ersparnis": "6.921,27 (14,51)",
+      "endpreis": "50.950,37",
+      "kaufpreis": "49.819,87",
+      "ersparnis": "6.480,13 (11,51)",
       "lieferzeit": "7-8 Monate",
       "source": {
         "slug": "n-7",
         "variantId": "2808",
-        "motorId": "4110",
+        "motorId": "4111",
         "tariffId": "150",
         "variantName": "DS N°7 Pallas",
         "url": "/neuwagen/ds/n-7/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:24.897Z"
+        "kw": 169,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.150Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "150",
-          "endpreis": "41.909,23",
-          "kaufpreis": "40.778,73",
-          "ersparnis": "6.921,27 (14,51)",
+          "endpreis": "50.950,37",
+          "kaufpreis": "49.819,87",
+          "ersparnis": "6.480,13 (11,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "150",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "151",
-          "endpreis": "33.282,73",
-          "kaufpreis": "32.192,73",
-          "ersparnis": "15.507,27 (32,51)",
+          "endpreis": "43.631,37",
+          "kaufpreis": "42.500,87",
+          "ersparnis": "13.799,13 (24,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "151",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Fiat|500e Cabrio 42 kWh": {
       "slug": "500e-3-plus1",
@@ -19311,7 +19472,9 @@
         "url": "/neuwagen/alfa-romeo/junior/veloce/",
         "kwh": 54,
         "kw": 207,
-        "fetchedAt": "2026-10-20T09:59:18.459Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:56.525Z"
       },
       "offers": [
         {
@@ -19331,7 +19494,9 @@
             "url": "/neuwagen/alfa-romeo/junior/veloce/",
             "kwh": 54,
             "kw": 207,
-            "fetchedAt": "2026-10-20T09:59:18.459Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.525Z"
           }
         },
         {
@@ -19351,10 +19516,13 @@
             "url": "/neuwagen/alfa-romeo/junior/veloce/",
             "kwh": 54,
             "kw": 207,
-            "fetchedAt": "2026-10-20T09:59:18.459Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.525Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "MG|IM5 Standard Range": {
       "slug": "im5",
@@ -19485,65 +19653,72 @@
     "Nissan|Townstar EV Passenger": {
       "slug": "townstar-kombi",
       "confidence": 1,
-      "motorId": "310",
+      "motorId": "2626",
       "tariffId": "10",
-      "endpreis": "26.201,66",
-      "kaufpreis": "25.011,66",
-      "ersparnis": "4.978,34 (16,60)",
+      "endpreis": "34.176,96",
+      "kaufpreis": "32.986,96",
+      "ersparnis": "3.503,04 (9,60)",
       "lieferzeit": "4-6 Monate",
       "source": {
         "slug": "townstar-kombi",
         "variantId": "40",
-        "motorId": "310",
+        "motorId": "2626",
         "tariffId": "10",
         "variantName": "Nissan Townstar Kombi Acenta",
         "url": "/neuwagen/nissan/townstar-kombi/acenta/",
         "kwh": null,
-        "kw": 96,
-        "fetchedAt": "2026-10-20T09:59:31.136Z"
+        "kw": 90,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.825Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "10",
-          "endpreis": "26.201,66",
-          "kaufpreis": "25.011,66",
-          "ersparnis": "4.978,34 (16,60)",
+          "endpreis": "34.176,96",
+          "kaufpreis": "32.986,96",
+          "ersparnis": "3.503,04 (9,60)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "10",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "7",
-          "endpreis": "22.417,40",
-          "kaufpreis": "21.286,90",
-          "ersparnis": "8.703,10 (29,02)",
+          "endpreis": "30.315,20",
+          "kaufpreis": "29.184,70",
+          "ersparnis": "7.305,30 (20,02)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "7",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Audi|SQ6 Sportback e-tron (MY25)": {
       "slug": "sq6-sportback-e-tron",
@@ -19863,65 +20038,72 @@
     "DS Automobiles|N°4 E-Tense (MY25)": {
       "slug": "n-4",
       "confidence": 1,
-      "motorId": "3755",
+      "motorId": "3757",
       "tariffId": "150",
-      "endpreis": "33.777,44",
-      "kaufpreis": "32.646,94",
-      "ersparnis": "5.993,06 (15,51)",
-      "lieferzeit": "2-4 Monate",
+      "endpreis": "41.747,41",
+      "kaufpreis": "40.616,91",
+      "ersparnis": "5.283,09 (11,51)",
+      "lieferzeit": "9-11 Monate",
       "source": {
         "slug": "n-4",
         "variantId": "2384",
-        "motorId": "3755",
+        "motorId": "3757",
         "tariffId": "150",
         "variantName": "DS N°4 Pallas",
         "url": "/neuwagen/ds/n-4/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:30.101Z"
+        "kw": 156,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T14:00:01.730Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3755",
+          "motorId": "3757",
           "tariffId": "150",
-          "endpreis": "33.777,44",
-          "kaufpreis": "32.646,94",
-          "ersparnis": "5.993,06 (15,51)",
-          "lieferzeit": "2-4 Monate",
+          "endpreis": "41.747,41",
+          "kaufpreis": "40.616,91",
+          "ersparnis": "5.283,09 (11,51)",
+          "lieferzeit": "9-11 Monate",
           "source": {
             "slug": "n-4",
             "variantId": "2384",
-            "motorId": "3755",
+            "motorId": "3757",
             "tariffId": "150",
             "variantName": "DS N°4 Pallas",
             "url": "/neuwagen/ds/n-4/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:30.101Z"
+            "kw": 156,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:01.730Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3755",
+          "motorId": "3757",
           "tariffId": "151",
-          "endpreis": "27.940,94",
-          "kaufpreis": "26.850,94",
-          "ersparnis": "11.789,06 (30,51)",
-          "lieferzeit": "2-4 Monate",
+          "endpreis": "37.157,41",
+          "kaufpreis": "36.026,91",
+          "ersparnis": "9.873,09 (21,51)",
+          "lieferzeit": "9-11 Monate",
           "source": {
             "slug": "n-4",
             "variantId": "2384",
-            "motorId": "3755",
+            "motorId": "3757",
             "tariffId": "151",
             "variantName": "DS N°4 Pallas",
             "url": "/neuwagen/ds/n-4/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:30.101Z"
+            "kw": 156,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:01.730Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Škoda|Enyaq Coupe 60 (MY27)": {
       "slug": "enyaq-coupe",
@@ -20130,7 +20312,9 @@
         "url": "/neuwagen/jeep/compass/altitude/",
         "kwh": 74,
         "kw": 157,
-        "fetchedAt": "2026-10-20T09:59:25.232Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:57.576Z"
       },
       "offers": [
         {
@@ -20150,7 +20334,9 @@
             "url": "/neuwagen/jeep/compass/altitude/",
             "kwh": 74,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         },
         {
@@ -20170,10 +20356,13 @@
             "url": "/neuwagen/jeep/compass/altitude/",
             "kwh": 74,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Porsche|Taycan 4S Cross Turismo (MY25-27)": {
       "slug": "taycan",
@@ -21186,65 +21375,72 @@
     "Nissan|Townstar EV Passenger L2": {
       "slug": "townstar-kombi",
       "confidence": 1,
-      "motorId": "310",
+      "motorId": "2626",
       "tariffId": "10",
-      "endpreis": "26.201,66",
-      "kaufpreis": "25.011,66",
-      "ersparnis": "4.978,34 (16,60)",
+      "endpreis": "34.176,96",
+      "kaufpreis": "32.986,96",
+      "ersparnis": "3.503,04 (9,60)",
       "lieferzeit": "4-6 Monate",
       "source": {
         "slug": "townstar-kombi",
         "variantId": "40",
-        "motorId": "310",
+        "motorId": "2626",
         "tariffId": "10",
         "variantName": "Nissan Townstar Kombi Acenta",
         "url": "/neuwagen/nissan/townstar-kombi/acenta/",
         "kwh": null,
-        "kw": 96,
-        "fetchedAt": "2026-10-20T09:59:31.136Z"
+        "kw": 90,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.825Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "10",
-          "endpreis": "26.201,66",
-          "kaufpreis": "25.011,66",
-          "ersparnis": "4.978,34 (16,60)",
+          "endpreis": "34.176,96",
+          "kaufpreis": "32.986,96",
+          "ersparnis": "3.503,04 (9,60)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "10",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "7",
-          "endpreis": "22.417,40",
-          "kaufpreis": "21.286,90",
-          "ersparnis": "8.703,10 (29,02)",
+          "endpreis": "30.315,20",
+          "kaufpreis": "29.184,70",
+          "ersparnis": "7.305,30 (20,02)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "7",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Volkswagen|ID. Buzz LWB Pro 4MOTION (MY27)": {
       "slug": "id-buzz",
@@ -39264,193 +39460,214 @@
       ]
     },
     "evdb:3394": {
-      "slug": "c-hr",
+      "slug": "c-hr-",
       "confidence": 1,
-      "motorId": "2545",
-      "tariffId": "144",
-      "endpreis": "34.982,05",
-      "kaufpreis": "33.683,05",
-      "ersparnis": "7.006,95 (17,22)",
-      "lieferzeit": "5-6 Monate",
+      "motorId": "3993",
+      "tariffId": "38",
+      "endpreis": "39.139,75",
+      "kaufpreis": "37.840,75",
+      "ersparnis": "8.149,25 (17,72)",
+      "lieferzeit": "3-5 Monate",
       "source": {
-        "slug": "c-hr",
-        "variantId": "368",
-        "motorId": "2545",
-        "tariffId": "144",
-        "variantName": "Toyota C-HR Teamplayer",
-        "url": "/neuwagen/toyota/c-hr/teamplayer/",
-        "kwh": null,
-        "kw": 145,
-        "fetchedAt": "2026-10-20T09:58:43.445Z"
+        "slug": "c-hr-",
+        "variantId": "2659",
+        "motorId": "3993",
+        "tariffId": "38",
+        "variantName": "Toyota C-HR+ Teamplayer",
+        "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+        "kwh": 77,
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:46.697Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2544",
-          "tariffId": "144",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "motorId": "3993",
+          "tariffId": "38",
+          "endpreis": "39.139,75",
+          "kaufpreis": "37.840,75",
+          "ersparnis": "8.149,25 (17,72)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
-            "tariffId": "144",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
+            "tariffId": "38",
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2544",
+          "motorId": "3993",
           "tariffId": "39",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "endpreis": "41.300,15",
+          "kaufpreis": "40.001,15",
+          "ersparnis": "5.988,85 (13,02)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
             "tariffId": "39",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3395": {
-      "slug": "c-hr",
+      "slug": "c-hr-",
       "confidence": 1,
-      "motorId": "2545",
-      "tariffId": "144",
-      "endpreis": "34.982,05",
-      "kaufpreis": "33.683,05",
-      "ersparnis": "7.006,95 (17,22)",
-      "lieferzeit": "5-6 Monate",
+      "motorId": "3993",
+      "tariffId": "38",
+      "endpreis": "39.139,75",
+      "kaufpreis": "37.840,75",
+      "ersparnis": "8.149,25 (17,72)",
+      "lieferzeit": "3-5 Monate",
       "source": {
-        "slug": "c-hr",
-        "variantId": "368",
-        "motorId": "2545",
-        "tariffId": "144",
-        "variantName": "Toyota C-HR Teamplayer",
-        "url": "/neuwagen/toyota/c-hr/teamplayer/",
-        "kwh": null,
-        "kw": 145,
-        "fetchedAt": "2026-10-20T09:58:43.445Z"
+        "slug": "c-hr-",
+        "variantId": "2659",
+        "motorId": "3993",
+        "tariffId": "38",
+        "variantName": "Toyota C-HR+ Teamplayer",
+        "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+        "kwh": 77,
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:46.697Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2544",
-          "tariffId": "144",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "motorId": "3993",
+          "tariffId": "38",
+          "endpreis": "39.139,75",
+          "kaufpreis": "37.840,75",
+          "ersparnis": "8.149,25 (17,72)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
-            "tariffId": "144",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
+            "tariffId": "38",
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2544",
+          "motorId": "3993",
           "tariffId": "39",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "endpreis": "41.300,15",
+          "kaufpreis": "40.001,15",
+          "ersparnis": "5.988,85 (13,02)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
             "tariffId": "39",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3393": {
-      "slug": "c-hr",
+      "slug": "c-hr-",
       "confidence": 1,
-      "motorId": "2544",
-      "tariffId": "144",
-      "endpreis": "29.320,55",
-      "kaufpreis": "28.021,55",
-      "ersparnis": "5.968,45 (17,56)",
-      "lieferzeit": "5-6 Monate",
+      "motorId": "3993",
+      "tariffId": "38",
+      "endpreis": "39.139,75",
+      "kaufpreis": "37.840,75",
+      "ersparnis": "8.149,25 (17,72)",
+      "lieferzeit": "3-5 Monate",
       "source": {
-        "slug": "c-hr",
-        "variantId": "2740",
-        "motorId": "2544",
-        "tariffId": "144",
-        "variantName": "Toyota C-HR Active",
-        "url": "/neuwagen/toyota/c-hr/active/",
-        "kwh": null,
-        "kw": 103,
-        "fetchedAt": "2026-10-20T09:58:43.100Z"
+        "slug": "c-hr-",
+        "variantId": "2659",
+        "motorId": "3993",
+        "tariffId": "38",
+        "variantName": "Toyota C-HR+ Teamplayer",
+        "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+        "kwh": 77,
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:46.697Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2544",
-          "tariffId": "144",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "motorId": "3993",
+          "tariffId": "38",
+          "endpreis": "39.139,75",
+          "kaufpreis": "37.840,75",
+          "ersparnis": "8.149,25 (17,72)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
-            "tariffId": "144",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
+            "tariffId": "38",
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2544",
+          "motorId": "3993",
           "tariffId": "39",
-          "endpreis": "29.320,55",
-          "kaufpreis": "28.021,55",
-          "ersparnis": "5.968,45 (17,56)",
-          "lieferzeit": "5-6 Monate",
+          "endpreis": "41.300,15",
+          "kaufpreis": "40.001,15",
+          "ersparnis": "5.988,85 (13,02)",
+          "lieferzeit": "3-5 Monate",
           "source": {
-            "slug": "c-hr",
-            "variantId": "2740",
-            "motorId": "2544",
+            "slug": "c-hr-",
+            "variantId": "2659",
+            "motorId": "3993",
             "tariffId": "39",
-            "variantName": "Toyota C-HR Active",
-            "url": "/neuwagen/toyota/c-hr/active/",
-            "kwh": null,
-            "kw": 103,
-            "fetchedAt": "2026-10-20T09:58:43.100Z"
+            "variantName": "Toyota C-HR+ Teamplayer",
+            "url": "/neuwagen/toyota/c-hr-/teamplayer/",
+            "kwh": 77,
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:46.697Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3233": {
       "slug": "b10",
@@ -39470,7 +39687,9 @@
         "url": "/neuwagen/leapmotor/b10/design/",
         "kwh": 67,
         "kw": 160,
-        "fetchedAt": "2026-10-20T09:58:42.834Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:45.575Z"
       },
       "offers": [
         {
@@ -39490,7 +39709,9 @@
             "url": "/neuwagen/leapmotor/b10/design/",
             "kwh": 67,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.834Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.575Z"
           }
         },
         {
@@ -39510,10 +39731,13 @@
             "url": "/neuwagen/leapmotor/b10/design/",
             "kwh": 67,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.834Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.575Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3232": {
       "slug": "b10",
@@ -39533,7 +39757,9 @@
         "url": "/neuwagen/leapmotor/b10/life/",
         "kwh": 56,
         "kw": 160,
-        "fetchedAt": "2026-10-20T09:58:42.542Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:45.210Z"
       },
       "offers": [
         {
@@ -39553,7 +39779,9 @@
             "url": "/neuwagen/leapmotor/b10/life/",
             "kwh": 56,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.542Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.210Z"
           }
         },
         {
@@ -39573,10 +39801,13 @@
             "url": "/neuwagen/leapmotor/b10/life/",
             "kwh": 56,
             "kw": 160,
-            "fetchedAt": "2026-10-20T09:58:42.542Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:45.210Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3666": {
       "slug": "b03x",
@@ -43823,7 +44054,9 @@
         "url": "/neuwagen/leapmotor/c10/design/",
         "kwh": 81,
         "kw": 220,
-        "fetchedAt": "2026-10-20T09:59:05.759Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:50.540Z"
       },
       "offers": [
         {
@@ -43843,7 +44076,9 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         },
         {
@@ -43863,10 +44098,13 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3387": {
       "slug": "c10",
@@ -43886,7 +44124,9 @@
         "url": "/neuwagen/leapmotor/c10/design/",
         "kwh": 81,
         "kw": 220,
-        "fetchedAt": "2026-10-20T09:59:05.759Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:50.540Z"
       },
       "offers": [
         {
@@ -43906,7 +44146,9 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         },
         {
@@ -43926,10 +44168,13 @@
             "url": "/neuwagen/leapmotor/c10/design/",
             "kwh": 81,
             "kw": 220,
-            "fetchedAt": "2026-10-20T09:59:05.759Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.540Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3040": {
       "slug": "c10",
@@ -43948,8 +44193,10 @@
         "variantName": "Leapmotor C10 Life",
         "url": "/neuwagen/leapmotor/c10/life/",
         "kwh": 69,
-        "kw": 160,
-        "fetchedAt": "2026-10-20T09:59:05.329Z"
+        "kw": 165,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:50.236Z"
       },
       "offers": [
         {
@@ -43968,8 +44215,10 @@
             "variantName": "Leapmotor C10 Life",
             "url": "/neuwagen/leapmotor/c10/life/",
             "kwh": 69,
-            "kw": 160,
-            "fetchedAt": "2026-10-20T09:59:05.329Z"
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.236Z"
           }
         },
         {
@@ -43988,11 +44237,14 @@
             "variantName": "Leapmotor C10 Life",
             "url": "/neuwagen/leapmotor/c10/life/",
             "kwh": 69,
-            "kw": 160,
-            "fetchedAt": "2026-10-20T09:59:05.329Z"
+            "kw": 165,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:50.236Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3669": {
       "slug": "ev4",
@@ -44312,65 +44564,72 @@
     "evdb:2251": {
       "slug": "grande-panda",
       "confidence": 1,
-      "motorId": "3689",
+      "motorId": "3690",
       "tariffId": "98",
-      "endpreis": "18.402,20",
-      "kaufpreis": "17.512,20",
-      "ersparnis": "3.977,80 (18,51)",
+      "endpreis": "18.950,45",
+      "kaufpreis": "18.060,45",
+      "ersparnis": "7.929,55 (30,51)",
       "lieferzeit": "3-4 Monate",
       "source": {
         "slug": "grande-panda",
         "variantId": "2315",
-        "motorId": "3689",
+        "motorId": "3690",
         "tariffId": "98",
         "variantName": "Fiat Grande Panda Pop",
         "url": "/neuwagen/fiat/grande-panda/pop/",
         "kwh": null,
-        "kw": 81,
-        "fetchedAt": "2026-10-21T10:03:46.166Z"
+        "kw": 83,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:49.497Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3872",
+          "motorId": "3690",
           "tariffId": "98",
-          "endpreis": "16.180,35",
-          "kaufpreis": "15.290,35",
-          "ersparnis": "4.699,65 (23,51)",
+          "endpreis": "18.950,45",
+          "kaufpreis": "18.060,45",
+          "ersparnis": "7.929,55 (30,51)",
           "lieferzeit": "3-4 Monate",
           "source": {
             "slug": "grande-panda",
             "variantId": "2315",
-            "motorId": "3872",
+            "motorId": "3690",
             "tariffId": "98",
             "variantName": "Fiat Grande Panda Pop",
             "url": "/neuwagen/fiat/grande-panda/pop/",
             "kwh": null,
-            "kw": 74,
-            "fetchedAt": "2026-10-21T10:03:46.166Z"
+            "kw": 83,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:49.497Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3872",
+          "motorId": "3690",
           "tariffId": "96",
-          "endpreis": "15.980,45",
-          "kaufpreis": "15.090,45",
-          "ersparnis": "4.899,55 (24,51)",
+          "endpreis": "18.690,55",
+          "kaufpreis": "17.800,55",
+          "ersparnis": "8.189,45 (31,51)",
           "lieferzeit": "3-4 Monate",
           "source": {
             "slug": "grande-panda",
             "variantId": "2315",
-            "motorId": "3872",
+            "motorId": "3690",
             "tariffId": "96",
             "variantName": "Fiat Grande Panda Pop",
             "url": "/neuwagen/fiat/grande-panda/pop/",
             "kwh": null,
-            "kw": 74,
-            "fetchedAt": "2026-10-21T10:03:46.166Z"
+            "kw": 83,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:49.497Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3401": {
       "slug": "bz4x",
@@ -45839,7 +46098,9 @@
         "url": "/neuwagen/subaru/e-outback/trend/",
         "kwh": null,
         "kw": 280,
-        "fetchedAt": "2026-10-20T09:59:01.776Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:51.281Z"
       },
       "offers": [
         {
@@ -45859,7 +46120,9 @@
             "url": "/neuwagen/subaru/e-outback/trend/",
             "kwh": null,
             "kw": 280,
-            "fetchedAt": "2026-10-20T09:59:01.776Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:51.281Z"
           }
         },
         {
@@ -45879,10 +46142,13 @@
             "url": "/neuwagen/subaru/e-outback/trend/",
             "kwh": null,
             "kw": 280,
-            "fetchedAt": "2026-10-20T09:59:01.776Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:51.281Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3408": {
       "slug": "spring",
@@ -46091,7 +46357,9 @@
         "url": "/neuwagen/opel/frontera/edition/",
         "kwh": 54,
         "kw": 83,
-        "fetchedAt": "2026-10-20T09:59:01.590Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:48.130Z"
       },
       "offers": [
         {
@@ -46111,7 +46379,9 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 54,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         },
         {
@@ -46131,10 +46401,13 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 54,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2238": {
       "slug": "frontera",
@@ -46154,7 +46427,9 @@
         "url": "/neuwagen/opel/frontera/edition/",
         "kwh": 44,
         "kw": 83,
-        "fetchedAt": "2026-10-20T09:59:01.590Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:48.130Z"
       },
       "offers": [
         {
@@ -46174,7 +46449,9 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 44,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         },
         {
@@ -46194,10 +46471,13 @@
             "url": "/neuwagen/opel/frontera/edition/",
             "kwh": 44,
             "kw": 83,
-            "fetchedAt": "2026-10-20T09:59:01.590Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:48.130Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2270": {
       "slug": "a6-sportback-e-tron",
@@ -49041,130 +49321,144 @@
       ]
     },
     "evdb:3231": {
-      "slug": "c5-aircross",
+      "slug": "e-c5-aircross",
       "confidence": 1,
-      "motorId": "1869",
+      "motorId": "3806",
       "tariffId": "91",
-      "endpreis": "29.168,85",
-      "kaufpreis": "28.038,35",
-      "ersparnis": "5.951,65 (17,51)",
-      "lieferzeit": "3-4 Monate",
+      "endpreis": "38.154,49",
+      "kaufpreis": "37.261,99",
+      "ersparnis": "5.328,01 (12,51)",
+      "lieferzeit": "2-4 Monate",
       "source": {
-        "slug": "c5-aircross",
-        "variantId": "2443",
-        "motorId": "1869",
+        "slug": "e-c5-aircross",
+        "variantId": "2444",
+        "motorId": "3806",
         "tariffId": "91",
-        "variantName": "Citroen C5 Aircross You",
-        "url": "/neuwagen/citroen/c5-aircross/you/",
+        "variantName": "Citroen e-C5 Aircross You",
+        "url": "/neuwagen/citroen/e-c5-aircross/you/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:09.456Z"
+        "kw": 157,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:54.539Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "91",
-          "endpreis": "29.168,85",
-          "kaufpreis": "28.038,35",
-          "ersparnis": "5.951,65 (17,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "38.154,49",
+          "kaufpreis": "37.261,99",
+          "ersparnis": "5.328,01 (12,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "91",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "92",
-          "endpreis": "25.506,55",
-          "kaufpreis": "23.959,55",
-          "ersparnis": "10.030,45 (29,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "31.994,59",
+          "kaufpreis": "30.447,59",
+          "ersparnis": "12.142,41 (28,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "92",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3230": {
-      "slug": "c5-aircross",
+      "slug": "e-c5-aircross",
       "confidence": 1,
-      "motorId": "1869",
+      "motorId": "3806",
       "tariffId": "91",
-      "endpreis": "29.168,85",
-      "kaufpreis": "28.038,35",
-      "ersparnis": "5.951,65 (17,51)",
-      "lieferzeit": "3-4 Monate",
+      "endpreis": "38.154,49",
+      "kaufpreis": "37.261,99",
+      "ersparnis": "5.328,01 (12,51)",
+      "lieferzeit": "2-4 Monate",
       "source": {
-        "slug": "c5-aircross",
-        "variantId": "2443",
-        "motorId": "1869",
+        "slug": "e-c5-aircross",
+        "variantId": "2444",
+        "motorId": "3806",
         "tariffId": "91",
-        "variantName": "Citroen C5 Aircross You",
-        "url": "/neuwagen/citroen/c5-aircross/you/",
+        "variantName": "Citroen e-C5 Aircross You",
+        "url": "/neuwagen/citroen/e-c5-aircross/you/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:09.456Z"
+        "kw": 157,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:54.539Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "91",
-          "endpreis": "29.168,85",
-          "kaufpreis": "28.038,35",
-          "ersparnis": "5.951,65 (17,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "38.154,49",
+          "kaufpreis": "37.261,99",
+          "ersparnis": "5.328,01 (12,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "91",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "1869",
+          "motorId": "3806",
           "tariffId": "92",
-          "endpreis": "25.506,55",
-          "kaufpreis": "23.959,55",
-          "ersparnis": "10.030,45 (29,51)",
-          "lieferzeit": "3-4 Monate",
+          "endpreis": "31.994,59",
+          "kaufpreis": "30.447,59",
+          "ersparnis": "12.142,41 (28,51)",
+          "lieferzeit": "2-4 Monate",
           "source": {
-            "slug": "c5-aircross",
-            "variantId": "2443",
-            "motorId": "1869",
+            "slug": "e-c5-aircross",
+            "variantId": "2444",
+            "motorId": "3806",
             "tariffId": "92",
-            "variantName": "Citroen C5 Aircross You",
-            "url": "/neuwagen/citroen/c5-aircross/you/",
+            "variantName": "Citroen e-C5 Aircross You",
+            "url": "/neuwagen/citroen/e-c5-aircross/you/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:09.456Z"
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:54.539Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2149": {
       "slug": "e-5008",
@@ -50003,7 +50297,9 @@
         "url": "/neuwagen/opel/grandland/edition/",
         "kwh": 73,
         "kw": 157,
-        "fetchedAt": "2026-10-20T09:59:11.996Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:55.271Z"
       },
       "offers": [
         {
@@ -50023,7 +50319,9 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         },
         {
@@ -50043,10 +50341,13 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3364": {
       "slug": "grandland",
@@ -50066,7 +50367,9 @@
         "url": "/neuwagen/opel/grandland/edition/",
         "kwh": 97,
         "kw": 170,
-        "fetchedAt": "2026-10-20T09:59:11.996Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:55.271Z"
       },
       "offers": [
         {
@@ -50086,7 +50389,9 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 97,
             "kw": 170,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         },
         {
@@ -50106,10 +50411,13 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 97,
             "kw": 170,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3201": {
       "slug": "grandland",
@@ -50129,7 +50437,9 @@
         "url": "/neuwagen/opel/grandland/edition/",
         "kwh": 73,
         "kw": 157,
-        "fetchedAt": "2026-10-20T09:59:11.996Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:55.271Z"
       },
       "offers": [
         {
@@ -50149,7 +50459,9 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         },
         {
@@ -50169,10 +50481,13 @@
             "url": "/neuwagen/opel/grandland/edition/",
             "kwh": 73,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:11.996Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:55.271Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3247": {
       "slug": "im6",
@@ -51563,128 +51878,142 @@
     "evdb:2042": {
       "slug": "townstar-kombi",
       "confidence": 1,
-      "motorId": "310",
+      "motorId": "2626",
       "tariffId": "10",
-      "endpreis": "26.201,66",
-      "kaufpreis": "25.011,66",
-      "ersparnis": "4.978,34 (16,60)",
+      "endpreis": "34.176,96",
+      "kaufpreis": "32.986,96",
+      "ersparnis": "3.503,04 (9,60)",
       "lieferzeit": "4-6 Monate",
       "source": {
         "slug": "townstar-kombi",
         "variantId": "40",
-        "motorId": "310",
+        "motorId": "2626",
         "tariffId": "10",
         "variantName": "Nissan Townstar Kombi Acenta",
         "url": "/neuwagen/nissan/townstar-kombi/acenta/",
         "kwh": null,
-        "kw": 96,
-        "fetchedAt": "2026-10-20T09:59:31.136Z"
+        "kw": 90,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.825Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "10",
-          "endpreis": "26.201,66",
-          "kaufpreis": "25.011,66",
-          "ersparnis": "4.978,34 (16,60)",
+          "endpreis": "34.176,96",
+          "kaufpreis": "32.986,96",
+          "ersparnis": "3.503,04 (9,60)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "10",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "7",
-          "endpreis": "22.417,40",
-          "kaufpreis": "21.286,90",
-          "ersparnis": "8.703,10 (29,02)",
+          "endpreis": "30.315,20",
+          "kaufpreis": "29.184,70",
+          "ersparnis": "7.305,30 (20,02)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "7",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3084": {
       "slug": "townstar-kombi",
       "confidence": 1,
-      "motorId": "310",
+      "motorId": "2626",
       "tariffId": "10",
-      "endpreis": "26.201,66",
-      "kaufpreis": "25.011,66",
-      "ersparnis": "4.978,34 (16,60)",
+      "endpreis": "34.176,96",
+      "kaufpreis": "32.986,96",
+      "ersparnis": "3.503,04 (9,60)",
       "lieferzeit": "4-6 Monate",
       "source": {
         "slug": "townstar-kombi",
         "variantId": "40",
-        "motorId": "310",
+        "motorId": "2626",
         "tariffId": "10",
         "variantName": "Nissan Townstar Kombi Acenta",
         "url": "/neuwagen/nissan/townstar-kombi/acenta/",
         "kwh": null,
-        "kw": 96,
-        "fetchedAt": "2026-10-20T09:59:31.136Z"
+        "kw": 90,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.825Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "10",
-          "endpreis": "26.201,66",
-          "kaufpreis": "25.011,66",
-          "ersparnis": "4.978,34 (16,60)",
+          "endpreis": "34.176,96",
+          "kaufpreis": "32.986,96",
+          "ersparnis": "3.503,04 (9,60)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "10",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "310",
+          "motorId": "2626",
           "tariffId": "7",
-          "endpreis": "22.417,40",
-          "kaufpreis": "21.286,90",
-          "ersparnis": "8.703,10 (29,02)",
+          "endpreis": "30.315,20",
+          "kaufpreis": "29.184,70",
+          "ersparnis": "7.305,30 (20,02)",
           "lieferzeit": "4-6 Monate",
           "source": {
             "slug": "townstar-kombi",
             "variantId": "40",
-            "motorId": "310",
+            "motorId": "2626",
             "tariffId": "7",
             "variantName": "Nissan Townstar Kombi Acenta",
             "url": "/neuwagen/nissan/townstar-kombi/acenta/",
             "kwh": null,
-            "kw": 96,
-            "fetchedAt": "2026-10-20T09:59:31.136Z"
+            "kw": 90,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.825Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2185": {
       "slug": "junior",
@@ -51704,7 +52033,9 @@
         "url": "/neuwagen/alfa-romeo/junior/veloce/",
         "kwh": 54,
         "kw": 207,
-        "fetchedAt": "2026-10-20T09:59:18.459Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:56.525Z"
       },
       "offers": [
         {
@@ -51724,7 +52055,9 @@
             "url": "/neuwagen/alfa-romeo/junior/veloce/",
             "kwh": 54,
             "kw": 207,
-            "fetchedAt": "2026-10-20T09:59:18.459Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.525Z"
           }
         },
         {
@@ -51744,10 +52077,13 @@
             "url": "/neuwagen/alfa-romeo/junior/veloce/",
             "kwh": 54,
             "kw": 207,
-            "fetchedAt": "2026-10-20T09:59:18.459Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.525Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2184": {
       "slug": "junior",
@@ -51767,50 +52103,57 @@
         "url": "/neuwagen/alfa-romeo/junior/junior/",
         "kwh": 54,
         "kw": 115,
-        "fetchedAt": "2026-10-20T09:59:18.731Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:56.831Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3651",
+          "motorId": "3214",
           "tariffId": "80",
-          "endpreis": "28.601,41",
-          "kaufpreis": "27.554,21",
-          "ersparnis": "2.895,80 (9,51)",
+          "endpreis": "36.790,75",
+          "kaufpreis": "35.743,55",
+          "ersparnis": "3.756,45 (9,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "junior",
             "variantId": "2699",
-            "motorId": "3651",
+            "motorId": "3214",
             "tariffId": "80",
             "variantName": "Alfa Romeo Junior Junior",
             "url": "/neuwagen/alfa-romeo/junior/junior/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:18.731Z"
+            "kwh": 54,
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.831Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3651",
+          "motorId": "3214",
           "tariffId": "81",
-          "endpreis": "24.947,41",
-          "kaufpreis": "23.900,21",
-          "ersparnis": "6.549,80 (21,51)",
+          "endpreis": "32.050,75",
+          "kaufpreis": "31.003,55",
+          "ersparnis": "8.496,45 (21,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "junior",
             "variantId": "2699",
-            "motorId": "3651",
+            "motorId": "3214",
             "tariffId": "81",
             "variantName": "Alfa Romeo Junior Junior",
             "url": "/neuwagen/alfa-romeo/junior/junior/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:18.731Z"
+            "kwh": 54,
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:56.831Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3437": {
       "slug": "uncharted",
@@ -55530,382 +55873,424 @@
       ]
     },
     "evdb:2267": {
-      "slug": "proace-verso",
-      "confidence": 0.88,
-      "motorId": "873",
-      "tariffId": "144",
-      "endpreis": "34.209,62",
-      "kaufpreis": "32.710,62",
-      "ersparnis": "5.914,38 (15,31)",
-      "lieferzeit": "3-5 Monate",
+      "slug": "proace-verso-electric",
+      "confidence": 1,
+      "motorId": "2660",
+      "tariffId": "38",
+      "endpreis": "46.266,35",
+      "kaufpreis": "44.767,35",
+      "ersparnis": "5.462,65 (10,88)",
+      "lieferzeit": "3-4 Monate",
       "source": {
-        "slug": "proace-verso",
-        "variantId": "2922",
-        "motorId": "873",
-        "tariffId": "144",
-        "variantName": "Toyota Proace Verso Pure",
-        "url": "/neuwagen/toyota/proace-verso/pure/",
-        "kwh": null,
-        "kw": 110,
-        "fetchedAt": "2026-10-20T09:59:23.085Z"
+        "slug": "proace-verso-electric",
+        "variantId": "2928",
+        "motorId": "2660",
+        "tariffId": "38",
+        "variantName": "Toyota Proace Verso Electric Pure",
+        "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+        "kwh": 75,
+        "kw": 100,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:52.696Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "872",
-          "tariffId": "144",
-          "endpreis": "32.652,62",
-          "kaufpreis": "31.153,62",
-          "ersparnis": "5.671,38 (15,40)",
-          "lieferzeit": "3-5 Monate",
+          "motorId": "2660",
+          "tariffId": "38",
+          "endpreis": "46.266,35",
+          "kaufpreis": "44.767,35",
+          "ersparnis": "5.462,65 (10,88)",
+          "lieferzeit": "3-4 Monate",
           "source": {
-            "slug": "proace-verso",
-            "variantId": "2922",
-            "motorId": "872",
-            "tariffId": "144",
-            "variantName": "Toyota Proace Verso Pure",
-            "url": "/neuwagen/toyota/proace-verso/pure/",
-            "kwh": null,
-            "kw": 110,
-            "fetchedAt": "2026-10-20T09:59:23.085Z"
+            "slug": "proace-verso-electric",
+            "variantId": "2928",
+            "motorId": "2660",
+            "tariffId": "38",
+            "variantName": "Toyota Proace Verso Electric Pure",
+            "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+            "kwh": 75,
+            "kw": 100,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:52.696Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "872",
+          "motorId": "2660",
           "tariffId": "39",
-          "endpreis": "32.652,62",
-          "kaufpreis": "31.153,62",
-          "ersparnis": "5.671,38 (15,40)",
-          "lieferzeit": "3-5 Monate",
+          "endpreis": "45.252,55",
+          "kaufpreis": "43.753,55",
+          "ersparnis": "6.476,45 (12,89)",
+          "lieferzeit": "3-4 Monate",
           "source": {
-            "slug": "proace-verso",
-            "variantId": "2922",
-            "motorId": "872",
+            "slug": "proace-verso-electric",
+            "variantId": "2928",
+            "motorId": "2660",
             "tariffId": "39",
-            "variantName": "Toyota Proace Verso Pure",
-            "url": "/neuwagen/toyota/proace-verso/pure/",
-            "kwh": null,
-            "kw": 110,
-            "fetchedAt": "2026-10-20T09:59:23.085Z"
+            "variantName": "Toyota Proace Verso Electric Pure",
+            "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+            "kwh": 75,
+            "kw": 100,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:52.696Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2266": {
-      "slug": "proace-verso",
-      "confidence": 0.88,
-      "motorId": "873",
-      "tariffId": "144",
-      "endpreis": "34.209,62",
-      "kaufpreis": "32.710,62",
-      "ersparnis": "5.914,38 (15,31)",
-      "lieferzeit": "3-5 Monate",
+      "slug": "proace-verso-electric",
+      "confidence": 1,
+      "motorId": "2660",
+      "tariffId": "38",
+      "endpreis": "46.266,35",
+      "kaufpreis": "44.767,35",
+      "ersparnis": "5.462,65 (10,88)",
+      "lieferzeit": "3-4 Monate",
       "source": {
-        "slug": "proace-verso",
-        "variantId": "2922",
-        "motorId": "873",
-        "tariffId": "144",
-        "variantName": "Toyota Proace Verso Pure",
-        "url": "/neuwagen/toyota/proace-verso/pure/",
-        "kwh": null,
-        "kw": 110,
-        "fetchedAt": "2026-10-20T09:59:23.085Z"
+        "slug": "proace-verso-electric",
+        "variantId": "2928",
+        "motorId": "2660",
+        "tariffId": "38",
+        "variantName": "Toyota Proace Verso Electric Pure",
+        "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+        "kwh": 75,
+        "kw": 100,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:52.696Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "872",
-          "tariffId": "144",
-          "endpreis": "32.652,62",
-          "kaufpreis": "31.153,62",
-          "ersparnis": "5.671,38 (15,40)",
-          "lieferzeit": "3-5 Monate",
+          "motorId": "2660",
+          "tariffId": "38",
+          "endpreis": "46.266,35",
+          "kaufpreis": "44.767,35",
+          "ersparnis": "5.462,65 (10,88)",
+          "lieferzeit": "3-4 Monate",
           "source": {
-            "slug": "proace-verso",
-            "variantId": "2922",
-            "motorId": "872",
-            "tariffId": "144",
-            "variantName": "Toyota Proace Verso Pure",
-            "url": "/neuwagen/toyota/proace-verso/pure/",
-            "kwh": null,
-            "kw": 110,
-            "fetchedAt": "2026-10-20T09:59:23.085Z"
+            "slug": "proace-verso-electric",
+            "variantId": "2928",
+            "motorId": "2660",
+            "tariffId": "38",
+            "variantName": "Toyota Proace Verso Electric Pure",
+            "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+            "kwh": 75,
+            "kw": 100,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:52.696Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "872",
+          "motorId": "2660",
           "tariffId": "39",
-          "endpreis": "32.652,62",
-          "kaufpreis": "31.153,62",
-          "ersparnis": "5.671,38 (15,40)",
-          "lieferzeit": "3-5 Monate",
+          "endpreis": "45.252,55",
+          "kaufpreis": "43.753,55",
+          "ersparnis": "6.476,45 (12,89)",
+          "lieferzeit": "3-4 Monate",
           "source": {
-            "slug": "proace-verso",
-            "variantId": "2922",
-            "motorId": "872",
+            "slug": "proace-verso-electric",
+            "variantId": "2928",
+            "motorId": "2660",
             "tariffId": "39",
-            "variantName": "Toyota Proace Verso Pure",
-            "url": "/neuwagen/toyota/proace-verso/pure/",
-            "kwh": null,
-            "kw": 110,
-            "fetchedAt": "2026-10-20T09:59:23.085Z"
+            "variantName": "Toyota Proace Verso Electric Pure",
+            "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+            "kwh": 75,
+            "kw": 100,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:52.696Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2264": {
-      "slug": "proace-verso",
-      "confidence": 0.88,
-      "motorId": "872",
-      "tariffId": "144",
-      "endpreis": "32.652,62",
-      "kaufpreis": "31.153,62",
-      "ersparnis": "5.671,38 (15,40)",
-      "lieferzeit": "3-5 Monate",
+      "slug": "proace-verso-electric",
+      "confidence": 1,
+      "motorId": "3493",
+      "tariffId": "38",
+      "endpreis": "40.596,35",
+      "kaufpreis": "39.097,35",
+      "ersparnis": "5.132,65 (11,60)",
+      "lieferzeit": "3-4 Monate",
       "source": {
-        "slug": "proace-verso",
-        "variantId": "2922",
-        "motorId": "872",
-        "tariffId": "144",
-        "variantName": "Toyota Proace Verso Pure",
-        "url": "/neuwagen/toyota/proace-verso/pure/",
-        "kwh": null,
-        "kw": 110,
-        "fetchedAt": "2026-10-20T09:59:23.085Z"
+        "slug": "proace-verso-electric",
+        "variantId": "2928",
+        "motorId": "3493",
+        "tariffId": "38",
+        "variantName": "Toyota Proace Verso Electric Pure",
+        "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+        "kwh": 50,
+        "kw": 100,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:52.696Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "872",
-          "tariffId": "144",
-          "endpreis": "32.652,62",
-          "kaufpreis": "31.153,62",
-          "ersparnis": "5.671,38 (15,40)",
-          "lieferzeit": "3-5 Monate",
+          "motorId": "3493",
+          "tariffId": "38",
+          "endpreis": "40.596,35",
+          "kaufpreis": "39.097,35",
+          "ersparnis": "5.132,65 (11,60)",
+          "lieferzeit": "3-4 Monate",
           "source": {
-            "slug": "proace-verso",
-            "variantId": "2922",
-            "motorId": "872",
-            "tariffId": "144",
-            "variantName": "Toyota Proace Verso Pure",
-            "url": "/neuwagen/toyota/proace-verso/pure/",
-            "kwh": null,
-            "kw": 110,
-            "fetchedAt": "2026-10-20T09:59:23.085Z"
+            "slug": "proace-verso-electric",
+            "variantId": "2928",
+            "motorId": "3493",
+            "tariffId": "38",
+            "variantName": "Toyota Proace Verso Electric Pure",
+            "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+            "kwh": 50,
+            "kw": 100,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:52.696Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "872",
+          "motorId": "3493",
           "tariffId": "39",
-          "endpreis": "32.652,62",
-          "kaufpreis": "31.153,62",
-          "ersparnis": "5.671,38 (15,40)",
-          "lieferzeit": "3-5 Monate",
+          "endpreis": "39.942,55",
+          "kaufpreis": "38.443,55",
+          "ersparnis": "5.786,45 (13,08)",
+          "lieferzeit": "3-4 Monate",
           "source": {
-            "slug": "proace-verso",
-            "variantId": "2922",
-            "motorId": "872",
+            "slug": "proace-verso-electric",
+            "variantId": "2928",
+            "motorId": "3493",
             "tariffId": "39",
-            "variantName": "Toyota Proace Verso Pure",
-            "url": "/neuwagen/toyota/proace-verso/pure/",
-            "kwh": null,
-            "kw": 110,
-            "fetchedAt": "2026-10-20T09:59:23.085Z"
+            "variantName": "Toyota Proace Verso Electric Pure",
+            "url": "/neuwagen/toyota/proace-verso-electric/pure/",
+            "kwh": 50,
+            "kw": 100,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:52.696Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3624": {
       "slug": "n-7",
       "confidence": 1,
-      "motorId": "4110",
+      "motorId": "4111",
       "tariffId": "150",
-      "endpreis": "41.909,23",
-      "kaufpreis": "40.778,73",
-      "ersparnis": "6.921,27 (14,51)",
+      "endpreis": "50.950,37",
+      "kaufpreis": "49.819,87",
+      "ersparnis": "6.480,13 (11,51)",
       "lieferzeit": "7-8 Monate",
       "source": {
         "slug": "n-7",
         "variantId": "2808",
-        "motorId": "4110",
+        "motorId": "4111",
         "tariffId": "150",
         "variantName": "DS N°7 Pallas",
         "url": "/neuwagen/ds/n-7/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:24.897Z"
+        "kw": 169,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.150Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "150",
-          "endpreis": "41.909,23",
-          "kaufpreis": "40.778,73",
-          "ersparnis": "6.921,27 (14,51)",
+          "endpreis": "50.950,37",
+          "kaufpreis": "49.819,87",
+          "ersparnis": "6.480,13 (11,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "150",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "151",
-          "endpreis": "33.282,73",
-          "kaufpreis": "32.192,73",
-          "ersparnis": "15.507,27 (32,51)",
+          "endpreis": "43.631,37",
+          "kaufpreis": "42.500,87",
+          "ersparnis": "13.799,13 (24,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "151",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3623": {
       "slug": "n-7",
       "confidence": 1,
-      "motorId": "4110",
+      "motorId": "4111",
       "tariffId": "150",
-      "endpreis": "41.909,23",
-      "kaufpreis": "40.778,73",
-      "ersparnis": "6.921,27 (14,51)",
+      "endpreis": "50.950,37",
+      "kaufpreis": "49.819,87",
+      "ersparnis": "6.480,13 (11,51)",
       "lieferzeit": "7-8 Monate",
       "source": {
         "slug": "n-7",
         "variantId": "2808",
-        "motorId": "4110",
+        "motorId": "4111",
         "tariffId": "150",
         "variantName": "DS N°7 Pallas",
         "url": "/neuwagen/ds/n-7/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:24.897Z"
+        "kw": 169,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.150Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "150",
-          "endpreis": "41.909,23",
-          "kaufpreis": "40.778,73",
-          "ersparnis": "6.921,27 (14,51)",
+          "endpreis": "50.950,37",
+          "kaufpreis": "49.819,87",
+          "ersparnis": "6.480,13 (11,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "150",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "151",
-          "endpreis": "33.282,73",
-          "kaufpreis": "32.192,73",
-          "ersparnis": "15.507,27 (32,51)",
+          "endpreis": "43.631,37",
+          "kaufpreis": "42.500,87",
+          "ersparnis": "13.799,13 (24,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "151",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3625": {
       "slug": "n-7",
       "confidence": 1,
-      "motorId": "4110",
+      "motorId": "4111",
       "tariffId": "150",
-      "endpreis": "41.909,23",
-      "kaufpreis": "40.778,73",
-      "ersparnis": "6.921,27 (14,51)",
+      "endpreis": "50.950,37",
+      "kaufpreis": "49.819,87",
+      "ersparnis": "6.480,13 (11,51)",
       "lieferzeit": "7-8 Monate",
       "source": {
         "slug": "n-7",
         "variantId": "2808",
-        "motorId": "4110",
+        "motorId": "4111",
         "tariffId": "150",
         "variantName": "DS N°7 Pallas",
         "url": "/neuwagen/ds/n-7/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:24.897Z"
+        "kw": 169,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:59.150Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "150",
-          "endpreis": "41.909,23",
-          "kaufpreis": "40.778,73",
-          "ersparnis": "6.921,27 (14,51)",
+          "endpreis": "50.950,37",
+          "kaufpreis": "49.819,87",
+          "ersparnis": "6.480,13 (11,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "150",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "4110",
+          "motorId": "4111",
           "tariffId": "151",
-          "endpreis": "33.282,73",
-          "kaufpreis": "32.192,73",
-          "ersparnis": "15.507,27 (32,51)",
+          "endpreis": "43.631,37",
+          "kaufpreis": "42.500,87",
+          "ersparnis": "13.799,13 (24,51)",
           "lieferzeit": "7-8 Monate",
           "source": {
             "slug": "n-7",
             "variantId": "2808",
-            "motorId": "4110",
+            "motorId": "4111",
             "tariffId": "151",
             "variantName": "DS N°7 Pallas",
             "url": "/neuwagen/ds/n-7/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:24.897Z"
+            "kw": 169,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:59.150Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3115": {
       "slug": "i5-touring",
@@ -58319,7 +58704,9 @@
         "url": "/neuwagen/jeep/compass/altitude/",
         "kwh": 74,
         "kw": 157,
-        "fetchedAt": "2026-10-20T09:59:25.232Z"
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:57.576Z"
       },
       "offers": [
         {
@@ -58339,7 +58726,9 @@
             "url": "/neuwagen/jeep/compass/altitude/",
             "kwh": 74,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         },
         {
@@ -58359,136 +58748,153 @@
             "url": "/neuwagen/jeep/compass/altitude/",
             "kwh": 74,
             "kw": 157,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3661": {
       "slug": "compass",
       "confidence": 1,
-      "motorId": "2322",
+      "motorId": "3747",
       "tariffId": "113",
-      "endpreis": "36.497,51",
-      "kaufpreis": "35.307,51",
-      "ersparnis": "4.592,49 (11,51)",
+      "endpreis": "44.534,71",
+      "kaufpreis": "43.344,71",
+      "ersparnis": "4.555,29 (9,51)",
       "lieferzeit": "2-4 Monate",
       "source": {
         "slug": "compass",
         "variantId": "2860",
-        "motorId": "2322",
+        "motorId": "3747",
         "tariffId": "113",
         "variantName": "Jeep Compass Altitude (neues Modell)",
         "url": "/neuwagen/jeep/compass/altitude/",
-        "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:25.232Z"
+        "kwh": 74,
+        "kw": 157,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T13:59:57.576Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "2322",
+          "motorId": "3747",
           "tariffId": "113",
-          "endpreis": "36.497,51",
-          "kaufpreis": "35.307,51",
-          "ersparnis": "4.592,49 (11,51)",
+          "endpreis": "44.534,71",
+          "kaufpreis": "43.344,71",
+          "ersparnis": "4.555,29 (9,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "compass",
             "variantId": "2860",
-            "motorId": "2322",
+            "motorId": "3747",
             "tariffId": "113",
             "variantName": "Jeep Compass Altitude (neues Modell)",
             "url": "/neuwagen/jeep/compass/altitude/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "kwh": 74,
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "2322",
+          "motorId": "3747",
           "tariffId": "114",
-          "endpreis": "34.794,41",
-          "kaufpreis": "33.711,51",
-          "ersparnis": "6.188,49 (15,51)",
+          "endpreis": "43.948,61",
+          "kaufpreis": "42.865,71",
+          "ersparnis": "5.034,29 (10,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "compass",
             "variantId": "2860",
-            "motorId": "2322",
+            "motorId": "3747",
             "tariffId": "114",
             "variantName": "Jeep Compass Altitude (neues Modell)",
             "url": "/neuwagen/jeep/compass/altitude/",
-            "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:25.232Z"
+            "kwh": 74,
+            "kw": 157,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T13:59:57.576Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:1791": {
       "slug": "ds3",
       "confidence": 1,
-      "motorId": "3459",
+      "motorId": "3609",
       "tariffId": "150",
-      "endpreis": "28.678,88",
-      "kaufpreis": "27.619,78",
-      "ersparnis": "5.070,22 (15,51)",
+      "endpreis": "37.782,45",
+      "kaufpreis": "36.723,35",
+      "ersparnis": "4.776,65 (11,51)",
       "lieferzeit": "2-4 Monate",
       "source": {
         "slug": "ds3",
         "variantId": "2083",
-        "motorId": "3459",
+        "motorId": "3609",
         "tariffId": "150",
         "variantName": "DS DS3 Pallas",
         "url": "/neuwagen/ds/ds3/pallas/",
         "kwh": null,
-        "kw": 100,
-        "fetchedAt": "2026-10-20T09:59:26.973Z"
+        "kw": 115,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T14:00:00.587Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3459",
+          "motorId": "3609",
           "tariffId": "150",
-          "endpreis": "28.678,88",
-          "kaufpreis": "27.619,78",
-          "ersparnis": "5.070,22 (15,51)",
+          "endpreis": "37.782,45",
+          "kaufpreis": "36.723,35",
+          "ersparnis": "4.776,65 (11,51)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "ds3",
             "variantId": "2083",
-            "motorId": "3459",
+            "motorId": "3609",
             "tariffId": "150",
             "variantName": "DS DS3 Pallas",
             "url": "/neuwagen/ds/ds3/pallas/",
             "kwh": null,
-            "kw": 100,
-            "fetchedAt": "2026-10-20T09:59:26.973Z"
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:00.587Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3459",
+          "motorId": "3609",
           "tariffId": "151",
-          "endpreis": "25.243,16",
-          "kaufpreis": "24.184,06",
-          "ersparnis": "8.505,94 (26,02)",
+          "endpreis": "33.420,80",
+          "kaufpreis": "32.361,70",
+          "ersparnis": "9.138,30 (22,02)",
           "lieferzeit": "2-4 Monate",
           "source": {
             "slug": "ds3",
             "variantId": "2083",
-            "motorId": "3459",
+            "motorId": "3609",
             "tariffId": "151",
             "variantName": "DS DS3 Pallas",
             "url": "/neuwagen/ds/ds3/pallas/",
             "kwh": null,
-            "kw": 100,
-            "fetchedAt": "2026-10-20T09:59:26.973Z"
+            "kw": 115,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:00.587Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2159": {
       "slug": "e-berlingo",
@@ -60194,65 +60600,72 @@
     "evdb:3200": {
       "slug": "n-4",
       "confidence": 1,
-      "motorId": "3755",
+      "motorId": "3757",
       "tariffId": "150",
-      "endpreis": "33.777,44",
-      "kaufpreis": "32.646,94",
-      "ersparnis": "5.993,06 (15,51)",
-      "lieferzeit": "2-4 Monate",
+      "endpreis": "41.747,41",
+      "kaufpreis": "40.616,91",
+      "ersparnis": "5.283,09 (11,51)",
+      "lieferzeit": "9-11 Monate",
       "source": {
         "slug": "n-4",
         "variantId": "2384",
-        "motorId": "3755",
+        "motorId": "3757",
         "tariffId": "150",
         "variantName": "DS N°4 Pallas",
         "url": "/neuwagen/ds/n-4/pallas/",
         "kwh": null,
-        "kw": 107,
-        "fetchedAt": "2026-10-20T09:59:30.101Z"
+        "kw": 156,
+        "fuel": "Strom",
+        "electric": true,
+        "fetchedAt": "2026-10-22T14:00:01.730Z"
       },
       "offers": [
         {
           "tag": "für Privatkunden",
-          "motorId": "3755",
+          "motorId": "3757",
           "tariffId": "150",
-          "endpreis": "33.777,44",
-          "kaufpreis": "32.646,94",
-          "ersparnis": "5.993,06 (15,51)",
-          "lieferzeit": "2-4 Monate",
+          "endpreis": "41.747,41",
+          "kaufpreis": "40.616,91",
+          "ersparnis": "5.283,09 (11,51)",
+          "lieferzeit": "9-11 Monate",
           "source": {
             "slug": "n-4",
             "variantId": "2384",
-            "motorId": "3755",
+            "motorId": "3757",
             "tariffId": "150",
             "variantName": "DS N°4 Pallas",
             "url": "/neuwagen/ds/n-4/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:30.101Z"
+            "kw": 156,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:01.730Z"
           }
         },
         {
           "tag": "für Geschäftskunden",
-          "motorId": "3755",
+          "motorId": "3757",
           "tariffId": "151",
-          "endpreis": "27.940,94",
-          "kaufpreis": "26.850,94",
-          "ersparnis": "11.789,06 (30,51)",
-          "lieferzeit": "2-4 Monate",
+          "endpreis": "37.157,41",
+          "kaufpreis": "36.026,91",
+          "ersparnis": "9.873,09 (21,51)",
+          "lieferzeit": "9-11 Monate",
           "source": {
             "slug": "n-4",
             "variantId": "2384",
-            "motorId": "3755",
+            "motorId": "3757",
             "tariffId": "151",
             "variantName": "DS N°4 Pallas",
             "url": "/neuwagen/ds/n-4/pallas/",
             "kwh": null,
-            "kw": 107,
-            "fetchedAt": "2026-10-20T09:59:30.101Z"
+            "kw": 156,
+            "fuel": "Strom",
+            "electric": true,
+            "fetchedAt": "2026-10-22T14:00:01.730Z"
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:2247": {
       "slug": "ora-5-suv",

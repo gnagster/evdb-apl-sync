@@ -266,7 +266,7 @@
       ]
     },
     "b10": {
-      "fetchedAt": "2026-10-16T09:42:29.455Z",
+      "fetchedAt": "2026-10-22T13:59:45.010Z",
       "lines": [
         {
           "id": "2560",
@@ -806,7 +806,7 @@
       ]
     },
     "frontera": {
-      "fetchedAt": "2026-10-16T09:42:36.883Z",
+      "fetchedAt": "2026-10-22T13:59:47.622Z",
       "lines": [
         {
           "id": "2903",
@@ -991,7 +991,7 @@
       ]
     },
     "grande-panda": {
-      "fetchedAt": "2026-10-18T09:30:59.033Z",
+      "fetchedAt": "2026-10-22T13:59:49.214Z",
       "lines": [
         {
           "id": "2315",
@@ -1181,7 +1181,7 @@
       ]
     },
     "c10": {
-      "fetchedAt": "2026-10-16T09:42:38.529Z",
+      "fetchedAt": "2026-10-22T13:59:50.035Z",
       "lines": [
         {
           "id": "2270",
@@ -1381,7 +1381,7 @@
       ]
     },
     "avenger": {
-      "fetchedAt": "2026-10-16T09:42:47.630Z",
+      "fetchedAt": "2026-10-22T13:59:51.749Z",
       "lines": [
         {
           "id": "1245",
@@ -1771,7 +1771,7 @@
       ]
     },
     "grandland": {
-      "fetchedAt": "2026-10-16T09:42:43.619Z",
+      "fetchedAt": "2026-10-22T13:59:55.030Z",
       "lines": [
         {
           "id": "2022",
@@ -1891,7 +1891,7 @@
       ]
     },
     "junior": {
-      "fetchedAt": "2026-10-16T09:42:47.120Z",
+      "fetchedAt": "2026-10-22T13:59:56.328Z",
       "lines": [
         {
           "id": "2699",
@@ -2216,7 +2216,7 @@
       ]
     },
     "compass": {
-      "fetchedAt": "2026-10-16T09:42:53.104Z",
+      "fetchedAt": "2026-10-22T13:59:57.363Z",
       "lines": [
         {
           "id": "2860",
@@ -2326,7 +2326,7 @@
       ]
     },
     "n-7": {
-      "fetchedAt": "2026-10-16T09:42:51.494Z",
+      "fetchedAt": "2026-10-22T13:59:58.935Z",
       "lines": [
         {
           "id": "2808",
@@ -2481,7 +2481,7 @@
       ]
     },
     "townstar-kombi": {
-      "fetchedAt": "2026-10-16T09:42:52.591Z",
+      "fetchedAt": "2026-10-22T13:59:59.627Z",
       "lines": [
         {
           "id": "40",
@@ -2621,7 +2621,7 @@
       ]
     },
     "ds3": {
-      "fetchedAt": "2026-10-16T09:42:53.462Z",
+      "fetchedAt": "2026-10-22T14:00:00.376Z",
       "lines": [
         {
           "id": "2083",
@@ -2821,7 +2821,7 @@
       ]
     },
     "n-4": {
-      "fetchedAt": "2026-10-17T09:16:25.775Z",
+      "fetchedAt": "2026-10-22T14:00:01.127Z",
       "lines": [
         {
           "id": "2384",
@@ -3181,7 +3181,7 @@
       ]
     },
     "e-outback": {
-      "fetchedAt": "2026-10-16T09:42:37.923Z",
+      "fetchedAt": "2026-10-22T13:59:51.074Z",
       "lines": [
         {
           "id": "2969",
@@ -3286,7 +3286,7 @@
       ]
     },
     "e-c5-aircross": {
-      "fetchedAt": "2026-10-10T14:48:06.536Z",
+      "fetchedAt": "2026-10-22T13:59:54.342Z",
       "lines": [
         {
           "id": "2444",
@@ -3347,6 +3347,51 @@
           "id": "2222",
           "name": "Ford E-Transit Trend Doppelkabine",
           "url": "/neuwagen/ford/e-transit/trend-doppelkabine/"
+        }
+      ]
+    },
+    "c-hr-": {
+      "fetchedAt": "2026-10-22T13:59:46.490Z",
+      "lines": [
+        {
+          "id": "2659",
+          "name": "Toyota C-HR+ Teamplayer",
+          "url": "/neuwagen/toyota/c-hr-/teamplayer/"
+        },
+        {
+          "id": "2660",
+          "name": "Toyota C-HR+ Lounge",
+          "url": "/neuwagen/toyota/c-hr-/lounge/"
+        }
+      ]
+    },
+    "proace-verso-electric": {
+      "fetchedAt": "2026-10-22T13:59:52.493Z",
+      "lines": [
+        {
+          "id": "2928",
+          "name": "Toyota Proace Verso Electric Pure",
+          "url": "/neuwagen/toyota/proace-verso-electric/pure/"
+        },
+        {
+          "id": "2929",
+          "name": "Toyota Proace Verso Electric Active 9-Sitzer",
+          "url": "/neuwagen/toyota/proace-verso-electric/active-9-sitzer/"
+        },
+        {
+          "id": "1583",
+          "name": "Toyota Proace Verso Electric Teamplayer",
+          "url": "/neuwagen/toyota/proace-verso-electric/teamplayer/"
+        },
+        {
+          "id": "2931",
+          "name": "Toyota Proace Verso Electric Lounge 7-Sitzer",
+          "url": "/neuwagen/toyota/proace-verso-electric/lounge-7-sitzer/"
+        },
+        {
+          "id": "2930",
+          "name": "Toyota Proace Verso Electric Lounge 6-Sitzer",
+          "url": "/neuwagen/toyota/proace-verso-electric/lounge-6-sitzer/"
         }
       ]
     }
@@ -3482,11 +3527,15 @@
     },
     "242": {
       "kwh": 87,
-      "kw": 225
+      "kw": 225,
+      "fuel": "Strom",
+      "electric": true
     },
     "243": {
       "kwh": 87,
-      "kw": 178
+      "kw": 178,
+      "fuel": "Strom",
+      "electric": true
     },
     "244": {
       "kwh": 63,
@@ -3498,363 +3547,633 @@
     },
     "310": {
       "kwh": null,
-      "kw": 96
+      "kw": 96,
+      "fuel": "Benzin",
+      "electric": false
     },
     "320": {
       "kwh": 55,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "327": {
       "kwh": 55,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "341": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "342": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "347": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "348": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "353": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin",
+      "electric": false
     },
     "356": {
       "kwh": null,
-      "kw": 143
+      "kw": 165,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "361": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "402": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "403": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "404": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "405": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "451": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "452": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "453": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "454": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "455": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "464": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "465": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "466": {
       "kwh": 49,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "467": {
       "kwh": 49,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "468": {
       "kwh": 75,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "469": {
       "kwh": 75,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "558": {
       "kwh": null,
-      "kw": 300
+      "kw": 300,
+      "fuel": "Strom",
+      "electric": true
     },
     "559": {
       "kwh": null,
-      "kw": 320
+      "kw": 320,
+      "fuel": "Strom",
+      "electric": true
     },
     "560": {
       "kwh": null,
-      "kw": 440
+      "kw": 440,
+      "fuel": "Strom",
+      "electric": true
     },
     "561": {
       "kwh": null,
-      "kw": 650
+      "kw": 650,
+      "fuel": "Strom",
+      "electric": true
     },
     "562": {
       "kwh": null,
-      "kw": 700
+      "kw": 700,
+      "fuel": "Strom",
+      "electric": true
     },
     "563": {
       "kwh": null,
-      "kw": 700
+      "kw": 700,
+      "fuel": "Strom",
+      "electric": true
     },
     "564": {
       "kwh": null,
-      "kw": 400
+      "kw": 400,
+      "fuel": "Strom",
+      "electric": true
     },
     "565": {
       "kwh": null,
-      "kw": 650
+      "kw": 650,
+      "fuel": "Strom",
+      "electric": true
     },
     "566": {
       "kwh": null,
-      "kw": 300
+      "kw": 300,
+      "fuel": "Strom",
+      "electric": true
     },
     "567": {
       "kwh": null,
-      "kw": 400
+      "kw": 400,
+      "fuel": "Strom",
+      "electric": true
     },
     "570": {
       "kwh": null,
-      "kw": 650
+      "kw": 650,
+      "fuel": "Strom",
+      "electric": true
     },
     "571": {
       "kwh": null,
-      "kw": 700
+      "kw": 700,
+      "fuel": "Strom",
+      "electric": true
     },
     "669": {
       "kwh": null,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "780": {
       "kwh": 82,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "834": {
       "kwh": 73,
-      "kw": 165
+      "kw": 165,
+      "fuel": "Strom",
+      "electric": true
     },
     "870": {
       "kwh": null,
-      "kw": 132
+      "kw": 132,
+      "fuel": "Diesel",
+      "electric": false
     },
     "871": {
       "kwh": null,
-      "kw": 132
+      "kw": 132,
+      "fuel": "Diesel",
+      "electric": false
     },
     "872": {
       "kwh": null,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Diesel",
+      "electric": false
     },
     "873": {
       "kwh": null,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Diesel",
+      "electric": false
     },
     "882": {
       "kwh": null,
-      "kw": 175
+      "kw": 175,
+      "fuel": "Strom",
+      "electric": true
     },
     "883": {
       "kwh": null,
-      "kw": 185
+      "kw": 185,
+      "fuel": "Strom",
+      "electric": true
     },
     "887": {
       "kwh": null,
-      "kw": 335
+      "kw": 335,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1034": {
+      "kwh": null,
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1035": {
+      "kwh": null,
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1036": {
+      "kwh": null,
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1037": {
+      "kwh": null,
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1038": {
+      "kwh": null,
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1039": {
+      "kwh": null,
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1040": {
+      "kwh": null,
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1041": {
+      "kwh": null,
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1042": {
+      "kwh": null,
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1043": {
+      "kwh": null,
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1044": {
+      "kwh": null,
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1045": {
+      "kwh": null,
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "1046": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "1047": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1240": {
+      "kwh": null,
+      "kw": 124,
+      "fuel": "Benzin",
+      "electric": false
     },
     "1241": {
       "kwh": null,
-      "kw": 160
+      "kw": 252,
+      "fuel": "Strom",
+      "electric": true
     },
     "1244": {
       "kwh": null,
-      "kw": 113
+      "kw": 113,
+      "fuel": "Strom",
+      "electric": true
     },
     "1257": {
       "kwh": 79,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "1482": {
       "kwh": null,
-      "kw": 500
+      "kw": 500,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1732": {
+      "kwh": null,
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "1735": {
+      "kwh": null,
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "1737": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "1744": {
       "kwh": null,
-      "kw": 230
+      "kw": 230,
+      "fuel": "Strom",
+      "electric": true
     },
     "1745": {
       "kwh": null,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "1746": {
       "kwh": null,
-      "kw": 230
+      "kw": 230,
+      "fuel": "Strom",
+      "electric": true
     },
     "1869": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin Hybrid",
+      "electric": false
     },
     "1889": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1894": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1895": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "1896": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1897": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "1906": {
       "kwh": 50,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1907": {
       "kwh": 75,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1908": {
       "kwh": 50,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1909": {
       "kwh": 75,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "1960": {
       "kwh": 42,
-      "kw": 87
+      "kw": 87,
+      "fuel": "Strom",
+      "electric": true
     },
     "1961": {
       "kwh": 23,
-      "kw": 70
+      "kw": 70,
+      "fuel": "Strom",
+      "electric": true
     },
     "1962": {
       "kwh": 42,
-      "kw": 87
+      "kw": 87,
+      "fuel": "Strom",
+      "electric": true
     },
     "1964": {
       "kwh": 54,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "2066": {
       "kwh": null,
-      "kw": 197
+      "kw": 197,
+      "fuel": "Strom",
+      "electric": true
     },
     "2070": {
       "kwh": null,
-      "kw": 358
+      "kw": 358,
+      "fuel": "Strom",
+      "electric": true
     },
     "2101": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2102": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2103": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2104": {
       "kwh": null,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2105": {
       "kwh": null,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2106": {
       "kwh": null,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2107": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2108": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2109": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2110": {
       "kwh": null,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2111": {
       "kwh": null,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2112": {
       "kwh": null,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Diesel",
+      "electric": false
     },
     "2113": {
       "kwh": null,
-      "kw": 171
+      "kw": 171,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "2114": {
       "kwh": null,
-      "kw": 171
+      "kw": 171,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "2253": {
       "kwh": 63,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Strom",
+      "electric": true
     },
     "2254": {
       "kwh": 84,
-      "kw": 168
+      "kw": 168,
+      "fuel": "Strom",
+      "electric": true
     },
     "2255": {
       "kwh": 84,
-      "kw": 239
+      "kw": 239,
+      "fuel": "Strom",
+      "electric": true
     },
     "2256": {
       "kwh": 63,
@@ -3862,35 +4181,51 @@
     },
     "2262": {
       "kwh": 48,
-      "kw": 99
+      "kw": 99,
+      "fuel": "Strom",
+      "electric": true
     },
     "2263": {
       "kwh": 65,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "2321": {
       "kwh": 54,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "2322": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin",
+      "electric": false
     },
     "2347": {
       "kwh": null,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Strom",
+      "electric": true
     },
     "2349": {
       "kwh": 99,
-      "kw": 283
+      "kw": 283,
+      "fuel": "Strom",
+      "electric": true
     },
     "2350": {
       "kwh": 99,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "2458": {
       "kwh": null,
-      "kw": 157
+      "kw": 157,
+      "fuel": "Strom",
+      "electric": true
     },
     "2473": {
       "kwh": null,
@@ -3898,31 +4233,45 @@
     },
     "2516": {
       "kwh": null,
-      "kw": 448
+      "kw": 448,
+      "fuel": "Strom",
+      "electric": true
     },
     "2542": {
       "kwh": null,
-      "kw": 74
+      "kw": 74,
+      "fuel": "Benzin",
+      "electric": false
     },
     "2543": {
       "kwh": null,
-      "kw": 81
+      "kw": 81,
+      "fuel": "Benzin",
+      "electric": false
     },
     "2544": {
       "kwh": null,
-      "kw": 103
+      "kw": 103,
+      "fuel": "Benzin Hybrid",
+      "electric": false
     },
     "2545": {
       "kwh": null,
-      "kw": 145
+      "kw": 145,
+      "fuel": "Benzin Hybrid",
+      "electric": false
     },
     "2546": {
       "kwh": null,
-      "kw": 145
+      "kw": 145,
+      "fuel": "Benzin Hybrid",
+      "electric": false
     },
     "2547": {
       "kwh": null,
-      "kw": 164
+      "kw": 164,
+      "fuel": "Benzin Hybrid, Strom",
+      "electric": false
     },
     "2548": {
       "kwh": 68,
@@ -3982,35 +4331,75 @@
     },
     "2576": {
       "kwh": null,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "2577": {
       "kwh": null,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "2587": {
       "kwh": 100,
-      "kw": 285
+      "kw": 285,
+      "fuel": "Strom",
+      "electric": true
     },
     "2588": {
       "kwh": 100,
-      "kw": 430
+      "kw": 430,
+      "fuel": "Strom",
+      "electric": true
     },
     "2617": {
       "kwh": null,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "2626": {
       "kwh": null,
-      "kw": 90
+      "kw": 90,
+      "fuel": "Strom",
+      "electric": true
     },
     "2632": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "2660": {
+      "kwh": 75,
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "2661": {
+      "kwh": 75,
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "2705": {
       "kwh": null,
-      "kw": 290
+      "kw": 290,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "2755": {
+      "kwh": null,
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "2756": {
+      "kwh": null,
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "2757": {
       "kwh": null,
@@ -4030,35 +4419,51 @@
     },
     "2786": {
       "kwh": null,
-      "kw": 168
+      "kw": 168,
+      "fuel": "Strom",
+      "electric": true
     },
     "2787": {
       "kwh": null,
-      "kw": 239
+      "kw": 239,
+      "fuel": "Strom",
+      "electric": true
     },
     "2791": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "2796": {
       "kwh": 23,
-      "kw": 70
+      "kw": 70,
+      "fuel": "Strom",
+      "electric": true
     },
     "2846": {
       "kwh": null,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "2872": {
       "kwh": null,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "2897": {
       "kwh": null,
-      "kw": 315
+      "kw": 315,
+      "fuel": "Strom",
+      "electric": true
     },
     "2898": {
       "kwh": null,
-      "kw": 360
+      "kw": 360,
+      "fuel": "Strom",
+      "electric": true
     },
     "2899": {
       "kwh": null,
@@ -4066,59 +4471,93 @@
     },
     "2919": {
       "kwh": null,
-      "kw": 175
+      "kw": 175,
+      "fuel": "Strom",
+      "electric": true
     },
     "2958": {
       "kwh": null,
-      "kw": 760
+      "kw": 760,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "2960": {
+      "kwh": null,
+      "kw": 295,
+      "fuel": "Strom",
+      "electric": true
     },
     "2963": {
       "kwh": 52,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Strom",
+      "electric": true
     },
     "2965": {
       "kwh": 77,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "2966": {
       "kwh": 77,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "2985": {
       "kwh": null,
-      "kw": 157
+      "kw": 157,
+      "fuel": "Strom",
+      "electric": true
     },
     "2998": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3000": {
       "kwh": 79,
-      "kw": 240
+      "kw": 240,
+      "fuel": "Strom",
+      "electric": true
     },
     "3111": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3119": {
       "kwh": 44,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "3120": {
       "kwh": null,
-      "kw": 81
+      "kw": 81,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3121": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3122": {
       "kwh": null,
-      "kw": 125
+      "kw": 125,
+      "fuel": "Strom",
+      "electric": true
     },
     "3137": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3138": {
       "kwh": null,
@@ -4130,79 +4569,117 @@
     },
     "3146": {
       "kwh": null,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "3198": {
       "kwh": 73,
-      "kw": 252
+      "kw": 252,
+      "fuel": "Strom",
+      "electric": true
     },
     "3200": {
       "kwh": null,
-      "kw": 245
+      "kw": 245,
+      "fuel": "Strom",
+      "electric": true
     },
     "3214": {
       "kwh": 54,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "3242": {
       "kwh": null,
-      "kw": 550
+      "kw": 550,
+      "fuel": "Strom",
+      "electric": true
     },
     "3243": {
       "kwh": null,
-      "kw": 435
+      "kw": 435,
+      "fuel": "Strom",
+      "electric": true
     },
     "3246": {
       "kwh": 58,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3247": {
       "kwh": 81,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3272": {
       "kwh": 100,
-      "kw": 270
+      "kw": 270,
+      "fuel": "Strom",
+      "electric": true
     },
     "3273": {
       "kwh": 100,
-      "kw": 270
+      "kw": 270,
+      "fuel": "Strom",
+      "electric": true
     },
     "3274": {
       "kwh": 100,
-      "kw": 370
+      "kw": 370,
+      "fuel": "Strom",
+      "electric": true
     },
     "3275": {
       "kwh": 100,
-      "kw": 370
+      "kw": 370,
+      "fuel": "Strom",
+      "electric": true
     },
     "3276": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3277": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3366": {
       "kwh": null,
-      "kw": 290
+      "kw": 290,
+      "fuel": "Strom",
+      "electric": true
     },
     "3367": {
       "kwh": 73,
-      "kw": 157
+      "kw": 157,
+      "fuel": "Strom",
+      "electric": true
     },
     "3368": {
       "kwh": null,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "3382": {
       "kwh": 58,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "3383": {
       "kwh": 58,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "3390": {
       "kwh": null,
@@ -4214,59 +4691,87 @@
     },
     "3396": {
       "kwh": 83,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3397": {
       "kwh": 100,
-      "kw": 315
+      "kw": 315,
+      "fuel": "Strom",
+      "electric": true
     },
     "3398": {
       "kwh": 83,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3399": {
       "kwh": 100,
-      "kw": 315
+      "kw": 315,
+      "fuel": "Strom",
+      "electric": true
     },
     "3400": {
       "kwh": 100,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3401": {
       "kwh": 100,
-      "kw": 330
+      "kw": 330,
+      "fuel": "Strom",
+      "electric": true
     },
     "3406": {
       "kwh": 97,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "3410": {
       "kwh": null,
-      "kw": 225
+      "kw": 225,
+      "fuel": "Strom",
+      "electric": true
     },
     "3411": {
       "kwh": null,
-      "kw": 185
+      "kw": 185,
+      "fuel": "Strom",
+      "electric": true
     },
     "3429": {
       "kwh": 40,
-      "kw": 90
+      "kw": 90,
+      "fuel": "Strom",
+      "electric": true
     },
     "3435": {
       "kwh": 42,
-      "kw": 71
+      "kw": 71,
+      "fuel": "Strom",
+      "electric": true
     },
     "3436": {
       "kwh": 49,
-      "kw": 85
+      "kw": 85,
+      "fuel": "Strom",
+      "electric": true
     },
     "3459": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3484": {
       "kwh": 76,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3485": {
       "kwh": null,
@@ -4274,59 +4779,93 @@
     },
     "3487": {
       "kwh": null,
-      "kw": 157
+      "kw": 157,
+      "fuel": "Strom",
+      "electric": true
     },
     "3488": {
       "kwh": null,
-      "kw": 124
+      "kw": 124,
+      "fuel": "Strom",
+      "electric": true
     },
     "3489": {
       "kwh": null,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "3493": {
+      "kwh": 50,
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3503": {
       "kwh": null,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "3504": {
       "kwh": null,
-      "kw": 300
+      "kw": 300,
+      "fuel": "Strom",
+      "electric": true
     },
     "3505": {
       "kwh": null,
-      "kw": 400
+      "kw": 400,
+      "fuel": "Strom",
+      "electric": true
     },
     "3506": {
       "kwh": null,
-      "kw": 485
+      "kw": 485,
+      "fuel": "Strom",
+      "electric": true
     },
     "3514": {
       "kwh": null,
-      "kw": 448
+      "kw": 448,
+      "fuel": "Strom",
+      "electric": true
     },
     "3548": {
       "kwh": 50,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3549": {
       "kwh": 50,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3559": {
       "kwh": null,
-      "kw": 185
+      "kw": 185,
+      "fuel": "Strom",
+      "electric": true
     },
     "3560": {
       "kwh": null,
-      "kw": 225
+      "kw": 225,
+      "fuel": "Strom",
+      "electric": true
     },
     "3561": {
       "kwh": null,
-      "kw": 315
+      "kw": 315,
+      "fuel": "Strom",
+      "electric": true
     },
     "3562": {
       "kwh": null,
-      "kw": 360
+      "kw": 360,
+      "fuel": "Strom",
+      "electric": true
     },
     "3563": {
       "kwh": 89,
@@ -4370,35 +4909,51 @@
     },
     "3609": {
       "kwh": null,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "3626": {
       "kwh": 64,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3627": {
       "kwh": 64,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3628": {
       "kwh": 64,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3629": {
       "kwh": 64,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3630": {
       "kwh": 64,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3631": {
       "kwh": 64,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3647": {
-      "kwh": null,
-      "kw": 190
+      "kwh": 78,
+      "kw": 190,
+      "fuel": "Strom",
+      "electric": true
     },
     "3648": {
       "kwh": null,
@@ -4406,203 +4961,309 @@
     },
     "3649": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3650": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3651": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3652": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3654": {
       "kwh": 37,
-      "kw": 70
+      "kw": 70,
+      "fuel": "Strom",
+      "electric": true
     },
     "3655": {
       "kwh": 69,
-      "kw": 160
+      "kw": 165,
+      "fuel": "Strom",
+      "electric": true
     },
     "3656": {
       "kwh": 28,
-      "kw": 160
+      "kw": 162,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "3657": {
       "kwh": 40,
-      "kw": 90
+      "kw": 90,
+      "fuel": "Strom",
+      "electric": true
     },
     "3658": {
       "kwh": 52,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Strom",
+      "electric": true
     },
     "3664": {
       "kwh": 82,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3671": {
       "kwh": null,
-      "kw": 245
+      "kw": 245,
+      "fuel": "Strom",
+      "electric": true
     },
     "3674": {
       "kwh": 82,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3675": {
       "kwh": 82,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "3679": {
       "kwh": 58,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "3681": {
+      "kwh": null,
+      "kw": 442,
+      "fuel": "Strom",
+      "electric": true
     },
     "3687": {
       "kwh": 99,
-      "kw": 374
+      "kw": 374,
+      "fuel": "Strom",
+      "electric": true
     },
     "3689": {
       "kwh": null,
-      "kw": 81
+      "kw": 81,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3690": {
       "kwh": null,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "3710": {
       "kwh": 73,
-      "kw": 239
+      "kw": 239,
+      "fuel": "Strom",
+      "electric": true
     },
     "3711": {
       "kwh": null,
-      "kw": 175
+      "kw": 175,
+      "fuel": "Strom",
+      "electric": true
     },
     "3712": {
       "kwh": null,
-      "kw": 207
+      "kw": 207,
+      "fuel": "Strom",
+      "electric": true
     },
     "3720": {
       "kwh": 110,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3723": {
       "kwh": 51,
-      "kw": 89
+      "kw": 89,
+      "fuel": "Strom",
+      "electric": true
     },
     "3724": {
       "kwh": 71,
-      "kw": 120
+      "kw": 120,
+      "fuel": "Strom",
+      "electric": true
     },
     "3725": {
       "kwh": 49,
-      "kw": 106
+      "kw": 106,
+      "fuel": "Strom",
+      "electric": true
     },
     "3726": {
       "kwh": 61,
-      "kw": 128
+      "kw": 128,
+      "fuel": "Strom",
+      "electric": true
     },
     "3727": {
       "kwh": 61,
-      "kw": 135
+      "kw": 135,
+      "fuel": "Strom",
+      "electric": true
     },
     "3739": {
       "kwh": null,
-      "kw": 320
+      "kw": 320,
+      "fuel": "Strom",
+      "electric": true
     },
     "3740": {
       "kwh": null,
-      "kw": 300
+      "kw": 300,
+      "fuel": "Strom",
+      "electric": true
     },
     "3741": {
       "kwh": null,
-      "kw": 320
+      "kw": 320,
+      "fuel": "Strom",
+      "electric": true
     },
     "3742": {
       "kwh": null,
-      "kw": 440
+      "kw": 440,
+      "fuel": "Strom",
+      "electric": true
     },
     "3743": {
       "kwh": null,
-      "kw": 515
+      "kw": 515,
+      "fuel": "Strom",
+      "electric": true
     },
     "3744": {
       "kwh": null,
-      "kw": 320
+      "kw": 320,
+      "fuel": "Strom",
+      "electric": true
     },
     "3745": {
       "kwh": null,
-      "kw": 440
+      "kw": 440,
+      "fuel": "Strom",
+      "electric": true
     },
     "3746": {
       "kwh": null,
-      "kw": 515
+      "kw": 515,
+      "fuel": "Strom",
+      "electric": true
     },
     "3747": {
       "kwh": 74,
-      "kw": 157
+      "kw": 157,
+      "fuel": "Strom",
+      "electric": true
     },
     "3748": {
       "kwh": 54,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "3752": {
       "kwh": 58,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3753": {
       "kwh": 81,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3754": {
       "kwh": 81,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3755": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3756": {
       "kwh": null,
-      "kw": 165
+      "kw": 165,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "3757": {
       "kwh": null,
-      "kw": 156
+      "kw": 156,
+      "fuel": "Strom",
+      "electric": true
     },
     "3758": {
       "kwh": null,
-      "kw": 169
+      "kw": 169,
+      "fuel": "Strom",
+      "electric": true
     },
     "3759": {
       "kwh": null,
-      "kw": 180
+      "kw": 180,
+      "fuel": "Strom",
+      "electric": true
     },
     "3760": {
       "kwh": null,
-      "kw": 257
+      "kw": 257,
+      "fuel": "Strom",
+      "electric": true
     },
     "3761": {
       "kwh": null,
-      "kw": 239
+      "kw": 239,
+      "fuel": "Strom",
+      "electric": true
     },
     "3762": {
       "kwh": null,
-      "kw": 239
+      "kw": 239,
+      "fuel": "Strom",
+      "electric": true
     },
     "3803": {
       "kwh": null,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "3806": {
       "kwh": null,
-      "kw": 157
+      "kw": 157,
+      "fuel": "Strom",
+      "electric": true
     },
     "3809": {
       "kwh": 82,
-      "kw": 220
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
     },
     "3811": {
       "kwh": null,
@@ -4610,31 +5271,45 @@
     },
     "3818": {
       "kwh": 30,
-      "kw": 65
+      "kw": 65,
+      "fuel": "Strom",
+      "electric": true
     },
     "3819": {
       "kwh": 43,
-      "kw": 65
+      "kw": 65,
+      "fuel": "Strom",
+      "electric": true
     },
     "3820": {
       "kwh": 43,
-      "kw": 115
+      "kw": 115,
+      "fuel": "Strom",
+      "electric": true
     },
     "3821": {
       "kwh": 60,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3824": {
       "kwh": 61,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "3825": {
       "kwh": 82,
-      "kw": 230
+      "kw": 230,
+      "fuel": "Strom",
+      "electric": true
     },
     "3826": {
       "kwh": 82,
-      "kw": 390
+      "kw": 390,
+      "fuel": "Strom",
+      "electric": true
     },
     "3829": {
       "kwh": 26,
@@ -4642,199 +5317,315 @@
     },
     "3832": {
       "kwh": 82,
-      "kw": 230
+      "kw": 230,
+      "fuel": "Strom",
+      "electric": true
     },
     "3833": {
       "kwh": 82,
-      "kw": 390
+      "kw": 390,
+      "fuel": "Strom",
+      "electric": true
     },
     "3834": {
       "kwh": 91,
-      "kw": 390
+      "kw": 390,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "3835": {
+      "kwh": 108,
+      "kw": 380,
+      "fuel": "Strom",
+      "electric": true
     },
     "3846": {
       "kwh": null,
-      "kw": 83
+      "kw": 83,
+      "fuel": "Strom",
+      "electric": true
     },
     "3849": {
       "kwh": 81,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3860": {
       "kwh": 70,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3861": {
       "kwh": 70,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3862": {
       "kwh": 70,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3863": {
       "kwh": 70,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "3864": {
       "kwh": 70,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3865": {
       "kwh": 70,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "3869": {
       "kwh": 100,
-      "kw": 380
+      "kw": 380,
+      "fuel": "Strom",
+      "electric": true
     },
     "3870": {
       "kwh": null,
-      "kw": 370
+      "kw": 370,
+      "fuel": "Strom",
+      "electric": true
     },
     "3872": {
       "kwh": null,
-      "kw": 74
+      "kw": 74,
+      "fuel": "Benzin",
+      "electric": false
     },
     "3873": {
       "kwh": null,
-      "kw": 207
+      "kw": 207,
+      "fuel": "Strom",
+      "electric": true
     },
     "3909": {
       "kwh": null,
-      "kw": 300
+      "kw": 300,
+      "fuel": "Strom",
+      "electric": true
     },
     "3910": {
       "kwh": null,
-      "kw": 630
+      "kw": 630,
+      "fuel": "Strom",
+      "electric": true
     },
     "3923": {
       "kwh": 56,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3924": {
       "kwh": 67,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3927": {
       "kwh": 81,
-      "kw": 220
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
     },
     "3928": {
       "kwh": 81,
-      "kw": 440
+      "kw": 420,
+      "fuel": "Strom",
+      "electric": true
     },
     "3941": {
       "kwh": null,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "3946": {
       "kwh": 64,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "3948": {
       "kwh": null,
-      "kw": 60
+      "kw": 60,
+      "fuel": "Strom",
+      "electric": true
     },
     "3950": {
       "kwh": null,
-      "kw": 106
+      "kw": 106,
+      "fuel": "Strom",
+      "electric": true
     },
     "3951": {
       "kwh": null,
-      "kw": 128
+      "kw": 128,
+      "fuel": "Strom",
+      "electric": true
     },
     "3952": {
       "kwh": null,
-      "kw": 135
+      "kw": 135,
+      "fuel": "Strom",
+      "electric": true
     },
     "3953": {
       "kwh": 58,
-      "kw": 123
+      "kw": 123,
+      "fuel": "Strom",
+      "electric": true
     },
     "3958": {
       "kwh": 40,
-      "kw": 90
+      "kw": 90,
+      "fuel": "Strom",
+      "electric": true
     },
     "3959": {
       "kwh": 52,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Strom",
+      "electric": true
     },
     "3987": {
       "kwh": null,
-      "kw": 275
+      "kw": 275,
+      "fuel": "Strom",
+      "electric": true
     },
     "3988": {
       "kwh": null,
-      "kw": 375
+      "kw": 375,
+      "fuel": "Strom",
+      "electric": true
     },
     "3989": {
       "kwh": null,
-      "kw": 500
+      "kw": 500,
+      "fuel": "Strom",
+      "electric": true
     },
     "3990": {
       "kwh": 84,
-      "kw": 168
+      "kw": 168,
+      "fuel": "Strom",
+      "electric": true
     },
     "3991": {
       "kwh": 84,
-      "kw": 239
+      "kw": 239,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "3993": {
+      "kwh": 77,
+      "kw": 165,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "3994": {
+      "kwh": 77,
+      "kw": 252,
+      "fuel": "Strom",
+      "electric": true
     },
     "4007": {
       "kwh": 78,
-      "kw": 190
+      "kw": 190,
+      "fuel": "Strom",
+      "electric": true
     },
     "4008": {
       "kwh": 52,
-      "kw": 130
+      "kw": 130,
+      "fuel": "Strom",
+      "electric": true
     },
     "4009": {
       "kwh": 75,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "4017": {
       "kwh": 54,
-      "kw": 207
+      "kw": 207,
+      "fuel": "Strom",
+      "electric": true
     },
     "4018": {
       "kwh": 74,
-      "kw": 230
+      "kw": 230,
+      "fuel": "Strom",
+      "electric": true
     },
     "4019": {
       "kwh": 74,
-      "kw": 330
+      "kw": 330,
+      "fuel": "Strom",
+      "electric": true
     },
     "4020": {
       "kwh": 81,
-      "kw": 195
+      "kw": 195,
+      "fuel": "Strom",
+      "electric": true
     },
     "4026": {
       "kwh": 81,
-      "kw": 225
+      "kw": 225,
+      "fuel": "Strom",
+      "electric": true
     },
     "4027": {
       "kwh": 42,
-      "kw": 108
+      "kw": 108,
+      "fuel": "Strom",
+      "electric": true
     },
     "4028": {
       "kwh": 61,
-      "kw": 99
+      "kw": 99,
+      "fuel": "Strom",
+      "electric": true
     },
     "4045": {
       "kwh": 52,
-      "kw": 155
+      "kw": 155,
+      "fuel": "Strom",
+      "electric": true
     },
     "4046": {
       "kwh": 52,
-      "kw": 166
+      "kw": 166,
+      "fuel": "Strom",
+      "electric": true
     },
     "4047": {
       "kwh": 89,
-      "kw": 295
+      "kw": 295,
+      "fuel": "Strom",
+      "electric": true
     },
     "4048": {
       "kwh": 52,
-      "kw": 130
+      "kw": 130,
+      "fuel": "Strom",
+      "electric": true
     },
     "4050": {
       "kwh": null,
@@ -4846,83 +5637,135 @@
     },
     "4054": {
       "kwh": null,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "4055": {
       "kwh": null,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "4058": {
       "kwh": null,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "4061": {
       "kwh": 61,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "4062": {
       "kwh": 61,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "4063": {
       "kwh": 61,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "4065": {
       "kwh": 58,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "4066": {
       "kwh": 58,
-      "kw": 140
+      "kw": 140,
+      "fuel": "Strom",
+      "electric": true
     },
     "4071": {
       "kwh": 43,
-      "kw": 110
+      "kw": 110,
+      "fuel": "Strom",
+      "electric": true
     },
     "4072": {
       "kwh": 54,
-      "kw": 118
+      "kw": 118,
+      "fuel": "Strom",
+      "electric": true
     },
     "4073": {
       "kwh": 52,
-      "kw": 155
+      "kw": 155,
+      "fuel": "Strom",
+      "electric": true
     },
     "4076": {
       "kwh": null,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "4077": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "4078": {
       "kwh": null,
-      "kw": 220
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
     },
     "4079": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
     },
     "4080": {
       "kwh": null,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "4081": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "4082": {
       "kwh": null,
-      "kw": 220
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
     },
     "4083": {
       "kwh": null,
-      "kw": 250
+      "kw": 250,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "4088": {
+      "kwh": null,
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
+    },
+    "4089": {
+      "kwh": null,
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
     },
     "4090": {
       "kwh": null,
-      "kw": 155
+      "kw": 155,
+      "fuel": "Strom",
+      "electric": true
     },
     "4097": {
       "kwh": 87,
@@ -4942,19 +5785,27 @@
     },
     "4110": {
       "kwh": null,
-      "kw": 107
+      "kw": 107,
+      "fuel": "Benzin",
+      "electric": false
     },
     "4111": {
       "kwh": null,
-      "kw": 169
+      "kw": 169,
+      "fuel": "Strom",
+      "electric": true
     },
     "4112": {
       "kwh": null,
-      "kw": 180
+      "kw": 180,
+      "fuel": "Strom",
+      "electric": true
     },
     "4113": {
       "kwh": null,
-      "kw": 257
+      "kw": 257,
+      "fuel": "Strom",
+      "electric": true
     },
     "4115": {
       "kwh": 77,
@@ -4966,19 +5817,27 @@
     },
     "4119": {
       "kwh": null,
-      "kw": 335
+      "kw": 335,
+      "fuel": "Strom",
+      "electric": true
     },
     "4120": {
       "kwh": null,
-      "kw": 400
+      "kw": 400,
+      "fuel": "Strom",
+      "electric": true
     },
     "4122": {
       "kwh": null,
-      "kw": 335
+      "kw": 335,
+      "fuel": "Strom",
+      "electric": true
     },
     "4123": {
       "kwh": null,
-      "kw": 400
+      "kw": 400,
+      "fuel": "Strom",
+      "electric": true
     },
     "4126": {
       "kwh": null,
@@ -4990,35 +5849,51 @@
     },
     "4134": {
       "kwh": 67,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "4142": {
       "kwh": 51,
-      "kw": 89
+      "kw": 89,
+      "fuel": "Strom",
+      "electric": true
     },
     "4143": {
       "kwh": 51,
-      "kw": 89
+      "kw": 89,
+      "fuel": "Strom",
+      "electric": true
     },
     "4144": {
       "kwh": 71,
-      "kw": 120
+      "kw": 120,
+      "fuel": "Strom",
+      "electric": true
     },
     "4145": {
       "kwh": 71,
-      "kw": 120
+      "kw": 120,
+      "fuel": "Strom",
+      "electric": true
     },
     "4146": {
       "kwh": null,
-      "kw": 150
+      "kw": 150,
+      "fuel": "Strom",
+      "electric": true
     },
     "4147": {
       "kwh": null,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "4148": {
       "kwh": null,
-      "kw": 220
+      "kw": 220,
+      "fuel": "Strom",
+      "electric": true
     },
     "4149": {
       "kwh": null,
@@ -5026,31 +5901,45 @@
     },
     "4151": {
       "kwh": 38,
-      "kw": 130
+      "kw": 130,
+      "fuel": "Strom",
+      "electric": true
     },
     "4152": {
       "kwh": 53,
-      "kw": 145
+      "kw": 145,
+      "fuel": "Strom",
+      "electric": true
     },
     "4153": {
       "kwh": null,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "4154": {
       "kwh": null,
-      "kw": 165
+      "kw": 165,
+      "fuel": "Benzin, Strom",
+      "electric": false
     },
     "4155": {
       "kwh": 96,
-      "kw": 170
+      "kw": 170,
+      "fuel": "Strom",
+      "electric": true
     },
     "4156": {
       "kwh": 96,
-      "kw": 276
+      "kw": 276,
+      "fuel": "Strom",
+      "electric": true
     },
     "4162": {
       "kwh": null,
-      "kw": 155
+      "kw": 155,
+      "fuel": "Strom",
+      "electric": true
     },
     "4163": {
       "kwh": null,
@@ -5090,15 +5979,21 @@
     },
     "4172": {
       "kwh": 37,
-      "kw": 99
+      "kw": 99,
+      "fuel": "Strom",
+      "electric": true
     },
     "4173": {
       "kwh": 37,
-      "kw": 99
+      "kw": 99,
+      "fuel": "Strom",
+      "electric": true
     },
     "4177": {
       "kwh": 81,
-      "kw": 215
+      "kw": 215,
+      "fuel": "Strom",
+      "electric": true
     },
     "4185": {
       "kwh": 60,
@@ -5110,7 +6005,9 @@
     },
     "4192": {
       "kwh": 37,
-      "kw": 85
+      "kw": 85,
+      "fuel": "Strom",
+      "electric": true
     },
     "4198": {
       "kwh": null,
@@ -5118,19 +6015,27 @@
     },
     "4202": {
       "kwh": 81,
-      "kw": 195
+      "kw": 195,
+      "fuel": "Strom",
+      "electric": true
     },
     "4203": {
       "kwh": 51,
-      "kw": 89
+      "kw": 89,
+      "fuel": "Strom",
+      "electric": true
     },
     "4204": {
       "kwh": 71,
-      "kw": 120
+      "kw": 120,
+      "fuel": "Strom",
+      "electric": true
     },
     "4205": {
       "kwh": null,
-      "kw": 74
+      "kw": 74,
+      "fuel": "Benzin",
+      "electric": false
     },
     "4207": {
       "kwh": 84,
@@ -5146,7 +6051,9 @@
     },
     "4210": {
       "kwh": null,
-      "kw": 207
+      "kw": 207,
+      "fuel": "Strom",
+      "electric": true
     },
     "4222": {
       "kwh": null,
@@ -5182,11 +6089,15 @@
     },
     "4240": {
       "kwh": null,
-      "kw": 60
+      "kw": 60,
+      "fuel": "Strom",
+      "electric": true
     },
     "4241": {
       "kwh": null,
-      "kw": 99
+      "kw": 99,
+      "fuel": "Strom",
+      "electric": true
     },
     "4245": {
       "kwh": 35,
@@ -5226,7 +6137,9 @@
     },
     "4258": {
       "kwh": null,
-      "kw": 280
+      "kw": 280,
+      "fuel": "Strom",
+      "electric": true
     },
     "4259": {
       "kwh": null,
@@ -5242,7 +6155,9 @@
     },
     "4262": {
       "kwh": 52,
-      "kw": 166
+      "kw": 166,
+      "fuel": "Strom",
+      "electric": true
     },
     "4263": {
       "kwh": null,
@@ -5282,35 +6197,51 @@
     },
     "4283": {
       "kwh": null,
-      "kw": 99
+      "kw": 99,
+      "fuel": "Strom",
+      "electric": true
     },
     "4284": {
       "kwh": 84,
-      "kw": 448
+      "kw": 448,
+      "fuel": "Strom",
+      "electric": true
     },
     "4291": {
       "kwh": 70,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "4292": {
       "kwh": 70,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "4293": {
       "kwh": 70,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     },
     "4294": {
       "kwh": 70,
-      "kw": 100
+      "kw": 100,
+      "fuel": "Strom",
+      "electric": true
     },
     "4295": {
       "kwh": 70,
-      "kw": 160
+      "kw": 160,
+      "fuel": "Strom",
+      "electric": true
     },
     "4296": {
       "kwh": 70,
-      "kw": 210
+      "kw": 210,
+      "fuel": "Strom",
+      "electric": true
     }
   },
   "lineData": {
@@ -5915,7 +6846,7 @@
       }
     },
     "40": {
-      "fetchedAt": "2026-10-20T09:59:31.136Z",
+      "fetchedAt": "2026-10-22T13:59:59.825Z",
       "data": {
         "byMotor": {
           "310": {
@@ -6287,7 +7218,7 @@
       }
     },
     "100": {
-      "fetchedAt": "2026-10-20T09:59:12.367Z",
+      "fetchedAt": "2026-10-22T13:59:55.565Z",
       "data": {
         "byMotor": {
           "353": {
@@ -6346,9 +7277,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "353",
               "tariffId": "13",
-              "endpreis": "29.303,09",
-              "kaufpreis": "28.318,09",
-              "ersparnis": "14.271,91 (33,51)",
+              "endpreis": "28.882,19",
+              "kaufpreis": "27.892,19",
+              "ersparnis": "14.697,81 (34,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -11337,7 +12268,7 @@
       }
     },
     "1245": {
-      "fetchedAt": "2026-10-20T09:59:22.473Z",
+      "fetchedAt": "2026-10-22T13:59:51.955Z",
       "data": {
         "byMotor": {
           "2321": {
@@ -13628,6 +14559,71 @@
         }
       }
     },
+    "1583": {
+      "fetchedAt": "2026-10-22T13:59:53.231Z",
+      "data": {
+        "byMotor": {
+          "2660": {
+            "motorId": "2660",
+            "tariffId": "38",
+            "endpreis": "54.308,30",
+            "kaufpreis": "52.809,30",
+            "ersparnis": "5.930,70 (10,10)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "2661": {
+            "motorId": "2661",
+            "tariffId": "38",
+            "endpreis": "56.009,30",
+            "kaufpreis": "54.510,30",
+            "ersparnis": "6.029,70 (9,96)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2660": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2660",
+              "tariffId": "39",
+              "endpreis": "52.783,90",
+              "kaufpreis": "51.284,90",
+              "ersparnis": "7.455,10 (12,69)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2660",
+              "tariffId": "38",
+              "endpreis": "54.308,30",
+              "kaufpreis": "52.809,30",
+              "ersparnis": "5.930,70 (10,10)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "2661": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2661",
+              "tariffId": "39",
+              "endpreis": "54.376,90",
+              "kaufpreis": "52.877,90",
+              "ersparnis": "7.662,10 (12,66)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2661",
+              "tariffId": "38",
+              "endpreis": "56.009,30",
+              "kaufpreis": "54.510,30",
+              "ersparnis": "6.029,70 (9,96)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
     "1616": {
       "fetchedAt": "2026-09-07T10:13:38.712Z",
       "data": {
@@ -15050,7 +16046,7 @@
       }
     },
     "1848": {
-      "fetchedAt": "2026-10-20T09:59:01.590Z",
+      "fetchedAt": "2026-10-22T13:59:48.130Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -15139,9 +16135,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3120",
               "tariffId": "13",
-              "endpreis": "20.387,20",
-              "kaufpreis": "19.397,20",
-              "ersparnis": "6.642,80 (25,51)",
+              "endpreis": "20.126,80",
+              "kaufpreis": "19.136,80",
+              "ersparnis": "6.903,20 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -15169,9 +16165,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3121",
               "tariffId": "13",
-              "endpreis": "21.728,02",
-              "kaufpreis": "20.738,02",
-              "ersparnis": "7.101,98 (25,51)",
+              "endpreis": "21.449,62",
+              "kaufpreis": "20.459,62",
+              "ersparnis": "7.380,38 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -15229,9 +16225,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "4205",
               "tariffId": "13",
-              "endpreis": "18.487,70",
-              "kaufpreis": "17.497,70",
-              "ersparnis": "5.992,30 (25,51)",
+              "endpreis": "18.252,80",
+              "kaufpreis": "17.262,80",
+              "ersparnis": "6.227,20 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -15249,7 +16245,7 @@
       }
     },
     "1849": {
-      "fetchedAt": "2026-10-20T09:59:01.976Z",
+      "fetchedAt": "2026-10-22T13:59:48.467Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -15338,9 +16334,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3120",
               "tariffId": "13",
-              "endpreis": "21.914,24",
-              "kaufpreis": "20.924,24",
-              "ersparnis": "7.165,76 (25,51)",
+              "endpreis": "21.633,34",
+              "kaufpreis": "20.643,34",
+              "ersparnis": "7.446,66 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -15368,9 +16364,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3121",
               "tariffId": "13",
-              "endpreis": "23.255,06",
-              "kaufpreis": "22.265,06",
-              "ersparnis": "7.624,94 (25,51)",
+              "endpreis": "22.956,16",
+              "kaufpreis": "21.966,16",
+              "ersparnis": "7.923,84 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -15428,9 +16424,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "4205",
               "tariffId": "13",
-              "endpreis": "20.014,75",
-              "kaufpreis": "19.024,75",
-              "ersparnis": "6.515,25 (25,51)",
+              "endpreis": "19.759,35",
+              "kaufpreis": "18.769,35",
+              "ersparnis": "6.770,65 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -17892,7 +18888,7 @@
       }
     },
     "2022": {
-      "fetchedAt": "2026-10-20T09:59:11.996Z",
+      "fetchedAt": "2026-10-22T13:59:55.271Z",
       "data": {
         "byMotor": {
           "353": {
@@ -17942,18 +18938,18 @@
               "tag": "für Geschäftskunden",
               "motorId": "353",
               "tariffId": "12",
-              "endpreis": "26.515,51",
-              "kaufpreis": "25.525,51",
-              "ersparnis": "12.864,49 (33,51)",
+              "endpreis": "26.131,61",
+              "kaufpreis": "25.141,61",
+              "ersparnis": "13.248,39 (34,51)",
               "lieferzeit": "2-4 Monate"
             },
             {
               "tag": "mit Kurzzulassung",
               "motorId": "353",
               "tariffId": "13",
-              "endpreis": "26.515,51",
-              "kaufpreis": "25.525,51",
-              "ersparnis": "12.864,49 (33,51)",
+              "endpreis": "26.131,61",
+              "kaufpreis": "25.141,61",
+              "ersparnis": "13.248,39 (34,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -19149,7 +20145,7 @@
       }
     },
     "2083": {
-      "fetchedAt": "2026-10-20T09:59:26.973Z",
+      "fetchedAt": "2026-10-22T14:00:00.587Z",
       "data": {
         "byMotor": {
           "3459": {
@@ -21297,7 +22293,7 @@
       }
     },
     "2270": {
-      "fetchedAt": "2026-10-20T09:59:05.329Z",
+      "fetchedAt": "2026-10-22T13:59:50.236Z",
       "data": {
         "byMotor": {
           "3655": {
@@ -21362,7 +22358,7 @@
       }
     },
     "2271": {
-      "fetchedAt": "2026-10-20T09:59:05.759Z",
+      "fetchedAt": "2026-10-22T13:59:50.540Z",
       "data": {
         "byMotor": {
           "3655": {
@@ -22028,7 +23024,7 @@
       }
     },
     "2315": {
-      "fetchedAt": "2026-10-21T10:03:46.166Z",
+      "fetchedAt": "2026-10-22T13:59:49.497Z",
       "data": {
         "byMotor": {
           "3689": {
@@ -22307,7 +23303,7 @@
       }
     },
     "2334": {
-      "fetchedAt": "2026-10-20T09:59:12.667Z",
+      "fetchedAt": "2026-10-22T13:59:55.847Z",
       "data": {
         "byMotor": {
           "353": {
@@ -22366,9 +23362,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "353",
               "tariffId": "13",
-              "endpreis": "31.430,77",
-              "kaufpreis": "30.445,77",
-              "ersparnis": "15.344,23 (33,51)",
+              "endpreis": "30.977,87",
+              "kaufpreis": "29.987,87",
+              "ersparnis": "15.802,13 (34,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -24154,7 +25150,7 @@
       }
     },
     "2384": {
-      "fetchedAt": "2026-10-20T09:59:30.101Z",
+      "fetchedAt": "2026-10-22T14:00:01.730Z",
       "data": {
         "byMotor": {
           "3755": {
@@ -24597,7 +25593,7 @@
       }
     },
     "2444": {
-      "fetchedAt": "2026-10-10T14:48:06.792Z",
+      "fetchedAt": "2026-10-22T13:59:54.539Z",
       "data": {
         "byMotor": {
           "3806": {
@@ -27579,7 +28575,7 @@
       }
     },
     "2520": {
-      "fetchedAt": "2026-10-20T09:59:02.381Z",
+      "fetchedAt": "2026-10-22T13:59:48.745Z",
       "data": {
         "byMotor": {
           "3119": {
@@ -27668,9 +28664,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3120",
               "tariffId": "13",
-              "endpreis": "22.621,90",
-              "kaufpreis": "21.631,90",
-              "ersparnis": "7.408,10 (25,51)",
+              "endpreis": "22.331,50",
+              "kaufpreis": "21.341,50",
+              "ersparnis": "7.698,50 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -27698,9 +28694,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "3121",
               "tariffId": "13",
-              "endpreis": "23.962,72",
-              "kaufpreis": "22.972,72",
-              "ersparnis": "7.867,28 (25,51)",
+              "endpreis": "23.654,32",
+              "kaufpreis": "22.664,32",
+              "ersparnis": "8.175,68 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -27758,9 +28754,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "4205",
               "tariffId": "13",
-              "endpreis": "20.722,40",
-              "kaufpreis": "19.732,40",
-              "ersparnis": "6.757,60 (25,51)",
+              "endpreis": "20.457,50",
+              "kaufpreis": "19.467,50",
+              "ersparnis": "7.022,50 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -28136,7 +29132,7 @@
       }
     },
     "2560": {
-      "fetchedAt": "2026-10-20T09:58:42.542Z",
+      "fetchedAt": "2026-10-22T13:59:45.210Z",
       "data": {
         "byMotor": {
           "3923": {
@@ -28201,7 +29197,7 @@
       }
     },
     "2562": {
-      "fetchedAt": "2026-10-20T09:58:42.834Z",
+      "fetchedAt": "2026-10-22T13:59:45.575Z",
       "data": {
         "byMotor": {
           "3924": {
@@ -29322,6 +30318,98 @@
         }
       }
     },
+    "2659": {
+      "fetchedAt": "2026-10-22T13:59:46.697Z",
+      "data": {
+        "byMotor": {
+          "3993": {
+            "motorId": "3993",
+            "tariffId": "38",
+            "endpreis": "39.139,75",
+            "kaufpreis": "37.840,75",
+            "ersparnis": "8.149,25 (17,72)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "3993": [
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3993",
+              "tariffId": "38",
+              "endpreis": "39.139,75",
+              "kaufpreis": "37.840,75",
+              "ersparnis": "8.149,25 (17,72)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3993",
+              "tariffId": "144",
+              "endpreis": "41.300,15",
+              "kaufpreis": "40.001,15",
+              "ersparnis": "5.988,85 (13,02)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3993",
+              "tariffId": "39",
+              "endpreis": "41.300,15",
+              "kaufpreis": "40.001,15",
+              "ersparnis": "5.988,85 (13,02)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2660": {
+      "fetchedAt": "2026-10-22T13:59:47.182Z",
+      "data": {
+        "byMotor": {
+          "3994": {
+            "motorId": "3994",
+            "tariffId": "38",
+            "endpreis": "46.539,75",
+            "kaufpreis": "45.240,75",
+            "ersparnis": "8.749,25 (16,21)",
+            "lieferzeit": "3-5 Monate"
+          }
+        },
+        "offers": {
+          "3994": [
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3994",
+              "tariffId": "38",
+              "endpreis": "46.539,75",
+              "kaufpreis": "45.240,75",
+              "ersparnis": "8.749,25 (16,21)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3994",
+              "tariffId": "144",
+              "endpreis": "48.380,15",
+              "kaufpreis": "47.081,15",
+              "ersparnis": "6.908,85 (12,80)",
+              "lieferzeit": "3-5 Monate"
+            },
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3994",
+              "tariffId": "39",
+              "endpreis": "48.380,15",
+              "kaufpreis": "47.081,15",
+              "ersparnis": "6.908,85 (12,80)",
+              "lieferzeit": "3-5 Monate"
+            }
+          ]
+        }
+      }
+    },
     "2662": {
       "fetchedAt": "2026-10-20T09:59:05.444Z",
       "data": {
@@ -29753,7 +30841,7 @@
       }
     },
     "2699": {
-      "fetchedAt": "2026-10-20T09:59:18.731Z",
+      "fetchedAt": "2026-10-22T13:59:56.831Z",
       "data": {
         "byMotor": {
           "3214": {
@@ -29838,7 +30926,7 @@
       }
     },
     "2702": {
-      "fetchedAt": "2026-10-20T09:59:18.459Z",
+      "fetchedAt": "2026-10-22T13:59:56.525Z",
       "data": {
         "byMotor": {
           "4017": {
@@ -31209,7 +32297,7 @@
       }
     },
     "2758": {
-      "fetchedAt": "2026-10-20T09:58:43.190Z",
+      "fetchedAt": "2026-10-22T13:59:45.849Z",
       "data": {
         "byMotor": {
           "3924": {
@@ -31928,7 +33016,7 @@
       }
     },
     "2808": {
-      "fetchedAt": "2026-10-20T09:59:24.897Z",
+      "fetchedAt": "2026-10-22T13:59:59.150Z",
       "data": {
         "byMotor": {
           "4110": {
@@ -32510,7 +33598,7 @@
       }
     },
     "2860": {
-      "fetchedAt": "2026-10-20T09:59:25.232Z",
+      "fetchedAt": "2026-10-22T13:59:57.576Z",
       "data": {
         "byMotor": {
           "2322": {
@@ -32671,7 +33759,7 @@
       }
     },
     "2861": {
-      "fetchedAt": "2026-10-20T09:59:25.563Z",
+      "fetchedAt": "2026-10-22T13:59:57.889Z",
       "data": {
         "byMotor": {
           "2322": {
@@ -32832,7 +33920,7 @@
       }
     },
     "2862": {
-      "fetchedAt": "2026-10-20T09:59:25.845Z",
+      "fetchedAt": "2026-10-22T13:59:58.160Z",
       "data": {
         "byMotor": {
           "4156": {
@@ -32879,7 +33967,7 @@
       }
     },
     "2863": {
-      "fetchedAt": "2026-10-20T09:59:26.136Z",
+      "fetchedAt": "2026-10-22T13:59:58.437Z",
       "data": {
         "byMotor": {
           "4156": {
@@ -33594,7 +34682,7 @@
       }
     },
     "2903": {
-      "fetchedAt": "2026-10-20T09:59:01.051Z",
+      "fetchedAt": "2026-10-22T13:59:47.813Z",
       "data": {
         "byMotor": {
           "4205": {
@@ -33621,9 +34709,9 @@
               "tag": "mit Kurzzulassung",
               "motorId": "4205",
               "tariffId": "13",
-              "endpreis": "17.370,35",
-              "kaufpreis": "16.380,35",
-              "ersparnis": "5.609,65 (25,51)",
+              "endpreis": "17.150,45",
+              "kaufpreis": "16.160,45",
+              "ersparnis": "5.829,55 (26,51)",
               "lieferzeit": "2-4 Monate",
               "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 6 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
             },
@@ -34571,6 +35659,210 @@
         }
       }
     },
+    "2928": {
+      "fetchedAt": "2026-10-22T13:59:52.696Z",
+      "data": {
+        "byMotor": {
+          "2660": {
+            "motorId": "2660",
+            "tariffId": "38",
+            "endpreis": "46.266,35",
+            "kaufpreis": "44.767,35",
+            "ersparnis": "5.462,65 (10,88)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3493": {
+            "motorId": "3493",
+            "tariffId": "38",
+            "endpreis": "40.596,35",
+            "kaufpreis": "39.097,35",
+            "ersparnis": "5.132,65 (11,60)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2660": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2660",
+              "tariffId": "39",
+              "endpreis": "45.252,55",
+              "kaufpreis": "43.753,55",
+              "ersparnis": "6.476,45 (12,89)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2660",
+              "tariffId": "38",
+              "endpreis": "46.266,35",
+              "kaufpreis": "44.767,35",
+              "ersparnis": "5.462,65 (10,88)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3493": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3493",
+              "tariffId": "39",
+              "endpreis": "39.942,55",
+              "kaufpreis": "38.443,55",
+              "ersparnis": "5.786,45 (13,08)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3493",
+              "tariffId": "38",
+              "endpreis": "40.596,35",
+              "kaufpreis": "39.097,35",
+              "ersparnis": "5.132,65 (11,60)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2929": {
+      "fetchedAt": "2026-10-22T13:59:52.966Z",
+      "data": {
+        "byMotor": {
+          "2661": {
+            "motorId": "2661",
+            "tariffId": "38",
+            "endpreis": "53.793,27",
+            "kaufpreis": "52.294,27",
+            "ersparnis": "5.900,73 (10,14)",
+            "lieferzeit": "3-4 Monate"
+          },
+          "3493": {
+            "motorId": "3493",
+            "tariffId": "38",
+            "endpreis": "46.422,27",
+            "kaufpreis": "44.923,27",
+            "ersparnis": "5.471,73 (10,86)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2661": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2661",
+              "tariffId": "39",
+              "endpreis": "52.301,57",
+              "kaufpreis": "50.802,57",
+              "ersparnis": "7.392,43 (12,70)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2661",
+              "tariffId": "38",
+              "endpreis": "53.793,27",
+              "kaufpreis": "52.294,27",
+              "ersparnis": "5.900,73 (10,14)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ],
+          "3493": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "3493",
+              "tariffId": "39",
+              "endpreis": "45.398,57",
+              "kaufpreis": "43.899,57",
+              "ersparnis": "6.495,43 (12,89)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "3493",
+              "tariffId": "38",
+              "endpreis": "46.422,27",
+              "kaufpreis": "44.923,27",
+              "ersparnis": "5.471,73 (10,86)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2930": {
+      "fetchedAt": "2026-10-22T13:59:53.788Z",
+      "data": {
+        "byMotor": {
+          "2660": {
+            "motorId": "2660",
+            "tariffId": "38",
+            "endpreis": "62.709,35",
+            "kaufpreis": "61.210,35",
+            "ersparnis": "6.419,65 (9,49)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2660": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2660",
+              "tariffId": "39",
+              "endpreis": "60.651,55",
+              "kaufpreis": "59.152,55",
+              "ersparnis": "8.477,45 (12,54)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2660",
+              "tariffId": "38",
+              "endpreis": "62.709,35",
+              "kaufpreis": "61.210,35",
+              "ersparnis": "6.419,65 (9,49)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
+    "2931": {
+      "fetchedAt": "2026-10-22T13:59:53.502Z",
+      "data": {
+        "byMotor": {
+          "2660": {
+            "motorId": "2660",
+            "tariffId": "38",
+            "endpreis": "61.764,35",
+            "kaufpreis": "60.265,35",
+            "ersparnis": "6.364,65 (9,55)",
+            "lieferzeit": "3-4 Monate"
+          }
+        },
+        "offers": {
+          "2660": [
+            {
+              "tag": "für Geschäftskunden",
+              "motorId": "2660",
+              "tariffId": "39",
+              "endpreis": "59.766,55",
+              "kaufpreis": "58.267,55",
+              "ersparnis": "8.362,45 (12,55)",
+              "lieferzeit": "3-4 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "2660",
+              "tariffId": "38",
+              "endpreis": "61.764,35",
+              "kaufpreis": "60.265,35",
+              "ersparnis": "6.364,65 (9,55)",
+              "lieferzeit": "3-4 Monate"
+            }
+          ]
+        }
+      }
+    },
     "2938": {
       "fetchedAt": "2026-10-20T09:59:03.513Z",
       "data": {
@@ -35194,7 +36486,7 @@
       }
     },
     "2969": {
-      "fetchedAt": "2026-10-20T09:59:01.776Z",
+      "fetchedAt": "2026-10-22T13:59:51.281Z",
       "data": {
         "byMotor": {
           "4258": {

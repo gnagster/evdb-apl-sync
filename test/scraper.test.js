@@ -181,12 +181,12 @@ const ps = APLScraper.parseMotorSpecs(
 );
 assert.deepStrictEqual(
   ps,
-  { '244': { kwh: 63, kw: 160 }, '243': { kwh: 87, kw: 178 }, '242': { kwh: 87, kw: 225 } },
+  { '244': { kwh: 63, kw: 160, fuel: '', electric: false }, '243': { kwh: 87, kw: 178, fuel: '', electric: false }, '242': { kwh: 87, kw: 225, fuel: '', electric: false } },
   'parseMotorSpecs: id + kWh + kW from data attributes'
 );
 assert.deepStrictEqual(
   APLScraper.parseMotorSpecs('<div class="item-motor" data-id="9" data-sortkw="70" data-sortmotor="">'),
-  { '9': { kwh: null, kw: 70 } },
+  { '9': { kwh: null, kw: 70, fuel: '', electric: false } },
   'parseMotorSpecs: missing kWh stays null'
 );
 
@@ -214,3 +214,19 @@ assert.strictEqual(selectEndpreis(noOffers, 'privatkunden'), '30.000,00', 'no of
 assert.strictEqual(selectEndpreis(null, 'privatkunden'), null, 'null entry -> null');
 
 console.log('PASS: selectEndpreis cross-fallback ok');
+
+// Fuel is motor-specific: mentioning Strom alongside a combustion fuel is a hybrid.
+for (const fuel of ['Strom', 'Benzin', 'Diesel', 'Benzin Hybrid', 'Benzin Hybrid, Strom', 'Diesel Hybrid, Strom', '', 'Wasserstoff']) {
+  const html = '<div class="item-motor kW164 sprit22 sprit29" data-id="2547" data-sortkw="164" data-sortmotor="Plug-In-Hybrid 2.0 VVT-i Aut."><h2>Motor</h2><div class="f13 mb20">' + fuel + ' | 164 kW (223 PS)</div>';
+  const spec = APLScraper.parseMotorSpecs(html)['2547'];
+  assert.equal(spec.fuel, fuel);
+  assert.equal(spec.electric, fuel === 'Strom', fuel || 'missing fuel must fail closed');
+}
+const mixed = APLScraper.parseMotorSpecs('<div class="item-motor" data-id="1"><div class="f13 mb20">Benzin Hybrid, Strom | 164 kW</div><div class="item-motor" data-id="2"><div class="f13 mb20"> Strom&nbsp; | 160 kW</div>');
+assert.equal(mixed['1'].electric, false);
+assert.equal(mixed['2'].electric, true);
+
+const chr = APLScraper.parseMotorSpecs(fs.readFileSync(path.join(__dirname, 'fixtures/apl-motors-toyota-c-hr.html'), 'utf8'));
+assert.deepStrictEqual(Object.keys(chr), ['2544', '2545', '2547']);
+assert(Object.values(chr).every(spec => spec.electric === false), 'real C-HR hybrids must never become EV candidates');
+assert.equal(chr['2547'].fuel, 'Benzin Hybrid, Strom');

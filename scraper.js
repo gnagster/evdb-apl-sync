@@ -130,7 +130,7 @@
       return out;
     },
 
-    // detail page -> { [motorId]: { kwh, kw } } from the item-motor data
+    // detail page -> { [motorId]: { kwh, kw, fuel, electric } } from item-motor data
     // attributes (data-sortmotor="63kWh" | "e-4ORCE 87 kWh", data-sortkw="160").
     // Unknown values stay null. Specs are static per motor id, so the pipeline
     // caches them permanently. The preisliste POST only carries motor ids, so
@@ -138,14 +138,17 @@
     parseMotorSpecs(html) {
       const out = {};
       // class is "item-motor  kW160 sprit29 clearfix" - extra classes allowed.
-      for (const m of String(html).matchAll(/<div class="item-motor(?:[^"]*)"[^>]*>/g)) {
-        const el = m[0];
+      for (const m of String(html).matchAll(/<div class="item-motor(?:[^"]*)"[^>]*>([\s\S]*?)(?=<div class="item-motor|$)/g)) {
+        const el = m[0].slice(0, m[0].indexOf('>') + 1);
         const id = (el.match(/data-id="(\d+)"/) || [])[1];
         if (!id) continue;
         const kw = parseFloat((el.match(/data-sortkw="([^"]*)"/) || [])[1] || '');
         const motor = (el.match(/data-sortmotor="([^"]*)"/) || [])[1] || '';
         const kwh = parseFloat((motor.match(/(\d+(?:[.,]\d+)?)\s*kWh/i) || [])[1] || '');
-        out[id] = { kwh: Number.isFinite(kwh) ? kwh : null, kw: Number.isFinite(kw) ? kw : null };
+        const fuel = (m[1].match(/<div class="f13 mb20"[^>]*>([\s\S]*?)<\/div>/)?.[1] || '')
+          .replace(/<[^>]+>/g, ' ').split('|')[0].replace(/&nbsp;|&#160;/gi, ' ').replace(/\s+/g, ' ').trim();
+        out[id] = { kwh: Number.isFinite(kwh) ? kwh : null, kw: Number.isFinite(kw) ? kw : null,
+          fuel, electric: /^Strom$/i.test(fuel) };
       }
       return out;
     },

@@ -79,8 +79,8 @@ const expect = {
   'Ford|e-Tourneo Courier': 'e-tourneo-courier',
   'Ford|e-Tourneo Custom L1 210 kW RWD': 'tourneo-custom',
   'Toyota|bZ4X Touring AWD 74.7 kWh': 'bz4x',
-  'Toyota|C-HR+ 77 kWh': 'c-hr',
-  'Toyota|Proace Verso L 75 kWh': 'proace-verso',
+  'Toyota|C-HR+ 77 kWh': 'c-hr-',
+  'Toyota|Proace Verso L 75 kWh': 'proace-verso-electric',
   'Zeekr|X Long Range RWD': 'x',
   'Zeekr|7GT Long Range RWD': '7gt',
   'Mini|Cooper E': 'cooper-electric',
@@ -215,3 +215,12 @@ assertVariant('EX40 Single Motor', V(['Volvo EX40 Essential', 'Volvo EX40 Core',
 assertVariant('PV5 Passenger 51.5 kWh', V(['Kia PV5 Passenger Essential', 'Kia PV5 Passenger Plus']), null); // battery-numbered
 assertVariant('Enyaq 85', V(['Skoda Enyaq Essence', 'Skoda Enyaq RS']), null); // battery-numbered
 console.log('matchVariant: ok');
+
+const fuelMapping = APLMatcher.buildMapping([
+  {make:'Toyota',model:'C-HR+ 77 kWh'},
+  {make:'Toyota',model:'Proace Verso L 75 kWh'},
+  {make:'Citroën',model:'C5 Aircross Long Range'}
+], aplSlugs).mapping;
+assert.equal(fuelMapping['Toyota|C-HR+ 77 kWh'], 'c-hr-');
+assert.equal(fuelMapping['Toyota|Proace Verso L 75 kWh'], 'proace-verso-electric');
+assert.equal(fuelMapping['Citroën|C5 Aircross Long Range'], 'e-c5-aircross');

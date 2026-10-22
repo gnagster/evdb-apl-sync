@@ -22,6 +22,8 @@
     'mercedes-benz': { 'c-400': 'c-klasse-limousine', c: 'c-klasse-limousine' },
     nissan: { 'townstar-passenger': 'townstar-kombi' },
     ds: { 3: 'ds3' },
+    toyota: { 'c-hr': 'c-hr-', 'proace-verso': 'proace-verso-electric', 'proace-verso-l': 'proace-verso-electric', 'proace-verso-m': 'proace-verso-electric' },
+    citroen: { 'c5-aircross': 'e-c5-aircross' },
   };
 
   function slugify(s) {

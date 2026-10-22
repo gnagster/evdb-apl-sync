@@ -36,7 +36,12 @@ committet `apl-prices.json` ins Repo (gnagster/evdb-apl-sync).
 Die Pipeline cached bereits erfasste Daten in `tools/scrape-cache.json`
 (committet): Preise/Offers pro Variantenlinie (TTL `APL_PRICE_TTL_H`, Standard
 72 h), Slug→Varianten-Struktur (`APL_STRUCTURE_TTL_H`, 168 h) und Motorspezifikationen
-(dauerhaft). Schon gematchte Linien werden nicht erneut gescraped; neue Modelle
+(dauerhaft, einschließlich Kraftstoff). Nur Motoren mit der Detailseiten-Angabe
+`Strom` werden zugeordnet; `Benzin Hybrid, Strom`, andere Kraftstoffe und fehlende
+Angaben sind ausgeschlossen. Alte Motorspezifikationen ohne Kraftstoffprüfung
+werden einmalig neu geladen. Auch manuelle Zuordnungen prüfen diesen Filter;
+bestätigte Verbrenner-/Hybridpreise werden nicht als letzte gute Preise behalten.
+Schon gematchte Linien werden nicht erneut gescraped; neue Modelle
 werden sofort erfasst, ausgelaufene fallen weg.
 
 Die Extension lädt die Datei täglich herunter (raw.githubusercontent.com, Fallback

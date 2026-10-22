@@ -173,11 +173,18 @@ async function main() {
       touched.add(variant.id);
     }
     const ids = Object.keys(data.offers || {});
-    if (variant.url && (force || ids.some((id) => !cache.motorSpecs[id]))) {
+    if (variant.url && (force || ids.some((id) => cache.motorSpecs[id]?.electric === undefined))) {
       try { Object.assign(cache.motorSpecs, APLScraper.parseMotorSpecs(await fetchText('https://www.apl.de' + variant.url, 'text/html'))); }
       catch (e) { console.warn('Motor specs unavailable for ' + variant.id + ': ' + e.message); }
     }
     const out = Dashboard.clone(data);
+    // Only a detail-page label of "Strom" proves a battery-electric motor.
+    for (const motor of new Set([...Object.keys(out.byMotor || {}), ...Object.keys(out.offers || {})])) {
+      if (cache.motorSpecs[motor]?.electric !== true) {
+        delete out.byMotor[motor];
+        delete out.offers[motor];
+      }
+    }
     for (const [motor, offers] of Object.entries(out.offers || {})) {
       for (const o of offers) o.source = { slug, variantId: variant.id, motorId: motor, tariffId: o.tariffId,
         variantName: variant.name, url: variant.url, ...(cache.motorSpecs[motor] || {}), fetchedAt: cache.lineData[variant.id].fetchedAt };
@@ -308,16 +315,6 @@ async function main() {
           if (!cur || num < cur.num) cands.set(motor, { price, num, offers: r.offers[motor] || [] });
         }
       }
-      // Fetch specs only for motors we still miss (permanent cache: once a
-      // motor's specs are known they never need a detail page again).
-      for (const v of variants.slice(0, MAX_LINES)) {
-        if (!v.url) continue;
-        if (![...cands.keys()].some((id) => !cache.motorSpecs[id])) break;
-        try {
-          const specPage = await fetchText('https://www.apl.de' + v.url, 'text/html');
-          Object.assign(cache.motorSpecs, APLScraper.parseMotorSpecs(specPage));
-        } catch (e) { /* specs unavailable -> those keys fall back */ }
-      }
       const specMatched = new Set();
       for (const k of specKeys) {
         const motors = [...cands].map(([id, cand]) => ({ id, num: cand.num, ...(cache.motorSpecs[id] || {}) }));
@@ -362,7 +359,7 @@ async function main() {
       // behaviour - first PK block == first byMotor entry), all offers merged.
       const r = await getLine(lines[0]);
       const firstPk = r.byMotor[Object.keys(r.byMotor)[0]];
-      if (!firstPk) throw new Error('no PK price');
+      if (!firstPk) { failAll(job, 'no electric PK price'); return; }
       mergeLine(r);
       for (const k of job.keys) prices[k] = { slug: job.slug, confidence: confOf(k, built), ...firstPk, offers: offersOut() };
       scraped += job.keys.length;
@@ -382,7 +379,7 @@ async function main() {
     // under several motor ids with identical prices - e.g. Leapmotor C10 3655/3656)
     const motors = [...byMotor.values()].sort((a, b) => a.num - b.num)
       .filter((m, i, arr) => i === 0 || m.num !== arr[i - 1].num);
-    if (!motors.length) throw new Error('no PK price');
+    if (!motors.length) { failAll(job, 'no electric PK price'); return; }
 
     for (const k of job.keys) {
       const b = batteryOf(nameOf(k));
@@ -434,6 +431,11 @@ async function main() {
   const replaceSourceValues = (ids, sourcePrices = basePrices) => {
     for (const key of Dashboard.affected(sourcePrices, ids)) {
       const entry = Dashboard.clone(sourcePrices[key]);
+      if (entry.source && cache.motorSpecs[entry.source.motorId]?.electric === false) {
+        delete prices[key];
+        continue;
+      }
+      entry.offers = (entry.offers || []).filter((o) => !o.source || cache.motorSpecs[o.source.motorId]?.electric !== false);
       if (entry.source && ids.has(entry.source.variantId)) {
         const fresh = Dashboard.sourceOffer(entry.source, entry.tag || TAG_ORDER[0], cache);
         for (const f of Dashboard.FIELDS) entry[f] = fresh[f];
@@ -471,7 +473,9 @@ async function main() {
     if (MODE === 'full') {
       const active = new Set(vehicles.filter((v) => !v.status || v.status === 'current').map(vehicleKey));
       for (const [key, old] of Object.entries(basePrices)) {
-        if (!prices[key] && active.has(key) && corrections.mapping[key] !== null) {
+        if (!prices[key] && active.has(key) && corrections.mapping[key] !== null &&
+            old.source && cache.motorSpecs[old.source.motorId]?.electric === true &&
+            (old.offers || []).every((o) => o.source && cache.motorSpecs[o.source.motorId]?.electric === true)) {
           prices[key] = { ...old, stale: true, lastError: 'Quelle konnte nicht aktualisiert werden. Letzter guter Preis bleibt erhalten.' };
         }
       }

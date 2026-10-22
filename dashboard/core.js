@@ -60,6 +60,7 @@
     validateSource(ref);
     const variant = (cache.slugLines[ref.slug]?.lines || []).find((v) => v.id === ref.variantId);
     if (!variant) throw new Error('APL-Variante nicht gefunden: ' + sourceId(ref));
+    if (cache.motorSpecs[ref.motorId]?.electric !== true) throw new Error('APL-Motor ist nicht als rein elektrisch bestätigt: ' + sourceId(ref));
     const offer = (cache.lineData[ref.variantId]?.data.offers?.[ref.motorId] || [])
       .find((o) => (!tag || o.tag === tag) && o.tariffId === ref.tariffId);
     if (!offer) throw new Error('APL-Angebot nicht gefunden: ' + sourceId(ref));

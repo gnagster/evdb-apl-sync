@@ -10,7 +10,7 @@ assert.equal(D.money('€ 30.428,45'), 30428.45);
 for (const bad of ['', '1,2x', '-2', 'Infinity', '1.234,567', '<script>']) assert.equal(D.money(bad), null);
 const ref = (motor = '243', tariff = '71') => ({ slug: 'ariya', variantId: '49', motorId: motor, tariffId: tariff });
 const cache = { slugLines: { ariya: { fetchedAt: '2026-10-10T00:00:00Z', lines: [{ id: '49', name: 'Ariya Evolve', url: '/neuwagen/nissan/ariya/evolve/' }] } },
-  motorSpecs: { 243: { kwh: 87, kw: 178 }, 242: { kwh: 87, kw: 225 } },
+  motorSpecs: { 243: { kwh: 87, kw: 178, electric: true }, 242: { kwh: 87, kw: 225, electric: true } },
   lineData: { 49: { fetchedAt: '2026-10-10T00:00:00Z', data: { offers: {
     243: [{ tag: D.TAGS[0], motorId: '243', tariffId: '71', endpreis: '20.000,00', kaufpreis: '19.000,00', ersparnis: '1.000,00 (5,00)', lieferzeit: '2 Monate' }],
     242: [{ tag: D.TAGS[0], motorId: '242', tariffId: '71', endpreis: '30.000,00', kaufpreis: '29.000,00', ersparnis: '1.000,00 (5,00)', lieferzeit: '3 Monate' }]
@@ -18,6 +18,10 @@ const cache = { slugLines: { ariya: { fetchedAt: '2026-10-10T00:00:00Z', lines: 
 const entry = (motor) => { const offer = D.sourceOffer(ref(motor), D.TAGS[0], cache);return { slug: 'ariya', confidence: 1, ...offer, offers: [offer] }; };
 const prices = { 'Nissan|Ariya 87kWh': entry('243'), 'Nissan|Ariya e-4ORCE 87kWh - 225 kW': entry('242'), 'Tesla|Model 3': { endpreis: '40.000,00', confidence: .8, offers: [] } };
 assert.equal(D.sourceOffer(ref('242'), D.TAGS[0], cache).source.kw, 225);
+const nonElectricCache = D.clone(cache);nonElectricCache.motorSpecs['242'].electric = false;
+assert.throws(() => D.sourceOffer(ref('242'), D.TAGS[0], nonElectricCache), /nicht als rein elektrisch/);
+delete nonElectricCache.motorSpecs['242'].electric;
+assert.throws(() => D.sourceOffer(ref('242'), D.TAGS[0], nonElectricCache), /nicht als rein elektrisch/);
 assert.throws(() => D.sourceOffer(ref('242', '999'), D.TAGS[0], cache), /nicht gefunden/);
 assert.throws(() => D.validate({ mapping: {}, prices: { 'Nissan|Ariya': { base: { source: ref(), values: { endpreis: '-10' } } } } }));
 assert.throws(() => D.validate({ mapping: { 'Nissan|Ariya': { base: { ...ref(), slug: '../../evil' } } }, prices: {} }));
@@ -68,8 +72,9 @@ try {
         const motors=process.env.MISSING==='1'?['243']:['243','242'];
         body=motors.map(m=>'<div class=" preis-item" data-motor="'+m+'" data-tarif="71"><div class="data-endpreis">'+(m==='243'?'22.000,00':'33.000,00')+'</div><div class="data-kaufpreis">20.000,00</div><div class="data-ersparnis">1.000,00 (5,00)</div><div class="data-Lieferzeit">1 Monat</div><div class="data-AbholortText">Abholung beim Nissan-Vertragshändler</div></div>').join('');
         body+='<div class=" preis-item" data-motor="243" data-tarif="223"><div class="data-endpreis">18.000,00</div><div class="data-TarifInfos"><p>Das Fahrzeug wird vorab zugelassen, mit einer Haltefrist von 6 Monaten.</p></div><div class="data-AbholortText">Abholung beim Nissan-Vertragshändler</div></div>';
-      }else if(url.endsWith('/modellvarianten/')) body='<h2>Ariya Evolve</h2><div class="FzgBlock-infos" data-id="49"></div><a href="/neuwagen/nissan/ariya/evolve/">Details</a>';
-      else if(url.endsWith('/evolve/')) body='<div class="item-motor" data-id="243" data-sortkw="178" data-sortmotor="87kWh"><div class="item-motor" data-id="242" data-sortkw="225" data-sortmotor="87kWh">';
+      }else if(url==='https://www.apl.de/neuwagen/') body='<a href="/neuwagen/nissan/ariya/modellvarianten/">Ariya</a>';
+      else if(url.endsWith('/modellvarianten/')) body='<h2>Ariya Evolve</h2><div class="FzgBlock-infos" data-id="49"></div><a href="/neuwagen/nissan/ariya/evolve/">Details</a>';
+      else if(url.endsWith('/evolve/')) body='<div class="item-motor" data-id="243" data-sortkw="178" data-sortmotor="87kWh"><div class="f13 mb20">Strom | 178 kW</div><div class="item-motor" data-id="242" data-sortkw="225" data-sortmotor="87kWh"><div class="f13 mb20">'+(process.env.HYBRID==='1'?'Benzin Hybrid, Strom':'Strom')+' | 225 kW</div>';
       else throw new Error('Unexpected full scrape: '+url);
       return {ok:true,text:async()=>body};
     };
@@ -125,6 +130,45 @@ try {
   assert.equal(output.prices['Nissan|Ariya e-4ORCE 87kWh - 225 kW'].source.motorId,'242');
   assert.equal(output.prices['Nissan|Ariya 87kWh'].source.motorId,'243');
   assert.deepEqual(output.prices['Tesla|Model 3'], prices['Tesla|Model 3']);
+  reset();result=run('vehicle','Nissan|Ariya 87kWh',{HYBRID:'1'});
+  assert.equal(result.status,0,result.stdout+result.stderr);
+  output=JSON.parse(fs.readFileSync(path.join(dir,'apl-prices.json')));
+  for (const [key, price] of Object.entries(output.prices).filter(([key])=>key.startsWith('Nissan'))) {
+    assert.equal(price.source.motorId,'243','all matching lanes must skip hybrid motors');
+    assert(price.offers.every(o=>o.source.motorId==='243'),'hybrid offers are excluded too');
+  }
+  // Catalogue refresh drops newly identified hybrids from existing assignments.
+  reset();const oldFuelCache=D.clone(cache);
+  for(const spec of Object.values(oldFuelCache.motorSpecs)) delete spec.electric;
+  fs.writeFileSync(path.join(dir,'tools/scrape-cache.json'),JSON.stringify(oldFuelCache));
+  result=run('catalogue','ariya',{HYBRID:'1'});
+  assert.equal(result.status,0,result.stdout+result.stderr);
+  output=JSON.parse(fs.readFileSync(path.join(dir,'apl-prices.json')));
+  assert(!output.prices['Nissan|Ariya e-4ORCE 87kWh - 225 kW'],'confirmed hybrids must be removed during catalogue refresh');
+  assert.equal(output.prices['Nissan|Ariya 87kWh'].source.electric,true,'old caches are upgraded');
+  reset({mapping:{'Nissan|Ariya 87kWh':{base:ref('242')}},prices:{}});
+  result=run('vehicle','Nissan|Ariya 87kWh',{HYBRID:'1'});
+  assert.notEqual(result.status,0,'explicit mappings cannot bypass the fuel check');
+  // A full run must not restore old hybrid/unverified prices through stale fallback.
+  reset();
+  const fullVehicles=Array.from({length:55},(_,i)=>({make:'Nissan',model:'Ariya 87kWh (MY'+i+')'}));
+  fullVehicles.push({make:'Toyota',model:'C-HR+ 77 kWh'},{make:'Tesla',model:'Model 3'},{make:'BMW',model:'i3'});
+  fs.writeFileSync(path.join(dir,'evdb-vehicles.json'),JSON.stringify({vehicles:fullVehicles}));
+  const fullInitial=D.clone(initial);
+  fullInitial.prices['Toyota|C-HR+ 77 kWh']={slug:'c-hr',endpreis:'10.000,00',source:ref('242'),offers:[]};
+  fullInitial.prices['BMW|i3']={slug:'i3',endpreis:'20.000,00',offers:[]};
+  fullInitial.prices['Tesla|Model 3']={...prices['Tesla|Model 3'],source:{...ref(),electric:true}};
+  fs.writeFileSync(path.join(dir,'apl-prices.json'),JSON.stringify(fullInitial));
+  fs.writeFileSync(path.join(dir,'tools/scrape-cache.json'),JSON.stringify(oldFuelCache));
+  result=run('full','',{HYBRID:'1'});assert.equal(result.status,0,result.stdout+result.stderr);
+  output=JSON.parse(fs.readFileSync(path.join(dir,'apl-prices.json')));
+  assert(!output.prices['Toyota|C-HR+ 77 kWh'],'confirmed hybrid price must not survive as stale');
+  assert(!output.prices['BMW|i3'],'unverified legacy price must not survive as stale');
+  assert.equal(output.prices['Tesla|Model 3'].stale,true,'verified electric fallback remains available');
+  for(const [key,value] of Object.entries(output.prices).filter(([key])=>key.startsWith('Nissan'))) {
+    assert.equal(value.source.motorId,'243');assert(value.offers.every(o=>o.source.motorId==='243'));
+  }
+  fs.rmSync(path.join(dir,'evdb-vehicles.json'));
   // Repeat targeted refresh with canonical IDs, including a duplicate historic name.
   reset();
   const evdbVehicles=initial.vehicles.map((v,i)=>({...v,id:String(i+1),status:'current'}));
