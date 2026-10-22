@@ -299,6 +299,12 @@ verlinkten GitHub-Commit; der Beratungschat schreibt selbst keine Preise.
    Domain und veröffentlicht anschließend die Pages-Weiterleitung. Die bestehenden
    Preis- und EVDB-Abrufworkflows bleiben unabhängig davon bestehen.
 
+Cloudflare kann GitHub-Runner mit einer Browserprüfung blockieren. Der Check
+erkennt ausschließlich die explizite Challenge-Antwort, prüft für den bisherigen
+Rechner zusätzlich den Pages-Ursprung und protokolliert die eingeschränkte Prüfung.
+Die erfolgreiche Worker-Veröffentlichung wird weiterhin verlangt; die öffentliche
+Route in diesem Fall zusätzlich in einem Browser prüfen.
+
 `worker/index.mjs` stellt ausschließlich `POST /api/chat`,
 `POST /api/vehicle-check` und `POST /api/vehicle-correction` bereit. Die API prüft
 GitHub-Berechtigung, Origin, Eingabegrößen und Quellen und liefert bei Beratung

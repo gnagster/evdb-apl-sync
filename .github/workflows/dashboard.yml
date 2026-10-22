@@ -2,7 +2,7 @@ name: dashboard
 on:
   push:
     branches: [main]
-    paths: ['dashboard/**', 'worker/**', 'test/**', 'package.json', 'package-lock.json', 'wrangler*.jsonc', 'tools/deploy-worker.mjs', '.github/workflows/dashboard.yml']
+    paths: ['dashboard/**', 'worker/**', 'test/**', 'package.json', 'package-lock.json', 'wrangler*.jsonc', 'tools/deploy-worker.mjs', 'tools/check-site.mjs', '.github/workflows/dashboard.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -28,8 +28,6 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: node tools/deploy-worker.mjs
-      - name: Verify custom domain
-        run: curl --fail --retry 5 --retry-delay 10 https://ev.dinne.beer/ --output /dev/null
   pages-redirect:
     needs: worker
     runs-on: ubuntu-latest
