@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T14:05:30.325Z",
+  "generatedAt": "2026-10-22T15:08:56.406Z",
   "source": "privatkunden",
   "count": 421,
   "prices": {
@@ -2240,7 +2240,9 @@
         "url": "/neuwagen/mg/4-urban/comfort/",
         "kwh": 43,
         "kw": 110,
-        "fetchedAt": "2026-10-21T10:03:43.081Z"
+        "fetchedAt": "2026-10-22T15:08:54.901Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -2260,7 +2262,9 @@
             "url": "/neuwagen/mg/4-urban/comfort/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.081Z"
+            "fetchedAt": "2026-10-22T15:08:54.901Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -2280,10 +2284,13 @@
             "url": "/neuwagen/mg/4-urban/comfort/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.081Z"
+            "fetchedAt": "2026-10-22T15:08:54.901Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "CUPRA|Raval 155 kW - 52 kWh (MY27)": {
       "slug": "raval",
@@ -5872,7 +5879,9 @@
         "url": "/neuwagen/mg/4-urban/premium/",
         "kwh": 54,
         "kw": 118,
-        "fetchedAt": "2026-10-21T10:03:43.396Z"
+        "fetchedAt": "2026-10-22T15:08:55.826Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -5892,7 +5901,9 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -5912,10 +5923,13 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Volkswagen|ID.7 Tourer 86 kWh (MY27)": {
       "slug": "id-7-tourer",
@@ -6187,7 +6201,9 @@
         "url": "/neuwagen/mg/4-urban/active/",
         "kwh": 43,
         "kw": 110,
-        "fetchedAt": "2026-10-21T10:03:43.691Z"
+        "fetchedAt": "2026-10-22T15:08:53.988Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -6207,7 +6223,9 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -6227,10 +6245,13 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Leapmotor|C10 RWD 81.9 kWh": {
       "slug": "c10",
@@ -7461,7 +7482,9 @@
         "url": "/neuwagen/mg/4-urban/premium/",
         "kwh": 54,
         "kw": 118,
-        "fetchedAt": "2026-10-21T10:03:43.396Z"
+        "fetchedAt": "2026-10-22T15:08:55.826Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -7481,7 +7504,9 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -7501,10 +7526,13 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Opel|Grandland Electric 73 kWh": {
       "slug": "grandland",
@@ -7722,7 +7750,9 @@
         "url": "/neuwagen/mg/4-urban/premium/",
         "kwh": 54,
         "kw": 118,
-        "fetchedAt": "2026-10-21T10:03:43.396Z"
+        "fetchedAt": "2026-10-22T15:08:55.826Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -7742,7 +7772,9 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -7762,10 +7794,13 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "BMW|i5 eDrive40 Sedan (MY25)": {
       "slug": "i5-limousine",
@@ -14402,7 +14437,9 @@
         "url": "/neuwagen/mg/4-urban/active/",
         "kwh": 43,
         "kw": 110,
-        "fetchedAt": "2026-10-21T10:03:43.691Z"
+        "fetchedAt": "2026-10-22T15:08:53.988Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -14422,7 +14459,9 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -14442,10 +14481,13 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "Audi|Q4 Sportback e-tron performance (MY27)": {
       "slug": "q4-sportback-e-tron",
@@ -40079,7 +40121,9 @@
         "url": "/neuwagen/mg/4-urban/comfort/",
         "kwh": 43,
         "kw": 110,
-        "fetchedAt": "2026-10-21T10:03:43.081Z"
+        "fetchedAt": "2026-10-22T15:08:54.901Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -40099,7 +40143,9 @@
             "url": "/neuwagen/mg/4-urban/comfort/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.081Z"
+            "fetchedAt": "2026-10-22T15:08:54.901Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -40119,10 +40165,13 @@
             "url": "/neuwagen/mg/4-urban/comfort/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.081Z"
+            "fetchedAt": "2026-10-22T15:08:54.901Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3472": {
       "slug": "4-urban",
@@ -40142,7 +40191,9 @@
         "url": "/neuwagen/mg/4-urban/premium/",
         "kwh": 54,
         "kw": 118,
-        "fetchedAt": "2026-10-21T10:03:43.396Z"
+        "fetchedAt": "2026-10-22T15:08:55.826Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -40162,7 +40213,9 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -40182,10 +40235,13 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3467": {
       "slug": "4-urban",
@@ -40205,7 +40261,9 @@
         "url": "/neuwagen/mg/4-urban/premium/",
         "kwh": 54,
         "kw": 118,
-        "fetchedAt": "2026-10-21T10:03:43.396Z"
+        "fetchedAt": "2026-10-22T15:08:55.826Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -40225,7 +40283,9 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -40245,10 +40305,13 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3468": {
       "slug": "4-urban",
@@ -40268,7 +40331,9 @@
         "url": "/neuwagen/mg/4-urban/premium/",
         "kwh": 54,
         "kw": 118,
-        "fetchedAt": "2026-10-21T10:03:43.396Z"
+        "fetchedAt": "2026-10-22T15:08:55.826Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -40288,7 +40353,9 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -40308,10 +40375,13 @@
             "url": "/neuwagen/mg/4-urban/premium/",
             "kwh": 54,
             "kw": 118,
-            "fetchedAt": "2026-10-21T10:03:43.396Z"
+            "fetchedAt": "2026-10-22T15:08:55.826Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3470": {
       "slug": "4-urban",
@@ -40331,7 +40401,9 @@
         "url": "/neuwagen/mg/4-urban/active/",
         "kwh": 43,
         "kw": 110,
-        "fetchedAt": "2026-10-21T10:03:43.691Z"
+        "fetchedAt": "2026-10-22T15:08:53.988Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -40351,7 +40423,9 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -40371,10 +40445,13 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3469": {
       "slug": "4-urban",
@@ -40394,7 +40471,9 @@
         "url": "/neuwagen/mg/4-urban/active/",
         "kwh": 43,
         "kw": 110,
-        "fetchedAt": "2026-10-21T10:03:43.691Z"
+        "fetchedAt": "2026-10-22T15:08:53.988Z",
+        "fuel": "Strom",
+        "electric": true
       },
       "offers": [
         {
@@ -40414,7 +40493,9 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         },
         {
@@ -40434,10 +40515,13 @@
             "url": "/neuwagen/mg/4-urban/active/",
             "kwh": 43,
             "kw": 110,
-            "fetchedAt": "2026-10-21T10:03:43.691Z"
+            "fetchedAt": "2026-10-22T15:08:53.988Z",
+            "fuel": "Strom",
+            "electric": true
           }
         }
-      ]
+      ],
+      "tag": "für Privatkunden"
     },
     "evdb:3651": {
       "slug": "ev5",
