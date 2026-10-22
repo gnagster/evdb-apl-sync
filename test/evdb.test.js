@@ -28,6 +28,9 @@ const ref={slug:'test',variantId:'1',motorId:'2',tariffId:'3'}, prices={[k]:{end
 const config={mapping:{},prices:{[k]:{base:{source:ref,values:{endpreis:'30.000,00'}}}}};D.validate(config);
 let applied=D.applyPrices(prices,config);let found=E.rows(database,applied.prices,config,{},D.money).find(([id])=>id===k)[1];
 assert.equal(found.priceEur,30000);assert.equal(found.pricePerKm,30000/v.rangeKm);assert.equal(found.priceSource,'APL · korrigiert');
+const wrongRange={...prices,[k]:{...prices[k],rangeKm:9999,stopRangeKm:99999}};
+const evdbRange=E.rows(database,wrongRange,cfg,{},D.money).find(([id])=>id===k)[1];
+assert.equal(evdbRange.rangeKm,v.rangeKm);assert.equal(evdbRange.stopRangeKm,v.stopRangeKm);
 assert.equal(E.rows(database,prices,cfg,{tag:D.TAGS[1]},D.money).length,1);
 assert.equal(E.rows(database,prices,cfg,{tag:D.TAGS[1]},D.money)[0][1].priceEur,18000);
 assert.equal(E.rows(database,prices,{mapping:{[k]:null},prices:{}},{},D.money).some(([id])=>id===k),false);

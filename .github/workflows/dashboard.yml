@@ -2,33 +2,50 @@ name: dashboard
 on:
   push:
     branches: [main]
-    paths: ['dashboard/**', 'test/dashboard-auth.test.js', '.github/workflows/dashboard.yml']
+    paths: ['dashboard/**', 'worker/**', 'test/**', 'package.json', 'package-lock.json', 'wrangler*.jsonc', 'tools/deploy-worker.mjs', '.github/workflows/dashboard.yml']
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: dashboard-production
   cancel-in-progress: false
 jobs:
-  deploy:
+  worker:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check dashboard access
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Deploy dashboard and API
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: node tools/deploy-worker.mjs
+      - name: Verify custom domain
+        run: curl --fail --retry 5 --retry-delay 10 https://ev.dinne.beer/ --output /dev/null
+  pages-redirect:
+    needs: worker
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Create redirect for the former address
         run: |
-          node test/dashboard-auth.test.js
-          node test/evdb.test.js
+          mkdir -p "$RUNNER_TEMP/pages"
+          cat > "$RUNNER_TEMP/pages/index.html" <<'HTML'
+          <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="3;url=https://ev.dinne.beer/"><link rel="canonical" href="https://ev.dinne.beer/"><title>EV-Dashboard ist umgezogen</title></head><body><h1>Neue Adresse: ev.dinne.beer</h1><p>Du wirst zum neuen Dashboard weitergeleitet. Bitte dein GitHub-Token dort erneut eingeben; der Browserspeicher der bisherigen Adresse wird nicht übertragen.</p><p><a href="https://ev.dinne.beer/">Dashboard öffnen</a></p></body></html>
+          HTML
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: dashboard
+          path: ${{ runner.temp }}/pages
       - uses: actions/deploy-pages@v4
         id: deployment

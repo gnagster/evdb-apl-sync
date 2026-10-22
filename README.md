@@ -84,7 +84,7 @@ gespiegelt.
 
 ## Dashboard
 
-[Preis-Dashboard öffnen](https://gnagster.github.io/evdb-apl-sync/)
+[Preis-Dashboard und KI-Berater öffnen](https://ev.dinne.beer/)
 
 Nach Prüfung eines gültigen Repo-Tokens zeigt die Übersicht Fahrzeugpreise,
 Angebote für alle Kundenarten, Lieferzeiten, Abrufdatum und die genaue APL-Quelle. Suche, Hersteller-, Preis-
@@ -99,9 +99,9 @@ geprüft. **Abmelden** entfernt das Token und sperrt die Übersicht. Ungültige
 oder abgelaufene Tokens werden entfernt. Keine Zugangsdaten in Dateien,
 Commits oder Exporten speichern.
 
-Die Zugangssperre betrifft die Dashboard-Oberfläche. GitHub Pages, das Repository
-und die Preisdateien bleiben öffentlich zugänglich; vertrauliche Daten benötigen
-eine serverseitige Zugangskontrolle. Wer Zugriff auf dieses Browserprofil hat,
+Die Zugangssperre betrifft die Dashboard-Oberfläche; der Worker prüft zusätzlich
+alle KI- und Korrekturanfragen serverseitig auf Repo-Schreibzugriff. Das Repository
+und die Preisdateien bleiben öffentlich zugänglich. Wer Zugriff auf dieses Browserprofil hat,
 kann auch das dort gespeicherte Token verwenden.
 
 Fahrzeugdetails erlauben getrennte Korrekturen der Fahrzeugwerte und einzelnen
@@ -216,3 +216,98 @@ nötig. Varianten können auch mit ungespeicherten Entwürfen geladen werden, da
 Abruf die gespeicherten Repository-Zuordnungen verwendet. Bei Fehlern bleiben die
 bisherigen Auswahlwerte verfügbar. Falls nur das Laden der Ergebnisse scheitert,
 holt **Ergebnisse erneut laden** sie ohne erneutes Scraping ab.
+
+
+## KI-Berater und TCO
+
+Das Dashboard und seine API werden gemeinsam als Cloudflare Worker mit statischen
+Dateien unter **https://ev.dinne.beer/** veröffentlicht. Der bisherige, eigenständige
+Vollkostenrechner bleibt unter **https://ev-kosten.dinne.beer/** erreichbar. Sein
+Pages-Projekt `ev-kostenrechner` bleibt bestehen; ein kleiner Worker liefert es
+unter der neuen Adresse aus. Die neue Dashboard-Route nutzt den vorhandenen DNS-Eintrag
+von `ev.dinne.beer`, ohne dessen bisherigen Ursprung zu löschen. Der bisherige Pages-Link
+leitet nach erfolgreicher Veröffentlichung weiter. Beim Domainwechsel das
+GitHub-Token erneut eingeben; alter Browserspeicher wird nicht übertragen.
+
+Der Reiter **KI-Berater** verwendet DeepSeek V4.1 Flash über `deepseek-flash`
+(Anbieter-Alias, kann künftig auf eine neuere Flash-Version zeigen). Der Berater
+kann den gesamten EVDB-/APL-Bestand filtern, einzelne technische EVDB-Details
+prüfen, DeepSeek Search und Fetch verwenden und Rückfragen zum Nutzungsprofil
+stellen. Mit **Aktuelle Tabellenfilter berücksichtigen** begrenzen die gewählten
+Filter auch die Fahrzeugwerkzeuge. Gefundene Quellen werden verlinkt. Modelltexte
+und Webseiten werden als Daten behandelt, nicht als ausführbare Anweisungen.
+
+Vor dem ersten Aufruf die DeepSeek-Verarbeitung aktivieren. Chat, relevante
+Profilangaben und Werkzeugergebnisse werden für die Antwort an DeepSeek gesendet;
+GitHub-Zugangsdaten und Cloudflare-Zugänge gelangen niemals in den Modellkontext.
+Gespräch, Anforderungen und TCO-Eingaben liegen nur im lokalen Browserspeicher.
+**Verlauf & Profil löschen** entfernt diese Daten. Abmelden sperrt die Oberfläche
+und bricht laufende KI-Anfragen ab. Es gibt keine serverseitige Gesprächsdatenbank
+und keine Protokollierung der Chattexte. Modell-, Such- und Fetch-Aufrufe können
+Kosten beim Anbieter verursachen. Der Worker begrenzt Werkzeugrunden und Aufrufe;
+zusätzlich sind maximal zehn KI-API-Anfragen je Zugang und Minute vorgesehen.
+
+Die Tabellen verwenden **EVDB-Reichweite** und **EVDB-1-Stop-Reichweite**. Letztere
+bedeutet die Strecke mit einem Ladestopp von 15 Minuten. APL-Angaben können diese
+Werte nicht überschreiben; unbekannte Werte bleiben unbekannt.
+
+Der TCO-Rechner ist deterministisch und für **Privatkauf und Finanzierung in
+Deutschland** gedacht. Bis zu drei Fahrzeuge vergleichen; gemeinsame Fahrleistung,
+Haltedauer und Ladetarife, andere Kostenannahmen pro Fahrzeug bearbeiten. Die
+Rechnung umfasst Wertverlust, Strom, Versicherung, Steuer, Wartung, Reifen,
+zusätzliche Kosten, Zinsen und Gebühren abzüglich Zuschuss und THG. Finanzierung
+unterstützt Anzahlung, Sollzins, Laufzeit und Schlussrate. Tilgung zählt nicht ein
+zweites Mal als Kosten. Restschuld und monatliche Kreditrate werden separat gezeigt.
+
+EVDB-Verbrauch in Wh/km wird in Netzbezug einschließlich einstellbarer Ladeverluste
+umgerechnet: `km × Wh/km ÷ 1000 ÷ (1 − Verlustanteil)`. Die Voreinstellungen von
+80 % Heimladen und 10 % Ladeverlusten sind sichtbare Vorschläge. Fehlende Angaben
+werden nicht als null Euro behandelt. Versicherungsbeiträge ohne Angebot,
+Restwerte und zukünftige THG sind Schätzungen; KI-Rechenannahmen vor Verwendung
+prüfen. Eine Sensitivität zeigt zusätzlich 20 % weniger Restwert und keine THG.
+Leasing, gewerbliche Steuern und Versicherungsabschlüsse sind nicht Bestandteil.
+
+**Preise und Zuordnung mit KI korrigieren** prüft das angeklickte Fahrzeug und
+speichert bei eindeutigem Nachweis direkt einen Korrektur-Commit. Eigene
+Zahlenkorrekturen dieses Fahrzeugs werden dabei entfernt, auch bei unveränderter
+Quelle. Andere Fahrzeuge bleiben unverändert. Vorhandene Entwürfe zuerst speichern
+oder verwerfen. Bei Bedarf lädt GitHub Actions frische APL-Varianten; der Status
+erscheint direkt in den Details. Modellfamilie, benannte Ausstattung,
+Elektroantrieb, Motorleistung, Batterie und Tarif werden gegen Quelldaten geprüft.
+Fehlende technische Nachweise oder mehrdeutige Motoren führen zu keiner Änderung.
+Die automatische Prüfung ist auf bestellbare Modelle begrenzt; historische Modelle
+weiterhin manuell zuordnen. Rücksetzen über **Meine Korrekturen** oder den
+verlinkten GitHub-Commit; der Beratungschat schreibt selbst keine Preise.
+
+## Cloudflare einrichten und entwickeln
+
+1. `npm ci` ausführen.
+2. Eine lokale, von Git ignorierte `.env` entsprechend `.env.example` mit
+   `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN` und `DEEPSEEK_API_KEY` hinterlegen.
+   Nur einen auf den benötigten Account und die Zone begrenzten Cloudflare-Token
+   verwenden. Keine Zugangsdaten in Chat, URLs, Quelldateien oder Exporte schreiben.
+3. Mit `npm run dev` lokal starten. Der Worker erhält nur das deklarierte
+   DeepSeek-Secret; Cloudflare-Zugänge dienen der Veröffentlichung.
+4. `npm test` prüft Scraping, Zuordnung, Filter, Authentifizierung, TCO und KI-API.
+   `npm audit` prüft die Entwicklungsabhängigkeiten.
+5. `node tools/deploy-worker.mjs` veröffentlicht zuerst den Zugang zum bisherigen
+   Kostenrechner und prüft dessen Erreichbarkeit, danach Oberfläche und API gemeinsam.
+   Der Helfer übergibt ausschließlich den DeepSeek-Schlüssel über eine temporäre
+   Datei mit restriktiven Rechten als Worker-Secret und entfernt sie anschließend.
+6. Dieselben drei Variablen als Repository Actions Secrets hinterlegen. Der Workflow
+   `dashboard` testet und veröffentlicht Änderungen auf `main`, prüft die eigene
+   Domain und veröffentlicht anschließend die Pages-Weiterleitung. Die bestehenden
+   Preis- und EVDB-Abrufworkflows bleiben unabhängig davon bestehen.
+
+`worker/index.mjs` stellt ausschließlich `POST /api/chat`,
+`POST /api/vehicle-check` und `POST /api/vehicle-correction` bereit. Die API prüft
+GitHub-Berechtigung, Origin, Eingabegrößen und Quellen und liefert bei Beratung
+Statusereignisse als NDJSON. Korrekturen verwenden den bestehenden Datei-SHA-Schutz;
+bei Konflikten erneut prüfen. DeepSeek-, GitHub- und Cloudflare-Zugänge erscheinen
+weder in öffentlichen Assets noch in Serverlogs. Die Worker-Observability ist für
+diese Anwendung abgeschaltet.
+
+Für eine reproduzierbare Browserprüfung nach lokalem Start `test/browser-check.js`
+über Playwright CLI `run-code` ausführen. Der Test verwendet isolierte Testdaten und
+prüft Zugang, Reichweiten, fahrzeugspezifische TCO, lokalen Verlauf, sichere
+Darstellung von Modelltexten, mobile Ansicht, direkte Korrektur und Abmelden.

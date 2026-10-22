@@ -1,0 +1,12 @@
+{
+  "name": "evdb-apl-dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "node tools/deploy-worker.mjs",
+    "test": "node test/scraper.test.js && node test/matcher.test.js && node test/dashboard.test.js && node test/evdb.test.js && node test/dashboard-auth.test.js && node test/tco.test.js && node --test test/agent.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.3"
+  }
+}

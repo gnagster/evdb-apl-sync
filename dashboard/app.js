@@ -66,7 +66,7 @@ async function load() {
     saved = migration.config;draft = D.clone(saved);fileSha = configFile.sha;
     if (migration.conflicts.length) notice('Zuordnungskonflikte (bitte getrennt nach EVDB-ID korrigieren): ' + migration.conflicts.join(', '), true);
     data = prices;database = vehicles;cache = scrapeCache;buildFilters();
-    page = 0; render();
+    page = 0; render();globalThis.EVAdvisor?.onLoad();
     if (!data.modelUrls) notice('Die Quellenübersicht wird beim nächsten vollständigen Abruf ergänzt.');
     else if (JSON.stringify(saved) !== JSON.stringify(data.appliedOverrides)) notice('Korrekturen sind gespeichert. Die Übernahme in die Preisdatei läuft noch.');
     else if (data.migrationConflicts?.length) notice('Zuordnungskonflikte: ' + data.migrationConflicts.join(', '), true);
@@ -140,11 +140,11 @@ function render() {
     row.append(model, price);
     for (const tag of D.TAGS.slice(0, 2)) row.append(el('td', amount(p.offers?.find((o) => o.tag === tag)?.endpreis), 'amount'));
     row.append(el('td', p.lieferzeit || '—'));
-    for (const [field,unit] of [['rangeKm','km'],['batteryKwh','kWh'],['efficiencyWhKm','Wh/km']]) row.append(el('td', p[field] == null ? '—' : p[field] + ' ' + unit));
+    for (const [field,unit] of [['rangeKm','km'],['stopRangeKm','km'],['batteryKwh','kWh'],['efficiencyWhKm','Wh/km']]) row.append(el('td', p[field] == null ? '—' : p[field] + ' ' + unit));
     const confidence = el('td');confidence.append(el('span', p.confidence == null ? '—' : Math.round(p.confidence * 100) + ' %', 'badge' + (p.confidence < .85 ? ' warn' : '')));row.append(confidence);
     $('rows').append(row);
   }
-  if (!visibleRows.length) { const td = el('td', 'Keine Fahrzeuge für diese Filter.');td.colSpan = 9;const row = el('tr');row.append(td);$('rows').append(row); }
+  if (!visibleRows.length) { const td = el('td', 'Keine Fahrzeuge für diese Filter.');td.colSpan = 10;const row = el('tr');row.append(td);$('rows').append(row); }
   $('prev').disabled = page === 0; $('next').disabled = page >= totalPages - 1;
   $('page-label').textContent = 'Seite ' + (page + 1) + ' von ' + totalPages;
   const changed = [...new Set([...correctedKeys, ...Object.keys(saved.mapping), ...Object.keys(saved.prices)])]
@@ -265,6 +265,7 @@ function openDetail(key) {
     draft.mapping[key] = null;delete draft.prices[key];$('detail').close();render();
   }), button('Alle Korrekturen zurücksetzen', () => { delete draft.mapping[key];delete draft.prices[key];render();openDetail(key); }));
   if (vehicle) {
+    actions.append(button('Mit KI besprechen', () => globalThis.EVAdvisor.discuss(vehicle.id)), button('Preise und Zuordnung mit KI korrigieren', () => globalThis.EVAdvisor.correct(vehicle.id)));
     const specs = el('dl', undefined, 'spec-list');
     const link = el('a', 'EVDB-Fahrzeug öffnen ↗');const sourceUrl = new URL(vehicle.url);if (sourceUrl.origin !== 'https://ev-database.org' || !/^\/car\/\d+\//.test(sourceUrl.pathname)) throw Error('Ungültiger EVDB-Link.');link.href = sourceUrl.href;link.target = '_blank';link.rel = 'noopener';content.append(link);
     for (const [field,value] of Object.entries(vehicle)) { const definition = Object.values(E.fields).find((d) => d[0] === field);specs.append(el('dt', definition?.[1] || ({id:'EVDB-ID',make:'Hersteller',model:'Modell',title:'Fahrzeug',status:'Status',tokens:'Merkmale',shape:'Karosserie',rank:'Beliebtheit',url:'Quelle',availableFrom:'Verfügbar ab',availableTo:'Verfügbar bis',yearFrom:'Von Jahr',yearTo:'Bis Jahr'})[field] || field), el('dd', value == null ? 'Unbekannt / offen' : field === 'status' ? E.labels[value] : field.startsWith('available') ? new Date(value * 1000).toLocaleDateString('de-DE') : Array.isArray(value) ? value.map((v) => E.labels[v] || v).join(', ') : value + (definition ? ' ' + definition[2] : ''))); }
@@ -432,7 +433,7 @@ function download(name, text, type) {
 }
 // shortcut: This gates the Pages UI; private data requires server authentication.
 function lock(removeStored = false, message = '') {
-  token = '';authGeneration++;sourceViews = [];
+  token = '';authGeneration++;sourceViews = [];globalThis.EVAdvisor?.onLock();
   $('dashboard').hidden = true;$('auth').hidden = false;$('detail').close();
   $('token').value = '';$('auth-submit').disabled = false;
   if (removeStored) {

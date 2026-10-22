@@ -109,7 +109,7 @@
       const p = !config.mapping[k]?.evdbOnly && (v.status === 'current' || config.mapping[k]) ? prices[k] : undefined, offer = filters.tag ? p?.offers?.find((o) => o.tag === filters.tag) : p;
       if (filters.tag && !offer) continue;
       const amount = money(offer?.endpreis), priceEur = amount ?? (filters.tag ? null : v.priceEur);
-      const row = { ...v, ...(p || {}), priceEur, priceSource: amount !== null ? (offer.manualPrice ? 'APL · korrigiert' : 'APL') : priceEur === null ? 'Kein Preis' : 'EVDB-Listenpreis', pricePerKm: priceEur !== null && v.rangeKm > 0 ? priceEur / v.rangeKm : null };
+      const row = { ...v, ...(p || {}), rangeKm: v.rangeKm, stopRangeKm: v.stopRangeKm, priceEur, priceSource: amount !== null ? (offer.manualPrice ? 'APL · korrigiert' : 'APL') : priceEur === null ? 'Kein Preis' : 'EVDB-Listenpreis', pricePerKm: priceEur !== null && v.rangeKm > 0 ? priceEur / v.rangeKm : null };
       if (filters.query && !v.title.toLocaleLowerCase('de').includes(filters.query.toLocaleLowerCase('de'))) continue;
       if (filters.uncertain && !(p?.confidence < .85)) continue;
       if (filters.corrected && !(k in config.mapping) && !(k in config.prices)) continue;

@@ -3,3 +3,10 @@
 tools/scrape-result.json
 output/
 .playwright-cli/
+.env
+.env.*
+!.env.example
+.dev.vars*
+node_modules/
+.wrangler/
+.DS_Store
