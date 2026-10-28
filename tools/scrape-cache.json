@@ -2926,7 +2926,7 @@
       ]
     },
     "tourneo-custom": {
-      "fetchedAt": "2026-09-06T09:24:25.772Z",
+      "fetchedAt": "2026-10-28T11:17:11.859Z",
       "lines": [
         {
           "id": "1120",
@@ -7360,7 +7360,7 @@
       }
     },
     "49": {
-      "fetchedAt": "2026-10-25T09:45:48.093Z",
+      "fetchedAt": "2026-10-28T11:17:08.827Z",
       "data": {
         "byMotor": {
           "242": {
@@ -9734,7 +9734,7 @@
       }
     },
     "662": {
-      "fetchedAt": "2026-10-25T09:45:49.854Z",
+      "fetchedAt": "2026-10-28T11:17:10.040Z",
       "data": {
         "byMotor": {
           "1244": {
@@ -11176,250 +11176,426 @@
       }
     },
     "1045": {
-      "fetchedAt": "2026-09-07T10:13:55.625Z",
+      "fetchedAt": "2026-10-28T11:17:12.907Z",
       "data": {
         "byMotor": {
           "2104": {
-            "endpreis": "49.030,04",
-            "kaufpreis": "46.941,04",
-            "ersparnis": "12.856,46 (21,50)",
+            "motorId": "2104",
+            "tariffId": "99",
+            "endpreis": "52.323,89",
+            "kaufpreis": "50.528,89",
+            "ersparnis": "9.268,61 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2105": {
-            "endpreis": "51.919,55",
-            "kaufpreis": "49.830,55",
-            "ersparnis": "13.655,95 (21,51)",
+            "motorId": "2105",
+            "tariffId": "99",
+            "endpreis": "55.434,74",
+            "kaufpreis": "53.639,74",
+            "ersparnis": "9.846,76 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "54.721,64",
-            "kaufpreis": "52.632,64",
-            "ersparnis": "14.423,86 (21,51)",
+            "motorId": "2106",
+            "tariffId": "99",
+            "endpreis": "58.451,03",
+            "kaufpreis": "56.656,03",
+            "ersparnis": "10.400,47 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2110": {
-            "endpreis": "49.964,19",
-            "kaufpreis": "47.875,19",
-            "ersparnis": "13.112,31 (21,50)",
+            "motorId": "2110",
+            "tariffId": "99",
+            "endpreis": "53.329,44",
+            "kaufpreis": "51.534,44",
+            "ersparnis": "9.453,06 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "52.853,58",
-            "kaufpreis": "50.764,58",
-            "ersparnis": "13.911,92 (21,51)",
+            "motorId": "2111",
+            "tariffId": "99",
+            "endpreis": "56.440,17",
+            "kaufpreis": "54.645,17",
+            "ersparnis": "10.031,33 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "55.655,68",
-            "kaufpreis": "53.566,68",
-            "ersparnis": "14.679,82 (21,51)",
+            "motorId": "2112",
+            "tariffId": "99",
+            "endpreis": "59.456,47",
+            "kaufpreis": "57.661,47",
+            "ersparnis": "10.585,03 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2113": {
-            "endpreis": "49.647,92",
-            "kaufpreis": "47.558,92",
-            "ersparnis": "15.035,08 (24,02)",
+            "motorId": "2113",
+            "tariffId": "99",
+            "endpreis": "54.987,38",
+            "kaufpreis": "53.192,38",
+            "ersparnis": "9.401,62 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2114": {
-            "endpreis": "50.371,25",
-            "kaufpreis": "48.282,25",
-            "ersparnis": "15.263,75 (24,02)",
+            "motorId": "2114",
+            "tariffId": "99",
+            "endpreis": "55.796,39",
+            "kaufpreis": "54.001,39",
+            "ersparnis": "9.544,61 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "57.291,02",
-            "kaufpreis": "55.202,02",
-            "ersparnis": "14.234,48 (20,50)",
+            "motorId": "2576",
+            "tariffId": "99",
+            "endpreis": "61.496,50",
+            "kaufpreis": "59.701,50",
+            "ersparnis": "9.735,00 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "58.047,86",
-            "kaufpreis": "55.958,86",
-            "ersparnis": "14.429,64 (20,50)",
+            "motorId": "2577",
+            "tariffId": "99",
+            "endpreis": "62.315,03",
+            "kaufpreis": "60.520,03",
+            "ersparnis": "9.868,47 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "3941": {
-            "endpreis": "63.054,25",
-            "kaufpreis": "60.965,25",
-            "ersparnis": "15.730,25 (20,51)",
+            "motorId": "3941",
+            "tariffId": "99",
+            "endpreis": "67.737,79",
+            "kaufpreis": "65.942,79",
+            "ersparnis": "10.752,71 (14,02)",
             "lieferzeit": "herstellerüblich"
           }
         },
         "offers": {
           "2104": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2104",
+              "tariffId": "101",
+              "endpreis": "46.434,14",
+              "kaufpreis": "44.549,14",
+              "ersparnis": "15.248,36 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.030,04",
-              "kaufpreis": "46.941,04",
-              "ersparnis": "12.856,46 (21,50)",
+              "motorId": "2104",
+              "tariffId": "100",
+              "endpreis": "52.323,89",
+              "kaufpreis": "50.528,89",
+              "ersparnis": "9.268,61 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.030,04",
-              "kaufpreis": "46.941,04",
-              "ersparnis": "12.856,46 (21,50)",
+              "motorId": "2104",
+              "tariffId": "99",
+              "endpreis": "52.323,89",
+              "kaufpreis": "50.528,89",
+              "ersparnis": "9.268,61 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2105": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2105",
+              "tariffId": "101",
+              "endpreis": "49.176,09",
+              "kaufpreis": "47.291,09",
+              "ersparnis": "16.195,41 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.919,55",
-              "kaufpreis": "49.830,55",
-              "ersparnis": "13.655,95 (21,51)",
+              "motorId": "2105",
+              "tariffId": "100",
+              "endpreis": "55.434,74",
+              "kaufpreis": "53.639,74",
+              "ersparnis": "9.846,76 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.919,55",
-              "kaufpreis": "49.830,55",
-              "ersparnis": "13.655,95 (21,51)",
+              "motorId": "2105",
+              "tariffId": "99",
+              "endpreis": "55.434,74",
+              "kaufpreis": "53.639,74",
+              "ersparnis": "9.846,76 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2106": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2106",
+              "tariffId": "101",
+              "endpreis": "51.835,38",
+              "kaufpreis": "49.950,38",
+              "ersparnis": "17.106,12 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "54.721,64",
-              "kaufpreis": "52.632,64",
-              "ersparnis": "14.423,86 (21,51)",
+              "motorId": "2106",
+              "tariffId": "100",
+              "endpreis": "58.451,03",
+              "kaufpreis": "56.656,03",
+              "ersparnis": "10.400,47 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "54.721,64",
-              "kaufpreis": "52.632,64",
-              "ersparnis": "14.423,86 (21,51)",
+              "motorId": "2106",
+              "tariffId": "99",
+              "endpreis": "58.451,03",
+              "kaufpreis": "56.656,03",
+              "ersparnis": "10.400,47 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2110": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2110",
+              "tariffId": "101",
+              "endpreis": "47.320,69",
+              "kaufpreis": "45.435,69",
+              "ersparnis": "15.551,81 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.964,19",
-              "kaufpreis": "47.875,19",
-              "ersparnis": "13.112,31 (21,50)",
+              "motorId": "2110",
+              "tariffId": "100",
+              "endpreis": "53.329,44",
+              "kaufpreis": "51.534,44",
+              "ersparnis": "9.453,06 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.964,19",
-              "kaufpreis": "47.875,19",
-              "ersparnis": "13.112,31 (21,50)",
+              "motorId": "2110",
+              "tariffId": "99",
+              "endpreis": "53.329,44",
+              "kaufpreis": "51.534,44",
+              "ersparnis": "9.453,06 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2111": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2111",
+              "tariffId": "101",
+              "endpreis": "50.062,52",
+              "kaufpreis": "48.177,52",
+              "ersparnis": "16.498,98 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "52.853,58",
-              "kaufpreis": "50.764,58",
-              "ersparnis": "13.911,92 (21,51)",
+              "motorId": "2111",
+              "tariffId": "100",
+              "endpreis": "56.440,17",
+              "kaufpreis": "54.645,17",
+              "ersparnis": "10.031,33 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "52.853,58",
-              "kaufpreis": "50.764,58",
-              "ersparnis": "13.911,92 (21,51)",
+              "motorId": "2111",
+              "tariffId": "99",
+              "endpreis": "56.440,17",
+              "kaufpreis": "54.645,17",
+              "ersparnis": "10.031,33 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2112": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2112",
+              "tariffId": "101",
+              "endpreis": "52.721,82",
+              "kaufpreis": "50.836,82",
+              "ersparnis": "17.409,68 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "55.655,68",
-              "kaufpreis": "53.566,68",
-              "ersparnis": "14.679,82 (21,51)",
+              "motorId": "2112",
+              "tariffId": "100",
+              "endpreis": "59.456,47",
+              "kaufpreis": "57.661,47",
+              "ersparnis": "10.585,03 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "55.655,68",
-              "kaufpreis": "53.566,68",
-              "ersparnis": "14.679,82 (21,51)",
+              "motorId": "2112",
+              "tariffId": "99",
+              "endpreis": "59.456,47",
+              "kaufpreis": "57.661,47",
+              "ersparnis": "10.585,03 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2113": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2113",
+              "tariffId": "101",
+              "endpreis": "48.817,98",
+              "kaufpreis": "46.932,98",
+              "ersparnis": "15.661,02 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.647,92",
-              "kaufpreis": "47.558,92",
-              "ersparnis": "15.035,08 (24,02)",
+              "motorId": "2113",
+              "tariffId": "100",
+              "endpreis": "54.987,38",
+              "kaufpreis": "53.192,38",
+              "ersparnis": "9.401,62 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.647,92",
-              "kaufpreis": "47.558,92",
-              "ersparnis": "15.035,08 (24,02)",
+              "motorId": "2113",
+              "tariffId": "99",
+              "endpreis": "54.987,38",
+              "kaufpreis": "53.192,38",
+              "ersparnis": "9.401,62 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2114": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2114",
+              "tariffId": "101",
+              "endpreis": "49.531,79",
+              "kaufpreis": "47.646,79",
+              "ersparnis": "15.899,21 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.371,25",
-              "kaufpreis": "48.282,25",
-              "ersparnis": "15.263,75 (24,02)",
+              "motorId": "2114",
+              "tariffId": "100",
+              "endpreis": "55.796,39",
+              "kaufpreis": "54.001,39",
+              "ersparnis": "9.544,61 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.371,25",
-              "kaufpreis": "48.282,25",
-              "ersparnis": "15.263,75 (24,02)",
+              "motorId": "2114",
+              "tariffId": "99",
+              "endpreis": "55.796,39",
+              "kaufpreis": "54.001,39",
+              "ersparnis": "9.544,61 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2576": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2576",
+              "tariffId": "101",
+              "endpreis": "57.774,44",
+              "kaufpreis": "55.889,44",
+              "ersparnis": "13.547,06 (19,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "57.291,02",
-              "kaufpreis": "55.202,02",
-              "ersparnis": "14.234,48 (20,50)",
+              "motorId": "2576",
+              "tariffId": "100",
+              "endpreis": "61.496,50",
+              "kaufpreis": "59.701,50",
+              "ersparnis": "9.735,00 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "57.291,02",
-              "kaufpreis": "55.202,02",
-              "ersparnis": "14.234,48 (20,50)",
+              "motorId": "2576",
+              "tariffId": "99",
+              "endpreis": "61.496,50",
+              "kaufpreis": "59.701,50",
+              "ersparnis": "9.735,00 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2577",
+              "tariffId": "101",
+              "endpreis": "58.540,70",
+              "kaufpreis": "56.655,70",
+              "ersparnis": "13.732,80 (19,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "58.047,86",
-              "kaufpreis": "55.958,86",
-              "ersparnis": "14.429,64 (20,50)",
+              "motorId": "2577",
+              "tariffId": "100",
+              "endpreis": "62.315,03",
+              "kaufpreis": "60.520,03",
+              "ersparnis": "9.868,47 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "58.047,86",
-              "kaufpreis": "55.958,86",
-              "ersparnis": "14.429,64 (20,50)",
+              "motorId": "2577",
+              "tariffId": "99",
+              "endpreis": "62.315,03",
+              "kaufpreis": "60.520,03",
+              "ersparnis": "9.868,47 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3941": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3941",
+              "tariffId": "101",
+              "endpreis": "63.624,88",
+              "kaufpreis": "61.739,88",
+              "ersparnis": "14.955,62 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "63.054,25",
-              "kaufpreis": "60.965,25",
-              "ersparnis": "15.730,25 (20,51)",
+              "motorId": "3941",
+              "tariffId": "100",
+              "endpreis": "67.737,79",
+              "kaufpreis": "65.942,79",
+              "ersparnis": "10.752,71 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "63.054,25",
-              "kaufpreis": "60.965,25",
-              "ersparnis": "15.730,25 (20,51)",
+              "motorId": "3941",
+              "tariffId": "99",
+              "endpreis": "67.737,79",
+              "kaufpreis": "65.942,79",
+              "ersparnis": "10.752,71 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -11474,206 +11650,350 @@
       }
     },
     "1077": {
-      "fetchedAt": "2026-09-07T10:13:55.994Z",
+      "fetchedAt": "2026-10-28T11:17:13.220Z",
       "data": {
         "byMotor": {
           "2105": {
-            "endpreis": "50.898,34",
-            "kaufpreis": "48.809,34",
-            "ersparnis": "13.368,16 (21,50)",
+            "motorId": "2105",
+            "tariffId": "99",
+            "endpreis": "54.334,99",
+            "kaufpreis": "52.539,99",
+            "ersparnis": "9.637,51 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "53.700,79",
-            "kaufpreis": "51.611,79",
-            "ersparnis": "14.135,71 (21,50)",
+            "motorId": "2106",
+            "tariffId": "99",
+            "endpreis": "57.351,64",
+            "kaufpreis": "55.556,64",
+            "ersparnis": "10.190,86 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "51.832,49",
-            "kaufpreis": "49.743,49",
-            "ersparnis": "13.624,01 (21,50)",
+            "motorId": "2111",
+            "tariffId": "99",
+            "endpreis": "55.340,54",
+            "kaufpreis": "53.545,54",
+            "ersparnis": "9.821,96 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "54.634,94",
-            "kaufpreis": "52.545,94",
-            "ersparnis": "14.391,56 (21,50)",
+            "motorId": "2112",
+            "tariffId": "99",
+            "endpreis": "58.357,19",
+            "kaufpreis": "56.562,19",
+            "ersparnis": "10.375,31 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2113": {
-            "endpreis": "48.653,34",
-            "kaufpreis": "46.564,34",
-            "ersparnis": "14.720,66 (24,02)",
+            "motorId": "2113",
+            "tariffId": "99",
+            "endpreis": "53.874,99",
+            "kaufpreis": "52.079,99",
+            "ersparnis": "9.205,01 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2114": {
-            "endpreis": "49.376,67",
-            "kaufpreis": "47.287,67",
-            "ersparnis": "14.949,33 (24,02)",
+            "motorId": "2114",
+            "tariffId": "99",
+            "endpreis": "54.684,00",
+            "kaufpreis": "52.889,00",
+            "ersparnis": "9.348,00 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "56.243,55",
-            "kaufpreis": "54.154,55",
-            "ersparnis": "13.972,95 (20,51)",
+            "motorId": "2576",
+            "tariffId": "99",
+            "endpreis": "60.371,02",
+            "kaufpreis": "58.576,02",
+            "ersparnis": "9.551,48 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "57.000,29",
-            "kaufpreis": "54.911,29",
-            "ersparnis": "14.168,21 (20,51)",
+            "motorId": "2577",
+            "tariffId": "99",
+            "endpreis": "61.189,55",
+            "kaufpreis": "59.394,55",
+            "ersparnis": "9.684,95 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "3652": {
-            "endpreis": "63.858,29",
-            "kaufpreis": "61.769,29",
-            "ersparnis": "15.937,71 (20,51)",
+            "motorId": "3652",
+            "tariffId": "99",
+            "endpreis": "68.607,48",
+            "kaufpreis": "66.812,48",
+            "ersparnis": "10.894,52 (14,02)",
             "lieferzeit": "herstellerüblich"
           }
         },
         "offers": {
           "2105": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2105",
+              "tariffId": "101",
+              "endpreis": "48.207,24",
+              "kaufpreis": "46.322,24",
+              "ersparnis": "15.855,26 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.898,34",
-              "kaufpreis": "48.809,34",
-              "ersparnis": "13.368,16 (21,50)",
+              "motorId": "2105",
+              "tariffId": "100",
+              "endpreis": "54.334,99",
+              "kaufpreis": "52.539,99",
+              "ersparnis": "9.637,51 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.898,34",
-              "kaufpreis": "48.809,34",
-              "ersparnis": "13.368,16 (21,50)",
+              "motorId": "2105",
+              "tariffId": "99",
+              "endpreis": "54.334,99",
+              "kaufpreis": "52.539,99",
+              "ersparnis": "9.637,51 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2106": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2106",
+              "tariffId": "101",
+              "endpreis": "50.866,89",
+              "kaufpreis": "48.981,89",
+              "ersparnis": "16.765,61 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "53.700,79",
-              "kaufpreis": "51.611,79",
-              "ersparnis": "14.135,71 (21,50)",
+              "motorId": "2106",
+              "tariffId": "100",
+              "endpreis": "57.351,64",
+              "kaufpreis": "55.556,64",
+              "ersparnis": "10.190,86 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "53.700,79",
-              "kaufpreis": "51.611,79",
-              "ersparnis": "14.135,71 (21,50)",
+              "motorId": "2106",
+              "tariffId": "99",
+              "endpreis": "57.351,64",
+              "kaufpreis": "55.556,64",
+              "ersparnis": "10.190,86 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2111": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2111",
+              "tariffId": "101",
+              "endpreis": "49.093,79",
+              "kaufpreis": "47.208,79",
+              "ersparnis": "16.158,71 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.832,49",
-              "kaufpreis": "49.743,49",
-              "ersparnis": "13.624,01 (21,50)",
+              "motorId": "2111",
+              "tariffId": "100",
+              "endpreis": "55.340,54",
+              "kaufpreis": "53.545,54",
+              "ersparnis": "9.821,96 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.832,49",
-              "kaufpreis": "49.743,49",
-              "ersparnis": "13.624,01 (21,50)",
+              "motorId": "2111",
+              "tariffId": "99",
+              "endpreis": "55.340,54",
+              "kaufpreis": "53.545,54",
+              "ersparnis": "9.821,96 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2112": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2112",
+              "tariffId": "101",
+              "endpreis": "51.753,44",
+              "kaufpreis": "49.868,44",
+              "ersparnis": "17.069,06 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "54.634,94",
-              "kaufpreis": "52.545,94",
-              "ersparnis": "14.391,56 (21,50)",
+              "motorId": "2112",
+              "tariffId": "100",
+              "endpreis": "58.357,19",
+              "kaufpreis": "56.562,19",
+              "ersparnis": "10.375,31 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "54.634,94",
-              "kaufpreis": "52.545,94",
-              "ersparnis": "14.391,56 (21,50)",
+              "motorId": "2112",
+              "tariffId": "99",
+              "endpreis": "58.357,19",
+              "kaufpreis": "56.562,19",
+              "ersparnis": "10.375,31 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2113": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2113",
+              "tariffId": "101",
+              "endpreis": "47.836,49",
+              "kaufpreis": "45.951,49",
+              "ersparnis": "15.333,51 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "48.653,34",
-              "kaufpreis": "46.564,34",
-              "ersparnis": "14.720,66 (24,02)",
+              "motorId": "2113",
+              "tariffId": "100",
+              "endpreis": "53.874,99",
+              "kaufpreis": "52.079,99",
+              "ersparnis": "9.205,01 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "48.653,34",
-              "kaufpreis": "46.564,34",
-              "ersparnis": "14.720,66 (24,02)",
+              "motorId": "2113",
+              "tariffId": "99",
+              "endpreis": "53.874,99",
+              "kaufpreis": "52.079,99",
+              "ersparnis": "9.205,01 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2114": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2114",
+              "tariffId": "101",
+              "endpreis": "48.550,30",
+              "kaufpreis": "46.665,30",
+              "ersparnis": "15.571,70 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.376,67",
-              "kaufpreis": "47.287,67",
-              "ersparnis": "14.949,33 (24,02)",
+              "motorId": "2114",
+              "tariffId": "100",
+              "endpreis": "54.684,00",
+              "kaufpreis": "52.889,00",
+              "ersparnis": "9.348,00 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.376,67",
-              "kaufpreis": "47.287,67",
-              "ersparnis": "14.949,33 (24,02)",
+              "motorId": "2114",
+              "tariffId": "99",
+              "endpreis": "54.684,00",
+              "kaufpreis": "52.889,00",
+              "ersparnis": "9.348,00 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2576": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2576",
+              "tariffId": "101",
+              "endpreis": "56.727,64",
+              "kaufpreis": "54.842,64",
+              "ersparnis": "13.284,86 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "56.243,55",
-              "kaufpreis": "54.154,55",
-              "ersparnis": "13.972,95 (20,51)",
+              "motorId": "2576",
+              "tariffId": "100",
+              "endpreis": "60.371,02",
+              "kaufpreis": "58.576,02",
+              "ersparnis": "9.551,48 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "56.243,55",
-              "kaufpreis": "54.154,55",
-              "ersparnis": "13.972,95 (20,51)",
+              "motorId": "2576",
+              "tariffId": "99",
+              "endpreis": "60.371,02",
+              "kaufpreis": "58.576,02",
+              "ersparnis": "9.551,48 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2577",
+              "tariffId": "101",
+              "endpreis": "57.494,00",
+              "kaufpreis": "55.609,00",
+              "ersparnis": "13.470,50 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "57.000,29",
-              "kaufpreis": "54.911,29",
-              "ersparnis": "14.168,21 (20,51)",
+              "motorId": "2577",
+              "tariffId": "100",
+              "endpreis": "61.189,55",
+              "kaufpreis": "59.394,55",
+              "ersparnis": "9.684,95 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "57.000,29",
-              "kaufpreis": "54.911,29",
-              "ersparnis": "14.168,21 (20,51)",
+              "motorId": "2577",
+              "tariffId": "99",
+              "endpreis": "61.189,55",
+              "kaufpreis": "59.394,55",
+              "ersparnis": "9.684,95 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3652": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3652",
+              "tariffId": "101",
+              "endpreis": "64.431,36",
+              "kaufpreis": "62.546,36",
+              "ersparnis": "15.160,64 (19,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "63.858,29",
-              "kaufpreis": "61.769,29",
-              "ersparnis": "15.937,71 (20,51)",
+              "motorId": "3652",
+              "tariffId": "100",
+              "endpreis": "68.607,48",
+              "kaufpreis": "66.812,48",
+              "ersparnis": "10.894,52 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "63.858,29",
-              "kaufpreis": "61.769,29",
-              "ersparnis": "15.937,71 (20,51)",
+              "motorId": "3652",
+              "tariffId": "99",
+              "endpreis": "68.607,48",
+              "kaufpreis": "66.812,48",
+              "ersparnis": "10.894,52 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -11681,382 +12001,654 @@
       }
     },
     "1102": {
-      "fetchedAt": "2026-09-07T10:13:55.263Z",
+      "fetchedAt": "2026-10-28T11:17:12.561Z",
       "data": {
         "byMotor": {
           "2101": {
-            "endpreis": "44.260,50",
-            "kaufpreis": "42.171,50",
-            "ersparnis": "11.557,00 (21,51)",
+            "motorId": "2101",
+            "tariffId": "99",
+            "endpreis": "47.190,21",
+            "kaufpreis": "45.395,21",
+            "ersparnis": "8.333,29 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2102": {
-            "endpreis": "46.128,56",
-            "kaufpreis": "44.039,56",
-            "ersparnis": "12.068,94 (21,51)",
+            "motorId": "2102",
+            "tariffId": "99",
+            "endpreis": "49.201,07",
+            "kaufpreis": "47.406,07",
+            "ersparnis": "8.702,43 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2103": {
-            "endpreis": "48.930,65",
-            "kaufpreis": "46.841,65",
-            "ersparnis": "12.836,85 (21,51)",
+            "motorId": "2103",
+            "tariffId": "99",
+            "endpreis": "52.217,36",
+            "kaufpreis": "50.422,36",
+            "ersparnis": "9.256,14 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2104": {
-            "endpreis": "45.106,61",
-            "kaufpreis": "43.017,61",
-            "ersparnis": "11.781,89 (21,50)",
+            "motorId": "2104",
+            "tariffId": "99",
+            "endpreis": "48.100,58",
+            "kaufpreis": "46.305,58",
+            "ersparnis": "8.493,92 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2105": {
-            "endpreis": "47.996,62",
-            "kaufpreis": "45.907,62",
-            "ersparnis": "12.580,88 (21,51)",
+            "motorId": "2105",
+            "tariffId": "99",
+            "endpreis": "51.211,93",
+            "kaufpreis": "49.416,93",
+            "ersparnis": "9.071,57 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "50.798,71",
-            "kaufpreis": "48.709,71",
-            "ersparnis": "13.348,79 (21,51)",
+            "motorId": "2106",
+            "tariffId": "99",
+            "endpreis": "54.228,22",
+            "kaufpreis": "52.433,22",
+            "ersparnis": "9.625,28 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2107": {
-            "endpreis": "45.194,53",
-            "kaufpreis": "43.105,53",
-            "ersparnis": "11.812,97 (21,51)",
+            "motorId": "2107",
+            "tariffId": "99",
+            "endpreis": "48.195,64",
+            "kaufpreis": "46.400,64",
+            "ersparnis": "8.517,86 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2108": {
-            "endpreis": "47.062,20",
-            "kaufpreis": "44.973,20",
-            "ersparnis": "12.324,80 (21,51)",
+            "motorId": "2108",
+            "tariffId": "99",
+            "endpreis": "50.206,08",
+            "kaufpreis": "48.411,08",
+            "ersparnis": "8.886,92 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2109": {
-            "endpreis": "49.864,68",
-            "kaufpreis": "47.775,68",
-            "ersparnis": "13.092,82 (21,51)",
+            "motorId": "2109",
+            "tariffId": "99",
+            "endpreis": "53.222,79",
+            "kaufpreis": "51.427,79",
+            "ersparnis": "9.440,71 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2110": {
-            "endpreis": "46.040,76",
-            "kaufpreis": "43.951,76",
-            "ersparnis": "12.037,74 (21,50)",
+            "motorId": "2110",
+            "tariffId": "99",
+            "endpreis": "49.106,13",
+            "kaufpreis": "47.311,13",
+            "ersparnis": "8.678,37 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "48.930,65",
-            "kaufpreis": "46.841,65",
-            "ersparnis": "12.836,85 (21,51)",
+            "motorId": "2111",
+            "tariffId": "99",
+            "endpreis": "52.217,36",
+            "kaufpreis": "50.422,36",
+            "ersparnis": "9.256,14 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "51.732,75",
-            "kaufpreis": "49.643,75",
-            "ersparnis": "13.604,75 (21,51)",
+            "motorId": "2112",
+            "tariffId": "99",
+            "endpreis": "55.233,66",
+            "kaufpreis": "53.438,66",
+            "ersparnis": "9.809,84 (15,51)",
             "lieferzeit": "herstellerüblich"
           },
           "2113": {
-            "endpreis": "45.850,44",
-            "kaufpreis": "43.761,44",
-            "ersparnis": "13.834,56 (24,02)",
+            "motorId": "2113",
+            "tariffId": "99",
+            "endpreis": "50.740,08",
+            "kaufpreis": "48.945,08",
+            "ersparnis": "8.650,92 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2114": {
-            "endpreis": "46.573,77",
-            "kaufpreis": "44.484,77",
-            "ersparnis": "14.063,23 (24,02)",
+            "motorId": "2114",
+            "tariffId": "99",
+            "endpreis": "51.549,09",
+            "kaufpreis": "49.754,09",
+            "ersparnis": "8.793,91 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "53.317,61",
-            "kaufpreis": "51.228,61",
-            "ersparnis": "13.209,89 (20,50)",
+            "motorId": "2576",
+            "tariffId": "99",
+            "endpreis": "57.199,22",
+            "kaufpreis": "55.404,22",
+            "ersparnis": "9.034,28 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "54.074,45",
-            "kaufpreis": "51.985,45",
-            "ersparnis": "13.405,05 (20,50)",
+            "motorId": "2577",
+            "tariffId": "99",
+            "endpreis": "58.017,75",
+            "kaufpreis": "56.222,75",
+            "ersparnis": "9.167,75 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "3941": {
-            "endpreis": "59.081,34",
-            "kaufpreis": "56.992,34",
-            "ersparnis": "14.705,16 (20,51)",
+            "motorId": "3941",
+            "tariffId": "99",
+            "endpreis": "63.440,51",
+            "kaufpreis": "61.645,51",
+            "ersparnis": "10.051,99 (14,02)",
             "lieferzeit": "herstellerüblich"
           }
         },
         "offers": {
           "2101": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2101",
+              "tariffId": "101",
+              "endpreis": "41.907,36",
+              "kaufpreis": "40.022,36",
+              "ersparnis": "13.706,14 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "44.260,50",
-              "kaufpreis": "42.171,50",
-              "ersparnis": "11.557,00 (21,51)",
+              "motorId": "2101",
+              "tariffId": "100",
+              "endpreis": "47.190,21",
+              "kaufpreis": "45.395,21",
+              "ersparnis": "8.333,29 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "44.260,50",
-              "kaufpreis": "42.171,50",
-              "ersparnis": "11.557,00 (21,51)",
+              "motorId": "2101",
+              "tariffId": "99",
+              "endpreis": "47.190,21",
+              "kaufpreis": "45.395,21",
+              "ersparnis": "8.333,29 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2102": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2102",
+              "tariffId": "101",
+              "endpreis": "43.680,22",
+              "kaufpreis": "41.795,22",
+              "ersparnis": "14.313,28 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "46.128,56",
-              "kaufpreis": "44.039,56",
-              "ersparnis": "12.068,94 (21,51)",
+              "motorId": "2102",
+              "tariffId": "100",
+              "endpreis": "49.201,07",
+              "kaufpreis": "47.406,07",
+              "ersparnis": "8.702,43 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "46.128,56",
-              "kaufpreis": "44.039,56",
-              "ersparnis": "12.068,94 (21,51)",
+              "motorId": "2102",
+              "tariffId": "99",
+              "endpreis": "49.201,07",
+              "kaufpreis": "47.406,07",
+              "ersparnis": "8.702,43 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2103": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2103",
+              "tariffId": "101",
+              "endpreis": "46.339,51",
+              "kaufpreis": "44.454,51",
+              "ersparnis": "15.223,99 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "48.930,65",
-              "kaufpreis": "46.841,65",
-              "ersparnis": "12.836,85 (21,51)",
+              "motorId": "2103",
+              "tariffId": "100",
+              "endpreis": "52.217,36",
+              "kaufpreis": "50.422,36",
+              "ersparnis": "9.256,14 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "48.930,65",
-              "kaufpreis": "46.841,65",
-              "ersparnis": "12.836,85 (21,51)",
+              "motorId": "2103",
+              "tariffId": "99",
+              "endpreis": "52.217,36",
+              "kaufpreis": "50.422,36",
+              "ersparnis": "9.256,14 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2104": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2104",
+              "tariffId": "101",
+              "endpreis": "42.710,63",
+              "kaufpreis": "40.825,63",
+              "ersparnis": "13.973,87 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "45.106,61",
-              "kaufpreis": "43.017,61",
-              "ersparnis": "11.781,89 (21,50)",
+              "motorId": "2104",
+              "tariffId": "100",
+              "endpreis": "48.100,58",
+              "kaufpreis": "46.305,58",
+              "ersparnis": "8.493,92 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "45.106,61",
-              "kaufpreis": "43.017,61",
-              "ersparnis": "11.781,89 (21,50)",
+              "motorId": "2104",
+              "tariffId": "99",
+              "endpreis": "48.100,58",
+              "kaufpreis": "46.305,58",
+              "ersparnis": "8.493,92 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2105": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2105",
+              "tariffId": "101",
+              "endpreis": "45.453,08",
+              "kaufpreis": "43.568,08",
+              "ersparnis": "14.920,42 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "47.996,62",
-              "kaufpreis": "45.907,62",
-              "ersparnis": "12.580,88 (21,51)",
+              "motorId": "2105",
+              "tariffId": "100",
+              "endpreis": "51.211,93",
+              "kaufpreis": "49.416,93",
+              "ersparnis": "9.071,57 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "47.996,62",
-              "kaufpreis": "45.907,62",
-              "ersparnis": "12.580,88 (21,51)",
+              "motorId": "2105",
+              "tariffId": "99",
+              "endpreis": "51.211,93",
+              "kaufpreis": "49.416,93",
+              "ersparnis": "9.071,57 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2106": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2106",
+              "tariffId": "101",
+              "endpreis": "48.112,37",
+              "kaufpreis": "46.227,37",
+              "ersparnis": "15.831,13 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.798,71",
-              "kaufpreis": "48.709,71",
-              "ersparnis": "13.348,79 (21,51)",
+              "motorId": "2106",
+              "tariffId": "100",
+              "endpreis": "54.228,22",
+              "kaufpreis": "52.433,22",
+              "ersparnis": "9.625,28 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.798,71",
-              "kaufpreis": "48.709,71",
-              "ersparnis": "13.348,79 (21,51)",
+              "motorId": "2106",
+              "tariffId": "99",
+              "endpreis": "54.228,22",
+              "kaufpreis": "52.433,22",
+              "ersparnis": "9.625,28 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2107": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2107",
+              "tariffId": "101",
+              "endpreis": "42.793,79",
+              "kaufpreis": "40.908,79",
+              "ersparnis": "14.009,71 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "45.194,53",
-              "kaufpreis": "43.105,53",
-              "ersparnis": "11.812,97 (21,51)",
+              "motorId": "2107",
+              "tariffId": "100",
+              "endpreis": "48.195,64",
+              "kaufpreis": "46.400,64",
+              "ersparnis": "8.517,86 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "45.194,53",
-              "kaufpreis": "43.105,53",
-              "ersparnis": "11.812,97 (21,51)",
+              "motorId": "2107",
+              "tariffId": "99",
+              "endpreis": "48.195,64",
+              "kaufpreis": "46.400,64",
+              "ersparnis": "8.517,86 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2108": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2108",
+              "tariffId": "101",
+              "endpreis": "44.566,28",
+              "kaufpreis": "42.681,28",
+              "ersparnis": "14.616,72 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "47.062,20",
-              "kaufpreis": "44.973,20",
-              "ersparnis": "12.324,80 (21,51)",
+              "motorId": "2108",
+              "tariffId": "100",
+              "endpreis": "50.206,08",
+              "kaufpreis": "48.411,08",
+              "ersparnis": "8.886,92 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "47.062,20",
-              "kaufpreis": "44.973,20",
-              "ersparnis": "12.324,80 (21,51)",
+              "motorId": "2108",
+              "tariffId": "99",
+              "endpreis": "50.206,08",
+              "kaufpreis": "48.411,08",
+              "ersparnis": "8.886,92 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2109": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2109",
+              "tariffId": "101",
+              "endpreis": "47.225,94",
+              "kaufpreis": "45.340,94",
+              "ersparnis": "15.527,56 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "49.864,68",
-              "kaufpreis": "47.775,68",
-              "ersparnis": "13.092,82 (21,51)",
+              "motorId": "2109",
+              "tariffId": "100",
+              "endpreis": "53.222,79",
+              "kaufpreis": "51.427,79",
+              "ersparnis": "9.440,71 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "49.864,68",
-              "kaufpreis": "47.775,68",
-              "ersparnis": "13.092,82 (21,51)",
+              "motorId": "2109",
+              "tariffId": "99",
+              "endpreis": "53.222,79",
+              "kaufpreis": "51.427,79",
+              "ersparnis": "9.440,71 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2110": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2110",
+              "tariffId": "101",
+              "endpreis": "43.597,18",
+              "kaufpreis": "41.712,18",
+              "ersparnis": "14.277,32 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "46.040,76",
-              "kaufpreis": "43.951,76",
-              "ersparnis": "12.037,74 (21,50)",
+              "motorId": "2110",
+              "tariffId": "100",
+              "endpreis": "49.106,13",
+              "kaufpreis": "47.311,13",
+              "ersparnis": "8.678,37 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "46.040,76",
-              "kaufpreis": "43.951,76",
-              "ersparnis": "12.037,74 (21,50)",
+              "motorId": "2110",
+              "tariffId": "99",
+              "endpreis": "49.106,13",
+              "kaufpreis": "47.311,13",
+              "ersparnis": "8.678,37 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2111": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2111",
+              "tariffId": "101",
+              "endpreis": "46.339,51",
+              "kaufpreis": "44.454,51",
+              "ersparnis": "15.223,99 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "48.930,65",
-              "kaufpreis": "46.841,65",
-              "ersparnis": "12.836,85 (21,51)",
+              "motorId": "2111",
+              "tariffId": "100",
+              "endpreis": "52.217,36",
+              "kaufpreis": "50.422,36",
+              "ersparnis": "9.256,14 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "48.930,65",
-              "kaufpreis": "46.841,65",
-              "ersparnis": "12.836,85 (21,51)",
+              "motorId": "2111",
+              "tariffId": "99",
+              "endpreis": "52.217,36",
+              "kaufpreis": "50.422,36",
+              "ersparnis": "9.256,14 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2112": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2112",
+              "tariffId": "101",
+              "endpreis": "48.998,81",
+              "kaufpreis": "47.113,81",
+              "ersparnis": "16.134,69 (25,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.732,75",
-              "kaufpreis": "49.643,75",
-              "ersparnis": "13.604,75 (21,51)",
+              "motorId": "2112",
+              "tariffId": "100",
+              "endpreis": "55.233,66",
+              "kaufpreis": "53.438,66",
+              "ersparnis": "9.809,84 (15,51)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.732,75",
-              "kaufpreis": "49.643,75",
-              "ersparnis": "13.604,75 (21,51)",
+              "motorId": "2112",
+              "tariffId": "99",
+              "endpreis": "55.233,66",
+              "kaufpreis": "53.438,66",
+              "ersparnis": "9.809,84 (15,51)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2113": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2113",
+              "tariffId": "101",
+              "endpreis": "45.070,48",
+              "kaufpreis": "43.185,48",
+              "ersparnis": "14.410,52 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "45.850,44",
-              "kaufpreis": "43.761,44",
-              "ersparnis": "13.834,56 (24,02)",
+              "motorId": "2113",
+              "tariffId": "100",
+              "endpreis": "50.740,08",
+              "kaufpreis": "48.945,08",
+              "ersparnis": "8.650,92 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "45.850,44",
-              "kaufpreis": "43.761,44",
-              "ersparnis": "13.834,56 (24,02)",
+              "motorId": "2113",
+              "tariffId": "99",
+              "endpreis": "50.740,08",
+              "kaufpreis": "48.945,08",
+              "ersparnis": "8.650,92 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2114": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2114",
+              "tariffId": "101",
+              "endpreis": "45.784,29",
+              "kaufpreis": "43.899,29",
+              "ersparnis": "14.648,71 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "46.573,77",
-              "kaufpreis": "44.484,77",
-              "ersparnis": "14.063,23 (24,02)",
+              "motorId": "2114",
+              "tariffId": "100",
+              "endpreis": "51.549,09",
+              "kaufpreis": "49.754,09",
+              "ersparnis": "8.793,91 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "46.573,77",
-              "kaufpreis": "44.484,77",
-              "ersparnis": "14.063,23 (24,02)",
+              "motorId": "2114",
+              "tariffId": "99",
+              "endpreis": "51.549,09",
+              "kaufpreis": "49.754,09",
+              "ersparnis": "8.793,91 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2576": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2576",
+              "tariffId": "101",
+              "endpreis": "53.751,55",
+              "kaufpreis": "51.866,55",
+              "ersparnis": "12.571,95 (19,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "53.317,61",
-              "kaufpreis": "51.228,61",
-              "ersparnis": "13.209,89 (20,50)",
+              "motorId": "2576",
+              "tariffId": "100",
+              "endpreis": "57.199,22",
+              "kaufpreis": "55.404,22",
+              "ersparnis": "9.034,28 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "53.317,61",
-              "kaufpreis": "51.228,61",
-              "ersparnis": "13.209,89 (20,50)",
+              "motorId": "2576",
+              "tariffId": "99",
+              "endpreis": "57.199,22",
+              "kaufpreis": "55.404,22",
+              "ersparnis": "9.034,28 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2577",
+              "tariffId": "101",
+              "endpreis": "54.517,81",
+              "kaufpreis": "52.632,81",
+              "ersparnis": "12.757,69 (19,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "54.074,45",
-              "kaufpreis": "51.985,45",
-              "ersparnis": "13.405,05 (20,50)",
+              "motorId": "2577",
+              "tariffId": "100",
+              "endpreis": "58.017,75",
+              "kaufpreis": "56.222,75",
+              "ersparnis": "9.167,75 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "54.074,45",
-              "kaufpreis": "51.985,45",
-              "ersparnis": "13.405,05 (20,50)",
+              "motorId": "2577",
+              "tariffId": "99",
+              "endpreis": "58.017,75",
+              "kaufpreis": "56.222,75",
+              "ersparnis": "9.167,75 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3941": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3941",
+              "tariffId": "101",
+              "endpreis": "59.601,49",
+              "kaufpreis": "57.716,49",
+              "ersparnis": "13.981,01 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "59.081,34",
-              "kaufpreis": "56.992,34",
-              "ersparnis": "14.705,16 (20,51)",
+              "motorId": "3941",
+              "tariffId": "100",
+              "endpreis": "63.440,51",
+              "kaufpreis": "61.645,51",
+              "ersparnis": "10.051,99 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "59.081,34",
-              "kaufpreis": "56.992,34",
-              "ersparnis": "14.705,16 (20,51)",
+              "motorId": "3941",
+              "tariffId": "99",
+              "endpreis": "63.440,51",
+              "kaufpreis": "61.645,51",
+              "ersparnis": "10.051,99 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -12064,206 +12656,350 @@
       }
     },
     "1114": {
-      "fetchedAt": "2026-09-07T10:13:56.319Z",
+      "fetchedAt": "2026-10-28T11:17:13.563Z",
       "data": {
         "byMotor": {
           "2105": {
-            "endpreis": "52.953,47",
-            "kaufpreis": "50.864,47",
-            "ersparnis": "13.931,03 (21,50)",
+            "motorId": "2105",
+            "tariffId": "99",
+            "endpreis": "56.547,20",
+            "kaufpreis": "54.752,20",
+            "ersparnis": "10.043,30 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2106": {
-            "endpreis": "55.755,92",
-            "kaufpreis": "53.666,92",
-            "ersparnis": "14.698,58 (21,50)",
+            "motorId": "2106",
+            "tariffId": "99",
+            "endpreis": "59.563,85",
+            "kaufpreis": "57.768,85",
+            "ersparnis": "10.596,65 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2111": {
-            "endpreis": "53.887,62",
-            "kaufpreis": "51.798,62",
-            "ersparnis": "14.186,88 (21,50)",
+            "motorId": "2111",
+            "tariffId": "99",
+            "endpreis": "57.552,75",
+            "kaufpreis": "55.757,75",
+            "ersparnis": "10.227,75 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2112": {
-            "endpreis": "56.690,07",
-            "kaufpreis": "54.601,07",
-            "ersparnis": "14.954,43 (21,50)",
+            "motorId": "2112",
+            "tariffId": "99",
+            "endpreis": "60.569,40",
+            "kaufpreis": "58.774,40",
+            "ersparnis": "10.781,10 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2113": {
-            "endpreis": "50.642,50",
-            "kaufpreis": "48.553,50",
-            "ersparnis": "15.349,50 (24,02)",
+            "motorId": "2113",
+            "tariffId": "99",
+            "endpreis": "56.099,77",
+            "kaufpreis": "54.304,77",
+            "ersparnis": "9.598,23 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2114": {
-            "endpreis": "51.365,83",
-            "kaufpreis": "49.276,83",
-            "ersparnis": "15.578,17 (24,02)",
+            "motorId": "2114",
+            "tariffId": "99",
+            "endpreis": "56.908,78",
+            "kaufpreis": "55.113,78",
+            "ersparnis": "9.741,22 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "58.324,60",
-            "kaufpreis": "56.235,60",
-            "ersparnis": "14.509,90 (20,51)",
+            "motorId": "2576",
+            "tariffId": "99",
+            "endpreis": "62.621,98",
+            "kaufpreis": "60.826,98",
+            "ersparnis": "9.918,52 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "59.081,34",
-            "kaufpreis": "56.992,34",
-            "ersparnis": "14.705,16 (20,51)",
+            "motorId": "2577",
+            "tariffId": "99",
+            "endpreis": "63.440,51",
+            "kaufpreis": "61.645,51",
+            "ersparnis": "10.051,99 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "3652": {
-            "endpreis": "65.939,34",
-            "kaufpreis": "63.850,34",
-            "ersparnis": "16.474,66 (20,51)",
+            "motorId": "3652",
+            "tariffId": "99",
+            "endpreis": "70.858,44",
+            "kaufpreis": "69.063,44",
+            "ersparnis": "11.261,57 (14,02)",
             "lieferzeit": "herstellerüblich"
           }
         },
         "offers": {
           "2105": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2105",
+              "tariffId": "101",
+              "endpreis": "50.157,65",
+              "kaufpreis": "48.272,65",
+              "ersparnis": "16.522,85 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "52.953,47",
-              "kaufpreis": "50.864,47",
-              "ersparnis": "13.931,03 (21,50)",
+              "motorId": "2105",
+              "tariffId": "100",
+              "endpreis": "56.547,20",
+              "kaufpreis": "54.752,20",
+              "ersparnis": "10.043,30 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "52.953,47",
-              "kaufpreis": "50.864,47",
-              "ersparnis": "13.931,03 (21,50)",
+              "motorId": "2105",
+              "tariffId": "99",
+              "endpreis": "56.547,20",
+              "kaufpreis": "54.752,20",
+              "ersparnis": "10.043,30 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2106": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2106",
+              "tariffId": "101",
+              "endpreis": "52.817,30",
+              "kaufpreis": "50.932,30",
+              "ersparnis": "17.433,20 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "55.755,92",
-              "kaufpreis": "53.666,92",
-              "ersparnis": "14.698,58 (21,50)",
+              "motorId": "2106",
+              "tariffId": "100",
+              "endpreis": "59.563,85",
+              "kaufpreis": "57.768,85",
+              "ersparnis": "10.596,65 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "55.755,92",
-              "kaufpreis": "53.666,92",
-              "ersparnis": "14.698,58 (21,50)",
+              "motorId": "2106",
+              "tariffId": "99",
+              "endpreis": "59.563,85",
+              "kaufpreis": "57.768,85",
+              "ersparnis": "10.596,65 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2111": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2111",
+              "tariffId": "101",
+              "endpreis": "51.044,20",
+              "kaufpreis": "49.159,20",
+              "ersparnis": "16.826,30 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "53.887,62",
-              "kaufpreis": "51.798,62",
-              "ersparnis": "14.186,88 (21,50)",
+              "motorId": "2111",
+              "tariffId": "100",
+              "endpreis": "57.552,75",
+              "kaufpreis": "55.757,75",
+              "ersparnis": "10.227,75 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "53.887,62",
-              "kaufpreis": "51.798,62",
-              "ersparnis": "14.186,88 (21,50)",
+              "motorId": "2111",
+              "tariffId": "99",
+              "endpreis": "57.552,75",
+              "kaufpreis": "55.757,75",
+              "ersparnis": "10.227,75 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2112": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2112",
+              "tariffId": "101",
+              "endpreis": "53.342,16",
+              "kaufpreis": "51.457,16",
+              "ersparnis": "18.098,34 (26,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "56.690,07",
-              "kaufpreis": "54.601,07",
-              "ersparnis": "14.954,43 (21,50)",
+              "motorId": "2112",
+              "tariffId": "100",
+              "endpreis": "60.569,40",
+              "kaufpreis": "58.774,40",
+              "ersparnis": "10.781,10 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "56.690,07",
-              "kaufpreis": "54.601,07",
-              "ersparnis": "14.954,43 (21,50)",
+              "motorId": "2112",
+              "tariffId": "99",
+              "endpreis": "60.569,40",
+              "kaufpreis": "58.774,40",
+              "ersparnis": "10.781,10 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2113": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2113",
+              "tariffId": "101",
+              "endpreis": "49.799,47",
+              "kaufpreis": "47.914,47",
+              "ersparnis": "15.988,53 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "50.642,50",
-              "kaufpreis": "48.553,50",
-              "ersparnis": "15.349,50 (24,02)",
+              "motorId": "2113",
+              "tariffId": "100",
+              "endpreis": "56.099,77",
+              "kaufpreis": "54.304,77",
+              "ersparnis": "9.598,23 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "50.642,50",
-              "kaufpreis": "48.553,50",
-              "ersparnis": "15.349,50 (24,02)",
+              "motorId": "2113",
+              "tariffId": "99",
+              "endpreis": "56.099,77",
+              "kaufpreis": "54.304,77",
+              "ersparnis": "9.598,23 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2114": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2114",
+              "tariffId": "101",
+              "endpreis": "50.513,28",
+              "kaufpreis": "48.628,28",
+              "ersparnis": "16.226,72 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.365,83",
-              "kaufpreis": "49.276,83",
-              "ersparnis": "15.578,17 (24,02)",
+              "motorId": "2114",
+              "tariffId": "100",
+              "endpreis": "56.908,78",
+              "kaufpreis": "55.113,78",
+              "ersparnis": "9.741,22 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.365,83",
-              "kaufpreis": "49.276,83",
-              "ersparnis": "15.578,17 (24,02)",
+              "motorId": "2114",
+              "tariffId": "99",
+              "endpreis": "56.908,78",
+              "kaufpreis": "55.113,78",
+              "ersparnis": "9.741,22 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2576": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2576",
+              "tariffId": "101",
+              "endpreis": "58.835,13",
+              "kaufpreis": "56.950,13",
+              "ersparnis": "13.795,37 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "58.324,60",
-              "kaufpreis": "56.235,60",
-              "ersparnis": "14.509,90 (20,51)",
+              "motorId": "2576",
+              "tariffId": "100",
+              "endpreis": "62.621,98",
+              "kaufpreis": "60.826,98",
+              "ersparnis": "9.918,52 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "58.324,60",
-              "kaufpreis": "56.235,60",
-              "ersparnis": "14.509,90 (20,51)",
+              "motorId": "2576",
+              "tariffId": "99",
+              "endpreis": "62.621,98",
+              "kaufpreis": "60.826,98",
+              "ersparnis": "9.918,52 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2577",
+              "tariffId": "101",
+              "endpreis": "59.601,49",
+              "kaufpreis": "57.716,49",
+              "ersparnis": "13.981,01 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "59.081,34",
-              "kaufpreis": "56.992,34",
-              "ersparnis": "14.705,16 (20,51)",
+              "motorId": "2577",
+              "tariffId": "100",
+              "endpreis": "63.440,51",
+              "kaufpreis": "61.645,51",
+              "ersparnis": "10.051,99 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "59.081,34",
-              "kaufpreis": "56.992,34",
-              "ersparnis": "14.705,16 (20,51)",
+              "motorId": "2577",
+              "tariffId": "99",
+              "endpreis": "63.440,51",
+              "kaufpreis": "61.645,51",
+              "ersparnis": "10.051,99 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "3652": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "3652",
+              "tariffId": "101",
+              "endpreis": "66.538,59",
+              "kaufpreis": "64.653,59",
+              "ersparnis": "15.671,41 (19,51)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "65.939,34",
-              "kaufpreis": "63.850,34",
-              "ersparnis": "16.474,66 (20,51)",
+              "motorId": "3652",
+              "tariffId": "100",
+              "endpreis": "70.858,44",
+              "kaufpreis": "69.063,44",
+              "ersparnis": "11.261,57 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "65.939,34",
-              "kaufpreis": "63.850,34",
-              "ersparnis": "16.474,66 (20,51)",
+              "motorId": "3652",
+              "tariffId": "99",
+              "endpreis": "70.858,44",
+              "kaufpreis": "69.063,44",
+              "ersparnis": "11.261,57 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -12271,140 +13007,236 @@
       }
     },
     "1120": {
-      "fetchedAt": "2026-09-07T10:13:54.870Z",
+      "fetchedAt": "2026-10-28T11:17:12.193Z",
       "data": {
         "byMotor": {
           "2101": {
-            "endpreis": "42.117,33",
-            "kaufpreis": "40.028,33",
-            "ersparnis": "10.963,17 (21,50)",
+            "motorId": "2101",
+            "tariffId": "99",
+            "endpreis": "44.882,82",
+            "kaufpreis": "43.087,82",
+            "ersparnis": "7.903,68 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2107": {
-            "endpreis": "43.051,48",
-            "kaufpreis": "40.962,48",
-            "ersparnis": "11.219,02 (21,50)",
+            "motorId": "2107",
+            "tariffId": "99",
+            "endpreis": "45.888,37",
+            "kaufpreis": "44.093,37",
+            "ersparnis": "8.088,13 (15,50)",
             "lieferzeit": "herstellerüblich"
           },
           "2113": {
-            "endpreis": "43.770,87",
-            "kaufpreis": "41.681,87",
-            "ersparnis": "13.177,13 (24,02)",
+            "motorId": "2113",
+            "tariffId": "99",
+            "endpreis": "48.414,18",
+            "kaufpreis": "46.619,18",
+            "ersparnis": "8.239,82 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2114": {
-            "endpreis": "44.494,20",
-            "kaufpreis": "42.405,20",
-            "ersparnis": "13.405,80 (24,02)",
+            "motorId": "2114",
+            "tariffId": "99",
+            "endpreis": "49.223,19",
+            "kaufpreis": "47.428,19",
+            "ersparnis": "8.382,81 (15,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2576": {
-            "endpreis": "51.135,52",
-            "kaufpreis": "49.046,52",
-            "ersparnis": "12.654,98 (20,51)",
+            "motorId": "2576",
+            "tariffId": "99",
+            "endpreis": "54.845,95",
+            "kaufpreis": "53.050,95",
+            "ersparnis": "8.650,55 (14,02)",
             "lieferzeit": "herstellerüblich"
           },
           "2577": {
-            "endpreis": "51.892,26",
-            "kaufpreis": "49.803,26",
-            "ersparnis": "12.850,24 (20,51)",
+            "motorId": "2577",
+            "tariffId": "99",
+            "endpreis": "55.664,48",
+            "kaufpreis": "53.869,48",
+            "ersparnis": "8.784,02 (14,02)",
             "lieferzeit": "herstellerüblich"
           }
         },
         "offers": {
           "2101": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2101",
+              "tariffId": "101",
+              "endpreis": "39.873,67",
+              "kaufpreis": "37.988,67",
+              "ersparnis": "13.002,83 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "42.117,33",
-              "kaufpreis": "40.028,33",
-              "ersparnis": "10.963,17 (21,50)",
+              "motorId": "2101",
+              "tariffId": "100",
+              "endpreis": "44.882,82",
+              "kaufpreis": "43.087,82",
+              "ersparnis": "7.903,68 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "42.117,33",
-              "kaufpreis": "40.028,33",
-              "ersparnis": "10.963,17 (21,50)",
+              "motorId": "2101",
+              "tariffId": "99",
+              "endpreis": "44.882,82",
+              "kaufpreis": "43.087,82",
+              "ersparnis": "7.903,68 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2107": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2107",
+              "tariffId": "101",
+              "endpreis": "40.760,22",
+              "kaufpreis": "38.875,22",
+              "ersparnis": "13.306,28 (25,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "43.051,48",
-              "kaufpreis": "40.962,48",
-              "ersparnis": "11.219,02 (21,50)",
+              "motorId": "2107",
+              "tariffId": "100",
+              "endpreis": "45.888,37",
+              "kaufpreis": "44.093,37",
+              "ersparnis": "8.088,13 (15,50)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "43.051,48",
-              "kaufpreis": "40.962,48",
-              "ersparnis": "11.219,02 (21,50)",
+              "motorId": "2107",
+              "tariffId": "99",
+              "endpreis": "45.888,37",
+              "kaufpreis": "44.093,37",
+              "ersparnis": "8.088,13 (15,50)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2113": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2113",
+              "tariffId": "101",
+              "endpreis": "43.018,28",
+              "kaufpreis": "41.133,28",
+              "ersparnis": "13.725,72 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "43.770,87",
-              "kaufpreis": "41.681,87",
-              "ersparnis": "13.177,13 (24,02)",
+              "motorId": "2113",
+              "tariffId": "100",
+              "endpreis": "48.414,18",
+              "kaufpreis": "46.619,18",
+              "ersparnis": "8.239,82 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "43.770,87",
-              "kaufpreis": "41.681,87",
-              "ersparnis": "13.177,13 (24,02)",
+              "motorId": "2113",
+              "tariffId": "99",
+              "endpreis": "48.414,18",
+              "kaufpreis": "46.619,18",
+              "ersparnis": "8.239,82 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2114": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2114",
+              "tariffId": "101",
+              "endpreis": "43.732,09",
+              "kaufpreis": "41.847,09",
+              "ersparnis": "13.963,91 (25,02)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "44.494,20",
-              "kaufpreis": "42.405,20",
-              "ersparnis": "13.405,80 (24,02)",
+              "motorId": "2114",
+              "tariffId": "100",
+              "endpreis": "49.223,19",
+              "kaufpreis": "47.428,19",
+              "ersparnis": "8.382,81 (15,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "44.494,20",
-              "kaufpreis": "42.405,20",
-              "ersparnis": "13.405,80 (24,02)",
+              "motorId": "2114",
+              "tariffId": "99",
+              "endpreis": "49.223,19",
+              "kaufpreis": "47.428,19",
+              "ersparnis": "8.382,81 (15,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2576": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2576",
+              "tariffId": "101",
+              "endpreis": "51.554,71",
+              "kaufpreis": "49.669,71",
+              "ersparnis": "12.031,79 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.135,52",
-              "kaufpreis": "49.046,52",
-              "ersparnis": "12.654,98 (20,51)",
+              "motorId": "2576",
+              "tariffId": "100",
+              "endpreis": "54.845,95",
+              "kaufpreis": "53.050,95",
+              "ersparnis": "8.650,55 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.135,52",
-              "kaufpreis": "49.046,52",
-              "ersparnis": "12.654,98 (20,51)",
+              "motorId": "2576",
+              "tariffId": "99",
+              "endpreis": "54.845,95",
+              "kaufpreis": "53.050,95",
+              "ersparnis": "8.650,55 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ],
           "2577": [
             {
+              "tag": "mit Kurzzulassung",
+              "motorId": "2577",
+              "tariffId": "101",
+              "endpreis": "52.321,07",
+              "kaufpreis": "50.436,07",
+              "ersparnis": "12.217,43 (19,50)",
+              "lieferzeit": "herstellerüblich",
+              "conditions": "Bei diesem Angebot profitieren Sie davon, dass das Fahrzeug vorab zugelassen wird, mit einer Haltefrist von 12 Monaten. Das Fahrzeug kann nach Fertigstellung sofort übernommen werden. Sie sind ab Bezahlung uneingeschränkter Eigentümer und erster Nutzer. Geschäftsmodelle mit Haltefrist werden verbreitet angeboten. Sie bringen etwas mehr Rabatt, bieten jedoch alle keinen üblichen Kaufvertrag direkt mit einem Vertragshändler. Die \"E-Auto-Förderung\" kann bei Kurzzulassung nicht in Anspruch genommen werden!"
+            },
+            {
               "tag": "für Geschäftskunden",
-              "endpreis": "51.892,26",
-              "kaufpreis": "49.803,26",
-              "ersparnis": "12.850,24 (20,51)",
+              "motorId": "2577",
+              "tariffId": "100",
+              "endpreis": "55.664,48",
+              "kaufpreis": "53.869,48",
+              "ersparnis": "8.784,02 (14,02)",
               "lieferzeit": "herstellerüblich"
             },
             {
               "tag": "für Privatkunden",
-              "endpreis": "51.892,26",
-              "kaufpreis": "49.803,26",
-              "ersparnis": "12.850,24 (20,51)",
+              "motorId": "2577",
+              "tariffId": "99",
+              "endpreis": "55.664,48",
+              "kaufpreis": "53.869,48",
+              "ersparnis": "8.784,02 (14,02)",
               "lieferzeit": "herstellerüblich"
             }
           ]
@@ -31553,7 +32385,7 @@
       }
     },
     "2686": {
-      "fetchedAt": "2026-10-25T09:45:38.487Z",
+      "fetchedAt": "2026-10-28T11:16:58.662Z",
       "data": {
         "byMotor": {
           "4009": {
@@ -37829,36 +38661,36 @@
       }
     },
     "2988": {
-      "fetchedAt": "2026-10-25T09:45:36.394Z",
+      "fetchedAt": "2026-10-28T11:16:56.598Z",
       "data": {
         "byMotor": {
           "4273": {
             "motorId": "4273",
             "tariffId": "51",
-            "endpreis": "36.577,07",
-            "kaufpreis": "35.785,07",
-            "ersparnis": "6.909,93 (16,18)",
+            "endpreis": "37.217,50",
+            "kaufpreis": "36.425,50",
+            "ersparnis": "6.269,50 (14,68)",
             "lieferzeit": "4-5 Monate"
           }
         },
         "offers": {
           "4273": [
             {
-              "tag": "für Privatkunden",
-              "motorId": "4273",
-              "tariffId": "51",
-              "endpreis": "36.577,07",
-              "kaufpreis": "35.785,07",
-              "ersparnis": "6.909,93 (16,18)",
-              "lieferzeit": "4-5 Monate"
-            },
-            {
               "tag": "für Geschäftskunden",
               "motorId": "4273",
               "tariffId": "52",
-              "endpreis": "36.577,07",
-              "kaufpreis": "35.785,07",
-              "ersparnis": "6.909,93 (16,18)",
+              "endpreis": "37.139,22",
+              "kaufpreis": "36.212,02",
+              "ersparnis": "6.482,98 (15,18)",
+              "lieferzeit": "4-5 Monate"
+            },
+            {
+              "tag": "für Privatkunden",
+              "motorId": "4273",
+              "tariffId": "51",
+              "endpreis": "37.217,50",
+              "kaufpreis": "36.425,50",
+              "ersparnis": "6.269,50 (14,68)",
               "lieferzeit": "4-5 Monate"
             }
           ]
